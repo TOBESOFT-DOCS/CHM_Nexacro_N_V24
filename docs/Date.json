@@ -1,0 +1,4058 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Date 정보를 처리하기 위해 제공되는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 스크립트의 Date 오브젝트에서 toLocaleDateString(), toLocaleString(), toLocaleTimeString () 메소드를 추가로 제공합니다.\n\n- 넥사크로에서 제공하는 Date 오브젝트로 생성 시 \"nexacro\" 를 사용하여야 합니다.\n\n- Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 설정됩니다.\n\n- datatyperule 속성값이 \"2.0\" 일 때 Invalid Value 를 가진 Date 오브젝트를 생성하려면 파라미터로 undefined 를 설정하여야 합니다."
+    },
+    {
+      "id": "u_13",
+      "type": "heading2",
+      "content": "생성자"
+    },
+    {
+      "id": "u_09_0.06103595007771645",
+      "type": "command",
+      "content": "new nexacro.Date( [nYear [, nMonth [, nDay [, nHours [, nMinutes [, nSeconds [,nMillisecond]]]]]]] )"
+    },
+    {
+      "id": "u_10_0.49571817745465463",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>nYear</td><td>Number</td><td><div>네자리 년도(Year)값을 설정합니다.\n\n0부터 99까지의 값을 입력하는 경우 1900 을 더한 값으로 처리됩니다.</div></td></tr><tr><td>nMonth</td><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDay</td><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 설정합니다.</div></td></tr><tr><td>nHours</td><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 설정합니다.\n\n0 은 자정, 23 은 오후 11 시를 의미합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,120,?"
+      }
+    },
+    {
+      "id": "u_10_0.13203871087862962",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object (Valid Value)\nvar objDate1 = new nexacro.Date();\nvar objDate2 = new nexacro.Date( 2000,1,1 );\nvar objDate3 = new nexacro.Date( 2000,1,1,9,0,0,0 );\n\n// Create Object (Invalid Value)\nvar objDate4 = new nexacro.Date( undefined );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "100%"
+      }
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addDate",
+      "type": "heading2",
+      "content": "addDate",
+      "option": {
+        "alias": "Date_addDate"
+      }
+    },
+    {
+      "id": "m_02_addDate",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 날짜(Day)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addDate",
+      "type": "command",
+      "content": "Date.addDate(nDays)"
+    },
+    {
+      "id": "m_07_addDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6922330828837523",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDays</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 날짜(Day) 수를 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 날짜 (Day)수를 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addDate(30);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2622006711650402",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 날짜만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_addDate",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addDate",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_05'>연도와 주로 날짜 구간 계산하기</a>"
+    },
+    {
+      "id": "m_01addHours",
+      "type": "heading2",
+      "content": "addHours",
+      "option": {
+        "alias": "Date_addHours"
+      }
+    },
+    {
+      "id": "m_02_addHours",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 시간(Hour)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addHours",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addHours",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addHours",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addHours",
+      "type": "command",
+      "content": "Date.addHours(nHours)"
+    },
+    {
+      "id": "m_07_addHours",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9391814176672274",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 시간값(Hour)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 시간값(Hour)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addHours(10);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addHours",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07024536002095583",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 시간만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addMilliseconds",
+      "type": "heading2",
+      "content": "addMilliseconds",
+      "option": {
+        "alias": "Date_addMilliseconds"
+      }
+    },
+    {
+      "id": "m_02_addMilliseconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 밀리초(MilliSecond)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addMilliseconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addMilliseconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addMilliseconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addMilliseconds",
+      "type": "command",
+      "content": "Date.addMilliseconds(nMsec)"
+    },
+    {
+      "id": "m_07_addMilliseconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6030299970806213",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMsec</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 밀리초값(MilliSecond)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 밀리초값(MilliSecond)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMilliseconds(80);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addMilliseconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.22625554452810814",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 밀리초만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addMinutes",
+      "type": "heading2",
+      "content": "addMinutes",
+      "option": {
+        "alias": "Date_addMinutes"
+      }
+    },
+    {
+      "id": "m_02_addMinutes",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 분(Minutes)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addMinutes",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addMinutes",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addMinutes",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addMinutes",
+      "type": "command",
+      "content": "Date.addMinutes(nMinutes)"
+    },
+    {
+      "id": "m_07_addMinutes",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.18325587948811106",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 분값(Minutes)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 분값(Minutes)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMinutes(5);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addMinutes",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3908553518919461",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 분(Minutes)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addMonth",
+      "type": "heading2",
+      "content": "addMonth",
+      "option": {
+        "alias": "Date_addMonth"
+      }
+    },
+    {
+      "id": "m_02_addMonth",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 월(Month)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addMonth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addMonth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addMonth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addMonth",
+      "type": "command",
+      "content": "Date.addMonth(nMonths)"
+    },
+    {
+      "id": "m_07_addMonth",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4607457841154262",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonths</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 월값(Month)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 월값(Month)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMonth(3);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addMonth",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8434543292203076",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 월(Month)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addSeconds",
+      "type": "heading2",
+      "content": "addSeconds",
+      "option": {
+        "alias": "Date_addSeconds"
+      }
+    },
+    {
+      "id": "m_02_addSeconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 초(Second)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addSeconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addSeconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addSeconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addSeconds",
+      "type": "command",
+      "content": "Date.addSeconds(nSeconds)"
+    },
+    {
+      "id": "m_07_addSeconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.45874712438035503",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 초값(Second)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 초값(Second)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addSeconds(30);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addSeconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9027349294605358",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 초(Second)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addYear",
+      "type": "heading2",
+      "content": "addYear",
+      "option": {
+        "alias": "Date_addYear"
+      }
+    },
+    {
+      "id": "m_02_addYear",
+      "type": "pre",
+      "content": "Date 오브젝트에 지정된 년도(Year)만큼 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addYear",
+      "type": "command",
+      "content": "Date.addYear(nYears)"
+    },
+    {
+      "id": "m_07_addYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.01452091377055964",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 년수값(Year)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 년수값(Year)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addYear(3);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.45913261638565583",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 년수(Year)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getDate",
+      "type": "heading2",
+      "content": "getDate",
+      "option": {
+        "alias": "Date_getDate"
+      }
+    },
+    {
+      "id": "m_02_getDate",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 날짜(Day)를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getDate",
+      "type": "command",
+      "content": "Date.getDate()"
+    },
+    {
+      "id": "m_07_getDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.28433952263323115",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getDate());"
+    },
+    {
+      "id": "m_08_getDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8520129219629088",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getDate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getDate",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 날짜(Day)값을 가져오려고 하면 getUTCDate() 메소드를 사용해야 합니다."
+    },
+    {
+      "id": "m_11_getDate",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getDate",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_02'>오늘 날짜 구하기</a>"
+    },
+    {
+      "id": "m_01getDay",
+      "type": "heading2",
+      "content": "getDay",
+      "option": {
+        "alias": "Date_getDay"
+      }
+    },
+    {
+      "id": "m_02_getDay",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 요일를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getDay",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getDay",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getDay",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getDay",
+      "type": "command",
+      "content": "Date.getDay()"
+    },
+    {
+      "id": "m_07_getDay",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7520237373756636",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getDay());"
+    },
+    {
+      "id": "m_08_getDay",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.33240136928214215",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (일요일) 부터 6 (토요일) 사이의 요일 코드값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getDay",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getDay",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 요일값을 가져오려고 하면 getUTCDay() 메소드를 사용해야 합니다.\n\n- getDay() 메소드에서 반환되는 요일의 코드값은 아래와 같습니다.\n   0 :일요일, 1 :월요일, 2 :화요일, 3 :수요일, 4 :목요일, 5 :금요일:, 6 :토요일"
+    },
+    {
+      "id": "m_11_getDay",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getDay",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_05'>연도와 주로 날짜 구간 계산하기</a>"
+    },
+    {
+      "id": "m_01getFullYear",
+      "type": "heading2",
+      "content": "getFullYear",
+      "option": {
+        "alias": "Date_getFullYear"
+      }
+    },
+    {
+      "id": "m_02_getFullYear",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 네자리 년도(Year)를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getFullYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getFullYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getFullYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getFullYear",
+      "type": "command",
+      "content": "Date.getFullYear()"
+    },
+    {
+      "id": "m_07_getFullYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.458625342680134",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getFullYear());"
+    },
+    {
+      "id": "m_08_getFullYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.516788787918107",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>네자리 년도(Year)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getFullYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getFullYear",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 년도(Year)값을 가져오려고 하면 getUTCFullYear() 메소드를 사용해야 합니다.\n\n- getFullYear() 메소드는 년도를 네자리로 반환합니다.\n   getFullYear() 메소드를 사용하면 2000년대 년도와 1900년대 년도의 혼동을 피할 수 있습니다."
+    },
+    {
+      "id": "m_11_getFullYear",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getFullYear",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_02'>오늘 날짜 구하기</a>"
+    },
+    {
+      "id": "m_01getHours",
+      "type": "heading2",
+      "content": "getHours",
+      "option": {
+        "alias": "Date_getHours"
+      }
+    },
+    {
+      "id": "m_02_getHours",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 시(Hour)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getHours",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getHours",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getHours",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getHours",
+      "type": "command",
+      "content": "Date.getHours()"
+    },
+    {
+      "id": "m_07_getHours",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.9537304635927489",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getHours());"
+    },
+    {
+      "id": "m_08_getHours",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.967393861856864",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getHours",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getHours",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 시(Hour)값을 가져오려고 하면 getUTCHours () 메소드를 사용해야 합니다.\n\n- getHours() 메소드는 자정을 기준으로 0 부터 23 까지의 정수로 시간값을 반환합니다.\n   메소드의 반환값이 0 일때는 오전 1시 이전이거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getMilliseconds",
+      "type": "heading2",
+      "content": "getMilliseconds",
+      "option": {
+        "alias": "Date_getMilliseconds"
+      }
+    },
+    {
+      "id": "m_02_getMilliseconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 밀리초(MilliSecond)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getMilliseconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getMilliseconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getMilliseconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getMilliseconds",
+      "type": "command",
+      "content": "Date.getMilliseconds()"
+    },
+    {
+      "id": "m_07_getMilliseconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.13864191934241565",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMilliseconds());"
+    },
+    {
+      "id": "m_08_getMilliseconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6064735149007889",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getMilliseconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getMilliseconds",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 밀리초(MilliSecon)값을 가져오려고 하면 getUTCMilliseconds() 메소드를 사용해야 합니다."
+    },
+    {
+      "id": "m_01getMinutes",
+      "type": "heading2",
+      "content": "getMinutes",
+      "option": {
+        "alias": "Date_getMinutes"
+      }
+    },
+    {
+      "id": "m_02_getMinutes",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 분(Minute)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getMinutes",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getMinutes",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getMinutes",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getMinutes",
+      "type": "command",
+      "content": "Date.getMinutes()"
+    },
+    {
+      "id": "m_07_getMinutes",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.3156237426459322",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMinutes());"
+    },
+    {
+      "id": "m_08_getMinutes",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.10834730357785449",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getMinutes",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getMinutes",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 분(Minute)값을 가져오려고 하면 getUTCMinutes() 메소드를 사용해야 합니다.\n\n- getMinutes() 메소드는 정시를 기점으로 0 부터 59 까지의 정수로 분(Minute)값을 반환합니다.\n   메소드의 반환값이 0 일때는 정각에서 1분이 지나지 않았거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getMonth",
+      "type": "heading2",
+      "content": "getMonth",
+      "option": {
+        "alias": "Date_getMonth"
+      }
+    },
+    {
+      "id": "m_02_getMonth",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 월(Month)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getMonth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getMonth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getMonth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getMonth",
+      "type": "command",
+      "content": "Date.getMonth()"
+    },
+    {
+      "id": "m_07_getMonth",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.346472830571821",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMonth());"
+    },
+    {
+      "id": "m_08_getMonth",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.798488748616446",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getMonth",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getMonth",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 월(Month)값을 가져오려고 하면 getUTCMonth() 메소드를 사용해야 합니다.\n\n- getMonth() 메소드는 실제 사용하는 월(Month)값보다 1 작은 값을 반환합니다.\n   예를 들어 1월의 경우 0 을 반환합니다."
+    },
+    {
+      "id": "m_11_getMonth",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getMonth",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_02'>오늘 날짜 구하기</a>"
+    },
+    {
+      "id": "m_01getSeconds",
+      "type": "heading2",
+      "content": "getSeconds",
+      "option": {
+        "alias": "Date_getSeconds"
+      }
+    },
+    {
+      "id": "m_02_getSeconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 초(Second)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getSeconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getSeconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getSeconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getSeconds",
+      "type": "command",
+      "content": "Date.getSeconds()"
+    },
+    {
+      "id": "m_07_getSeconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2729028952818746",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getSeconds());"
+    },
+    {
+      "id": "m_08_getSeconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5257758215156749",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getSeconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getSeconds",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 초(Second)값을 가져오려고 하면 getUTCSeconds() 메소드를 사용해야 합니다.\n\n- getSeconds() 메소드는 정시를 기점으로 0부터 59까지의 정수로 시간 값을 반환합니다.\n   메소드의 반환값이 0 일때는 1초가 지나지 않았거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getTime",
+      "type": "heading2",
+      "content": "getTime",
+      "option": {
+        "alias": "Date_getTime"
+      }
+    },
+    {
+      "id": "m_02_getTime",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값을 밀리초(MilliSecond)값으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getTime",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getTime",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getTime",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getTime",
+      "type": "command",
+      "content": "Date.getTime()"
+    },
+    {
+      "id": "m_07_getTime",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.3765665863803489",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getTime());"
+    },
+    {
+      "id": "m_08_getTime",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9899883526359761",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getTime",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getTime",
+      "type": "pre",
+      "content": "- getTime() 메소드가 처리할 수 있는 날짜 범위는 1970년 1월 1일 자정을 전후로 약 285,616년입니다.\n   음수는 해당 날짜가 1970년 이전임을 나타냅니다.\n\n- 날짜와 시간을 여러 번 계산할 때는 밀리초 값에 해당하는 변수를 아래 예제와 같이 일, 시, 분으로 정의하는 것이 좋습니다."
+    },
+    {
+      "id": "m_11_getTime",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getTime",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_04'>날짜 간 차이 계산하기</a>"
+    },
+    {
+      "id": "m_01getTimezoneOffset",
+      "type": "heading2",
+      "content": "getTimezoneOffset",
+      "option": {
+        "alias": "Date_getTimezoneOffset"
+      }
+    },
+    {
+      "id": "m_02_getTimezoneOffset",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값과 UTC(협정세계시) 사이의 시간차를 분(Minute)값으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getTimezoneOffset",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getTimezoneOffset",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getTimezoneOffset",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getTimezoneOffset",
+      "type": "command",
+      "content": "Date.getTimezoneOffset()"
+    },
+    {
+      "id": "m_07_getTimezoneOffset",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2656109897606215",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getTimezoneOffset());"
+    },
+    {
+      "id": "m_08_getTimezoneOffset",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3139626549914646",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 값과 UTC(협정세계시) 사이의 시간차를 분(Minute)값으로 반환합니다.\n\nDate 오브젝트에 저장된 값이 태평양 일광 절약 시간(PDT)처럼 UTC보다 느리면 양수가 되고 한국이나 일본처럼 UTC보다 빠르면 음수가 됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_getTimezoneOffset",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getTimezoneOffset",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_grid_80'>세계 시간 표시하기</a>"
+    },
+    {
+      "id": "m_01getUTCDate",
+      "type": "heading2",
+      "content": "getUTCDate",
+      "option": {
+        "alias": "Date_getUTCDate"
+      }
+    },
+    {
+      "id": "m_02_getUTCDate",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 날짜(Day)를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCDate",
+      "type": "command",
+      "content": "Date.getUTCDate()"
+    },
+    {
+      "id": "m_07_getUTCDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7106143112835861",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCDate());"
+    },
+    {
+      "id": "m_08_getUTCDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.21932637994532123",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCDate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCDate",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 값을 기준으로 날짜(Day)값을 가져오려고 하면 getDate() 메소드를 사용해야 합니다."
+    },
+    {
+      "id": "m_01getUTCDay",
+      "type": "heading2",
+      "content": "getUTCDay",
+      "option": {
+        "alias": "Date_getUTCDay"
+      }
+    },
+    {
+      "id": "m_02_getUTCDay",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 요일를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCDay",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCDay",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCDay",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCDay",
+      "type": "command",
+      "content": "Date.getUTCDay()"
+    },
+    {
+      "id": "m_07_getUTCDay",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.17684662810576768",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCDay());"
+    },
+    {
+      "id": "m_08_getUTCDay",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.34307999041501847",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (일요일) 부터 6 (토요일) 사이의 요일 코드값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCDay",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCDay",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 값을 기준으로 요일값을 가져오려고 하면 getDay() 메소드를 사용해야 합니다.\n\n- getUTCDay() 메소드에서 반환되는 요일의 코드값은 아래와 같습니다.\n   0 :일요일, 1 :월요일, 2 :화요일, 3 :수요일, 4 :목요일, 5 :금요일, 6 :토요일"
+    },
+    {
+      "id": "m_01getUTCFullYear",
+      "type": "heading2",
+      "content": "getUTCFullYear",
+      "option": {
+        "alias": "Date_getUTCFullYear"
+      }
+    },
+    {
+      "id": "m_02_getUTCFullYear",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 네자리 년도(Year)를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCFullYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCFullYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCFullYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCFullYear",
+      "type": "command",
+      "content": "Date.getUTCFullYear()"
+    },
+    {
+      "id": "m_07_getUTCFullYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.21630837615609777",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCFullYear());"
+    },
+    {
+      "id": "m_08_getUTCFullYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3929463170128372",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>네자리 년도(Year)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCFullYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCFullYear",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 값을 기준으로 년도(Year)값을 가져오려고 하면 getFullYear() 메소드를 사용해야 합니다.\n\n- getUTCFullYear() 메소드는 년도를 네자리로 반환합니다.\n   getUTCFullYear() 메소드를 사용하면 2000년대 년도와 1900년대 년도의 혼동을 피할 수 있습니다."
+    },
+    {
+      "id": "m_01getUTCHours",
+      "type": "heading2",
+      "content": "getUTCHours",
+      "option": {
+        "alias": "Date_getUTCHours"
+      }
+    },
+    {
+      "id": "m_02_getUTCHours",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 시(Hour)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCHours",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCHours",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCHours",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCHours",
+      "type": "command",
+      "content": "Date.getUTCHours()"
+    },
+    {
+      "id": "m_07_getUTCHours",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5246824310088954",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCHours());"
+    },
+    {
+      "id": "m_08_getUTCHours",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07213058730657251",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCHours",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCHours",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 값을 기준으로 시(Hour)값을 가져오려고 하면 getHours() 메소드를 사용해야 합니다.\n\n- getUTCHours() 메소드는 자정을 기준으로 0 부터 23 까지의 정수로 시간값을 반환합니다.\n   메소드의 반환값이 0 일때는 오전 1시 이전이거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getUTCMilliseconds",
+      "type": "heading2",
+      "content": "getUTCMilliseconds",
+      "option": {
+        "alias": "Date_getUTCMilliseconds"
+      }
+    },
+    {
+      "id": "m_02_getUTCMilliseconds",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 밀리초(MilliSecond)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCMilliseconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCMilliseconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCMilliseconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCMilliseconds",
+      "type": "command",
+      "content": "Date.getUTCMilliseconds()"
+    },
+    {
+      "id": "m_07_getUTCMilliseconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2631803931036566",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMilliseconds());"
+    },
+    {
+      "id": "m_08_getUTCMilliseconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8933507494812022",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getUTCMinutes",
+      "type": "heading2",
+      "content": "getUTCMinutes",
+      "option": {
+        "alias": "Date_getUTCMinutes"
+      }
+    },
+    {
+      "id": "m_02_getUTCMinutes",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 분(Minute)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCMinutes",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCMinutes",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCMinutes",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCMinutes",
+      "type": "command",
+      "content": "Date.getUTCMinutes()"
+    },
+    {
+      "id": "m_07_getUTCMinutes",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.9386559137709256",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMinutes());"
+    },
+    {
+      "id": "m_08_getUTCMinutes",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.283413617018891",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCMinutes",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCMinutes",
+      "type": "pre",
+      "content": "- getUTCMinutes() 메소드는 정시를 기점으로 0 부터 59 까지의 정수로 분(Minute)값을 반환합니다.\n   메소드의 반환값이 0 일때는 정각에서 1분이 지나지 않았거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getUTCMonth",
+      "type": "heading2",
+      "content": "getUTCMonth",
+      "option": {
+        "alias": "Date_getUTCMonth"
+      }
+    },
+    {
+      "id": "m_02_getUTCMonth",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 월(Month)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCMonth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCMonth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCMonth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCMonth",
+      "type": "command",
+      "content": "Date.getUTCMonth()"
+    },
+    {
+      "id": "m_07_getUTCMonth",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.03401544709873239",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMonth());"
+    },
+    {
+      "id": "m_08_getUTCMonth",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.11374023302642888",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCMonth",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCMonth",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 값을 기준으로 월(Month)값을 가져오려고 하면 getMonth() 메소드를 사용해야 합니다.\n\n- getUTCMonth() 메소드는 실제 사용하는 월(Month)값보다 1 이 작은 값을 반환합니다.\n   예를 들어 1월의 경우 0 을 반환합니다."
+    },
+    {
+      "id": "m_01getUTCSeconds",
+      "type": "heading2",
+      "content": "getUTCSeconds",
+      "option": {
+        "alias": "Date_getUTCSeconds"
+      }
+    },
+    {
+      "id": "m_02_getUTCSeconds",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 초(Second)값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getUTCSeconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getUTCSeconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getUTCSeconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getUTCSeconds",
+      "type": "command",
+      "content": "Date.getUTCSeconds()"
+    },
+    {
+      "id": "m_07_getUTCSeconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.27153595737526626",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCSeconds());"
+    },
+    {
+      "id": "m_08_getUTCSeconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7860178856670702",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getUTCSeconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getUTCSeconds",
+      "type": "pre",
+      "content": "- getUTCSeconds 메소드는 정시를 기점으로 0부터 59까지의 정수로 시간 값을 반환합니다.\n   메소드의 반환값이 0 일때는 1초가 지나지 않았거나 Date 오브젝트를 생성할 때 시간을 지정하지 않은 경우입니다.\n   Date 오브젝트를 생성할 때 시간을 지정하지 않으면 시,분,초 값이 모두 0 으로 출력됩니다."
+    },
+    {
+      "id": "m_01getYear",
+      "type": "heading2",
+      "content": "getYear",
+      "option": {
+        "alias": "Date_getYear"
+      }
+    },
+    {
+      "id": "m_02_getYear",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 년도(Year)를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getYear",
+      "type": "command",
+      "content": "Date.getYear()"
+    },
+    {
+      "id": "m_07_getYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.355409211954562",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getYear());"
+    },
+    {
+      "id": "m_08_getYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5797641693676725",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1900년에서 1999년까지의 날짜는 두자리 년도(Year)값을 반환합니다.\n이 기간 외의 날짜는 네자리 년도(Year)값을 반환합니다.\n\n예를 들어, 1996년은 96으로 반환하고 1825년이나 2025년은 네자리 그대로 반환됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getYear",
+      "type": "pre",
+      "content": "- getYear() 메소드는 이전 버전과의 호환성을 유지하기 위해서만 사용합니다.\n   년도값을 가져오려면 getFullYear() 메소드를 사용하시기 바랍니다."
+    },
+    {
+      "id": "m_01parse",
+      "type": "heading2",
+      "content": "parse",
+      "option": {
+        "alias": "Date_parse"
+      }
+    },
+    {
+      "id": "m_02_parse",
+      "type": "pre",
+      "content": "날짜가 포함된 문자열을 분석해 1970년 1월 1일 자정부터 해당 날짜 사이의 시간을 밀리초로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_parse",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_parse",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_parse",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_parse",
+      "type": "command",
+      "content": "Date.parse(strDate)"
+    },
+    {
+      "id": "m_07_parse",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9043284415973527",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDate</td><td>String</td><td colspan=\"2\"><div>날짜 형식의 문자열을 설정합니다.\n\n유효하지 않은 날짜형식의 문자열은 오류로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.parse(\"2021-06-29T11:00:00.000Z\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_parse",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.22693934848779618",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정과 지정된 날짜 사이의 시간을 밀리초(MilliSecond)로 반환합니다.\n\n유효하지 않은 날짜형식으로 오류로 처리되면 NaN을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_parse",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_parse",
+      "type": "pre",
+      "content": "- 메소드에 사용하는 문자열은 ISO 8601 날짜 형식 또는 RFC2822 / IETF 날짜 형식을 따릅니다.\n\n  * ECMA 표준 \n    [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15]\n  * ISO 8601 날짜형식 : YYYY-MM-DD'T'hh:mm:ss.sss'Z' \n    [http://www.iso.org/iso/home/standards/iso8601.htm]\n  * RFC2822 / IETF 날짜형식 : 'May 21, 2012', 'Mon, 21 May 2012 03:20:00 +0900'\n    [https://datatracker.ietf.org/doc/html/rfc2822#page-14]\n  * Mozilla 웹브라우저 지원 형식\n    [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse]\n\n\n◆ WRE 제약\n\n- ECMA5 표준에서는 ISO 8601 날짜 형식을 따르도록 명시되어 있습니다. \n  하지만 이전 ECMA 표준에서는 Date 표준 내장 객체의 toString 메소드 실행 결과를 해석하는 것으로 명시되어 있어 브라우저에 따라 동작이 다를 수 있으며 오류가 발생할 수 있습니다.\n\n- 브라우저에 상관없이 같은 결과를 얻기 위해서는 아래 날짜 형식 문자열을 사용해야 합니다.\n  YYYY-MM-DD (ISO 8601 날짜 형식, 예: 2021-06-29)\n  YYYY-MM-DD'T'hh:mm:ss.sss'Z' (ISO 8601 조합된 UTC 날짜 및 시간, 예: 2021-06-29T11:00:00.000Z)\n  MMM DD, YYYY (예: May 21, 2012)\n  EEE, DD MMM YYYY hh:mm:ss Z (예: Mon, 21 May 2012 03:20:00 +0900)\n  EEE, DD MMM YYYY hh:mm:ss z (예: Wed, 09 Aug 1995 00:00:00 GMT)\n  EEE, DD MMM YYYY hh:mm:ss (예: Wed, 09 Aug 1995 00:00:00)"
+    },
+    {
+      "id": "m_01setDate",
+      "type": "heading2",
+      "content": "setDate",
+      "option": {
+        "alias": "Date_setDate"
+      }
+    },
+    {
+      "id": "m_02_setDate",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 날짜(Day)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setDate",
+      "type": "command",
+      "content": "Date.setDate(nDate)"
+    },
+    {
+      "id": "m_07_setDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.08375883588933142",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDate </td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)를 숫자로 설정합니다.\n\n현재 달(Month)의 마지막 날짜(Day) 보다 큰 수를 설정하면 다음달로 전체 날짜값이 변경됩니다.\n0 을 설정하면 이전 달의 마지막 날로 전체 날짜값이 변경됩니다.\n음수를 설정하면 이전 달의 마지막 날부터 날짜(Day)를 거꾸로 계산하여 전체 날짜값이 변경됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntraceobjDate.setDate(28));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.011232716384311558",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 변경된 날짜까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setDate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setDate",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 날짜(Day)을 변경하려면 setUTCDate() 메소드를 사용해야 합니다.\n\n- nDate에 지정된 날짜가 해당 월에 적용할 수 있는 날짜보다 크면 다음월 또는 다음년도로 처리됩니다.\n   예를 들어 \"January 5, 1996\"에서 setDate(32)를 호출하는 경우에는 날짜가 \"February 1, 1996\"로 변경됩니다.\n   반대로 nDate의 값이 음수인 경우에는 이전월 또는 이전년도로 처리됩니다.\n   예를 들어 \"January 5, 1996\"에서 setDate(-32)를 호출하는 경우에는 날짜가 \"November 29, 1995\"로 변경됩니다."
+    },
+    {
+      "id": "m_01setFullYear",
+      "type": "heading2",
+      "content": "setFullYear",
+      "option": {
+        "alias": "Date_setFullYear"
+      }
+    },
+    {
+      "id": "m_02_setFullYear",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 년도(Year) 또는 전체 날짜를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setFullYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setFullYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setFullYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setFullYear",
+      "type": "command",
+      "content": "Date.setFullYear(nYear[, nMonth[, nDate]])"
+    },
+    {
+      "id": "m_07_setFullYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3199823447051907",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYear </td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td>nMonth </td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.\n\n값을 설정하지 않으면 월(Month)을 변경하지 않습니다.</div></td></tr><tr><td>nDate </td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setFullYear(2009));\ntrace(objDate.setFullYear(2009,3,1));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setFullYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7991741854142759",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setFullYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setFullYear",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 년도(Year)을 변경하려면 setUTCFullYear() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정될 수 있습니다."
+    },
+    {
+      "id": "m_01setHours",
+      "type": "heading2",
+      "content": "setHours",
+      "option": {
+        "alias": "Date_setHours"
+      }
+    },
+    {
+      "id": "m_02_setHours",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 시(Hour) 또는 전체 시간를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setHours",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setHours",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setHours",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setHours",
+      "type": "command",
+      "content": "Date.setHours(nHours[, nMinutes[, nSeconds[, nMillisecond]]])"
+    },
+    {
+      "id": "m_07_setHours",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5172084858031908",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours </td><td>Number</td><td colspan=\"2\"><div>변경시킬 시(Hour)값을 설정합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.\n\n값을 설정하지 않으면 분(Minute)을 변경하지 않습니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setHours( 13 ));\ntrace(objDate.setHours( 13, 24 ));\ntrace(objDate.setHours( 13, 59, 59, 999 ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setHours",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4284215905601464",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setHours",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setHours",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 시(Hour)를 변경하려면 setUTCHours() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정될 수 있습니다.\n   예를 들어 저장된 날짜가 \"Jan 5, 1996 00:00:00\"이고 setHours(30)을 실행하면 \"Jan 6, 1996 06:00:00\" 로 변경됩니다.\n   음수값도 같은 방법으로 처리됩니다."
+    },
+    {
+      "id": "m_01setMilliseconds",
+      "type": "heading2",
+      "content": "setMilliseconds",
+      "option": {
+        "alias": "Date_setMilliseconds"
+      }
+    },
+    {
+      "id": "m_02_setMilliseconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 밀리초(MilliSecond)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setMilliseconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setMilliseconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setMilliseconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setMilliseconds",
+      "type": "command",
+      "content": "Date.setMilliseconds(nMilliSecond)"
+    },
+    {
+      "id": "m_07_setMilliseconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1489854187023969",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMilliSecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMilliseconds(568));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setMilliseconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6812628347510675",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setMilliseconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setMilliseconds",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 밀리초(MilliSecond)를 변경하려면 setUTCMilliseconds() 메소드를 사용해야 합니다.\n\n- 인수값이 999보다 크거나 음수이면 이에 따라 저장된 다른 값들이 수정됩니다."
+    },
+    {
+      "id": "m_01setMinutes",
+      "type": "heading2",
+      "content": "setMinutes",
+      "option": {
+        "alias": "Date_setMinutes"
+      }
+    },
+    {
+      "id": "m_02_setMinutes",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 분(Minute)을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setMinutes",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setMinutes",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setMinutes",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setMinutes",
+      "type": "command",
+      "content": "Date.setMinutes(nMinutes[, nSeconds[, nMillisecond]])"
+    },
+    {
+      "id": "m_07_setMinutes",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8281504535251296",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes </td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds </td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMinutes( 49 ));\ntrace(objDate.setMinutes( 49, 59 ));\ntrace(objDate.setMinutes( 49, 59, 999 ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setMinutes",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.0727557129086227",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setMinutes",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setMinutes",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 분(Minute)을 변경하려면 setUTCMinutes() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정됩니다.\n   예를 들어 저장된 날짜가 \"Jan 5, 1996 00:00:00\"이고 setMinutes(90)가 호출되면 날짜는 \"Jan 5, 1996 01:30:00\"로 바뀝니다.\n   음수값도 같은 방법으로 처리됩니다."
+    },
+    {
+      "id": "m_01setMonth",
+      "type": "heading2",
+      "content": "setMonth",
+      "option": {
+        "alias": "Date_setMonth"
+      }
+    },
+    {
+      "id": "m_02_setMonth",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 월(Month)을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setMonth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setMonth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setMonth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setMonth",
+      "type": "command",
+      "content": "Date.setMonth(nMonth[, nDate])"
+    },
+    {
+      "id": "m_07_setMonth",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.49339557245558874",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMonth( 3 ));\ntrace(objDate.setMonth( 3, 15 ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setMonth",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.31474325961353977",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setMonth",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setMonth",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 월(Month)을 변경하려면 setUTCMonth() 메소드를 사용해야 합니다.\n\n- nMonth 의 값이 11보다 크거나(1월이 0) 음수이면 이에 따라 저장된 다른 값들도 변경됩니다.\n   예를 들어, 저장된 날짜가 \"Jan 5, 1996\"이고 setMonth(14) 가 실행되면 날짜는 \"Mar 5, 1997\" 로 변경됩니다."
+    },
+    {
+      "id": "m_01setSeconds",
+      "type": "heading2",
+      "content": "setSeconds",
+      "option": {
+        "alias": "Date_setSeconds"
+      }
+    },
+    {
+      "id": "m_02_setSeconds",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 초(Second)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setSeconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setSeconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setSeconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setSeconds",
+      "type": "command",
+      "content": "Date.setSeconds(nSeconds[, nMillisecond])"
+    },
+    {
+      "id": "m_07_setSeconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.17668583727268017",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setSeconds( 59 ));\ntrace(objDate.setSeconds( 59, 456 ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setSeconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2815805570164477",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setSeconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setSeconds",
+      "type": "pre",
+      "content": "- UTC(협정세계시)를 기준으로 초(Second)를 변경하려면 setUTCSeconds() 메소드를 사용해야 합니다.\n\n- 인수의 값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들도 변경됩니다.\n   예를 들어, 저장된 날짜가 \"Jan 5, 1996 00:00:00\" 이고 setSeconds(150) 가 실행되면 날짜는 \"Jan 5, 1996 00:02:30\" 로 변경됩니다."
+    },
+    {
+      "id": "m_01setTime",
+      "type": "heading2",
+      "content": "setTime",
+      "option": {
+        "alias": "Date_setTime"
+      }
+    },
+    {
+      "id": "m_02_setTime",
+      "type": "pre",
+      "content": "Date 오브젝트에 날짜와 시간을 밀리초(MilliSecond)값으로 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setTime",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setTime",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setTime",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setTime",
+      "type": "command",
+      "content": "Date.setTime(nMs)"
+    },
+    {
+      "id": "m_07_setTime",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5390873354723742",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMs</td><td>Number</td><td colspan=\"2\"><div>1970년 1월 1일 자정부터 설정할 날짜까지의 시간을 밀리초(MilliSecond)값으로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\nvar nMs = objDate.setTime(199);   // 1 January 1970</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setTime",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.49468847648900327",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setTime",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setTime",
+      "type": "pre",
+      "content": "- setTime() 메소드가 처리할 수 있는 날짜 범위는 1970년 1월 1일 자정을 전후로 약 285,616년입니다.\n   음수는 해당 날짜가 1970년 이전임을 나타냅니다."
+    },
+    {
+      "id": "m_01setUTCDate",
+      "type": "heading2",
+      "content": "setUTCDate",
+      "option": {
+        "alias": "Date_setUTCDate"
+      }
+    },
+    {
+      "id": "m_02_setUTCDate",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 날짜(Day)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCDate",
+      "type": "command",
+      "content": "Date.setUTCDate(nDate)"
+    },
+    {
+      "id": "m_07_setUTCDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6888549524768336",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCDate(31));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8917102843425245",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCDate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCDate",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 날짜(Day)을 변경하려면 setDate() 메소드를 사용해야 합니다.\n\n- nDate에 지정된 날짜가 해당 월에 적용할 수 있는 날짜보다 크면 다음월 또는 다음년도로 처리됩니다.\n   예를 들어 \"January 5, 1996\"에서 setUTCDate(32)를 호출하는 경우에는 날짜가 \"February 1, 1996\"로 변경됩니다.\n   반대로 nDate의 값이 음수인 경우에는 이전월 또는 이전년도로 처리됩니다.\n   예를 들어 \"January 5, 1996\"에서 setUTCDate(-32)를 호출하는 경우에는 날짜가 \"November 29, 1995\"로 변경됩니다."
+    },
+    {
+      "id": "m_01setUTCFullYear",
+      "type": "heading2",
+      "content": "setUTCFullYear",
+      "option": {
+        "alias": "Date_setUTCFullYear"
+      }
+    },
+    {
+      "id": "m_02_setUTCFullYear",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 년도(Year) 또는 전체 날짜를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCFullYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCFullYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCFullYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCFullYear",
+      "type": "command",
+      "content": "Date.setUTCFullYear(nYears[, nMonths[, nDate]])"
+    },
+    {
+      "id": "m_07_setUTCFullYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8245583727161595",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td>nMonths</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.\n\n값을 설정하지 않으면 월(Month)을 변경하지 않습니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCFullYear(2009));\ntrace(objDate.setUTCFullYear(2009, 3, 15));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCFullYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9464823258558148",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCFullYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCFullYear",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 날짜(Day)을 변경하려면 setFullYear() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정될 수 있습니다."
+    },
+    {
+      "id": "m_01setUTCHours",
+      "type": "heading2",
+      "content": "setUTCHours",
+      "option": {
+        "alias": "Date_setUTCHours"
+      }
+    },
+    {
+      "id": "m_02_setUTCHours",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 시(Hour) 또는 전체 시간를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCHours",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCHours",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCHours",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCHours",
+      "type": "command",
+      "content": "Date.setUTCHours(nHours[, nMinutes[, nSeconds[, nMillisecond]]])"
+    },
+    {
+      "id": "m_07_setUTCHours",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.07356736152291299",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>변경시킬 시(Hour)값을 설정합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.\n\n값을 설정하지 않으면 분(Minute)을 변경하지 않습니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCHours(23));\ntrace(objDate.setUTCHours(23, 59));\ntrace(objDate.setUTCHours(23, 59, 59));\ntrace(objDate.setUTCHours(23, 59, 59, 999));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCHours",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.20891163619732167",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCHours",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCHours",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 시(Hour)를 변경하려면 setHours() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정될 수 있습니다.\n   예를 들어 저장된 날짜가 \"Jan 5, 1996 00:00:00\"이고 setUTCHours(30)을 실행하면 \"Jan 6, 1996 06:00:00\" 로 변경됩니다.\n   음수값도 같은 방법으로 처리됩니다."
+    },
+    {
+      "id": "m_01setUTCMilliseconds",
+      "type": "heading2",
+      "content": "setUTCMilliseconds",
+      "option": {
+        "alias": "Date_setUTCMilliseconds"
+      }
+    },
+    {
+      "id": "m_02_setUTCMilliseconds",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 밀리초(MilliSecond)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCMilliseconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCMilliseconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCMilliseconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCMilliseconds",
+      "type": "command",
+      "content": "Date.setUTCMilliseconds(nMs)"
+    },
+    {
+      "id": "m_07_setUTCMilliseconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6337632294062773",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMs</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMilliseconds(999));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCMilliseconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5298079819460143",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCMilliseconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCMilliseconds",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 밀리초(MilliSecond)를 변경하려면 setMilliseconds() 메소드를 사용해야 합니다.\n\n- 인수값이 999보다 크거나 음수이면 이에 따라 저장된 다른 값들이 수정됩니다."
+    },
+    {
+      "id": "m_01setUTCMinutes",
+      "type": "heading2",
+      "content": "setUTCMinutes",
+      "option": {
+        "alias": "Date_setUTCMinutes"
+      }
+    },
+    {
+      "id": "m_02_setUTCMinutes",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 분(Minute)을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCMinutes",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCMinutes",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCMinutes",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCMinutes",
+      "type": "command",
+      "content": "Date.setUTCMinutes(nMinutes[, nSeconds[, nMillisecond]])"
+    },
+    {
+      "id": "m_07_setUTCMinutes",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.30391493695151095",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMinutes(59));\ntrace(objDate.setUTCMinutes(59,59));\ntrace(objDate.setUTCMinutes(59,59,999));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCMinutes",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1264691269781626",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCMinutes",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCMinutes",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 분(Minute)을 변경하려면 setMinutes() 메소드를 사용해야 합니다.\n\n- 인수값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들이 수정됩니다.\n   예를 들어 저장된 날짜가 \"Jan 5, 1996 00:00:00\" 이고 setUTCMinutes(70)가 호출되면 날짜는 \"Jan 5, 1996 01:10:00\" 로 바뀝니다.\n   음수값도 같은 방법으로 처리됩니다."
+    },
+    {
+      "id": "m_01setUTCMonth",
+      "type": "heading2",
+      "content": "setUTCMonth",
+      "option": {
+        "alias": "Date_setUTCMonth"
+      }
+    },
+    {
+      "id": "m_02_setUTCMonth",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 월(Month)을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCMonth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCMonth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCMonth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCMonth",
+      "type": "command",
+      "content": "Date.setUTCMonth(nMonth[, nDate])"
+    },
+    {
+      "id": "m_07_setUTCMonth",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4891486662567027",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMonth(11));\ntrace(objDate.setUTCMonth(11,31));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCMonth",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5599543205780729",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCMonth",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCMonth",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 월(Month)을 변경하려면 setMonth() 메소드를 사용해야 합니다.\n\n- nMonth 의 값이 11보다 크거나(1월이 0) 음수이면 이에 따라 저장된 다른 값들도 변경됩니다.\n   예를 들어, 저장된 날짜가 \"Jan 5, 1996\"이고 setUTCMonth(14) 가 실행되면 날짜는 \"Mar 5, 1997\" 로 변경됩니다."
+    },
+    {
+      "id": "m_01setUTCSeconds",
+      "type": "heading2",
+      "content": "setUTCSeconds",
+      "option": {
+        "alias": "Date_setUTCSeconds"
+      }
+    },
+    {
+      "id": "m_02_setUTCSeconds",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 값에서 초(Second)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setUTCSeconds",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setUTCSeconds",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setUTCSeconds",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setUTCSeconds",
+      "type": "command",
+      "content": "Date.setUTCSeconds(nSeconds[, nMillisecond])"
+    },
+    {
+      "id": "m_07_setUTCSeconds",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.831826475505623",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCSeconds(59));\ntrace(objDate.setUTCSeconds(59,999));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setUTCSeconds",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1788877188133391",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setUTCSeconds",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setUTCSeconds",
+      "type": "pre",
+      "content": "- 시스템의 로케일을 기준으로 초(Second)를 변경하려면 setSeconds() 메소드를 사용해야 합니다.\n\n- 인수의 값이 범위를 초과하거나 음수이면 이에 따라 저장된 다른 값들도 변경됩니다.\n   예를 들어, 저장된 날짜가 \"Jan 5, 1996 00:00:00\" 이고 setUTCSeconds(150) 가 실행되면 날짜는 \"Jan 5, 1996 00:02:30\" 로 변경됩니다."
+    },
+    {
+      "id": "m_01setYear",
+      "type": "heading2",
+      "content": "setYear",
+      "option": {
+        "alias": "Date_setYear"
+      }
+    },
+    {
+      "id": "m_02_setYear",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 값에서 년도(Year)를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setYear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setYear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setYear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setYear",
+      "type": "command",
+      "content": "Date.setYear(nYears)"
+    },
+    {
+      "id": "m_07_setYear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5706887073228178",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setYear(2009));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setYear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3562467569706371",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setYear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setYear",
+      "type": "pre",
+      "content": "- setYear() 메소드는 이전 버전과의 호환성을 유지하기 위해서만 사용합니다.\n   년도값을 변경하려면 setFullYear() 메소드를 사용하시기 바랍니다.\n\n- 1900년에서 1999년까지의 년도를 설정하는 경우에는 두 자리 정수를 지정합니다.\n   예를 들어 1997년을 설정한다면 setYear(97)를 호출합니다.\n   그 외의 날짜는 네 자리 정수를 지정합니다.\n\n- 0년부터 99년 사이의 년도를 설정하려면 setFullYear() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01toDateString",
+      "type": "heading2",
+      "content": "toDateString",
+      "option": {
+        "alias": "Date_toDateString"
+      }
+    },
+    {
+      "id": "m_02_toDateString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 날짜를 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toDateString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toDateString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toDateString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toDateString",
+      "type": "command",
+      "content": "Date.toDateString()"
+    },
+    {
+      "id": "m_07_toDateString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.17249158071350457",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toDateString());"
+    },
+    {
+      "id": "m_08_toDateString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8280231788933948",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toDateString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toDateString",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 시간을 문자열로 변환하려면 toTimeString() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01toGMTString",
+      "type": "heading2",
+      "content": "toGMTString",
+      "option": {
+        "alias": "Date_toGMTString"
+      }
+    },
+    {
+      "id": "m_02_toGMTString",
+      "type": "pre",
+      "content": "GMT(그리니치 표준시)를 기준으로 Date 오브젝트에 저장된 날짜와 시간을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toGMTString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toGMTString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toGMTString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toGMTString",
+      "type": "command",
+      "content": "Date.toGMTString()"
+    },
+    {
+      "id": "m_07_toGMTString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7289805786515786",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toGMTString());"
+    },
+    {
+      "id": "m_08_toGMTString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7106203116693179",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜와 시간을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toGMTString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toGMTString",
+      "type": "pre",
+      "content": "- toGMTString() 메소드는 이전 버전과의 호환성을 유지하기 위해서만 사용합니다.\n   UTC(협정세계시)를 사용하는 toUTCString() 메소드를 사용하시기 바랍니다.\n\n- toGMTString() 메소드는 GMT 규칙을 사용하여 \"Fri 05 Jan 1996 00:00:00 GMT\"와 같이 서식이 적용된 값을 반환합니다."
+    },
+    {
+      "id": "m_01toLocaleDateString",
+      "type": "heading2",
+      "content": "toLocaleDateString",
+      "option": {
+        "alias": "Date_toLocaleDateString"
+      }
+    },
+    {
+      "id": "m_02_toLocaleDateString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 날짜를 특정 로케일 형식의 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toLocaleDateString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toLocaleDateString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toLocaleDateString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toLocaleDateString",
+      "type": "command",
+      "content": "Date.toLocaleDateString( [strLocale] )"
+    },
+    {
+      "id": "m_07_toLocaleDateString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6517676530434527",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleDateString());\ntrace(objDate.toLocaleDateString( \"ko_KR\" ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_toLocaleDateString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7712772894833023",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 날짜를 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toLocaleDateString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toLocaleDateString",
+      "type": "pre",
+      "content": "- 반환값은 시스템 설정에 따라 달라질 수 있으므로 표시용도로만 사용하고 계산식에서는 사용하지 않아야 합니다.\n \n- 지원 가능한 로케일은 운영체제에 따라 달라질 수 있습니다.\n\n- 로케일 코드는 \"Appendix &gt; Locale Code List\" 항목을 참고하세요."
+    },
+    {
+      "id": "m_01toLocaleString",
+      "type": "heading2",
+      "content": "toLocaleString",
+      "option": {
+        "alias": "Date_toLocaleString"
+      }
+    },
+    {
+      "id": "m_02_toLocaleString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 날짜와 시간을 특정 로케일 형식의 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toLocaleString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toLocaleString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toLocaleString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toLocaleString",
+      "type": "command",
+      "content": "Date.toLocaleString( [strLocale] )"
+    },
+    {
+      "id": "m_07_toLocaleString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.46547624780051944",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleString());\ntrace(objDate.toLocaleString( \"ko_KR\" ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_toLocaleString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.33090642643721613",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 날짜와 시간을 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toLocaleString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toLocaleString",
+      "type": "pre",
+      "content": "- 반환값은 시스템 설정에 따라 달라질 수 있으므로 표시용도로만 사용하고 계산식에서는 사용하지 않아야 합니다.\n \n- 지원 가능한 로케일은 운영체제에 따라 달라질 수 있습니다.\n\n- 로케일 코드는 \"Appendix &gt; Locale Code List\" 항목을 참고하세요."
+    },
+    {
+      "id": "m_01toLocaleTimeString",
+      "type": "heading2",
+      "content": "toLocaleTimeString",
+      "option": {
+        "alias": "Date_toLocaleTimeString"
+      }
+    },
+    {
+      "id": "m_02_toLocaleTimeString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 시간을 특정 로케일 형식의 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toLocaleTimeString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toLocaleTimeString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toLocaleTimeString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toLocaleTimeString",
+      "type": "command",
+      "content": "Date.toLocaleTimeString( [strLocale] )"
+    },
+    {
+      "id": "m_07_toLocaleTimeString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8596568040435127",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleTimeString());\ntrace(objDate.toLocaleTimeString( \"ko_KR\" ));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_toLocaleTimeString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9873828043698597",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 시간을 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toLocaleTimeString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toLocaleTimeString",
+      "type": "pre",
+      "content": "- 반환값은 시스템 설정에 따라 달라질 수 있으므로 표시용도로만 사용하고 계산식에서는 사용하지 않아야 합니다.\n \n- 지원 가능한 로케일은 운영체제에 따라 달라질 수 있습니다.\n\n- 로케일 코드는 \"Appendix &gt; Locale Code List\" 항목을 참고하세요."
+    },
+    {
+      "id": "m_01toString",
+      "type": "heading2",
+      "content": "toString",
+      "option": {
+        "alias": "Date_toString"
+      }
+    },
+    {
+      "id": "m_02_toString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 날짜와 시간값을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toString",
+      "type": "command",
+      "content": "Date.toString()"
+    },
+    {
+      "id": "m_07_toString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.6815696231570154",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toString());"
+    },
+    {
+      "id": "m_08_toString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8708244183350242",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Date 오브젝트에 저장된 값에서 날짜와 시간을 문자열로 반환합니다.\n\nDate 오브젝트에 날짜값만 있을 경우 8 자리 날짜형식으로 반환합니다.\nDate 오브젝트에 시간값만 있을 경우 9 자리 시간형식으로 반환합니다.\nDate 오브젝트에 날짜와 시간값이 모두 있을 경우 17 자리 날짜시간형식으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toString",
+      "type": "pre",
+      "content": "- valueOf() 메소드와 동일한 메소드입니다."
+    },
+    {
+      "id": "m_01toTimeString",
+      "type": "heading2",
+      "content": "toTimeString",
+      "option": {
+        "alias": "Date_toTimeString"
+      }
+    },
+    {
+      "id": "m_02_toTimeString",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 시간을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toTimeString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toTimeString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toTimeString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toTimeString",
+      "type": "command",
+      "content": "Date.toTimeString()"
+    },
+    {
+      "id": "m_07_toTimeString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.24619125678148912",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toTimeString());"
+    },
+    {
+      "id": "m_08_toTimeString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7442798830928673",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 시간을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toTimeString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toTimeString",
+      "type": "pre",
+      "content": "- Date 오브젝트에 저장된 날짜를 문자열로 변환하려면 toDateString() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01toUTCString",
+      "type": "heading2",
+      "content": "toUTCString",
+      "option": {
+        "alias": "Date_toUTCString"
+      }
+    },
+    {
+      "id": "m_02_toUTCString",
+      "type": "pre",
+      "content": "UTC(협정세계시)를 기준으로 Date 오브젝트에 저장된 날짜와 시간을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toUTCString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toUTCString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toUTCString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toUTCString",
+      "type": "command",
+      "content": "Date.toUTCString()"
+    },
+    {
+      "id": "m_07_toUTCString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7581290444801793",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toUTCString());"
+    },
+    {
+      "id": "m_08_toUTCString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.44084458512293634",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜와 시간을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_toUTCString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_toUTCString",
+      "type": "pre",
+      "content": "- toUTCString() 메소드는 UTC(협정세계시) 규칙을 사용하여 서식이 적용된 값을 반환합니다.\n\n- OS와 브라우저에 따라 다른 형식으로 반환 될 수 있습니다."
+    },
+    {
+      "id": "m_01UTC",
+      "type": "heading2",
+      "content": "UTC",
+      "option": {
+        "alias": "Date_UTC"
+      }
+    },
+    {
+      "id": "m_02_UTC",
+      "type": "pre",
+      "content": "UTC(협정세계시) 또는 GMT(그리니치 표준시)를 기준으로 1970년 1월 1일 자정부터 인수로 전달된 날짜까지의 시간을 밀리초(MilliSecond)값으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_UTC",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_UTC",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_UTC",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_UTC",
+      "type": "command",
+      "content": "Date.UTC(nYear, nMonth, nDay[, nHours[, nMinutes[, nSeconds[,nMillisecond]]]])"
+    },
+    {
+      "id": "m_07_UTC",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.516586384263302",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYear</td><td>Number</td><td colspan=\"2\"><div>네자리 년도(Year)값을 설정합니다.\n\n0부터 99까지의 값을 입력하는 경우 1900을 더한 값으로 처리됩니다.</div></td></tr><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDay</td><td>Number</td><td colspan=\"2\"><div>1 부터 31 사이의 날짜 값을 설정합니다.</div></td></tr><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>0 부터 23 까지의 시(Hour)값을 설정합니다.\n\n0 은 자정, 23 은 오후 11시를 의미합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>0 부터 59 사이의 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>0 부터 59 사이의 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>0 부터 999 사이의 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\ntrace(objDate.UTC( 2009, 3, 1 ));\ntrace(objDate.UTC( 2009, 3, 1, 0, 0, 0, 0) );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_UTC",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7162056371967938",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_UTC",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_UTC",
+      "type": "pre",
+      "content": "- 인수값이 범위를 초과하거나 음수이면 저장된 다른 값들이 수정될 수 있습니다.\n   예를 들어 nSeconds 값을 150으로 지정하게 되면 2분 30초로 처리합니다.\n\n- 반환되는 값은 setTime() 메소드를 사용하여 설정할 수 있습니다.\n\n   var objDate = new nexacro.Date();   \n   var nMs = objDate.UTC(1999,0,1);\n   var dDate = new nexacro.Date();\n   dDate.setTime(nMs);\n   trace(dDate.toString());     //  19990101090000000\n\n- 날짜를 받아들이는 UTC() 메서드와 Date 개체 생성자 사이의 차이점은 UTC() 메서드는 UTC로 간주하고 Date 개체 생성자는 로컬 시간으로 간주한다는 것입니다. \n\n   var dDate = new nexacro.Date( 1970, 0, 1 );\n   trace(dDate.getTime()); //  -32400000\n   var objDate = new nexacro.Date();\n   var nMs = objDate.UTC(1970, 0, 1);\n   dDate = new nexacro.Date();\n   dDate.setTime(nMs);\n   trace(dDate.getTime());     // 0"
+    },
+    {
+      "id": "m_01valueOf",
+      "type": "heading2",
+      "content": "valueOf",
+      "option": {
+        "alias": "Date_valueOf"
+      }
+    },
+    {
+      "id": "m_02_valueOf",
+      "type": "pre",
+      "content": "Date 오브젝트에 저장된 날짜와 시간값을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_valueOf",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_valueOf",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_valueOf",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_valueOf",
+      "type": "command",
+      "content": "Date.valueOf()"
+    },
+    {
+      "id": "m_07_valueOf",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2530900163854375",
+      "type": "command",
+      "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.valueOf());"
+    },
+    {
+      "id": "m_08_valueOf",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2911975972346307",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Date 오브젝트에 저장된 값에서 날짜와 시간을 문자열로 반환합니다.\n\nDate 오브젝트에 날짜값만 있을 경우 8 자리 날짜형식으로 반환합니다.\nDate 오브젝트에 시간값만 있을 경우 9 자리 시간형식으로 반환합니다.\nDate 오브젝트에 날짜와 시간값이 모두 있을 경우 17 자리 날짜시간형식으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_valueOf",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_valueOf",
+      "type": "pre",
+      "content": "- toString() 메소드와 동일한 메소드입니다."
+    }
+  ]
+}
