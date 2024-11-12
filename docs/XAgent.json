@@ -1,0 +1,545 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "X-AGENT 서버와 통신할 수 있는 클라이언트 컴포넌트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_addport",
+      "type": "heading2",
+      "content": "addport",
+      "option": {
+        "alias": "XAgent_addport"
+      }
+    },
+    {
+      "id": "p_02_addport",
+      "type": "pre",
+      "content": "X-AGENT 서버와 통신 실패 시 연결을 시도할 다른 포트의 범위를 설정합니다."
+    },
+    {
+      "id": "p_03_addport",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_addport",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_addport",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_addport",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_addport",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_addport",
+      "type": "command",
+      "content": "XAgent.addport [=numAddPort]"
+    },
+    {
+      "id": "p_09_addport",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7682989908588742",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XAgent00.addport = 3;</div></td></tr><tr><th>numAddPort</th><td colspan=\"2\"><div>X-AGENT 서버와 통신 실패 시 연결을 시도할 다른 포트 범위를 설정합니다.\n\n속성값을 5로 설정한 경우 49020 포트(port 속성값)로 연결을 시도하고 실패 시 1씩 더한 값을 포트값으로 설정해 49021~49025 포트로 연결을 시도합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_addport",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_addport",
+      "type": "pre",
+      "content": "- addport 속성값을 설정하지 않으면 5로 적용됩니다."
+    },
+    {
+      "id": "p_01_port",
+      "type": "heading2",
+      "content": "port",
+      "option": {
+        "alias": "XAgent_port"
+      }
+    },
+    {
+      "id": "p_02_port",
+      "type": "pre",
+      "content": "X-AGENT 서버와 통신할 포트를 설정합니다."
+    },
+    {
+      "id": "p_03_port",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_port",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_port",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_port",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_port",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_port",
+      "type": "command",
+      "content": "XAgent.port [=numPort]"
+    },
+    {
+      "id": "p_09_port",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.691258474198543",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>numPort</th><td colspan=\"2\"><div>X-AGENT 서버와 통신할 포트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_port",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_port",
+      "type": "pre",
+      "content": "- port 속성값을 설정하지 않으면 49020으로 적용됩니다."
+    },
+    {
+      "id": "p_01_protocol",
+      "type": "heading2",
+      "content": "protocol",
+      "option": {
+        "alias": "XAgent_protocol"
+      }
+    },
+    {
+      "id": "p_02_protocol",
+      "type": "pre",
+      "content": "X-AGENT 서버와 통신할 웹소켓 통신 프로토콜을 설정합니다."
+    },
+    {
+      "id": "p_03_protocol",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_protocol",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_protocol",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_protocol",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_protocol",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_protocol",
+      "type": "command",
+      "content": "XAgent.protocol [=enumProtocol]"
+    },
+    {
+      "id": "p_09_protocol",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2725906447982287",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumProtocol ::= 'ws' | 'wss'</div></td></tr><tr><th>\"ws\"</th><td colspan=\"2\"><div>WebSocket</div></td></tr><tr><th>\"wss\"</th><td colspan=\"2\"><div>WebSocket Secure</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_protocol",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_protocol",
+      "type": "pre",
+      "content": "- protocol 속성값을 설정하지 않으면 \"ws\"로 적용됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01callMethod",
+      "type": "heading2",
+      "content": "callMethod",
+      "option": {
+        "alias": "XAgent_callMethod"
+      }
+    },
+    {
+      "id": "m_02_callMethod",
+      "type": "pre",
+      "content": "X-AGENT 서버를 통해 X-AGENT 상태를 확인하거나 모듈을 설치하고 모듈을 실행하는 메서드입니다."
+    },
+    {
+      "id": "m_03_callMethod",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_callMethod",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_callMethod",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_callMethod",
+      "type": "command",
+      "content": "XAgent.callMethod(srvId, moduleName, funcName, paramObj)"
+    },
+    {
+      "id": "m_07_callMethod",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6947660150319367",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>srvId</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서비스명\n\n사용할 수 있는 서비스명은 아래와 같습니다.\n- project: 프로젝트 초기화\n- version: version 정보 확인\n- update-module: 1개 모듈 업데이트\n- update-modules: 1개 이상 모듈 업데이트\n- update-module-check: 모듈 업데이트 중 다운로드 완료 여부 확인\n- status: 서버 실행 상태 확인\n- installed: 타사 앱 설치 여부 확인\n- execute: 모듈 실행</div></td></tr><tr><td>moduleName</td><td>String</td><td colspan=\"2\"><div>모듈 이름</div></td></tr><tr><td>funcName</td><td>String</td><td colspan=\"2\"><div>함수명\n\nfuncName을 별도로 지정하지 않는 경우에는 srvId와 같은 값으로 설정합니다. \nDLL 모듈을 로드하고 함수를 실행하는 execute 서비스의 경우에는 해당 함수명을 설정합니다.</div></td></tr><tr><td>paramObj</td><td>Object</td><td colspan=\"2\"><div>파라미터\n\nX-AGENT 서비스 별 설정할 수 있는 파라미터는 하단 표를 참고하세요.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// status\nvar srvId = \"status\";\nvar moduleName = \"XAgent\";\nvar funName = \"status\";\nvar paramObj = {\"type\" : \"server\"};\nthis.XAgent00.callMethod(srvId,moduleName,funName,paramObj);\n\n// version\nvar srvId = \"version\";\nvar moduleName = \"XAgent\";\nvar funName = \"version\";\nvar paramObj = \"\";\nthis.XAgent00.callMethod(srvId, moduleName, funName, paramObj);\n\n// execute\nvar srvId = \"execute\";\nvar moduleName = \"ModuleTest\";\nvar funName = \"test\";\nvar paramObj = {\"parameters\":{\"param1\": \"value1\",\"param2\": \"value2\",\"param3\": \"value3\"}};\nthis.XAgent00.callMethod(srvId,moduleName,funName,paramObj);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_callMethod",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_callMethod",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n\n- X-AGENT 서비스 별 설정할 수 있는 파라미터\n\n\n- X-AGENT 서비스에 대한 상세한 설명은 아래 문서를 참고해주세요.\n   https://docs.tobesoft.com/x_agent_guide_ko/xagent_component#xagent_service"
+    },
+    {
+      "id": "m_01connect",
+      "type": "heading2",
+      "content": "connect",
+      "option": {
+        "alias": "XAgent_connect"
+      }
+    },
+    {
+      "id": "m_02_connect",
+      "type": "pre",
+      "content": "X-AGENT 서버에 연결합니다."
+    },
+    {
+      "id": "m_03_connect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_connect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_connect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_connect",
+      "type": "command",
+      "content": "XAgent.connect()"
+    },
+    {
+      "id": "m_09_connect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_connect",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01disconnect",
+      "type": "heading2",
+      "content": "disconnect",
+      "option": {
+        "alias": "XAgent_disconnect"
+      }
+    },
+    {
+      "id": "m_02_disconnect",
+      "type": "pre",
+      "content": "X-AGENT 서버와 연결을 종료합니다."
+    },
+    {
+      "id": "m_03_disconnect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_disconnect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_disconnect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_disconnect",
+      "type": "command",
+      "content": "XAgent.disconnect()"
+    },
+    {
+      "id": "m_09_disconnect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_disconnect",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "XAgent_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "메서드 실행 실패 시 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.XAgent,e:nexacro.XAgentErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5346413901381651",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XAgent</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XAgentErrorEventInfo\" string=\"XAgentErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "XAgent_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "메서드 실행 성공 시 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.XAgent,e:nexacro.XAgentEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.41181424551960344",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XAgent</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XAgentEventInfo\" string=\"XAgentEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
