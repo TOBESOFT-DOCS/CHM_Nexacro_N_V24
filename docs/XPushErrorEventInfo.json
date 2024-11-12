@@ -1,0 +1,558 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "클라이언트에서 Push 서버로 한 요청이 실패했을 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_action",
+      "type": "heading2",
+      "content": "action",
+      "option": {
+        "alias": "XPushErrorEventInfo_action"
+      }
+    },
+    {
+      "id": "p_02_action",
+      "type": "pre",
+      "content": "이벤트가 발생한 원인의 코드값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_action",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_action",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_action",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_action",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_action",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_action",
+      "type": "command",
+      "content": "XPushErrorEventInfo.action"
+    },
+    {
+      "id": "p_09_action",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.47371673933418057",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCode = e.action ;</div></td></tr><tr><th>\"0\"</th><td colspan=\"2\"><div>connect() 메소드로 Push 서버 연결에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.AUTH 상수값으로 처리됩니다.</div></td></tr><tr><th>\"1\"</th><td colspan=\"2\"><div>disconnect() 메소드로 Push 서버의 연결해제에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.BYEC 상수값으로 처리됩니다.</div></td></tr><tr><th>\"2\"</th><td colspan=\"2\"><div>subscribe() 메소드로 Topic 추가에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.ADDF 상수값으로 처리됩니다.</div></td></tr><tr><th>\"3\"</th><td colspan=\"2\"><div>unsubscribe() 메소드로 Topic 제거에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.DELF 상수값으로 처리됩니다.</div></td></tr><tr><th>\"4\"</th><td colspan=\"2\"><div>requestMessage() 메소드로 미수신 신뢰성 메시지 요청에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.REQD 상수값으로 처리됩니다.</div></td></tr><tr><th>\"5\"</th><td colspan=\"2\"><div>sendResponse() 메소드로 미수신 신뢰성 메시지 수신응답에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.RECT 상수값으로 처리됩니다.</div></td></tr><tr><th>\"6\"</th><td colspan=\"2\"><div>registerDevice() 메소드로 Push 서버에 Device Token 등록에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.RGST 상수값으로 처리됩니다.</div></td></tr><tr><th>\"7\"</th><td colspan=\"2\"><div>unregisterDevice() 메소드로 Push 서버에 등록된 Device Token 해제에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.UNRG 상수값으로 처리됩니다.</div></td></tr><tr><th>\"8\"</th><td colspan=\"2\"><div>registerTopic() 메소드로 신뢰성 메시지 Topic 등록에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.ADUI 상수값으로 처리됩니다.</div></td></tr><tr><th>\"9\"</th><td colspan=\"2\"><div>unregisterTopic() 메소드로 등록된 신뢰성 메시지 Topic 해제에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.UNUI 상수값으로 처리됩니다.</div></td></tr><tr><th>\"10\"</th><td colspan=\"2\"><div>requestMessageCount() 메소드로 미수신된 신뢰성 메시지 갯수요청에 실패했을 때 갖는 값입니다.\n\nnexacro.XPushAction.MSGC 상수값으로 처리됩니다.</div></td></tr><tr><th>\"11\"</th><td colspan=\"2\"><div>getRegisteredTopics, getRegisteredTopicsWithUserID 메소드로 Topic 정보 조회가 실패한 경우 갖는 값입니다.\nnexacro.XPushAction.RTID 상수값으로 처리됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_errormsg",
+      "type": "heading2",
+      "content": "errormsg",
+      "option": {
+        "alias": "XPushErrorEventInfo_errormsg"
+      }
+    },
+    {
+      "id": "p_02_errormsg",
+      "type": "pre",
+      "content": "발생한 에러에 대한 에러메시지 정보를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_errormsg",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errormsg",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errormsg",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errormsg",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_errormsg",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_errormsg",
+      "type": "command",
+      "content": "XPushErrorEventInfo.errormsg"
+    },
+    {
+      "id": "p_09_errormsg",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6230494988092604",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>-100</th><td colspan=\"2\"><div>XPush 서버가 “Byec”를 보냈거나 서버와의 규약에 따라 종료되어야 할 때 발생합니다.</div></td></tr><tr><th>-200</th><td colspan=\"2\"><div>Command Auth Error\n\n현재 선택된 IP에 대한 인증 에러</div></td></tr><tr><th>-201</th><td colspan=\"2\"><div>All Command Auth Error\n\niplist 속성에 등록된 XPush 서버에 인증 실패했을 때 반환합니다.</div></td></tr><tr><th>-202</th><td colspan=\"2\"><div>Data Auth Error\n\nData 전송채널 인증(Authentication)에 오류가 발생하면 반환합니다.</div></td></tr><tr><th>etc.</th><td colspan=\"2\"><div>XPush 서버에서 Client로 알리는 메세지</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_errortype",
+      "type": "heading2",
+      "content": "errortype",
+      "option": {
+        "alias": "XPushErrorEventInfo_errortype"
+      }
+    },
+    {
+      "id": "p_02_errortype",
+      "type": "pre",
+      "content": "발생한 에러에 대한 에러유형을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_errortype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errortype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errortype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errortype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_errortype",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_errortype",
+      "type": "command",
+      "content": "XPushErrorEventInfo.errortype"
+    },
+    {
+      "id": "p_09_errortype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1952646742257298",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>\"EvalError\"</th><td colspan=\"2\"><div>현재 버전에서 발생하지 않지만 이전 버전과의 호환성을 유지하기 위해 정의</div></td></tr><tr><th>\"RangeError\"</th><td colspan=\"2\"><div>숫자값이 허용된 범위를 넘어선 경우</div></td></tr><tr><th>\"ReferenceError\"</th><td colspan=\"2\"><div>참조값이 유효하지 않은 경우</div></td></tr><tr><th>\"SyntaxError\"</th><td colspan=\"2\"><div>파싱에 문제가 있을 경우</div></td></tr><tr><th>\"TypeError\"</th><td colspan=\"2\"><div>피연산자의 자료형이 허용된 범위가 아닌 경우</div></td></tr><tr><th>\"URIError\"</th><td colspan=\"2\"><div>전역 URI 처리 함수 중 하나가 해당 정의와 호환되지 않는 방식으로 사용된 경우</div></td></tr><tr><th>\"NativeError\"</th><td colspan=\"2\"><div>모든 Native Error 인 경우</div></td></tr><tr><th>\"CommunicationError\"</th><td colspan=\"2\"><div>통신시 발생한 에러인 경우</div></td></tr><tr><th>\"ObjectError\"</th><td colspan=\"2\"><div>개별 오브젝트에서 사용하는 에러인 경우</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "XPushErrorEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "XPushErrorEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1639066862348505",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_message",
+      "type": "heading2",
+      "content": "message",
+      "option": {
+        "alias": "XPushErrorEventInfo_message"
+      }
+    },
+    {
+      "id": "p_02_message",
+      "type": "pre",
+      "content": "수행이 요청된 PushMessage 오브젝트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_message",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_message",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_message",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_message",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_message",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_message",
+      "type": "command",
+      "content": "XPushErrorEventInfo.message"
+    },
+    {
+      "id": "p_09_message",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.22788854590759255",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>messagetype</th><td colspan=\"2\"><div>메시지 레이아웃에 정의된 받을 메시지의 타입값을 갖습니다.</div></td></tr><tr><th>messagekey</th><td colspan=\"2\"><div>받을 메시지의 키값을 갖습니다.</div></td></tr><tr><th>messageid</th><td colspan=\"2\"><div>받을 메시지 아이디값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_serverip",
+      "type": "heading2",
+      "content": "serverip",
+      "option": {
+        "alias": "XPushErrorEventInfo_serverip"
+      }
+    },
+    {
+      "id": "p_02_serverip",
+      "type": "pre",
+      "content": "요청을 수행한 Push 서버의 IP 를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_serverip",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_serverip",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_serverip",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_serverip",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_serverip",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_serverip",
+      "type": "command",
+      "content": "XPushErrorEventInfo.serverip"
+    },
+    {
+      "id": "p_01_serverport",
+      "type": "heading2",
+      "content": "serverport",
+      "option": {
+        "alias": "XPushErrorEventInfo_serverport"
+      }
+    },
+    {
+      "id": "p_02_serverport",
+      "type": "pre",
+      "content": "요청을 수행한 Push 서버의 Port 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_serverport",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_serverport",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_serverport",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_serverport",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_serverport",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_serverport",
+      "type": "command",
+      "content": "XPushErrorEventInfo.serverport"
+    },
+    {
+      "id": "p_01_statuscode",
+      "type": "heading2",
+      "content": "statuscode",
+      "option": {
+        "alias": "XPushErrorEventInfo_statuscode"
+      }
+    },
+    {
+      "id": "p_02_statuscode",
+      "type": "pre",
+      "content": "발생한 에러에 대한 에러코드값를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_statuscode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_statuscode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_statuscode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_statuscode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_statuscode",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_statuscode",
+      "type": "command",
+      "content": "XPushErrorEventInfo.statuscode"
+    },
+    {
+      "id": "p_09_statuscode",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8720178062150887",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>-100</th><td colspan=\"2\"><div>Push 서버가 “Byec”를 보냈거나 서버와의 규약에 따라 종료되었습니다.</div></td></tr><tr><th>-101</th><td colspan=\"2\"><div>타임아웃 처리되었습니다.</div></td></tr><tr><th>-200</th><td colspan=\"2\"><div>Command Auth Error. 현재 선택된 IP에 대해인증에 오류가 발생하였습니다.</div></td></tr><tr><th>-201</th><td colspan=\"2\"><div>iplist 속성에 등록되어 있는 Push 서버로의 접속이 모두 실패했습니다.</div></td></tr><tr><th>-202</th><td colspan=\"2\"><div>데이터 전송 채널 인증(authentication)에 오류가 발생하였습니다.</div></td></tr><tr><th>-300</th><td colspan=\"2\"><div>서버로의 접속에 실패했습니다.</div></td></tr><tr><th>-301</th><td colspan=\"2\"><div>패킷 전송(send/recv) 오류가 발생하였습니다.</div></td></tr><tr><th>-401</th><td colspan=\"2\"><div>X-PUSH 서버와 접속해제(disconnect) 요청을 실패했습니다.</div></td></tr><tr><th>-501</th><td colspan=\"2\"><div>X-PUSH 서버로부터 메시지 수신중단(suspend) 요청을 실패했습니다.</div></td></tr><tr><th>-601</th><td colspan=\"2\"><div>X-PUSH 서버로부터 메시지 수신 재시작(resume) 요청을 실패했습니다.</div></td></tr><tr><th>-701</th><td colspan=\"2\"><div>X-PUSH 서버로 topic 등록/등록해제 요청을 실패했습니다.</div></td></tr><tr><th>-801</th><td colspan=\"2\"><div>메시지 포맷 버전 정보가 일치하지 않습니다.</div></td></tr><tr><th>-901</th><td colspan=\"2\"><div>신뢰성 메시지에 대한 수신응답 전송에 실패했습니다.</div></td></tr><tr><th>-902</th><td colspan=\"2\"><div>미수신 메시지 요청을 실패했습니다.</div></td></tr><tr><th>-1001</th><td colspan=\"2\"><div>X-PUSH 서버로 모바일 DeviceToken 정보 등록요청을 실패했습니다.</div></td></tr><tr><th>-1002</th><td colspan=\"2\"><div>X-PUSH 서버로 유저 topic 정보 등록요청(reqisterUser)이 실패했습니다.</div></td></tr><tr><th>-1003</th><td colspan=\"2\"><div>X-PUSH 서버로 유저 topic 정보 등록해제(unregisterUser)요청이 실패했습니다.</div></td></tr><tr><th>-1004</th><td colspan=\"2\"><div>미수신 메시지 정보요청을 실패했습니다.</div></td></tr><tr><th>-1005</th><td colspan=\"2\"><div>Topic 정보 요청을 실패했습니다.</div></td></tr><tr><th>-1072</th><td colspan=\"2\"><div>디바이스 등록(RGST)시 중복된 경우 발생합니다.</div></td></tr><tr><th>-1092</th><td colspan=\"2\"><div>메시지 토픽 등록(ADUI)시 중복된 경우 발생합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    }
+  ]
+}
