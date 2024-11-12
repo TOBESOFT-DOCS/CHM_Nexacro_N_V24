@@ -1,0 +1,268 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "컴포넌트에 선언된 이벤트의 원형 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 일반적으로 Composite Component 와 같은 사용자 컴포넌트에 이벤트를 선언할 때 내부적으로 사용되는 오브젝트입니다.\n\n- 컴포넌트의 모든 이벤트는 EventObject 를 사용하여 선언됩니다.\n   컴포넌트에 선언된 이벤트에 addEventHandler() 와 같은 메소드로 핸들러 함수를 동록하여 이벤트를 정의합니다.\n\n- 이벤트 및 이벤트 핸들러의 종류는 각 컴포넌트의 Event 항목을 참조하시기 바랍니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_length",
+      "type": "heading2",
+      "content": "length",
+      "option": {
+        "alias": "EventObject_length"
+      }
+    },
+    {
+      "id": "p_02_length",
+      "type": "pre",
+      "content": "이벤트에 정의된 이벤트 핸들러 함수의 갯수를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_length",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_length",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_length",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_length",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_length",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.04756254697410878",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCnt = this.Button00.onclick.length;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_length",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_length",
+      "type": "pre",
+      "content": "- 이벤트 핸들러 함수는 넥사크로 스튜디오에서 정의하거나 addEventHandler() 와 같은 메소드를 사용하여 정의할 수 있습니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "EventObject_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "EventObject 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4814198082607102",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>EventObject 의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 Object 의 이름으로 논리적으로 중복이 가능합니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01fireEvent",
+      "type": "heading2",
+      "content": "fireEvent",
+      "option": {
+        "alias": "EventObject_fireEvent"
+      }
+    },
+    {
+      "id": "m_02_fireEvent",
+      "type": "pre",
+      "content": "이벤트에 정의된 핸들러 함수를 호출하여 이벤트를 발생시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_fireEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_fireEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_fireEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_fireEvent",
+      "type": "command",
+      "content": "EventObject.fireEvent( objFireComp, objEventInfo [, bCancelable] )"
+    },
+    {
+      "id": "m_07_fireEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5737845595263698",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFireComp</td><td>Object</td><td colspan=\"2\"><div>이벤트 핸들러 함수에 전달할 컴포넌트를 설정합니다.\n\n일반적으로 이벤트가 발생할 컴포넌트를 동일하게 설정합니다.</div></td></tr><tr><td>objEvent</td><td>Object</td><td colspan=\"2\"><div>이벤트 핸들러 함수에 전달할 EventInfo 오브젝트를 설정합니다.</div></td></tr><tr><td>bCancelable</td><td>Boolean</td><td colspan=\"2\"><div>이벤트 핸들러 함수의 반환값에 따라 함수실행을 중지시킬 지 여부를 설정합니다.\n\ntrue 설정 시 핸들러 함수에서 false 를 반환하면 핸들러 함수실행을 모두 중지합니다.\ntrue 설정 시 핸들러 함수에서 true 를 반환하면 다음 핸들러 함수를 실행합니다.\n\nfalse 설정 시 핸들러 함수에서 true/false 값을 반환하면 다음 핸들러 함수를 실행합니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objEventInfo = new ClickEventInfo();\n\nvar bRtn = this.Button00.onclick.fireEvent( this.Button00, objEventInfo, true );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_fireEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9269958215542142",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>bCancelable 파라미터가 true 이고 핸들러 함수 실행중 false 가 반환되었다면 false 를 반환합니다.\nbCancelable 파라미터가 true 이고 핸들러 함수 실행중 false 가 반환되지 않았다면 true 를 반환합니다.\n\nbCancelable 파라미터가 false 이면 마지막 핸들러 함수에서 반환한 값을 반환합니다.\nbCancelable 파라미터가 false 이고 마지막 핸들러 함수에서 값을 반환하지 않으면 빈값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_fireEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_fireEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 이벤트를 발생시킬 때 사용하는 메소드입니다.\n\n- 이벤트에 두개 이상의 핸들러 함수가 정의되었다면 정의된 순서대로 핸들러 함수를 실행합니다.\n\n- 일반적으로 fireEvent() 메소드의 반환값은 핸들러 함수에서 이벤트를 취소했다는 정보를 받으려 할 때 사용합니다.\n   bCancelable 파라미터가 true 이고 핸들러 함수 실행중 false 가 반환되었을 경우입니다."
+    },
+    {
+      "id": "m_11_fireEvent",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_fireEvent",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_combo_09'>스크립트에서 속성값 변경 시 이벤트 처리하기</a>"
+    }
+  ]
+}
