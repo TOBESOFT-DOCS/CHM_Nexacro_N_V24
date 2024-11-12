@@ -1,0 +1,2510 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "로컬시스템의 파일을 읽거나 쓰기위해 사용되는 가상파일 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- read, write 메소드 실행 시 메모리 제약으로 2GB 이상의 파일을 처리하지 못할 수 있습니다. 또한 운영체제와 사용하는 장비에 따라 처리할 수 있는 파일의 크기는 다를 수 있습니다.\n\n◆ web runtime environment  제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성과 \n   DragEventInfo, GridDragEventInfo, ListViewDragEventInfo  등에서 filelist 속성으로 제공하는 VirtualFile 만 사용할 수 있습니다.\n\n- 따라서, web runtime environment 에서 일부 웹브라우저를 지원한다고 표시된 open(), close(), getFileSize() 메소드와 filename 속성은\n   VirtualFile 오브젝트가 위에 예시된 속성으로 제공될 때만 사용할 수 있습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_async",
+      "type": "heading2",
+      "content": "async",
+      "option": {
+        "alias": "VirtualFile_async"
+      }
+    },
+    {
+      "id": "p_02_async",
+      "type": "pre",
+      "content": "VirtualFile 에 요청된 작업이 동작되는 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_async",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_async",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_async",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_async",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_async",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.24836621212279175",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bAsync ::= 'true' | 'false'</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>VirtualFile 에 요청된 작업이 비동기(Async) 로 동작됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>VirtualFile 에 요청된 작업이 동기(Sync) 로 동작됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_async",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_async",
+      "type": "pre",
+      "content": "- async 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n\n◆ Mobile 제약\n\n- 모바일 환경에서는 항상 비동기(Async) 로 동작합니다."
+    },
+    {
+      "id": "p_01_filename",
+      "type": "heading2",
+      "content": "filename",
+      "option": {
+        "alias": "VirtualFile_filename"
+      }
+    },
+    {
+      "id": "p_02_filename",
+      "type": "pre",
+      "content": "VirtualFile 에 로드된 파일의 이름을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_filename",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filename",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filename",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filename",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_filename",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.681189106427545",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>filename</th><td colspan=\"2\"><div>VirtualFile 에 오픈된 파일의 이름만 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filename",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filename",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다."
+    },
+    {
+      "id": "p_01_fullpath",
+      "type": "heading2",
+      "content": "fullpath",
+      "option": {
+        "alias": "VirtualFile_fullpath"
+      }
+    },
+    {
+      "id": "p_02_fullpath",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일의 전체 경로정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_fullpath",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fullpath",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fullpath",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fullpath",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_fullpath",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1790461695244535",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>fullpath</th><td colspan=\"2\"><div>VirtualFile 에 오픈된 파일의 이름을 포함한 전체경로를 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fullpath",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fullpath",
+      "type": "pre",
+      "content": "- 웹브라우저 환경에서는 파일의 경로가 실제경로가 아닌 \"FakePath\" 형태의 가상경로로 지원됩니다.\n   따라서, 웹브라우저 환경일 때는 지원되지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "VirtualFile_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "VirtualFile의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "VirtualFile.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.22921363663765082",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>VirtualFile를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "VirtualFile_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "VirtualFile 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "VirtualFile.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8558695550354701",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "VirtualFile_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "VirtualFile 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "VirtualFile.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4165460848480338",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.VirtualFile00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- VirtualFile 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_path",
+      "type": "heading2",
+      "content": "path",
+      "option": {
+        "alias": "VirtualFile_path"
+      }
+    },
+    {
+      "id": "p_02_path",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일의 경로정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_path",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_path",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_path",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_path",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_path",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7197135059554135",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>path</th><td colspan=\"2\"><div>VirtualFile 에 오픈된 파일의 이름을 제외한 경로정보를 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_path",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_path",
+      "type": "pre",
+      "content": "- 웹브라우저 환경에서는 파일의 경로가 실제경로가 아닌 \"FakePath\" 형태의 가상경로로 지원됩니다.\n   따라서, 웹브라우저 환경일 때는 지원되지 않는 속성입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "VirtualFile_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "VirtualFile 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "VirtualFile.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9961519313786488",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>VirtualFile 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.VirtualFile00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8593601317777556",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- VirtualFile 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "VirtualFile_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "VirtualFile.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.21521393088668228",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00_onsuccess = function( obj:nexacro.VirtualFile,  e:nexacro.VirtualFileEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VirtualFile00.addEventHandler( \"onsuccess\", this.VirtualFile00_onsuccess, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.18499294341338357",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "VirtualFile_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "VirtualFile.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9922143981157461",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.VirtualFile00.clearEventHandler( \"onsuccess\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.08293947451517725",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01close",
+      "type": "heading2",
+      "content": "close",
+      "option": {
+        "alias": "VirtualFile_close"
+      }
+    },
+    {
+      "id": "m_02_close",
+      "type": "pre",
+      "content": "VirtualFile 로 오픈한 파일을 닫는 메소드입니다."
+    },
+    {
+      "id": "m_03_close",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_close",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_close",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_close",
+      "type": "command",
+      "content": "VirtualFile.close()"
+    },
+    {
+      "id": "m_07_close",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.12761052076172463",
+      "type": "command",
+      "content": "this.VirtualFile00.close();"
+    },
+    {
+      "id": "m_09_close",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_close",
+      "type": "pre",
+      "content": "- 파일 닫기에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 닫기에 실패하면 onerror 이벤트가 발생합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다.\n\n- Safari 브라우저에서는 지원되지 않는 메소드입니다."
+    },
+    {
+      "id": "m_01copy",
+      "type": "heading2",
+      "content": "copy",
+      "option": {
+        "alias": "VirtualFile_copy"
+      }
+    },
+    {
+      "id": "m_02_copy",
+      "type": "pre",
+      "content": "VirtualFile 에서 특정 파일을 복사하는 메소드입니다."
+    },
+    {
+      "id": "m_03_copy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_copy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_copy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_copy",
+      "type": "command",
+      "content": "VirtualFile.copy( strSrc, strDest );"
+    },
+    {
+      "id": "m_07_copy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8082412683151897",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSrc</td><td>String</td><td colspan=\"2\"><div>복사할 원본 파일명을 경로와 함께 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td>strDest</td><td>String</td><td colspan=\"2\"><div>복사하여 생성될 파일명을 경로와 함께 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = this.VirtualFile00.copy(\"%USERAPP%source.txt\", \"%USERAPP%dest.txt\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_copy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2846332171096051",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터가 생략되거나 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_copy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_copy",
+      "type": "pre",
+      "content": "- 파일 복사에 성공하면 onsuccess 이벤트가 발생합니다.\n  파일 복사에 실패하면 onerror 이벤트가 발생합니다.\n\n◆ Windows NRE 제약\n- Environment.filesecurelevel 속성값을 \"all\"로 설정한 경우에는 모든 경로에 접근을 허용합니다. \n  단, strDest 파라미터로 설정한 경로 중 %MYDOCUMENT% 경로를 제외한 모든 경로에 대해 사용자에게 접근 허용 여부를 확인한 후 사용자가 승인한 경우에만 메소드를 실행합니다.\n\n◆ Alias\n- strSrc 와 strDest 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01createDirectory",
+      "type": "heading2",
+      "content": "createDirectory",
+      "option": {
+        "alias": "VirtualFile_createDirectory"
+      }
+    },
+    {
+      "id": "m_02_createDirectory",
+      "type": "pre",
+      "content": "VirtualFile 에서 폴더를 생성하는 메소드입니다."
+    },
+    {
+      "id": "m_03_createDirectory",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_createDirectory",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_createDirectory",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_createDirectory",
+      "type": "command",
+      "content": "VirtualFile.createDirectory( strPath, [bAllCreate] )"
+    },
+    {
+      "id": "m_07_createDirectory",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.14068943681357704",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPath</td><td>String</td><td colspan=\"2\"><div>생성할 폴더명을 경로와 함께 설정합니다.\n\n\"C:\\\\TobeSoft\\\\TestFolder\" 와 같이 절대경로를 설정 시 해당 위치에 폴더가 생성됩니다.\n\"My_Folder\" 와 같이 디렉토리명만 설정할 경우 \"내문서\" 위치에 폴더가 생성됩니다.</div></td></tr><tr><td>bAllCreate</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 중간의 경로를 모두 생성한 후 폴더가 생성됩니다.\nfalse 설정 시 중간의 경로가 존재할 경우만 폴더가 생성됩니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = this.VirtualFile00.createDirectory( \"C:\\\\TobeSoft\\\\TestFolder\", true );\nbSucc = this.VirtualFile00.createDirectory( \"TestFolder\" ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_createDirectory",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.0857595604780731",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>폴더 생성여부와 관계없이 메소드 수행 여부를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_createDirectory",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_createDirectory",
+      "type": "pre",
+      "content": "- 폴더 생성에 성공하면 onsuccess 이벤트가 발생합니다.\n   폴더 생성에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01deleteDirectory",
+      "type": "heading2",
+      "content": "deleteDirectory",
+      "option": {
+        "alias": "VirtualFile_deleteDirectory"
+      }
+    },
+    {
+      "id": "m_02_deleteDirectory",
+      "type": "pre",
+      "content": "VirtualFile 에서 폴더를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_deleteDirectory",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_deleteDirectory",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_deleteDirectory",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_deleteDirectory",
+      "type": "command",
+      "content": "VirtualFile.deleteDirectory( strPath [, bAllChild] )"
+    },
+    {
+      "id": "m_07_deleteDirectory",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9444961229520179",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPath</td><td>String</td><td colspan=\"2\"><div>삭제할 폴더명을 경로와 함께 설정합니다.\n\n\"C:\\\\TobeSoft\\\\TestFolder\" 와 같이 절대경로를 설정 시 해당 위치의 폴더가 삭제됩니다.\n\"My_Folder\" 와 같이 폴더명만 설정할 경우 \"내문서\" 위치의 폴더가 삭제됩니다.</div></td></tr><tr><td>bAllChild</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 삭제되는 폴더의 하위 폴더와 파일이 모두 삭제됩니다.\nfalse 설정 시 삭제되는 폴더의 하위 폴더와 파일을 삭제하지 않습니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = this.VirtualFile00.deleteDirectory( \"TestFolder\" );\nbSucc = this.VirtualFile00.deleteDirectory( \"C:\\\\TobeSoft\\\\TestFolder\", true );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_deleteDirectory",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5791725198039743",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>폴더 삭제여부와 관계없이 메소드 수행 여부를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_deleteDirectory",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_deleteDirectory",
+      "type": "pre",
+      "content": "- 폴더 삭제에 성공하면 onsuccess 이벤트가 발생합니다.\n   폴더 삭제에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "VirtualFile_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "VirtualFile.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8744438286636692",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00_onsuccess = function( obj:nexacro.VirtualFile,  e:nexacro.VirtualFileEventInfo) { //수행할 스크립트 };\nvar nIndex = this.VirtualFile00.findEventHandler( \"onsuccess\", this.VirtualFile00_onsuccess, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4529486989834921",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에서 찾으려고 하는 핸들러 함수의 인덱스를 반환합니다.\n찾으려고 하는 핸들러 함수가 존재하지 않는다면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 인덱스는 \"0\"부터 시작합니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "VirtualFile_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "VirtualFile.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3364127898479742",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n인덱스는 \"0\"부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = VirtualFile00.getEventHandler( \"onsuccess\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07469757283029288",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 \"null\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getFileList",
+      "type": "heading2",
+      "content": "getFileList",
+      "option": {
+        "alias": "VirtualFile_getFileList"
+      }
+    },
+    {
+      "id": "m_02_getFileList",
+      "type": "pre",
+      "content": "특정 위치의 파일 또는 하위폴더를 목록으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getFileList",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getFileList",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getFileList",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getFileList",
+      "type": "command",
+      "content": "VirtualFile.getFileList( strPath, strSearchExpr [, constOption] )"
+    },
+    {
+      "id": "m_07_getFileList",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3430298587268117",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPath</td><td>String</td><td colspan=\"2\"><div>파일 또는 폴더 목록을 가져올 대상 폴더를 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td>strSearchExpr</td><td>String</td><td colspan=\"2\"><div>반환되는 목록에 포함시킬 파일 또는 폴더의 검색조건을 정규표현식으로 설정합니다.\n설정한 정규표현식을 파일명 또는 폴더명과 매칭시킵니다.\n\n정규표현식에서 Escape 문자(\"\\\") 사용 시 두번(\"\\\\\") 설정하여야 합니다.\nex) \"Text\" 뒤에 숫자가 붙은 파일명 또는 폴더명 검색 시 \"Text\\\\d\" 형태로 설정\n\n정규표현식에서 \".\" 문자는 개행문자 이외의 모든 문자와 매칭되므로 \".\" 문자 자체를 매칭하려면 \"\\\\.\" 로 설정하여야 합니다.\nex) 확장자가 \"txt\" 인 파일명 검색 시 \"\\\\.txt$\" 형태로 설정</div></td></tr><tr><td>constOption</td><td>Constant</td><td colspan=\"2\"><div>반환되는 파일목록을 구성하는 검색옵션을 상수값으로 설정합니다.\n\n\"VirtualFile.findAll\" 또는 1 (0x01) 설정 시 strPath 위치에 속한 파일과 폴더를 대상으로 검색합니다.\n\"VirtualFile.findFileOnly\" 또는 2 (0x02) 설정 시 strPath 위치에 속한 파일을 대상으로 검색합니다.\n\"VirtualFile.findDirectoryOnly\" 또는 4 (0x04) 설정 시 strPath 위치에 속한 폴더를 대상으로 검색합니다.\n\n\"VirtualFile.findRecursive\" 또는 8 (0x08) 설정 시 하위 폴더에 대한 재귀검색을 합니다.\n\"VirtualFile.findCaseless\" 또는 16 (0x10) 설정 시 대소문자를 구분하지 않고 검색합니다.\n\n\"VirtualFile.findRecursive\" 와 \"VirtualFile.findCaseless\" 값은 다른 옵션과 \"|\" 문자로 구분하여 함께 설정할 수 있습니다.\n\n값 생략 시 \"VirtualFile.findAll\" 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.getFileList( \"%MYDOCUMENT%\", \"\\\\.txt$\", VirtualFile.findFileOnly );\nthis.VirtualFile00.getFileList( \"%MYDOCUMENT%\", \"\\\\.jpg$\", VirtualFile.findFileOnly | VirtualFile.findRecursive );\nthis.VirtualFile00.getFileList( \"%MYDOCUMENT%\\\\TestFolder\", \"^Folder.*\\\\d\", VirtualFile.findDirectoryOnly | VirtualFile.findRecursive | VirtualFile.findCaseless );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getFileList",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.16485057368322142",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 false 를 반환합니다.\n\n파일 또는 폴더 목록의 반환여부와 관계없이 메소드 실행여부를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getFileList",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getFileList",
+      "type": "pre",
+      "content": "- 파일 또는 폴더 목록 반환에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 또는 폴더 목록 반환에 실패하면 onerror 이벤트가 발생합니다.\n\n- onsuccess 이벤트에서 e 오브젝트(VirtualFileEventInfo)의 fileattributelist 속성으로 파일 또는 폴더 목록이 전달됩니다.\n\n- strPath 파라미터에 사용할 수 있는 Alias 의 실제경로는 아래와 같습니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01getFileSize",
+      "type": "heading2",
+      "content": "getFileSize",
+      "option": {
+        "alias": "VirtualFile_getFileSize"
+      }
+    },
+    {
+      "id": "m_02_getFileSize",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일의 크기를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getFileSize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getFileSize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getFileSize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getFileSize",
+      "type": "command",
+      "content": "VirtualFile.getFileSize()"
+    },
+    {
+      "id": "m_07_getFileSize",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.6994394079344654",
+      "type": "command",
+      "content": "this.VirtualFile00.getFileSize();"
+    },
+    {
+      "id": "m_08_getFileSize",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9481333949687631",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파일 크기의 반환여부와 관계없이 메소드의 수행여부를 반환합니다.\n\n메소드 수행에 성공하면 true 를 반환합니다.\n메소드 수행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getFileSize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getFileSize",
+      "type": "pre",
+      "content": "- VirtualFile 의 open() 메소드를 사용하여 크기를 구할 파일을 먼저 오픈한 후 getFileSize() 메소드를 수행하여야 합니다.\n\n- 파일크기 조회에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일크기 조회에 실패하면 onerror 이벤트가 발생합니다.\n\n- 파일의 크기는 onsuccess 이벤트에서 \"e\" 오브젝트(VirtualFileEventInfo)의 filesize 속성값으로 전달됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다.\n\n- Safari 브라우저에서는 지원되지 않는 메소드입니다."
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "VirtualFile_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "VirtualFile.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2264918163908104",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00_onsuccess = function( obj:nexacro.VirtualFile,  e:nexacro.VirtualFileEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.VirtualFile00.insertEventHandler( \"onsuccess\", 0, this.VirtualFile00_onsuccess, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2085046176174551",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01isExist",
+      "type": "heading2",
+      "content": "isExist",
+      "option": {
+        "alias": "VirtualFile_isExist"
+      }
+    },
+    {
+      "id": "m_02_isExist",
+      "type": "pre",
+      "content": "지정된 파일 또는 폴더의 존재여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isExist",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isExist",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isExist",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isExist",
+      "type": "command",
+      "content": "VirtualFile.isExist(strPath)"
+    },
+    {
+      "id": "m_07_isExist",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.33677595671641003",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPath</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 파일 또는 폴더를 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.isExist(\"%USERAPP%\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isExist",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7428725508139657",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터가 생략되거나 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_isExist",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isExist",
+      "type": "pre",
+      "content": "- 존재여부 반환에 성공하면 onsuccess 이벤트가 발생합니다.\n   존재여부 반환에 실패하면 onerror 이벤트가 발생합니다.\n\n- 검색된 파일목록은 onsuccess 이벤트에서 \"e\" 오브젝트(VirtualFileEventInfo)의 fileisexist 속성값으로 전달됩니다.\n\n- strPath 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01open",
+      "type": "heading2",
+      "content": "open",
+      "option": {
+        "alias": "VirtualFile_open"
+      }
+    },
+    {
+      "id": "m_02_open",
+      "type": "pre",
+      "content": "VirtualFile 에 로드된 파일을 조건에 맞게 오픈하는 메소드입니다."
+    },
+    {
+      "id": "m_03_open",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_open",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_open",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_open",
+      "type": "command",
+      "content": "VirtualFile.open( strFileName ,constOptions )"
+    },
+    {
+      "id": "m_07_open",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24294919780206692",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strFileName</td><td>String</td><td colspan=\"2\"><div>오픈할 파일명을 절대경로 또는 Alias 를 사용하여 설정합니다.\n\n* FileUpload, FileUpTransfer, FileDialog 또는 Drag&amp;Drop 으로 전달된 VirtualFile 오브젝트일 때만 strFileName 파라미터값을 null 또는 빈값으로 설정할 수 있습니다.</div></td></tr><tr><td>constOptions</td><td>Object</td><td colspan=\"2\"><div>파일을 오픈하는 옵션을 상수값으로 설정합니다.\n각 옵션값들은 OR(\"|\") 연산자를 사용하여 중복하여 설정할 수 있습니다.\n\nVirtualFile.openRead 또는 1 설정 시 읽기전용으로 파일을 오픈합니다.\n파일이 존재하지 않으면 에러가 발생합니다.\n\nVirtualFile.openWrite 또는 2 설정 시 쓰기전용으로 파일을 오픈합니다.\n파일이 존재하지 않으면 파일을 생성합니다.\n\nVirtualFile.openAppend 또는 16 설정 시 읽기/쓰기 용도로 파일을 오픈합니다.\n파일이 존재하면 오픈된 파일에서 파일포인터가 제일 마지막에 위치하게 됩니다.\n파일이 존재하지 않으면 파일을 생성합니다.\n\nVirtualFile.openCreate 또는 4096 설정 시 파일을 생성하며 오픈합니다.\n파일이 존재하면 onerror 이벤트가 발생합니다.\n\nVirtualFile.openText 또는 256 설정 시 파일을 텍스트모드로 오픈합니다.\n\nVirtualFile.openBinary 또는 512 설정 시 파일을 이진모드로 오픈합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.open( \"%USERAPP%test.txt\", VirtualFile.openRead );\nthis.VirtualFile00.open( \"%USERAPP%test.txt\", VirtualFile.openWrite | VirtualFile.openAppend );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_open",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.49499255026168965",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파일의 오픈 여부와 관계없이 메소드 실행에 성공하면 true 를 반환합니다.\n\n파일의 오픈 여부와 관계없이 메소드 실행에 실패하면 false 를 반환합니다.\n파라미터를 생략하거나 잘못된 문자가 설정된 경우 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_open",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_open",
+      "type": "pre",
+      "content": "- 파일 오픈에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 오픈에 실패하면 onerror 이벤트가 발생합니다.\n\n- VirtualFile 오브젝트에서 한 번에 할당받을 수 있는 메모리 크기 제약으로 2GB 이상 크기의 파일을 처리할 수 없습니다.\n\n- strFileName 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능\n\n\n◆ web runtime environment  제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다.\n\n- Safari 브라우저에서는 지원되지 않는 메소드입니다."
+    },
+    {
+      "id": "m_01read",
+      "type": "heading2",
+      "content": "read",
+      "option": {
+        "alias": "VirtualFile_read"
+      }
+    },
+    {
+      "id": "m_02_read",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일의 내용을 읽는 메소드입니다."
+    },
+    {
+      "id": "m_03_read",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_read",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_read",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_read",
+      "type": "command",
+      "content": "VirtualFile.read([nLength [, strCharset]])"
+    },
+    {
+      "id": "m_07_read",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.40602099748329024",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLength</td><td>Number</td><td colspan=\"2\"><div>파일에서 읽어 올 길이를 Byte 단위의 숫자로 설정합니다.\n\n값 생략 시 전체 파일을 읽어옵니다.</div></td></tr><tr><td>strCharset</td><td>String</td><td colspan=\"2\"><div>파일에서 읽어올 내용에 적용할 CharSet 을 설정합니다.\n\nWindows NRE 만 적용되고 모바일은 \"UTF-8\" 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varValue;\nvarValue = this.VirtualFile00.read(1000);\nvarValue = this.VirtualFile00.read(1000, \"utf-8\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_read",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7437742924195888",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터에 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_read",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_read",
+      "type": "pre",
+      "content": "- 파일 읽기에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 읽기에 실패하면 onerror 이벤트가 발생합니다.\n\n- 읽어온 파일 내용은 onsuccess 이벤트에서 \"e\" 오브젝트(VirtualFileEventInfo)의 binarydata 또는 textdata 속성값으로 전달됩니다.\n\n- Text 파일의 경우 첫부분에 문자셋정보(BOM:Byte Order Mark)가 포함되어 있다면  해당 부분을 제외하고 nLength 길이만큼 파일을 읽어들입니다.\n\n- 파일의 내용을 읽은 후에는 파일포인터의 위치가 이동됩니다.\n\n\n◆ Windows NRE 제약\n\n- 파일 크기가 200MB 이상인 경우 nLength 파라미터 값을 지정하지 않거나 nLength 파라미터 값을 209,715,200Byte 이상으로 설정한 경우 onerror 이벤트가 발생합니다.\n  (V8 엔진에서는 268,435,440Byte까지 지원하지만 내부적으로 인코딩 처리를 하면서 늘어나는 크기를 고려해 약 200MB 정도 크기까지 권장합니다)."
+    },
+    {
+      "id": "m_01readLine",
+      "type": "heading2",
+      "content": "readLine",
+      "option": {
+        "alias": "VirtualFile_readLine"
+      }
+    },
+    {
+      "id": "m_02_readLine",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일의 내용을 특정 위치까지 읽는 메소드입니다."
+    },
+    {
+      "id": "m_03_readLine",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_readLine",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_readLine",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_readLine",
+      "type": "command",
+      "content": "VirtualFile.readLine([strDelimeter[, strCharset]])"
+    },
+    {
+      "id": "m_07_readLine",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5220035741520239",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDelimeter</td><td>String</td><td colspan=\"2\"><div>파일에서 읽기를 멈추는 구분자를 설정합니다.\n\n값 생략 시 \"\\n\" 으로 적용됩니다.</div></td></tr><tr><td>strCharset</td><td>String</td><td colspan=\"2\"><div>파일에서 읽어올 내용에 적용할 CharSet 을 설정합니다.\n\nWindows NRE 만 적용되고 모바일은 \"UTF-8\" 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varValue ;\nvarValue = this.VirtualFile00.readLine();\nvarValue = thie.VirtualFile00.readLine(\"\\p\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_readLine",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.01877659443015367",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터에 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_readLine",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_readLine",
+      "type": "pre",
+      "content": "- 파일 읽기에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 읽기에 실패하면 onerror 이벤트가 발생합니다.\n\n- 읽어온 파일 내용에서 strDelimeter 문자는 제외됩니다.\n\n- 파일의 내용을 읽은 후에는 파일포인터의 위치가 이동됩니다.\n\n- Binary 모드로 오픈된 파일인 경우 readLine() 메소드를 사용할 수 없습니다.\n   읽어온 파일 내용은 onsuccess 이벤트에서 \"e\" 오브젝트(VirtualFileEventInfo)의 textdata 속성값으로 전달됩니다."
+    },
+    {
+      "id": "m_01remove",
+      "type": "heading2",
+      "content": "remove",
+      "option": {
+        "alias": "VirtualFile_remove"
+      }
+    },
+    {
+      "id": "m_02_remove",
+      "type": "pre",
+      "content": "VirtualFile 에 지정된 파일을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_remove",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_remove",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_remove",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_remove",
+      "type": "command",
+      "content": "VirtualFile.remove( strFilePath )\nVirtualFile.remove( objVirtualFile )"
+    },
+    {
+      "id": "m_07_remove",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9817354160925206",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strFilePath</td><td>String</td><td colspan=\"2\"><div>삭제할 파일명을 경로와 함께 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td>objVirtualFile</td><td>Object</td><td colspan=\"2\"><div>FileDialog 오브젝트에서 반환받은 삭제할 VirtualFile 오브젝트를 설정합니다.\n\n메소드를 수행하는 VirtualFile 객체 자신을 설정할 수 없습니다.\n자신을 설정하는 경우 onerror 이벤트가 발생합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.remove(\"%USERAPP%filename\");\n\nvar objFileD = new FileDialog();\nobjFileD.open(\"\", FileDialog.LOAD, \"%USERAPP%\", \"\");\nVirtualFile.remove(obj.e.virtualfiles);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_remove",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.21959516267028967",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터가 생략되거나 허용되지 않는 문자가 사용된 경우에는 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_remove",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_remove",
+      "type": "pre",
+      "content": "- 파일 삭제에 성공하면 onsuccess 이벤트가 발생합니다.\n  파일이 존재하지 않거나 파일 삭제에 실패하면 onerror 이벤트가 발생합니다.\n\n- sttrFilePath 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "VirtualFile_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "VirtualFile 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "VirtualFile.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3775268434353458",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>VirtualFile 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.VirtualFile00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.43311999939897505",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- VirtualFile 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- VirtualFile 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "VirtualFile_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "VirtualFile.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.18750179935266764",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00_onsuccess = function( obj:nexacro.VirtualFile,  e:nexacro.VirtualFileEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VirtualFile00.removeEventHandler( \"onsuccess\", this.VirtualFile00_onsuccess, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8056567377884243",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\"을 반환합니다.\n핸들러 함수 제거에 실패하면 \"0\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 \"0\"번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01rename",
+      "type": "heading2",
+      "content": "rename",
+      "option": {
+        "alias": "VirtualFile_rename"
+      }
+    },
+    {
+      "id": "m_02_rename",
+      "type": "pre",
+      "content": "VirtualFile 에서 특정 파일의 위치를 이동하거나 파일명을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_rename",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_rename",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_rename",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_rename",
+      "type": "command",
+      "content": "VirtualFile.rename( strOldname, strNewname );"
+    },
+    {
+      "id": "m_07_rename",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7701922634205861",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strOldname</td><td>String</td><td colspan=\"2\"><div>위치를 이동하거나 이름을 변경할 파일명을 경로와 함께 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td>strNewname</td><td>String</td><td colspan=\"2\"><div>새로 이동될 위치와 파일명을 경로와 함께 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\n\nbSucc = this.VirtualFile00.rename(\"%USERAPP%oldname.txt\", \"%USERAPP%newname.txt\") ;\nbSucc = this.VirtualFile00.rename(\"%USERAPP%file00.txt\", \"%SD_CARD%file00.txt\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_rename",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9472397187849495",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터가 생략되거나 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_rename",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_rename",
+      "type": "pre",
+      "content": "- 파일 이동에 성공하면 onsuccess 이벤트가 발생합니다.\n  파일 이동에 실패하면 onerror 이벤트가 발생합니다.\n\n◆ Windows NRE 제약\n- Environment.filesecurelevel 속성값을 \"all\"로 설정한 경우에는 모든 경로에 접근을 허용합니다. \n  단, strNewname 파라미터로 설정한 경로 중 %MYDOCUMENT% 경로를 제외한 모든 경로에 대해 사용자에게 접근 허용 여부를 확인한 후 사용자가 승인한 경우에만 메소드를 실행합니다.\n\n◆ Alias\n- strOldname 과 strNewname 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01renameDirectory",
+      "type": "heading2",
+      "content": "renameDirectory",
+      "option": {
+        "alias": "VirtualFile_renameDirectory"
+      }
+    },
+    {
+      "id": "m_02_renameDirectory",
+      "type": "pre",
+      "content": "VirtualFile 에서 폴더명을 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_renameDirectory",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_renameDirectory",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_renameDirectory",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_renameDirectory",
+      "type": "command",
+      "content": "VirtualFile.renameDirectory( strOldName, strNewName )"
+    },
+    {
+      "id": "m_07_renameDirectory",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6549742114678784",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strOldName</td><td>String</td><td colspan=\"2\"><div>변경할 폴더명을 경로와 함께 설정합니다.\n\n\"C:\\\\TobeSoft\\\\TestFolder\" 와 같이 절대경로를 설정 시 해당 위치의 폴더명이 변경됩니다.\n\"My_Folder\" 와 같이 폴더명만 설정할 경우 \"내문서\" 위치의 폴더명이 변경됩니다.</div></td></tr><tr><td>strNewName</td><td>String</td><td colspan=\"2\"><div>경로를 포함하지 않은 새로운 폴더명을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bChange;\nbChange = this.VirtualFile00.renameDirectory( \"TestFolder\",\"TestFolder_New\" );\nbChange = this.VirtualFile00.renameDirectory( \"C:\\\\TobeSoft\\\\TestFolder\", \"TestFolder_New\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_renameDirectory",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3915326834564331",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>폴더명 변경여부와 관계없이 메소드 수행 여부를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_renameDirectory",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_renameDirectory",
+      "type": "pre",
+      "content": "- 폴더명 변경에 성공하면 onsuccess 이벤트가 발생합니다.\n   폴더명 변경에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01seek",
+      "type": "heading2",
+      "content": "seek",
+      "option": {
+        "alias": "VirtualFile_seek"
+      }
+    },
+    {
+      "id": "m_02_seek",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈한 파일에서 파일포인터의 위치를 이동하는 메소드입니다."
+    },
+    {
+      "id": "m_03_seek",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_seek",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_seek",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_seek",
+      "type": "command",
+      "content": "VirtualFile.seek(nOffset[, constOption])"
+    },
+    {
+      "id": "m_07_seek",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.37215966944059486",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nOffset</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 파일포인터를 이동시킬 위치를 Byte 단위의 숫자로 설정합니다.\n\n음수값 설정 시 현재 위치에서 시작위치 방향으로 포인터가 이동합니다.</div></td></tr><tr><td>constOption</td><td>Constant</td><td colspan=\"2\"><div>파일 포인터를 이동시킬때 적용할 옵션을 상수값으로 설정합니다.\n\n\"VirtualFile.seekBegin\" 또는 0 설정 시 파일의 시작위치를 기준으로 파일포인터가 이동합니다.\n\"VirtualFile.seekCurrent\" 또는 1 설정 시 현재 파일포인터 위치를 기준으로 이동합니다.\n\"VirtualFile.seekEnd\" 또는 2 설정 시 파일의 마지막위치를 기준으로 파일포인터가 이동합니다.\n\n값 생략 시 \"VirtualFile.seekCurrent\" 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.seek(1000);\nthis.VirtualFile00.seek(1000, VirtualFile.seekBegin);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_seek",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.14792148055191623",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터에 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_seek",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_seek",
+      "type": "pre",
+      "content": "- 파일포인터 이동에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일포인터 이동에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "VirtualFile_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "VirtualFile 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "VirtualFile.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.14036581110250812",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00_onsuccess = function( obj:nexacro.VirtualFile,  e:nexacro.VirtualFileEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.VirtualFile00.setEventHandler( \"onsuccess\", this.VirtualFile00_onsuccess, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.18517941200423493",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 \"0\"번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 \"0\"번인 핸들러 함수가 없다면 \"0\"번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01write",
+      "type": "heading2",
+      "content": "write",
+      "option": {
+        "alias": "VirtualFile_write"
+      }
+    },
+    {
+      "id": "m_02_write",
+      "type": "pre",
+      "content": "VirtualFile 에 오픈된 파일에 데이터를 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_write",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_write",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_write",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_write",
+      "type": "command",
+      "content": "VirtualFile.write( varData [, strCharset] )"
+    },
+    {
+      "id": "m_07_write",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3408904916589317",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>varData</td><td>Variant</td><td colspan=\"2\"><div>오픈된 파일에 저장할 데이터를 문자열 또는 Buffer 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>strCharset</td><td>String</td><td colspan=\"2\"><div>오픈된 파일에서 저장할 내용에 적용할 CharSet 을 설정합니다.\n\nWindows NRE 만 적용되고 모바일은 \"UTF-8\" 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VirtualFile00.write( \"test\" );\nthis.VirtualFile00.write( new Object() );\nthis.VirtualFile00.write( \"Hello!!\", \"utf-8\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_write",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5859896769040903",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>필수 파라미터가 생략되거나 파라미터에 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_write",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_write",
+      "type": "pre",
+      "content": "- 파일 저장에 성공하면 onsuccess 이벤트가 발생합니다.\n   파일 저장에 실패하면 onerror 이벤트가 발생합니다.\n\n- 오픈된 파일의 형태에 따라 Text 또는 Binary 데이터로 변환되어 저장하며 저장된 후 파일포인터가 이동합니다.\n\n- write() 메소드가 수행되려면 파일을 오픈할 때 \"VirtualFile.openWrite\"  모드가 포함되어 있어야 합니다.\n\n- 파일을 오픈할때 \"VirtualFile.openAppend\" 가 포함된 경우에는 무조건 파일의 마지막 위치에 데이터를 추가합니다.\n\n- strCharset 에 \"euc-kr\", \"Shift-JIS\" 등 ANSI CodePage 로도 인코딩이 가능합니다.\n\n\n◆ Windows NRE 제약\n\n- varData 파라미터 값으로 지정한 문자열 또는 오브젝트 크기가 200MB 이상인 경우 onerror 이벤트가 발생합니다.\n  (V8 엔진에서는 268,435,440Byte까지 지원하지만 내부적으로 인코딩 처리를 하면서 늘어나는 크기를 고려해 약 200MB 정도 크기까지 권장합니다)."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "VirtualFile_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "VirtualFile 에 요청된 작업이 실패했을 때 발생되는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.VirtualFile,e:nexacro.VirtualFileErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.32584308734043754",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VirtualFile</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VirtualFileErrorEventInfo\" string=\"VirtualFileErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 는 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다.\n\n- Safari 브라우저에서는 지원되지 않는 이벤트입니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "VirtualFile_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "VirtualFile 에 요청된 작업이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.VirtualFile,e:nexacro.VirtualFileEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8130501863044952",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VirtualFile</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VirtualFileEventInfo\" string=\"VirtualFileEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 는 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload, FileUpTransfer, DragEventInfo 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성 등으로 제공되는 VirtualFile 오브젝트만 사용할 수 있습니다.\n\n- Safari 브라우저에서는 지원되지 않는 이벤트입니다."
+    }
+  ]
+}
