@@ -1,0 +1,772 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "사각형 모양의 영역 좌표를 처리하기 위해 제공되는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 스크립트로 오브젝트를 생성하여 영역좌표를 관리할 수 있습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_height",
+      "type": "heading2",
+      "content": "height",
+      "option": {
+        "alias": "Rect_height"
+      }
+    },
+    {
+      "id": "p_02_height",
+      "type": "pre",
+      "content": "Rect 오브젝트의 높이를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_height",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_height",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_height",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_height",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_height",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8080594753880499",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objRect = new nexacro.Rect() ;\n\nobjRect.height = 200;</div></td></tr><tr><th>nHeight</th><td colspan=\"2\"><div>높이를 pixel 단위의 정수로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_height",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_height",
+      "type": "pre",
+      "content": "- height 속성값을 설정하지 않으면 \"0\" 으로 적용됩니다."
+    },
+    {
+      "id": "p_01_left",
+      "type": "heading2",
+      "content": "left",
+      "option": {
+        "alias": "Rect_left"
+      }
+    },
+    {
+      "id": "p_02_left",
+      "type": "pre",
+      "content": "Rect 오브젝트의 좌측 좌표값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_left",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_left",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_left",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_left",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_left",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.38871272987280725",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objRect = new nexacro.Rect() ;\n\nobjRect.left = 50;</div></td></tr><tr><th>nLeft</th><td colspan=\"2\"><div>좌측 좌표값을 pixel 단위의 정수로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_left",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_left",
+      "type": "pre",
+      "content": "- left 속성값을 설정하지 않으면 \"0\" 으로 적용됩니다."
+    },
+    {
+      "id": "p_01_top",
+      "type": "heading2",
+      "content": "top",
+      "option": {
+        "alias": "Rect_top"
+      }
+    },
+    {
+      "id": "p_02_top",
+      "type": "pre",
+      "content": "Rect 오브젝트의 상단 좌표값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_top",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_top",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_top",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_top",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_top",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.05180092304393191",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objRect = new nexacro.Rect() ;\n\nobjRect.top = 50;</div></td></tr><tr><th>nTop</th><td colspan=\"2\"><div>상단 좌표값을 pixel 단위의 정수로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_top",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_top",
+      "type": "pre",
+      "content": "- top 속성값을 설정하지 않으면 \"0\" 으로 적용됩니다."
+    },
+    {
+      "id": "p_01_width",
+      "type": "heading2",
+      "content": "width",
+      "option": {
+        "alias": "Rect_width"
+      }
+    },
+    {
+      "id": "p_02_width",
+      "type": "pre",
+      "content": "Rect 오브젝트의 너비를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_width",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_width",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_width",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_width",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_width",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.47308230782193783",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objRect = new nexacro.Rect() ;\n\nobjRect.width = 200;</div></td></tr><tr><th>nWidth</th><td colspan=\"2\"><div>너비를 pixel 단위의 정수로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_width",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_width",
+      "type": "pre",
+      "content": "- width 속성값을 설정하지 않으면 \"0\" 으로 적용됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01clear",
+      "type": "heading2",
+      "content": "clear",
+      "option": {
+        "alias": "Rect_clear"
+      }
+    },
+    {
+      "id": "m_02_clear",
+      "type": "pre",
+      "content": "Rect 오브젝트의 모든 속성값을 0 으로 초기화하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_07_clear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7276598405305341",
+      "type": "command",
+      "content": "var objRect = new nexacro.Rect( 10,10,100,100 );\n\nobjRect.clear()"
+    },
+    {
+      "id": "m_09_clear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clear",
+      "type": "pre",
+      "content": "- Rect 오브젝트는 left, top, width, height 속성을 갖습니다."
+    },
+    {
+      "id": "m_01clone",
+      "type": "heading2",
+      "content": "clone",
+      "option": {
+        "alias": "Rect_clone"
+      }
+    },
+    {
+      "id": "m_02_clone",
+      "type": "pre",
+      "content": "Rect 오브젝트의 속성값을 복사하여 새로운 Rect 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clone",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clone",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clone",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clone",
+      "type": "command",
+      "content": "Rect.clone()"
+    },
+    {
+      "id": "m_07_clone",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.0017894750830451667",
+      "type": "command",
+      "content": "var objRect1 = new nexacro.Rect(10,10,100,100);\n\nvar objRect2 = objRect1.clone();"
+    },
+    {
+      "id": "m_08_clone",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.05352322365223705",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 Rect 오브젝트의 값을 복사한 새로운 Rect 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01copy",
+      "type": "heading2",
+      "content": "copy",
+      "option": {
+        "alias": "Rect_copy"
+      }
+    },
+    {
+      "id": "m_02_copy",
+      "type": "pre",
+      "content": "인수로 전달된 Rect 오브젝트의 속성값을 현재 Rect 오브젝트의 속성값으로 복사하는 메소드입니다."
+    },
+    {
+      "id": "m_03_copy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_copy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_copy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_copy",
+      "type": "command",
+      "content": "Rect.copy( objRect )"
+    },
+    {
+      "id": "m_07_copy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.06332270315275201",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objRect</td><td>Object</td><td colspan=\"2\"><div>현재 Rect 오브젝트의 속성에 복사될 값을 Rect 오브젝트 형태로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objRect1 = new nexacro.Rect( 10,10,100,100 );\nvar objRect2 = new nexacro.Rect( 20,20,200,200 );\n\nobjRect1.copy(objRect2);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_copy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_copy",
+      "type": "pre",
+      "content": "- 인수로 전달된 Rect 오브젝트의 속성값이 left, top, width, height 속성에 각각 복사됩니다."
+    },
+    {
+      "id": "m_01equals",
+      "type": "heading2",
+      "content": "equals",
+      "option": {
+        "alias": "Rect_equals"
+      }
+    },
+    {
+      "id": "m_02_equals",
+      "type": "pre",
+      "content": "현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 속성값 일치여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_equals",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_equals",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_equals",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_equals",
+      "type": "command",
+      "content": "Rect.equals( objRect )"
+    },
+    {
+      "id": "m_07_equals",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1627953487454904",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objRect</td><td>Object</td><td colspan=\"2\"><div>현재 Rect 오브젝트의 속성값과 비교할 값을 Rect 오브젝트 형태로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objRect1 = new nexacro.Rect(10,10,100,100);\nvar objRect2 = new nexacro.Rect(20,20,200,200);\n\nalert( objRect1.equals(objRect2) );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_equals",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.17219830295555627",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 속성값이 모두 일치하면 \"true\" 를 반환합니다.\n\n현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 속성값이 하나라도 다르면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_equals",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_equals",
+      "type": "pre",
+      "content": "- Rect 오브젝트의 left, top, width, height 속성을 각각 비교합니다."
+    },
+    {
+      "id": "m_01getBottom",
+      "type": "heading2",
+      "content": "getBottom",
+      "option": {
+        "alias": "Rect_getBottom"
+      }
+    },
+    {
+      "id": "m_02_getBottom",
+      "type": "pre",
+      "content": "Rect 오브젝트의 하단 좌표값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getBottom",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getBottom",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getBottom",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getBottom",
+      "type": "command",
+      "content": "Rect.getBottom()"
+    },
+    {
+      "id": "m_07_getBottom",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.8724531542417291",
+      "type": "command",
+      "content": "var objRect1 = new nexacro.Rect( 10,10,100,100 );\n\nalert(objRect1.getBottom());"
+    },
+    {
+      "id": "m_08_getBottom",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7283132766375751",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Rect 오브젝트의 하단 좌표값을 pixel 단위의 정수로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getRight",
+      "type": "heading2",
+      "content": "getRight",
+      "option": {
+        "alias": "Rect_getRight"
+      }
+    },
+    {
+      "id": "m_02_getRight",
+      "type": "pre",
+      "content": "Rect 오브젝트의 우측 좌표값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getRight",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getRight",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getRight",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getRight",
+      "type": "command",
+      "content": "Rect.getRight()"
+    },
+    {
+      "id": "m_07_getRight",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.12678978293146692",
+      "type": "command",
+      "content": "var objRect1 = new nexacro.Rect( 10,10,100,100 );\n\nalert(objRect1.getRight());"
+    },
+    {
+      "id": "m_08_getRight",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8095333905460165",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Rect 오브젝트의 우측 좌표값을 pixel 단위의 정수로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isSameSize",
+      "type": "heading2",
+      "content": "isSameSize",
+      "option": {
+        "alias": "Rect_isSameSize"
+      }
+    },
+    {
+      "id": "m_02_isSameSize",
+      "type": "pre",
+      "content": "현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 넓이와 높이가 일치하는지 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isSameSize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isSameSize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isSameSize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isSameSize",
+      "type": "command",
+      "content": "Rect.isSameSize( objRect )"
+    },
+    {
+      "id": "m_07_isSameSize",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7820601605255354",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objRect</td><td>Object</td><td colspan=\"2\"><div>현재 Rect 오브젝트의 넓이, 높이와 비교할 Rect 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objRect1 = new nexacro.Rect(10,10,100,100);\nvar objRect2 = new nexacro.Rect(30,30,100,100);\n\nalert( objRect1.isSameSize(objRect2) );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isSameSize",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5829686521005889",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 넓이와 높이가 일치하면 \"true\" 를 반환합니다.\n\n현재 Rect 오브젝트와 인수로 전달된 Rect 오브젝트의 넓이 또는 높이가 다르면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_isSameSize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isSameSize",
+      "type": "pre",
+      "content": "- Rect 오브젝트의 width, height 속성을 각각 비교합니다."
+    }
+  ]
+}
