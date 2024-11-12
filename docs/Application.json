@@ -1,0 +1,2980 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "넥사크로로 만든 애플리케이션의 기본 정보와 초기 생성 시 주어지는 환경정보를 다루는 기본이 되는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_all",
+      "type": "heading2",
+      "content": "all",
+      "option": {
+        "alias": "Application_all"
+      }
+    },
+    {
+      "id": "p_02_all",
+      "type": "pre",
+      "content": "Application 에 등록된 모든 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_all",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_all",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_all",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_all",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_all",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7468773620236793",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objItem0 = objApp.all[0] ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_all",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_all",
+      "type": "pre",
+      "content": "- all 속성을 사용하면 Application 에 속한 mainframe, Variables, DataSet, Objects 정보에 접근할 수 있습니다.\n\n- all 속성은 Collection 접근방식을 사용할 수 있습니다.\n  Application.all[0], Application.all[\"MainFrame\"], Application.all.length 등의 방법을 사용합니다."
+    },
+    {
+      "id": "p_01_licenseurl",
+      "type": "heading2",
+      "content": "licenseurl",
+      "option": {
+        "alias": "Application_licenseurl"
+      }
+    },
+    {
+      "id": "p_02_licenseurl",
+      "type": "pre",
+      "content": "라이선스 정보를 가지고 있는 파일의 경로를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_licenseurl",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_licenseurl",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_licenseurl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_licenseurl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_licenseurl",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_licenseurl",
+      "type": "command",
+      "content": "application.licenseurl"
+    },
+    {
+      "id": "p_09_licenseurl",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.30464459302136826",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nalert(objApp.licenseurl);</div></td></tr><tr><th>licenseurl</th><td colspan=\"2\"><div>라이선스 정보를 가진 파일의 경로를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_licenseurl",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_licenseurl",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 라이선스 경로가 서버인 경우에는 ADL과 같은 도메인 경로(D Class까지)만 허용합니다."
+    },
+    {
+      "id": "p_01_mainframe",
+      "type": "heading2",
+      "content": "mainframe",
+      "option": {
+        "alias": "Application_mainframe"
+      }
+    },
+    {
+      "id": "p_02_mainframe",
+      "type": "pre",
+      "content": "Application 하위에 속한 MainFrame 을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_mainframe",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_mainframe",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_mainframe",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_mainframe",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_mainframe",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7808531288565423",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objMainframe = objApp.mainframe ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_mainframe",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_mainframe",
+      "type": "pre",
+      "content": "- MainFrame 의 ID 를 사용하여 접근할 수 있습니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Application_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Application 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8419790053187369",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>Application 의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_screenid",
+      "type": "heading2",
+      "content": "screenid",
+      "option": {
+        "alias": "Application_screenid"
+      }
+    },
+    {
+      "id": "p_02_screenid",
+      "type": "pre",
+      "content": "Application 이 실행되는 스크린의 ID 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_screenid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_screenid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_screenid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_screenid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_screenid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_screenid",
+      "type": "command",
+      "content": "application.screenid"
+    },
+    {
+      "id": "p_09_screenid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5521877896089574",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>screenid</th><td colspan=\"2\"><div>ScreenDefinition 영역에 정의된 스크린 항목을 콤마(\",\")로 구분하여 여러개 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_screenid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_screenid",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 동일 프로젝트에서 하나의 스크린 ID는 하나의 Application 에만 등록될 수 있습니다."
+    },
+    {
+      "id": "p_01_trays",
+      "type": "heading2",
+      "content": "trays",
+      "option": {
+        "alias": "Application_trays"
+      }
+    },
+    {
+      "id": "p_02_trays",
+      "type": "pre",
+      "content": "Application 에 등록된 Tray 오브젝트의 정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_trays",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_trays",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_trays",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_trays",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_trays",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8822337252813189",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objTray0 = objApp.trays[0] ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_trays",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_trays",
+      "type": "pre",
+      "content": "- trays 속성은 Collection 접근방식을 사용할 수 있습니다.\n  objApp.trays[0], objApp.trays[\"Tray00\"], objApp.trays.length 등의 방법을 사용합니다."
+    },
+    {
+      "id": "p_01_version",
+      "type": "heading2",
+      "content": "version",
+      "option": {
+        "alias": "Application_version"
+      }
+    },
+    {
+      "id": "p_02_version",
+      "type": "pre",
+      "content": "Application 의 버전을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_version",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_version",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_version",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_version",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_version",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.866564241496919",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nobjApp.version = \"4.0\";</div></td></tr><tr><th>strVersion</th><td colspan=\"2\"><div>Application 의 버전을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "Application_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "Application.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6542859335696691",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.addEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6811355957706701",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "Application_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "함수를 검색하여 Application 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "Application.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.06569924739599564",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.addEventHandlerLookup( \"onload\", \"application_onload\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8218732933661483",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01addTray",
+      "type": "heading2",
+      "content": "addTray",
+      "option": {
+        "alias": "Application_addTray"
+      }
+    },
+    {
+      "id": "m_02_addTray",
+      "type": "pre",
+      "content": "동적으로 생성한 Tray 를 Application 에 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addTray",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addTray",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addTray",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addTray",
+      "type": "command",
+      "content": "Application.addTray(strTrayID, objTray)"
+    },
+    {
+      "id": "m_07_addTray",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.16924099309204854",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTrayID</td><td>String</td><td colspan=\"2\"><div>Application 에 추가될 Tray 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objTray</td><td>Object</td><td colspan=\"2\"><div>Application 에 추가될 Tray 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addTray",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.43354130081856135",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>trays 속성에 추가된 Tray 오브젝트의 인덱스를 반환합니다.\n\nTray 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addTray",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addTray",
+      "type": "pre",
+      "content": "- trays 속성을 통해 현재 등록되어 있는 Tray 들을 확인할 수 있습니다."
+    },
+    {
+      "id": "m_01addVariable",
+      "type": "heading2",
+      "content": "addVariable",
+      "option": {
+        "alias": "Application_addVariable"
+      }
+    },
+    {
+      "id": "m_02_addVariable",
+      "type": "pre",
+      "content": "Application 의 AppVariables 영역에 변수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addVariable",
+      "type": "command",
+      "content": "Application.addVariable( strID, varValue )"
+    },
+    {
+      "id": "m_07_addVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.051330588298515445",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수의 ID를 설정합니다.</div></td></tr><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar nSucc;\nnSucc = objApp.addVariable(\"aa\", \"test1\");\nnSucc = objApp.addVariable(\"aa\", \"test1\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.19682321012893023",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>변수 추가에 성공하면 \"1\" 을 반환합니다.\n변수 추가에 실패하면 \"0\" 을 반환합니다.\n동일한 변수가 존재하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addVariable",
+      "type": "pre",
+      "content": "- AppVariables 영역에 이미 존재하는 변수명일 경우에는 메소드가 수행되지 않습니다.\n\n- Environment 영역에 변수를 추가하기 위해서는 setEnvironmentVariable() 메소드를 사용하여야 합니다.\n\n- 통신 시 사용되는 Cookie 를 추가하기 위해서는 setCookieVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_11_addVariable",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addVariable",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_dataset_05'>스크립트로 Dataset 생성하기</a>"
+    },
+    {
+      "id": "m_01alert",
+      "type": "heading2",
+      "content": "alert",
+      "option": {
+        "alias": "Application_alert"
+      }
+    },
+    {
+      "id": "m_02_alert",
+      "type": "pre",
+      "content": "Application 의 경고 대화상자를 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_alert",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_alert",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_alert",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_alert",
+      "type": "command",
+      "content": "Application.alert( strText )"
+    },
+    {
+      "id": "m_07_alert",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5583975253641145",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.alert( \"warning\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_alert",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_alert",
+      "type": "pre",
+      "content": "- 현재 활성화되어 있는 Form 의 중앙에 대화상자를 표시합니다."
+    },
+    {
+      "id": "m_11_alert",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_alert",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_application_01'>경고, 확인 대화상자 띄우기</a>"
+    },
+    {
+      "id": "m_01cancelTransaction",
+      "type": "heading2",
+      "content": "cancelTransaction",
+      "option": {
+        "alias": "Application_cancelTransaction"
+      }
+    },
+    {
+      "id": "m_02_cancelTransaction",
+      "type": "pre",
+      "content": "진행중인 트렌젝션을 중지 시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_cancelTransaction",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_cancelTransaction",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_cancelTransaction",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_cancelTransaction",
+      "type": "command",
+      "content": "cancelTransaction( [strSvcID] )"
+    },
+    {
+      "id": "m_07_cancelTransaction",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.23367850720012617",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>중지 시킬 트랜잭션의 ID 를 설정합니다.\n\n값 생략 시 트랜잭션 중 ESC 키를 입력했을 때와 동일하게 통신을 강제로 중지시킵니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_cancelTransaction",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_cancelTransaction",
+      "type": "pre",
+      "content": "- Sync 로 동작되는 트렌잭션에는 적용되지 않습니다."
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "Application_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다"
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "Application.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.785978053343317",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar nCnt = objApp.clearEventHandler( \"onload\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5663292859681254",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하시기 바랍니다."
+    },
+    {
+      "id": "m_01confirm",
+      "type": "heading2",
+      "content": "confirm",
+      "option": {
+        "alias": "Application_confirm"
+      }
+    },
+    {
+      "id": "m_02_confirm",
+      "type": "pre",
+      "content": "Application 의 선택 대화상자를 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_confirm",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_confirm",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_confirm",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_confirm",
+      "type": "command",
+      "content": "Application.confirm( strText [,strCaption [,strType]] )"
+    },
+    {
+      "id": "m_07_confirm",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5840468103684581",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다.</div></td></tr><tr><td>strCaption</td><td>String</td><td colspan=\"2\"><div>대화상자의 TitleBar 에 표시할 텍스트를 설정합니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>대화상자의 왼쪽 영역에 표시될 아이콘 종류를 문자열로 설정합니다.\n\n\"error\" 설정 시 빨간색 \"X\" 모양 아이콘이 표시됩니다.\n\"question\" 설정 시 물음표(\"?\") 모양 아이콘이 표시됩니다.\n\"warning\" 설정 시 노랑색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\"information\" 설정 시 파란색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\n값을 설정하지 않으면 아이콘을 표시하지 않습니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar bOK;\nbOK = objApp.confirm( \"Please check it carefully.\" );\nbOK = objApp.confirm( \"Please check it carefully.\" , \"TitleTest\");\nbOK = objApp.confirm( \"Please check it carefully.\" , \"TitleTest\", \"error\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_confirm",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.29456353037873995",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>표시된 선택 대화상자에서 \"확인\" 버튼을 선택하면 \"true\"를 반환합니다.\n표시된 선택 대화상자에서 \"취소\" 버튼을 선택하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_confirm",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_confirm",
+      "type": "pre",
+      "content": "- 현재 활성화되어 있는 Form 의 중앙에 대화상자를 표시합니다."
+    },
+    {
+      "id": "m_01exit",
+      "type": "heading2",
+      "content": "exit",
+      "option": {
+        "alias": "Application_exit"
+      }
+    },
+    {
+      "id": "m_02_exit",
+      "type": "pre",
+      "content": "실행중인 넥사크로 어플리케이션을 종료시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_exit",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_exit",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_exit",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_exit",
+      "type": "command",
+      "content": "Application.exit()"
+    },
+    {
+      "id": "m_07_exit",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.267094074646146",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;\nobjApp.exit() ;"
+    },
+    {
+      "id": "m_09_exit",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_exit",
+      "type": "pre",
+      "content": "- exit() 메소드 이후에 정의된 스크립트까지 실행하고 어플리케이션을 종료합니다.\n   단, exit() 메소드 이후 스크립트에 정의된 alert(), confirm() 메소드는 실행되지 않습니다.\n\n\n◆ WRE 제약\n\n- 애플리케이션을 외부 페이지 링크 또는 window.open 함수로 열지 않고 직접 브라우저 주소창에 URL을 입력하고 실행할 때 발생하는 제약사항입니다.\n\n- 스크립트에서 exit 메소드 실행 시 열려있는 Form이 종료되고 실행 중인 넥사크로 애플리케이션을 종료시키지만 현재 브라우저 탭은 닫히지 않으며 콘솔에 스크립트 에러가 표시됩니다.\n\n- 브라우저 탭은 닫히지 않지만 애플리케이션 종료 요청은 처리되기 때문에 exit 메소드 실행 시 onexit, onbeforeexit 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "Application_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "Application.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.42476152691039826",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.findEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9747284658794162",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에서 찾으려고 하는 핸들러 함수의 인덱스를 반환합니다.\n\n찾으려고 하는 핸들러 함수가 존재하지 않는다면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 이벤트에 등록된 핸들러 함수의 인덱스는 \"0\"부터 시작합니다."
+    },
+    {
+      "id": "m_01getActiveForm",
+      "type": "heading2",
+      "content": "getActiveForm",
+      "option": {
+        "alias": "Application_getActiveForm"
+      }
+    },
+    {
+      "id": "m_02_getActiveForm",
+      "type": "pre",
+      "content": "Application 에서 현재 활성화된 Form 객체를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getActiveForm",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getActiveForm",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getActiveForm",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getActiveForm",
+      "type": "command",
+      "content": "Application.getActiveForm()"
+    },
+    {
+      "id": "m_07_getActiveForm",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.771954202935543",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ; \nvar objForm = objApp.getActiveForm() ;"
+    },
+    {
+      "id": "m_08_getActiveForm",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6194590778856666",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 포커스를 가진 컴포넌트의 부모 Form 을 반환합니다.\n\nDiv 와 같은 컨테이너 컴포넌트에 속한 컴포넌트에 포커스가 있을 경우 Div 의 부모 Form 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_getActiveForm",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getActiveForm",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_application_06'>활성화된 화면(Form) 이름(ID) 속성 정보 얻기</a>"
+    },
+    {
+      "id": "m_01getActiveFrame",
+      "type": "heading2",
+      "content": "getActiveFrame",
+      "option": {
+        "alias": "Application_getActiveFrame"
+      }
+    },
+    {
+      "id": "m_02_getActiveFrame",
+      "type": "pre",
+      "content": "Application 에서 현재 활성화된 Frame 객체를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getActiveFrame",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getActiveFrame",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getActiveFrame",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getActiveFrame",
+      "type": "command",
+      "content": "Application.getActiveFrame()"
+    },
+    {
+      "id": "m_07_getActiveFrame",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7571736473010694",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;\nvar objForm = objApp.getActiveFrame() ;"
+    },
+    {
+      "id": "m_08_getActiveFrame",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8397385432494805",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 포커스를 가진 Form 의 부모 Frame 을 반환합니다.\n\nModal, Modeless 자식 Frame 을 포함하여 현재 포커스를 가진 Frame 이 반환됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getActiveFrame",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getActiveFrame",
+      "type": "pre",
+      "content": "모달, 모덜리스 자식프레임을 포함하여 현재 포커스를 가진 프레임이 반환됩니다.\n\n프레임세트내 프레임이 활성화된 경우, 활성화된 폼을 담고 있는 프레임이 반환됩니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "Application_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "Application.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6512419038793715",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx </td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n인덱스는 \"0\"부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar objFunc = objApp.getEventHandler( \"onload\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5852036517922719",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 \"null\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "Application_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "Application.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6816544477596567",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.insertEventHandler( \"onload\", 0, this.application_onload, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6752566098828285",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01isExistVariable",
+      "type": "heading2",
+      "content": "isExistVariable",
+      "option": {
+        "alias": "Application_isExistVariable"
+      }
+    },
+    {
+      "id": "m_02_isExistVariable",
+      "type": "pre",
+      "content": "Application 의 AppVariables 영역에 특정 변수의 존재여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isExistVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isExistVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isExistVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isExistVariable",
+      "type": "command",
+      "content": "Application.isExistVariable( strID );"
+    },
+    {
+      "id": "m_07_isExistVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8131826149884948",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 변수의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar bExist = objApp.isExistVariable(\"aa\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isExistVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.34571748189406193",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>변수가 AppVariables 영역에 존재하면 \"true\" 를 반환합니다.\n변수가 AppVariables 영역에 존재하지 않으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01lookup",
+      "type": "heading2",
+      "content": "lookup",
+      "option": {
+        "alias": "Application_lookup"
+      }
+    },
+    {
+      "id": "m_02_lookup",
+      "type": "pre",
+      "content": "인수로 전달된 오브젝트를 Application 전체를 대상으로 검색하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_lookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_lookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_lookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_lookup",
+      "type": "command",
+      "content": "Application.lookup( strObjectID )"
+    },
+    {
+      "id": "m_07_lookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.14848901768474065",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strObjectID</td><td>String</td><td colspan=\"2\"><div>검색하여 찾고자 하는 오브젝트의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_lookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.18959647437905525",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>검색하여 찾아낸 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "Application_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "Application.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1555554552054782",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.removeEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3971780736038649",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\"을 반환합니다.\n핸들러 함수 제거에 실패하면 \"0\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 추가된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하시기 바랍니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "Application_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "Application.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6167039058140564",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.removeEventHandlerLookup( \"onload\", \"application_onload\", this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.730012843823431",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\"을 반환합니다.\n핸들러 함수 제거에 실패하면 \"0\"을 반환합니다</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 \"0\" 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeTray",
+      "type": "heading2",
+      "content": "removeTray",
+      "option": {
+        "alias": "Application_removeTray"
+      }
+    },
+    {
+      "id": "m_02_removeTray",
+      "type": "pre",
+      "content": "Application 의 trays 속성에 등록된 Tray 오브젝트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeTray",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeTray",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeTray",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeTray",
+      "type": "command",
+      "content": "application.removeTray([strID]);"
+    },
+    {
+      "id": "m_07_removeTray",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8969790313185244",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strId</td><td>String</td><td colspan=\"2\"><div>Application 의 trays 속성에서 삭제될 Tray 오브젝트의 ID 를 설정합니다.\n\n값을 설정하지 않으면 등록된 전체 Tray 오브젝트가 삭제됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\n\nobjApp.removeTray(\"Tray00\");\nobjApp.removeTray();</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_01removeVariable",
+      "type": "heading2",
+      "content": "removeVariable",
+      "option": {
+        "alias": "Application_removeVariable"
+      }
+    },
+    {
+      "id": "m_02_removeVariable",
+      "type": "pre",
+      "content": "Application 의 AppVariables 영역에서 변수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeVariable",
+      "type": "command",
+      "content": "Application.removeVariable( strID )"
+    },
+    {
+      "id": "m_07_removeVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24333766641659416",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.removeVariable(\"aa\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_removeVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeVariable",
+      "type": "pre",
+      "content": "- Environment 영역에 있는 변수를 제거하기 위해서는 removeEnvironmentVariable() 메소드를 사용하여야 합니다.\n\n- 통신 시 사용되는 Cookie 를 제거하기 위해서는 removeCookieVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "Application_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "Application.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9999507210300841",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.setEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.21127225832206986",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 \"0\"번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 \"0\"번인 핸들러 함수가 없다면 \"0\"번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "Application_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "Application 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "Application.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4559701324255193",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.setEventHandlerLookup( \"onload\", \"application_onload\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.36258013986947957",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 \"0\"번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 \"0\"번인 핸들러 함수가 없다면 \"0\"번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setVariable",
+      "type": "heading2",
+      "content": "setVariable",
+      "option": {
+        "alias": "Application_setVariable"
+      }
+    },
+    {
+      "id": "m_02_setVariable",
+      "type": "pre",
+      "content": "Application 의 AppVariables 영역에 변수를 추가 또는 값을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setVariable",
+      "type": "command",
+      "content": "Application.setVariable( strID, varValue )"
+    },
+    {
+      "id": "m_07_setVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.04499237732623729",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수명을 설정합니다.</div></td></tr><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar nSucc = objApp.setVariable(\"aa\", \"test1\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4162005318856049",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>변수 추가에 성공하면 \"1\" 을 반환합니다.\n변수 추가에 실패하면 \"0\" 을 반환합니다.\n동일한 변수가 존재하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setVariable",
+      "type": "pre",
+      "content": "- AppVariables 영역에 이미 존재하는 변수명일 경우에는 값을 변경합니다.\n\n- Environment 영역에 변수를 추가하기 위해서는 setEnvironmentVariable() 메소드를 사용하여야 합니다.\n\n- 통신 시 사용되는 Cookie 를 추가하기 위해서는 setCookieVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01trace",
+      "type": "heading2",
+      "content": "trace",
+      "option": {
+        "alias": "Application_trace"
+      }
+    },
+    {
+      "id": "m_02_trace",
+      "type": "pre",
+      "content": "추적 로그를 남기는 메소드입니다."
+    },
+    {
+      "id": "m_03_trace",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trace",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trace",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trace",
+      "type": "command",
+      "content": "Application.trace( strLog )"
+    },
+    {
+      "id": "m_07_trace",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9642459772168636",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLog</td><td>String</td><td colspan=\"2\"><div>로그로 출력할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trace( \"Check - first position\" ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_trace",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_trace",
+      "type": "pre",
+      "content": "- trace() 메소드로 출력할 수 있는 로그의 최대 길이는 브라우저 버전 및 종류에 따라 달라질 수 있습니다."
+    },
+    {
+      "id": "m_01transaction",
+      "type": "heading2",
+      "content": "transaction",
+      "option": {
+        "alias": "Application_transaction"
+      }
+    },
+    {
+      "id": "m_02_transaction",
+      "type": "pre",
+      "content": "Application 영역에 정의된 Dataset 의 데이터를 갱신하기 위한 서비스를 호출하고, 트랜잭션이 완료되면 콜백함수을 실행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_transaction",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_transaction",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_transaction",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_transaction",
+      "type": "command",
+      "content": "Application.transaction(strSvcID,strURL,strInDatasets,strOutDatasets,strArgument,strCallbackFunc[,bAsync[,nDataType[,bCompress]]])"
+    },
+    {
+      "id": "m_07_transaction",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3106499507190563",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 구분하기 위한 ID를 문자열로 설정합니다.</div></td></tr><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 요청할 서버페이지 주소를 문자열로 설정합니다.\n\nstrURL ::= &lt;absolute-url&gt; | &lt;relative-url&gt;\n\n&lt;absolute-url&gt;\n서버에 배포된 페이지 주소를 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.\n\n&lt;relative-url&gt;\nTypeDefinition 의 Services 영역에 정의된 Prefix 를 사용한 형식으로 설정합니다.\n또는 ADL 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr><tr><td>strInDatasets</td><td>String</td><td colspan=\"2\"><div>데이터 처리를 위해 서버로 보낼 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"입력ID=DataSet ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 보낼 수 있습니다.\n\nex) \"input1=DataSet00 input2=DataSet01\"\n\nApplication 하위 오브젝트의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"input1=mainframe.frame.form.Dataset00 input2=Dataset01\"</div></td></tr><tr><td>strOutDatasets</td><td>String</td><td colspan=\"2\"><div>서버에서 보내는 데이터를 받을 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"DataSet ID=출력ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output1\"\n\n아래와 같은 형식으로 하나의 Ouput Dataset(출력ID)을 여러 개의 Dataset에서 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output0\"\n\nApplication 하위 오브젝트의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"mainframe.frame.form.Dataset00=ouput0 Dataset01=output1\"</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>서버페이지에 보낼 정보를 문자열로 설정합니다.\n\"변수ID=변수값\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 인수값을 보낼 수 있습니다.\n\nex) \"argu0=test argu1=30\"</div></td></tr><tr><td>strCallbackFunc</td><td>String</td><td colspan=\"2\"><div>트랜젝션 결과를 받을 때 호출될 콜백함수명을 문자열로 설정합니다.\n콜백함수는 Application 영역에 정의되어 있어야 합니다.</div></td></tr><tr><td>bAsync</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션을 비동기(ASync)로 처리할지 설정합니다.\n\ntrue 설정 시 트랜잭션을 비동기(ASync)로 처리하여 트랜잭션의 완료와 관계없이 스크립트가 수행됩니다.\nfalse 설정 시 트랜잭션을 동기(Sync)로 처리하여 트랜잭션이 완료될 때까지 스크립트 수행이 중단됩니다.\n\n값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td>nDataType</td><td>Number</td><td colspan=\"2\"><div>트랜잭션 시 클라이언트에서 서버로 보내는 데이터의 형태를 설정합니다.\n\n\"0\" : XML 형식\n\"1\" : Binary 형식\n\"2\" : SSV 형식\n\"3\" : JSON 형식\n\n값을 설정하지 않으면 \"0\" 으로 적용됩니다.</div></td></tr><tr><td>bCompress</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션 시 데이터를 압축시킬지 설정합니다.\n\ntrue 설정 시 데이터를 압축하여 송수신합니다.\nfalse 설정 시 데이터를 압축하지 않고 송수신합니다.\n\n값을 설정하지 않으면 false로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.transaction( \"MyService01\" ,\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\" );\nobjApp.transaction( \"MyService01\" ,\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\",false,1,false );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_transaction",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_transaction",
+      "type": "pre",
+      "content": "- Application 과 Form 에 정의된 transaction() 메소드는 기본적인 기능은 동일하지만 DataSet 과 콜백함수를 찾는 영역이 다릅니다.\n  &gt; Application 의 transaction() 메소드는 DataSet 과 콜백함수가 Application 영역에 정의되어 있어야 합니다.\n  &gt; 반면 Form 의 transaction() 메소드는 Form 영역에서 DataSet 과 콜백함수를 우선적으로 검색하지만,\n  &gt; Form 영역에 DataSet 과 콜백함수가 정의되어 있지 않으면 상위 영역으로 검색을 확장시킵니다.\n  &gt; Form 이 Container Component 에 연결되어 있으면 상위 컴포넌트도 검색 영역에 포함됩니다.\n  &gt; Form 영역에서 strInDatasets, strOutDatasets 파라미터 설정 시 \".\"을 포함한 형식을 사용하는 경우에는 상위 영역으로 검색을 확장하지 않습니다.\n\n- 트랜잭션은 기본적으로 비동기 방식으로 동작합니다.\n   예외적으로 strURL 에 로컬 경로를 설정하는 경우에는 bAsync 옵션과 무관하게 동기(Sync) 방식으로 동작합니다.\n\n- strInDatasets 의 추가 옵션\n   strInDatasets 에 각각의 DataSet ID 뒤에 \":U\", \":A\", \":N\" 의 옵션을 붙일 수 있습니다.\n  &gt; \":U\" 는 갱신된 정보만을 보냅니다.\n  &gt; \":A\" 는 모든 정보를 보냅니다.\n  &gt; \":N\" 은 현재 삭제한 데이터를 제외한 정보를 Normal 상태로 보냅니다. 지정하지 않은 DataSet 은 Normal 로 동작합니다.\n\n- strOutDatasets 관련 주의사항\n   strOutDatasets 으로 입력받는 DataSet 은 Datasetid.load() 와 마찬가지로 \n   기존에 가진 열/레코드 대신 수신받은 DataSet 의 열/레코드로 모두 변경됩니다.\n\n- strCallbackFunc 에 관한 주의사항\n   strCallbackFunc 를 \"Transaction_Callback\" 으로 설정할 경우,\n   해당 Application 영역에는 반드시 this.transaction_Callback = function(strSvcID, nErrorCode, strErrorMag) 이 존재해야 합니다.\n   이 콜백 함수는 위와 같은 형태이며, 콜백 함수의 strSvcID 는 입력된 strSvcID 와 동일합니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 파라미터가 있을 경우 처리되는 사항\n  &gt; 파라미터의 변수명을 Application &gt; Environment 영역 순서로 찾아 처음 일치하는 영역의 변수값만 업데이트합니다.\n     전체 영역에서 일치하는 변수가 없을 경우에는 전달된 파라미터값이 무시됩니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 Return XML 의 ErrorCode 파라미터 관련 주의사항\n  &gt; ErrorCode 가 0 미만의 음수이면 트랜잭션이 실패로 처리되고, Input DataSet 의 상태와 바인딩된 컴포넌트는 리드로(redraw) 되지 않습니다.\n     단, Environment 의 datasetloadtype 속성값이 \"errorallow\" 인 경우는 Output DataSet 에 데이터를 로드합니다.\n  &gt; ErrorCode 가 0 이상이면 트랜잭션이 성공으로 처리되고, Input DataSet 의 상태는 \"Normal\" 로 변경되며 바인딩된 컴포넌트는 리드로(redraw) 됩니다.\n  &gt; 서버로 부터 전달된 데이터가 없을 경우 (서버에서 HttpPlatformResponse 자체를 실행하지 않음)에는\n     ErrorCode 는 -1 값으로, ErrorMsg 는 \"Stream Data is null!\" 값으로 설정된 후 콜백 함수가 호출됩니다.\n\n- 통신을 강제로 중지시키는 방법\n   트랜잭션 처리 중이라도 ESC 키를 누르면 통신을 강제로 중지시킬 수 있습니다.\n\n- Get/Post 방식관련 참고사항  \n   1. strArgument 와 strInDatasets 이 \"\" 이고, Environment 의 Cookies 영역에 변수가 없으면 GET 방식으로 동작합니다.\n   2. strArgument 나 strInDatasets 에 값이 있거나 Environment 의 Cookies 영역에 변수가 있으면 POST로 동작합니다.\n   3. 위 1번의 상태에서 addcookietovariable 값이 \"true\" 이면 서버와의 첫 통신시에는 GET 방식으로 동작하고 이후부터는 서버에서 유입되는\n      Cookie 의 유무에 따라 Cookie 가 있으면 POST, 없으면 GET 방식으로 동작합니다.\n     (addcookietovariable 값이 \"true\"이면 Cookie 가 Environment 의 Cookies 영역에 변수로 자동 추가 되기 때문.)\n\n- 서버로부터 데이터를 Chunked 방식으로 여러번에 걸쳐서 받을 경우 progressload 속성으로 데이터를 로드하는 방식을 설정할 수 있습니다.\n   자세한 내용은 \"Dataset &gt; progressload\" 항목을 참고하시기 바랍니다.\n\n- 트랜잭션을 위한 통신 프로토콜은 HTTP/1.1 입니다.\n\n- 넥사크로 스튜디오를 사용해 넥사크로를 실행했을 때 트랜잭션을 수행하면 CacheLevel 의 설정과 상관없이 \"none\" 으로 동작합니다.\n\n- SSV 타입 참고사항\n   &gt; 넥사크로 Web 버전 과 Mobile 버전 연동을 위하여 CSV 포맷을 확장하여 사용합니다.\n   &gt; 확장내역 : RowType 추가, 구분자 변경(콤마 -&gt; US, 줄바꿈(CR/LF) -&gt; RS)\n   &gt; Empty String 과 undefined 의 구분을 위하여 undefined 는 ETX(end of text)[code:0x03] 값으로 대체되어 서버로 전송됩니다. \n\n\n◆ WRE 제약\n \n- nDataTYpe 값이 “Binary”인 경우에는 bAsync 값과 상관없이 비동기(ASync)로 처리합니다.\n\n- bCompress 값은 지원하지 않습니다.\n\n- bAsync 값을 false로 설정하면 Environment의 httptimeout 속성에 설정된 대기시간이 적용되지 않습니다.\n\n \n◆ Mobile 제약\n \n- iOS/iPadOS 는 비동기(Async) 방식만 지원하여 bAsync 값이 적용되지 않습니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onafteruserconfirm",
+      "type": "heading2",
+      "content": "onafteruserconfirm",
+      "option": {
+        "alias": "Application_onafteruserconfirm"
+      }
+    },
+    {
+      "id": "e_02_onafteruserconfirm",
+      "type": "pre",
+      "content": "UserConfirm 창이 닫힌 후에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onafteruserconfirm",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onafteruserconfirm",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onafteruserconfirm",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onafteruserconfirm",
+      "type": "command",
+      "content": "onafteruserconfirm(obj:nexacro.Application,e:nexacro.EventInfo);",
+      "option": "onafteruserconfirm"
+    },
+    {
+      "id": "e_07_onafteruserconfirm",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6319757723419036",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onafteruserconfirm",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onafteruserconfirm",
+      "type": "pre",
+      "content": "- filesecurelevel 속성값이 \"all\" 일 때 허용된 경로나 파일 이외에 접근하면, 접근 허용여부를 확인하는 UserConfirm 창이 표시됩니다."
+    },
+    {
+      "id": "e_01onbeforeexit",
+      "type": "heading2",
+      "content": "onbeforeexit",
+      "option": {
+        "alias": "Application_onbeforeexit"
+      }
+    },
+    {
+      "id": "e_02_onbeforeexit",
+      "type": "pre",
+      "content": "Application 이 종료되기 전에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onbeforeexit",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onbeforeexit",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onbeforeexit",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onbeforeexit",
+      "type": "command",
+      "content": "onbeforeexit(obj:nexacro.Application,e:nexacro.ExitEventInfo);",
+      "option": "onbeforeexit"
+    },
+    {
+      "id": "e_07_onbeforeexit",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5964601757337232",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_08_onbeforeexit",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9023088881679797",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>- 확인창 표시\n(NRE에서만 지원하는 기능입니다).\n\n이벤트 핸들러 함수에서 리턴값으로 문자열 설정 시 Application 종료를 위한 확인창이 표시됩니다.\n리턴값으로 설정한 문자열이 종료를 위한 확인창에 사용됩니다.\n\n이벤트 핸들러 함수에서 리턴값을 생략하거나 null, undefined, 빈문자열(\"\") 으로 설정 시 확인창이 표시되지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "e_09_onbeforeexit",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onbeforeexit",
+      "type": "pre",
+      "content": "- 일반적으로 Application 종료 전 사용자의 확인을 받을 때 사용하는 이벤트입니다.\n\n- onbeforeexit 이벤트 발생 후 모든 Frame 에서 onbeforeclose 이벤트가 발생합니다.\n\n- onbeforeclose 이벤트는 최하위부터 최상위로 전파되는 이벤트입니다.\n   ChildFrame 의 하위 오브젝트에 onbeforeclose 이벤트가 정의되어 있다면 최하위 오브젝트의 이벤트부터 차례로 수행됩니다.\n   최종 onbeforeclose 이벤트 수행 후 각 이벤트의 리턴값은 누적되어 종료를 위한 확인창에 모두 표시됩니다.\n\n- 종료를 위한 확인창에서 \"확인\"을 선택하면 onexit 이벤트가 발생하고 Application 이 종료됩니다.\n\n- 종료를 위한 확인창에서 \"취소\"를 선택하면 onexit 이벤트가 발생하지 않고 Application 이 종료되지 않습니다.\n\n\n◆ Desktop WRE 제약\n\n- Edge, Chrome, FireFox 일 때 onbeforeexit 이벤트에 작성한 alert(), confirm() 메소드는 수행되지 않습니다.\n   브라우저의 제약사항이므로 alert(), confirm() 메소드 사용에 주의하여야 합니다."
+    },
+    {
+      "id": "e_01onbeforeuserconfirm",
+      "type": "heading2",
+      "content": "onbeforeuserconfirm",
+      "option": {
+        "alias": "Application_onbeforeuserconfirm"
+      }
+    },
+    {
+      "id": "e_02_onbeforeuserconfirm",
+      "type": "pre",
+      "content": "UserConfirm 창이 표시 되기 전에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onbeforeuserconfirm",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onbeforeuserconfirm",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onbeforeuserconfirm",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onbeforeuserconfirm",
+      "type": "command",
+      "content": "onbeforeuserconfirm(obj:nexacro.Application,e:nexacro.EventInfo);",
+      "option": "onbeforeuserconfirm"
+    },
+    {
+      "id": "e_07_onbeforeuserconfirm",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.02052137235032081",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onbeforeuserconfirm",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onbeforeuserconfirm",
+      "type": "pre",
+      "content": "- filesecurelevel 속성값이 \"all\" 일 때 허용된 경로나 파일 이외에 접근하면, 접근 허용여부를 확인하는 UserConfirm 창이 표시됩니다."
+    },
+    {
+      "id": "e_01onduplicateexecution",
+      "type": "heading2",
+      "content": "onduplicateexecution",
+      "option": {
+        "alias": "Application_onduplicateexecution"
+      }
+    },
+    {
+      "id": "e_02_onduplicateexecution",
+      "type": "pre",
+      "content": "중복실행 불가로 설정된 어플리케이션을 중복으로 실행 시 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onduplicateexecution",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onduplicateexecution",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onduplicateexecution",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onduplicateexecution",
+      "type": "command",
+      "content": "onduplicateexecution(obj:nexacro.Application,e:nexacro.DuplicateExecutionEventInfo);",
+      "option": "onduplicateexecution"
+    },
+    {
+      "id": "e_07_onduplicateexecution",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7702408080692313",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DuplicateExecutionEventInfo\" string=\"DuplicateExecutionEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onduplicateexecution",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onduplicateexecution",
+      "type": "pre",
+      "content": "- Windows NRE 에서만 발생하는 이벤트입니다.\n\n- 어플리케이션 실행 시 \"-OO\" 옵션값을 \"true\" 로 설정하면 \"OnlyOne\" 상태로 어플리케이션이 실행됩니다.\n   \"OnlyOne\" 상태에서는 어플리케이션이 중복으로 실행되지 않고, 한 개만 실행할 수 있습니다.\n\n- 사용자가 이미 실행된 어플리케이션을 중복 실행하려고 하는 경우 먼저 실행된 어플리케이션에서 이를 감지하고 처리할 수 있습니다."
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "Application_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "Application 에서 실행한 Transaction 에서 에러가 생겼을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.Application,e:nexacro.ErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9723214881244847",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_08_onerror",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7320883612960932",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파하지 않습니다.\n  &gt; 실행중인 Transaction 을 중지시키지 않고 유지합니다.\n\n이벤트에서 리턴값으로 false 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파합니다.\n  &gt; 실행중인 Transaction 의 중지여부는 Environment 의 onerror 에서 리턴값으로 결정됩니다.\n  &gt; Environment 에 onerror 이벤트가 정의되어 있지 않으면 실행중인 Transaction 은 중지됩니다.\n\n이벤트의 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- Application 의 Transaction 이 실행중일 때 ESC 키를 입력하여 Application 의 onerror 이벤트를 발생 시킬 수 있습니다.\n   Form 의 Transaction 이 실행중일 때 ESC 키를 입력하면 Form 의 onerror 이벤트가 발생합니다.\n\n- Application 에서 발생한 onerror 이벤트는 Form 으로 전파되지 않습니다."
+    },
+    {
+      "id": "e_01onexit",
+      "type": "heading2",
+      "content": "onexit",
+      "option": {
+        "alias": "Application_onexit"
+      }
+    },
+    {
+      "id": "e_02_onexit",
+      "type": "pre",
+      "content": "Application 이 종료될 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onexit",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onexit",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onexit",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onexit",
+      "type": "command",
+      "content": "onexit(obj:nexacro.Application,e:nexacro.ExitEventInfo);",
+      "option": "onexit"
+    },
+    {
+      "id": "e_07_onexit",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5107545802594172",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onexit",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onexit",
+      "type": "pre",
+      "content": "- onexit 이벤트에서 트랜잭션을 비동기(Async) 방식으로 수행하면 넥사크로 애플리케이션이 종료되면서 통신을 모두 중지시키기 때문에 정상적으로 처리되지 않을 수 있습니다.\n  이런 경우에는 트랜잭션을 동기(Sync) 방식으로 수행해서 처리합니다.\n\n\n◆ Desktop WRE 제약\n\n- Edge, Chrome, FireFox 일 때 onexit 이벤트에 작성한 alert(), confirm() 메소드는 수행되지 않습니다.\n   브라우저의 제약사항이므로 alert(), confirm() 메소드 사용에 주의하여야 합니다."
+    },
+    {
+      "id": "e_01onload",
+      "type": "heading2",
+      "content": "onload",
+      "option": {
+        "alias": "Application_onload"
+      }
+    },
+    {
+      "id": "e_02_onload",
+      "type": "pre",
+      "content": "Application 에 등록된 모든 오브젝트와 데이터가 로드된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onload",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onload",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onload",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onload",
+      "type": "command",
+      "content": "onload(obj:nexacro.Application,e:nexacro.LoadEventInfo);",
+      "option": "onload"
+    },
+    {
+      "id": "e_07_onload",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8732680929199113",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onload",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onload",
+      "type": "pre",
+      "content": "- Application 의 준비가 완료된 상태입니다.\n\n- Environment 의 onload 이벤트 발생 후에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_01onloadforms",
+      "type": "heading2",
+      "content": "onloadforms",
+      "option": {
+        "alias": "Application_onloadforms"
+      }
+    },
+    {
+      "id": "e_02_onloadforms",
+      "type": "pre",
+      "content": "ChildFrame 에 연결된 모든 Form 이 모두 로드되면 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onloadforms",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onloadforms",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onloadforms",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onloadforms",
+      "type": "command",
+      "content": "onloadforms(obj:nexacro.Application,e:nexacro.LoadEventInfo);",
+      "option": "onloadforms"
+    },
+    {
+      "id": "e_07_onloadforms",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3298080556052768",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onloadingappvariables",
+      "type": "heading2",
+      "content": "onloadingappvariables",
+      "option": {
+        "alias": "Application_onloadingappvariables"
+      }
+    },
+    {
+      "id": "e_02_onloadingappvariables",
+      "type": "pre",
+      "content": "Application 의 AppVariables 영역에 정의된 오브젝트가 모두 생성된 후에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onloadingappvariables",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onloadingappvariables",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onloadingappvariables",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onloadingappvariables",
+      "type": "command",
+      "content": "onloadingappvariables(obj:nexacro.Application,e:nexacro.LoadEventInfo);",
+      "option": "onloadingappvariables"
+    },
+    {
+      "id": "e_07_onloadingappvariables",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9978745874612107",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onloadingappvariables",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onloadingappvariables",
+      "type": "pre",
+      "content": "- 이벤트가 발생하는 시점에는 생성된 DataSet 에 데이터나 Application 에 Form 이 로딩되기 전입니다.\n  따라서 이벤트에서 나머지 오브젝트 로딩에 필요한 정보를 추가, 수정하면 변경된 값을 적용시킬 수 있습니다."
+    },
+    {
+      "id": "e_01onnotification",
+      "type": "heading2",
+      "content": "onnotification",
+      "option": {
+        "alias": "Application_onnotification"
+      }
+    },
+    {
+      "id": "e_02_onnotification",
+      "type": "pre",
+      "content": "모바일 기기에서 넥사크로에 대한 Notification 을 수신하였을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onnotification",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onnotification",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onnotification",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onnotification",
+      "type": "command",
+      "content": "onnotification(obj:nexacro.Application,e:nexacro.NotificationEventInfo);",
+      "option": "onnotification"
+    },
+    {
+      "id": "e_07_onnotification",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9620700457521997",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#NotificationEventInfo\" string=\"NotificationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
