@@ -1,0 +1,1217 @@
+{
+    "_version": "24.0.0.400",
+    "categorys": [
+        {
+            "name": "",
+            "items": [
+                {
+                    "name": "Environment"
+                },
+                {
+                    "name": "Screen"
+                },
+                {
+                    "name": "Application"
+                },
+                {
+                    "name": "Form"
+                },
+                {
+                    "name": "Frames"
+                },
+                {
+                    "name": "NexacroAPI"
+                }                
+            ]
+        },
+        {
+            "name": "Application_Objects_",
+            "items": [
+                {
+                    "name": "Tray"
+                }
+            ]
+        },
+        {
+            "name": "Application_Objects_Tray_Objects_",
+            "items": [
+                {
+                    "name": "TrayPopupMenu"
+                }
+            ]
+        },
+        {
+            "name": "Form_Objects_",
+            "items": [
+                {
+                    "name": "Layout"
+                },
+                {
+                    "name": "StepControl"
+                }
+            ]
+        },
+        {
+            "name": "Frames_",
+            "items": [
+                {
+                    "name": "MainFrame"
+                },
+                {
+                    "name": "FrameSet"
+                },
+                {
+                    "name": "TileFrameSet"
+                },
+                {
+                    "name": "HFrameSet"
+                },
+                {
+                    "name": "VFrameSet"
+                },
+                {
+                    "name": "ChildFrame"
+                }            
+            ]
+        },
+        {
+            "name": "Components_Animation Objects_",
+            "items": [
+                {
+                    "name": "Animation",
+                    "except": "True"
+                },
+                {
+                    "name": "AnimationTimeline",
+                    "except": "True"
+                }
+            ]
+        }, 
+        {
+            "name": "Components_Animation Objects_Animation_Objects_",
+            "items": [
+                {
+                    "name": "AnimationItem"
+                }
+            ]
+        },  
+        {
+            "name": "Components_Animation Objects_AnimationTimeline_Objects_",
+            "items": [
+                {
+                    "name": "AnimationTimelineItem",
+                    "except": "True"
+                }
+            ]
+        },   
+        {
+            "name": "Components_Component_",
+            "items": [
+                {
+                    "name": "Button"
+                },
+                {
+                    "name": "Calendar"
+                },  
+                {
+                    "name": "CheckBox"
+                }, 
+                {
+                    "name": "CheckBoxSet"
+                }, 
+                {
+                    "name": "Combo"
+                }, 
+                {
+                    "name": "DateField"
+                }, 
+                {
+                    "name": "DateRangePicker"
+                }, 
+                {
+                    "name": "Edit"
+                }, 
+                {
+                    "name": "FileDialog"
+                }, 
+                {
+                    "name": "FileDownload"
+                }, 
+                {
+                    "name": "FileDownTransfer",
+                    "except": "True"
+                }, 
+                {
+                    "name": "FileUpload"
+                }, 
+                {
+                    "name": "FileUpTransfer",
+                    "except": "True"
+                }, 
+                {
+                    "name": "GoogleMap"
+                }, 
+                {
+                    "name": "Graphics"
+                },    
+                {
+                    "name": "Grid"
+                },  
+                {
+                    "name": "GroupBox"
+                },  
+                {
+                    "name": "ImageViewer"
+                },  
+                {
+                    "name": "ListBox"
+                },  
+                {
+                    "name": "ListView"
+                },  
+                {
+                    "name": "MaskEdit"
+                },  
+                {
+                    "name": "Menu"
+                },   
+                {
+                    "name": "MultiCombo"
+                }, 
+                {
+                    "name": "MultiLineTextField"
+                }, 
+                {
+                    "name": "Panel",
+                    "except": "True"
+                }, 
+                {
+                    "name": "Plugin"
+                }, 
+                {
+                    "name": "PopupDateRangePicker"
+                }, 
+                {
+                    "name": "PopupMenu"
+                },    
+                {
+                    "name": "ProgressBar"
+                },  
+                {
+                    "name": "Radio"
+                },  
+                {
+                    "name": "Sketch"
+                },  
+                {
+                    "name": "Spin"
+                },      
+                {
+                    "name": "Static"
+                }, 
+                {
+                    "name": "TextArea"
+                }, 
+                {
+                    "name": "TextField"
+                }, 
+                {
+                    "name": "VideoPlayer"
+                }, 
+                {
+                    "name": "VirtualFile"
+                }, 
+                {
+                    "name": "WebBrowser"
+                }, 
+                {
+                    "name": "WebView"
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+            ]
+        },   
+        {
+            "name": "Components_Component_FileUpload_Objects_",
+            "items": [
+                {
+                    "name": "FileUploadItemControl"
+                }
+            ]
+        },     
+        {
+            "name": "Components_Component_GoogleMap_Objects_",
+            "items": [
+                {
+                    "name": "GoogleMapCircle"
+                },
+                {
+                    "name": "GoogleMapMarker"
+                },
+                {
+                    "name": "GoogleMapPolygon"
+                },
+                {
+                    "name": "GoogleMapPolyline"
+                }                                                
+            ]
+        },  
+        {
+            "name": "Components_Component_Graphics_Objects_",
+            "items": [
+                {
+                    "name": "GraphicsGroup"
+                },
+                {
+                    "name": "GraphicsEllipse"
+                },
+                {
+                    "name": "GraphicsRect"
+                },
+                {
+                    "name": "GraphicsImage"
+                },
+                {
+                    "name": "GraphicsText"
+                },
+                {
+                    "name": "GraphicsLine"
+                },
+                {
+                    "name": "GraphicsPath"
+                },
+                {
+                    "name": "GraphicsPaths"
+                }                                                                  
+            ]
+        },     
+        {
+            "name": "Components_Component_Grid_Objects_",
+            "items": [
+                {
+                    "name": "GridBandControl"
+                },
+                {
+                    "name": "GridCellControl"
+                },
+                {
+                    "name": "GridRowControl"
+                },
+                {
+                    "name": "GridColumnControl"
+                },    
+                {
+                    "name": "GridSelectionControl"
+                }                                                               
+            ]
+        },  
+        {
+            "name": "Components_Component_Grid_Objects_GridCellControl_Objects_",
+            "items": [
+                {
+                    "name": "CellSubCellControl"
+                },
+                {
+                    "name": "CellTreeItemControl"
+                },
+                {
+                    "name": "CellTreeLineControl"
+                }                                                            
+            ]
+        }, 
+        {
+            "name": "Components_Component_Grid_Objects_GridCellControl_Objects_CellTreeItemControl_Objects_",
+            "items": [
+                {
+                    "name": "TreeItemIconControl"
+                }                                                           
+            ]
+        },  
+        {
+            "name": "Components_Component_ImageViewer_Objects_",
+            "items": [
+                {
+                    "name": "ImageAreaControl"
+                }                                                           
+            ]
+        },  
+        {
+            "name": "Components_Component_ListBox_Objects_",
+            "items": [
+                {
+                    "name": "ListBoxItemControl"
+                }                                                           
+            ]
+        },  
+        {
+            "name": "Components_Component_ListView_Objects_",
+            "items": [
+                {
+                    "name": "ListViewBandControl"
+                },
+                {
+                    "name": "ListViewBandExpandbarControl"
+                },
+                {
+                    "name": "ListViewCellControl"
+                },
+                {
+                    "name": "ListViewDetailBandControl"
+                }                                                                                              
+            ]
+        },     
+        {
+            "name": "Components_Component_Menu_Objects_",
+            "items": [
+                {
+                    "name": "MenuItemControl"
+                }                                                                                            
+            ]
+        },    
+        {
+            "name": "Components_Component_MultiCombo_Objects_",
+            "items": [
+                {
+                    "name": "MultiComboListControl"
+                },
+                {
+                    "name": "MultiComboTagBoxControl"
+                }                                                                                                             
+            ]
+        }, 
+        {
+            "name": "Components_Component_MultiCombo_Objects_MultiComboTagBoxControl_Objects_",
+            "items": [
+                {
+                    "name": "TagBoxControl"
+                }                                                                                                            
+            ]
+        }, 
+        {
+            "name": "Components_Component_Panel_Objects_",
+            "items": [
+                {
+                    "name": "PanelItem"
+                }                                                                                                            
+            ]
+        },                                                                                                            
+        {
+            "name": "Components_Component_PopupMenu_Objects_",
+            "items": [
+                {
+                    "name": "PopupMenuItemControl"
+                }                                                                                                            
+            ]
+        },
+        {
+            "name": "Components_Component_Radio_Objects_",
+            "items": [
+                {
+                    "name": "RadioItemControl"
+                }                                                                                                            
+            ]
+        },  
+        {
+            "name": "Components_ContainerComponent_",
+            "items": [
+                {
+                    "name": "Div"
+                },
+                {
+                    "name": "PopupDiv"
+                },
+                {
+                    "name": "Tab"
+                },
+                {
+                    "name": "View"
+                }                                                                                                                                                             
+            ]
+        }, 
+        {
+            "name": "Components_ContainerComponent_Tab_Objects_",
+            "items": [
+                {
+                    "name": "TabButtonItemControl"
+                },
+                {
+                    "name": "TabpageControl"
+                }                                                                                                                                                           
+            ]
+        },    
+        {
+            "name": "Components_ContainerComponent_Tab_Objects_TabButtonItemControl_Objects_",
+            "items": [
+                {
+                    "name": "TabButtonIconControl"
+                }                                                                                                                                                         
+            ]
+        },
+        {
+            "name": "Components_System Component_",
+            "items": [
+                {
+                    "name": "DateFieldBoxControl"
+                },
+                {
+                    "name": "DatePickerControl"
+                },
+                {
+                    "name": "DatePickerGroupControl"
+                },
+                {
+                    "name": "FieldBaseIconControl"
+                },
+                {
+                    "name": "FieldBaseLabelControl"
+                },
+                {
+                    "name": "FieldBaseTextControl"
+                },
+                {
+                    "name": "FlexTextControl"
+                },
+                {
+                    "name": "IconControl"
+                },
+                {
+                    "name": "IconTextControl"
+                },
+                {
+                    "name": "MultiLineTextFieldBoxControl"
+                },
+                {
+                    "name": "PickerHeadLineControl"
+                },
+                {
+                    "name": "ScrollBarControl"
+                },
+                {
+                    "name": "ScrollIndicatorControl"
+                },
+                {
+                    "name": "SpinnerControl"
+                },
+                {
+                    "name": "StatusBarControl"
+                },
+                {
+                    "name": "TextFieldBoxControl"
+                },      
+                {
+                    "name": "TimePickerControl"
+                },
+                {
+                    "name": "TimePickerGroupControl"
+                },
+                {
+                    "name": "TitleBarControl"
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+            ]
+        },   
+        {
+            "name": "Components_System Component_DatePickerControl_Objects_",
+            "items": [
+                {
+                    "name": "DatePickerHeadControl"
+                },
+                {
+                    "name": "DatePickerBodyControl"
+                }                                                                                                                                                                        
+            ]
+        }, 
+        {
+            "name": "Components_System Component_DatePickerControl_Objects_DatePickerBodyControl_Objects_",
+            "items": [
+                {
+                    "name": "DatePickerDayItemControl"
+                },
+                {
+                    "name": "DatePickerWeekItemControl"
+                },                
+                {
+                    "name": "DatePickerYearItemControl"
+                }                                                                                                                                                                        
+            ]
+        },    
+        {
+            "name": "Components_System Component_TitleBarControl_Objects_",
+            "items": [
+                {
+                    "name": "TitleBarButtonControl"
+                },
+                {
+                    "name": "TitleBarIconTextControl"
+                }                                                                                                                                                                        
+            ]
+        },  
+        {
+            "name": "Communication Objects_",
+            "items": [
+                {
+                    "name": "TCPClientSocket"
+                },
+                {
+                    "name": "XAgent"
+                },
+                {
+                    "name": "XPush"
+                }                                                                                                                                                                                       
+            ]
+        },  
+        {
+            "name": "Communication Objects_XPush_Objects_",
+            "items": [
+                {
+                    "name": "PushMessageObject"
+                }                                                                                                                                                                                    
+            ]
+        }, 
+        {
+            "name": "Data Objects_",
+            "items": [
+                {
+                    "name": "ColumnInfo",
+                    "except": "True"
+                },
+                {
+                    "name": "DataObject"
+                },
+                {
+                    "name": "Dataset",
+                    "except": "True"
+                }                                                                                                                                                                                       
+            ]
+        }, 
+        {
+            "name": "Script_Nexacro Objects_",
+            "items": [
+                {
+                    "name": "Date"
+                },
+                {
+                    "name": "Decimal"
+                },
+                {
+                    "name": "DomParser",
+                    "except": "True"
+                },
+                {
+                    "name": "Image"
+                },
+                {
+                    "name": "PluginObject"
+                },
+                {
+                    "name": "Point"
+                },
+                {
+                    "name": "Rect"
+                }, 
+                {
+                    "name": "XmlSerializer",
+                    "except": "True"
+                }                                                                                                                                                                                                                                                                     
+            ]
+        },   
+        {
+            "name": "Event Objects_",
+            "items": [
+                {
+                    "name": "EventObject"
+                }                                                                                                                                                                                    
+            ]
+        },  
+        {
+            "name": "EventInfo Objects_",
+            "items": [
+                {
+                    "name": "AccelerationErrorEventInfo"
+                },
+                {
+                    "name": "AccelerationEventInfo"
+                },
+                {
+                    "name": "ActivateEventInfo"
+                },
+                {
+                    "name": "AnimationEventInfo"
+                },
+                {
+                    "name": "AudioErrorEventInfo"
+                },
+                {
+                    "name": "AudioEventInfo"
+                },
+                {
+                    "name": "BindingValueChangedEventInfo"
+                },
+                {
+                    "name": "BluetoothLEErrorEventInfo"
+                },
+                {
+                    "name": "BluetoothLEEventInfo"
+                },
+                {
+                    "name": "BluetoothLEScanDeviceEventInfo"
+                },
+                {
+                    "name": "CalendarCloseUpEventInfo"
+                },     
+                {
+                    "name": "CalendarDayClickEventInfo"
+                },
+                {
+                    "name": "CalendarSpinEventInfo"
+                },
+                {
+                    "name": "CameraErrorEventInfo"
+                },
+                {
+                    "name": "CameraEventInfo"
+                },
+                {
+                    "name": "ChangeEventInfo"
+                },
+                {
+                    "name": "CheckBoxChangedEventInfo"
+                },
+                {
+                    "name": "ClickEventInfo"
+                },
+                {
+                    "name": "CloseEventInfo"
+                },
+                {
+                    "name": "ComboCloseUpEventInfo"
+                },
+                {
+                    "name": "ContactSetErrorEventInfo"
+                },
+                {
+                    "name": "ContactSetEventInfo"
+                },
+                {
+                    "name": "ContextMenuEventInfo"
+                },
+                {
+                    "name": "DataObjectDataChangedEventInfo"
+                },
+                {
+                    "name": "DataObjectErrorEventInfo"
+                },
+                {
+                    "name": "DataObjectEventInfo"
+                },
+                {
+                    "name": "DataObjectLoadDatasetsEventInfo"
+                },
+                {
+                    "name": "DataObjectLoadEventInfo"
+                },
+                {
+                    "name": "DataObjectValueChangedEventInfo"
+                },
+                {
+                    "name": "DateFieldCloseUpEventInfo"
+                },
+                {
+                    "name": "DateFieldDayClickEventInfo"
+                },
+                {
+                    "name": "DateRangePickerDayClickEventInfo"
+                },
+                {
+                    "name": "DeviceButtonEventInfo"
+                },
+                {
+                    "name": "DevicePermissionEventInfo"
+                },
+                {
+                    "name": "DomParseErrorEventInfo"
+                },
+                {
+                    "name": "DragEventInfo"
+                },
+                {
+                    "name": "DSColChangeEventInfo"
+                },
+                {
+                    "name": "DSLoadEventInfo"
+                },
+                {
+                    "name": "DSRowPosChangeEventInfo"
+                },
+                {
+                    "name": "DSRowsetChangeEventInfo"
+                },
+                {
+                    "name": "DuplicateExecutionEventInfo"
+                },
+                {
+                    "name": "EditClickEventInfo"
+                },
+                {
+                    "name": "EnvironmentUserHotkeyEventInfo"
+                },
+                {
+                    "name": "ErrorEventInfo"
+                },
+                {
+                    "name": "EventInfo"
+                },
+                {
+                    "name": "ExcelExportErrorEventInfo"
+                },
+                {
+                    "name": "ExcelExportEventInfo"
+                },
+                {
+                    "name": "ExcelExportProgressEventInfo"
+                },
+                {
+                    "name": "ExcelImportErrorEventInfo"
+                },
+                {
+                    "name": "ExcelImportEventInfo"
+                },
+                {
+                    "name": "ExitEventInfo"
+                },
+                {
+                    "name": "ExtendedCommandEventInfo"
+                },
+                {
+                    "name": "ExternalAPIErrorEventInfo"
+                },
+                {
+                    "name": "ExternalAPIEventInfo"
+                },
+                {
+                    "name": "FileDialogEventInfo"
+                },
+                {
+                    "name": "FileDownloadErrorEventInfo"
+                },
+                {
+                    "name": "FileDownloadEventInfo"
+                },
+                {
+                    "name": "FileDownTransferErrorEventInfo"
+                },
+                {
+                    "name": "FileDownTransferEventInfo"
+                },
+                {
+                    "name": "FileUploadContextMenuEventInfo"
+                },
+                {
+                    "name": "FileUploadErrorEventInfo"
+                },
+                {
+                    "name": "FileUploadEventInfo"
+                },
+                {
+                    "name": "FileUploadItemChangeEventInfo"
+                },
+                {
+                    "name": "FileUploadItemEventInfo"
+                },
+                {
+                    "name": "FileUploadMouseEventInfo"
+                },
+                {
+                    "name": "FileUpTransferErrorEventInfo"
+                },
+                {
+                    "name": "FileUpTransferEventInfo"
+                },
+                {
+                    "name": "FileUpTransferProgressEventInfo"
+                },
+                {
+                    "name": "GeolocationErrorEventInfo"
+                },
+                {
+                    "name": "GeolocationEventInfo"
+                },
+                {
+                    "name": "GoogleMapClickEventInfo"
+                },
+                {
+                    "name": "GoogleMapDragEventInfo"
+                },
+                {
+                    "name": "GoogleMapErrorEventInfo"
+                },
+                {
+                    "name": "GoogleMapEventInfo"
+                },
+                {
+                    "name": "GridClickEventInfo"
+                },
+                {
+                    "name": "GridContextMenuEventInfo"
+                },
+                {
+                    "name": "GridDragEventInfo"
+                },
+                {
+                    "name": "GridEditEventInfo"
+                },
+                {
+                    "name": "GridHeadValueChangedEventInfo"
+                },
+                {
+                    "name": "GridImageErrorEventInfo"
+                },
+                {
+                    "name": "GridInputEventInfo"
+                },
+                {
+                    "name": "GridKeyEventInfo"
+                },
+                {
+                    "name": "GridMouseEventInfo"
+                },
+                {
+                    "name": "GridSelectEventInfo"
+                },
+                {
+                    "name": "GridSizeChangedEventInfo"
+                },
+                {
+                    "name": "GridTreeStatusEventInfo"
+                },
+                {
+                    "name": "ImagePickerErrorEventInfo"
+                },
+                {
+                    "name": "ImagePickerEventInfo"
+                },
+                {
+                    "name": "InnerdataChangedEventInfo"
+                },
+                {
+                    "name": "InputEventInfo"
+                },
+                {
+                    "name": "ItemChangeEventInfo"
+                },
+                {
+                    "name": "ItemClickEventInfo"
+                },
+                {
+                    "name": "KeyEventInfo"
+                },
+                {
+                    "name": "KillFocusEventInfo"
+                },
+                {
+                    "name": "LayoutChangeEventInfo"
+                },
+                {
+                    "name": "ListViewBandStatusEventInfo"
+                },
+                {
+                    "name": "ListViewClickEventInfo"
+                },
+                {
+                    "name": "ListViewContextMenuEventInfo"
+                },
+                {
+                    "name": "ListViewDragEventInfo"
+                },
+                {
+                    "name": "ListViewEditEventInfo"
+                },
+                {
+                    "name": "ListViewInputEventInfo"
+                },
+                {
+                    "name": "ListViewKeyEventInfo"
+                },
+                {
+                    "name": "ListViewMouseEventInfo"
+                },
+                {
+                    "name": "ListViewSelectEventInfo"
+                },
+                {
+                    "name": "LiteDBErrorEventInfo"
+                },
+                {
+                    "name": "LiteDBEventInfo"
+                },
+                {
+                    "name": "LoadEventInfo"
+                },
+                {
+                    "name": "MenuClickEventInfo"
+                },
+                {
+                    "name": "MenuContextMenuEventInfo"
+                },
+                {
+                    "name": "MenuDragEventInfo"
+                },
+                {
+                    "name": "MenuMouseEventInfo"
+                },
+                {
+                    "name": "MouseEventInfo"
+                },
+                {
+                    "name": "MouseWheelEventInfo"
+                },
+                {
+                    "name": "MoveEventInfo"
+                },
+                {
+                    "name": "NetworkErrorEventInfo"
+                },
+                {
+                    "name": "NetworkEventInfo"
+                },
+                {
+                    "name": "NotificationEventInfo"
+                },
+                {
+                    "name": "OrientationChangeEventInfo"
+                },
+                {
+                    "name": "RangeDateChangedEventInfo"
+                },
+                {
+                    "name": "ScrollEventInfo"
+                },
+                {
+                    "name": "SetFocusEventInfo"
+                }, 
+                {
+                    "name": "SizeEventInfo"
+                }, 
+                {
+                    "name": "SketchErrorEventInfo"
+                }, 
+                {
+                    "name": "SketchEventInfo"
+                }, 
+                {
+                    "name": "SketchLoadEventInfo"
+                }, 
+                {
+                    "name": "SmsErrorEventInfo"
+                }, 
+                {
+                    "name": "SmsEventInfo"
+                }, 
+                {
+                    "name": "SmsMessageListEventInfo"
+                }, 
+                {
+                    "name": "SmsMessage",
+                    "category": "EventInfo Objects_SmsMessageListEventInfo_"
+                },                 
+                {
+                    "name": "SocketErrorEventInfo"
+                }, 
+                {
+                    "name": "SocketEventInfo"
+                }, 
+                {
+                    "name": "SocketReceiveEventInfo"
+                }, 
+                {
+                    "name": "SpinEventInfo"
+                }, 
+                {
+                    "name": "StepChangeEventInfo"
+                }, 
+                {
+                    "name": "SysCommandEventInfo"
+                }, 
+                {
+                    "name": "TabIndexChangeEventInfo"
+                }, 
+                {
+                    "name": "TabMouseEventInfo"
+                }, 
+                {
+                    "name": "TimerEventInfo"
+                }, 
+                {
+                    "name": "TouchEventInfo"
+                },  
+                {
+                    "name": "TouchInputInfo",
+                    "category": "EventInfo Objects_TouchEventInfo_"
+                },                 
+                {
+                    "name": "TrayBalloonTipHideEventInfo"
+                },  
+                {
+                    "name": "VibratorErrorEventInfo"
+                },  
+                {
+                    "name": "VibratorEventInfo"
+                },  
+                {
+                    "name": "VideoCurrentTimeChangedEventInfo"
+                },  
+                {
+                    "name": "VideoErrorEventInfo"
+                },  
+                {
+                    "name": "VideoPlayStateChangedEventInfo"
+                },  
+                {
+                    "name": "VirtualFileErrorEventInfo"
+                },  
+                {
+                    "name": "VirtualFileEventInfo"
+                },  
+                {
+                    "name": "WebLoadCompEventInfo"
+                },  
+                {
+                    "name": "XAgentErrorEventInfo"
+                },  
+                {
+                    "name": "XAgentEventInfo"
+                },  
+                {
+                    "name": "WebUserNotifyEventInfo"
+                },  
+                {
+                    "name": "XPushErrorEventInfo"
+                },  
+                {
+                    "name": "XPushEventInfo"
+                },  
+                {
+                    "name": "XPushKeepAliveEventInfo"
+                }
+            ]
+        }, 
+        {
+            "name": "Misc. Objects_",
+            "items": [
+                {
+                    "name": "BindItem"
+                },
+                {
+                    "name": "ExcelExportObject"
+                },
+                {
+                    "name": "ExcelImportObject"
+                },
+                {
+                    "name": "System"
+                }                                                                                                                                                                                                                                  
+            ]
+        },  
+        {
+            "name": "Misc. Objects_ExcelExportObject_Objects_",
+            "items": [
+                {
+                    "name": "ExportItem"
+                },
+                {
+                    "name": "ExportItemTypes"
+                },
+                {
+                    "name": "ExportTypes"
+                }                                                                                                                                                                                                                            
+            ]
+        },  
+        {
+            "name": "Misc. Objects_ExcelImportObject_Objects_",
+            "items": [
+                {
+                    "name": "ImportTypes"
+                }                                                                                                                                                                                                                         
+            ]
+        }, 
+        {
+            "name": "DeviceAPI_",
+            "items": [
+                {
+                    "name": "Acceleration"
+                },
+                {
+                    "name": "AppInfo"
+                },                
+                {
+                    "name": "AudioPlayer"
+                },
+                {
+                    "name": "AudioRecorder"
+                },
+                {
+                    "name": "BluetoothLE"
+                },
+                {
+                    "name": "Camera"
+                },
+                {
+                    "name": "Contact"
+                },
+                {
+                    "name": "ContactAddress"
+                },
+                {
+                    "name": "ContactField"
+                },
+                {
+                    "name": "ContactOrganization"
+                },
+                {
+                    "name": "ContactPhoto"
+                },
+                {
+                    "name": "ContactSet"
+                },
+                {
+                    "name": "ExternalAPI"
+                },
+                {
+                    "name": "Geolocation"
+                },
+                {
+                    "name": "ImagePicker"
+                },
+                {
+                    "name": "LiteDBConnection"
+                },
+                {
+                    "name": "LiteDBStatement"
+                },
+                {
+                    "name": "Network"
+                },
+                {
+                    "name": "Phone"
+                },
+                {
+                    "name": "QRBarcode"
+                },
+                {
+                    "name": "QRCodeGenerator"
+                },                                
+                {
+                    "name": "Sms"
+                },
+                {
+                    "name": "Vibrator"
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+            ]
+        },  
+        {
+            "name": "DeviceAPI_QRBarcode_EventInfo_",
+            "items": [
+                {
+                    "name": "QRBarcodeEventInfo"
+                }                                                                                                                                                                                                                         
+            ]
+        },                                                                                                                                                     
+    ]
+}
