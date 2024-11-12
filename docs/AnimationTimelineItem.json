@@ -1,0 +1,351 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "AnimationTimeline 오브젝트에서 addTarget() 메소드 실행 시 파라미터 값을 기준으로 생성되는 아이템 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- addTarget() 메소드 실행 시 AnimationTimelineItem 오브젝트가 생성되어 AnimationTimeline 오브젝트에 아이템으로 등록됩니다.\n\n- AnimationTimeline 오브젝트에 addTarget() 메소드로 AnimationTimelineitem 오브젝트를 여러개 등록할 수 있습니다.\n\n- AnimationTimeline 오브젝트 실행 시 AnimationTimelineItem 은 등록된 순서로 실행되며, 먼저 실행된 아이템이 종료된 후 다음 아이템이 실행됩니다."
+    },
+    {
+      "id": "u_13",
+      "type": "heading2",
+      "content": "생성자"
+    },
+    {
+      "id": "u_09_0.29827288721964695",
+      "type": "command",
+      "content": "AnimationTimeline( strName, objParent )"
+    },
+    {
+      "id": "u_10_0.9247579289578576",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objAniTime = new nexacro.AnimationTimeline( \"AnimationTimeline00\", this );\nvar objAni = new nexacro.Animation( \"Animation00\", this );\n\n// Add Object to Parent Form  \nthis.addChild( \"AnimationTimeline00\", objAniTime );\n\n// Set Animation Object \nobjAni.duration = 1000;\nobjAni.easing = \"linear\";\n\n// Add Item to Animation Object\nobjAni.addTarget( \"AniItem00\", this.Button00, \"left:600\" );\nobjAniTime.addTarget( \"Animation00\", objAni, 0 );\n\n// Play Object\nobjAniTime.play();\n \n// Remove Object form Parent\nthis.removeChild( \"AnimationTimeline00\" );\nobjAniTime.removeTarget( \"Animation00\" );\n \n// Destroy Object\nobjAni.destroy();\nobjAniTime.destroy();\nobjAni = null;\nobjAniItem = null;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "100%"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_animationid",
+      "type": "heading2",
+      "content": "animationid",
+      "option": {
+        "alias": "AnimationTimelineItem_animationid"
+      }
+    },
+    {
+      "id": "p_02_animationid",
+      "type": "pre",
+      "content": "애니메이션 효과가 정의된 Animation 오브젝트의 ID 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_animationid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_animationid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_animationid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_animationid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_animationid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_animationid",
+      "type": "command",
+      "content": "AnimationTimelineItem.animationid"
+    },
+    {
+      "id": "p_09_animationid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.20871625306749575",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAniTime = new nexacro.AnimationTimeline(\"AnimationTimeline00\", this); \n\nobjAniTime.addTarget( \"AniTimeItem00\", this.Animation00, 0 );</div></td></tr><tr><th>animationid</th><td colspan=\"2\"><div>애니메이션 효과가 정의된 Animation 오브젝트를 addTarget() 또는 insertTarget() 메소드를 사용하여 등록합니다.\n\naddTarget() 메소드 사용 시 두번째 파라미터가 AnimationTimelineItem 오브젝트의 animationid 값으로 설정됩니다.\ninsertTarget() 메소드 사용 시 세번째 파라미터가 AnimationTimelineItem 오브젝트의 animationid 값으로 설정됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_animationid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_animationid",
+      "type": "pre",
+      "content": "- AnimationTimelineItem 오브젝트에 Animation 오브젝트를 한개만 설정할 수 있습니다.\n\n- AnimationTimelineItem 오브젝트는 등록된 순서대로 하나씩 실행됩니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "AnimationTimelineItem_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "AnimationTimelineItem 오브젝트의 고유 식별자가 설정되는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "AnimationTimelineItem.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.14947287781005758",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var iItemIdx = this.Animation00.addTarget( \"AnimationTimelineItem00\", this.Animation00, 0 );</div></td></tr><tr><th>id</th><td colspan=\"2\"><div>AnimationTimeline 오브젝트의 addTarget() 메소드 실행 시 첫번째 파라미터가 id 값으로 설정됩니다.\n\nAnimationTimeline 오브젝트의 insertTarget() 메소드 실행 시 두번째 파라미터가 id 값으로 설정됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_offset",
+      "type": "heading2",
+      "content": "offset",
+      "option": {
+        "alias": "AnimationTimelineItem_offset"
+      }
+    },
+    {
+      "id": "p_02_offset",
+      "type": "pre",
+      "content": "AnimationTimelineItem 오브젝트의 시작이 지연되는 시간을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_offset",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_offset",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_offset",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_offset",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_offset",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_offset",
+      "type": "command",
+      "content": "AnimationTimelineItem.offset"
+    },
+    {
+      "id": "p_09_offset",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.14051837302086578",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAniTime = new nexacro.AnimationTimeline(\"AnimationTimeline00\", this); \n\nobjAniTime.addTarget( \"AniTimeItem00\", this.Animation00, 0 );</div></td></tr><tr><th>offset</th><td colspan=\"2\"><div>애니메이션 효과의 시작이 지연될 시간을 밀리세컨드 단위로 설정합니다.\n\n이전 애니메이션 종료 후 현재 AnimationTimelineItem 의 애니메이션 시작이 설정한 시간동안 지연됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_offset",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_offset",
+      "type": "pre",
+      "content": "- offset 속성값을 설정하지 않으면 \"0\" 으로 적용됩니다.\n\n- AnimationTimelineItem 에 정의된 Animation 오브젝트의 delay 속성이 설정되어 있다면 \n   \"offset 속성값 + delay 속성값\" 만큼 지연된 후 애니메이션 효과가 시작됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "AnimationTimelineItem_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 AnimationTimelineItem 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "AnimationTimelineItem.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5590795720884525",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>AnimationTimelineItem 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nAnimationTimelineItem 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 AnimationTimelineItem 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    }
+  ]
+}
