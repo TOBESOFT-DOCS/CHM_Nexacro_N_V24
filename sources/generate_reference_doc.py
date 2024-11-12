@@ -460,7 +460,7 @@ def get_structure_img(soup):
     else:
         print("Structure 이미지를 포함한 요소를 찾을 수 없습니다.")
     
-    return f"<img src='{url_github}2663%5C{structure_img}?raw=true'/>"
+    return f"<img src='{url_github}/{structure_img}?raw=true'/>"
 
 # (공통 함수) Supported Environments 표 생성
 # Object > Supported Environments
