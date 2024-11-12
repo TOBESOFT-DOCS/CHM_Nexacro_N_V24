@@ -1,0 +1,505 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "VirtualFile 컴포넌트에서 요청된 작업이 성공했을 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_binarydata",
+      "type": "heading2",
+      "content": "binarydata",
+      "option": {
+        "alias": "VirtualFileEventInfo_binarydata"
+      }
+    },
+    {
+      "id": "p_02_binarydata",
+      "type": "pre",
+      "content": "openBinary 형식으로 Open 된 파일에서 읽어들인 Binary 데이터를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_binarydata",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_binarydata",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_binarydata",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_binarydata",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_binarydata",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_binarydata",
+      "type": "command",
+      "content": "VirtualFileEventInfo.binarydata"
+    },
+    {
+      "id": "p_11_binarydata",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_binarydata",
+      "type": "pre",
+      "content": "- VirtualFileEventInfo 의 reason 값이 3 인 경우에 binarydata 속성에 저장된 데이터가 유효합니다."
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "VirtualFileEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "VirtualFileEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6850381239250148",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_fileattributelist",
+      "type": "heading2",
+      "content": "fileattributelist",
+      "option": {
+        "alias": "VirtualFileEventInfo_fileattributelist"
+      }
+    },
+    {
+      "id": "p_02_fileattributelist",
+      "type": "pre",
+      "content": "VirtualFile 로 Open 된 파일의 Attribute 를 객체형태로 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fileattributelist",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fileattributelist",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fileattributelist",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fileattributelist",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fileattributelist",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fileattributelist",
+      "type": "command",
+      "content": "VirtualFileEventInfo.fileattributelist"
+    },
+    {
+      "id": "p_11_fileattributelist",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fileattributelist",
+      "type": "pre",
+      "content": "- VirtualFileEventInfo 의 reason 값이 8 인 경우에 fileattributelist 속성에 저장된 데이터가 유효합니다."
+    },
+    {
+      "id": "p_01_fileisexist",
+      "type": "heading2",
+      "content": "fileisexist",
+      "option": {
+        "alias": "VirtualFileEventInfo_fileisexist"
+      }
+    },
+    {
+      "id": "p_02_fileisexist",
+      "type": "pre",
+      "content": "VirtualFile 에 지정된 파일의 존재 여부를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fileisexist",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fileisexist",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fileisexist",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fileisexist",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fileisexist",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fileisexist",
+      "type": "command",
+      "content": "VirtualFileEventInfo.fileisexist"
+    },
+    {
+      "id": "p_11_fileisexist",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fileisexist",
+      "type": "pre",
+      "content": "- VirtualFileEventInfo 의 reason 값이 10 인 경우에 fileisexist 속성에 저장된 데이터가 유효합니다."
+    },
+    {
+      "id": "p_01_filesize",
+      "type": "heading2",
+      "content": "filesize",
+      "option": {
+        "alias": "VirtualFileEventInfo_filesize"
+      }
+    },
+    {
+      "id": "p_02_filesize",
+      "type": "pre",
+      "content": "VirtualFile 에 지정된 파일의 크기를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_filesize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filesize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filesize",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filesize",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_filesize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_filesize",
+      "type": "command",
+      "content": "VirtualFileEventInfo.filesize"
+    },
+    {
+      "id": "p_11_filesize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filesize",
+      "type": "pre",
+      "content": "- VirtualFileEventInfo 의 reason 값이 9 인 경우(getFileSize() 메소드 수행)만 filesize 속성에 저장된 데이터가 유효합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 파일의 경로가 실제경로가 아닌 \"FakePath\" 형태의 가상경로로 지원됩니다.\n   따라서, web runtime environment 는 지원되지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_reason",
+      "type": "heading2",
+      "content": "reason",
+      "option": {
+        "alias": "VirtualFileEventInfo_reason"
+      }
+    },
+    {
+      "id": "p_02_reason",
+      "type": "pre",
+      "content": "이벤트가 발생한 원인의 코드값을 정수로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_reason",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_reason",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_reason",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_reason",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_reason",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_reason",
+      "type": "command",
+      "content": "VirtualFileEventInfo.reason"
+    },
+    {
+      "id": "p_09_reason",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5942964636769256",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>1</th><td colspan=\"2\"><div>open() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>2</th><td colspan=\"2\"><div>close() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>3</th><td colspan=\"2\"><div>read() 메소드가 수행되었을 때 갖는 값입니다.\n\nVirtualFileEventInfo 오브젝트의 binarydata 또는 textdata 속성에 읽어들인 데이터가 저장됩니다.</div></td></tr><tr><th>4</th><td colspan=\"2\"><div>readLine() 메소드가 수행되었을 때 갖는 값입니다.\n\nVirtualFileEventInfo 오브젝트의 textdata 속성에 읽어들인 데이터가 저장됩니다.</div></td></tr><tr><th>5</th><td colspan=\"2\"><div>seek() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>6</th><td colspan=\"2\"><div>write() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>7</th><td colspan=\"2\"><div>remove() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>8</th><td colspan=\"2\"><div>getFileList() 메소드가 수행되었을 때 갖는 값입니다.\n\nVirtualFileEventInfo 오브젝트의 fileattributelist 속성에 읽어들인 데이터가 저장됩니다.</div></td></tr><tr><th>9</th><td colspan=\"2\"><div>getFileSize() 메소드가 수행되었을 때 갖는 값입니다.\n\nVirtualFileEventInfo 오브젝트의 filesize 속성에 읽어들인 데이터가 저장됩니다.</div></td></tr><tr><th>10</th><td colspan=\"2\"><div>isExist() 메소드가 수행되었을 때 갖는 값입니다.\n\nVirtualFileEventInfo 오브젝트의 fileisexist 속성에 읽어들인 데이터가 저장됩니다.</div></td></tr><tr><th>11</th><td colspan=\"2\"><div>createDirectory() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>12</th><td colspan=\"2\"><div>deleteDirectory() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>13</th><td colspan=\"2\"><div>renameDirectory() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>14</th><td colspan=\"2\"><div>copy() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr><tr><th>15</th><td colspan=\"2\"><div>rename() 메소드가 수행되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_reason",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_reason",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 VirtualFile 오브젝트를 단독으로 사용할 수 없습니다.\n   FileUpload 의 filelist 속성, FileDialogEventInfo 의 virtualfiles 속성에서 제공되는 VirtualFile 만 사용할 수 있습니다."
+    },
+    {
+      "id": "p_01_textdata",
+      "type": "heading2",
+      "content": "textdata",
+      "option": {
+        "alias": "VirtualFileEventInfo_textdata"
+      }
+    },
+    {
+      "id": "p_02_textdata",
+      "type": "pre",
+      "content": "openText 형식으로 Open 된 파일에서 읽어들인 데이터를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_textdata",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_textdata",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_textdata",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_textdata",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_textdata",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_textdata",
+      "type": "command",
+      "content": "VirtualFileEventInfo.textdata"
+    },
+    {
+      "id": "p_11_textdata",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_textdata",
+      "type": "pre",
+      "content": "- VirtualFileEventInfo 의 reason 값이 3 또는 4 인 경우에 textdata 속성에 저장된 데이터가 유효합니다."
+    }
+  ]
+}
