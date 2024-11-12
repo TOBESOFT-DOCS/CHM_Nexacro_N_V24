@@ -1,0 +1,1751 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Grid 컴포넌트를 클릭했을 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_altkey",
+      "type": "heading2",
+      "content": "altkey",
+      "option": {
+        "alias": "GridClickEventInfo_altkey"
+      }
+    },
+    {
+      "id": "p_02_altkey",
+      "type": "pre",
+      "content": "이벤트 발생 시 Alt 키가 눌렸는지 여부를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_altkey",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_altkey",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_altkey",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_altkey",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_altkey",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_altkey",
+      "type": "command",
+      "content": "GridClickEventInfo.altkey"
+    },
+    {
+      "id": "p_09_altkey",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.07977028832777888",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bAlt = e.altkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Alt 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Alt 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_button",
+      "type": "heading2",
+      "content": "button",
+      "option": {
+        "alias": "GridClickEventInfo_button"
+      }
+    },
+    {
+      "id": "p_02_button",
+      "type": "pre",
+      "content": "이벤트를 발생시킨 버튼 또는 터치에 대한 정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_button",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_button",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_button",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_button",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_button",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_button",
+      "type": "command",
+      "content": "GridClickEventInfo.button"
+    },
+    {
+      "id": "p_09_button",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9866180430962296",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strButton = e.button;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 버튼에 의해 발생한 이벤트가 아닌 경우 갖는 값입니다.</div></td></tr><tr><th>\"lbutton\"</th><td colspan=\"2\"><div>마우스의 왼쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"rbutton\"</th><td colspan=\"2\"><div>마우스의 오른쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"mbutton\"</th><td colspan=\"2\"><div>마우스의 가운데 버튼(Wheel)에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton1\"</th><td colspan=\"2\"><div>마우스의 첫번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton2\"</th><td colspan=\"2\"><div>마우스의 두번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"touch\"</th><td colspan=\"2\"><div>터치에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_canvasx",
+      "type": "heading2",
+      "content": "canvasx",
+      "option": {
+        "alias": "GridClickEventInfo_canvasx"
+      }
+    },
+    {
+      "id": "p_02_canvasx",
+      "type": "pre",
+      "content": "이벤트 발생 시 컴포넌트 영역을 기준으로 마우스 또는 터치 위치의 x 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_canvasx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_canvasx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_canvasx",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_canvasx",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_canvasx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_canvasx",
+      "type": "command",
+      "content": "GridClickEventInfo.canvasx"
+    },
+    {
+      "id": "p_11_canvasx",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_canvasx",
+      "type": "pre",
+      "content": "- 마우스 또는 터치 위치의 컴포넌트 좌측 상단을 기준으로 x 좌표를 계산합니다."
+    },
+    {
+      "id": "p_01_canvasy",
+      "type": "heading2",
+      "content": "canvasy",
+      "option": {
+        "alias": "GridClickEventInfo_canvasy"
+      }
+    },
+    {
+      "id": "p_02_canvasy",
+      "type": "pre",
+      "content": "이벤트 발생 시 컴포넌트 영역을 기준으로 마우스 또는 터치 위치의 y 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_canvasy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_canvasy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_canvasy",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_canvasy",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_canvasy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_canvasy",
+      "type": "command",
+      "content": "GridClickEventInfo.canvasy"
+    },
+    {
+      "id": "p_11_canvasy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_canvasy",
+      "type": "pre",
+      "content": "- 마우스 또는 터치 위치의 컴포넌트 좌측 상단을 기준으로 y 좌표를 계산합니다."
+    },
+    {
+      "id": "p_01_cell",
+      "type": "heading2",
+      "content": "cell",
+      "option": {
+        "alias": "GridClickEventInfo_cell"
+      }
+    },
+    {
+      "id": "p_02_cell",
+      "type": "pre",
+      "content": "이벤트가 발생한 Cell 이 밴드에서 위치한 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_cell",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cell",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cell",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cell",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cell",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cell",
+      "type": "command",
+      "content": "GridClickEventInfo.cell"
+    },
+    {
+      "id": "p_09_cell",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2718591022526252",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCell = e.cell;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_cell",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_cell",
+      "type": "pre",
+      "content": "- Head,Body,Summary 밴드는 각 밴드별로 Cell 목록을 가집니다.\n\n- Cell 인덱스는 왼쪽에서 오른쪽으로 위에서 아래로 지정됩니다."
+    },
+    {
+      "id": "p_01_clickitem",
+      "type": "heading2",
+      "content": "clickitem",
+      "option": {
+        "alias": "GridClickEventInfo_clickitem"
+      }
+    },
+    {
+      "id": "p_02_clickitem",
+      "type": "pre",
+      "content": "이벤트를 발생시킨 Cell 의 상세정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_clickitem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_clickitem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_clickitem",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_clickitem",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_clickitem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_clickitem",
+      "type": "command",
+      "content": "GridClickEventInfo.clickitem"
+    },
+    {
+      "id": "p_09_clickitem",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.29776348882404535",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>\"control\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"buttoncontrol\", \"calendarcontrol\", \"checkboxcontrol\", \"combocontrol\", \"editcontrol\", \"maskeditcontrol\", \"progressbarcontrol\", \"radioitemcontrol\", \"textareacontrol\" 중 하나인 Cell 을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"image\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"imgaecontrol\" 인 Cell 을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"treeitembutton\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"treeitemcontrol\" 인 Cell 에서 Collapse/Expand 버튼을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"treeitemcheckbox\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"treeitemcontrol\" 인 Cell 에서 체크박스를 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"expanddown\"</th><td colspan=\"2\"><div>Cell 의 오른쪽에 표시된 확장버튼을 클릭했을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_clickitem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_clickitem",
+      "type": "pre",
+      "content": "- \"control\", \"cellimage\", \"treeitembutton\", \"treeitemcheckbox\", \"exapnddown\" 이외의 영역에서 이벤트 발생 시 clickitem 속성은 빈문자열(Empty String)을 갖습니다.\n\n- clickitem 속성은 성능을 보장하기 위해 이벤트 발생 시에는 값을 가지고 있지 않습니다.\n  스크립트에서 clickitem 속성값을 접근할 때 값을 가져옵니다. 그러므로 Debugging 할 때에는 Watch Tab에 항상 빈 값으로 보입니다.\n  또한 잦은 속성값 접근은 성능 저하를 유발할 수 있으니, 변수에 할당하여 사용하시길 권장합니다."
+    },
+    {
+      "id": "p_01_clientx",
+      "type": "heading2",
+      "content": "clientx",
+      "option": {
+        "alias": "GridClickEventInfo_clientx"
+      }
+    },
+    {
+      "id": "p_02_clientx",
+      "type": "pre",
+      "content": "이벤트 발생 시 컴포넌트의 클라이언트 영역을 기준으로 마우스 또는 터치 위치의 x 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_clientx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_clientx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_clientx",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_clientx",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_clientx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_clientx",
+      "type": "command",
+      "content": "GridClickEventInfo.clientx"
+    },
+    {
+      "id": "p_11_clientx",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_clientx",
+      "type": "pre",
+      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
+    },
+    {
+      "id": "p_01_clienty",
+      "type": "heading2",
+      "content": "clienty",
+      "option": {
+        "alias": "GridClickEventInfo_clienty"
+      }
+    },
+    {
+      "id": "p_02_clienty",
+      "type": "pre",
+      "content": "이벤트 발생 시 컴포넌트의 클라이언트 영역을 기준으로 마우스 또는 터치 위치의 y 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_clienty",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_clienty",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_clienty",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_clienty",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_clienty",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_clienty",
+      "type": "command",
+      "content": "GridClickEventInfo.clienty"
+    },
+    {
+      "id": "p_11_clienty",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_clienty",
+      "type": "pre",
+      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
+    },
+    {
+      "id": "p_01_col",
+      "type": "heading2",
+      "content": "col",
+      "option": {
+        "alias": "GridClickEventInfo_col"
+      }
+    },
+    {
+      "id": "p_02_col",
+      "type": "pre",
+      "content": "이벤트가 발생한 Cell 의 Column 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_col",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_col",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_col",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_col",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_col",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_col",
+      "type": "command",
+      "content": "GridClickEventInfo.col"
+    },
+    {
+      "id": "p_09_col",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9033594655452876",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCol = e.col;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_col",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_col",
+      "type": "pre",
+      "content": "- Column 인덱스값은 왼쪽에서 오른쪽으로 지정됩니다."
+    },
+    {
+      "id": "p_01_ctrlkey",
+      "type": "heading2",
+      "content": "ctrlkey",
+      "option": {
+        "alias": "GridClickEventInfo_ctrlkey"
+      }
+    },
+    {
+      "id": "p_02_ctrlkey",
+      "type": "pre",
+      "content": "이벤트 발생시 Ctrl 키가 눌렸는지 여부를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_ctrlkey",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_ctrlkey",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_ctrlkey",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_ctrlkey",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_ctrlkey",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_ctrlkey",
+      "type": "command",
+      "content": "GridClickEventInfo.ctrlkey"
+    },
+    {
+      "id": "p_09_ctrlkey",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2633224931170891",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bCtrl = e.ctrlkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Ctrl 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Ctrl 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "GridClickEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "GridClickEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7394221610002875",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_fromobject",
+      "type": "heading2",
+      "content": "fromobject",
+      "option": {
+        "alias": "GridClickEventInfo_fromobject"
+      }
+    },
+    {
+      "id": "p_02_fromobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromobject",
+      "type": "command",
+      "content": "GridClickEventInfo.fromobject"
+    },
+    {
+      "id": "p_09_fromobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6191394071467853",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromobject",
+      "type": "pre",
+      "content": "- onlbuttondown 과 같이 상위로 전파되는 이벤트에서 fromobject 속성은 이벤트가 최초로 발생한 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_fromreferenceobject",
+      "type": "heading2",
+      "content": "fromreferenceobject",
+      "option": {
+        "alias": "GridClickEventInfo_fromreferenceobject"
+      }
+    },
+    {
+      "id": "p_02_fromreferenceobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트 또는 서브컨트롤을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromreferenceobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromreferenceobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromreferenceobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromreferenceobject",
+      "type": "command",
+      "content": "GridClickEventInfo.fromreferenceobject"
+    },
+    {
+      "id": "p_09_fromreferenceobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.319461675327284",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromreferenceobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromreferenceobject",
+      "type": "pre",
+      "content": "- Calendar 와 같이 서브컨트롤이 있는 컴포넌트에서 서브컨트롤에 의해 이벤트가 발생한 경우 fromreferenceobject 속성은 서브컨트롤을 갖습니다.\n  Button 과 같이 서브컨트롤이 없는 컴포넌트는 해당 컴포넌트를 갖습니다.\n\n- onlbuttondown과 같이 상위로 전파되는 이벤트에서 fromreferenceobject 속성은 이벤트가 최초로 발생한 컴포넌트 또는 서브컨트롤을 갖습니다."
+    },
+    {
+      "id": "p_13_fromreferenceobject",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_fromreferenceobject",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_grid_105'>병합된 셀의 체크박스 체크하기</a>"
+    },
+    {
+      "id": "p_01_metakey",
+      "type": "heading2",
+      "content": "metakey",
+      "option": {
+        "alias": "GridClickEventInfo_metakey"
+      }
+    },
+    {
+      "id": "p_02_metakey",
+      "type": "pre",
+      "content": "이벤트 발생 시 command(또는 windows) 키가 눌렸는지 여부를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_metakey",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_metakey",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_metakey",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_metakey",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_metakey",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_metakey",
+      "type": "command",
+      "content": "GridClickEventInfo.metakey"
+    },
+    {
+      "id": "p_09_metakey",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6011176044195028",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bMeta = e.metakey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌린 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌리지 않은 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_metakey",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_metakey",
+      "type": "pre",
+      "content": "- mac 키보드에서 command 키, 윈도우 키보드에서 Windows 키 입력 여부를 반환합니다.\n- Firefox 브라우저는 Windows 운영체제에서 키 입력 상태를 반환하지 않습니다."
+    },
+    {
+      "id": "p_01_oldcell",
+      "type": "heading2",
+      "content": "oldcell",
+      "option": {
+        "alias": "GridClickEventInfo_oldcell"
+      }
+    },
+    {
+      "id": "p_02_oldcell",
+      "type": "pre",
+      "content": "이벤트가 발생하기 전에 선택되어 있던 Cell 이 밴드에서 위치한 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_oldcell",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_oldcell",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_oldcell",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_oldcell",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_oldcell",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_oldcell",
+      "type": "command",
+      "content": "GridClickEventInfo.oldcell"
+    },
+    {
+      "id": "p_09_oldcell",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9636646377594592",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldcell = e.oldcell;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_oldcell",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_oldcell",
+      "type": "pre",
+      "content": "- Head,Body,Summary 밴드는 각 밴드별로 Cell 목록을 가집니다.\n\n- Cell 인덱스는 왼쪽에서 오른쪽으로 위에서 아래로 지정됩니다."
+    },
+    {
+      "id": "p_01_oldcol",
+      "type": "heading2",
+      "content": "oldcol",
+      "option": {
+        "alias": "GridClickEventInfo_oldcol"
+      }
+    },
+    {
+      "id": "p_02_oldcol",
+      "type": "pre",
+      "content": "이벤트가 발생하기 전에 선택되어 있던 Cell 의 Column 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_oldcol",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_oldcol",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_oldcol",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_oldcol",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_oldcol",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_oldcol",
+      "type": "command",
+      "content": "GridClickEventInfo.oldcol"
+    },
+    {
+      "id": "p_09_oldcol",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8464762061717205",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldcol = e.oldcol;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_oldcol",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_oldcol",
+      "type": "pre",
+      "content": "- Column 인덱스값은 왼쪽에서 오른쪽으로 지정됩니다."
+    },
+    {
+      "id": "p_01_oldrow",
+      "type": "heading2",
+      "content": "oldrow",
+      "option": {
+        "alias": "GridClickEventInfo_oldrow"
+      }
+    },
+    {
+      "id": "p_02_oldrow",
+      "type": "pre",
+      "content": "이벤트가 발생하기 전에 선택되어 있던 Cell 의 Row 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_oldrow",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_oldrow",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_oldrow",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_oldrow",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_oldrow",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_oldrow",
+      "type": "command",
+      "content": "GridClickEventInfo.oldrow"
+    },
+    {
+      "id": "p_09_oldrow",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6010058697727845",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldrow = e.oldrow;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_oldrow",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_oldrow",
+      "type": "pre",
+      "content": "- Grid 에 바인딩된 DataSet 의 rowposition 속성값과 같은 값을 갖습니다.\n\n- Head 밴드에서 이벤트가 발생하면 \"-1\" 값을 갖습니다.\n\n- Summary 밴드에서 이벤트가 발생하면 \"-2\" 값을 갖습니다.\n\n- Grid 가 트리형태일 때 화면에 표시되는 위치와 DataSet 의 rowposition 값이 달라집니다.\n  화면에 표시되는 위치의 Row 인덱스값이 필요할 때는 Grid 의 getTreeRow() 메소드를 사용하여야 합니다.\n\nthis.Grid00_onclick = function(obj:nexacro.Grid, e:nexacro.GridClickEventInfo)\n{\n    trace(obj.getTreeRow(e.row));\n}"
+    },
+    {
+      "id": "p_01_oldsubrow",
+      "type": "heading2",
+      "content": "oldsubrow",
+      "option": {
+        "alias": "GridClickEventInfo_oldsubrow"
+      }
+    },
+    {
+      "id": "p_02_oldsubrow",
+      "type": "pre",
+      "content": "이벤트가 발생한 Cell 의 subrow 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_oldsubrow",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_oldsubrow",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_oldsubrow",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_oldsubrow",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_oldsubrow",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_oldsubrow",
+      "type": "command",
+      "content": "GridClickEventInfo.oldsubrow"
+    },
+    {
+      "id": "p_09_oldsubrow",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.04347302417964538",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldsubrow = e.oldsubrow;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_oldsubrow",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_oldsubrow",
+      "type": "pre",
+      "content": "- 병합된 Cell 일 경우 병합된 Cell 중 첫번째 Cell 의 subrow 값을 갖습니다."
+    },
+    {
+      "id": "p_01_row",
+      "type": "heading2",
+      "content": "row",
+      "option": {
+        "alias": "GridClickEventInfo_row"
+      }
+    },
+    {
+      "id": "p_02_row",
+      "type": "pre",
+      "content": "이벤트가 발생한 Cell 의 Row 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_row",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_row",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_row",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_row",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_row",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_row",
+      "type": "command",
+      "content": "GridClickEventInfo.row"
+    },
+    {
+      "id": "p_09_row",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2365859438739708",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nRow = e.row;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_row",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_row",
+      "type": "pre",
+      "content": "- Grid 에 바인딩된 DataSet 의 rowposition 속성값과 같은 값을 갖습니다.\n\n- Head 밴드에서 이벤트가 발생하면 \"-1\" 값을 갖습니다.\n\n- Summary 밴드에서 이벤트가 발생하면 \"-2\" 값을 갖습니다.\n\n- Grid 가 트리형태일 때 화면에 표시되는 위치와 DataSet 의 rowposition 값이 달라집니다.\n  화면에 표시되는 위치의 Row 인덱스값이 필요할 때는 Grid 의 getTreeRow() 메소드를 사용하여야 합니다.\n\nthis.Grid00_onclick = function(obj:nexacro.Grid, e:nexacro.GridClickEventInfo)\n{\n    trace(obj.getTreeRow(e.row));\n}"
+    },
+    {
+      "id": "p_01_screenx",
+      "type": "heading2",
+      "content": "screenx",
+      "option": {
+        "alias": "GridClickEventInfo_screenx"
+      }
+    },
+    {
+      "id": "p_02_screenx",
+      "type": "pre",
+      "content": "이벤트 발생 시 모니터 영역을 기준으로 마우스 또는 터치 위치의 x 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_screenx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_screenx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_screenx",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_screenx",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_screenx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_screenx",
+      "type": "command",
+      "content": "GridClickEventInfo.screenx"
+    },
+    {
+      "id": "p_11_screenx",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_screenx",
+      "type": "pre",
+      "content": "- 마우스 또는 터치 위치의 모니터 좌측 상단을 기준으로 x 좌표를 계산합니다."
+    },
+    {
+      "id": "p_01_screeny",
+      "type": "heading2",
+      "content": "screeny",
+      "option": {
+        "alias": "GridClickEventInfo_screeny"
+      }
+    },
+    {
+      "id": "p_02_screeny",
+      "type": "pre",
+      "content": "이벤트 발생 시 모니터 영역을 기준으로 마우스 또는 터치 위치의 y 좌표값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_screeny",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_screeny",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_screeny",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_screeny",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_screeny",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_screeny",
+      "type": "command",
+      "content": "GridClickEventInfo.screeny"
+    },
+    {
+      "id": "p_11_screeny",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_screeny",
+      "type": "pre",
+      "content": "- 마우스 또는 터치 위치의 모니터 좌측 상단을 기준으로 y 좌표를 계산합니다.\n\n◆ Mobile WRE 제약\n\n- Mobile WRE 실행 시 웹브라우저의 주소창 영역에 대한 정보가 운영체제, 브라우저 버전에 따라 다르게 처리될 수 있습니다.\n  때문에 스크린 좌표값 처리 시 웹브라우저의 주소창 영역은 제외하고 실제 화면이 표시되는 영역을 기준으로 처리합니다."
+    },
+    {
+      "id": "p_01_shiftkey",
+      "type": "heading2",
+      "content": "shiftkey",
+      "option": {
+        "alias": "GridClickEventInfo_shiftkey"
+      }
+    },
+    {
+      "id": "p_02_shiftkey",
+      "type": "pre",
+      "content": "이벤트 발생시 Shift 키가 눌렸는지 여부를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_shiftkey",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_shiftkey",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_shiftkey",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_shiftkey",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_shiftkey",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_shiftkey",
+      "type": "command",
+      "content": "GridClickEventInfo.shiftkey"
+    },
+    {
+      "id": "p_09_shiftkey",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5465294642346219",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bshiftkey = e.shiftkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Shift 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Shift 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_subrow",
+      "type": "heading2",
+      "content": "subrow",
+      "option": {
+        "alias": "GridClickEventInfo_subrow"
+      }
+    },
+    {
+      "id": "p_02_subrow",
+      "type": "pre",
+      "content": "이벤트가 발생한 Cell 의 subrow 인덱스값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_subrow",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_subrow",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_subrow",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_subrow",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_subrow",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_subrow",
+      "type": "command",
+      "content": "GridClickEventInfo.subrow"
+    },
+    {
+      "id": "p_09_subrow",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.44713708094202353",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nSubrow = e.subrow;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_subrow",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_subrow",
+      "type": "pre",
+      "content": "- 병합된 Cell 일 경우 병합된 Cell 중 첫번째 Cell 의 subrow 값을 갖습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01preventDefault",
+      "type": "heading2",
+      "content": "preventDefault",
+      "option": {
+        "alias": "GridClickEventInfo_preventDefault"
+      }
+    },
+    {
+      "id": "m_02_preventDefault",
+      "type": "pre",
+      "content": "현재 이벤트의 Default Action 을 취소하는 메소드입니다."
+    },
+    {
+      "id": "m_03_preventDefault",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_preventDefault",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_preventDefault",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_preventDefault",
+      "type": "command",
+      "content": "GridClickEventInfo.preventDefault()"
+    }
+  ]
+}
