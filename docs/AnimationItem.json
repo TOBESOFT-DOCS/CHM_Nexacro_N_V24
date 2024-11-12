@@ -1,0 +1,331 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Animation 오브젝트에서 addTarget() 메소드 실행 시 파라미터 값을 기준으로 생성되는 아이템 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- addTarget() 메소드 실행 시 AnimationItem 오브젝트가 생성되어 Animation 오브젝트에 아이템으로 등록됩니다.\n\n- Animation 오브젝트에 addTarget() 메소드로 AnimationItem 오브젝트를 여러개 등록할 수 있습니다.\n\n- Animation 오브젝트 실행 시 아이템으로 등록된 컴포넌트에 애니메이션 효과를 동시에 적용합니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_componentid",
+      "type": "heading2",
+      "content": "componentid",
+      "option": {
+        "alias": "AnimationItem_componentid"
+      }
+    },
+    {
+      "id": "p_02_componentid",
+      "type": "pre",
+      "content": "애니메이션 효과가 적용될 대상 컴포넌트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_componentid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_componentid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_componentid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_componentid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_componentid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_componentid",
+      "type": "command",
+      "content": "AnimationItem.componentid"
+    },
+    {
+      "id": "p_09_componentid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9069033606629765",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAni = new nexacro.Animation(\"Animation00\", this); \n\nobjAni.addTarget( \"AniItem00\", this.Button00, \"left:600\" );</div></td></tr><tr><th>componentid</th><td colspan=\"2\"><div>애니메이션 효과가 적용될 대상 컴포넌트를 addTarget() 메소드를 사용하여 등록합니다.\n\naddTarget() 메소드에 설정한 두번째 파라미터가 AnimationItem 오브젝트의 componentid 값으로 설정됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_componentid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_componentid",
+      "type": "pre",
+      "content": "- AnimationItem 오브젝트에 컴포넌트를 한개만 설정할 수 있습니다.\n   애니메이션 효과가 적용될 컴포넌트를 추가하려면 AnimationItem 오브젝트를 추가하여야 합니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "AnimationItem_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "AnimationItem 오브젝트의 고유 식별자가 설정되는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "AnimationItem.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4600228267084079",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var iItemIdx = this.Animation00.addTarget( \"AnimationItem00\", this.Button00, \"left:600\" );</div></td></tr><tr><th>id</th><td colspan=\"2\"><div>Animation 오브젝트의 addTarget() 메소드 실행 시 첫번째 파라미터가 id 값으로 설정됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_props",
+      "type": "heading2",
+      "content": "props",
+      "option": {
+        "alias": "AnimationItem_props"
+      }
+    },
+    {
+      "id": "p_02_props",
+      "type": "pre",
+      "content": "애니메이션 효과가 적용될 속성과 속성값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_props",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_props",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_props",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_props",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_props",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_props",
+      "type": "command",
+      "content": "AnimationItem.props"
+    },
+    {
+      "id": "p_09_props",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9778454442219068",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strProps ::= &lt;propName&gt; ':' &lt;propValue&gt; [ ',' &lt;propName&gt; ':' &lt;propValues&gt; ]*\n\n&lt;propValues&gt; ::= '[' &lt;strValue&gt; [ ',' &lt;strValue&gt; ]* ']'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAni = new nexacro.Animation(\"Animation00\", this); \n\nobjAni.addTarget( \"AniItem00\", this.Button00, \"left:600\" );\nobjAni.addTarget( \"AniItem01\", this.Button01, \"left:[100,600]\" );\nobjAni.addTarget( \"AniItem02\", this.Button02, \"left:[100,600], background:['white','blue']\" );</div></td></tr><tr><th>strProps</th><td colspan=\"2\"><div>애니메이션 효과가 적용될 속성명과 속성값을 addTarget() 메소드를 사용하여 등록합니다.\n\naddTarget() 메소드에 설정한 세번째 파라미터가 AnimationItem 오브젝트의 props 값으로 설정됩니다.\n\n속성명과 속성값은 \":\" 문자로 구분하여 한 개 이상 설정할 수 있습니다.\n각 속성은 \",\" 문자로 구분하여 설정합니다.</div></td></tr><tr><th>&lt;propName&gt;</th><td colspan=\"2\"><div>애니메이션 효과가 적용될 속성명을 설정합니다.\n\n읽기전용 속성은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;propValues&gt;</th><td colspan=\"2\"><div>애니메이션 효과가 수행되면서 변경시킬 속성값을 설정합니다.\n\n속성값을 여러개 설정할 경우 \"[\",\"]\" 문자를 사용하여 배열 형태로 설정하며 각 값은 \",\" 문자로 구분합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_props",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_props",
+      "type": "pre",
+      "content": "- 애니메이션 효과는 props 에 설정된 속성의 값을 duration 에 설정된 시간 동안 props 에 설정된 속성값으로 변경시키며 적용됩니다.\n\n- props 에 설정된 속성값은 애니메이션 효과가 실행되는 동안 균등 분할되어 적용됩니다.\n   예를 들어 \"left:[30,50,100]\" 을 설정하면 애니메이션 효과 실행 시 대상 컴포넌트의 left 값이 30 으로 변경된 후\n   애니메이션 효과가 50% 진행되는 동안 left 속성값이 30 -&gt; 50 으로 변경되고, 나머지 100% 까지 진행되는 동안 50 -&gt; 100으로 변경됩니다.\n\n- props 에 설정된 속성에 변경시킬 속성값이 하나만 정의되어 있고, 대상 컴포넌트의 현재 속성값과 같다면\n   애니메이션 효과가 실행되지 않는 것처럼 보일 수 있습니다.\n   예를 들어 props 속성값이 \"left:100\" 이고 대상 컴포넌트의 left 속성값이 100 이면, 속성값이 100 -&gt; 100 으로 변경되므로\n   애니메이션 효과는 실행되고 있지만 화면에 변화는 없습니다.\n\n- 애니메이션 효과가 적용된 속성은 최종적으로 props 에 설정된 마지막 값을 갖습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "AnimationItem_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 AnimationItem 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "AnimationItem.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9047619063946944",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>AnimationItem 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nAnimationItem 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 AnimationItem 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    }
+  ]
+}
