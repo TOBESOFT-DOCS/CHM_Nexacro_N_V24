@@ -1,0 +1,2183 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "엑셀 또는 한셀 파일의 내용을 DataSet 에 Import 하는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_commandversion",
+      "type": "heading2",
+      "content": "commandversion",
+      "option": {
+        "alias": "ExcelImportObject_commandversion"
+      }
+    },
+    {
+      "id": "p_02_commandversion",
+      "type": "pre",
+      "content": "Import 시 데이터 인코딩 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_commandversion",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_commandversion",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_commandversion",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_commandversion",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_commandversion",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_commandversion",
+      "type": "command",
+      "content": "ExcelImportObject.commandversion [=enumVersion]"
+    },
+    {
+      "id": "p_09_commandversion",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.944091463784254",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumVersion ::= \"1.0\" | \"2.0\" | \"3.0\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.commandversion = \"2.0\";</div></td></tr><tr><th>\"1.0\"</th><td colspan=\"2\"><div>인코딩 처리를 하지 않습니다.</div></td></tr><tr><th>\"2.0\"</th><td colspan=\"2\"><div>Base32로 인코딩합니다.</div></td></tr><tr><th>\"3.0\"</th><td colspan=\"2\"><div>Base64로 인코딩합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_commandversion",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_commandversion",
+      "type": "pre",
+      "content": "- commandversion 속성을 설정하지 않으면 \"1.0\"으로 적용됩니다."
+    },
+    {
+      "id": "p_01_commdataformat",
+      "type": "heading2",
+      "content": "commdataformat",
+      "option": {
+        "alias": "ExcelImportObject_commdataformat"
+      }
+    },
+    {
+      "id": "p_02_commdataformat",
+      "type": "pre",
+      "content": "Import를 위해 데이터를 서버에 전송 시 사용할 통신형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_commdataformat",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_commdataformat",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_commdataformat",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_commdataformat",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_commdataformat",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5891618864324856",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumFormat ::= 'xml' | 'ssv' | 'json'</div></td></tr><tr><th>\"xml\"</th><td colspan=\"2\"><div>XML 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"ssv\"</th><td colspan=\"2\"><div>SSV 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"json\"</th><td colspan=\"2\"><div>JSON 형식으로 데이터를 전송합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_commdataformat",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_commdataformat",
+      "type": "pre",
+      "content": "- commdataformat 속성값을 설정하지 않으면 \"xml\" 로 적용됩니다."
+    },
+    {
+      "id": "p_01_filefilter",
+      "type": "heading2",
+      "content": "filefilter",
+      "option": {
+        "alias": "ExcelImportObject_filefilter"
+      }
+    },
+    {
+      "id": "p_02_filefilter",
+      "type": "pre",
+      "content": "Import 할 파일을 선택하는 파일선택창에 적용될 파일형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filefilter",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filefilter",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filefilter",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filefilter",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_filefilter",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.047965264658314966",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImport00.filefilter = \"All(*.*)|*.*|Text Files(*.txt)|*.txt|\";\nthis.ExcelImport00.filefilter = \"Excel Files(*.xlsx)|*.xls;*.xlsx|Word Files(*.docx)|*.doc;*.docx|ALL Files(*.*)|*.*|\";</div></td></tr><tr><th>strFileFilter</th><td colspan=\"2\"><div>파일선택창에 적용될 파일형식을 \"설명|확장자\" 형식으로 설정합니다.\n\n\"|\" 문자를 구분자로 하여 설명과 실제 확장자를 쌍으로 여러개의 파일형식을 설정할 수 있습니다.\n한 개의 파일형식내에서 복수개의 확장자를 지정할 때는 \"*.xlsx;*.xls\" 와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filefilter",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filefilter",
+      "type": "pre",
+      "content": "- filefilter 속성값을 설정하지 않으면 빈문자열이 설정되고, \"All(*.*)|*.*|\" 로 동작합니다.\n\n- importfilemode 속성값이 \"local\" 이거나 importData(), importDataEx() 메소드의 strSource 파라미터값을 설정하지 않았을 경우 파일선택창이 표시됩니다.\n\n- 파일형식이 여러개 일 경우 파일선택창에 기본으로 표시될 파일형식을 filefilterindex 속성에 인덱스값으로 설정합니다.\n   인덱스는 0 부터 시작하며 첫번째 파일형식부터 차례로 설정됩니다."
+    },
+    {
+      "id": "p_01_filefilterindex",
+      "type": "heading2",
+      "content": "filefilterindex",
+      "option": {
+        "alias": "ExcelImportObject_filefilterindex"
+      }
+    },
+    {
+      "id": "p_02_filefilterindex",
+      "type": "pre",
+      "content": "파일선택창에 기본으로 표시될 파일형식을 인덱스값으로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filefilterindex",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filefilterindex",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filefilterindex",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filefilterindex",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_filefilterindex",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_filefilterindex",
+      "type": "command",
+      "content": "ExcelImportObject.filefilterindex[= nIndex]"
+    },
+    {
+      "id": "p_09_filefilterindex",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8416516444181891",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.filefilterindex = 1;</div></td></tr><tr><th>nIndex</th><td colspan=\"2\"><div>파일선택창에 설정된 파일형식 중 기본으로 표시될 파일형식의 인덱스를 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filefilterindex",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filefilterindex",
+      "type": "pre",
+      "content": "- filefilterindex 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- 파일선택창에 표시되는 파일형식은 filefilter 속성에 설정합니다.\n   파일형식의 인덱스는 0 부터 시작하며 첫번째 파일형식부터 차례로 인덱스가 설정됩니다."
+    },
+    {
+      "id": "p_01_importfilemode",
+      "type": "heading2",
+      "content": "importfilemode",
+      "option": {
+        "alias": "ExcelImportObject_importfilemode"
+      }
+    },
+    {
+      "id": "p_02_importfilemode",
+      "type": "pre",
+      "content": "Import 할 파일의 위치와 처리방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_importfilemode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_importfilemode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_importfilemode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_importfilemode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_importfilemode",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5171978799636787",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumMode ::= 'server' | 'local'</div></td></tr><tr><th>\"server\"</th><td colspan=\"2\"><div>서버에 위치한 파일을 Import 하며 Import 후에도 해당 파일을 삭제하지 않습니다.\n서버에 해당 파일이 없는 경우나 Local이나 Network File을 지정하는 경우, Import 가 처리되지 않고 결과를 수신받습니다.</div></td></tr><tr><th>\"local\"</th><td colspan=\"2\"><div>파일 대화 상자(File Dialog)를 표시해 로컬에 위치한 파일을 선택합니다.\n로컬에 위치한 파일을 서버로 전송해 Import 처리하며 Import 처리 후에 서버에 생성된 파일은 삭제됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_importfilemode",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_importfilemode",
+      "type": "pre",
+      "content": "- importfilemode 속성값을 설정하지 않으면 \"local\" 로 적용됩니다."
+    },
+    {
+      "id": "p_01_importtype",
+      "type": "heading2",
+      "content": "importtype",
+      "option": {
+        "alias": "ExcelImportObject_importtype"
+      }
+    },
+    {
+      "id": "p_02_importtype",
+      "type": "pre",
+      "content": "ExcelImportObject 가 Import 할 파일의 형식을 상수값으로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_importtype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_importtype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_importtype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_importtype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_importtype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.11371265643860762",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.importtype = nexacro.ImportTypes.EXCEL2007;\nthis.ExcelImportObject00.importtype = 1040;</div></td></tr><tr><th>constImportTypes</th><td colspan=\"2\"><div>Import 할 파일의 형식을 상수값으로 설정합니다.\n\n256 (0x0100) 또는 nexacro.ImportTypes.EXCEL 설정 시 엑셀 97 형식으로 Import 합니다.\n272 (0x0110) 또는 nexacro.ImportTypes.EXCEL97 설정 시 엑셀 97~2003 형식으로 Import 합니다.\n288 (0x0120) 또는 nexacro.ImportTypes.EXCEL2007 설정 시 엑셀 2007 XML 형식으로 Import 합니다.\n1040 (0x0410) 또는 nexacro.ImportTypes.HANCELL2014 설정 시 한셀 2014 형식으로 Import 합니다.\n1280 (0x0500) 또는 nexacro.ImportTypes.CSV 설정 시 CSV 형식으로 Import 합니다.\n1296 (0x0510) 또는 nexacro.ImportTypes.TXT 설정 시 TXT 형식으로 Import 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_importtype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_importtype",
+      "type": "pre",
+      "content": "- importtype 속성값을 설정하지 않거나 null 설정 시 256 (0x0100) 으로 적용됩니다.\n\n- 한셀 2010 형식은 현재 지원되지 않습니다. Excel 2007 파일로 저장해서 사용하시기 바랍니다."
+    },
+    {
+      "id": "p_13_importtype",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_importtype",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_02'>엑셀 파일 읽어서 Grid로 보여주기(임포트)</a>"
+    },
+    {
+      "id": "p_01_importurl",
+      "type": "heading2",
+      "content": "importurl",
+      "option": {
+        "alias": "ExcelImportObject_importurl"
+      }
+    },
+    {
+      "id": "p_02_importurl",
+      "type": "pre",
+      "content": "ExcelImportObject 가 Import 를 수행할 서버의 URL 을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_importurl",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_importurl",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_importurl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_importurl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_importurl",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_importurl",
+      "type": "command",
+      "content": "ExcelImportObject.importurl[= strImporturl]"
+    },
+    {
+      "id": "p_09_importurl",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3399425864231749",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strImporturl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.importurl = \"https://localhost:8080/nexacro-xeni/XImport\";</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>Import 를 수행할 서버의 URL 을 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>현재 Form 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_importurl",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_importurl",
+      "type": "pre",
+      "content": "- importurl 속성값을 설정하지 않으면 Import 가 수행되지 않습니다."
+    },
+    {
+      "id": "p_13_importurl",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_importurl",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_02'>엑셀 파일 읽어서 Grid로 보여주기(임포트)</a>"
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "ExcelImportObject_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "ExcelImportObject 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "ExcelImportObject.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2973967690536109",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_quotechar",
+      "type": "heading2",
+      "content": "quotechar",
+      "option": {
+        "alias": "ExcelImportObject_quotechar"
+      }
+    },
+    {
+      "id": "p_02_quotechar",
+      "type": "pre",
+      "content": "Import 시 한정자로 사용할 값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_quotechar",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_quotechar",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_quotechar",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_quotechar",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_quotechar",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_quotechar",
+      "type": "command",
+      "content": "ExcelImportObject.quotechar[= strQuotechar]"
+    },
+    {
+      "id": "p_09_quotechar",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.916807543592779",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.quotechar = \"'\";</div></td></tr><tr><th>strQuotechar</th><td colspan=\"2\"><div>구분자로 분리되는 항목 중 분리하지 않을 부분을 처리하기 위한 텍스트 한정자를 설정합니다.\n\" (quotation mark), ' (apostrophe), \"none\", \"default\" 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_quotechar",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_quotechar",
+      "type": "pre",
+      "content": "- default 값은 \"default\" 입니다.\n  유효하지 않은 값을 입력할 경우에는 속성값은 \"default\" 값으로 처리합니다.\n  \"default\" 값으로 설정한 경우에는 XENI 텍스트 한정자 설정값에 따라 동작합니다."
+    },
+    {
+      "id": "p_01_separator",
+      "type": "heading2",
+      "content": "separator",
+      "option": {
+        "alias": "ExcelImportObject_separator"
+      }
+    },
+    {
+      "id": "p_02_separator",
+      "type": "pre",
+      "content": "Import 시 구분자로 사용할 값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_separator",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_separator",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_separator",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_separator",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_separator",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_separator",
+      "type": "command",
+      "content": "ExcelImportObject.separator[= strSeparator]"
+    },
+    {
+      "id": "p_09_separator",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9284252144429357",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.separator = \"0x1E\";</div></td></tr><tr><th>strSeparator</th><td colspan=\"2\"><div>컬럼을 구분을 문자를 설정합니다.\n10진수 또는 16진수로 설정할 수 있습니다.\n(16진수인 경우에는 0xXX, 0XXX의 형태로 입력해야 합니다).\n\n0x00(0) ~ 0x7F(127) 범위의 ASCII 문자를 하나만 설정할 수 있습니다.\n단, 아래 문자는 설정할 수 없습니다.\n\n0x0A(10) - LF(Line Feed)\n0x0D(13) - CR(Carriage Return)\n0x22(34) - \" (quotation mark)\n0x27(39) - ' (apostrophe)\n0x00(00) - NUL (Null char.)\n0x03(03) - ETX (End of Text)\n0x1D(29) - GS (Group Separator)\n0x28(40) - ( (left opening parenthesis)\n0x29(41) - ) (right closing parenthesis)\n0x3A(58) - : (colon)\n0x3D(61) - = (equal sign)</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_separator",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_separator",
+      "type": "pre",
+      "content": "- default 값은 \",\"로 처리합니다.\n  유효하지 않은 값을 입력할 경우에도 default 값으로 처리합니다.\n- importtype 속성값이 nexacro.ImportTypes.TXT 인 경우에만 유효합니다."
+    },
+    {
+      "id": "p_01_userawdatevalue",
+      "type": "heading2",
+      "content": "userawdatevalue",
+      "option": {
+        "alias": "ExcelImportObject_userawdatevalue"
+      }
+    },
+    {
+      "id": "p_02_userawdatevalue",
+      "type": "pre",
+      "content": "엑셀의 셀값이 날짜 또는 시간 계열일 때 원본값 그대로 Import 할지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_userawdatevalue",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_userawdatevalue",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_userawdatevalue",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_userawdatevalue",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_userawdatevalue",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6543651960402653",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRawDate ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.userawdatevalue = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>엑셀의 셀에 설정된 원본 데이터값만 Import 합니다.\n\n셀의 표시형식에 따른 서식은 Import 하지 않습니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>엑셀의 셀에 표시된 값을 Import 합니다.\n\n셀의 표시형식에 따른 서식을 반영하여 Import 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_userawdatevalue",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_userawdatevalue",
+      "type": "pre",
+      "content": "- userawnumbervalue 속성을 설정하지 않으면 false 로 적용됩니다.\n\n- userawnumbervalue 속성은 엑셀의 셀 표시형식이 \"날짜\", \"시간\" 형식인 경우에 적용되는 속성입니다."
+    },
+    {
+      "id": "p_01_userawnumbervalue",
+      "type": "heading2",
+      "content": "userawnumbervalue",
+      "option": {
+        "alias": "ExcelImportObject_userawnumbervalue"
+      }
+    },
+    {
+      "id": "p_02_userawnumbervalue",
+      "type": "pre",
+      "content": "엑셀의 셀값이 숫자계열일 때 원본값 그대로 Import 할지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_userawnumbervalue",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_userawnumbervalue",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_userawnumbervalue",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_userawnumbervalue",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_userawnumbervalue",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.21377438585103525",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRawNum ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.userawnumbervalue = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>엑셀의 셀에 설정된 원본 데이터값만 Import 합니다.\n\n셀의 표시형식에 따른 서식은 Import 하지 않습니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>엑셀의 셀에 표시된 값을 Import 합니다.\n\n셀의 표시형식에 따른 서식을 반영하여 Import 합니다.\n셀의 표시형식이 \"통화\", \"회계\" 이면 통화기호, 회계기호를 포함하여 Import 합니다.\n셀의 표시형식이 \"백분율\" 이면 \"%\" 기호를 포함하지 않고 Import 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_userawnumbervalue",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_userawnumbervalue",
+      "type": "pre",
+      "content": "- userawnumbervalue 속성을 설정하지 않으면 true 로 적용됩니다.\n\n- userawnumbervalue 속성은 엑셀의 셀 표시형식이 \"숫자\", \"통화\", \"회계\", \"백분율\" 등 숫자형식인 경우에 적용되는 속성입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "ExcelImportObject_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "ExcelImportObject 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "ExcelImportObject.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.043454504542901895",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelImportObject 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelImportObject00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.25487355942042733",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- ExcelImportObject 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5585668629602165",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.addEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7624798432244345",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_addEventHandler",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addEventHandler",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_02'>엑셀 파일 읽어서 Grid로 보여주기(임포트)</a>"
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "ExcelImportObject_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "함수를 검색하여 ExcelImportObject 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelImportObject.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6587393094708733",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.addEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9227623758213969",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.23022618487207436",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.ExcelImportObject00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1331826029997728",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "ExcelImportObject_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 ExcelImportObject 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "ExcelImportObject.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.47308701771398554",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>ExcelImportObject 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nExcelImportObject 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 ExcelImportObject 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7498410260273016",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.ExcelImportObject00.findEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7879787220655888",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수의 인덱스는 0 부터 시작합니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.47372473766738776",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = ExcelImportObject00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.06626391484191552",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01importData",
+      "type": "heading2",
+      "content": "importData",
+      "option": {
+        "alias": "ExcelImportObject_importData"
+      }
+    },
+    {
+      "id": "m_02_importData",
+      "type": "pre",
+      "content": "파일을 DataSet으로 Import 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_importData",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_importData",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_importData",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_importData",
+      "type": "command",
+      "content": "ExcelImportObject.importData( strSource,strRange,strOutDatasets [,strArgument] )"
+    },
+    {
+      "id": "m_07_importData",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1112070347626386",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSource</td><td>String</td><td colspan=\"2\"><div>Import 할 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\nimportfilemode 속성값이 \"server\" 일 경우 \"http://\", \"https://\" 형식으로 파일의 위치를 설정합니다.\nimportfilemode 속성값이 \"server\" 일 때 상대경로를 설정 시 importurl 속성에 설정된 경로를 기준으로 처리됩니다.\nimportfilemode 속성값이 \"local\" 이거나 strSource 값을 설정하지 않았을 경우 FileDialog 가 표시되고 파일을 선택합니다.</div></td></tr><tr><td>strRange</td><td>String</td><td colspan=\"2\"><div>strSource 에 설정한 파일에서 DataSet 으로 Import 할 영역을 \"시트명!셀영역:셀영역\" 또는 Import 할 파일의 형식이 CSV, TXT 인 경우에 \"시작영역:끝영역\" 형식으로 설정합니다.\n\n여러 영역을 지정해야 할 경우 아래 형식으로 반복 설정합니다.\n\nstrRange ::= '[Command=&lt;strCommand&gt;; Output=&lt;dsName&gt;; Head=&lt;strArea&gt;; Body=&lt;strArea&gt;]'\n\n&lt;strCommand&gt; ::= 'getsheetlist' | 'getsheetdata'\n  \"getsheetlist\" 설정 시 strSource 에 설정한 파일에서 시트목록을 Import 합니다.\n  \"getsheetdata\" 설정 시  strSource 에 설정한 파일에서 &lt;strArea&gt; 의 데이터를 Import 합니다.\n  값을 생략 할 경우 \"getsheetdata\"로 적용됩니다.\n\n&lt;dsName&gt; \n  Import 한 데이터를 갖는 변수명입니다.\n  strOutDatasets 에서 오른쪽 대입변수로 사용됩니다.\n  값을 생략 할 경우 \"output1\", \"output2\" ... 로 자동설정됩니다.\n\n&lt;strArea&gt; ::= '시트명!셀영역:셀영역'\n  Import 할 데이터 영역을 설정합니다.\n  \"Head\" 항목에 정의된 영역은 Import 시 DataSet 의 Column 명으로 사용됩니다.\n  \"Head\" 항목 생략 시 \"Column0\", \"Column1\" ... 으로 자동설정됩니다.\n  \"Body\" 항목에 정의된 영역은 DataSet 의 Row 데이터로 Import 됩니다.\n  \"Body\" 항목 생략 시 모든 레코드가 Import 됩니다.\n  * 시트명을 생략하면 첫 번째 시트가 작업 대상이 됩니다.\n  * 첫 번째 시트가 아닌 다른 시트를 지정하는 경우에는 \"Head\", \"Body\" 모두 설정해주어야 합니다.\n    아래와 같이 설정한 경우에는 Head는 첫 번째 시트에서 처리되고 Body만 지정한 시트에서 처리됩니다.\n    Body에서 설정한 셀영역이 Head에 없는 경우에는 에러가 발생할 수 있습니다.\n    [Command=getData;Output=output2;Body=Sheet2!A1;]\n\n* Import 할 파일의 형식이 CSV, TXT 인 경우에는 아래와 같이 적용합니다.\n\n&lt;strCommand&gt; 지원하지 않습니다.\n&lt;strArea&gt; ::= StartCol[,StartRow[:EndCol[,EndRow]]]\n  \"Head\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=0\n  \"Head\" 항목에서 EndRow 설정값은 무시하고 StartRow 설정값 기준으로 동작합니다.\n  \"Body\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=RowCount-1</div></td></tr><tr><td>strOutDatasets </td><td>String</td><td colspan=\"2\"><div>Import 한 데이터를 저장할 DataSet 의 ID 를 \"DataSet명=변수명\" 의 형식으로 설정합니다.\n\nDataSet 을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n우측의 \"변수명\" 은 strRange 에 설정한 변수명을 설정하거나 \"output1\" ... 으로 자동생성된 변수명을 설정합니다.</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>Import 시 필요한 정보를 \"변수명=변수값\" 형태로 설정합니다.\n\n파라미터쌍을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n비밀번호가 설정된 엑셀파일을 Import 할 경우 \"filepassword=엑셀파일비밀번호\" 를 입력해야 정상동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00.importData(\"http://localhost:8080/xeni/XImport/my.xlsx\",\"Sheet00!D15:E28\",\"Dataset03=output1\");\nthis.ExcelImportObject00.importData(\"\",\"Sheet00!D15:E28\",\"Dataset03=output1\",\"filepassword=strpassword\");\nthis.ExcelImportObject00.importData(\"\", \"[Command=getsheetlist;Output=sheetlist][Command=getsheetdata;Output=output1;Head=!A1:K1;Body=!A2:K15][Output=output2; Body=Sheet1!B7:Z207]\", \"ds_list=sheetlist, ds_Data1=output1, ds_Data2=output2\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_importData",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_importData",
+      "type": "pre",
+      "content": "- Import 중 ESC 키를 입력하면 Import 를 중지시킬 수 있습니다.\n\n- Local 에 위치한 파일을 importurl 속성에 설정된 서버로 보낸 후 트랜잭션처럼 DataSet 으로 수신받습니다.\n\n- importDataEx() 메소드와의 차이는 Import 를 구분할 수 있는 ID 파라미터의 유무입니다.\n\n- Import 할 파일에 포함된 개체(이미지, 차트, 수식 등)는 Import 대상에 포함하지 않으며 개체가 포함된 경우 개체는 무시하고 처리합니다."
+    },
+    {
+      "id": "m_11_importData",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_importData",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_02'>엑셀 파일 읽어서 Grid로 보여주기(임포트)</a>"
+    },
+    {
+      "id": "m_01importDataEx",
+      "type": "heading2",
+      "content": "importDataEx",
+      "option": {
+        "alias": "ExcelImportObject_importDataEx"
+      }
+    },
+    {
+      "id": "m_02_importDataEx",
+      "type": "pre",
+      "content": "ID 로 구분하여 파일을 DataSet 으로 Import 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_importDataEx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_importDataEx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_importDataEx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_importDataEx",
+      "type": "command",
+      "content": "ExcelImportObject.importDataEx( strImportID, strSource,strRange,strOutDatasets [,strArgument] )"
+    },
+    {
+      "id": "m_07_importDataEx",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.15506078763775233",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strImportID</td><td>String</td><td colspan=\"2\"><div>Import 를 구분하기 위한 ID 를 문자열로 설정합니다.\n\n설정값은 onsuccess 이벤트에서 ExcelImportEventInfo 오브젝트의 importid 속성으로 전달됩니다.</div></td></tr><tr><td>strSource</td><td>String</td><td colspan=\"2\"><div>Import 할 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\nimportfilemode 속성값이 \"server\" 일 경우 \"http://\", \"https://\" 형식으로 파일의 위치를 설정합니다.\nimportfilemode 속성값이 \"server\" 일 때 상대경로를 설정 시 importurl 속성에 설정된 경로를 기준으로 처리됩니다.\nimportfilemode 속성값이 \"local\" 이거나 strSource 값을 설정하지 않았을 경우 FileDialog 가 표시되고 파일을 선택합니다.</div></td></tr><tr><td>strRange</td><td>String</td><td colspan=\"2\"><div>strSource 에 설정한 파일에서 DataSet 으로 Import 할 영역을 \"시트명!셀영역:셀영역\" 또는 Import 할 파일의 형식이 CSV, TXT 인 경우에 \"시작영역:끝영역\" 형식으로 설정합니다.\n\n여러 영역을 지정해야 할 경우 아래 형식으로 반복 설정합니다.\n\nstrRange ::= '[Command=&lt;strCommand&gt;; Output=&lt;dsName&gt;; Head=&lt;strArea&gt;; Body=&lt;strArea&gt;]'\n\n&lt;strCommand&gt; ::= 'getsheetlist' | 'getsheetdata'\n  \"getsheetlist\" 설정 시 strSource 에 설정한 파일에서 시트목록을 Import 합니다.\n  \"getsheetdata\" 설정 시  strSource 에 설정한 파일에서 &lt;strArea&gt; 의 데이터를 Import 합니다.\n  값을 생략 할 경우 \"getsheetdata\"로 적용됩니다.\n\n&lt;dsName&gt; \n  Import 한 데이터를 갖는 변수명입니다.\n  strOutDatasets 에서 오른쪽 대입변수로 사용됩니다.\n  값을 생략 할 경우 \"output1\", \"output2\" ... 로 자동설정됩니다.\n\n&lt;strArea&gt; ::= '시트명!셀영역:셀영역'\n  Import 할 데이터 영역을 설정합니다.\n  \"Head\" 항목에 정의된 영역은 Import 시 DataSet 의 Column 명으로 사용됩니다.\n  \"Head\" 항목 생략 시 \"Column0\", \"Column1\" ... 으로 자동설정됩니다.\n  \"Body\" 항목에 정의된 영역은 DataSet 의 Row 데이터로 Import 됩니다.\n  \"Body\" 항목 생략 시 모든 레코드가 Import 됩니다.\n  * 시트명을 생략하면 첫 번째 시트가 작업 대상이 됩니다.\n  * 첫 번째 시트가 아닌 다른 시트를 지정하는 경우에는 \"Head\", \"Body\" 모두 설정해주어야 합니다.\n    아래와 같이 설정한 경우에는 Head는 첫 번째 시트에서 처리되고 Body만 지정한 시트에서 처리됩니다.\n    Body에서 설정한 셀영역이 Head에 없는 경우에는 에러가 발생할 수 있습니다.\n    [Command=getData;Output=output2;Body=Sheet2!A1;]\n\n* Import 할 파일의 형식이 CSV, TXT 인 경우에는 아래와 같이 적용합니다.\n\n&lt;strCommand&gt; 지원하지 않습니다.\n&lt;strArea&gt; ::= StartCol[,StartRow[:EndCol[,EndRow]]]\n  \"Head\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=0\n  \"Head\" 항목에서 EndRow 설정값은 무시하고 StartRow 설정값 기준으로 동작합니다.\n  \"Body\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=RowCount-1</div></td></tr><tr><td>strOutDatasets </td><td>String</td><td colspan=\"2\"><div>Import 한 데이터를 저장할 DataSet 의 ID 를 \"DataSet명=변수명\" 의 형식으로 설정합니다.\n\nDataSet 을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n우측의 \"변수명\" 은 strRange 에 설정한 변수명을 설정하거나 \"output1\" ... 으로 자동생성된 변수명을 설정합니다.</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>Import 시 필요한 정보를 \"변수명=변수값\" 형태로 설정합니다.\n\n파라미터쌍을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n비밀번호가 설정된 엑셀파일을 Import 할 경우 \"filepassword=엑셀파일비밀번호\" 를 입력해야 정상동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00.importDataEx(\"Import00\", \"http://localhost:8080/xeni/XImport/my.xlsx\",\"Sheet00!D15:E28\",\"Dataset03=output1\");\nthis.ExcelImportObject00.importDataEx(\"Import01\", \"\",\"Sheet00!D15:E28\",\"Dataset03=output1\",\"filepassword=strpassword\");\nthis.ExcelImportObject00.importDataEx(\"Import02\", \"\", \"[Command=getsheetlist;Output=sheetlist][Command=getsheetdata;Output=output1;Head=!A1:K1;Body=!A2:K15][Output=output2; Body=Sheet1!B7:Z207]\", \"ds_list=sheetlist, ds_Data1=output1, ds_Data2=output2\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_importDataEx",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_importDataEx",
+      "type": "pre",
+      "content": "- Import 중 ESC 키를 입력하면 Import 를 중지시킬 수 있습니다.\n\n- Local 에 위치한 파일을 importurl 속성에 설정된 서버로 보낸 후 트랜잭션처럼 DataSet 으로 수신받습니다.\n\n- importData() 메소드와의 차이는 Import 를 구분할 수 있는 ID 파라미터의 유무입니다.\n\n- Import 할 파일에 포함된 개체(이미지, 차트, 수식 등)는 Import 대상에 포함하지 않으며 개체가 포함된 경우 개체는 무시하고 처리합니다."
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6884473305310571",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.ExcelImportObject00.insertEventHandler( \"onmove\", 0, this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7180752835253419",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "ExcelImportObject_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "ExcelImportObject 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "ExcelImportObject.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3554409957413409",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelImportObject 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelImportObject00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6031920732110694",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- ExcelImportObject 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- ExcelImportObject 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.20946828227745407",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.removeEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5694820773356339",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "ExcelImportObject_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelImportObject.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9534270880663577",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.removeEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4568328519256034",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "ExcelImportObject_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "ExcelImportObject.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9316158900996685",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.setEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6377455011782864",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "ExcelImportObject_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "ExcelImportObject 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelImportObject.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.10431228929512437",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.setEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7673933844847491",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "ExcelImportObject_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "Import 도중 오류가 생겼을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.ExcelImportObject,e:nexacro.ExcelImportErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.05163716224909476",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelImportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExcelImportErrorEventInfo\" string=\"ExcelImportErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- onerror 이벤트가 발생하면 Import 기능이 종료됩니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "ExcelImportObject_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "Import 가 완료되었을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.ExcelImportObject,e:nexacro.ExcelImportEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3666812885374007",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelImportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExcelImportEventInfo\" string=\"ExcelImportEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
