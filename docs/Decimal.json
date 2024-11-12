@@ -1,0 +1,1739 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "decimal 자료형을 처리하기 위해 제공하는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- Decimal 오브젝트는 연산을 위하여 \"+\",\"-\",\"*\",\"/\" 의 산술연산자를 사용하지 않고 제공된 메소드를 사용하여야 합니다.\n\n- Dataset 의 Column 타입 중 \"BIGDECIMAL\" 타입을 처리하기 위해 제공하는 오브젝트입니다.\n\n- 최대 24 자리의 숫자를 처리할 수 있습니다."
+    },
+    {
+      "id": "u_13",
+      "type": "heading2",
+      "content": "생성자"
+    },
+    {
+      "id": "u_09_0.05593414960068388",
+      "type": "command",
+      "content": "new nexacro.Decimal ( [vVal] )"
+    },
+    {
+      "id": "u_10_0.03248521346920352",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>vVal</td><td>String, Number</td><td><div>Decimal 오브젝트의 초기값을 숫자 또는 문자열로 설정합니다.\n\n자바스크립트가 허용하는 숫자보다 큰 값은 반드시 문자열로 설정하여야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,120,?"
+      }
+    },
+    {
+      "id": "u_10_0.9950930957066976",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object\nvar objDec1 = new nexacro.Decimal( 123456789 );\n\nvar objDec2 = new nexacro.Decimal( \"1234567890123456789012345\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "100%"
+      }
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01abs",
+      "type": "heading2",
+      "content": "abs",
+      "option": {
+        "alias": "Decimal_abs"
+      }
+    },
+    {
+      "id": "m_02_abs",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 절대값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_abs",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_abs",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_abs",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_abs",
+      "type": "command",
+      "content": "Decimal.abs()"
+    },
+    {
+      "id": "m_07_abs",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.24081738237025607",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( -20 );\n\ntrace(objDec1.abs());\ntrace(objDec1);"
+    },
+    {
+      "id": "m_08_abs",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8326638471901232",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Decimal</td><td><div>변경된 절대값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_abs",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_abs",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01addDecimal",
+      "type": "heading2",
+      "content": "addDecimal",
+      "option": {
+        "alias": "Decimal_addDecimal"
+      }
+    },
+    {
+      "id": "m_02_addDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에 Decimal 형 값을 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addDecimal",
+      "type": "command",
+      "content": "Decimal.addDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_addDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.0075587891554427245",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트에 더할 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\nvar objDec2 = new nexacro.Decimal( \"1234567890123456789012345\" );\n\nobjDec1.addDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_addDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_11_addDecimal",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addDecimal",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_nexacro_decimal_02'>1경(京)보다 큰 값 연산하기</a>"
+    },
+    {
+      "id": "m_01addDouble",
+      "type": "heading2",
+      "content": "addDouble",
+      "option": {
+        "alias": "Decimal_addDouble"
+      }
+    },
+    {
+      "id": "m_02_addDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에 숫자값을 더하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addDouble",
+      "type": "command",
+      "content": "Decimal.addDouble( nValue )"
+    },
+    {
+      "id": "m_07_addDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6491342115363583",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트에 더할 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\n\nobjDec1.addDouble(30);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_addDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01ceil",
+      "type": "heading2",
+      "content": "ceil",
+      "option": {
+        "alias": "Decimal_ceil"
+      }
+    },
+    {
+      "id": "m_02_ceil",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 소수점 기준으로 올림한 값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_ceil",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_ceil",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_ceil",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_ceil",
+      "type": "command",
+      "content": "Decimal.ceil()"
+    },
+    {
+      "id": "m_07_ceil",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.08706956519539732",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30.555 );\n\ntrace(objDec1.ceil());\ntrace(objDec1);"
+    },
+    {
+      "id": "m_08_ceil",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2107412493398414",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Decimal</td><td><div>소수점을 기준으로 올림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_ceil",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_ceil",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01divDecimal",
+      "type": "heading2",
+      "content": "divDecimal",
+      "option": {
+        "alias": "Decimal_divDecimal"
+      }
+    },
+    {
+      "id": "m_02_divDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 Decimal 형 값으로 나누는 메소드입니다."
+    },
+    {
+      "id": "m_03_divDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_divDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_divDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_divDecimal",
+      "type": "command",
+      "content": "Decimal.divDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_divDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1909063660121012",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트를 나눌 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( \"1234567890123456789012345\" );\nvar objDec2 = new nexacro.Decimal( 5 );\n\nobjDec1.divDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_divDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_divDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_11_divDecimal",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_divDecimal",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_nexacro_decimal_02'>1경(京)보다 큰 값 연산하기</a>"
+    },
+    {
+      "id": "m_01divDouble",
+      "type": "heading2",
+      "content": "divDouble",
+      "option": {
+        "alias": "Decimal_divDouble"
+      }
+    },
+    {
+      "id": "m_02_divDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 숫자값으로 나누는 메소드입니다."
+    },
+    {
+      "id": "m_03_divDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_divDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_divDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_divDouble",
+      "type": "command",
+      "content": "Decimal.divDouble( nValue )"
+    },
+    {
+      "id": "m_07_divDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3605317968737195",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트를 나눌 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 100 );\n\nobjDec1.divDouble(5);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_divDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_divDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01floor",
+      "type": "heading2",
+      "content": "floor",
+      "option": {
+        "alias": "Decimal_floor"
+      }
+    },
+    {
+      "id": "m_02_floor",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 소수점 기준으로 내림한 값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_floor",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_floor",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_floor",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_floor",
+      "type": "command",
+      "content": "Decimal.floor()"
+    },
+    {
+      "id": "m_07_floor",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5803030254143237",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30.555 );\n\ntrace(objDec1.floor());\ntrace(objDec1);"
+    },
+    {
+      "id": "m_08_floor",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.12042108903980753",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Decimal</td><td><div>소수점을 기준으로 내림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_floor",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_floor",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01isEqual",
+      "type": "heading2",
+      "content": "isEqual",
+      "option": {
+        "alias": "Decimal_isEqual"
+      }
+    },
+    {
+      "id": "m_02_isEqual",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값과 인수로 전달된 Decimal 오브젝트의 값이 일치하는 지 비교하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isEqual",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isEqual",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isEqual",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isEqual",
+      "type": "command",
+      "content": "Decimal.isEqual( objDecimal )"
+    },
+    {
+      "id": "m_07_isEqual",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.0998457038735917",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>값을 비교할 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 30 );\nvar objDec2 = new nexacro.Decimal( 30 );\n\ntrace(objDec1.isEqual(objDec2));</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isEqual",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6156056648310784",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>두 오브젝트의 값이 일치하면 \"true\" 를 반환합니다.\n\n두 오브젝트의 값이 다르면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isInfinity",
+      "type": "heading2",
+      "content": "isInfinity",
+      "option": {
+        "alias": "Decimal_isInfinity"
+      }
+    },
+    {
+      "id": "m_02_isInfinity",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값이 Infinity 값인지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isInfinity",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isInfinity",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isInfinity",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isInfinity",
+      "type": "command",
+      "content": "Decimal.isInfinity()"
+    },
+    {
+      "id": "m_07_isInfinity",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.752920731240514",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 1.55 );\nvar objDec2 = new nexacro.Decimal( Number.MAX_VALUE+1 );\n\ntrace(objDec1.isInfinity());\ntrace(objDec2.isInfinity());"
+    },
+    {
+      "id": "m_08_isInfinity",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5665789378736256",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Decimal 오브젝트의 값이 Infinity 값이면 \"true\" 를 반환합니다.\n\nDecimal 오브젝트의 값이 Infinity 값이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isNaN",
+      "type": "heading2",
+      "content": "isNaN",
+      "option": {
+        "alias": "Decimal_isNaN"
+      }
+    },
+    {
+      "id": "m_02_isNaN",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값이 NaN 값인지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isNaN",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isNaN",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isNaN",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isNaN",
+      "type": "command",
+      "content": "Decimal.isNaN()"
+    },
+    {
+      "id": "m_07_isNaN",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.4171177982952088",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30 );\nvar objDec2 = new nexacro.Decimal( ' ' );\n\ntrace(objDec1.isNaN());\ntrace(objDec2.isNaN());"
+    },
+    {
+      "id": "m_08_isNaN",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.44957400805767944",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Decimal 오브젝트의 값이 NaN 값이면 \"true\" 를 반환합니다.\n\nDecimal 오브젝트의 값이 NaN 값이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isNaNOrInf",
+      "type": "heading2",
+      "content": "isNaNOrInf",
+      "option": {
+        "alias": "Decimal_isNaNOrInf"
+      }
+    },
+    {
+      "id": "m_02_isNaNOrInf",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값이 Infinity 또는 NaN 값인지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isNaNOrInf",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isNaNOrInf",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isNaNOrInf",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isNaNOrInf",
+      "type": "command",
+      "content": "Decimal.isNaNOrInf()"
+    },
+    {
+      "id": "m_07_isNaNOrInf",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7869175006592434",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30 );\nvar objDec2 = new nexacro.Decimal( ' ' );\nvar objDec3 = new nexacro.Decimal( Number.MAX_VALUE+1 );\n\ntrace(objDec1.isNaNOrInf());\ntrace(objDec2.isNaNOrInf());\ntrace(objDec3.isNaNOrInf());"
+    },
+    {
+      "id": "m_08_isNaNOrInf",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8583747979556866",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Decimal 오브젝트의 값이 Infinity 또는 NaN 값이면 \"true\" 를 반환합니다.\n\nDecimal 오브젝트의 값이 Infinity, NaN 값이 모두 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isNegative",
+      "type": "heading2",
+      "content": "isNegative",
+      "option": {
+        "alias": "Decimal_isNegative"
+      }
+    },
+    {
+      "id": "m_02_isNegative",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값이 음수값인지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isNegative",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isNegative",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isNegative",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isNegative",
+      "type": "command",
+      "content": "Decimal.isNegative()"
+    },
+    {
+      "id": "m_07_isNegative",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.6768510437769494",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 0.01 );\nvar objDec2 = new nexacro.Decimal( -30 );\n\ntrace(objDec1.isNegative());\ntrace(objDec2.isNegative());"
+    },
+    {
+      "id": "m_08_isNegative",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8035378864360074",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Decimal 오브젝트의 값이 음수값이면 \"true\" 를 반환합니다.\n\nDecimal 오브젝트의 값이 음수값이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isZero",
+      "type": "heading2",
+      "content": "isZero",
+      "option": {
+        "alias": "Decimal_isZero"
+      }
+    },
+    {
+      "id": "m_02_isZero",
+      "type": "pre",
+      "content": "Decimal 오브젝트의 값의 Zero 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isZero",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isZero",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isZero",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isZero",
+      "type": "command",
+      "content": "Decimal.isZero()"
+    },
+    {
+      "id": "m_07_isZero",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.26962898475120023",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30 );\nvar objDec2 = new nexacro.Decimal( 0.0 );\n\ntrace(objDec1.isZero());\ntrace(objDec2.isZero());"
+    },
+    {
+      "id": "m_08_isZero",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.33779451183112486",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Decimal 오브젝트의 값이 0 값이면 \"true\" 를 반환합니다.\n\nDecimal 오브젝트의 값이 0 값이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01modDecimal",
+      "type": "heading2",
+      "content": "modDecimal",
+      "option": {
+        "alias": "Decimal_modDecimal"
+      }
+    },
+    {
+      "id": "m_02_modDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 Decimal 형 값으로 나눈 나머지값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_modDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_modDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_modDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_modDecimal",
+      "type": "command",
+      "content": "Decimal.modDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_modDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8926875080730042",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트를 나눌 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( \"1234567890123456789012345\" );\nvar objDec2 = new nexacro.Decimal( 3 );\n\nobjDec1.modDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_modDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_modDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01modDouble",
+      "type": "heading2",
+      "content": "modDouble",
+      "option": {
+        "alias": "Decimal_modDouble"
+      }
+    },
+    {
+      "id": "m_02_modDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 숫자값으로 나눈 나머지값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_modDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_modDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_modDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_modDouble",
+      "type": "command",
+      "content": "Decimal.modDouble( nValue )"
+    },
+    {
+      "id": "m_07_modDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2489479238869693",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트를 나눌 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 100 );\n\nobjDec1.modDouble(3);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_modDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_modDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01mulDecimal",
+      "type": "heading2",
+      "content": "mulDecimal",
+      "option": {
+        "alias": "Decimal_mulDecimal"
+      }
+    },
+    {
+      "id": "m_02_mulDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에 Decimal 형 값을 곱하는 메소드입니다."
+    },
+    {
+      "id": "m_03_mulDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_mulDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_mulDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_mulDecimal",
+      "type": "command",
+      "content": "Decimal.mulDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_mulDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8286088712759784",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트에 곱할 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( \"12345678901234567890\" );\nvar objDec2 = new nexacro.Decimal( 30 );\n\nobjDec1.mulDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_mulDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_mulDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_11_mulDecimal",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_mulDecimal",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_nexacro_decimal_02'>1경(京)보다 큰 값 연산하기</a>"
+    },
+    {
+      "id": "m_01mulDouble",
+      "type": "heading2",
+      "content": "mulDouble",
+      "option": {
+        "alias": "Decimal_mulDouble"
+      }
+    },
+    {
+      "id": "m_02_mulDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에 숫자값을 곱하는 메소드입니다."
+    },
+    {
+      "id": "m_03_mulDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_mulDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_mulDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_mulDouble",
+      "type": "command",
+      "content": "Decimal.mulDouble( nValue )"
+    },
+    {
+      "id": "m_07_mulDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6962815388934528",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트에 곱할 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\n\nobjDec1.mulDouble(30);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_mulDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_mulDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01round",
+      "type": "heading2",
+      "content": "round",
+      "option": {
+        "alias": "Decimal_round"
+      }
+    },
+    {
+      "id": "m_02_round",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 소수점 기준으로 반올림한 값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_round",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_round",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_round",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_round",
+      "type": "command",
+      "content": "Decimal.round()"
+    },
+    {
+      "id": "m_07_round",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.9560827976467031",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30.555 );\n\ntrace(objDec1.round());\ntrace(objDec1);"
+    },
+    {
+      "id": "m_08_round",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7334036840824217",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Decimal</td><td><div>소수점을 기준으로 반올림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_round",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_round",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01setDecimal",
+      "type": "heading2",
+      "content": "setDecimal",
+      "option": {
+        "alias": "Decimal_setDecimal"
+      }
+    },
+    {
+      "id": "m_02_setDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 인수로 전달된 Decimal 오브젝트의 값을 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setDecimal",
+      "type": "command",
+      "content": "Decimal.setDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_setDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5207641321870046",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트에 저장할 다른 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\nvar objDec2 = new nexacro.Decimal( \"1234567890123456789012345\" );\n\nobjDec1.setDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01setDouble",
+      "type": "heading2",
+      "content": "setDouble",
+      "option": {
+        "alias": "Decimal_setDouble"
+      }
+    },
+    {
+      "id": "m_02_setDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 인수로 전달된 숫자값을 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setDouble",
+      "type": "command",
+      "content": "Decimal.setDouble( nValue )"
+    },
+    {
+      "id": "m_07_setDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9432412309761474",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트에 저장할 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\n\nobjDec1.setDouble( 30 );\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01setString",
+      "type": "heading2",
+      "content": "setString",
+      "option": {
+        "alias": "Decimal_setString"
+      }
+    },
+    {
+      "id": "m_02_setString",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 숫자로 된 문자열을 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setString",
+      "type": "command",
+      "content": "Decimal.setString( strValue )"
+    },
+    {
+      "id": "m_07_setString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5126876931175017",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strValue</td><td>String</td><td colspan=\"2\"><div>Decimal 오브젝트에 저장할 숫자로 된 문자열을 설정합니다.\n\n숫자가 아닌 문자가 포함되어 있을 경우 정상적으로 저장되지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\n\nobjDec1.setString( \"30\" );\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setString",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01subDecimal",
+      "type": "heading2",
+      "content": "subDecimal",
+      "option": {
+        "alias": "Decimal_subDecimal"
+      }
+    },
+    {
+      "id": "m_02_subDecimal",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에서 Decimal 형 값을 빼는 메소드입니다."
+    },
+    {
+      "id": "m_03_subDecimal",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_subDecimal",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_subDecimal",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_subDecimal",
+      "type": "command",
+      "content": "Decimal.subDecimal( objDecimal )"
+    },
+    {
+      "id": "m_07_subDecimal",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8277428985524465",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDecimal</td><td>Decimal</td><td colspan=\"2\"><div>Decimal 오브젝트에서 값을 빼려는 Decimal 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( \"1234567890123456789012345\" );\nvar objDec2 = new nexacro.Decimal( 30 );\n\nobjDec1.subDecimal(objDec2);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_subDecimal",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_subDecimal",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_11_subDecimal",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_subDecimal",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_nexacro_decimal_02'>1경(京)보다 큰 값 연산하기</a>"
+    },
+    {
+      "id": "m_01subDouble",
+      "type": "heading2",
+      "content": "subDouble",
+      "option": {
+        "alias": "Decimal_subDouble"
+      }
+    },
+    {
+      "id": "m_02_subDouble",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값에서 숫자값을 빼는 메소드입니다."
+    },
+    {
+      "id": "m_03_subDouble",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_subDouble",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_subDouble",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_subDouble",
+      "type": "command",
+      "content": "Decimal.subDouble( nValue )"
+    },
+    {
+      "id": "m_07_subDouble",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3716643343848829",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nValue</td><td>Number</td><td colspan=\"2\"><div>Decimal 오브젝트에서 값을 빼려는 숫자값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDec1 = new nexacro.Decimal( 20 );\n\nobjDec1.subDouble(30);\ntrace(objDec1);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_subDouble",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_subDouble",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    },
+    {
+      "id": "m_01toString",
+      "type": "heading2",
+      "content": "toString",
+      "option": {
+        "alias": "Decimal_toString"
+      }
+    },
+    {
+      "id": "m_02_toString",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toString",
+      "type": "command",
+      "content": "Decimal.toString()"
+    },
+    {
+      "id": "m_07_toString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5345394663212297",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( \"1234567890123456789012345\" );\n\ntrace(objDec1.toString());"
+    },
+    {
+      "id": "m_08_toString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.25871747856207783",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Decimal 오브젝트에 저장된 값을 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01trunc",
+      "type": "heading2",
+      "content": "trunc",
+      "option": {
+        "alias": "Decimal_trunc"
+      }
+    },
+    {
+      "id": "m_02_trunc",
+      "type": "pre",
+      "content": "Decimal 오브젝트에 저장된 값을 소수점 기준으로 버림한 값으로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_trunc",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trunc",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trunc",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trunc",
+      "type": "command",
+      "content": "Decimal.trunc()"
+    },
+    {
+      "id": "m_07_trunc",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.34699733823456935",
+      "type": "command",
+      "content": "var objDec1 = new nexacro.Decimal( 30.555 );\n\ntrace(objDec1.trunc());\ntrace(objDec1);"
+    },
+    {
+      "id": "m_08_trunc",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6977591567950163",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Decimal</td><td><div>소수점을 기준으로 버림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_trunc",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_trunc",
+      "type": "pre",
+      "content": "- 메소드 수행 시 Decimal 오브젝트에 저장된 값이 변경됩니다."
+    }
+  ]
+}
