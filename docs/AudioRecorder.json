@@ -1,0 +1,994 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기의 오디오를 레코딩하여 파일로 저장합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_audiofile",
+      "type": "heading2",
+      "content": "audiofile",
+      "option": {
+        "alias": "AudioRecorder_audiofile"
+      }
+    },
+    {
+      "id": "p_02_audiofile",
+      "type": "pre",
+      "content": "모바일 기기에서 녹음 시 오디오 데이터를 저장 할 파일명을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_audiofile",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_audiofile",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_audiofile",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_audiofile",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_audiofile",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_audiofile",
+      "type": "command",
+      "content": ""
+    },
+    {
+      "id": "p_09_audiofile",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6162070688965582",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioRecorder00.audiofile = \"%SD_CARD% rec001.mp3\";\nthis.AudioRecorder00.audiofile = \"%USERAPP% rec001.wav\";\nthis.AudioRecorder00.audiofile = \"%USERAPP% rec001\";</div></td></tr><tr><th>strAudioFile</th><td colspan=\"2\"><div>오디오 데이터를 저장 할 파일명을 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_audiofile",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_audiofile",
+      "type": "pre",
+      "content": "- audiofile 속성값에 확장자를 설정하지 않으면 audioformat 속성값에 따라 자동으로 적용됩니다.\n\n- 확장자는 audioformat 속성값에 맞게 설정해야 정상적인 재생이 가능합니다.\n\n- 모바일 기기의 경로에 사용되는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 SD카드 메모리 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "u_10_0.5989021261096087",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>OS</th>\t\t<th>Alias</th>\t\t<th>Path</th>\t</tr></thead>\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"3\">Android</td>\t\t<td>%USERAPP%</td>\t\t<td>/data/data/{PackageName}/files/NEXACRO/</td>\t</tr><tr>\t\t<td>%SD_CARD%</td>\t\t<td>/mnt/sdcard                (Android v4.0 이하)/storage/emulated/0    (Android v4.1 이상)</td>\t</tr><tr>\t\t<td>%INSTALLROOT%</td>\t\t<td>%USERAPP%</td>\t</tr><tr>\t\t<td rowspan=\"3\">iOS</td>\t\t<td>%USERAPP%</td>\t\t<td>/Library/Caches/nexacro/</td>\t</tr><tr>\t\t<td>%SD_CARD%</td>\t\t<td>미지원</td>\t</tr><tr>\t\t<td>%INSTALLROOT%</td>\t\t<td>%USERAPP%</td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_audioformat",
+      "type": "heading2",
+      "content": "audioformat",
+      "option": {
+        "alias": "AudioRecorder_audioformat"
+      }
+    },
+    {
+      "id": "p_02_audioformat",
+      "type": "pre",
+      "content": "모바일 기기에서 녹음 시 오디오 데이타의 포맷을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_audioformat",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_audioformat",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_audioformat",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_audioformat",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_audioformat",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3623428770214332",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumFormat ::= 'WAV' | 'OGG' | 'MP3' | 'AMR_NB' | 'AMR_WB'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioRecoder00.audioformat = \"WAV\";\nthis.AudioRecoder00.audioformat = \"MP3\";\nthis.AudioRecoder00.audioformat = \"OGG\";\nthis.AudioRecoder00.audioformat = \"AMR_NB\";\nthis.AudioRecoder00.audioformat = \"AMR_WB\";</div></td></tr><tr><th>enumFormat</th><td colspan=\"2\"><div>오디오 데이터의 포맷을 설정합니다.\n\n\"WAV\", \"OGG\", \"MP3\", \"AMR_NB\", \"AMR_WB\" 중 하나의 값을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_audioformat",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_audioformat",
+      "type": "pre",
+      "content": "- audioformat 속성값을 설정하지 않으면 Android NRE 는 \"MP3\" 로 적용되고, iOS/iPadOS NRE 는 \"WAV\" 로 적용됩니다.\n\n- 파일포맷에 따른 샘플비율 범위입니다."
+    },
+    {
+      "id": "u_10_0.38332944086273857",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>File Format</th>\t\t<th>Extension</th>\t\t<th>Sample Rate</th>\t\t<th>Android</th>\t\t<th>iOS</th>\t</tr></thead>\t\t\t\t\t<tbody><tr>\t\t<td>WAV</td>\t\t<td>*.wav</td>\t\t<td>8000 ~ 96000</td>\t\t<td>X</td>\t\t<td>O</td>\t</tr><tr>\t\t<td>OGG</td>\t\t<td>*.ogg</td>\t\t<td>8000, 11025, 16000, 22050, 32000, 44100</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>MP3</td>\t\t<td>*.mp3</td>\t\t<td>8000, 11025, 16000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>AMR_NB</td>\t\t<td>*.mp3</td>\t\t<td>8000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>AMR_WB</td>\t\t<td>*.mp3</td>\t\t<td>16000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_channelconfig",
+      "type": "heading2",
+      "content": "channelconfig",
+      "option": {
+        "alias": "AudioRecorder_channelconfig"
+      }
+    },
+    {
+      "id": "p_02_channelconfig",
+      "type": "pre",
+      "content": "모바일 기기에서 녹음 시 오디오 채널의 종류를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_channelconfig",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_channelconfig",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_channelconfig",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_channelconfig",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_channelconfig",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.21174074454015934",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumChannel ::= '1' | '2'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioRecorder00.channelconfig = 1;\nthis.AudioRecorder00.channelconfig = 2;</div></td></tr><tr><th>enumChannel</th><td colspan=\"2\"><div>\"1\" 설정 시 Mono 로 녹음이 됩니다.\n\"2\" 설정 시 Stereo 로 녹음이 됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_channelconfig",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_channelconfig",
+      "type": "pre",
+      "content": "- channelconfig 속성값을 설정하지 않으면 \"1\" 로 적용됩니다.\n\n- audioformat 속성값이 \"AMR_NB\" 인 경우는 channelconfig 속성값을 \"1\" 만 설정할 수 있습니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "AudioRecorder_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "AudioRecorder의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "AudioRecorder.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4704653274302193",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>AudioRecorder를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "AudioRecorder_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "AudioRecorder 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "AudioRecorder.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4157693945813261",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "AudioRecorder_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "AudioRecorder 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "AudioRecorder.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.939010194603675",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.AudioRecorder00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- AudioRecorder 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_samplerate",
+      "type": "heading2",
+      "content": "samplerate",
+      "option": {
+        "alias": "AudioRecorder_samplerate"
+      }
+    },
+    {
+      "id": "p_02_samplerate",
+      "type": "pre",
+      "content": "모바일 기기에서 녹음 시 오디오 데이터의 샘플비율을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_samplerate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_samplerate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_samplerate",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_samplerate",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_samplerate",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.17390396117627416",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioRecoder00.samplerate = 9000;</div></td></tr><tr><th>nSampleRate</th><td colspan=\"2\"><div>샘플비율을 숫자로 설정합니다.\n\naudioformat 속성값에 따라 설정할 수 있는 범위가 달라집니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_samplerate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_samplerate",
+      "type": "pre",
+      "content": "- samplerate 속성값을 설정하지 않으면 \"8000\" 으로 적용됩니다.\n\n- 파일포맷에 따른 샘플비율 범위입니다."
+    },
+    {
+      "id": "u_10_0.24910078058975693",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>File Format</th>\t\t<th>Extension</th>\t\t<th>Sample Rate</th>\t\t<th>Android</th>\t\t<th>iOS</th>\t</tr></thead>\t\t\t\t\t<tbody><tr>\t\t<td>WAV</td>\t\t<td>*.wav</td>\t\t<td>8000 ~ 96000</td>\t\t<td>X</td>\t\t<td>O</td>\t</tr><tr>\t\t<td>OGG</td>\t\t<td>*.ogg</td>\t\t<td>8000, 11025, 16000, 22050, 32000, 44100</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>MP3</td>\t\t<td>*.mp3</td>\t\t<td>8000, 11025, 16000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>AMR_NB</td>\t\t<td>*.mp3</td>\t\t<td>8000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr><tr>\t\t<td>AMR_WB</td>\t\t<td>*.mp3</td>\t\t<td>16000</td>\t\t<td>O</td>\t\t<td>X</td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01pause",
+      "type": "heading2",
+      "content": "pause",
+      "option": {
+        "alias": "AudioRecorder_pause"
+      }
+    },
+    {
+      "id": "m_02_pause",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이터의 녹음을 일시중지시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_pause",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_pause",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_pause",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_pause",
+      "type": "command",
+      "content": "AudioRecord.pause()"
+    },
+    {
+      "id": "m_07_pause",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.191153447231024",
+      "type": "command",
+      "content": "this.AudioRecord00.pause();"
+    },
+    {
+      "id": "m_09_pause",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_pause",
+      "type": "pre",
+      "content": "- pause() 메소드 수행이 완료되면 onstop 이벤트가 발생합니다.\n   이 때, onstop 이벤트의 e.reason 속성값은 6 이 됩니다.\n\n- iOS/iPadOS NRE 만 지원되는 메소드입니다."
+    },
+    {
+      "id": "m_01recordingStart",
+      "type": "heading2",
+      "content": "recordingStart",
+      "option": {
+        "alias": "AudioRecorder_recordingStart"
+      }
+    },
+    {
+      "id": "m_02_recordingStart",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이터의 녹음을 시작하는 메소드입니다."
+    },
+    {
+      "id": "m_03_recordingStart",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_recordingStart",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_recordingStart",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_recordingStart",
+      "type": "command",
+      "content": "AudioRecord.recordingStart( [nIntervalTime] )"
+    },
+    {
+      "id": "m_07_recordingStart",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6160458845482658",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIntervalTime</td><td>Number</td><td colspan=\"2\"><div>오디오 데이터 녹음 중 onrecording 이벤트가 발생하는 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.\n값을 생략하거나 200ms 미만으로 설정 시 onrecording 이벤트가 발생하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioRecord00.recordingStart();\nthis.AudioRecord00.recordingStart(1000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_recordingStart",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7405419776501493",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_recordingStart",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_recordingStart",
+      "type": "pre",
+      "content": "- audiofile, audioformat, samplerate, channelconfig 속성에 유효하지 않은 값이 설정된 경우 녹음이 시작되지 않고, onerror 이벤트가 발생합니다.\n\n- 파일을 생성할 수 없을 경우 녹음이 시작되지 않고, onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01recordingStop",
+      "type": "heading2",
+      "content": "recordingStop",
+      "option": {
+        "alias": "AudioRecorder_recordingStop"
+      }
+    },
+    {
+      "id": "m_02_recordingStop",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이타의 녹음을 중지하는 메소드입니다"
+    },
+    {
+      "id": "m_03_recordingStop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_recordingStop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_recordingStop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_recordingStop",
+      "type": "command",
+      "content": "AudioRecord.recordingStop()"
+    },
+    {
+      "id": "m_07_recordingStop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5901430535194455",
+      "type": "command",
+      "content": "this.AudioRecord00.recordingStop();"
+    },
+    {
+      "id": "m_01resume",
+      "type": "heading2",
+      "content": "resume",
+      "option": {
+        "alias": "AudioRecorder_resume"
+      }
+    },
+    {
+      "id": "m_02_resume",
+      "type": "pre",
+      "content": "모바일 기기에서 일시중지 된 녹음을 다시 진행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_resume",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_resume",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_resume",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_resume",
+      "type": "command",
+      "content": "AudioRecord.resume()"
+    },
+    {
+      "id": "m_07_resume",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.20782163680418864",
+      "type": "command",
+      "content": "this.AudioRecord00.resume();"
+    },
+    {
+      "id": "m_09_resume",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_resume",
+      "type": "pre",
+      "content": "- iOS/iPadOS NRE 만 지원되는 메소드입니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "AudioRecorder_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이터의 녹음이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.AudioRecorder,e:nexacro.AudioErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.032734790134386293",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioRecorder</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioErrorEventInfo\" string=\"AudioErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onrecording",
+      "type": "heading2",
+      "content": "onrecording",
+      "option": {
+        "alias": "AudioRecorder_onrecording"
+      }
+    },
+    {
+      "id": "e_02_onrecording",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이터를 녹음중일때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrecording",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrecording",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrecording",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrecording",
+      "type": "command",
+      "content": "onrecording(obj:nexacro.AudioRecorder,e:nexacro.AudioEventInfo);",
+      "option": "onrecording"
+    },
+    {
+      "id": "e_07_onrecording",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.34061886659867924",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioRecorder</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onstop",
+      "type": "heading2",
+      "content": "onstop",
+      "option": {
+        "alias": "AudioRecorder_onstop"
+      }
+    },
+    {
+      "id": "e_02_onstop",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 데이터의 녹음이 종료되었을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onstop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onstop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onstop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onstop",
+      "type": "command",
+      "content": "onstop(obj:nexacro.AudioRecorder,e:nexacro.AudioEventInfo);",
+      "option": "onstop"
+    },
+    {
+      "id": "e_07_onstop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5668372771384198",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioRecorder</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
