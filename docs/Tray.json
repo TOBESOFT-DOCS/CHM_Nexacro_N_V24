@@ -1,0 +1,1400 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "어플리케이션에서 사용되는 시스템 트레이로써 다중 트레이를 등록할 수 있습니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_13",
+      "type": "heading2",
+      "content": "생성자"
+    },
+    {
+      "id": "u_09_0.10475313722857849",
+      "type": "command",
+      "content": "Tray.init(strID, icon, tooltip);"
+    },
+    {
+      "id": "u_10_0.803723933802643",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td><div>동적 생성된 Tray 의 ID 를 설정합니다.</div></td></tr><tr><td>icon</td><td>String</td><td><div>Tray 에서 사용할 Icon 을 설정합니다.</div></td></tr><tr><td>tooltip</td><td>String</td><td><div>Tray 의 풍선도움말에 표시될 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\n\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,120,?"
+      }
+    },
+    {
+      "id": "u_10_0.45861495229034965",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Get Appication\nvar objApp = nexacro.getApplication();\n\n// Create Object\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\n// Init Object\t\nobjTray.init(\"Tray00\", \"information\", \"Tray ToolTip\");\n\n//Add Object to Application\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\n\n// Show Object\nobjApp.trays[\"Tray00\"].show();\n\n// Remove Object from Application\nobjApp.removeTray(\"Tray00\"); \n \n// Destroy Object \nobjTray.destroy(); \nobjTray = null;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "100%"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_icon",
+      "type": "heading2",
+      "content": "icon",
+      "option": {
+        "alias": "Tray_icon"
+      }
+    },
+    {
+      "id": "p_02_icon",
+      "type": "pre",
+      "content": "작업표시줄에 표시되는 Tray 의 아이콘 이미지를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_icon",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_icon",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_icon",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_icon",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_icon",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_icon",
+      "type": "command",
+      "content": "Tray.icon[= strIcon]"
+    },
+    {
+      "id": "p_09_icon",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.611106025588264",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strIcon ::= &lt;systemIcon&gt; | &lt;urlIcon&gt;</div></td></tr><tr><th>&lt;systemIcon&gt;</th><td colspan=\"2\"><div>시스템에 정의된 아이콘의 이름을 설정합니다.\n\n사용가능한 아이콘은 \"question\", \"information\", \"error\", \"warning\", \"winlogo\", \"application\" 입니다.</div></td></tr><tr><th>urlIcon</th><td colspan=\"2\"><div>확장자가 \"*.ico\" 인 아이콘 파일을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_icon",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_icon",
+      "type": "pre",
+      "content": "- 아이콘 파일의 경로는 시스템 제공 아이콘이나 Web 경로에 있는 ico 파일이 아니면 등록되지 않습니다."
+    },
+    {
+      "id": "p_01_items",
+      "type": "heading2",
+      "content": "items",
+      "option": {
+        "alias": "Tray_items"
+      }
+    },
+    {
+      "id": "p_02_items",
+      "type": "pre",
+      "content": "Tray 에 등록된 TrayPopupMenu 오브젝트의 정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_items",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_items",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_items",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_items",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_items",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_items",
+      "type": "command",
+      "content": "Tray.items"
+    },
+    {
+      "id": "p_09_items",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.029604381601976204",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objItem0 = objApp.trays[0].items[0] ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_items",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_items",
+      "type": "pre",
+      "content": "- Tray 에서 사용하기위해 만들어 놓은 팝업메뉴는 Tray 에서 이벤트를 받았을때 스크립트를 통해 제어합니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Tray_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Tray 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Tray.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.42367586824054426",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>Tray 의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다."
+    },
+    {
+      "id": "p_01_tooltip",
+      "type": "heading2",
+      "content": "tooltip",
+      "option": {
+        "alias": "Tray_tooltip"
+      }
+    },
+    {
+      "id": "p_02_tooltip",
+      "type": "pre",
+      "content": "Tray 아이콘에 마우스 포인터를 올려 놓았을 때 표시되는 풍선도움말을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_tooltip",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tooltip",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tooltip",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tooltip",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tooltip",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tooltip",
+      "type": "command",
+      "content": "Tray.tooltip[= strTooltip]"
+    },
+    {
+      "id": "p_09_tooltip",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7304055436788578",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication();\nobjApp.trays[\"Tray0\"].tooltip = \"Tray ToolTip\";</div></td></tr><tr><th>strTooltip</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n\"null\"값 설정 시 풍선도움말이 표시되지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tooltip",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tooltip",
+      "type": "pre",
+      "content": "- 마우스 포인터가 Tray 아이콘 영역 위에서 일정시간 움직이지 않으면 풍선도움말이 표시됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addItem",
+      "type": "heading2",
+      "content": "addItem",
+      "option": {
+        "alias": "Tray_addItem"
+      }
+    },
+    {
+      "id": "m_02_addItem",
+      "type": "pre",
+      "content": "Tray 의 items 속성에 TrayPopupMenu 오브젝트를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addItem",
+      "type": "command",
+      "content": "Tray.addItem(strID,objPopupMenu)"
+    },
+    {
+      "id": "m_07_addItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4357231743448806",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에 추가될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objPopupMenu</td><td>Object</td><td colspan=\"2\"><div>Tray 의 items 속성에 추가할 TrayPopupMenu 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objTrayMenu = new TrayPopupMenu();\n...    // TrayPopupMenu 설정\nvar objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].additem(\"item00\", objTrayMenu);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1850809387497031",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 추가된 TrayPopupMenu 오브젝트의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addItem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addItem",
+      "type": "pre",
+      "content": "- 이미 등록된 ID 를 추가시키려 할 경우 추가 되지 않습니다."
+    },
+    {
+      "id": "m_01deleteItem",
+      "type": "heading2",
+      "content": "deleteItem",
+      "option": {
+        "alias": "Tray_deleteItem"
+      }
+    },
+    {
+      "id": "m_02_deleteItem",
+      "type": "pre",
+      "content": "Tray 의 items 속성에 등록된 TrayPopupMenu 오브젝트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_deleteItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_deleteItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_deleteItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_deleteItem",
+      "type": "command",
+      "content": "Tray.deleteItem( strID )"
+    },
+    {
+      "id": "m_07_deleteItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.47880081223752413",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에서 삭제될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].deleteitem(\"popupmenu00\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_deleteItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2875188141964664",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에서 삭제된 TrayPopupMenu 오브젝트의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 삭제에 실패했을 경우 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "Tray_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 Tray 를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "Tray.destroy()"
+    },
+    {
+      "id": "m_07_destroy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.565679965618624",
+      "type": "command",
+      "content": "objTray.destroy();"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8491531571587988",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Tray 가 정상적으로 삭제되면 \"true\"를 반환합니다.\nTray 가 정상적으로 삭제되지 않으면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 Tray 를 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01findItem",
+      "type": "heading2",
+      "content": "findItem",
+      "option": {
+        "alias": "Tray_findItem"
+      }
+    },
+    {
+      "id": "m_02_findItem",
+      "type": "pre",
+      "content": "Tray 의 items 속성에 등록된 특정 TrayPopupMenu 오브젝트의 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findItem",
+      "type": "command",
+      "content": "Tray.findItem(strID)"
+    },
+    {
+      "id": "m_07_findItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8993773910455697",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>items 속성에 등록된 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].findItem(\"item00\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8708426094321895",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 등록된 strID 의 인덱스를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getItemCount",
+      "type": "heading2",
+      "content": "getItemCount",
+      "option": {
+        "alias": "Tray_getItemCount"
+      }
+    },
+    {
+      "id": "m_02_getItemCount",
+      "type": "pre",
+      "content": "Tray 의 items 속성에 등록된 TrayPopupMenu 오브젝트의 갯수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getItemCount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getItemCount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getItemCount",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getItemCount",
+      "type": "command",
+      "content": "Tray.getItemCount()"
+    },
+    {
+      "id": "m_07_getItemCount",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.34801496552006106",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;\nvar nItemCnt = objApp.trays[\"Tray0\"].getItemCount();"
+    },
+    {
+      "id": "m_08_getItemCount",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.268482426837202",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 등록된 TrayPopupMenu 오브젝트의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01hideBalloonTip",
+      "type": "heading2",
+      "content": "hideBalloonTip",
+      "option": {
+        "alias": "Tray_hideBalloonTip"
+      }
+    },
+    {
+      "id": "m_02_hideBalloonTip",
+      "type": "pre",
+      "content": "Tray에 표시된 풍선팁을 숨기는 메소드입니다."
+    },
+    {
+      "id": "m_03_hideBalloonTip",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_hideBalloonTip",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_hideBalloonTip",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_hideBalloonTip",
+      "type": "command",
+      "content": "Tray.hideBalloonTip()"
+    },
+    {
+      "id": "m_09_hideBalloonTip",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_hideBalloonTip",
+      "type": "pre",
+      "content": "메소드 호출 시 onballoontiphide 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01init",
+      "type": "heading2",
+      "content": "init",
+      "option": {
+        "alias": "Tray_init"
+      }
+    },
+    {
+      "id": "m_02_init",
+      "type": "pre",
+      "content": "스크립트로 Tray 를 동적 생성한 후에 초기화하는 메소드입니다."
+    },
+    {
+      "id": "m_03_init",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_init",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_init",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_init",
+      "type": "command",
+      "content": "Tray.init(strID, icon, tooltip);"
+    },
+    {
+      "id": "m_07_init",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8591075522535706",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>동적 생성된 Tray 의 ID 를 설정합니다.</div></td></tr><tr><td>icon</td><td>String</td><td colspan=\"2\"><div>Tray 에서 사용할 Icon 을 설정합니다.</div></td></tr><tr><td>tooltip</td><td>String</td><td colspan=\"2\"><div>Tray 의 풍선도움말에 표시될 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\n\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_init",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_init",
+      "type": "pre",
+      "content": "- show() 메소드로 컴포넌트가 화면에 표시되면 초기화가 끝난 상태입니다.\n  초기화가 끝난 후에 init() 메소드를 호출하면 오류가 발생하며 설정한 값은 적용되지 않습니다.\n\n- 스크립트에서 동적으로 Tray를 생성한 후에만 사용할 수 있습니다.\n  동적으로 생성한 Tray가 아닌 경우에는 오동작이 발생할수 있습니다.\n\n- 동적으로 Tray 를 생성 시 초기값을 설정한 경우에는 init() 메소드를 다시 호출할 필요가 없습니다."
+    },
+    {
+      "id": "m_01insertItem",
+      "type": "heading2",
+      "content": "insertItem",
+      "option": {
+        "alias": "Tray_insertItem"
+      }
+    },
+    {
+      "id": "m_02_insertItem",
+      "type": "pre",
+      "content": "Tray 의 items 속성의 특정 위치에 TrayPopupMenu 오브젝트를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertItem",
+      "type": "command",
+      "content": "Tray.insertItem(nIndex, strID, objPopupMenu)"
+    },
+    {
+      "id": "m_07_insertItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3455288718675176",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>TrayPopupMenu 오브젝트가 추가될 위치의 인덱스를 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objPopupMenu</td><td>Object</td><td colspan=\"2\"><div>추가될 TrayPopupMenu 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTrayMenu = new TrayPopupMenu();\n...    // TrayPopupMenu 설정\nvar nIndex = objApp.trays[\"Tray0\"].insertItem(1, \"item00\", objTrayMenu );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8509098206093757",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>TrayPopupMenu 오브젝트가 추가된 위치의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertItem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertItem",
+      "type": "pre",
+      "content": "- 이미 등록된 ID 를 추가시키려 할 경우 추가 되지 않습니다."
+    },
+    {
+      "id": "m_01show",
+      "type": "heading2",
+      "content": "show",
+      "option": {
+        "alias": "Tray_show"
+      }
+    },
+    {
+      "id": "m_02_show",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 Tray 를 작업표시줄에 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_show",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_show",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_show",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_show",
+      "type": "command",
+      "content": "Tray.show()"
+    },
+    {
+      "id": "m_07_show",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.38870734592536293",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\n\nobjApp.trays[\"Tray00\"].show();"
+    },
+    {
+      "id": "m_09_show",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_show",
+      "type": "pre",
+      "content": "- 스크립트에서 Tray 를 동적으로 생성한 후에만 사용이 가능합니다.\n   동적으로 생성한 Tray 가 아닌 경우에는 오동작이 발생할 수 있습니다.\n\n- Application 의 addTray() 메소드를 사용하여 동적으로 생성한 Tray 를 추가한 후에 show() 메소드를 수행하여야 합니다.\n\n- 동적으로 Tray 를 생성 시 초기값을 설정한 경우에는 init() 메소드를 다시 호출할 필요가 없습니다."
+    },
+    {
+      "id": "m_01showBalloonTip",
+      "type": "heading2",
+      "content": "showBalloonTip",
+      "option": {
+        "alias": "Tray_showBalloonTip"
+      }
+    },
+    {
+      "id": "m_02_showBalloonTip",
+      "type": "pre",
+      "content": "Tray 에 풍선팁을 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_showBalloonTip",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_showBalloonTip",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_showBalloonTip",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_showBalloonTip",
+      "type": "command",
+      "content": "Tray.showBalloonTip(strTitleIcon, strTitle, strText [, bNoSound])"
+    },
+    {
+      "id": "m_07_showBalloonTip",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8239550844836911",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTitleIcon</td><td>String</td><td colspan=\"2\"><div>풍선팁의 타이틀 왼편에 나타나는 아이콘의 이름 및 경로를 설정합니다.\n\n아이콘으로 사용 가능한 시스템 아이콘은 \"information\", \"warning\", \"error\", \"none\" 입니다.</div></td></tr><tr><td>strTitle</td><td>String</td><td colspan=\"2\"><div>풍선팁에 나타나는 제목을 설정합니다.\n48자 미만으로 설정할 수 있습니다.</div></td></tr><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>풍선팁에 표시할 텍스트를 설정합니다.\n200자 미만으로 설정할 수 있습니다.</div></td></tr><tr><td>bNoSound</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 풍선팁이 나타날 때 소리가 나오지 않습니다.\nfalse 설정 시 풍선팁이 나타날 때 소리가 나옵니다.\n\n값 생략 시 false로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\n\nobjApp.trays[\"Tray0\"].showBalloonTip(\"information\", \"안내\", \"업데이트가 준비되었습니다.\");\nobjApp.trays[\"Tray0\"].showBalloonTip(\"information\", \"안내\", \"업데이트가 준비되었습니다.\", false);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_showBalloonTip",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_showBalloonTip",
+      "type": "pre",
+      "content": "풍선팁이 표시된 상태에서 showBalloonTip 메소드를 실행하면 기존 풍선팁이 숨겨지고 새로운 풍선팁이 표시됩니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onballoontipclick",
+      "type": "heading2",
+      "content": "onballoontipclick",
+      "option": {
+        "alias": "Tray_onballoontipclick"
+      }
+    },
+    {
+      "id": "e_02_onballoontipclick",
+      "type": "pre",
+      "content": "Tray에 표시된 풍선팁을 클릭할 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onballoontipclick",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onballoontipclick",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onballoontipclick",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onballoontipclick",
+      "type": "command",
+      "content": "onballoontipclick(obj:nexacro.Tray,e:nexacro.ClickEventInfo);",
+      "option": "onballoontipclick"
+    },
+    {
+      "id": "e_07_onballoontipclick",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6942917996424801",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ClickEventInfo\" string=\"ClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onballoontipclick",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onballoontipclick",
+      "type": "pre",
+      "content": "풍선팁 클릭 시 풍선팁은 자동으로 숨겨집니다.\n풍선팁을 클릭해서 숨겨지는 경우에는 onballoontiphide 이벤트가 발생하지 않습니다."
+    },
+    {
+      "id": "e_01onballoontiphide",
+      "type": "heading2",
+      "content": "onballoontiphide",
+      "option": {
+        "alias": "Tray_onballoontiphide"
+      }
+    },
+    {
+      "id": "e_02_onballoontiphide",
+      "type": "pre",
+      "content": "Tray에 표시된 풍선팁이 숨겨질 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onballoontiphide",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onballoontiphide",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onballoontiphide",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onballoontiphide",
+      "type": "command",
+      "content": "onballoontiphide(obj:nexacro.Tray,e:nexacro.TrayBalloonTipHideEventInfo);",
+      "option": "onballoontiphide"
+    },
+    {
+      "id": "e_07_onballoontiphide",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24287418996833743",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#TrayBalloonTipHideEventInfo\" string=\"TrayBalloonTipHideEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onballoontiphide",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onballoontiphide",
+      "type": "pre",
+      "content": "hideBalloonTip 메소드를 호출하거나 timeout에 의해 풍선팁이 숨겨질 때 이벤트가 발생합니다."
+    },
+    {
+      "id": "e_01onballoontipshow",
+      "type": "heading2",
+      "content": "onballoontipshow",
+      "option": {
+        "alias": "Tray_onballoontipshow"
+      }
+    },
+    {
+      "id": "e_02_onballoontipshow",
+      "type": "pre",
+      "content": "Tray에 풍선팁을 표시할 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onballoontipshow",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onballoontipshow",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onballoontipshow",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onballoontipshow",
+      "type": "command",
+      "content": "onballoontipshow(obj:nexacro.Tray,e:nexacro.EventInfo);",
+      "option": "onballoontipshow"
+    },
+    {
+      "id": "e_07_onballoontipshow",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2070880832016121",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01ondblclick",
+      "type": "heading2",
+      "content": "ondblclick",
+      "option": {
+        "alias": "Tray_ondblclick"
+      }
+    },
+    {
+      "id": "e_02_ondblclick",
+      "type": "pre",
+      "content": "Tray 아이콘을 마우스 왼쪽버튼으로 더블클릭 했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_ondblclick",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_ondblclick",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_ondblclick",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_ondblclick",
+      "type": "command",
+      "content": "ondblclick(obj:nexacro.Tray,e:nexacro.MouseEventInfo);",
+      "option": "ondblclick"
+    },
+    {
+      "id": "e_07_ondblclick",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5431503828872005",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_ondblclick",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_ondblclick",
+      "type": "pre",
+      "content": "- ondblclick 이벤트는 onlbuttonup -&gt; onlbuttonup -&gt; ondblclick 순서로 발생합니다."
+    },
+    {
+      "id": "e_01onlbuttonup",
+      "type": "heading2",
+      "content": "onlbuttonup",
+      "option": {
+        "alias": "Tray_onlbuttonup"
+      }
+    },
+    {
+      "id": "e_02_onlbuttonup",
+      "type": "pre",
+      "content": "Tray 아이콘에서 마우스 왼쪽버튼을 클릭했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onlbuttonup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onlbuttonup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onlbuttonup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onlbuttonup",
+      "type": "command",
+      "content": "onlbuttonup(obj:nexacro.Tray,e:nexacro.MouseEventInfo);",
+      "option": "onlbuttonup"
+    },
+    {
+      "id": "e_07_onlbuttonup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8391721719184769",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onrbuttonup",
+      "type": "heading2",
+      "content": "onrbuttonup",
+      "option": {
+        "alias": "Tray_onrbuttonup"
+      }
+    },
+    {
+      "id": "e_02_onrbuttonup",
+      "type": "pre",
+      "content": "Tray 아이콘에서 마우스 오른쪽버튼을 클릭했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrbuttonup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrbuttonup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrbuttonup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrbuttonup",
+      "type": "command",
+      "content": "onrbuttonup(obj:nexacro.Tray,e:nexacro.MouseEventInfo);",
+      "option": "onrbuttonup"
+    },
+    {
+      "id": "e_07_onrbuttonup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6281643838142041",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
