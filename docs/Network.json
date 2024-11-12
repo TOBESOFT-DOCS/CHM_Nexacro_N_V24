@@ -1,0 +1,711 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기의 네트워크 연결정보를 제공합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_availabletype",
+      "type": "heading2",
+      "content": "availabletype",
+      "option": {
+        "alias": "Network_availabletype"
+      }
+    },
+    {
+      "id": "p_02_availabletype",
+      "type": "pre",
+      "content": "모바일 기기에서 사용가능한 네트워크에 대한 정보를 정수로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_availabletype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_availabletype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_availabletype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_availabletype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_availabletype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4979191749294193",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nType = this.Network00.availabletype ;</div></td></tr><tr><th>\"0\"</th><td colspan=\"2\"><div>사용가능한 네트워크가 없을 때 갖는 값입니다.</div></td></tr><tr><th>\"1\"</th><td colspan=\"2\"><div>\"3G\" 또는 \"LTE\" 네트워크를 사용할 때 갖는 값입니다.</div></td></tr><tr><th>\"2\"</th><td colspan=\"2\"><div>\"WIFI\" 네트워크를 사용할 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_availabletype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_availabletype",
+      "type": "pre",
+      "content": "- onrecvsuccess 이벤트가 발생하면 최신값으로 갱신됩니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "Network_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "Network의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "Network.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3929058910793277",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Network를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Network_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Network 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Network.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.09770059169993217",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "Network_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "Network 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "Network.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6149801674115405",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Network00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- Network 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_timestamp",
+      "type": "heading2",
+      "content": "timestamp",
+      "option": {
+        "alias": "Network_timestamp"
+      }
+    },
+    {
+      "id": "p_02_timestamp",
+      "type": "pre",
+      "content": "모바일 기기에서 사용가능한 네트워크를 확인한 시간정보를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_timestamp",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_timestamp",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_timestamp",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_timestamp",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_timestamp",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_timestamp",
+      "type": "pre",
+      "content": "- JavaScript 의 Date 자료형을 갖습니다.\n\n- onrecvsuccess 이벤트가 발생하면 최신값으로 갱신됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01isReachable",
+      "type": "heading2",
+      "content": "isReachable",
+      "option": {
+        "alias": "Network_isReachable"
+      }
+    },
+    {
+      "id": "m_02_isReachable",
+      "type": "pre",
+      "content": "모바일 기기에서 특정 URL 의 접속 가능 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isReachable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isReachable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isReachable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isReachable",
+      "type": "command",
+      "content": "Network.isReachable(strURL)"
+    },
+    {
+      "id": "m_07_isReachable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7314660244006468",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>접속 가능 여부를 확인하려는 URL을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Network00.isReachable( \"http://www.tobesoft.com\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isReachable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9494225125551982",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>strURL 이 생략되거나 허용되지 않는 문자가 사용된 경우에는 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_isReachable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isReachable",
+      "type": "pre",
+      "content": "- 지정된 URL 에 접근이 가능하면 onrecvsuccess 이벤트가 발생합니다.\n  지정된 URL 에 접근이 불가능하면 onrecverror 이벤트가 발생합니다.\n\n- 지정된 URL 로 접근 시 일정시간 내에 응답이 없으면 onrecverror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01watchStart",
+      "type": "heading2",
+      "content": "watchStart",
+      "option": {
+        "alias": "Network_watchStart"
+      }
+    },
+    {
+      "id": "m_02_watchStart",
+      "type": "pre",
+      "content": "모바일 기기에서 네트워크 상태를 일정 간격으로 수신하도록 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_watchStart",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_watchStart",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_watchStart",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_watchStart",
+      "type": "command",
+      "content": "Network.watchStart(nIntervalTime)"
+    },
+    {
+      "id": "m_07_watchStart",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3666109686894541",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIntervalTime</td><td>Number</td><td colspan=\"2\"><div>네트워크 상태를 수신할 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Network00.watchStart(1000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_watchStart",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8765163151061078",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>nIntervalTime 이 생략되거나 허용되지 않는 문자가 사용된 경우에는 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_watchStart",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_watchStart",
+      "type": "pre",
+      "content": "- 네트워크 상태가 확인되면 onrecvsuccess 이벤트가 발생합니다.\n  네트워크 상태가 확인되지 않으면 onrecverror 이벤트가 발생합니다.\n\n- onrecvsuccess 이벤트가 발생하면 네트워크 정보를 availabletype, timestamp 속성에 저장합니다."
+    },
+    {
+      "id": "m_01watchStop",
+      "type": "heading2",
+      "content": "watchStop",
+      "option": {
+        "alias": "Network_watchStop"
+      }
+    },
+    {
+      "id": "m_02_watchStop",
+      "type": "pre",
+      "content": "watchStart() 메소드로 설정한 주기적인 네트워크 상태확인을 종료하는 메소드입니다."
+    },
+    {
+      "id": "m_03_watchStop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_watchStop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_watchStop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_watchStop",
+      "type": "command",
+      "content": "Network.watchStop()"
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onrecverror",
+      "type": "heading2",
+      "content": "onrecverror",
+      "option": {
+        "alias": "Network_onrecverror"
+      }
+    },
+    {
+      "id": "e_02_onrecverror",
+      "type": "pre",
+      "content": "모바일 기기에서 네트워크 상태 확인에 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrecverror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrecverror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrecverror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrecverror",
+      "type": "command",
+      "content": "onrecverror(obj:nexacro.Network,e:nexacro.NetworkErrorEventInfo);",
+      "option": "onrecverror"
+    },
+    {
+      "id": "e_07_onrecverror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.11419605705233926",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Network</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#NetworkErrorEventInfo\" string=\"NetworkErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onrecvsuccess",
+      "type": "heading2",
+      "content": "onrecvsuccess",
+      "option": {
+        "alias": "Network_onrecvsuccess"
+      }
+    },
+    {
+      "id": "e_02_onrecvsuccess",
+      "type": "pre",
+      "content": "모바일 기기에서 네트워크 상태 확인에 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrecvsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrecvsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrecvsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrecvsuccess",
+      "type": "command",
+      "content": "onrecvsuccess(obj:nexacro.Network,e:nexacro.NetworkEventInfo);",
+      "option": "onrecvsuccess"
+    },
+    {
+      "id": "e_07_onrecvsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2580509239020832",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Network</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#NetworkEventInfo\" string=\"NetworkEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onrecvsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onrecvsuccess",
+      "type": "pre",
+      "content": "- 네트워크 상태가 확인되면 네트워크 정보를 availabletype, timestamp 속성에 저장합니다."
+    }
+  ]
+}
