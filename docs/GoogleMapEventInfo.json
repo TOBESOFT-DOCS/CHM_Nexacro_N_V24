@@ -1,0 +1,724 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "GoogleMap 컴포넌트에 요청된 작업과 관련하여 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_addresses",
+      "type": "heading2",
+      "content": "addresses",
+      "option": {
+        "alias": "GoogleMapEventInfo_addresses"
+      }
+    },
+    {
+      "id": "p_02_addresses",
+      "type": "pre",
+      "content": "getAddress() 메소드의 파라미터(위도,경도) 위치에 등록된 주소를 Collection 형태로 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_addresses",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_addresses",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_addresses",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_addresses",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_addresses",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_addresses",
+      "type": "command",
+      "content": "GoogleMapEventInfo.addresses"
+    },
+    {
+      "id": "p_11_addresses",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_addresses",
+      "type": "pre",
+      "content": "- getAddress() 메소드에 의해 이벤트가 발생했을 때 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_01_centerlatitude",
+      "type": "heading2",
+      "content": "centerlatitude",
+      "option": {
+        "alias": "GoogleMapEventInfo_centerlatitude"
+      }
+    },
+    {
+      "id": "p_02_centerlatitude",
+      "type": "pre",
+      "content": "이벤트가 발생했을 때 GoogleMap 컴포넌트에 로드된 지도의 중앙위치 위도값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_centerlatitude",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_centerlatitude",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_centerlatitude",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_centerlatitude",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_centerlatitude",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_centerlatitude",
+      "type": "command",
+      "content": "GoogleMapEventInfo.centerlatitude"
+    },
+    {
+      "id": "p_09_centerlatitude",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5616791200701148",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCenterLatitude = e.centerlatitude;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_centerlongitude",
+      "type": "heading2",
+      "content": "centerlongitude",
+      "option": {
+        "alias": "GoogleMapEventInfo_centerlongitude"
+      }
+    },
+    {
+      "id": "p_02_centerlongitude",
+      "type": "pre",
+      "content": "이벤트가 발생했을 때 GoogleMap 컴포넌트에 로드된 지도의 중앙위치 경도값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_centerlongitude",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_centerlongitude",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_centerlongitude",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_centerlongitude",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_centerlongitude",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_centerlongitude",
+      "type": "command",
+      "content": "GoogleMapEventInfo.centerlongitude"
+    },
+    {
+      "id": "p_09_centerlongitude",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.18268351665270077",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCenterLongitude = e.centerlongitude;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "GoogleMapEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "GoogleMapEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.30676563021570347",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_fromobject",
+      "type": "heading2",
+      "content": "fromobject",
+      "option": {
+        "alias": "GoogleMapEventInfo_fromobject"
+      }
+    },
+    {
+      "id": "p_02_fromobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromobject",
+      "type": "command",
+      "content": "GoogleMapEventInfo.fromobject"
+    },
+    {
+      "id": "p_09_fromobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.21383075649529104",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromobject",
+      "type": "pre",
+      "content": "- onlbuttondown 과 같이 상위로 전파되는 이벤트에서 fromobject 속성은 이벤트가 최초로 발생한 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_fromreferenceobject",
+      "type": "heading2",
+      "content": "fromreferenceobject",
+      "option": {
+        "alias": "GoogleMapEventInfo_fromreferenceobject"
+      }
+    },
+    {
+      "id": "p_02_fromreferenceobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트 또는 서브컨트롤을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromreferenceobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromreferenceobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromreferenceobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromreferenceobject",
+      "type": "command",
+      "content": "GoogleMapEventInfo.fromreferenceobject"
+    },
+    {
+      "id": "p_09_fromreferenceobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5159249179205544",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromreferenceobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromreferenceobject",
+      "type": "pre",
+      "content": "- Calendar 와 같이 서브컨트롤이 있는 컴포넌트에서 서브컨트롤에 의해 이벤트가 발생한 경우 fromreferenceobject 속성은 서브컨트롤을 갖습니다.\n  Button 과 같이 서브컨트롤이 없는 컴포넌트는 해당 컴포넌트를 갖습니다.\n\n- onlbuttondown과 같이 상위로 전파되는 이벤트에서 fromreferenceobject 속성은 이벤트가 최초로 발생한 컴포넌트 또는 서브컨트롤을 갖습니다."
+    },
+    {
+      "id": "p_01_latitude",
+      "type": "heading2",
+      "content": "latitude",
+      "option": {
+        "alias": "GoogleMapEventInfo_latitude"
+      }
+    },
+    {
+      "id": "p_02_latitude",
+      "type": "pre",
+      "content": "getCoordinates() 메소드의 파라미터(주소) 위치의 위도값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_latitude",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_latitude",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_latitude",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_latitude",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_latitude",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_latitude",
+      "type": "command",
+      "content": "GoogleMapEventInfo.latitude"
+    },
+    {
+      "id": "p_11_latitude",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_latitude",
+      "type": "pre",
+      "content": "- getCoordinates() 메소드에 의해 이벤트가 발생했을 때 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_01_longitude",
+      "type": "heading2",
+      "content": "longitude",
+      "option": {
+        "alias": "GoogleMapEventInfo_longitude"
+      }
+    },
+    {
+      "id": "p_02_longitude",
+      "type": "pre",
+      "content": "getCoordinates() 메소드의 파라미터(주소) 위치의 경도값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_longitude",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_longitude",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_longitude",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_longitude",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_longitude",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_longitude",
+      "type": "command",
+      "content": "GoogleMapEventInfo.longitude"
+    },
+    {
+      "id": "p_11_longitude",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_longitude",
+      "type": "pre",
+      "content": "- getCoordinates() 메소드에 의해 이벤트가 발생했을 때 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_01_viewmode",
+      "type": "heading2",
+      "content": "viewmode",
+      "option": {
+        "alias": "GoogleMapEventInfo_viewmode"
+      }
+    },
+    {
+      "id": "p_02_viewmode",
+      "type": "pre",
+      "content": "이벤트가 발생했을 때 GoogleMap 컴포넌트에 로드된 지도의 표시모드값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_viewmode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_viewmode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_viewmode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_viewmode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_viewmode",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_viewmode",
+      "type": "command",
+      "content": "GoogleMapEventInfo.viewmode"
+    },
+    {
+      "id": "p_09_viewmode",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.22799983489596543",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>\"0\"</th><td colspan=\"2\"><div>로드된 지도가 일반 Google Map 형태일 때 갖는 값입니다.</div></td></tr><tr><th>\"1\"</th><td colspan=\"2\"><div>로드된 지도가 위성 이미지일 때 갖는 값입니다.</div></td></tr><tr><th>\"2\"</th><td colspan=\"2\"><div>로드된 지도가 위성 이미지이고, 주요거리의 투명레이어를 표시할 때 갖는 값입니다.</div></td></tr><tr><th>\"3\"</th><td colspan=\"2\"><div>로드된 지도가 지형 및 초목과 같은 물리적인 지형지물과 주요거리 투명레이어를 표시할 때 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_zoomlevel",
+      "type": "heading2",
+      "content": "zoomlevel",
+      "option": {
+        "alias": "GoogleMapEventInfo_zoomlevel"
+      }
+    },
+    {
+      "id": "p_02_zoomlevel",
+      "type": "pre",
+      "content": "이벤트가 발생했을 때 GoogleMap 컴포넌트에 로드된 지도의 Zoom Level 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_zoomlevel",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_zoomlevel",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_zoomlevel",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_zoomlevel",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_zoomlevel",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_zoomlevel",
+      "type": "command",
+      "content": "GoogleMapEventInfo.zoomlevel"
+    },
+    {
+      "id": "p_11_zoomlevel",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_zoomlevel",
+      "type": "pre",
+      "content": "- 로딩된 지도의 Zoom Level 값은 0 이상의 정수입니다."
+    }
+  ]
+}
