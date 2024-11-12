@@ -1,0 +1,3649 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Grid 에 표시되는 내용을 엑셀 또는 한셀 파일로 Export 하는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_commandversion",
+      "type": "heading2",
+      "content": "commandversion",
+      "option": {
+        "alias": "ExcelExportObject_commandversion"
+      }
+    },
+    {
+      "id": "p_02_commandversion",
+      "type": "pre",
+      "content": "Export 시 데이터 인코딩 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_commandversion",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_commandversion",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_commandversion",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_commandversion",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_commandversion",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_commandversion",
+      "type": "command",
+      "content": "ExcelExportObject.commandversion [=enumVersion]"
+    },
+    {
+      "id": "p_09_commandversion",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3276362687814416",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumVersion ::= \"1.0\" | \"2.0\" | \"3.0\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.commandversion = \"2.0\";</div></td></tr><tr><th>\"1.0\"</th><td colspan=\"2\"><div>인코딩 처리를 하지 않습니다.</div></td></tr><tr><th>\"2.0\"</th><td colspan=\"2\"><div>Base32로 인코딩합니다.</div></td></tr><tr><th>\"3.0\"</th><td colspan=\"2\"><div>Base64로 인코딩합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_commandversion",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_commandversion",
+      "type": "pre",
+      "content": "- commandversion 속성을 설정하지 않으면 \"1.0\"으로 적용됩니다."
+    },
+    {
+      "id": "p_01_commcompress",
+      "type": "heading2",
+      "content": "commcompress",
+      "option": {
+        "alias": "ExcelExportObject_commcompress"
+      }
+    },
+    {
+      "id": "p_02_commcompress",
+      "type": "pre",
+      "content": "Export 를 위해 서버와 통신 시 PostData 를 압축할 지 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_commcompress",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_commcompress",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_commcompress",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_commcompress",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_commcompress",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.37841860559003204",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumComp ::= 'none' | 'compress'</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>통신 시 PostData 를 압축하지 않습니다.</div></td></tr><tr><th>\"compress\"</th><td colspan=\"2\"><div>통신 시 PostData 를 압축합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_commcompress",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_commcompress",
+      "type": "pre",
+      "content": "- commcompress 속성값을 설정하지 않으면 \"none\" 으로 적용됩니다."
+    },
+    {
+      "id": "p_01_commdataformat",
+      "type": "heading2",
+      "content": "commdataformat",
+      "option": {
+        "alias": "ExcelExportObject_commdataformat"
+      }
+    },
+    {
+      "id": "p_02_commdataformat",
+      "type": "pre",
+      "content": "Export를 위해 데이터를 서버에 전송 시 사용할 통신형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_commdataformat",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_commdataformat",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_commdataformat",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_commdataformat",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_commdataformat",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.353940124970335",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumFormat ::= 'xml' | 'ssv' | 'json' | 'binary'</div></td></tr><tr><th>\"xml\"</th><td colspan=\"2\"><div>XML 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"ssv\"</th><td colspan=\"2\"><div>SSV 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"json\"</th><td colspan=\"2\"><div>JSON 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"binary\"</th><td colspan=\"2\"><div>Binary 형식으로 데이터를 전송합니다.\n\n웹브라우저 환경에서는 지원하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_commdataformat",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_commdataformat",
+      "type": "pre",
+      "content": "- commdataformat 속성값을 설정하지 않으면 \"ssv\" 로 적용됩니다."
+    },
+    {
+      "id": "p_01_exportactivemode",
+      "type": "heading2",
+      "content": "exportactivemode",
+      "option": {
+        "alias": "ExcelExportObject_exportactivemode"
+      }
+    },
+    {
+      "id": "p_02_exportactivemode",
+      "type": "pre",
+      "content": "Export 완료 후 생성된 파일을 자동으로 오픈할지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportactivemode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportactivemode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportactivemode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportactivemode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportactivemode",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9471313269844157",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumMode ::= 'noactive' | 'active'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportactivemode = \"active\";</div></td></tr><tr><th>\"noactive\"</th><td colspan=\"2\"><div>Export 완료 후 생성된 파일을 자동으로 오픈하지 않습니다.</div></td></tr><tr><th>\"active\"</th><td colspan=\"2\"><div>Export 완료 후 생성된 파일을 자동으로 오픈합니다.\n\n생성된 파일과 연결된 어플리케이션이 설치되어 있어야 합니다.\n예를 들어 생성된 파일이 엑셀인 경우 MS Excel 이 설치되어 있어야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportactivemode",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportactivemode",
+      "type": "pre",
+      "content": "- exportactivemode 속성값을 설정하지 않으면 \"noactive\" 로 적용됩니다."
+    },
+    {
+      "id": "p_01_exporteventtype",
+      "type": "heading2",
+      "content": "exporteventtype",
+      "option": {
+        "alias": "ExcelExportObject_exporteventtype"
+      }
+    },
+    {
+      "id": "p_02_exporteventtype",
+      "type": "pre",
+      "content": "Export 진행중 정보가 표시되는 방식과 onprogress 이벤트 발생 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exporteventtype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exporteventtype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exporteventtype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exporteventtype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exporteventtype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9930114346738665",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumEventtype ::= 'none' | 'item' | 'totalrecord' | 'itemrecord'</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Export 진행중 onprogress 이벤트를 발생하지 않습니다.\n\nexportuitype 속성값과 관계없이 Export 진행 정보를 화면에 표시하지 않습니다.</div></td></tr><tr><th>\"item\"</th><td colspan=\"2\"><div>각 Item 의 Export 가 완료되었을 때 onprogress 이벤트가 발생합니다.\n\nExport 진행율이 \"진행중인 Item 인덱스 / 전체 Item 갯수\" 로 ProgressBar에 표시됩니다.</div></td></tr><tr><th>\"totalrecord\"</th><td colspan=\"2\"><div>각 Item의 Record 단위로 Export 가 완료되었을 때 onprogress 이벤트가 발생합니다.\n\nExport 진행율이 \"진행중인 Record 인덱스 / 전체 Record 갯수\" 로 진행바에 표시됩니다.</div></td></tr><tr><th>\"itemrecord\"</th><td colspan=\"2\"><div>각 Item의 Record 단위로 Export 가 완료되었을 때 onprogress 이벤트가 발생합니다.\n\nExport 진행율이 \"진행중인 Item 의 Record 인덱스 / 진행중인 Item 의 Record 갯수\" 로 진행바에 표시됩니다.\n한 개 Item 의 Export 가 완료되면 진행율이 100%로 표시되었다가 다음 Item 이 Export 되면 0% 로 변경됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exporteventtype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exporteventtype",
+      "type": "pre",
+      "content": "- exporteventtype 속성값을 설정하지 않으면 \"itemrecord\" 로 적용됩니다.\n\n- exportuitype 속성값이 \"statusbar\" 이면 StatusBar 의 ProgressBar 를 사용합니다.\n  exportuitype 속성값이 \"exportprogress\" 이면 화면 중앙에 표시되는 ProgressBar 를 사용합니다."
+    },
+    {
+      "id": "p_01_exportfilename",
+      "type": "heading2",
+      "content": "exportfilename",
+      "option": {
+        "alias": "ExcelExportObject_exportfilename"
+      }
+    },
+    {
+      "id": "p_02_exportfilename",
+      "type": "pre",
+      "content": "Export 완료 후 생성될 파일명을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportfilename",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportfilename",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportfilename",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportfilename",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportfilename",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.017016212173147527",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportfilename = \"ExportFile\";</div></td></tr><tr><th>strExportFileName</th><td colspan=\"2\"><div>저장될 파일명을 설정합니다.\n\n파일명으로 사용할 수 없는 \"\\\", \"/\", \"*\", \"\"\", \"'\", \"&lt;\", \"&gt;\", \"|\" 등의 문자는 설정할 수 없습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportfilename",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportfilename",
+      "type": "pre",
+      "content": "- exportfilename 속성값을 설정하지 않으면 ExcelExportObject 에 추가된 Item 중 첫번째 Grid 의 id 값이 적용됩니다.\n\n- Windows NRE 환경일 때 exportfilepath 속성값을 설정하면 경로선택 팝업창이 표시되지 않습니다."
+    },
+    {
+      "id": "p_13_exportfilename",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_exportfilename",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_01'>Grid를 엑셀 파일로 내보내기(익스포트)</a>"
+    },
+    {
+      "id": "p_01_exportfilepassword",
+      "type": "heading2",
+      "content": "exportfilepassword",
+      "option": {
+        "alias": "ExcelExportObject_exportfilepassword"
+      }
+    },
+    {
+      "id": "p_02_exportfilepassword",
+      "type": "pre",
+      "content": "Export 완료 후 생성될 파일에 적용될 암호를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportfilepassword",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportfilepassword",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportfilepassword",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportfilepassword",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportfilepassword",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6028739171431263",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportfilepassword = \"password\";</div></td></tr><tr><th>strPassWord</th><td colspan=\"2\"><div>생성될 파일에 적용할 암호를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_exportfilepath",
+      "type": "heading2",
+      "content": "exportfilepath",
+      "option": {
+        "alias": "ExcelExportObject_exportfilepath"
+      }
+    },
+    {
+      "id": "p_02_exportfilepath",
+      "type": "pre",
+      "content": "Export 완료 후 파일이 생성될 위치를 절대경로로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportfilepath",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportfilepath",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportfilepath",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportfilepath",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportfilepath",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6631793697981432",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportfilepath = \"C:\\\\\";\nthis.ExcelExportObject00.exportfilepath = \"C:\\\\Users\\\\[UserID]\\\\Downloads\";\nthis.ExcelExportObject00.exportfilepath = \"%MYDOCUMENT%\";</div></td></tr><tr><th>strFilePath</th><td colspan=\"2\"><div>파일이 저장될 위치를 절대경로 또는 Alias 를 사용하여 설정합니다.\n\nEnvironment 의 filesecurelevel 속성으로 접근이 허용된 경로만 설정할 수 있습니다.\n접근이 허용되지 않은 경로 또는 존재하지 않는 경로일 경우 파일이 생성되지 않으므로 주의하여야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportfilepath",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportfilepath",
+      "type": "pre",
+      "content": "- exportfilepath 속성값 설정 시 경로선택 팝업창 없이 exportfilename 속성값을 파일명으로 해당 위치에 Excel 파일을 Export 합니다.\n\n- 샌드박스(SandBox) 옵션인 Environment 의 filesecurelevel 속성값이 \"all\" 인 경우는 모든 경로에 접근을 허용합니다.\n   이 경우 사용자에게 접근 허용 여부를 확인 한 후 사용자가 승인한 경우에만 파일이 생성됩니다.\n\n- strFilePath 에 사용할 수 있는 Alias 의 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가"
+    },
+    {
+      "id": "u_10_0.2095745633449081",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Alias</th>\t\t<th>OS</th>\t\t<th>Path</th>\t\t<th>Remark</th>\t</tr></thead>\t\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"1\"><div>%USERAPP%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%INSTALLROOT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>Packing 시 Update Type이 \"Update(Local+Server)\" 또는 \"Local\"인 경우\n%USERAPP%\\projects\\[Key]\\[BootStrapURL]\nPacking 시 Update Type이 \"Server\"인 경우\n%USERAPP%</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%USERAPPLOCAL%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\Local</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%MYDOCUMENT%\n%DOCUMENT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>\"내 문서\" 로 설정한 위치</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%CACHE%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>%USERAPP%\\Cache</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%THEME%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>%USERAPP%\\Cache\\Theme</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%EXECUTE%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>\"nexacro.exe 실행 위치</div></td>\t\t<td><div></div></td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_exportmessagealert",
+      "type": "heading2",
+      "content": "exportmessagealert",
+      "option": {
+        "alias": "ExcelExportObject_exportmessagealert"
+      }
+    },
+    {
+      "id": "p_02_exportmessagealert",
+      "type": "pre",
+      "content": "Export 전 표시되는 경고 대화상자에 출력될 텍스트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportmessagealert",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportmessagealert",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportmessagealert",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportmessagealert",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportmessagealert",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4125960425328874",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportmessagealert = \"Export Start\";</div></td></tr><tr><th>strMessage</th><td colspan=\"2\"><div>경고 대화상자에 출력될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportmessagealert",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportmessagealert",
+      "type": "pre",
+      "content": "- exportmessagealert 속성값을 설정하지 않으면 경고 대화상자가 표시되지 않습니다."
+    },
+    {
+      "id": "p_01_exportmessagecomplete",
+      "type": "heading2",
+      "content": "exportmessagecomplete",
+      "option": {
+        "alias": "ExcelExportObject_exportmessagecomplete"
+      }
+    },
+    {
+      "id": "p_02_exportmessagecomplete",
+      "type": "pre",
+      "content": "exportuitype 속성값이 \"exportprogress\" 일 때 Export 가 완료되면 진행바에 표시될 텍스트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportmessagecomplete",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportmessagecomplete",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportmessagecomplete",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportmessagecomplete",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportmessagecomplete",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4996235775024517",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportmessagecomplete = \"Export Completed\";</div></td></tr><tr><th>strMessage</th><td colspan=\"2\"><div>Export 완료 시 진행바에 표시될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportmessagecomplete",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportmessagecomplete",
+      "type": "pre",
+      "content": "- 모든 Item 의 Export 가 완료되어 onsuccess 이벤트가 발생되기 전에 표시됩니다.\n\n- exportuitype 속성값이 \"exportprogress\" 일 때만 진행바에 표시됩니다."
+    },
+    {
+      "id": "p_01_exportmessageprocess",
+      "type": "heading2",
+      "content": "exportmessageprocess",
+      "option": {
+        "alias": "ExcelExportObject_exportmessageprocess"
+      }
+    },
+    {
+      "id": "p_02_exportmessageprocess",
+      "type": "pre",
+      "content": "exportuitype 속성값이 \"exportprogress\" 일 때 Export 진행중 진행바에 표시될 텍스트의 형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportmessageprocess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportmessageprocess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportmessageprocess",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportmessageprocess",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportmessageprocess",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8352147199550424",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportmessageprocess = \"%d Item, %d Record / %d Total\";</div></td></tr><tr><th>strMessage</th><td colspan=\"2\"><div>진행중인 Export 정보를 표시하도록 \"%d\" 와 텍스트를 조합하여 설정합니다.\n\"%d\" 는 3 개까지 설정할 수 있으며, 각 \"%d\" 는 아래와 같이 대체되어 표시됩니다.\n\"%d\" 를 3 개 이상 설정하면 오동작 할 수 있습니다.\n\n1) 첫번째 \"%d\"\n   Export 중인 Item 의 인덱스값으로 대체됩니다.\n\n2) 두번째 \"%d\"\n   exporteventtype 속성값이 \"item\", \"totalrecord\" 이면 모든 Item 의 전체 Record 에서 출력중인 Record 인덱스값으로 대체됩니다.\n   exporteventtype 속성값이 \"itemrecord\" 이면 현재 Item 에서 출력중인 Record 인덱스값으로 대체됩니다.\n\n3) 세번째 \"%d\"\n   exporteventtype 속성값이 \"item\", \"totalrecord\" 이면 모든 Item 의 전체 Record 갯수로 대체됩니다.\n   exporteventtype 속성값이 \"itemrecord\" 이면 해당 Item 의 Record 갯수로 대체됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportmessageprocess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportmessageprocess",
+      "type": "pre",
+      "content": "- exportuitype 속성값이 \"exportprogress\" 일 때만 표시됩니다.\n\n- exportmessageprocess 속성값을 설정하지 않으면 진행바에 텍스트가 표시되지 않습니다.\n\n- onprogress 이벤트가 정의되지 않아도 exporteventtype 속성값 기준으로 onprogress 이벤트 발생시점에 텍스트가 업데이트 됩니다."
+    },
+    {
+      "id": "p_01_exportmessageready",
+      "type": "heading2",
+      "content": "exportmessageready",
+      "option": {
+        "alias": "ExcelExportObject_exportmessageready"
+      }
+    },
+    {
+      "id": "p_02_exportmessageready",
+      "type": "pre",
+      "content": "exportuitype 속성값이 \"exportprogress\" 일 때 Export 진행 전 진행바에 표시될 텍스트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportmessageready",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportmessageready",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportmessageready",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportmessageready",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportmessageready",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7618586691687529",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportmessageready = \"Export Ready\";</div></td></tr><tr><th>strMessage</th><td colspan=\"2\"><div>Export 진행 전 진행바에 표시될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportmessageready",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportmessageready",
+      "type": "pre",
+      "content": "- exportuitype 속성값이 \"exportprogress\" 일 때만 진행바에 표시됩니다."
+    },
+    {
+      "id": "p_01_exporttype",
+      "type": "heading2",
+      "content": "exporttype",
+      "option": {
+        "alias": "ExcelExportObject_exporttype"
+      }
+    },
+    {
+      "id": "p_02_exporttype",
+      "type": "pre",
+      "content": "ExcelExportObject 을 Export 하여 생성할 파일의 형식을 상수값으로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exporttype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exporttype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exporttype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exporttype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exporttype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5499137347733993",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exporttype = nexacro.ExportTypes.EXCEL2007;\nthis.ExcelExportObject00.exporttype = 1040;</div></td></tr><tr><th>constExportTypes</th><td colspan=\"2\"><div>Export 하여 생성할 파일의 형식을 상수값으로 설정합니다.\n\n256 (0x0100) 또는 nexacro.ExportTypes.EXCEL 설정 시 엑셀 97 형식으로 Export 합니다.\n272 (0x0110) 또는 nexacro.ExportTypes.EXCEL97 설정 시 엑셀 97~2003 형식으로 Export 합니다.\n288 (0x0120) 또는 nexacro.ExportTypes.EXCEL2007 설정 시 엑셀 2007 XML 형식으로 Export 합니다.\n1024 (0x0400) 또는 nexacro.ExportTypes.HANCELL2010 설정 시 한셀 2010 형식으로 Export 합니다.\n1040 (0x0410) 또는 nexacro.ExportTypes.HANCELL2014 설정 시 한셀 2014 형식으로 Export 합니다.\n1280 (0x0500) 또는 nexacro.ExportTypes.CSV 설정 시 CSV 형식으로 Export 합니다.\n1296 (0x0510) 또는 nexacro.ExportTypes.TXT 설정 시 TXT 형식으로 Export 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exporttype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exporttype",
+      "type": "pre",
+      "content": "- exporttype 속성값을 설정하지 않거나 null 설정 시 256 (0x0100) 으로 적용됩니다.\n\n- 설정된 파일형식에 맞게 ExportItem 객체의 range 속성값을 설정하여야 합니다."
+    },
+    {
+      "id": "p_01_exportuitype",
+      "type": "heading2",
+      "content": "exportuitype",
+      "option": {
+        "alias": "ExcelExportObject_exportuitype"
+      }
+    },
+    {
+      "id": "p_02_exportuitype",
+      "type": "pre",
+      "content": "Export 시 진행상태를 표시하는 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportuitype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportuitype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportuitype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportuitype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportuitype",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9023890487948071",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumExportUI ::= 'none' | 'statusbar' | 'exportprogress'</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Export 시 진행상태를 표시하지 않습니다.</div></td></tr><tr><th>\"statusbar\"</th><td colspan=\"2\"><div>Export 가 실행 된 Frame 의 StatusBar 에 진행상태가 표시됩니다.</div></td></tr><tr><th>\"exportprogress\"</th><td colspan=\"2\"><div>Export 시 진행상태를 표시할 ProgressBar 가 화면 중앙에 출력됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportuitype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportuitype",
+      "type": "pre",
+      "content": "- exportuitype 속성값을 설정하지 않으면 \"none\" 으로 적용됩니다.\n\n- Export 시 ProgressBar 에 표시되는 내용은 exporteventtype 속성값에 따라 달라집니다."
+    },
+    {
+      "id": "p_01_exporturl",
+      "type": "heading2",
+      "content": "exporturl",
+      "option": {
+        "alias": "ExcelExportObject_exporturl"
+      }
+    },
+    {
+      "id": "p_02_exporturl",
+      "type": "pre",
+      "content": "ExcelExportObject 의 Export 를 수행할 서버의 URL을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exporturl",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exporturl",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exporturl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exporturl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_exporturl",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_exporturl",
+      "type": "command",
+      "content": "ExcelExportObject.exporturl[= strExporturl]"
+    },
+    {
+      "id": "p_09_exporturl",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5826100617727211",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strExporturl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exporturl = \"http://localhost:8080/nexacro-xeni/XExportImport\";</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>Export 를 수행할 서버의 URL 을 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>현재 Form 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exporturl",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exporturl",
+      "type": "pre",
+      "content": "- exporturl 속성값을 설정하지 않으면 Export 가 수행되지 않습니다."
+    },
+    {
+      "id": "p_13_exporturl",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_exporturl",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_01'>Grid를 엑셀 파일로 내보내기(익스포트)</a>"
+    },
+    {
+      "id": "p_01_exportwordwrap",
+      "type": "heading2",
+      "content": "exportwordwrap",
+      "option": {
+        "alias": "ExcelExportObject_exportwordwrap"
+      }
+    },
+    {
+      "id": "p_02_exportwordwrap",
+      "type": "pre",
+      "content": "Export 시 Cell 에 텍스트 줄바꿈 설정을 적용할지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_exportwordwrap",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_exportwordwrap",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_exportwordwrap",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_exportwordwrap",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_exportwordwrap",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5433594608749625",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bWordWrap ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.exportwordwrap = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Export 시 Cell 에 텍스트 줄바꿈을 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Export 시 Cell 에 텍스트 줄바꿈 설정을 하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_exportwordwrap",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_exportwordwrap",
+      "type": "pre",
+      "content": "- exportwordwrap 속성을 설정하지 않으면 true 로 적용됩니다."
+    },
+    {
+      "id": "p_01_filefilter",
+      "type": "heading2",
+      "content": "filefilter",
+      "option": {
+        "alias": "ExcelExportObject_filefilter"
+      }
+    },
+    {
+      "id": "p_02_filefilter",
+      "type": "pre",
+      "content": "Export 시 생성될 파일을 설정하는 파일선택창에 적용될 파일형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filefilter",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filefilter",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filefilter",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filefilter",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_filefilter",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8859814387115583",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExport00.filefilter = \"All(*.*)|*.*|Text Files(*.txt)|*.txt|\";\nthis.ExcelExport00.filefilter = \"Excel Files(*.xlsx)|*.xls;*.xlsx|Word Files(*.docx)|*.doc;*.docx|ALL Files(*.*)|*.*|\";</div></td></tr><tr><th>strFileFilter</th><td colspan=\"2\"><div>파일선택창에 적용될 파일형식을 \"설명|확장자\" 형식으로 설정합니다.\n\n\"|\" 문자를 구분자로 하여 설명과 실제 확장자를 쌍으로 여러개의 파일형식을 설정할 수 있습니다.\n한 개의 파일형식내에서 복수개의 확장자를 지정할 때는 \"*.xlsx;*.xls\" 와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filefilter",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filefilter",
+      "type": "pre",
+      "content": "- filefilter 속성값을 설정하지 않으면 exporttype 속성에 설정된 파일형식과 \"All\" 형식이 적용됩니다.\n\n- exportfilepath 속성을 설정하지 않아야 파일선택창이 표시됩니다.\n   exportfilepath 속성 설정 시 파일선택창이 표시되지 않고 속성값에 맞게 파일이 Export 됩니다.\n\n- 파일형식이 여러개 일 경우 파일선택창에 기본으로 표시될 파일형식을 filefilterindex 속성에 인덱스값으로 설정합니다.\n   인덱스는 0 부터 시작하며 첫번째 파일형식부터 차례로 설정됩니다."
+    },
+    {
+      "id": "p_01_filefilterindex",
+      "type": "heading2",
+      "content": "filefilterindex",
+      "option": {
+        "alias": "ExcelExportObject_filefilterindex"
+      }
+    },
+    {
+      "id": "p_02_filefilterindex",
+      "type": "pre",
+      "content": "파일선택창에 기본으로 표시될 파일형식을 인덱스값으로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filefilterindex",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filefilterindex",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filefilterindex",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filefilterindex",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_filefilterindex",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_filefilterindex",
+      "type": "command",
+      "content": "ExcelExportObject.filefilterindex[= nIndex]"
+    },
+    {
+      "id": "p_09_filefilterindex",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9628104189772257",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.filefilterindex = 1;</div></td></tr><tr><th>nIndex</th><td colspan=\"2\"><div>파일선택창에 설정된 파일형식 중 기본으로 표시될 파일형식의 인덱스를 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filefilterindex",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filefilterindex",
+      "type": "pre",
+      "content": "- filefilterindex 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- 파일선택창에 표시되는 파일형식은 filefilter 속성에 설정합니다.\n   파일형식의 인덱스는 0 부터 시작하며 첫번째 파일형식부터 차례로 인덱스가 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "ExcelExportObject_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "ExcelExportObject 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "ExcelExportObject.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.40047681975954263",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_quotechar",
+      "type": "heading2",
+      "content": "quotechar",
+      "option": {
+        "alias": "ExcelExportObject_quotechar"
+      }
+    },
+    {
+      "id": "p_02_quotechar",
+      "type": "pre",
+      "content": "Export 시 한정자로 사용할 값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_quotechar",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_quotechar",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_quotechar",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_quotechar",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_quotechar",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_quotechar",
+      "type": "command",
+      "content": "ExcelExportObject.quotechar[= strQuotechar]"
+    },
+    {
+      "id": "p_09_quotechar",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6626171119464914",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.quotechar = \"'\";</div></td></tr><tr><th>strQuotechar</th><td colspan=\"2\"><div>구분자로 분리되는 항목 중 분리하지 않을 부분을 처리하기 위한 텍스트 한정자를 설정합니다.\n\" (quotation mark), ' (apostrophe), \"none\", \"default\" 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_quotechar",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_quotechar",
+      "type": "pre",
+      "content": "- default 값은 \"default\" 입니다.\n  유효하지 않은 값을 입력할 경우에는 속성값은 \"default\" 값으로 처리합니다.\n  \"default\" 값으로 설정한 경우에는 XENI 텍스트 한정자 설정값에 따라 동작합니다."
+    },
+    {
+      "id": "p_01_separator",
+      "type": "heading2",
+      "content": "separator",
+      "option": {
+        "alias": "ExcelExportObject_separator"
+      }
+    },
+    {
+      "id": "p_02_separator",
+      "type": "pre",
+      "content": "Export 시 구분자로 사용할 값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_separator",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_separator",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_separator",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_separator",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_separator",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_separator",
+      "type": "command",
+      "content": "ExcelExportObject.separator[= strSeparator]"
+    },
+    {
+      "id": "p_09_separator",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7754721050859483",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.separator = \"0x1E\";</div></td></tr><tr><th>strSeparator</th><td colspan=\"2\"><div>컬럼을 구분을 문자를 설정합니다.\n10진수 또는 16진수로 설정할 수 있습니다.\n(16진수인 경우에는 0xXX, 0XXX의 형태로 입력해야 합니다).\n\n0x00(0) ~ 0x7F(127) 범위의 ASCII 문자를 하나만 설정할 수 있습니다.\n단, 아래 문자는 설정할 수 없습니다.\n\n0x0A(10) - LF(Line Feed)\n0x0D(13) - CR(Carriage Return)\n0x22(34) - \" (quotation mark)\n0x27(39) - ' (apostrophe)\n0x00(00) - NUL (Null char.)\n0x03(03) - ETX (End of Text)\n0x1D(29) - GS (Group Separator)\n0x28(40) - ( (left opening parenthesis)\n0x29(41) - ) (right closing parenthesis)\n0x3A(58) - : (colon)\n0x3D(61) - = (equal sign)</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_separator",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_separator",
+      "type": "pre",
+      "content": "- default 값은 \",\"로 처리합니다.\n  유효하지 않은 값을 입력할 경우에도 default 값으로 처리합니다.\n- exporttype 속성값이 nexacro.ExportTypes.TXT 인 경우에만 유효합니다."
+    },
+    {
+      "id": "p_01_transferrowcount",
+      "type": "heading2",
+      "content": "transferrowcount",
+      "option": {
+        "alias": "ExcelExportObject_transferrowcount"
+      }
+    },
+    {
+      "id": "p_02_transferrowcount",
+      "type": "pre",
+      "content": "Export 시 서버에 분할하여 전송할 Row 의 갯수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_transferrowcount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_transferrowcount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_transferrowcount",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_transferrowcount",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_transferrowcount",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.16834722154946113",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelExportObject00.transferrowcount = 1000;</div></td></tr><tr><th>nCount</th><td colspan=\"2\"><div>전체 데이터에서 분할하여 전송할 Row 의 갯수를 숫자로 설정합니다.\n\n설정한 Row 갯수만큼 분할하여 데이터를 서버로 전송합니다.\n0 또는 전체 Row 수보다 크게 설정할 경우 모든 데이터를 한번에 전송합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_transferrowcount",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_transferrowcount",
+      "type": "pre",
+      "content": "- transferrowcount 속성값을 설정하지 않으면 500 으로 적용됩니다.\n\n- 모든 데이터를 한번에 전송하면 일시적인 화면멈춤 현상이나 진행상태 ProgressBar 의 불규칙한 갱신 현상이 발생할 수 있습니다.\n\n- transferrowcount 속성값은 동일해도 Grid 의 Column 갯수에 따라 한번에 전송하는 데이터의 크기가 달라집니다.\n   따라서, 한번에 전송할 데이터의 크기를 고려하여 transferrowcount 속성을 설정하여야 합니다.\n\n- 동일한 데이터일 때 transferrowcount 속성값에 따라 Export 시 성능차이가 발생할 수 있습니다.\n\n- transferrowcount 속성을 설정하면 비동기 방식으로 분할 전송이 진행됩니다.\n   분할 전송이 진행되는 동안 Grid 속성이나 Dataset 의 데이터 변경 시 Export 데이터에 반영될 수 있으므로 주의하여야 합니다.\n   예를 들어 exportData(), exportDataEx() 메소드 다음에 Grid 의 formatid 속성 변경 시 분할된 데이터의 포맷이 변경될 수 있습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "ExcelExportObject_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "ExcelExportObject 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "ExcelExportObject.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8897349068363702",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelExportObject 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelExportObject00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.45684672260356884",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- ExcelExportObject 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4583071463399351",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.addEventHandler( \"onmove\", this.ExcelExportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8577769189596348",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_addEventHandler",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addEventHandler",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_01'>Grid를 엑셀 파일로 내보내기(익스포트)</a>"
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "ExcelExportObject_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "함수를 검색하여 ExcelExportObject 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelExportObject.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.17700814427552525",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.addEventHandlerLookup( \"onmove\", \"ExcelExportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.18727683963669295",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01addExportItem",
+      "type": "heading2",
+      "content": "addExportItem",
+      "option": {
+        "alias": "ExcelExportObject_addExportItem"
+      }
+    },
+    {
+      "id": "m_02_addExportItem",
+      "type": "pre",
+      "content": "Export 할 Item을 ExcelExportObject 에 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addExportItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addExportItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addExportItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addExportItem",
+      "type": "command",
+      "content": "ExcelExportObject.addExportItem( constExportItemType, objExportItem )\nExcelExportObject.addExportItem( constExportItemType, varExportSource, strRange [,strExportHead [,strExportSelect [,strExportMerge [,strExportValue [,strExportImage [,strExceptStyle [,strExportSize [,arrCellIndex, [strBandId]]]]]]]]])"
+    },
+    {
+      "id": "m_07_addExportItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.23632710865318818",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType</td><td>Constant</td><td colspan=\"2\"><div>Export 대상이 되는 컴포넌트의 종류를 상수값으로 설정합니다.\n\n현재 Grid 만 Export 할 수 있으며 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다.</div></td></tr><tr><td>objExportItem</td><td>Object</td><td colspan=\"2\"><div>Export 정보를 설정한 ExportItem 오브젝트를 설정합니다.</div></td></tr><tr><td>varExportSource</td><td>Object</td><td colspan=\"2\"><div>Export 대상이 되는 컴포넌트를 오브젝트로 설정합니다.\n\n현재 Grid 만 Export 할 수 있으며 \"this.Grid00\" 형태로 설정하여야 합니다.</div></td></tr><tr><td>strRange</td><td>String</td><td colspan=\"2\"><div>\"시트명!셀영역\" 또는 \"셀영역\" 형태로 오브젝트 내용이 Export 되는 위치를 지정합니다.\n\n* 2개 이상의 Item을 추가하는 경우에는 각 데이터의 Row 위치가 겹치지 않게 파라미터를 지정해야 합니다.\n같은 시트 내에서 중복되는 Row를 strRange 파라미터로 지정할 수는 없습니다.\n예를 들어 아래와 같은 코드는 첫 번째 코드에서 두 번째 Row(A2)를 Export 위치로 지정하면 다음 코드에서 컬럼이 다르더라도 두 번째 Row(P2)를 지정할 수는 없습니다.\naddExportItem(nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A2\");\naddExportItem(nexacro.ExportItemTypes.GRID, this.Grid01, \"Sheet1!P2\");\n\n2개 이상의 Item을 출력하는 경우 세로 방향으로 Row가 겹치지 않게 출력할 수는 있지만 가로 방향으로 Item을 배치해 출력할 수는 없습니다.</div></td></tr><tr><td>strExportHead</td><td>String</td><td colspan=\"2\"><div>Grid 의 Head, Summary 영역에 대한 Export 방식을 설정합니다.\n\n\"allband\" 설정 시 Head, Summary 영역을 모두 Export 합니다.\n\"nohead\" 설정 시 Head 영역은 Export 하지 않고, Summary 영역만 Export 합니다.\n\"nosumm\" 설정 시 Head 영역만 Export 하고, Summary 영역은 Export 하지 않습니다.\n\"nohead,nosumm\" 설정 시 Head, Summary 영역을 모두 Export 하지 않습니다.\n\n값 생략 시 strExportSelect 값이 \"allrecord\" 이면 \"allband\" 로 적용되고, \"selectrecord\" 이면 \"nohead,nosumm\" 으로 적용됩니다.\n\n* Grid 의 selecttype 속성값이 \"area\", 'multiarea\" 이면 설정값과 관계없이 항상 \"nohead,nosumm\" 으로 적용됩니다.</div></td></tr><tr><td>strExportSelect</td><td>String</td><td colspan=\"2\"><div>Grid 에서 선택영역에 대한 Export 방식을 설정합니다.\n\n\"allrecord\" 설정 시 선택영역에 관계없이 모든 Row 를 Export 합니다.\n\"selectrecord\" 설정 시 선택된 Row, Cell, Area 만 Export 합니다.\n\n값 생략 시 \"allrecord\" 로 적용됩니다.</div></td></tr><tr><td>strExportMerge</td><td>String</td><td colspan=\"2\"><div>Grid 에서 포맷과 관계없이 논리적으로 병합된 Cell 의 Export 방식을 설정합니다.\nstrExportSelect 값을 \"selectrecord\" 로 설정 시 항상 \"nosuppress\" 로 적용됩니다.\n\n\"suppress\" 설정 시 병합된 결과대로 1 개 Cell 만 값을 Export 합니다.\n나머지 Cell 은 병합되지 않으며 모두 공백으로 처리됩니다.\n\n\"nosuppress\" 설정 시 병합된 결과를 무시하고 각 Cell 에 모두 값을 Export 합니다.\n\n\"merge\" 설정 시 병합된 결과대로 1 개 Cell 만 값을 Export 합니다.\n나머지 Cell 은 병합되어 처리됩니다.\n\n값 생략 시 \"suppress\" 로 적용됩니다.\n\n* 논리적인 병합이란 suppress 속성 또는 mergeCell() 메소드에 의해 Grid 에 표시된 데이터가 병합된 것을 의미합니다.</div></td></tr><tr><td>strExportValue</td><td>String</td><td colspan=\"2\"><div>엑셀 파일로 Export 시킬 경우 Export 되는 내용과 형식을 설정합니다.\n\n\"allstyle\" 설정 시 선택된 영역이 있을 경우 선택에 의해 변경된 속성은 Export 되지 않습니다.\n\"selectstyle\" 설정 시 선택된 영역이 있을 경우 선택에 의해 변경된 속성도 Export 됩니다.\n\n값 설정 시 value, format, calendardateformat, font, color, background(color), -nexa-text-aign, -nexa-vertical-align, -nexa-border(style,color) 속성이 Export 됩니다.\n\n값 생략 시 \"allstyle\" 로 적용됩니다.</div></td></tr><tr><td>strExportImage</td><td>String</td><td colspan=\"2\"><div>Grid 의 Cell 에 설정된 이미지의 Export 방식을 설정합니다.\n\n\"none\" 설정 시 설정된 이미지 정보를 무시하고 공백으로 Export 합니다.\n\"url\" 설정 시 설정된 이미지의 위치정보를 URL 형식의 문자열로 Export 합니다.\n\"image\" 설정 시, 설정된 이미지의 위치가 \"http://\" 또는 \"https://\"로 시작하는 인터넷 URL 경로이거나 \"data\"로 시작하는 Base 64 인코딩 데이터인 경우만 이미지를 그대로 Export 합니다.\n\n값 생략 시 \"none\" 으로 적용됩니다.</div></td></tr><tr><td>strExceptStyle</td><td>String</td><td colspan=\"2\"><div>Grid 의 Cell 에 적용된 CSS 관련 속성 중 Export 시 제외할 속성을 설정합니다.\n\n\"none\" 설정 시 Export 에서 제외되는 속성이 없습니다.\n\"align\" 설정 시 Align 관련 -nexa-text-align, -nexa-vertical-align 속성값을 Export 에서 제외됩니다.\n\"background\" 설정 시 background 의 color 관련 속성값을 Export 에서 제외됩니다.\n\"color\" 설정 시 color 속성값을 Export 에서 제외됩니다.\n\"font\" 설정 시 font 속성값을 Export 에서 제외됩니다.\n\"border\" 설정 시 -nexa-border 속성값을 Export 에서 제외됩니다.\n\n각 설정값을 콤마(\",\")로 구분하여 중복 설정할 수 있습니다.</div></td></tr><tr><td>strExportSize</td><td>String</td><td colspan=\"2\"><div>Grid Cell 의 Column size(width), Row size(height) 값을 엑셀에 적용할지 설정합니다.\n\n\"width\" 설정 시 너비를 같게 Export 합니다.\n\"height\" 설정 시 높이를 같게 Export 합니다.\n\"both\" 설정 시 너비와 높이를 같게 Export 합니다.\n\n값 생략 시 \"width\"로 적용됩니다.\n\n\"height\" 또는 \"both\"로 설정하더라도 autofittype, autosizingtype, extendsizetype 등 데이터에 따라 Grid Cell 높이에 영향을 미치는 속성을 설정했다면 화면에 표시되는 Grid Cell 높이와 Export 처리된 파일 내 Cell 높이를 같게 처리할 수 없습니다.</div></td></tr><tr><td>arrCellIndex</td><td>Array</td><td colspan=\"2\"><div>Export 시 바인드된 Column 값을 적용할 Cell 의 인덱스를 배열로 설정합니다.\n\n인덱스가 설정된 Cell 은 표시된 텍스트값이 아닌 바인드된 Column 값을 Export 합니다.\n\n인덱스가 설정되지 않은 Cell 은 사용 Method 에 따라 결과가 달라질 수 있습니다.\n* exportData() : nOrgValue 파라미터값에 따라 Export 값이 결정됩니다.\n* exportDataEx() : Cell 에 표시된 텍스트값이 Export 됩니다.</div></td></tr><tr><td>strBandId</td><td>String</td><td colspan=\"2\"><div>arrCellIndex로 설정한 값을 적용할 Band를 설정하는 속성입니다.\n\n\"head\", \"body\", \"summ\" 중 하나의 값을 설정할 수 있습니다.\n\n값 생략 시 모든 Band를 대상으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nIndex;\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, ExportItem00 );\n\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\" );\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"nohead\");\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"allband\", \"selectrecord\");\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"allband\", \"allrecord\", \"nosuppress\");\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"allband\", \"allrecord\", \"suppress\", \"allstyle\", \"none\", \"color\", \"both\");\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"allband\", \"allrecord\", \"suppress\", \"allstyle\", \"none\", \"color\", \"both\", [1, 5] );\nnIndex = this.ExcelExportObject00.addExportItem( nexacro.ExportItemTypes.GRID, this.Grid00, \"Sheet1!A1\", \"allband\", \"allrecord\", \"suppress\", \"allstyle\", \"none\", \"color\", \"both\", [1, 5], \"head\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addExportItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.77085123692505",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>ExcelExportObject 에 추가된 Item 의 인덱스를 반환합니다.\n\n추가에 실패하였을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addExportItem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addExportItem",
+      "type": "pre",
+      "content": "- Export 정보를 설정한 ExportItem 오브젝트 또는 Export 정보를 파라미터로 전달하여 Item 을 추가할 수 있습니다.\n- arrCellIndex 파라미터 설정 시 Export 값의 일관성을 위하여 exportDataEx() 메서드를 사용하는 것을 권장합니다.\n\n* 스타일 처리 시 주의 사항\n생성할 파일 특성에 따라 일부 스타일 속성이 화면과 다르게 처리될 수 있습니다.\n\n- -nexa-border 속성은 처리되지 않습니다.\n- background 속성에 Gradation 이 지정된 경우 Gradation의 중간값(50% 위치값) 색상으로 처리됩니다.\n- 색상값을 RGBA, HSLA 형태로 설정한 경우 Alpha 값은 무시하고 RGB, HSL 형태로 처리됩니다. 단, Alpha 값이 0인 경우에는 투명색(transparent)으로 처리됩니다.\n- font-family 스타일 속성이 2개 이상이면 마지막에 정의된 font로 처리됩니다.\n  font-family는 CSS 속성이며 HTML에서만 적용할 수 있습니다. \n  Excel의 경우 셀에 하나의 폰트만 적용할 수 있어 font-family 스타일을 그대로 적용할 수는 없습니다.\n  (HTML은 웹브라우저에서 사용자 PC에 설치된 폰트 정보를 확인하고 font-family 속성을 적용합니다.\n  하지만, ExcelExportObject 오브젝트는 서버에서 Excel 파일을 생성하는 형식이기 때문에 사용자 PC에 설치된 폰트 정보를 알 수는 없습니다).\n  때문에 넥사크로 애플리케이션에 적용된 font-family 정보를 엑셀로 전환 시 마지막에 정의된 폰트 정보만 적용하고 있습니다."
+    },
+    {
+      "id": "m_11_addExportItem",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_addExportItem",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_01'>Grid를 엑셀 파일로 내보내기(익스포트)</a>\n* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_04'>여러 Grid 데이터를 엑셀 파일로 내보내기</a>"
+    },
+    {
+      "id": "m_01clear",
+      "type": "heading2",
+      "content": "clear",
+      "option": {
+        "alias": "ExcelExportObject_clear"
+      }
+    },
+    {
+      "id": "m_02_clear",
+      "type": "pre",
+      "content": "ExcelExportObject 에 추가된 모든 Item 을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clear",
+      "type": "command",
+      "content": "ExcelExportObject.clear()"
+    },
+    {
+      "id": "m_07_clear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7446743375988358",
+      "type": "command",
+      "content": "var nCnt = this.ExcelExportObject00.clear();"
+    },
+    {
+      "id": "m_08_clear",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6966403023953349",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>삭제된 Item 의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5275534247182164",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.ExcelExportObject00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07148113456925231",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01clearExportItems",
+      "type": "heading2",
+      "content": "clearExportItems",
+      "option": {
+        "alias": "ExcelExportObject_clearExportItems"
+      }
+    },
+    {
+      "id": "m_02_clearExportItems",
+      "type": "pre",
+      "content": "ExcelExportObject 에서 지정한 타입의 Item 만 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearExportItems",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearExportItems",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearExportItems",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearExportItems",
+      "type": "command",
+      "content": "ExcelExportObject.clearExportItems(constExportItemType)"
+    },
+    {
+      "id": "m_07_clearExportItems",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9643218054350258",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>삭제대상이 되는 Item 의 타입을 상수값으로 설정합니다.\n\n현재 Grid 만 Item 으로 추가 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.ExcelExportObject00.clearExportItems( nexacro.ExportItemTypes.GRID );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearExportItems",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.973074294019169",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>삭제된 Item의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_clearExportItems",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_clearExportItems",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_04'>여러 Grid 데이터를 엑셀 파일로 내보내기</a>"
+    },
+    {
+      "id": "m_01count",
+      "type": "heading2",
+      "content": "count",
+      "option": {
+        "alias": "ExcelExportObject_count"
+      }
+    },
+    {
+      "id": "m_02_count",
+      "type": "pre",
+      "content": "ExcelExportObject 에 등록된 Item 의 갯수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_count",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_count",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_count",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_count",
+      "type": "command",
+      "content": "ExcelExportObject.count()"
+    },
+    {
+      "id": "m_07_count",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.12108837283071916",
+      "type": "command",
+      "content": "var nCnt = this.ExcelExportObject00.count();"
+    },
+    {
+      "id": "m_08_count",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9140646297769986",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>모든 item의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01countExportItems",
+      "type": "heading2",
+      "content": "countExportItems",
+      "option": {
+        "alias": "ExcelExportObject_countExportItems"
+      }
+    },
+    {
+      "id": "m_02_countExportItems",
+      "type": "pre",
+      "content": "ExcelExportObject 에서 지정한 타입의 Item 갯수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_countExportItems",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_countExportItems",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_countExportItems",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_countExportItems",
+      "type": "command",
+      "content": "ExcelExportObject.countExportItems(constExportItemType)"
+    },
+    {
+      "id": "m_07_countExportItems",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6589534702063845",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>갯수를 확인하려는 Item 의 타입을 상수값으로 설정합니다.\n\n현재 Grid 만 Item 으로 추가 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.ExcelExportObject00.countExportItems( nexacro.ExportItemTypes.GRID );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_countExportItems",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3434771975064227",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>지정한 타입의 item 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01delExportItem",
+      "type": "heading2",
+      "content": "delExportItem",
+      "option": {
+        "alias": "ExcelExportObject_delExportItem"
+      }
+    },
+    {
+      "id": "m_02_delExportItem",
+      "type": "pre",
+      "content": "ExcelExportObject 에서 지정한 타입의 특정 Item 을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_delExportItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_delExportItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_delExportItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_delExportItem",
+      "type": "command",
+      "content": "ExcelExportObject.delExportItem(constExportItemType,nItemIndex)"
+    },
+    {
+      "id": "m_07_delExportItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8950936588132858",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>삭제대상이 되는 Item 의 타입을 상수값으로 설정합니다.\n\n현재 Grid 만 Item 으로 추가 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다.</div></td></tr><tr><td>nItemIndex</td><td>Number</td><td colspan=\"2\"><div>삭제하려는 Item 의 인덱스를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = this.ExcelExportObject00.delExportItem( nexacro.ExportItemTypes.GRID, 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_delExportItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8134837928548713",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Item 삭제에 성공하면 \"true\" 를 반환합니다.\n파라미터가 유효하지 않거나 Item 삭제에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_delExportItem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_delExportItem",
+      "type": "pre",
+      "content": "- Item 의 인덱스값은 addExportItem() 메소드의 반환값을 이용합니다."
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "ExcelExportObject_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 ExcelExportObject 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "ExcelExportObject.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.37595792359822766",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>ExcelExportObject 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nExcelExportObject 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 ExcelExportObject 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01exportData",
+      "type": "heading2",
+      "content": "exportData",
+      "option": {
+        "alias": "ExcelExportObject_exportData"
+      }
+    },
+    {
+      "id": "m_02_exportData",
+      "type": "pre",
+      "content": "ExcelExportObject 에 설정된 Item 을 모두 Export 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_exportData",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_exportData",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_exportData",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_exportData",
+      "type": "command",
+      "content": "ExcelExportObject.exportData( [strParam, strParamDS, nOrgValue, bFileDown] ) ;"
+    },
+    {
+      "id": "m_07_exportData",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.42323867912983026",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strParam</td><td>String</td><td colspan=\"2\"><div>서버 통신시에 파라미터로 전달 될 값을 설정합니다.\n\nDB key 와 같은 값을 전달할 때 사용하는 확장기능입니다.</div></td></tr><tr><td>strParamDS</td><td>String</td><td colspan=\"2\"><div>서버에 전달될 DataSet 을 \"Param_DataSet=export_DataSet\" 형태로 설정합니다.\n\n개발환경에 따라 서버에 추가적인 기능구현을 위해 DataSet 을 전달할 때 사용하는 확장기능입니다.</div></td></tr><tr><td>nOrgValue</td><td>Number</td><td colspan=\"2\"><div>Export 시 Cell 값으로 처리될 대상을 설정합니다.\n\n0 또는 false 설정 시 Cell 에 표시되는 텍스트값을 Export 합니다.\n1 또는 true 설정 시 Cell 에 바인드된 Column 값을 Export 합니다.\n2 설정 시 Cell 의 displaytype 속성값이 \"date\" 이면 0 으로 적용되고, \"date\" 가 아니면 1 로 적용됩니다.\n\n값 생략 시 0 으로 적용됩니다.\n\n* valuetypecellindex 속성에 설정된 Cell 은 nOrgValue 파라미터값에 상관없이 바인드 된 Column 값을 Export 합니다.\n   valuetypecellindex 속성에 설정되지 않은 Cell 은 nOrgValue 파라미터값에 맞게 Export 됩니다.\n\n* Export 결과의 일관성을 위하여 valuetypecellindex 속성과 exportDataEx() 메소드를 사용하는 것을 권장합니다.</div></td></tr><tr><td>bFileDown</td><td>Boolean</td><td colspan=\"2\"><div>Export 가 완료된 후 생성된 파일의 다운로드 여부를 설정합니다.\n\ntrue 설정 시 파일을 자동으로 다운로드 받습니다.\nfalse 설정 시 파일을 자동으로 다운로드 받지 않습니다.\n\n값 생략 시 true 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCount = this.ExcelExportObject00.exportData();</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_exportData",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6973263070628108",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Export 요청에 성공한 Item 의 갯수를 반환합니다.\n\nExport 시킬 Item 이 없는 경우 0 을 반환합니다.\n\n파라미터가 유효하지 않은 값일 경우 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_exportData",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_exportData",
+      "type": "pre",
+      "content": "- exportmessagealert 속성이 설정되어 있으면 경고창이 닫힌 후 Export 가 시작됩니다. \n\n- Export 중에는 exporteventtype 속성에 설정된 값에 맞게 이벤트가 발생합니다.\n\n- bFileDown 파라미터를 true 로 설정 시 환경에 따라 다운로드를 위한 팝업창이 표시될 수 있습니다.\n\n- Export 중 에러가 발생한 경우 onerror 이벤트가 발생됩니다.\n\n- Cell 의 displaytype 속성값이 \"decoratetext\" 일 때 설정된 Tag 는 HTML 형식이므로 Export 시 Decorate 효과가 적용되지 않습니다.\n   &gt; valuetypecellindex 속성에 설정된 Cell 은 Tag 가 텍스트로 Export 됩니다.\n   &gt; valuetypecellindex 속성에 설정되지 않은 Cell 은 nOrgValue 값에 따라 Tag 가 텍스트로 Export 되거나 Tag 가 제거된 텍스트가 Export 됩니다.\n\n- GridCellControl 에 설정한 CSS 관련 속성값만 Export 시 적용됩니다.\n\n- transferrowcount 속성에 의한 분할 전송은 비동기로 진행됩니다.\n   분할 전송이 진행되는 동안 Grid 속성이나 Dataset 의 데이터 변경 시 Export 데이터에 반영될 수 있으므로 주의하여야 합니다.\n   예를 들어 exportData() 메소드 다음에 Grid 의 formatid 속성 변경 시 분할된 데이터의 포맷이 변경될 수 있습니다.\n\n\n◆ web runtime environment 제약\n\n- 웹브라우저에 팝업차단이 설정되어 있을 경우 메소드가 정상적으로 수행되지 않습니다."
+    },
+    {
+      "id": "m_11_exportData",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_exportData",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_01'>Grid를 엑셀 파일로 내보내기(익스포트)</a>"
+    },
+    {
+      "id": "m_01exportDataEx",
+      "type": "heading2",
+      "content": "exportDataEx",
+      "option": {
+        "alias": "ExcelExportObject_exportDataEx"
+      }
+    },
+    {
+      "id": "m_02_exportDataEx",
+      "type": "pre",
+      "content": "Cell 에 표시된 값을 기준으로 ExcelExportObject 에 설정된 Item 을 모두 Export 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_exportDataEx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_exportDataEx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_exportDataEx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_exportDataEx",
+      "type": "command",
+      "content": "ExcelExportObject.exportDataEx( [strParam, strParamDS, bFileDown] ) ;"
+    },
+    {
+      "id": "m_07_exportDataEx",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.704598200855696",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strParam</td><td>String</td><td colspan=\"2\"><div>서버 통신시에 파라미터로 전달 될 값을 설정합니다.\n\nDB key 와 같은 값을 전달할 때 사용하는 확장기능입니다.</div></td></tr><tr><td>strParamDS</td><td>String</td><td colspan=\"2\"><div>서버에 전달될 DataSet 을 \"Param_DataSet=export_DataSet\" 형태로 설정합니다.\n\n개발환경에 따라 서버에 추가적인 기능구현을 위해 DataSet 을 전달할 때 사용하는 확장기능입니다.</div></td></tr><tr><td>bFileDown</td><td>Boolean</td><td colspan=\"2\"><div>Export 가 완료된 후 생성된 파일의 자동 다운로드 여부를 설정합니다.\n\ntrue 설정 시 파일을 자동으로 다운로드 받습니다.\ntrue 설정 시 환경에 따라 다운로드를 위한 팝업창이 표시될 수 있습니다.\n\nfalse 설정 시 파일을 자동으로 다운로드 받지 않습니다.\n\n값 생략 시 true 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCount = this.ExcelExportObject00.exportDataEx();\nvar nCount = this.ExcelExportObject00.exportDataEx( \"\", \"\", false );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_exportDataEx",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.20374047692296626",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Export 요청에 성공한 Item 의 갯수를 반환합니다.\n\nExport 시킬 Item 이 없는 경우 0 을 반환합니다.\n\n파라미터가 유효하지 않은 값일 경우 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_exportDataEx",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_exportDataEx",
+      "type": "pre",
+      "content": "- exportDataEx() 메소드는 Cell 에 표시된 텍스트값을 Export 합니다.\n   Cell 에 바인드된 Column 값을 Export 하려면 valuetypecellindex 속성에 해당 Cell 의 인덱스를 설정하여야 합니다.\n\n- valuetypecellindex 속성에 설정된 Cell 은 바인드된 Column 값이 Export 됩니다.\n   valuetypecellindex 속성에 설정되지 않은 Cell 은 표시된 텍스트값이 Export 됩니다.\n\n- Cell 의 displaytype 속성값이 \"decoratetext\" 일 때 설정된 Tag 는 HTML 형식이므로 Export 시 Decorate 효과가 적용되지 않습니다.\n   &gt; valuetypecellindex 속성에 설정된 Cell 은 Tag 가 텍스트로 Export 됩니다.\n   &gt; valuetypecellindex 속성에 설정되지 않은 Cell 은 Tag 가 제거된 텍스트가 Export 됩니다.\n\n- exportmessagealert 속성이 설정되어 있으면 경고창이 닫힌 후 Export 가 시작됩니다. \n\n- Export 중에는 exporteventtype 속성에 설정된 값에 맞게 이벤트가 발생합니다.\n\n- Export 중 에러가 발생한 경우 onerror 이벤트가 발생됩니다.\n\n- GridCellControl 에 설정한 CSS 관련 속성값만 Export 시 적용됩니다.\n\n- transferrowcount 속성에 의한 분할 전송은 비동기로 진행됩니다.\n   분할 전송이 진행되는 동안 Grid 속성이나 Dataset 의 데이터 변경 시 Export 데이터에 반영될 수 있으므로 주의하여야 합니다.\n   예를 들어 exportDataEx() 메소드 다음에 Grid 의 formatid 속성 변경 시 분할된 데이터의 포맷이 변경될 수 있습니다.\n\n\n◆ web runtime environment 제약\n\n- 웹브라우저에 팝업차단이 설정되어 있을 경우 메소드가 정상적으로 수행되지 않습니다."
+    },
+    {
+      "id": "m_01exportItems",
+      "type": "heading2",
+      "content": "exportItems",
+      "option": {
+        "alias": "ExcelExportObject_exportItems"
+      }
+    },
+    {
+      "id": "m_02_exportItems",
+      "type": "pre",
+      "content": "ExcelExportObject 에서 지정한 타입의 Item 만 Export 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_exportItems",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_exportItems",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_exportItems",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_exportItems",
+      "type": "command",
+      "content": "ExcelExportObject.exportItems(constExportItemType)"
+    },
+    {
+      "id": "m_07_exportItems",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9702187314393994",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>Export 하려는 Item 의 타입을 상수값으로 설정합니다.\n\n현재 Grid 만 Item 으로 추가 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCount = this.ExcelExportObject00.exportItems( nexacro.ExportItemTypes.GRID );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_exportItems",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5246935326380994",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Export 요청에 성공한 Item 의 갯수를 반환합니다.\nExport 시킬 Item 이 없는 경우 \"0\" 을 반환합니다.\n파라미터가 유효하지 않은 값일 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_exportItems",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_exportItems",
+      "type": "pre",
+      "content": "- exportmessagealert 속성이 설정되어 있으면 경고창이 닫힌 후 Export가 시작됩니다. \n\n- Export 중에는 exporteventtype 속성에 설정된 값에 맞게 이벤트가 발생합니다.\n\n- Export 중 에러가 발생한 경우 onerror 이벤트가 발생됩니다.\n\n- 웹브라우저에 팝업차단이 설정되어 있을 경우 메소드가 정상적으로 수행되지 않습니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5204177400555483",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.ExcelExportObject00.findEventHandler( \"onmove\", this.ExcelExportObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2788979710647078",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수의 인덱스는 0 부터 시작합니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9276177981725295",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = ExcelExportObject00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.49255231708285474",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getExportItem",
+      "type": "heading2",
+      "content": "getExportItem",
+      "option": {
+        "alias": "ExcelExportObject_getExportItem"
+      }
+    },
+    {
+      "id": "m_02_getExportItem",
+      "type": "pre",
+      "content": "ExcelExportObject 에서 지정한 타입의 특정 Item 을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getExportItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getExportItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getExportItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getExportItem",
+      "type": "command",
+      "content": "ExcelExportObject.getExportItem(constExportItemType,nItemIndex)"
+    },
+    {
+      "id": "m_07_getExportItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7382222007745708",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>반환 받으려는 Item 의 타입을 상수값으로 설정합니다.\n\n현재 Grid 만 Item 으로 추가 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다.</div></td></tr><tr><td>nItemIndex</td><td>Number</td><td colspan=\"2\"><div>반환 받으려는 Item 의 인덱스를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objExportItem = this.ExcelExportObject00.getExportItem( nexacro.ExportItemTypes.GRID, 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getExportItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2304276312848369",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스에 해당하는 Item 을 ExportItem 오브젝트로 반환합니다.\n지정된 인덱스에 해당하는 Item 이 없을 경우 \"null\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getExportItem",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getExportItem",
+      "type": "pre",
+      "content": "- Item 의 인덱스값은 addExportItem() 메소드의 반환값을 이용합니다."
+    },
+    {
+      "id": "m_11_getExportItem",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getExportItem",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_03'>Grid의 이미지를 엑셀 파일로 내보내기</a>"
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8806552295517599",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.ExcelExportObject00.insertEventHandler( \"onmove\", 0, this.ExcelExportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9059089495558063",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "ExcelExportObject_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "ExcelExportObject 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "ExcelExportObject.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24880614407973822",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelExportObject 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelExportObject00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5875021586055074",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- ExcelExportObject 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- ExcelExportObject 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.043537922759968484",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.removeEventHandler( \"onmove\", this.ExcelExportObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4349169725375365",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "ExcelExportObject_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelExportObject.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7328263536499869",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.removeEventHandlerLookup( \"onmove\", \"ExcelExportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8055471970609928",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "ExcelExportObject_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "ExcelExportObject.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24403561667531726",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.setEventHandler( \"onmove\", this.ExcelExportObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.28120710178713826",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "ExcelExportObject_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "ExcelExportObject 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "ExcelExportObject.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6255371493380484",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelExportObject00_onmove = function( obj:nexacro.ExcelExportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelExportObject00.setEventHandlerLookup( \"onmove\", \"ExcelExportObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7136599073517595",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setExportItem",
+      "type": "heading2",
+      "content": "setExportItem",
+      "option": {
+        "alias": "ExcelExportObject_setExportItem"
+      }
+    },
+    {
+      "id": "m_02_setExportItem",
+      "type": "pre",
+      "content": "Export 할 Item을 ExcelExportObject 의 특정 위치에 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setExportItem",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setExportItem",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setExportItem",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setExportItem",
+      "type": "command",
+      "content": "ExcelExportObject.setExportItem( constExportItemType,nItemIndex,objExportItem )"
+    },
+    {
+      "id": "m_07_setExportItem",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.014846425611379055",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>constExportItemType </td><td>Constant</td><td colspan=\"2\"><div>Export 대상이 되는 컴포넌트의 종류를 상수값으로 설정합니다.\n\n현재 Grid 만 Export 할 수 있으므로 \"nexacro.ExportItemTypes.GRID\" 로 설정하여야 합니다</div></td></tr><tr><td>nItemIndex</td><td>Number</td><td colspan=\"2\"><div>추가하려는 Item 이 위치할 인덱스를 설정합니다.</div></td></tr><tr><td>objExportItem</td><td>Object</td><td colspan=\"2\"><div>Export 정보를 설정한 ExportItem 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = this.ExcelExportObject00.setExportItem( nexacro.ExportItemTypes.GRID, 0, this.ExportItem00 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setExportItem",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9520489927003484",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Item 추가에 성공하면 \"true\" 를 반환합니다.\n파라미터가 유효하지 않거나 Item 추가에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_11_setExportItem",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_setExportItem",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_excelexportimport_03'>Grid의 이미지를 엑셀 파일로 내보내기</a>"
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "ExcelExportObject_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "Export 도중 오류가 생겼을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.ExcelExportObject,e:nexacro.ExcelExportErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8672517456007275",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelExportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExcelExportErrorEventInfo\" string=\"ExcelExportErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- onerror 이벤트가 발생하면 Export 기능이 종료됩니다."
+    },
+    {
+      "id": "e_01onprogress",
+      "type": "heading2",
+      "content": "onprogress",
+      "option": {
+        "alias": "ExcelExportObject_onprogress"
+      }
+    },
+    {
+      "id": "e_02_onprogress",
+      "type": "pre",
+      "content": "Export 도중 진행상태에 따라 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onprogress",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onprogress",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onprogress",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onprogress",
+      "type": "command",
+      "content": "onprogress(obj:nexacro.ExcelExportObject,e:nexacro.ExcelExportProgressEventInfo);",
+      "option": "onprogress"
+    },
+    {
+      "id": "e_07_onprogress",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5538792219065899",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelExportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExcelExportProgressEventInfo\" string=\"ExcelExportProgressEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onprogress",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onprogress",
+      "type": "pre",
+      "content": "- exporteventtype 속성값이 \"none\" 이면 onprogress 이벤트는 발생하지 않습니다.\n  exporteventtype 속성값이 \"item\" 이면 Item 의 Export 가 완료되었을 때 onprogress 이벤트가 발생합니다.\n  exporteventtype 속성값이 \"totalrecord\" 이면 각 Record 마다 Export 될 때 onprogress 이벤트가 발생합니다.\n  exporteventtype 속성값이 \"itemrecord\" 이면 Item 의 Export 가 완료되었을 때와 Item 의 각 Record 마다 Export 될 때 onprogress 이벤트가 발생합니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "ExcelExportObject_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "모든 Export 가 완료되었을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.ExcelExportObject,e:nexacro.ExcelExportEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5812676034430563",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelExportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExcelExportEventInfo\" string=\"ExcelExportEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "- 모든 Export 가 성공적으로 완료되었을때 발생합니다.\n\n- exporteventtype 속성값과 관계없이 이벤트가 발생합니다."
+    }
+  ]
+}
