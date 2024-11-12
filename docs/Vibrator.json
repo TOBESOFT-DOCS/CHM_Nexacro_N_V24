@@ -1,0 +1,823 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기의 진동기능을 제공합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "Vibrator_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "Vibrator의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "Vibrator.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5802463651409282",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Vibrator를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Vibrator_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Vibrator 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Vibrator.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.22310371929220185",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "Vibrator_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "Vibrator 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "Vibrator.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7316110054687002",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Vibrator00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- Vibrator 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_patterns",
+      "type": "heading2",
+      "content": "patterns",
+      "option": {
+        "alias": "Vibrator_patterns"
+      }
+    },
+    {
+      "id": "p_02_patterns",
+      "type": "pre",
+      "content": "모바일 기기에서 진동 패턴을 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_patterns",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_patterns",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_patterns",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_patterns",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_patterns",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_patterns",
+      "type": "command",
+      "content": ""
+    },
+    {
+      "id": "p_09_patterns",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.749993959853093",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var arrPattern = new Array(1000, 200, 1000, 2000, 1200, 1000);\nthis.Vibrator00.patterns = arrPattern;</div></td></tr><tr><th>arrPattern</th><td colspan=\"2\"><div>진동 패턴을 \"무진동, 진동\" 의 쌍으로 이루어진 배열로 설정합니다.\n\n배열의 요소값은 밀리초(milliseconds)단위의 시간으로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_patterns",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_patterns",
+      "type": "pre",
+      "content": "- patterns 속성값을 설정하지 않으면 \"{100, 100}\" 으로 적용됩니다.\n\n- iOS/iPadOS NRE 는 지원하지 않는 기능입니다."
+    },
+    {
+      "id": "p_01_repeatcount",
+      "type": "heading2",
+      "content": "repeatcount",
+      "option": {
+        "alias": "Vibrator_repeatcount"
+      }
+    },
+    {
+      "id": "p_02_repeatcount",
+      "type": "pre",
+      "content": "모바일 디바이스에 진동패턴의 반복 횟수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_repeatcount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_repeatcount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_repeatcount",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_repeatcount",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_repeatcount",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9172538213170073",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Vibrator00.repeatcount = 10;</div></td></tr><tr><th>nRepeatCount</th><td colspan=\"2\"><div>patterns 속성값에 설정된 진동패턴이 반복되는 횟수를 숫자로 설정합니다.\n\n0 설정 시 진동패턴이 무한반복됩니다.\n1 설정 시 반복없이 1회만 실행됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_repeatcount",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_repeatcount",
+      "type": "pre",
+      "content": "- repeatcount 속성값을 설정하지 않으면 1 로 적용됩니다.\n\n- iOS/iPadOS 는 patterns 속성값이 무시되고, 디바이스에서 제공하는 진동패턴이 적용됩니다."
+    },
+    {
+      "id": "p_01_startpos",
+      "type": "heading2",
+      "content": "startpos",
+      "option": {
+        "alias": "Vibrator_startpos"
+      }
+    },
+    {
+      "id": "p_02_startpos",
+      "type": "pre",
+      "content": "patterns 속성에 설정된 진동 패턴의 시작위치를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_startpos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_startpos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_startpos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_startpos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_startpos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.0912005123187053",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Vibrator00.startpos = 10;</div></td></tr><tr><th>nStartPos</th><td colspan=\"2\"><div>patterns 속성에 설정된 진동패턴 배열값에서 진동을 시작할 배열요소의 인덱스값을 설정합니다.\n\n배열요소의 갯수보다 큰 값을 설정할 수 없습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_startpos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_startpos",
+      "type": "pre",
+      "content": "- startpos 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- 지정된 위치부터 패턴의 끝까지 반복 실행됩니다.\n\n- iOS/iPadOS NRE 는 지원하지 않는 기능입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01hasVibrator",
+      "type": "heading2",
+      "content": "hasVibrator",
+      "option": {
+        "alias": "Vibrator_hasVibrator"
+      }
+    },
+    {
+      "id": "m_02_hasVibrator",
+      "type": "pre",
+      "content": "모바일 기기에서 진동 기능을 사용할 수 있는지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_hasVibrator",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_hasVibrator",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_hasVibrator",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_hasVibrator",
+      "type": "command",
+      "content": "Vibrator.hasVibrator()"
+    },
+    {
+      "id": "m_07_hasVibrator",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7515484353667905",
+      "type": "command",
+      "content": "this.Vibrator00.hasVibrator();"
+    },
+    {
+      "id": "m_08_hasVibrator",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.30700930000028437",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>기기에서 진동기능을 사용할수 있으면 \"true\" 를 반환합니다.\n기기에서 진동기능을 사용할 수 없으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01play",
+      "type": "heading2",
+      "content": "play",
+      "option": {
+        "alias": "Vibrator_play"
+      }
+    },
+    {
+      "id": "m_02_play",
+      "type": "pre",
+      "content": "모바일 기기에서 진동을 발생시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_play",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_play",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_play",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_play",
+      "type": "command",
+      "content": "Vibrator.play()"
+    },
+    {
+      "id": "m_07_play",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.6892587167467706",
+      "type": "command",
+      "content": "this.Vibrator00.play();"
+    },
+    {
+      "id": "m_09_play",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_play",
+      "type": "pre",
+      "content": "- Android NRE 는 patterns 속성값에 설정된 순서대로 repeatCount 속성값만큼 반복하여 진동기능을 수행합니다.\n\n- iOS/iPadOS NRE 는 patterns 속성값을 사용할 수 없고, 디바이스가 제공하는 진동을 repeatCount 속성값만큼 반복하여 진동기능을 수행합니다."
+    },
+    {
+      "id": "m_01stop",
+      "type": "heading2",
+      "content": "stop",
+      "option": {
+        "alias": "Vibrator_stop"
+      }
+    },
+    {
+      "id": "m_02_stop",
+      "type": "pre",
+      "content": "모바일 기기에서 진동을 중지하는 메소드입니다."
+    },
+    {
+      "id": "m_03_stop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_stop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_stop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_stop",
+      "type": "command",
+      "content": "Vibrator.stop()"
+    },
+    {
+      "id": "m_07_stop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.8956236200548315",
+      "type": "command",
+      "content": "this.Vibrator00.stop();"
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "Vibrator_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "모바일 기기에서 진동 처리가 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.Vibrator,e:nexacro.VibratorErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9227433149546298",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorErrorEventInfo\" string=\"VibratorErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onplay",
+      "type": "heading2",
+      "content": "onplay",
+      "option": {
+        "alias": "Vibrator_onplay"
+      }
+    },
+    {
+      "id": "e_02_onplay",
+      "type": "pre",
+      "content": "모바일 기기에서 진동 처리가 완료된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onplay",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onplay",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onplay",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onplay",
+      "type": "command",
+      "content": "onplay(obj:nexacro.Vibrator,e:nexacro.VibratorEventInfo);",
+      "option": "onplay"
+    },
+    {
+      "id": "e_07_onplay",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4874392889291218",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onstop",
+      "type": "heading2",
+      "content": "onstop",
+      "option": {
+        "alias": "Vibrator_onstop"
+      }
+    },
+    {
+      "id": "e_02_onstop",
+      "type": "pre",
+      "content": "모바일 기기에서 진동 처리가 중단된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onstop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onstop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onstop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onstop",
+      "type": "command",
+      "content": "onstop(obj:nexacro.Vibrator,e:nexacro.VibratorEventInfo);",
+      "option": "onstop"
+    },
+    {
+      "id": "e_07_onstop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9636022431104444",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
