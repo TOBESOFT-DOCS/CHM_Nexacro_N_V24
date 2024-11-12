@@ -1,0 +1,862 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "쿼리를 수행하는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_async",
+      "type": "heading2",
+      "content": "async",
+      "option": {
+        "alias": "LiteDBStatement_async"
+      }
+    },
+    {
+      "id": "p_02_async",
+      "type": "pre",
+      "content": "LiteDBStatement 에 요청된 작업이 동작되는 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_async",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_async",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_async",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_async",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_async",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5642292595912579",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bAsync ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.async = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>LiteDBStatement 에 요청된 작업이 비동기(Async) 로 동작됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>LiteDBStatement 에 요청된 작업이 동기(Sync) 로 동작됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_async",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_async",
+      "type": "pre",
+      "content": "- async 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n\n◆ Mobile 제약\n\n- 모바일 환경에서는 항상 비동기(Async) 로 동작합니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "LiteDBStatement_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "LiteDBStatement의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "LiteDBStatement.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.056010328821709976",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>LiteDBStatement를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_ldbconnection",
+      "type": "heading2",
+      "content": "ldbconnection",
+      "option": {
+        "alias": "LiteDBStatement_ldbconnection"
+      }
+    },
+    {
+      "id": "p_02_ldbconnection",
+      "type": "pre",
+      "content": "데이터베이스 연결을 위해 LiteDBConnection 객체를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_ldbconnection",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_ldbconnection",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_ldbconnection",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_ldbconnection",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_ldbconnection",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.20951459845427023",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBStatement00.ldbconnection = this.LiteDBConnection00;</div></td></tr><tr><th>objConn</th><td colspan=\"2\"><div>데이터베이스 연결정보가 설정된 LiteDBConnection 객체를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "LiteDBStatement_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "LiteDBStatement 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "LiteDBStatement.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6313385777014474",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parameters",
+      "type": "heading2",
+      "content": "parameters",
+      "option": {
+        "alias": "LiteDBStatement_parameters"
+      }
+    },
+    {
+      "id": "p_02_parameters",
+      "type": "pre",
+      "content": "쿼리문에 사용된 파라미터를 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_parameters",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parameters",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parameters",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parameters",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_parameters",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.29627339789076945",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>Var arrParam = new Array();\n\narrParam.add(new LiteDBParameter());\nthis.LiteDBStatement00.parameters = arrParam;</div></td></tr><tr><th>arrParam</th><td colspan=\"2\"><div>쿼리문에 사용된 파라미터를 LiteDBParameter 객체의 배열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parameters",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parameters",
+      "type": "pre",
+      "content": "- parameters 속성은 Collection 접근방식을 사용할 수 있습니다.\n  LiteDBStatement.parameters[0], LiteDBStatement.parameters[\"ChildFrame0\"], LiteDBStatement.parameters.length 등의 방법을 사용합니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "LiteDBStatement_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "LiteDBStatement 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "LiteDBStatement.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.799266696301897",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.LiteDBStatement00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- LiteDBStatement 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_query",
+      "type": "heading2",
+      "content": "query",
+      "option": {
+        "alias": "LiteDBStatement_query"
+      }
+    },
+    {
+      "id": "p_02_query",
+      "type": "pre",
+      "content": "executeQuery() 또는 executeUpdate() 메소드 수행 시 사용되는 쿼리문을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_query",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_query",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_query",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_query",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_query",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2860021774254602",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strQuery</th><td colspan=\"2\"><div>executeQuery() 또는 executeUpdate() 메소드 수행 시 사용되는 쿼리문을 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_query",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_query",
+      "type": "pre",
+      "content": "- 쿼리 문장에 \":ParameterName\" 형식으로 설정하면 LiteDBStatement 의 parameters 속성을 통해 접근할 수 있습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01close",
+      "type": "heading2",
+      "content": "close",
+      "option": {
+        "alias": "LiteDBStatement_close"
+      }
+    },
+    {
+      "id": "m_02_close",
+      "type": "pre",
+      "content": "LiteDBStatement 에서 수행중이던 동작을 중단하는 메소드입니다."
+    },
+    {
+      "id": "m_03_close",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_close",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_close",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_close",
+      "type": "command",
+      "content": "LiteDBStatement.close()"
+    },
+    {
+      "id": "m_07_close",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5948232970181261",
+      "type": "command",
+      "content": "this.LiteDBStatement00.close();"
+    },
+    {
+      "id": "m_09_close",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_close",
+      "type": "pre",
+      "content": "- 수행중이던 동작 중단에 성공하면 onsuccess 이벤트가 발생합니다.\n  수행중이던 동작 중단에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01executeQuery",
+      "type": "heading2",
+      "content": "executeQuery",
+      "option": {
+        "alias": "LiteDBStatement_executeQuery"
+      }
+    },
+    {
+      "id": "m_02_executeQuery",
+      "type": "pre",
+      "content": "Select 쿼리를 수행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_executeQuery",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_executeQuery",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_executeQuery",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_executeQuery",
+      "type": "command",
+      "content": "LiteDBStatement.executeQuery([strQuery])"
+    },
+    {
+      "id": "m_07_executeQuery",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.38126999479572843",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strQuery</td><td>String</td><td colspan=\"2\"><div>수행할 Select 쿼리문을 문자열로 설정합니다.\n\n값 생략 시 query 속성에 설정된 쿼리문이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strQuery = \"select * from *\";\nthis.LiteDBStatement00.executeQuery(strQuery);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_executeQuery",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8219986344237956",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>strQuery 파라미터값(또는 LiteDBStatement 오브젝트의 query 속성값)이 null이거나 String 타입이 아닌 경우 false를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_executeQuery",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_executeQuery",
+      "type": "pre",
+      "content": "- SQL문이 에러 없이 실행된 경우 onsuccess 이벤트가 발생합니다.\n  onsuccess 이벤트 발생 시 LiteDBEventInfo 오브젝트의 returnvalue 속성값에서 SQL문 실행 결과 데이터를 Dataset 오브젝트로 확인할 수 있습니다."
+    },
+    {
+      "id": "m_01executeUpdate",
+      "type": "heading2",
+      "content": "executeUpdate",
+      "option": {
+        "alias": "LiteDBStatement_executeUpdate"
+      }
+    },
+    {
+      "id": "m_02_executeUpdate",
+      "type": "pre",
+      "content": "Insert, Update, Delete 쿼리문을 수행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_executeUpdate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_executeUpdate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_executeUpdate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_executeUpdate",
+      "type": "command",
+      "content": "LiteDBStatement.executeUpdate([strQuery])"
+    },
+    {
+      "id": "m_07_executeUpdate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7526888547593347",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strQuery</td><td>String</td><td colspan=\"2\"><div>수행할 Insert, Update, Delete 쿼리문을 문자열로 설정합니다.\n\n값 생략 시 query 속성에 설정된 쿼리문이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strQuery = \"insert into .....\";\nthis.LiteDBStatement00.executeUpdate(strQuery);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_executeUpdate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1648594623855143",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>strQuery 파라미터값(또는 LiteDBStatement 오브젝트의 query 속성값)이 null이거나 String 타입이 아닌 경우 false를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_executeUpdate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_executeUpdate",
+      "type": "pre",
+      "content": "- SQL문이 에러 없이 실행된 경우 onsuccess 이벤트가 발생합니다.\n  onsuccess 이벤트 발생 시 LiteDBEventInfo 오브젝트의 returnvalue 속성값에서 SQL문 실행으로 처리된 Row 숫자를 확인할 수 있습니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "LiteDBStatement_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "LiteDBStatement 에 요청된 작업이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.LiteDBStatement,e:nexacro.LiteDBErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4527637828584504",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBStatement</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBErrorEventInfo\" string=\"LiteDBErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "LiteDBStatement_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "LiteDBStatement 에 요청된 작업이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.LiteDBStatement,e:nexacro.LiteDBEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5782516658900273",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBStatement</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBEventInfo\" string=\"LiteDBEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
