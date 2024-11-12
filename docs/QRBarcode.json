@@ -1,0 +1,599 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "QR 코드, 바코드를 읽고 정보를 반환하는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- QRBarcode 오브젝트는 별도 모듈 설치 후 사용할 수 있습니다.\n  투비소프트 고객센터에서 모듈 설치 파일을 내려받아 설치할 수 있습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_cameradirection",
+      "type": "heading2",
+      "content": "cameradirection",
+      "option": {
+        "alias": "QRBarcode_cameradirection"
+      }
+    },
+    {
+      "id": "p_02_cameradirection",
+      "type": "pre",
+      "content": "scan 메서드 실행 시 사용할 카메라를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_cameradirection",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cameradirection",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cameradirection",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cameradirection",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cameradirection",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cameradirection",
+      "type": "command",
+      "content": "QRBarcode.cameradirection[= enumCameradirection]"
+    },
+    {
+      "id": "p_09_cameradirection",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.0909298993774802",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumCameradirection :: = 'BACK' | 'FRONT'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.QRBarcode00.cameradirection = 'FRONT';</div></td></tr><tr><th>\"BACK\"</th><td colspan=\"2\"><div>후면 카메라를 사용합니다.</div></td></tr><tr><th>\"FRONT\"</th><td colspan=\"2\"><div>전면 카메라를 사용합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_cameradirection",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_cameradirection",
+      "type": "pre",
+      "content": "- cameradirection 속성값을 설정하지 않으면 'BACK'으로 적용됩니다."
+    },
+    {
+      "id": "p_01_enablesuccessbeep",
+      "type": "heading2",
+      "content": "enablesuccessbeep",
+      "option": {
+        "alias": "QRBarcode_enablesuccessbeep"
+      }
+    },
+    {
+      "id": "p_02_enablesuccessbeep",
+      "type": "pre",
+      "content": "scan 메서드 실행 성공 시 비프음 출력 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_enablesuccessbeep",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_enablesuccessbeep",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_enablesuccessbeep",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_enablesuccessbeep",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_enablesuccessbeep",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_enablesuccessbeep",
+      "type": "command",
+      "content": "QRBarcode.enablesuccessbeep [=bEnablesuccessbeep]"
+    },
+    {
+      "id": "p_09_enablesuccessbeep",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.799584655510419",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnablesuccessbeep :: = true | false</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>scan 메서드 실행 성공 시 비프음을 출력합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>scan 메서드 실행 성공 시 비프음을 출력하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_enablesuccessbeep",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_enablesuccessbeep",
+      "type": "pre",
+      "content": "- enablesuccessbeep 속성값을 설정하지 않으면 false로 적용됩니다."
+    },
+    {
+      "id": "p_01_formats",
+      "type": "heading2",
+      "content": "formats",
+      "option": {
+        "alias": "QRBarcode_formats"
+      }
+    },
+    {
+      "id": "p_02_formats",
+      "type": "pre",
+      "content": "Scan 메서드 실행 시 인식할 수 있는 형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_formats",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_formats",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_formats",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_formats",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_formats",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_formats",
+      "type": "command",
+      "content": "QRBarcode.formats [=strFormats]"
+    },
+    {
+      "id": "p_09_formats",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4602647898534814",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strFormats ::= 'ALL' | &lt;formatlist&gt;\n\n&lt;formatlist&gt; ::= &lt;format&gt; | &lt;format&gt; ',' &lt;formatlist&gt;\n&lt;format&gt; ::= 'CODE_128' | 'CODE_39' | 'CODE_93' | 'CODABAR' | 'DATA_MATRIX' | 'EAN_13' | 'EAN_8' | 'ITF' | 'QR_CODE' | 'UPC_A' | 'UPC_E' | 'PDF417' | 'AZTEC'\n\n* 각 타입값을 콤마(\",\")로 구분하여 중복 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.QRBarcode.formats = \"ALL\";\nthis.QRBarcode.formats = \"CODE_128, CODE_39, CODE_93\";\nthis.QRBarcode.formats = \"ALL, CODE_128, CODE_39, CODE_93\";</div></td></tr><tr><th>\"ALL\"</th><td colspan=\"2\"><div>지원하는 모든 형식을 인식하도록 설정합니다.</div></td></tr><tr><th>&lt;format&gt;</th><td colspan=\"2\"><div>특정 형식만 인식해야 하는 경우 형식을 직접 지정할 수 있습니다.\n지원하는 형식은 아래와 같습니다.\n- CODE_128\n- CODE_39\n- CODE_93\n- CODABAR\n- DATA_MATRIX\n- EAN_13\n- EAN_8\n- ITF\n- QR_CODE\n- UPC_A\n- UPC_E\n- PDF417\n- AZTEC</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_formats",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_formats",
+      "type": "pre",
+      "content": "- formats 속성값을 설정하지 않으면 \"ALL\"로 적용됩니다.\n\n- \"ALL, CODE_128, CODE_39\"처럼 \"ALL\"을 포함한 값으로 설정한 경우 \"ALL\" 이외의 값은 무시됩니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "QRBarcode_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "QRBarcode의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "QRBarcode.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.17026099153837138",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>QRBarcode를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_prompt",
+      "type": "heading2",
+      "content": "prompt",
+      "option": {
+        "alias": "QRBarcode_prompt"
+      }
+    },
+    {
+      "id": "p_02_prompt",
+      "type": "pre",
+      "content": "scan 메서드 실행 시 카메라 화면에 표시될 문구를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_prompt",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_prompt",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_prompt",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_prompt",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_prompt",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_prompt",
+      "type": "command",
+      "content": "QRBarcode.prompt [=strPrompt]"
+    },
+    {
+      "id": "p_09_prompt",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3174158585728116",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strPrompt</th><td colspan=\"2\"><div>scan 메서드 실행 시 카메라 화면에 표시될 문구를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_prompt",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_prompt",
+      "type": "pre",
+      "content": "- prompt 속성값을 설정하지 않으면 \"\"로 적용됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "QRBarcode_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 QRBarcode 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "QRBarcode.destroy()"
+    },
+    {
+      "id": "m_07_destroy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2988130590271988",
+      "type": "command",
+      "content": "var bSucc = this.QRBarcode00.destroy();"
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 QRBarcode 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01scan",
+      "type": "heading2",
+      "content": "scan",
+      "option": {
+        "alias": "QRBarcode_scan"
+      }
+    },
+    {
+      "id": "m_02_scan",
+      "type": "pre",
+      "content": "디바이스 카메라를 실행해 QR 코드, 바코드를 스캔하는 메서드입니다."
+    },
+    {
+      "id": "m_03_scan",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_scan",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_scan",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_scan",
+      "type": "command",
+      "content": "QRBarcode.scan()"
+    },
+    {
+      "id": "m_09_scan",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_scan",
+      "type": "pre",
+      "content": "- QR 코드, 바코드 스캔에 성공하거나 스캔 동작을 취소하면 onresult 이벤트가 발생합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onresult",
+      "type": "heading2",
+      "content": "onresult",
+      "option": {
+        "alias": "QRBarcode_onresult"
+      }
+    },
+    {
+      "id": "e_02_onresult",
+      "type": "pre",
+      "content": "QR 코드, 바코드 스캔에 성공, 실패하거나 스캔을 취소했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onresult",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onresult",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onresult",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onresult",
+      "type": "command",
+      "content": "onresult(obj:nexacro.QRBarcode,e:nexacro.QRBarcodeEventInfo);",
+      "option": "onresult"
+    },
+    {
+      "id": "e_07_onresult",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1777166040522523",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>QRBarcode</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#QRBarcodeEventInfo\" string=\"QRBarcodeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
