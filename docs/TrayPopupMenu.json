@@ -1,0 +1,940 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Tray 의 PopupMenu 오브젝트입니다. \n시스템이 제공하는 API PopupMenu를 사용합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_captioncolumn",
+      "type": "heading2",
+      "content": "captioncolumn",
+      "option": {
+        "alias": "TrayPopupMenu_captioncolumn"
+      }
+    },
+    {
+      "id": "p_02_captioncolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet 의 Column 중 팝업메뉴 아이템의 텍스트가 정의된 Column 을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_captioncolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_captioncolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_captioncolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_captioncolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_captioncolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4167626679127705",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>Tray 팝업메뉴에 아이템으로 표시될 텍스트가 정의된 Column 의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_captioncolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_captioncolumn",
+      "type": "pre",
+      "content": "- innerdataset 속성에 설정된 DataSet 의 Column 만 설정할 수 있습니다.\n\n- captioncolumn 속성에 설정된 Column 의 데이터가 각 팝업메뉴 아이템에 텍스트로 표시됩니다.\n\n- 설정된 Column 의 데이터값이 \"-\" 이면 아이템 간의 구분선으로 처리되며, 구분선은 CSS 관련 속성이 적용되지 않습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_01_checkboxcolumn",
+      "type": "heading2",
+      "content": "checkboxcolumn",
+      "option": {
+        "alias": "TrayPopupMenu_checkboxcolumn"
+      }
+    },
+    {
+      "id": "p_02_checkboxcolumn",
+      "type": "pre",
+      "content": "체크이미지를 서브메뉴 아이템에 표시할지 여부가 정의된 Column 을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_checkboxcolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_checkboxcolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_checkboxcolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_checkboxcolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_checkboxcolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.05065281074597461",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>체크이미지 표시 여부가 정의된 Column 의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_checkboxcolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_checkboxcolumn",
+      "type": "pre",
+      "content": "- innerdataset 속성에 설정된 DataSet 의 Column 만 설정할 수 있습니다.\n\n- Column 의 데이터가 true 로 처리되면 체크이미지가 표시됩니다.\n\n- Column 에 데이터가 없거나 false 로 처리되면 체크이미지가 표시되지 않습니다.\n   이 때, iconcolumn 속성이 설정되어 있다면 아이콘이 표시됩니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "u_10_0.10988882383816101",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>true / false</th>\t\t<th>Column type</th>\t\t<th>Row data</th>\t</tr></thead>\t\t\t<tbody><tr>\t\t<td rowspan=\"2\"><div>false</div></td>\t\t<td><div>STRING</div></td>\t\t<td><div>\"0\", \"-0\", \"false\", \"NaN\", 빈 값, Null</div></td>\t</tr><tr>\t\t<td><div>INT, FLOAT, BIGDECIMAL</div></td>\t\t<td><div>0, -0, 빈 값, Null</div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>true</div></td>\t\t<td><div></div></td>\t\t<td><div>false로 처리되는 값 이외의 모든 값</div></td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_enablecolumn",
+      "type": "heading2",
+      "content": "enablecolumn",
+      "option": {
+        "alias": "TrayPopupMenu_enablecolumn"
+      }
+    },
+    {
+      "id": "p_02_enablecolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet 의 Column 중 팝업메뉴 아이템의 활성화 여부가 정의된 Column을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_enablecolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_enablecolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_enablecolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_enablecolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_enablecolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9696414886072053",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템의 활성화 여부가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_enablecolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_enablecolumn",
+      "type": "pre",
+      "content": "- enablecolumn 속성에 설정된 Column의 데이터가 \"false\"이면 팝업메뉴 아이템이 비활성화 되어 선택할 수 없습니다.\n\n- enablecolumn 속성에 설정된 Column에 데이터가 없거나 enablecolumn 속성값을 설정하지 않으면 팝업메뉴 아이템이 활성화 됩니다.\n\n- innerdataset 속성에 설정된 DataSet 의 Column만 설정할 수 있습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_01_hotkeycolumn",
+      "type": "heading2",
+      "content": "hotkeycolumn",
+      "option": {
+        "alias": "TrayPopupMenu_hotkeycolumn"
+      }
+    },
+    {
+      "id": "p_02_hotkeycolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet 의 Column 중 메뉴 아이템의 단축키가 정의된 Column을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_hotkeycolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_hotkeycolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_hotkeycolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_hotkeycolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_hotkeycolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7874455871653357",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>메뉴 아이템의 단축키가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_hotkeycolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_hotkeycolumn",
+      "type": "pre",
+      "content": "- hotkeycolumn 속성에 설정된 Column 에 정의된 단축키가 입력되면 onmenuclick 이벤트가 발생합니다.\n  단축키 입력 시 수행할 동작을 onmenuclick 이벤트에 정의하여야 합니다.\n\n- innerdataset 속성에 설정된 DataSet 의 Column만 설정할 수 있습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_13_hotkeycolumn",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_hotkeycolumn",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_menu_02'>단축키로 메뉴 실행하기</a>"
+    },
+    {
+      "id": "p_01_iconcolumn",
+      "type": "heading2",
+      "content": "iconcolumn",
+      "option": {
+        "alias": "TrayPopupMenu_iconcolumn"
+      }
+    },
+    {
+      "id": "p_02_iconcolumn",
+      "type": "pre",
+      "content": "팝업메뉴 아이템에 표시되는 아이콘의 정보가 정의된 Column 을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_iconcolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_iconcolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_iconcolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_iconcolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_iconcolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4073965686938018",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>아이콘의 정보가 정의된 Column 의 ID 를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_iconcolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_iconcolumn",
+      "type": "pre",
+      "content": "- 시스템에서 지원하는 아이콘 이미지 파일 형식은 비트맵(*.bmp) 입니다.\n   Column 에 정의된 값으로 URL 경로의 웹이미지만 사용할 수 있습니다.\n\n- innerdataset 속성에 설정된 DataSet 의 Column 만 설정할 수 있습니다.\n\n- checkboxcolumn 속성이 설정되지 않았거나 false 로 처리될 때 아이템에 아이콘이 표시됩니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "TrayPopupMenu_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "TrayPopupMenu의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "TrayPopupMenu.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.16690456960358935",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>TrayPopupMenu를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_idcolumn",
+      "type": "heading2",
+      "content": "idcolumn",
+      "option": {
+        "alias": "TrayPopupMenu_idcolumn"
+      }
+    },
+    {
+      "id": "p_02_idcolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet 의 Column 중 팝업메뉴 아이템의 ID가 정의된 Column을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_idcolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_idcolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_idcolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_idcolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_idcolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9514898474983141",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템의 ID가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_idcolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_idcolumn",
+      "type": "pre",
+      "content": "- 시스템이 제공하는 API Menu 를 사용하기 때문에 id 는 innerdataset 의 Row 인덱스로 설정됩니다.\n  값을 설정할 수는 있으나 실제 id 로 동작하지는 않습니다.\n\n- innerdataset 속성에 설정된 DataSet 의 Column만 설정할 수 있습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_01_innerdataset",
+      "type": "heading2",
+      "content": "innerdataset",
+      "option": {
+        "alias": "TrayPopupMenu_innerdataset"
+      }
+    },
+    {
+      "id": "p_02_innerdataset",
+      "type": "pre",
+      "content": "Tray 의 팝업메뉴 아이템이 정의된 DataSet 의 ID를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_innerdataset",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_innerdataset",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_innerdataset",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_innerdataset",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_innerdataset",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8838613037207881",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템이 정의된 DataSet의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_innerdataset",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_innerdataset",
+      "type": "pre",
+      "content": "- innerdataset 속성값에 해당하는 DataSet 이 존재하지 않으면 메뉴 아이템이 표시되지 않습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_13_innerdataset",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_innerdataset",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_calendar_06'>공휴일 지정하기</a>"
+    },
+    {
+      "id": "p_01_levelcolumn",
+      "type": "heading2",
+      "content": "levelcolumn",
+      "option": {
+        "alias": "TrayPopupMenu_levelcolumn"
+      }
+    },
+    {
+      "id": "p_02_levelcolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet 의 Column 중 팝업메뉴 아이템의 상/하위 관계가 정의된 Column을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_levelcolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_levelcolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_levelcolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_levelcolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_levelcolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6994200656592239",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>각 팝업메뉴 아이템의 상/하위 관계가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_levelcolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_levelcolumn",
+      "type": "pre",
+      "content": "- 서브메뉴가 표시되기 위해서는 levelcolumn 에 설정된 Column의 데이터가 트리구조로 정의되어 있어야 합니다.\n  최상위 메뉴 아이템은 \"0\" 레벨로 시작하며 레벨값이 증가하면 단계적으로 하위 메뉴로 표시됩니다.\n  즉, \"0\" 레벨 데이터는 다음에 \"0\" 레벨 데이터가 정의될 때까지 정의된 모든 데이터의 상위메뉴가 됩니다.\n\n- innerdataset 속성에 설정된 DataSet 의 Column만 설정할 수 있습니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
+    },
+    {
+      "id": "p_01_userdatacolumn",
+      "type": "heading2",
+      "content": "userdatacolumn",
+      "option": {
+        "alias": "TrayPopupMenu_userdatacolumn"
+      }
+    },
+    {
+      "id": "p_02_userdatacolumn",
+      "type": "pre",
+      "content": "innerdataset 속성에 설정된 DataSet의 Column 중 사용자 데이터를 처리하기 위한 Column을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_userdatacolumn",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_userdatacolumn",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_userdatacolumn",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_userdatacolumn",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_userdatacolumn",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.760678281502474",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>사용자 데이터를 처리할 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_userdatacolumn",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_userdatacolumn",
+      "type": "pre",
+      "content": "- innerdataset 속성에 설정된 DataSet 의 Column만 설정할 수 있습니다.\n\n- 팝업메뉴 아이템 별로 처리해야 하는 데이터를 저장하기 위해 사용합니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01trackPopup",
+      "type": "heading2",
+      "content": "trackPopup",
+      "option": {
+        "alias": "TrayPopupMenu_trackPopup"
+      }
+    },
+    {
+      "id": "m_02_trackPopup",
+      "type": "pre",
+      "content": "Tray 의 팝업메뉴를 마우스 커서 위치에 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_trackPopup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trackPopup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trackPopup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trackPopup",
+      "type": "command",
+      "content": "TrayPopupMenu.trackPopup()"
+    },
+    {
+      "id": "m_07_trackPopup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.9361687248385785",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].items[\"item00\"].trackPopup();"
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01oninnerdatachanged",
+      "type": "heading2",
+      "content": "oninnerdatachanged",
+      "option": {
+        "alias": "TrayPopupMenu_oninnerdatachanged"
+      }
+    },
+    {
+      "id": "e_02_oninnerdatachanged",
+      "type": "pre",
+      "content": "TrayPopupMenu 의 innerdataset 속성에 바인딩된 DataSet 에서 데이터 변경이 된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_oninnerdatachanged",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_oninnerdatachanged",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_oninnerdatachanged",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_oninnerdatachanged",
+      "type": "command",
+      "content": "oninnerdatachanged(obj:nexacro.TrayPopupMenu,e:nexacro.InnerdataChangedEventInfo);",
+      "option": "oninnerdatachanged"
+    },
+    {
+      "id": "e_07_oninnerdatachanged",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7693516627453266",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#InnerdataChangedEventInfo\" string=\"InnerdataChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_oninnerdatachanged",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_oninnerdatachanged",
+      "type": "pre",
+      "content": "- innerdataset 속성에 바인딩된 DataSet 의 Data 가 변경되면 oninnerdatachanged 이벤트가 발생합니다.\n  일반적으로 DataSet 에서 onvaluechanged 이벤트가 발생한 후 변경된 값이 바인딩된 객체에 영향을 미칠때 이벤트가 발생합니다.\n  예를 들어 DataSet 의 Data 변경에 의해 TrayPopupMenu 의 아이템 길이가 변경되면 이벤트가 발생합니다.\n\n- 컴포넌트 크기가 innerdataset 속성에 바인딩된 DataSet 값에 의해 변경되어 화면의 재배열이 필요할 경우 해당 이벤트에 정의합니다."
+    },
+    {
+      "id": "e_01onmenuclick",
+      "type": "heading2",
+      "content": "onmenuclick",
+      "option": {
+        "alias": "TrayPopupMenu_onmenuclick"
+      }
+    },
+    {
+      "id": "e_02_onmenuclick",
+      "type": "pre",
+      "content": "Tray 에서 메뉴 아이템을 마우스 왼쪽 버튼으로 클릭했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onmenuclick",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onmenuclick",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onmenuclick",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onmenuclick",
+      "type": "command",
+      "content": "onmenuclick(obj:nexacro.TrayPopupMenu,e:nexacro.MenuClickEventInfo);",
+      "option": "onmenuclick"
+    },
+    {
+      "id": "e_07_onmenuclick",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7811586109697448",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MenuClickEventInfo\" string=\"MenuClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onmenuclick",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onmenuclick",
+      "type": "pre",
+      "content": "- 메뉴 아이템 영역 내에서 마우스의 lbuttondown 액션과 lbuttonup 액션이 발생되어야 합니다.\n\n- 하위 메뉴가 있는 아이템은 마우스 클릭을 해도 onmenuclick 이벤트가 발생되지 않습니다"
+    }
+  ]
+}
