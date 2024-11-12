@@ -1,0 +1,2325 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Graphics 컴포넌트에 텍스트를 표시할 때 사용되는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 스크립트로 동적생성하여 사용할 수 있으며 넥사크로 스튜디오에서 디자인 할 수 없습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_color",
+      "type": "heading2",
+      "content": "color",
+      "option": {
+        "alias": "GraphicsText_color"
+      }
+    },
+    {
+      "id": "p_02_color",
+      "type": "pre",
+      "content": "GraphicsText 에 표시되는 텍스트의 색상을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_color",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_color",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_color",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_color",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_color",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_color",
+      "type": "command",
+      "content": "GraphicsText.color[= strColor]"
+    },
+    {
+      "id": "p_09_color",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7354914095140738",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strColor ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGText = new nexacro.GraphicsText(100,100);  \n\nobjGText.font = \"bold 12pt arial, sans-serif\"; \nobjGText.color = \"blue\"; objGText.color = \"#999999\"; \nobjGText.color = \"rgb(255,0,0)\";</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_color",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_color",
+      "type": "pre",
+      "content": "- color 속성값을 설정하지 않으면 undefined 가 설정되고 \"#000000\" 으로 동작합니다.\n\n\n◆ web runtime environment 제약\n\n- rgba(), hsl(), hsla() 메소드를 속성에 직접 설정할 경우 브라우저 버전에 따라 적용되지 않을 수 있습니다."
+    },
+    {
+      "id": "p_01_font",
+      "type": "heading2",
+      "content": "font",
+      "option": {
+        "alias": "GraphicsText_font"
+      }
+    },
+    {
+      "id": "p_02_font",
+      "type": "pre",
+      "content": "GraphicsText 에서 사용하는 폰트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_font",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_font",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_font",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_font",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_font",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_font",
+      "type": "command",
+      "content": "GraphicsText.font[= strfont]"
+    },
+    {
+      "id": "p_09_font",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2564800596681093",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strfont ::= [&lt;font-style&gt;] [&lt;font-weight&gt;] &lt;font-size&gt; ['/'&lt;line-height&gt;] &lt;font-family&gt;\n\n&lt;font-style&gt; ::= 'normal' | 'italic'\n&lt;font-weight&gt; ::= 'normal' | 'bold' | '100' | '200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'\n&lt;font-size&gt; ::= &lt;nSize&gt; 'px'|'pt'|'em'|'rem'\n&lt;line-height&gt; ::= 'normal' | &lt;nValue&gt; | &lt;nPixel&gt;'px' | &lt;nPercent&gt;'%'\n&lt;font-family&gt; ::= &lt;font-name&gt; [',' &lt;font-name&gt;]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.font = \"bold 12pt/30px arial, sans-serif\"; \nobjGraphicsText.color = \"blue\";</div></td></tr><tr><th>&lt;font-style&gt;</th><td colspan=\"2\"><div>폰트의 스타일을 설정합니다.\n\n\"normal\" 설정 시 스타일이 적용되지 않습니다.\n\"italic\" 설정 시 기울임 스타일이 적용됩니다.</div></td></tr><tr><th>&lt;font-weight&gt;</th><td colspan=\"2\"><div>폰트의 굵기를 설정합니다.\n\n\"normal\" 설정 시 굵기가 적용되지 않습니다.\n\"bold\" 설정 시 굵은 폰트가 적용됩니다.\n\n\"100\"~\"900\" 로 설정 시 설정한 굵기로 폰트가 적용됩니다.\n\"100\"~\"900\" 로 설정 시 굵기에 해당하는 폰트가 정의되어 있어야 합니다.</div></td></tr><tr><th>&lt;font-size&gt;</th><td colspan=\"2\"><div>폰트 크기의 단위는 아래와 같이 절대 길이 단위와 상대 길이 단위로 설정할 수 있습니다.\n단위를 지정하지 않으면 속성값이 적용되지 않습니다.\n- 절대 길이 단위: pixel(\"px\"), point(\"pt\")\n- 상대 길이 단위: \"em\", \"rem\"\n\n폰트 크기 단위를 \"em\", \"rem\"으로 설정한 경우에는 아래와 같이 폰트 크기가 계산됩니다.\n- \"em\": 상위 컴포넌트 font-size 기준으로 상대적인 크기를 설정\n- \"rem\": MainFrame font-size 기준으로 상대적인 크기를 설정</div></td></tr><tr><th>&lt;nSize&gt;</th><td colspan=\"2\"><div>폰트 크기 단위에 따라 정수 또는 소수로 설정합니다.\n음수값은 설정할 수 없습니다.\n- \"px\", \"pt\": 정수\n- \"em\", \"rem\": 정수 또는 소수</div></td></tr><tr><th>&lt;line-height&gt;</th><td colspan=\"2\"><div>텍스트가 여러줄로 표시되는 경우 줄 사이의 간격을 설정합니다.\n\n음수값을 설정할 수 없습니다.\n\n\"normal\" 설정 시 줄 사이의 간격을 설정하지 않습니다.\n\"normal\" 설정 시 웹브라우저마다 줄 사이의 간격이 다르게 적용됩니다.\n\"normal\" 설정 시 Nexacro Runtime Environment는 폰트 크기에 곱할 값(&lt;nValue&gt;값)이 \"1.15\" 일 때와 동일하게 동작합니다.</div></td></tr><tr><th>&lt;nValue&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.</div></td></tr><tr><th>&lt;nPixel&gt;</th><td colspan=\"2\"><div>줄 사이의 간격을 pixel 단위의 숫자로 설정합니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;nPercent&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 비율값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.\n\"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;font-family&gt;</th><td colspan=\"2\"><div>폰트 이름을 리스트로 설정합니다.\n\n콤마(\",\")로 구분하여 폰트 이름을 여러개 설정할 수 있습니다.\n먼저 선언된 폰트가 우선적으로 적용됩니다.\n선언된 폰트가 시스템에 없을 경우 선언된 순서대로 사용 가능한 폰트를 적용합니다.\n선언된 폰트가 모두 없을 경우 시스템 기본 폰트가 적용됩니다.</div></td></tr><tr><th>&lt;font-name&gt;</th><td colspan=\"2\"><div>폰트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_font",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_font",
+      "type": "pre",
+      "content": "- font 속성값을 설정하지 않으면 undefined 가 설정되고, \"12pt/normal Verdana\" 로 동작합니다.\n\n- font 속성의 폰트 크기가 변경되면 &lt;line-height&gt; 에 적용된 값에 따라 줄간격이 변경될 수 있습니다.\n\n- &lt;font-weight&gt; 를 수치로 설정 시 \"400\" 값이 일반적인 굵기로 적용되고, \"700\" 값이 \"bold\" 로 적용됩니다.\n   폰트에 수치값에 해당하는 폰트굵기가 없다면 \"400\" 과 \"700\" 중 가까운 값으로 표시됩니다.\n\n- UserFont 사용 시 환경별로 지원하는 포맷정보는 \"Appendix &gt; Supported UserFont\" 항목을 참고하세요.\n\n\n◆ WRE 제약\n\n- -nexa-text-align 속성값이 \"right\" 일 때 font 속성에 \"italic\" 을 설정하면 마지막 텍스트의 기울어진 부분이 잘려서 표시될 수 있습니다.\n   웹브라우저에서 텍스트영역을 일반글자 기준으로 처리한 후 기울임을 적용하면서 발생하는 문제입니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "GraphicsText_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "GraphicsText 의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "GraphicsText.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.0938744177272689",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();\n\nthis.Graphics00.addChild( \"GraphicsText00\", objGraphicsText );</div></td></tr><tr><th>id</th><td colspan=\"2\"><div>GraphicsText 를 구별할 수 있는 유일값을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild() 나 insertChild() 메소드를 사용하여 GraphicsText 를 등록할때 오브젝트를 구별하기 위한 고유값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 설정할 경우 오류가 발생할 수 있습니다."
+    },
+    {
+      "id": "p_01_opacity",
+      "type": "heading2",
+      "content": "opacity",
+      "option": {
+        "alias": "GraphicsText_opacity"
+      }
+    },
+    {
+      "id": "p_02_opacity",
+      "type": "pre",
+      "content": "GraphicsText 영역의 투명도를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_opacity",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_opacity",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_opacity",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_opacity",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_opacity",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_opacity",
+      "type": "command",
+      "content": "GraphicsStock.opacity[= nOpacity]"
+    },
+    {
+      "id": "p_09_opacity",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.42293055834262994",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText() ;\n\nobjGraphicsText.opacity = 0.5;\nobjGraphicsText.opacity = \"0.5\";\nobjGraphicsText.opacity = \"50%\";</div></td></tr><tr><th>nOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_opacity",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_opacity",
+      "type": "pre",
+      "content": "- opacity 속성값을 설정하지 않으면 undefined 가 설정되고 1 로 동작합니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 투명도가 동일하게 적용됩니다.\n\n- 부모와 자식 오브젝트에 각각 opacity 속성이 설정되어 있으면 자식 오브젝트의 투명도는 부모의 투명도에 추가적으로 적용됩니다.\n   예를 들어 부모의 opacity 값이 0.5 이고 자식의 opacity 값이 0.4 이면 결과적으로 자식 오브젝트는 0.2 의 투명도가 적용됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "GraphicsText_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "GraphicsText 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "GraphicsText.parent"
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- 일반적으로 addChild() 메소드를 사용하여 GraphicsText 를 추가한 오브젝트가 parent 속성에 설정됩니다.\n\n- GraphicsText 가 어디에도 속해있지 않거나 부모 오브젝트로부터 제거되면 null 값을 갖습니다."
+    },
+    {
+      "id": "p_01_text",
+      "type": "heading2",
+      "content": "text",
+      "option": {
+        "alias": "GraphicsText_text"
+      }
+    },
+    {
+      "id": "p_02_text",
+      "type": "pre",
+      "content": "GraphicsText 에 표시될 텍스트를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_text",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_text",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_text",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_text",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_text",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_text",
+      "type": "command",
+      "content": "GraphicsText.text[= strText]"
+    },
+    {
+      "id": "p_09_text",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7808018996019571",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.text = \"Text\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>GraphicsText 에 표시될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_textAlign",
+      "type": "heading2",
+      "content": "textAlign",
+      "option": {
+        "alias": "GraphicsText_textAlign"
+      }
+    },
+    {
+      "id": "p_02_textAlign",
+      "type": "pre",
+      "content": "GraphicsText 의 x 속성값 위치를 기준으로 텍스트가 표시되는 가로위치를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_textAlign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_textAlign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_textAlign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_textAlign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_textAlign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_textAlign",
+      "type": "command",
+      "content": "GraphicsText.textAlign[= enumTextAlign]"
+    },
+    {
+      "id": "p_09_textAlign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.849633056335785",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumTextAlign ::= 'left' | 'center' | 'right'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.x = 100; \nobjGraphicsText.y = 100; \nobjGraphicsText.textAlign = \"left\"; \nobjGraphicsText.verticalAlign = \"top\";</div></td></tr><tr><th>\"left\"</th><td colspan=\"2\"><div>텍스트가 x 속성값 위치의 오른쪽에 표시됩니다.</div></td></tr><tr><th>\"center\"</th><td colspan=\"2\"><div>텍스트가 x 속성값 위치에 가운데 정렬되어 표시됩니다.</div></td></tr><tr><th>\"right\"</th><td colspan=\"2\"><div>텍스트가 x 속성값 위치의 왼쪽에 표시됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_textAlign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_textAlign",
+      "type": "pre",
+      "content": "- textAlign 속성값을 설정하지 않으면 \"left\" 로 적용됩니다.\n\n- GraphicsText 의 x 속성값이 텍스트 표시의 x 축 기준위치로 처리됩니다."
+    },
+    {
+      "id": "p_01_textwidth",
+      "type": "heading2",
+      "content": "textwidth",
+      "option": {
+        "alias": "GraphicsText_textwidth"
+      }
+    },
+    {
+      "id": "p_02_textwidth",
+      "type": "pre",
+      "content": "wordWrap 속성값이 \"char\" 일 때 GraphicsText 에 텍스트가 표시되는 영역의 너비를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_textwidth",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_textwidth",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_textwidth",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_textwidth",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_textwidth",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_textwidth",
+      "type": "command",
+      "content": "GraphicsText.textwidth[= nTextWidth]"
+    },
+    {
+      "id": "p_09_textwidth",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5021971811117977",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.wordWrap = \"char\"; \nobjGraphicsText.textwidth = 100;</div></td></tr><tr><th>nTextWidth</th><td colspan=\"2\"><div>텍스트가 표시되는 영역의 너비를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_textwidth",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_textwidth",
+      "type": "pre",
+      "content": "- wordWrap 속성값이 \"none\" 이면 textwidth 속성값은 무시됩니다.\n\n- wordWrap 속성값이 \"char\" 일 때 표시할 텍스트의 길이가 textwidth 속성값보다 크면 자동 줄바꿈 처리됩니다."
+    },
+    {
+      "id": "p_01_verticalAlign",
+      "type": "heading2",
+      "content": "verticalAlign",
+      "option": {
+        "alias": "GraphicsText_verticalAlign"
+      }
+    },
+    {
+      "id": "p_02_verticalAlign",
+      "type": "pre",
+      "content": "GraphicsText 의 y 속성값 위치를 기준으로 텍스트가 표시되는 세로위치를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_verticalAlign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_verticalAlign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_verticalAlign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_verticalAlign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_verticalAlign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_verticalAlign",
+      "type": "command",
+      "content": "GraphicsText.verticalAlign[= enumVAlign]"
+    },
+    {
+      "id": "p_09_verticalAlign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.11030070498343436",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumVAlign ::= 'top' | 'middle' | 'bottom'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.x = 100; \nobjGraphicsText.y = 100; \nobjGraphicsText.textAlign = \"left\"; \nobjGraphicsText.verticalAlign = \"top\";</div></td></tr><tr><th>\"top\"</th><td colspan=\"2\"><div>텍스트가 y 속성값 위치의 아랫쪽에 표시됩니다.</div></td></tr><tr><th>\"middle\"</th><td colspan=\"2\"><div>텍스트가 y 속성값 위치에 가운데 정렬되어 표시됩니다.</div></td></tr><tr><th>\"bottom\"</th><td colspan=\"2\"><div>텍스트가 y 속성값 위치의 윗쪽에 표시됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_verticalAlign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_verticalAlign",
+      "type": "pre",
+      "content": "- verticalAlign 속성값을 설정하지 않으면 \"top\" 으로 적용됩니다.\n\n- GraphicsText 의 y 속성값이 텍스트 표시의 y 축 기준위치로 처리됩니다."
+    },
+    {
+      "id": "p_01_visible",
+      "type": "heading2",
+      "content": "visible",
+      "option": {
+        "alias": "GraphicsText_visible"
+      }
+    },
+    {
+      "id": "p_02_visible",
+      "type": "pre",
+      "content": "GraphicsText 가 화면에 표시될지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_visible",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_visible",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_visible",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_visible",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_visible",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_visible",
+      "type": "command",
+      "content": "GraphicsStock.visible[= bVisible]"
+    },
+    {
+      "id": "p_09_visible",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.78885198046777",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();\n\nobjGraphicsText.visible = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Graphics 컴포넌트의 redraw() 메소드 수행 시 GraphicsText 를 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Graphics 컴포넌트의 redraw() 메소드 수행 시 GraphicsText 를 표시하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_visible",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_visible",
+      "type": "pre",
+      "content": "- visible 속성값을 변경하면 화면에 즉시 반영되지 않고 Graphics 컴포넌트의 redraw() 메소드가 수행될 때 반영됩니다.\n\n- GraphicsGroup 의 경우 visible 속성을 false 로 설정하면 하위 오브젝트도 함께 화면에 표시되지 않습니다.\n\n- visible 속성에 의해 화면에 GraphicsText 가 표시되지 않아도 오브젝트는 존재하기 때문에 스크립트로 제어가 가능합니다."
+    },
+    {
+      "id": "p_01_wordWrap",
+      "type": "heading2",
+      "content": "wordWrap",
+      "option": {
+        "alias": "GraphicsText_wordWrap"
+      }
+    },
+    {
+      "id": "p_02_wordWrap",
+      "type": "pre",
+      "content": "GraphicsText 에 표시되는 텍스트가 textwidth 속성값보다 길 경우 줄바꿈 되도록 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_wordWrap",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_wordWrap",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_wordWrap",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_wordWrap",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_wordWrap",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_wordWrap",
+      "type": "command",
+      "content": "GraphicsText.wordWrap[= enumWordwrap]"
+    },
+    {
+      "id": "p_09_wordWrap",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2527001455490475",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumWordwrap ::= 'none' | 'char'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.wordWrap = \"char\"; \nobjGraphicsText.textwidth = 100;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>자동으로 줄바꿈을 수행하지 않습니다.</div></td></tr><tr><th>\"char\"</th><td colspan=\"2\"><div>표시되는 텍스트가 textwidth 속성값보다 길면 글자 단위로 줄바꿈을 수행합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_wordWrap",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_wordWrap",
+      "type": "pre",
+      "content": "- wordWrap 속성값을 설정하지 않으면 \"none\" 으로 적용됩니다."
+    },
+    {
+      "id": "p_01_x",
+      "type": "heading2",
+      "content": "x",
+      "option": {
+        "alias": "GraphicsText_x"
+      }
+    },
+    {
+      "id": "p_02_x",
+      "type": "pre",
+      "content": "부모 오브젝트를 기준으로 GraphicsText 가 표시될 x 축 좌표값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_x",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_x",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_x",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_x",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_x",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_x",
+      "type": "command",
+      "content": "GraphicsText.x[= nX]"
+    },
+    {
+      "id": "p_09_x",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6629989196011902",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.x = 200; \nobjGraphicsText.y = 200;</div></td></tr><tr><th>nX</th><td colspan=\"2\"><div>부모 오브젝트를 기준으로 GraphicsText 가 표시될 x 축 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_x",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_x",
+      "type": "pre",
+      "content": "- x 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- GraphicsText 의 x 속성은 left 를 의미하지 않습니다.\n   textAlign, verticalAlign 속성값에 따라 x 속성값을 기준으로 텍스트가 표시될 위치가 결정됩니다.\n\n- Transform 과 관련된 메소드(scale(), rotate() 등)가 수행되어 GraphicsText 의 표시위치가 변경되어도 x 속성은 원본위치값을 유지합니다."
+    },
+    {
+      "id": "p_01_y",
+      "type": "heading2",
+      "content": "y",
+      "option": {
+        "alias": "GraphicsText_y"
+      }
+    },
+    {
+      "id": "p_02_y",
+      "type": "pre",
+      "content": "부모 오브젝트를 기준으로 GraphicsText 가 표시될 y 축 좌표값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_y",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_y",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_y",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_y",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_y",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_y",
+      "type": "command",
+      "content": "GraphicsText.y[= nY]"
+    },
+    {
+      "id": "p_09_y",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.34591446213500854",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsText = new nexacro.GraphicsText();  \n\nobjGraphicsText.x = 200; \nobjGraphicsText.y = 200;</div></td></tr><tr><th>nY</th><td colspan=\"2\"><div>부모 오브젝트를 기준으로 GraphicsText 가 표시될 y 축 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_y",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_y",
+      "type": "pre",
+      "content": "- y 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- GraphicsText 의 y 속성은 top 을 의미하지 않습니다.\n   textAlign, verticalAlign 속성값에 따라 y 속성값을 기준으로 텍스트가 표시될 위치가 결정됩니다.\n\n- Transform 과 관련된 메소드(scale(), rotate() 등)가 수행되어 GraphicsText 의 표시위치가 변경되어도 y 속성은 원본위치값을 유지합니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "GraphicsText_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "GraphicsText 를 메모리에서 완전히 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "GraphicsText.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.69741926953628",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>GraphicsText 가 정상적으로 삭제되면 true 를 반환합니다.\n\nGraphicsText 가 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- destroy() 메소드로 GraphicsText 가 삭제되어도 화면에 표시된 오브젝트가 자동으로 사라지지 않습니다.\n   Graphics 컴포넌트의 redraw() 메소드를 실행하여야 화면에 변경사항이 반영됩니다.\n\n- GraphicsText 가 하위 오브젝트를 가질 수 있는 경우 하위 오브젝트도 함께 삭제됩니다."
+    },
+    {
+      "id": "m_01getBoundRect",
+      "type": "heading2",
+      "content": "getBoundRect",
+      "option": {
+        "alias": "GraphicsText_getBoundRect"
+      }
+    },
+    {
+      "id": "m_02_getBoundRect",
+      "type": "pre",
+      "content": "GraphicsText 가 표시되는 영역정보를 Graphics 컴포넌트 기준으로 바깥쪽 외곽선 영역을 포함하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getBoundRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getBoundRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getBoundRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getBoundRect",
+      "type": "command",
+      "content": "GraphicsText.getBoundRect( );"
+    },
+    {
+      "id": "m_07_getBoundRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.6308114681566447",
+      "type": "command",
+      "content": "var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getBoundRect();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getBoundRect",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8554296121846294",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에 바깥쪽 외곽선 영역이 포함됩니다.\nstrokepen 속성값을 설정하지 않았거나 GraphicsGroup, GraphicsImage, GraphicsText 오브젝트의 경우에는 외곽선 정보가 없으며 반환되는 영역정보에 외곽선 영역이 포함되지 않습니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getBoundRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getBoundRect",
+      "type": "pre",
+      "content": "- getBoundRect() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getBoundRect() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- 부모 오브젝트를 기준으로 계산된 영역정보를 얻으려면 getOffsetBoundRect() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01getNextSibling",
+      "type": "heading2",
+      "content": "getNextSibling",
+      "option": {
+        "alias": "GraphicsText_getNextSibling"
+      }
+    },
+    {
+      "id": "m_02_getNextSibling",
+      "type": "pre",
+      "content": "GraphicsText 와 부모가 동일한 Graphics 오브젝트 중 다음 순서의 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getNextSibling",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getNextSibling",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getNextSibling",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getNextSibling",
+      "type": "command",
+      "content": "GraphicsText.getNextSibling()"
+    },
+    {
+      "id": "m_07_getNextSibling",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.3944098174072366",
+      "type": "command",
+      "content": "var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\nvar objNext = objGraphicsText.getNextSibling();\n\ntrace( objNext.toString() );"
+    },
+    {
+      "id": "m_08_getNextSibling",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.022459123452161278",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모가 동일한 다음 순서의 Graphics 오브젝트를 반환합니다.\n\n다음 순서의 Graphics 오브젝트가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getNextSibling",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getNextSibling",
+      "type": "pre",
+      "content": "- addChild() 메소드로 추가된 순서대로 Graphics 오브젝트가 저장됩니다.\n\n- 부모가 다른 Graphics 오브젝트는 반환되지 않습니다."
+    },
+    {
+      "id": "m_01getOffsetBoundRect",
+      "type": "heading2",
+      "content": "getOffsetBoundRect",
+      "option": {
+        "alias": "GraphicsText_getOffsetBoundRect"
+      }
+    },
+    {
+      "id": "m_02_getOffsetBoundRect",
+      "type": "pre",
+      "content": "GraphicsText 가 표시되는 영역정보를 Graphics 부모 오브젝트 기준으로 바깥쪽 외곽선 영역을 포함하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getOffsetBoundRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getOffsetBoundRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getOffsetBoundRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getOffsetBoundRect",
+      "type": "command",
+      "content": "GraphicsText.getOffsetBoundRect( );"
+    },
+    {
+      "id": "m_07_getOffsetBoundRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.05204542626001596",
+      "type": "command",
+      "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsText = objGroup.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getOffsetBoundRect();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getOffsetBoundRect",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7588327899471689",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에 바깥쪽 외곽선 영역이 포함됩니다.\nstrokepen 속성값을 설정하지 않았거나 GraphicsGroup, GraphicsImage, GraphicsText 오브젝트의 경우에는 외곽선 정보가 없으며 반환되는 영역정보에 외곽선 영역이 포함되지 않습니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getOffsetBoundRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getOffsetBoundRect",
+      "type": "pre",
+      "content": "- getOffsetBoundRect() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getOffsetBoundRect() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- Graphics 컴포넌트를 기준으로 계산된 영역정보를 얻으려면 getBoundRect() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01getOffsetRect",
+      "type": "heading2",
+      "content": "getOffsetRect",
+      "option": {
+        "alias": "GraphicsText_getOffsetRect"
+      }
+    },
+    {
+      "id": "m_02_getOffsetRect",
+      "type": "pre",
+      "content": "GraphicsText 가 표시되는 영역정보를 부모 오브젝트 기준으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getOffsetRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getOffsetRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getOffsetRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getOffsetRect",
+      "type": "command",
+      "content": "GraphicsText.getOffsetRect( );"
+    },
+    {
+      "id": "m_07_getOffsetRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.3155260649494873",
+      "type": "command",
+      "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsText = objGroup.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getOffsetRect();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getOffsetRect",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.23226715361409234",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsText 오브젝트의 strokepen 속성값을 설정했더라도 외곽선 영역과 관계없이 GraphicsText 오브젝트의 실제 영역이 반환됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getOffsetRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getOffsetRect",
+      "type": "pre",
+      "content": "- getOffsetRect() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getOffsetRect() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- Graphics 컴포넌트를 기준으로 계산된 영역정보를 얻으려면 getRect() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01getOffsetRegion",
+      "type": "heading2",
+      "content": "getOffsetRegion",
+      "option": {
+        "alias": "GraphicsText_getOffsetRegion"
+      }
+    },
+    {
+      "id": "m_02_getOffsetRegion",
+      "type": "pre",
+      "content": "GraphicsText 가 표시되는 영역정보를 부모 오브젝트 컴포넌트 기준으로 안쪽 외곽선 영역을 제외하고 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getOffsetRegion",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getOffsetRegion",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getOffsetRegion",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getOffsetRegion",
+      "type": "command",
+      "content": "GraphicsText.getOffsetRegion( );"
+    },
+    {
+      "id": "m_07_getOffsetRegion",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5709605080007378",
+      "type": "command",
+      "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsText = objGroup.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getOffsetRegion();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getOffsetRegion",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.062341345479480004",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsText 오브젝트의 strokepen 속성값을 설정했더라도 반환되는 영역정보에는 안쪽 외곽선 영역이 제외됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getOffsetRegion",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getOffsetRegion",
+      "type": "pre",
+      "content": "- getOffsetRegion() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getOffsetRegion() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- Graphics 컴포넌트를 기준으로 계산된 영역정보를 얻으려면 getRegion() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01getPreviousSibling",
+      "type": "heading2",
+      "content": "getPreviousSibling",
+      "option": {
+        "alias": "GraphicsText_getPreviousSibling"
+      }
+    },
+    {
+      "id": "m_02_getPreviousSibling",
+      "type": "pre",
+      "content": "GraphicsText 와 부모가 동일한 Graphics 오브젝트 중 이전 순서의 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getPreviousSibling",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getPreviousSibling",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getPreviousSibling",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getPreviousSibling",
+      "type": "command",
+      "content": "GraphicsText.getPreviousSibling()"
+    },
+    {
+      "id": "m_07_getPreviousSibling",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2915678989196002",
+      "type": "command",
+      "content": "var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\nvar objPrev = objGraphicsText.getPreviousSibling();\n\ntrace( objPrev.toString() );"
+    },
+    {
+      "id": "m_08_getPreviousSibling",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.11020185113964343",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모가 동일한 이전 순서의 Graphics 오브젝트를 반환합니다.\n\n이전 순서의 Graphics 오브젝트가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getPreviousSibling",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getPreviousSibling",
+      "type": "pre",
+      "content": "- addChild() 메소드로 추가된 순서대로 Graphics 오브젝트가 저장됩니다.\n\n- 부모가 다른 Graphics 오브젝트는 반환되지 않습니다."
+    },
+    {
+      "id": "m_01getRect",
+      "type": "heading2",
+      "content": "getRect",
+      "option": {
+        "alias": "GraphicsText_getRect"
+      }
+    },
+    {
+      "id": "m_02_getRect",
+      "type": "pre",
+      "content": "GraphicsText 의 영역정보를 Graphics 컴포넌트 기준으로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getRect",
+      "type": "command",
+      "content": "GraphicsText.getRect( );"
+    },
+    {
+      "id": "m_07_getRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.09083829118283537",
+      "type": "command",
+      "content": "var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getRect();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getRect",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.037965331711528716",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsText 오브젝트의 strokepen 속성값을 설정했더라도 외곽선 영역과 관계없이 GraphicsText 오브젝트의 실제 영역이 반환됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getRect",
+      "type": "pre",
+      "content": "- getRect() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getRect() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- 부모 오브젝트를 기준으로 계산된 영역정보를 얻으려면 getOffsetRect() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01getRegion",
+      "type": "heading2",
+      "content": "getRegion",
+      "option": {
+        "alias": "GraphicsText_getRegion"
+      }
+    },
+    {
+      "id": "m_02_getRegion",
+      "type": "pre",
+      "content": "GraphicsText 가 표시되는 영역정보를 Graphics 컴포넌트 기준으로 안쪽 외곽선 영역을 제외하고 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getRegion",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getRegion",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getRegion",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getRegion",
+      "type": "command",
+      "content": "GraphicsText.getRegion( );"
+    },
+    {
+      "id": "m_07_getRegion",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7136278503435771",
+      "type": "command",
+      "content": "var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\nvar objRect = objGraphicsText.getRegion();\n\ntrace( \"left : \" + objRect.left );"
+    },
+    {
+      "id": "m_08_getRegion",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3355110801697292",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsText 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에는 안쪽 외곽선 영역이 제외됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getRegion",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getRegion",
+      "type": "pre",
+      "content": "- getRegion() 메소드는 GraphicsText 의 표시여부와 관계없이 논리적인 영역정보를 반환하는 메소드입니다.\n   따라서 getRegion() 메소드의 반환값으로 GraphicsText 의 표시여부를 판단할 수 없으므로 사용에 주의하여야 합니다.\n\n- GraphicsText 에서 Transform 관련 메소드(scale(), rotate() 등)를 실행하면 메소드가 적용된 영역정보를 반환합니다.\n\n- 부모 오브젝트를 기준으로 계산된 영역정보를 얻으려면 getOffsetRegion() 메소드를 사용하여야 합니다.\n\n- GraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값은 오브젝트의 실제 영역을 기준으로 안쪽과 바깥쪽에 나누어 적용됩니다."
+    },
+    {
+      "id": "m_01isEmptyRect",
+      "type": "heading2",
+      "content": "isEmptyRect",
+      "option": {
+        "alias": "GraphicsText_isEmptyRect"
+      }
+    },
+    {
+      "id": "m_02_isEmptyRect",
+      "type": "pre",
+      "content": "GraphicsText 에 설정된 텍스트의 존재여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isEmptyRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isEmptyRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isEmptyRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isEmptyRect",
+      "type": "command",
+      "content": "GraphicsText.isEmptyRect()"
+    },
+    {
+      "id": "m_07_isEmptyRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7461344552651407",
+      "type": "command",
+      "content": "var objGraphicsText = new nexacro.GraphicsText(\"ABC\");\n\nvar bResult = objGraphicsText.isEmptyRect() ;"
+    },
+    {
+      "id": "m_08_isEmptyRect",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.511380434091852",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>GraphicsText 에 설정된 텍스트가 없으면 true 를 반환합니다.\n\nGraphicsText 에 설정된 텍스트가 있으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_isEmptyRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isEmptyRect",
+      "type": "pre",
+      "content": "- GraphicsText 의 font 속성과 text 속성을 모두 설정하여야 텍스트가 있는것으로 판단합니다."
+    },
+    {
+      "id": "m_01isHitTest",
+      "type": "heading2",
+      "content": "isHitTest",
+      "option": {
+        "alias": "GraphicsText_isHitTest"
+      }
+    },
+    {
+      "id": "m_02_isHitTest",
+      "type": "pre",
+      "content": "인수로 전달된 좌표위치가 GraphicsText 영역에 포함되는지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isHitTest",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isHitTest",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isHitTest",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isHitTest",
+      "type": "command",
+      "content": "GraphicsText.isHitTest( nX, nY )"
+    },
+    {
+      "id": "m_07_isHitTest",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.47908182788152165",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>확인할 위치의 x 좌표값을 pixel 단위의 숫자로 설정합니다.\n\n설정값은 Graphics 컴포넌트를 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>확인할 위치의 y 좌표값을 pixel 단위의 숫자로 설정합니다.\n\n설정값은 Graphics 컴포넌트를 기준으로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsText = this.Graphics00.getObjectByID(\"GraphicsText00\");\n\nvar bResult = objGraphicsText.isHitTest( 100, 100 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isHitTest",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6408408406254856",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>인수로 전달된 좌표위치가 GraphicsText 영역에 포함되면 true 를 반환합니다.\n\n인수로 전달된 좌표위치가 GraphicsText 영역에 포함되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_isHitTest",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isHitTest",
+      "type": "pre",
+      "content": "- 일반적으로 GraphicsText 영역은 getRect() 메소드로 반환되는 영역과 일치합니다.\n   getRect() 메소드의 반환값은 GraphicsText 의 상태에 따라 변경될 수 있으므로 isHitTest() 사용에 주의하여야 합니다.\n\n- 인수로 전달된 nX, nY 좌표는 Graphics 컴포넌트의 left, top 을 기준으로 처리됩니다."
+    },
+    {
+      "id": "m_01rotate",
+      "type": "heading2",
+      "content": "rotate",
+      "option": {
+        "alias": "GraphicsText_rotate"
+      }
+    },
+    {
+      "id": "m_02_rotate",
+      "type": "pre",
+      "content": "GraphicsText 에 회전효과를 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_rotate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_rotate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_rotate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_rotate",
+      "type": "command",
+      "content": "GraphicsText.rotate( nAngle [, nCenterX, nCenterY] );"
+    },
+    {
+      "id": "m_07_rotate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3886770256761657",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAngle</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 회전될 각도를 숫자로 설정합니다.\n\n양수로 설정 시 시계방향으로 회전합니다.\n음수로 설정 시 반시계방향으로 회전합니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>회전의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>회전의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_rotate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_rotate",
+      "type": "pre",
+      "content": "- rotate() 메소드 수행 시 Position 과 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 rotate() 메소드가 적용된 영역정보를 반환합니다.\n\n- rotate() 메소드는 GraphicsText 가 표시되는 위치를 기준으로 수행됩니다.\n   따라서 rotate() 메소드를 여러번 수행하면 회전 효과가 누적되어 적용됩니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 회전효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 rotate() 메소드가 정상적으로 수행됩니다.\n   즉, rotate() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다."
+    },
+    {
+      "id": "m_01scale",
+      "type": "heading2",
+      "content": "scale",
+      "option": {
+        "alias": "GraphicsText_scale"
+      }
+    },
+    {
+      "id": "m_02_scale",
+      "type": "pre",
+      "content": "GraphicsText 에 확대/축소 효과를 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_scale",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_scale",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_scale",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_scale",
+      "type": "command",
+      "content": "GraphicsText.scale( nScaleX, nScaleY [, nCenterX, nCenterY] );"
+    },
+    {
+      "id": "m_07_scale",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8868276202020561",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nScaleX</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 가로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsText 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsText 가 축소됩니다.</div></td></tr><tr><td>nScaleY</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 세로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsText 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsText 가 축소됩니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>확대/축소의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>확대/축소의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_scale",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_scale",
+      "type": "pre",
+      "content": "- scale() 메소드 수행 시 위치와 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 scale() 메소드가 적용된 영역정보를 반환합니다.\n\n- scale() 메소드는 GraphicsText 가 표시되는 크기를 기준으로 수행됩니다.\n   따라서 scale() 메소드를 여러번 수행하면 확대/축소 효과가 누적되어 적용됩니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 확대/축소 효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 scale() 메소드가 정상적으로 수행됩니다.\n   즉, scale() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다."
+    },
+    {
+      "id": "m_01setClipRect",
+      "type": "heading2",
+      "content": "setClipRect",
+      "option": {
+        "alias": "GraphicsText_setClipRect"
+      }
+    },
+    {
+      "id": "m_02_setClipRect",
+      "type": "pre",
+      "content": "GraphicsText 의 일부 영역만 표시되게 Clipping 할 영역의 좌표를 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setClipRect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setClipRect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setClipRect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setClipRect",
+      "type": "command",
+      "content": "GraphicsText.setClipRect( nX, nY, nWidth, nHeight );"
+    },
+    {
+      "id": "m_07_setClipRect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9874968007363625",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 x 좌표를 숫자로 설정합니다.\n\n설정값은 GraphicsText 의 x 속성값 위치를 0 으로 가정하고 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 y 좌표를 숫자로 설정합니다.\n\n설정값은 GraphicsText 의 y 속성값 위치를 0 으로 가정하고 처리됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 너비를 숫자로 설정합니다.\n\n설정값은 nX 파라미터값을 기준으로 처리됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 높이를 숫자로 설정합니다.\n\n설정값은 nY 파라미터값을 기준으로 처리됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setClipRect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setClipRect",
+      "type": "pre",
+      "content": "- GraphicsText 영역에서 Clipping 영역으로 설정된 부분만 화면에 표시됩니다.\n   Transform 과 관련된 메소드(scale(), rotate() 등)가 적용된 경우 GraphicsText 의 원본영역을 기준으로 Clipping 됩니다.\n\n- \"setClipRect( null );\" 형태로 파라미터에 null 설정 시 Clipping 영역 설정이 취소됩니다.\n\n- Clipping 이 적용되어도 GraphicsText 의 Position 관련 속성값은 변경되지 않습니다."
+    },
+    {
+      "id": "m_01setTransform",
+      "type": "heading2",
+      "content": "setTransform",
+      "option": {
+        "alias": "GraphicsText_setTransform"
+      }
+    },
+    {
+      "id": "m_02_setTransform",
+      "type": "pre",
+      "content": "GraphicsText 의 원본 위치를 기준으로 Transform 관련 효과를 연속적으로 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setTransform",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setTransform",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setTransform",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setTransform",
+      "type": "command",
+      "content": "GraphicsText.setTransform( strMethod );"
+    },
+    {
+      "id": "m_07_setTransform",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.43912672373390205",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMethod</td><td>String</td><td colspan=\"2\"><div>GraphicsText 에 적용할 Transform 관련 메소드를 \",\" 로 구분하여 설정합니다.\ntranslate(), scale(), rotate(), shear() 메소드를 사용할 수 있습니다.\nnull 값 설정 시 transform 효과가 지정되지 않은 상태로 초기화합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsText = new nexacro.GraphicsText();\nthis.Graphics00.addChild(\"GraphicsText00\", objGraphicsText);\n\nobjGraphicsText.setTransform( \"translate(50, 50),rotate(20)\" );\n\nobjGraphicsText.setTransform(null);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setTransform",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setTransform",
+      "type": "pre",
+      "content": "- setTransform() 메소드 수행 시 위치와 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 setTransform() 메소드가 적용된 영역정보를 반환합니다.\n\n- setTransform() 메소드는 GraphicsText 의 원본 위치를 기준으로 수행됩니다.\n   따라서 setTransform() 메소드를 여러번 수행해도 효과가 누적되어 적용되지 않습니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 setTransform() 메소드가 정상적으로 수행됩니다.\n   즉, setTransform() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다.\n\n- 메소드 실행 시 strMethod 파라미터 값을 null로 설정하면 transform 효과가 지정되지 않은 상태로 초기화합니다.\n  setTransform 메소드로 설정한 transform 효과 뿐 아니라 translate, scale, rotate, shear 메소드로 개별 설정한 상태도 초기화합니다."
+    },
+    {
+      "id": "m_01shear",
+      "type": "heading2",
+      "content": "shear",
+      "option": {
+        "alias": "GraphicsText_shear"
+      }
+    },
+    {
+      "id": "m_02_shear",
+      "type": "pre",
+      "content": "GraphicsText 에 비틀기 효과를 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_shear",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_shear",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_shear",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_shear",
+      "type": "command",
+      "content": "GraphicsText.shear( nRadianX, nRadianY [, nCenterX, nCenterY] );"
+    },
+    {
+      "id": "m_07_shear",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8464626774898005",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRadianX</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 x 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nRadianY</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 y 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>비틀기의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>비틀기의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_shear",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_shear",
+      "type": "pre",
+      "content": "- shear() 메소드 수행 시 위치와 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 shear() 메소드가 적용된 영역정보를 반환합니다.\n\n- shear() 메소드는 GraphicsText 가 표시되는 모습을 기준으로 수행됩니다.\n   따라서 shear() 메소드를 여러번 수행하면 비틀기 효과가 누적되어 적용됩니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 비틀기 효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 shear() 메소드가 정상적으로 수행됩니다.\n   즉, shear() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다."
+    },
+    {
+      "id": "m_01toString",
+      "type": "heading2",
+      "content": "toString",
+      "option": {
+        "alias": "GraphicsText_toString"
+      }
+    },
+    {
+      "id": "m_02_toString",
+      "type": "pre",
+      "content": "GraphicsText 의 타입을 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toString",
+      "type": "command",
+      "content": "GraphicsText.toString();"
+    },
+    {
+      "id": "m_08_toString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8703096424368013",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>일반적으로 \"[object GraphicsText]\" 형태의 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01transform",
+      "type": "heading2",
+      "content": "transform",
+      "option": {
+        "alias": "GraphicsText_transform"
+      }
+    },
+    {
+      "id": "m_02_transform",
+      "type": "pre",
+      "content": "GraphicsText 에 Transform 관련 효과를 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_transform",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_transform",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_transform",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_transform",
+      "type": "command",
+      "content": "GraphicsText.transform( nScaleX, nShearX, nShearY, nScaleY, nTransX, nTransY );"
+    },
+    {
+      "id": "m_07_transform",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5035829281876707",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nScaleX</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 가로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsText 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsText 가 축소됩니다.</div></td></tr><tr><td>nShearX</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 x 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nShearY</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 y 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nScaleY</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 세로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsText 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsText 가 축소됩니다.</div></td></tr><tr><td>nTransX</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 x 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nTransY </td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 y 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsText = new nexacro.GraphicsText();\n\nobjGraphicsText.transform( 1.5, 0, 0, 1.5, 0, 0 );    // scale(1.5,1.5) 와 동일\nobjGraphicsText.transform( 1, 0, 0, 1, 50, 50 );      // translate(50, 50) 와 동일</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_transform",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_transform",
+      "type": "pre",
+      "content": "- transform() 메소드 수행 시 위치와 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 transform() 메소드가 적용된 영역정보를 반환합니다.\n\n- transform() 메소드는 GraphicsText 가 표시되는 모습을 기준으로 수행됩니다.\n   따라서 transform() 메소드를 여러번 수행하면 효과가 누적되어 적용됩니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 transform() 메소드가 정상적으로 수행됩니다.\n   즉, transform() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다."
+    },
+    {
+      "id": "m_01translate",
+      "type": "heading2",
+      "content": "translate",
+      "option": {
+        "alias": "GraphicsText_translate"
+      }
+    },
+    {
+      "id": "m_02_translate",
+      "type": "pre",
+      "content": "GraphicsText 의 위치가 이동되는 효과를 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_translate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_translate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_translate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_translate",
+      "type": "command",
+      "content": "GraphicsText.translate( nTransX, nTransY );"
+    },
+    {
+      "id": "m_07_translate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.06324418710972601",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTransX</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 x 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nTransY</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 y 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_translate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_translate",
+      "type": "pre",
+      "content": "- translate() 메소드 수행 시 위치와 관련된 속성(x, y 등)은 변경되지 않습니다.\n   영역정보를 반환하는 getRect() 와 같은 메소드는 translate() 메소드가 적용된 영역정보를 반환합니다.\n\n- translate() 메소드는 GraphicsText 가 표시되는 위치를 기준으로 수행됩니다.\n   따라서 translate() 메소드를 여러번 수행하면 이동 효과가 누적되어 적용됩니다.\n\n- GraphicsGroup 의 경우 하위 오브젝트에 이동 효과가 동일하게 적용됩니다.\n\n- GraphicsText 에 부모 오브젝트가 설정되어 있어야 translate() 메소드가 정상적으로 수행됩니다.\n   즉, translate() 메소드 수행 전에 addChild() 메소드로 GraphicsText 를 등록하여야 합니다."
+    }
+  ]
+}
