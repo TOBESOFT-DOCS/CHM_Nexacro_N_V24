@@ -89,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7682989908588742",
+      "id": "u_10_0.9604303535721174",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XAgent00.addport = 3;</div></td></tr><tr><th>numAddPort</th><td colspan=\"2\"><div>X-AGENT 서버와 통신 실패 시 연결을 시도할 다른 포트 범위를 설정합니다.\n\n속성값을 5로 설정한 경우 49020 포트(port 속성값)로 연결을 시도하고 실패 시 1씩 더한 값을 포트값으로 설정해 49021~49025 포트로 연결을 시도합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -107,6 +107,230 @@
       "id": "p_12_addport",
       "type": "pre",
       "content": "- addport 속성값을 설정하지 않으면 5로 적용됩니다."
+    },
+    {
+      "id": "p_01_adminapiurl",
+      "type": "heading2",
+      "content": "adminapiurl",
+      "option": {
+        "alias": "XAgent_adminapiurl"
+      }
+    },
+    {
+      "id": "p_02_adminapiurl",
+      "type": "pre",
+      "content": "X-AGENT Admin API URL 정보를 설정합니다."
+    },
+    {
+      "id": "p_03_adminapiurl",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_adminapiurl",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_adminapiurl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_adminapiurl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_adminapiurl",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_adminapiurl",
+      "type": "command",
+      "content": "XAgent.adminapiurl [=strAdminapiurl]"
+    },
+    {
+      "id": "p_09_adminapiurl",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2490391416201806",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XAgent00.adminapiurl = \"https://www.example.com/api/event\";</div></td></tr><tr><th>strAdminapiurl</th><td colspan=\"2\"><div>X-AGENT Admin API URL 정보를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_adminapiurl",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_adminapiurl",
+      "type": "pre",
+      "content": "- X-AGENT가 이벤트를 보고할 Admin 서버의 엔드포인트 주소입니다."
+    },
+    {
+      "id": "p_01_license",
+      "type": "heading2",
+      "content": "license",
+      "option": {
+        "alias": "XAgent_license"
+      }
+    },
+    {
+      "id": "p_02_license",
+      "type": "pre",
+      "content": "X-AGENT 서버의 라이선스를 설정합니다."
+    },
+    {
+      "id": "p_03_license",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_license",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_license",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_license",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_license",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_license",
+      "type": "command",
+      "content": "XAgent.license [=strLicense]"
+    },
+    {
+      "id": "p_09_license",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.02844717851166434",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XAgent00.license = \"http://localhost:8080/license_xagent.xml\";\nthis.XAgent00.license = \"data:application/xml;base64,PD9ljZW5zZT4=\";\nthis.XAgent00.license = \"file:///C:/license_xagent.xml\";\nthis.XAgent00.license = \"\\server\\share\\license_xagent.xml\";</div></td></tr><tr><th>strLicense</th><td colspan=\"2\"><div>X-AGENT 서버의 라이선스를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "XAgent_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "XAgent 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "XAgent.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.008088946547047948",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
     },
     {
       "id": "p_01_port",
@@ -167,7 +391,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.691258474198543",
+      "id": "u_10_0.6133995945850806",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>numPort</th><td colspan=\"2\"><div>X-AGENT 서버와 통신할 포트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -185,6 +409,74 @@
       "id": "p_12_port",
       "type": "pre",
       "content": "- port 속성값을 설정하지 않으면 49020으로 적용됩니다."
+    },
+    {
+      "id": "p_01_project",
+      "type": "heading2",
+      "content": "project",
+      "option": {
+        "alias": "XAgent_project"
+      }
+    },
+    {
+      "id": "p_02_project",
+      "type": "pre",
+      "content": "X-AGENT 서버의 프로젝트명을 설정합니다."
+    },
+    {
+      "id": "p_03_project",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_project",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_project",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_project",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_project",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_project",
+      "type": "command",
+      "content": "XAgent.project [=strProejct]"
+    },
+    {
+      "id": "p_09_project",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6001796162516803",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strProejct</th><td colspan=\"2\"><div>X-AGENT 서버의 프로젝트명을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
     },
     {
       "id": "p_01_protocol",
@@ -245,7 +537,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2725906447982287",
+      "id": "u_10_0.2655935244400527",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumProtocol ::= 'ws' | 'wss'</div></td></tr><tr><th>\"ws\"</th><td colspan=\"2\"><div>WebSocket</div></td></tr><tr><th>\"wss\"</th><td colspan=\"2\"><div>WebSocket Secure</div></td></tr></tbody></table>",
       "option": {
@@ -265,30 +557,25 @@
       "content": "- protocol 속성값을 설정하지 않으면 \"ws\"로 적용됩니다."
     },
     {
-      "id": "u_17",
-      "type": "heading1",
-      "content": "메서드"
-    },
-    {
-      "id": "m_01callMethod",
+      "id": "p_01_updateurl",
       "type": "heading2",
-      "content": "callMethod",
+      "content": "updateurl",
       "option": {
-        "alias": "XAgent_callMethod"
+        "alias": "XAgent_updateurl"
       }
     },
     {
-      "id": "m_02_callMethod",
+      "id": "p_02_updateurl",
       "type": "pre",
-      "content": "X-AGENT 서버를 통해 X-AGENT 상태를 확인하거나 모듈을 설치하고 모듈을 실행하는 메서드입니다."
+      "content": "X-AGENT 모듈 업데이트 URL 정보를 설정합니다."
     },
     {
-      "id": "m_03_callMethod",
+      "id": "p_03_updateurl",
       "type": "headline",
       "content": "지원 환경"
     },
     {
-      "id": "m_04_callMethod",
+      "id": "p_04_updateurl",
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
@@ -298,24 +585,39 @@
       }
     },
     {
-      "id": "m_05_callMethod",
+      "id": "p_05_updateurl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_updateurl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_updateurl",
       "type": "headline",
       "content": "문법"
     },
     {
-      "id": "m_06_callMethod",
+      "id": "p_08_updateurl",
       "type": "command",
-      "content": "XAgent.callMethod(srvId, moduleName, funcName, paramObj)"
+      "content": "XAgent.updateurl [=strUpdateurl]"
     },
     {
-      "id": "m_07_callMethod",
+      "id": "p_09_updateurl",
       "type": "headline",
-      "content": "파라미터"
+      "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6947660150319367",
+      "id": "u_10_0.9303774745852736",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>srvId</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서비스명\n\n사용할 수 있는 서비스명은 아래와 같습니다.\n- project: 프로젝트 초기화\n- version: version 정보 확인\n- update-module: 1개 모듈 업데이트\n- update-modules: 1개 이상 모듈 업데이트\n- update-module-check: 모듈 업데이트 중 다운로드 완료 여부 확인\n- status: 서버 실행 상태 확인\n- installed: 타사 앱 설치 여부 확인\n- execute: 모듈 실행</div></td></tr><tr><td>moduleName</td><td>String</td><td colspan=\"2\"><div>모듈 이름</div></td></tr><tr><td>funcName</td><td>String</td><td colspan=\"2\"><div>함수명\n\nfuncName을 별도로 지정하지 않는 경우에는 srvId와 같은 값으로 설정합니다. \nDLL 모듈을 로드하고 함수를 실행하는 execute 서비스의 경우에는 해당 함수명을 설정합니다.</div></td></tr><tr><td>paramObj</td><td>Object</td><td colspan=\"2\"><div>파라미터\n\nX-AGENT 서비스 별 설정할 수 있는 파라미터는 하단 표를 참고하세요.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// status\nvar srvId = \"status\";\nvar moduleName = \"XAgent\";\nvar funName = \"status\";\nvar paramObj = {\"type\" : \"server\"};\nthis.XAgent00.callMethod(srvId,moduleName,funName,paramObj);\n\n// version\nvar srvId = \"version\";\nvar moduleName = \"XAgent\";\nvar funName = \"version\";\nvar paramObj = \"\";\nthis.XAgent00.callMethod(srvId, moduleName, funName, paramObj);\n\n// execute\nvar srvId = \"execute\";\nvar moduleName = \"ModuleTest\";\nvar funName = \"test\";\nvar paramObj = {\"parameters\":{\"param1\": \"value1\",\"param2\": \"value2\",\"param3\": \"value3\"}};\nthis.XAgent00.callMethod(srvId,moduleName,funName,paramObj);</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><tbody><tr><th>strUpdateurl</th><td colspan=\"2\"><div>X-AGENT 모듈 업데이트 URL 정보를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -323,14 +625,72 @@
       }
     },
     {
-      "id": "m_09_callMethod",
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01configure",
+      "type": "heading2",
+      "content": "configure",
+      "option": {
+        "alias": "XAgent_configure"
+      }
+    },
+    {
+      "id": "m_02_configure",
+      "type": "pre",
+      "content": "X-AGENT 프로젝트 설정을 요청하는 메서드입니다."
+    },
+    {
+      "id": "m_03_configure",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_configure",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_configure",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_configure",
+      "type": "command",
+      "content": "XAgent.configure(strProject, strLicense, strUpdateUrl, strAdminApiUrl)"
+    },
+    {
+      "id": "m_07_configure",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5739233411042501",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strProject</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서버 프로젝트 이름</div></td></tr><tr><td>strLicense</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서버 라이선스</div></td></tr><tr><td>strUpdateUrl</td><td>String</td><td colspan=\"2\"><div>X-AGENT 모듈 업데이트 URL 정보</div></td></tr><tr><td>strAdminApiUrl</td><td>String</td><td colspan=\"2\"><div>X-AGENT Admin API URL 정보</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strProject = \"com.nexacro.xagent\"\nvar strLicense = \"http://localhost:8080/license_xagent.xml\"\nvar strUpdateUrl = \"http://www.localhost:8080/xagent_update/\"\nvar strAdminApiUrl = \"http://www.localhost:8080/xagent_admin_api/event/\"\n\nthis.XAgent00.configure(strProject, strLicense, strUpdateUrl, strAdminApiUrl);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_configure",
       "type": "headline",
       "content": "참고"
     },
     {
-      "id": "m_10_callMethod",
+      "id": "m_10_configure",
       "type": "pre",
-      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n\n- X-AGENT 서비스 별 설정할 수 있는 파라미터\n\n\n- X-AGENT 서비스에 대한 상세한 설명은 아래 문서를 참고해주세요.\n   https://docs.tobesoft.com/x_agent_guide_ko/xagent_component#xagent_service"
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n\n- 메서드가 정상적으로 실행되면 아래 경로에 project.json 파일이 생성됩니다.\n  C:\\Users\\%USERNAME%\\AppData\\LocalLow\\TOBESOFT\\X-AGENT\\Projects\\[프로젝트명]\\project.json\n\n- 메서드 실행 시 파라미터값은 project, license, updateurl, adminapiurl 속성값을 변경하지는 않습니다."
     },
     {
       "id": "m_01connect",
@@ -343,7 +703,7 @@
     {
       "id": "m_02_connect",
       "type": "pre",
-      "content": "X-AGENT 서버에 연결합니다."
+      "content": "X-AGENT 서버와 연결을 요청하는 메서드입니다."
     },
     {
       "id": "m_03_connect",
@@ -353,7 +713,7 @@
     {
       "id": "m_04_connect",
       "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -368,7 +728,22 @@
     {
       "id": "m_06_connect",
       "type": "command",
-      "content": "XAgent.connect()"
+      "content": "XAgent.connect([strProject [,strLicense [,strUpdateUrl [,strAdminApiUrl]]]]"
+    },
+    {
+      "id": "m_07_connect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5946694370453587",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strProject</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서버 프로젝트 이름</div></td></tr><tr><td>strLicense</td><td>String</td><td colspan=\"2\"><div>X-AGENT 서버 라이선스</div></td></tr><tr><td>strUpdateUrl</td><td>String</td><td colspan=\"2\"><div>X-AGENT 모듈 업데이트 URL 정보</div></td></tr><tr><td>strAdminApiUrl</td><td>String</td><td colspan=\"2\"><div>X-AGENT Admin API URL 정보</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
     },
     {
       "id": "m_09_connect",
@@ -378,7 +753,7 @@
     {
       "id": "m_10_connect",
       "type": "pre",
-      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다."
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 X-AGENT 버전 정보를 확인할 수 있습니다.\n   var strVersion = e.param; // \"2024.999.999\"\n\n- 서버 연결이 정상적으로 실행되면 아래 경로에 project.json 파일이 생성됩니다.\n  C:\\Users\\%USERNAME%\\AppData\\LocalLow\\TOBESOFT\\X-AGENT\\Projects\\[프로젝트명]\\project.json\n\n- 메서드 실행 시 파라미터값은 project, license, updateurl, adminapiurl 속성값을 변경하지는 않습니다."
     },
     {
       "id": "m_01disconnect",
@@ -391,7 +766,7 @@
     {
       "id": "m_02_disconnect",
       "type": "pre",
-      "content": "X-AGENT 서버와 연결을 종료합니다."
+      "content": "X-AGENT 서버와 연결 종료를 요청하는 메서드입니다."
     },
     {
       "id": "m_03_disconnect",
@@ -427,6 +802,432 @@
       "id": "m_10_disconnect",
       "type": "pre",
       "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01execute",
+      "type": "heading2",
+      "content": "execute",
+      "option": {
+        "alias": "XAgent_execute"
+      }
+    },
+    {
+      "id": "m_02_execute",
+      "type": "pre",
+      "content": "X-AGENT 서버에 설치된 모듈 실행을 요청하는 메서드입니다."
+    },
+    {
+      "id": "m_03_execute",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_execute",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_execute",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_execute",
+      "type": "command",
+      "content": "XAgent.execute(strModule, strFunc, objParam)"
+    },
+    {
+      "id": "m_07_execute",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.43493191175113866",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strModule</td><td>String</td><td colspan=\"2\"><div>모듈 이름</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>모듈 함수 이름</div></td></tr><tr><td>objParam</td><td>Object</td><td colspan=\"2\"><div>모듈 함수에 전달할 인수\nJSON 오브젝트 형식으로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strModuleName = \"xagent_module\";\nvar strFunName = \"testFunc\";\nvar strParam = {\"param1\": \"value1\", \"param2\": \"value2\", \"param3\": \"value3\"};\n\nthis.XAgent00.execute(strModuleName, strFunName, strParam);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_execute",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_execute",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 실행 모듈 함수의 반환값을 JSON 형태로 확인할 수 있습니다.\n   \n   {\n       [\n           \"event\",\n               {\n                   \"eventId\": \"event\",\n                   \"parameters\": \"{\\\"parameters\\\":{\\\"key\\\":\\\"value\\\"}}\"\n               }\n       ]\n   }"
+    },
+    {
+      "id": "m_01installed",
+      "type": "heading2",
+      "content": "installed",
+      "option": {
+        "alias": "XAgent_installed"
+      }
+    },
+    {
+      "id": "m_02_installed",
+      "type": "pre",
+      "content": "윈도우 레지스트리 정보를 이용해 타사 앱 설치 여부를 확인하는 메서드입니다."
+    },
+    {
+      "id": "m_03_installed",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_installed",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_installed",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_installed",
+      "type": "command",
+      "content": "XAgent.installed(strRegistryPath, strRegistryKey)"
+    },
+    {
+      "id": "m_07_installed",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24178915477484897",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRegistryPath</td><td>String</td><td colspan=\"2\"><div>아래 경로에 있는 레지스트리 CLSID(GUID)\nComputer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{registryPath}</div></td></tr><tr><td>strRegistryKey</td><td>String</td><td colspan=\"2\"><div>레지스트리 키</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strRegistryPath = \"{9E5A2E5A-4E6A-4E3A-8A3A-3A3E5A2E9E5A}\";\nvar strRegistryKey = \"DisplayName\";\n\nthis.XAgent00.installed(strRegistryPath, strRegistryKey );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_installed",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_installed",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 레지스트리 키 값을 확인할 수 있습니다.\n   var strRegistryKeyValue = e.param; // \"24.0.0.1\";"
+    },
+    {
+      "id": "m_01status",
+      "type": "heading2",
+      "content": "status",
+      "option": {
+        "alias": "XAgent_status"
+      }
+    },
+    {
+      "id": "m_02_status",
+      "type": "pre",
+      "content": "X-AGENT 서버 실행 상태 정보를 요청하는 메서드입니다."
+    },
+    {
+      "id": "m_03_status",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_status",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_status",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_status",
+      "type": "command",
+      "content": "XAgent.status(strType);"
+    },
+    {
+      "id": "m_07_status",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7034088046051082",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>상태를 확인할 대상을 설정합니다.\n\n- \"all\":  X-AGENT 서버, 모듈 상태 정보\n  파라미터 값을 설정하지 않은 경우 \"all\"로 동작합니다.\n- \"server\": X-AGENT 서버 상태 정보\n- \"process\":  X-AGENT 모듈 상태 정보</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_status",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_status",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 요청한 상태 정보를 JSON 형태로 확인할 수 있습니다.\n   4가지 상태 정보를 반환합니다.\n   - \"RUNNING\": 실행 중\n   - \"STOPPED\": 중지 상태\n   - \"PAUSED\": 일시 중지 상태\n   - \"IDLE\": 대기 상태\n   \n   {\n       \"server\",\n       \"RUNNING\",\n       \"process\",\n       [\n           { \"slot\": 0, \"status\": \"RUNNING\" },\n           { \"slot\": 1, \"status\": \"RUNNING\" },\n           { \"slot\": 2, \"status\": \"STOPPED\" },\n           { \"slot\": 3, \"status\": \"STOPPED\" },\n           { \"slot\": 4, \"status\": \"STOPPED\" },\n           { \"slot\": 5, \"status\": \"STOPPED\" },\n           { \"slot\": 6, \"status\": \"STOPPED\" },\n           { \"slot\": 7, \"status\": \"STOPPED\" },\n           { \"slot\": 8, \"status\": \"STOPPED\" },\n           { \"slot\": 9, \"status\": \"STOPPED\" }\n       ]\n   }"
+    },
+    {
+      "id": "m_01updateModule",
+      "type": "heading2",
+      "content": "updateModule",
+      "option": {
+        "alias": "XAgent_updateModule"
+      }
+    },
+    {
+      "id": "m_02_updateModule",
+      "type": "pre",
+      "content": "X-AGENT 서버에 모듈 업데이트를 요청하는 메서드입니다"
+    },
+    {
+      "id": "m_03_updateModule",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_updateModule",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_updateModule",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_updateModule",
+      "type": "command",
+      "content": "XAgent.updateModule(strName, strVersion, strFile, strProject[, bForceInstall])"
+    },
+    {
+      "id": "m_07_updateModule",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.16643126762899274",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>모듈 이름</div></td></tr><tr><td>strVersion</td><td>String</td><td colspan=\"2\"><div>업데이트 모듈 버전\n모듈 파일 내 META-INF 폴더에 있는 module.json 파일 내 version 값과 같은 값을 설정합니다.</div></td></tr><tr><td>strFile</td><td>String</td><td colspan=\"2\"><div>업데이트 모듈 파일 이름</div></td></tr><tr><td>strProject</td><td>String</td><td colspan=\"2\"><div>프로젝트 이름</div></td></tr><tr><td>bForceInstall</td><td>Boolean</td><td colspan=\"2\"><div>version과 상관 없이 강제 업데이트 여부를 설정합니다.\n값을 설정하지 않으면 false로 적용됩니다.\nfalse인 경우에는 상위 버전인 경우에만 업데이트를 수행합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XAgent00.updateModule(\"xagent\", “1.1”, “xagent_1.1.zip\", \"com.nexacro.xagent\", true);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_updateModule",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_updateModule",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 모듈 정보를 JSON 형태로 확인할 수 있습니다.\n   \n   {\n      \"update-module\": [\n           {\n              \"name\": \"ModuleTest\",\n              \"version\": \"1.0\",\n              \"project\": \"nexacro.example.moduletest\"\n           }\n       ]\n   }"
+    },
+    {
+      "id": "m_01updateModuleCheck",
+      "type": "heading2",
+      "content": "updateModuleCheck",
+      "option": {
+        "alias": "XAgent_updateModuleCheck"
+      }
+    },
+    {
+      "id": "m_02_updateModuleCheck",
+      "type": "pre",
+      "content": "X-AGENT 모듈 업데이트의 다운로드 상태 정보를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_updateModuleCheck",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_updateModuleCheck",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_updateModuleCheck",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_updateModuleCheck",
+      "type": "command",
+      "content": "XAgent.updateModuleCheck()"
+    },
+    {
+      "id": "m_09_updateModuleCheck",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_updateModuleCheck",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 모듈 업데이트의 다운로드 상태 정보를 확인할 수 있습니다.\n   4가지 상태 정보를 반환합니다.\n   - \"Idle\": 다운로드 중\n   - \"Checking for Updates\": 업데이트 확인 중\n   - \"Downloading\": 다운로드 중\n   - \"Installing\": 설치 중\n   - \"Completed\": 업데이트 완료\n   - \"Failed\": 업데이트 실패\n   var strUpdateStatus = e.param; // \"Completed\""
+    },
+    {
+      "id": "m_01updateModules",
+      "type": "heading2",
+      "content": "updateModules",
+      "option": {
+        "alias": "XAgent_updateModules"
+      }
+    },
+    {
+      "id": "m_02_updateModules",
+      "type": "pre",
+      "content": "X-AGENT 서버에 여러 모듈 업데이트를 요청하는 메서드입니다"
+    },
+    {
+      "id": "m_03_updateModules",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_updateModules",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_updateModules",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_updateModules",
+      "type": "command",
+      "content": "XAgent.updateModules(strProject)"
+    },
+    {
+      "id": "m_07_updateModules",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4069225529515129",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strProject</td><td>String</td><td colspan=\"2\"><div>프로젝트 이름</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XAgent00.updateModules(“com.nexacro.xagent”);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_updateModules",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_updateModules",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n\n- updateurl 속성에 설정된 경로 또는 connect, configure 메서드 실행 시 설정한 경로에서 modules.json 파일을 참조해 모듈 업데이트를 실행합니다."
+    },
+    {
+      "id": "m_01version",
+      "type": "heading2",
+      "content": "version",
+      "option": {
+        "alias": "XAgent_version"
+      }
+    },
+    {
+      "id": "m_02_version",
+      "type": "pre",
+      "content": "X-AGENT 서버 버전, 모듈 버전 정보를 요청하는 메서드입니다."
+    },
+    {
+      "id": "m_03_version",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_version",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_version",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_version",
+      "type": "command",
+      "content": "XAgent.version([strType])"
+    },
+    {
+      "id": "m_07_version",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5258735540256771",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>버전 정보를 요청할 대상을 설정합니다.\n\n- \"all\":  X-AGENT 서버, 모듈 버전 정보\n  파라미터 값을 설정하지 않은 경우 \"all\"로 동작합니다.\n- \"server\": X-AGENT 서버 버전 정보\n- \"modules\":  X-AGENT 모듈 버전 정보</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XAgent00.version();\nthis.XAgent00.version(\"server\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_version",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_version",
+      "type": "pre",
+      "content": "- 성공 시 onsuccess, 실패 시 onerror 이벤트가 발생합니다.\n   onsuccess 이벤트 발생 시 XAgentEventInfo 오브젝트의 param 속성값에서 요청한 버전 정보를 JSON 형태로 확인할 수 있습니다.\n   \n   {\n       \"server\":\"2024,1,10,1\",\n       \"modules\":[\n           {\"name\":\"example1\",\"version\":\"2023,12,10,1\"},\n           {\"name\":\"example2\",\"version\":\"2023,12,12,9\"},\n           {\"name\":\"example3\",\"version\":\"2024,12,16,999\"},\n           {\"name\":\"ModuleTest\",\"version\":\"1.0.1\"}\n       ],\n   }"
     },
     {
       "id": "u_18",
@@ -478,7 +1279,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5346413901381651",
+      "id": "u_10_0.26055833491867897",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XAgent</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XAgentErrorEventInfo\" string=\"XAgentErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -532,7 +1333,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.41181424551960344",
+      "id": "u_10_0.14049870350873994",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XAgent</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XAgentEventInfo\" string=\"XAgentEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
