@@ -1,0 +1,457 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "중복실행 불가로 설정된 어플리케이션을 중복으로 실행 시 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_apparguments",
+      "type": "heading2",
+      "content": "apparguments",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_apparguments"
+      }
+    },
+    {
+      "id": "p_02_apparguments",
+      "type": "pre",
+      "content": "나중에 실행된 어플리케이션의 AppVariables 영역 변수를 Collection 형태로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_apparguments",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_apparguments",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_apparguments",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_apparguments",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_apparguments",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_apparguments",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.apparguments"
+    },
+    {
+      "id": "p_11_apparguments",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_apparguments",
+      "type": "pre",
+      "content": "- apparguments 속성은 Collection 접근방식을 사용할 수 있습니다.\n   e.apparguments[0], e.apparguments[\"val1\"], e.apparguments.length 등의 방법을 사용합니다.\n\n- Environment 의 cookies 영역에 정의된 변수는 e.cookiearguments 속성으로 전달됩니다.\n   Environment 의 Variables 영역에 정의된 변수는 e.envarguments 속성으로 전달됩니다."
+    },
+    {
+      "id": "p_01_cookiearguments",
+      "type": "heading2",
+      "content": "cookiearguments",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_cookiearguments"
+      }
+    },
+    {
+      "id": "p_02_cookiearguments",
+      "type": "pre",
+      "content": "나중에 실행된 어플리케이션의 Cookies 영역 변수를 Collection 형태로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_cookiearguments",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cookiearguments",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cookiearguments",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cookiearguments",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cookiearguments",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cookiearguments",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.cookiearguments"
+    },
+    {
+      "id": "p_11_cookiearguments",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_cookiearguments",
+      "type": "pre",
+      "content": "- cookiearguments 속성은 Collection 접근방식을 사용할 수 있습니다.\n   e.cookiearguments[0], e.cookiearguments[\"val1\"], e.cookiearguments.length 등의 방법을 사용합니다.\n\n- Application 의 AppVariables 영역에 정의된 변수는 e.apparguments 속성으로 전달됩니다.\n   Environment 의 Variables 영역에 정의된 변수는 e.envarguments 속성으로 전달됩니다."
+    },
+    {
+      "id": "p_01_envarguments",
+      "type": "heading2",
+      "content": "envarguments",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_envarguments"
+      }
+    },
+    {
+      "id": "p_02_envarguments",
+      "type": "pre",
+      "content": "나중에 실행된 어플리케이션의 Variables 영역 변수를 Collection 형태로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_envarguments",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_envarguments",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_envarguments",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_envarguments",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_envarguments",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_envarguments",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.envarguments"
+    },
+    {
+      "id": "p_11_envarguments",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_envarguments",
+      "type": "pre",
+      "content": "- envarguments 속성은 Collection 접근방식을 사용할 수 있습니다.\n   e.envarguments[0], e.envarguments[\"val1\"], e.envarguments.length 등의 방법을 사용합니다.\n\n- Environment 의 cookies 영역에 정의된 변수는 e.cookiearguments 속성으로 전달됩니다.\n   Application 의 AppVariables 영역에 정의된 변수는 e.apparguments 속성으로 전달됩니다."
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5198725468571058",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_fromobject",
+      "type": "heading2",
+      "content": "fromobject",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_fromobject"
+      }
+    },
+    {
+      "id": "p_02_fromobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromobject",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.fromobject"
+    },
+    {
+      "id": "p_09_fromobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.97673840493265",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromobject",
+      "type": "pre",
+      "content": "- onlbuttondown 과 같이 상위로 전파되는 이벤트에서 fromobject 속성은 이벤트가 최초로 발생한 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_fromreferenceobject",
+      "type": "heading2",
+      "content": "fromreferenceobject",
+      "option": {
+        "alias": "DuplicateExecutionEventInfo_fromreferenceobject"
+      }
+    },
+    {
+      "id": "p_02_fromreferenceobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트 또는 서브컨트롤을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromreferenceobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromreferenceobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromreferenceobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromreferenceobject",
+      "type": "command",
+      "content": "DuplicateExecutionEventInfo.fromreferenceobject"
+    },
+    {
+      "id": "p_09_fromreferenceobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6084694314523867",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromreferenceobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromreferenceobject",
+      "type": "pre",
+      "content": "- Calendar 와 같이 서브컨트롤이 있는 컴포넌트에서 서브컨트롤에 의해 이벤트가 발생한 경우 fromreferenceobject 속성은 서브컨트롤을 갖습니다.\n  Button 과 같이 서브컨트롤이 없는 컴포넌트는 해당 컴포넌트를 갖습니다.\n\n- onlbuttondown과 같이 상위로 전파되는 이벤트에서 fromreferenceobject 속성은 이벤트가 최초로 발생한 컴포넌트 또는 서브컨트롤을 갖습니다."
+    }
+  ]
+}
