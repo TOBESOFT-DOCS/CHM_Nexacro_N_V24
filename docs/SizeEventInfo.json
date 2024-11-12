@@ -1,0 +1,492 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "컴포넌트의 크기가 변경될 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_cx",
+      "type": "heading2",
+      "content": "cx",
+      "option": {
+        "alias": "SizeEventInfo_cx"
+      }
+    },
+    {
+      "id": "p_02_cx",
+      "type": "pre",
+      "content": "컴포넌트의 변경 된 너비값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_cx",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cx",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cx",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cx",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cx",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cx",
+      "type": "command",
+      "content": "SizeEventInfo.cx"
+    },
+    {
+      "id": "p_09_cx",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.07061142980591939",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nWidth = e.cx;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_13_cx",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_cx",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_frame_09'>팝업창 크기 제한하기</a>"
+    },
+    {
+      "id": "p_01_cy",
+      "type": "heading2",
+      "content": "cy",
+      "option": {
+        "alias": "SizeEventInfo_cy"
+      }
+    },
+    {
+      "id": "p_02_cy",
+      "type": "pre",
+      "content": "컴포넌트의 변경 된 높이값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_cy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cy",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cy",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cy",
+      "type": "command",
+      "content": "SizeEventInfo.cy"
+    },
+    {
+      "id": "p_09_cy",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1950024106424585",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nHeight = e.cy;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_13_cy",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_cy",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_frame_09'>팝업창 크기 제한하기</a>"
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "SizeEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "SizeEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.08171165975025385",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_fromobject",
+      "type": "heading2",
+      "content": "fromobject",
+      "option": {
+        "alias": "SizeEventInfo_fromobject"
+      }
+    },
+    {
+      "id": "p_02_fromobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromobject",
+      "type": "command",
+      "content": "SizeEventInfo.fromobject"
+    },
+    {
+      "id": "p_09_fromobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.854195479781553",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromobject",
+      "type": "pre",
+      "content": "- onlbuttondown 과 같이 상위로 전파되는 이벤트에서 fromobject 속성은 이벤트가 최초로 발생한 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_fromreferenceobject",
+      "type": "heading2",
+      "content": "fromreferenceobject",
+      "option": {
+        "alias": "SizeEventInfo_fromreferenceobject"
+      }
+    },
+    {
+      "id": "p_02_fromreferenceobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트 또는 서브컨트롤을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromreferenceobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromreferenceobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromreferenceobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromreferenceobject",
+      "type": "command",
+      "content": "SizeEventInfo.fromreferenceobject"
+    },
+    {
+      "id": "p_09_fromreferenceobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3489519042376039",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromreferenceobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromreferenceobject",
+      "type": "pre",
+      "content": "- Calendar 와 같이 서브컨트롤이 있는 컴포넌트에서 서브컨트롤에 의해 이벤트가 발생한 경우 fromreferenceobject 속성은 서브컨트롤을 갖습니다.\n  Button 과 같이 서브컨트롤이 없는 컴포넌트는 해당 컴포넌트를 갖습니다.\n\n- onlbuttondown과 같이 상위로 전파되는 이벤트에서 fromreferenceobject 속성은 이벤트가 최초로 발생한 컴포넌트 또는 서브컨트롤을 갖습니다."
+    },
+    {
+      "id": "p_01_orientation",
+      "type": "heading2",
+      "content": "orientation",
+      "option": {
+        "alias": "SizeEventInfo_orientation"
+      }
+    },
+    {
+      "id": "p_02_orientation",
+      "type": "pre",
+      "content": "모바일 기기일 때 방향센서의 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_orientation",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_orientation",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_orientation",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_orientation",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_orientation",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_orientation",
+      "type": "command",
+      "content": "SizeEventInfo.orientation"
+    },
+    {
+      "id": "p_09_orientation",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6211351708024202",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strOrient = e.orientation;</div></td></tr><tr><th>\"portrait\"</th><td colspan=\"2\"><div>모바일 기기의 방향이 세로일 때 갖는 값입니다.</div></td></tr><tr><th>\"landscape\"</th><td colspan=\"2\"><div>모바일 기기의 방향이 가로일 때 갖는 값입니다.</div></td></tr><tr><th>\"resize\"</th><td colspan=\"2\"><div>Windows 환경일 때 컴포넌트의 크기가 변경되면 갖는 값입니다.</div></td></tr><tr><th>\"onsize\"</th><td colspan=\"2\"><div>Windows 환경일 때 MainFrame 의 크기가 변경되면 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    }
+  ]
+}
