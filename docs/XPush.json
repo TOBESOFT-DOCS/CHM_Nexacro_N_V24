@@ -1,0 +1,2395 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "X-PUSH 서버에서 전달되는 메시지를 받을 수 있는 클라이언트 컴포넌트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- X-PUSH 서버와 연결을 맺고 인증을 통과한 후 자신이 받을 Topic 을 메시지 타입과 메시지 키를 사용하여 등록하면 X-PUSH 서버로부터 공급되는 메시지 수신할 수 있습니다.\n\n- 메시지 타입은 메시지의 종류나 그룹에 해당하고 메시지 키는 각 메시지를 구분하기 위한 인덱스의 역할을 합니다.\n\n- WRE 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다.\n- 모바일 NRE, WRE에서 실행 시 앱(또는 브라우저)이 background로 내려가거나 foreground로 올라올때 connect, disconnect, subscribe 등의 동작을 자동으로 처리하지 않으며 onsuccess, onerror 이벤트도 발생하지 않습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_controlretry",
+      "type": "heading2",
+      "content": "controlretry",
+      "option": {
+        "alias": "XPush_controlretry"
+      }
+    },
+    {
+      "id": "p_02_controlretry",
+      "type": "pre",
+      "content": "X-PUSH 서버에 Topic 등록/삭제 시 에러가 발생하면 재시도 할 횟수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_controlretry",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_controlretry",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_controlretry",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_controlretry",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_controlretry",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.47982068307727377",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>nRetry</th><td colspan=\"2\"><div>에러 발생 시 재시도 할 횟수를 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_controlretry",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_controlretry",
+      "type": "pre",
+      "content": "- controlretry 속성값을 설정하지 않으면 5 로 적용됩니다.\n\n- subscribe(), unsubscribe() 메소드 수행중 또는 서버 연결 후 인증중에 Head 데이터가 잘못된 경우 재시도합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_debug",
+      "type": "heading2",
+      "content": "debug",
+      "option": {
+        "alias": "XPush_debug"
+      }
+    },
+    {
+      "id": "p_02_debug",
+      "type": "pre",
+      "content": "넥사크로 스튜디오의 output 윈도우에 디버그용 XPush 메시지를 보여줄지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_debug",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_debug",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_debug",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_debug",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_debug",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4702177192069873",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bDebug ::= 'true' | 'false'</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>넥사크로 스튜디오의 output 윈도우에 디버그용 XPush 메시지를 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>넥사크로 스튜디오의 output 윈도우에 디버그용 XPush 메시지를 표시하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_debug",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_debug",
+      "type": "pre",
+      "content": "- debug 속성값을 설정하지 않으면 false 로 적용됩니다.\n\n- Windows NRE 만 지원하는 속성입니다."
+    },
+    {
+      "id": "p_01_errorcode",
+      "type": "heading2",
+      "content": "errorcode",
+      "option": {
+        "alias": "XPush_errorcode"
+      }
+    },
+    {
+      "id": "p_02_errorcode",
+      "type": "pre",
+      "content": "에러가 발생한 경우 에러코드를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_errorcode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errorcode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errorcode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errorcode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_errorcode",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errorcode",
+      "type": "pre",
+      "content": "- X-PUSH 서버와 연결 실패 시 발생할 수 있는 에러코드입니다.\n  &gt; 300 : 서버와 접속에 실패했을 때 반환합니다.\n  &gt; 301 : 패킷 전송 (send / recv) 오류가 발생하면 반환합니다.\n  &gt; 202 : Data 전송 채널 인증 (authentication)에 오류가 발생하면 반환합니다.\n  &gt; 201 : iplist 속성에 설정된 Push 서버에 접속을 모두 실패했을 때 반환합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "p_01_errormsg",
+      "type": "heading2",
+      "content": "errormsg",
+      "option": {
+        "alias": "XPush_errormsg"
+      }
+    },
+    {
+      "id": "p_02_errormsg",
+      "type": "pre",
+      "content": "에러가 발생한 경우 에러 메시지를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_errormsg",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errormsg",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errormsg",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errormsg",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_errormsg",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errormsg",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "p_01_iplist",
+      "type": "heading2",
+      "content": "iplist",
+      "option": {
+        "alias": "XPush_iplist"
+      }
+    },
+    {
+      "id": "p_02_iplist",
+      "type": "pre",
+      "content": "연결할 X-PUSH 서버의 IP 와 Port 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_iplist",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_iplist",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_iplist",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_iplist",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_iplist",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.48800052383285275",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strIplist ::= [strScheme]strIPaddress:nPort [, [strScheme]strIPaddress:nPort]*\n\nstrScheme ::= \"tcp://\" | \"http://\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.iplist = \"192.168.0.1:1004\";\nthis.XPush00.iplist = \"192.168.0.1:1004,127.0.0.1:1004\";</div></td></tr><tr><th>strScheme</th><td colspan=\"2\"><div>\"tcp://\" 설정 시 TCP 통신을 사용하여 메시지를 전달받습니다.\n\"http://\" 설정 시 HTTP 통신을 사용하여 메시지를 전달받습니다.\n\n웹브라우저 환경에서는 HTTP 통신을 사용하여야 합니다.\n값을 설정하지 않으면 \"tcp://\" 으로 적용됩니다.</div></td></tr><tr><th>strIPaddress</th><td colspan=\"2\"><div>연결할 X-PUSH 서버의 IP Address 를 설정합니다.</div></td></tr><tr><th>nPort</th><td colspan=\"2\"><div>연결할 X-PUSH 서버의 Port 를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_iplist",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_iplist",
+      "type": "pre",
+      "content": "- 하나 이상의 X-PUSH 서버를 콤마(\",\")로 구분하여 설정할 수 있습니다.\n\n- connect() 메소드 실행 시 설정된 서버 중 무작위로 선택하여 연결을 시도합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "p_01_keepalivetime",
+      "type": "heading2",
+      "content": "keepalivetime",
+      "option": {
+        "alias": "XPush_keepalivetime"
+      }
+    },
+    {
+      "id": "p_02_keepalivetime",
+      "type": "pre",
+      "content": "X-PUSH 서버와 연결을 유지하기 위한 메시지를 보낼 주기를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_keepalivetime",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_keepalivetime",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_keepalivetime",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_keepalivetime",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_keepalivetime",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6857384748046162",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>nKeepAliveTime</th><td colspan=\"2\"><div>X-PUSH 서버와 연결유지를 위한 메시지를 보내는 주기를 초(Second) 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_keepalivetime",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_keepalivetime",
+      "type": "pre",
+      "content": "- keepalivetime 속성값을 설정하지 않으면 30 으로 적용됩니다.\n\n- X-PUSH 서버에 연결된 클라이언트는 서로 연결되어 있는 상태를 확인하기 위해 주기적으로 메시지를 보냅니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "p_01_keeptimeout",
+      "type": "heading2",
+      "content": "keeptimeout",
+      "option": {
+        "alias": "XPush_keeptimeout"
+      }
+    },
+    {
+      "id": "p_02_keeptimeout",
+      "type": "pre",
+      "content": "X-PUSH 서버와 연결유지를 위해 보낸 메시지의 응답을 기다리는 시간을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_keeptimeout",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_keeptimeout",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_keeptimeout",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_keeptimeout",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_keeptimeout",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.055786338132632673",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>nTimeOut</th><td colspan=\"2\"><div>X-PUSH 서버와 연결유지를 위해 보낸 메시지의 응답을 기다리는 시간을 초(Second) 단위의 숫자로 설정합니다.\n\n\"1\" 이상의 정수값을 설정할 수 있습니다.\nX-PUSH 서버에 설정된 응답시간보다 크거나 같게 설정하여야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_keeptimeout",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_keeptimeout",
+      "type": "pre",
+      "content": "- keeptimeout 속성값을 설정하지 않으면 60 으로 적용됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_layouturl",
+      "type": "heading2",
+      "content": "layouturl",
+      "option": {
+        "alias": "XPush_layouturl"
+      }
+    },
+    {
+      "id": "p_02_layouturl",
+      "type": "pre",
+      "content": "Message Layout 정의 파일의 위치를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_layouturl",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_layouturl",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_layouturl",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_layouturl",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_layouturl",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8664157030379823",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>urlLayoutURL ::= &lt;strAlias&gt; | &lt;absolute-Url&gt; | &lt;relative-Url&gt;</div></td></tr><tr><th>&lt;strAlias&gt;</th><td colspan=\"2\"><div>Message Layout 파일의 위치를 Alias 를 사용하여 설정합니다.</div></td></tr><tr><th>&lt;absolute-Url&gt;</th><td colspan=\"2\"><div>Message Layout 파일의 위치를 \"file://절대경로\", \"http://경로/파일명\", \"https://경로/파일명\" 형태의 절대경로로 설정합니다.</div></td></tr><tr><th>&lt;relative-Url&gt;</th><td colspan=\"2\"><div>TypeDefinition 의 Services 영역에 정의된 Prefix 를 사용한 형식으로 설정합니다.\n\nForm 의 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_layouturl",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_layouturl",
+      "type": "pre",
+      "content": "- layouturl 속성을 설정하지 않으면 정상적인 메시지 수신이 불가능하므로 반드시 설정해야 하는 속성입니다.\n\n- Message Layout 정의 파일의 첫줄은 Header 정보로 XML 선언문을 설정합니다.\n\n- Message Layout 정의 파일은 &lt;message_layout&gt; Element 하위에 &lt;message&gt; Element 로 정의됩니다.\n  &lt;message&gt; Element 는 \"type\" Attribute 를 가지며 반드시 4 자리 영문자로 메시지 타입을 정의하여야 합니다.\n\n- 하나의 메시지를 의미하는 &lt;message&gt; Element 는 하위에 &lt;field&gt; Element 를 갖습니다.\n  &lt;field&gt; Element 는 메시지에 정의된 Field 값이며 가질 수 있는 Attribute 는 아래 표와 같습니다.\n\n\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "u_10_0.8106086769829851",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>attribute</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t\t\t<tbody><tr>\t\t<td>id</td>\t\t<td>필드명을 설정합니다.</td>\t</tr><tr>\t\t<td>type</td>\t\t<td>필드의 타입을 설정합니다.\"string\", \"int\", \"float\", \"bigdecimal\", \"date\", \"time\", \"datetime\" 을 설정할 수 있습니다.</td>\t</tr><tr>\t\t<td>size</td>\t\t<td>필드의 데이터 크기를 설정합니다.</td>\t</tr><tr>\t\t<td>key</td>\t\t<td>현재 필드가 키가 되는 여부를 설정합니다.정의하지 않으면 \"false\" 로 적용됩니다.하나 이상의 필드가 키로 설정될 수 있습니다.</td>\t</tr><tr>\t\t<td>check</td>\t\t<td>Push 서버로 부터 받은 메시지를 DataSet 에 저장할 지 결정하는 필드인지 설정합니다.정의하지 않으면 \"false\" 로 적용됩니다.</td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "XPush_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "XPush 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "XPush.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7347317223064278",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_projectid",
+      "type": "heading2",
+      "content": "projectid",
+      "option": {
+        "alias": "XPush_projectid"
+      }
+    },
+    {
+      "id": "p_02_projectid",
+      "type": "pre",
+      "content": "X-PUSH 서버와 통신할 때 사용할 Project ID 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_projectid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_projectid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_projectid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_projectid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_projectid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_projectid",
+      "type": "command",
+      "content": "XPush.projectid[= enumChanneltype]"
+    },
+    {
+      "id": "p_09_projectid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6620439501226769",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.projectid = \"Project00\";</div></td></tr><tr><th>strID</th><td colspan=\"2\"><div>X-PUSH 서버와 통신할 때 사용할 Project ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_projectid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_projectid",
+      "type": "pre",
+      "content": "- projectid 속성값을 설정하지 않으면 빈문자열(\"')로 적용됩니다.\n\n- Project ID 로 구분하여 메시지를 수신하여야 할 때 사용하는 속성입니다.\n\n- projectid 속성은 X-PUSH 서버의 버전이 v2.8 이상일때만 적용됩니다."
+    },
+    {
+      "id": "p_01_protocolversion",
+      "type": "heading2",
+      "content": "protocolversion",
+      "option": {
+        "alias": "XPush_protocolversion"
+      }
+    },
+    {
+      "id": "p_02_protocolversion",
+      "type": "pre",
+      "content": "X-PUSH 서버와 통신 시 사용할 Protocol 의 버전을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_protocolversion",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_protocolversion",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_protocolversion",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_protocolversion",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_protocolversion",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_protocolversion",
+      "type": "command",
+      "content": "XPush.protocolversion[= strProtocolVersion]"
+    },
+    {
+      "id": "p_09_protocolversion",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.33956476779887956",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.protocolversion = 3;</div></td></tr><tr><th>nVer</th><td colspan=\"2\"><div>X-Push 서버와 통신 시 사용할 Protocol 의 버전을 숫자로 설정합니다.\n\n2 설정 시 v2.8 미만 버전의 X-PUSH 서버 기능을 사용 할 수 있습니다.\n3 설정 시 v2.8 이상 버전의 X-PUSH 서버 기능을 사용 할 수 있습니다.\n\n* X-PUSH 서버의 버전이 V2.8 미만일 경우 2 만 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_protocolversion",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_protocolversion",
+      "type": "pre",
+      "content": "- protocolversion 속성값을 설정하지 않으면 2 로 적용됩니다.\n\n- X-PUSH v2.8 이상에서 제공하는 신규기능을 사용하려면 protocolversion 속성값을 3 으로 설정하여야 합니다.\n   &gt; User 별로 Project ID 로 구분된 메시지를 전송할 수 있습니다.\n   &gt; Mobile 에서 동일 디바이스의 서로 다른 App 에 Notification 을 구분하여 전송할 수 있습니다."
+    },
+    {
+      "id": "p_01_retry",
+      "type": "heading2",
+      "content": "retry",
+      "option": {
+        "alias": "XPush_retry"
+      }
+    },
+    {
+      "id": "p_02_retry",
+      "type": "pre",
+      "content": "X-PUSH 서버에 연결을 시도할 때 에러가 발생하면 재시도 할 횟수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_retry",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_retry",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_retry",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_retry",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_retry",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9940071234485334",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.retry = 2;</div></td></tr><tr><th>nRetry</th><td colspan=\"2\"><div>에러 발생 시 재시도할 횟수를 숫자로 설정합니다.\n\n\"0\" 설정 시 재시도 없이 연결을 종료합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_retry",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_retry",
+      "type": "pre",
+      "content": "- retry 속성값을 설정하지 않으면 1 로 적용됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_sessionid",
+      "type": "heading2",
+      "content": "sessionid",
+      "option": {
+        "alias": "XPush_sessionid"
+      }
+    },
+    {
+      "id": "p_02_sessionid",
+      "type": "pre",
+      "content": "X-PUSH 서버 연결 시 사용할 Session ID를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_sessionid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_sessionid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_sessionid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_sessionid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_sessionid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8434847409988075",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strSessionID</th><td colspan=\"2\"><div>X-PUSH 서버 연결 시 사용할 Session ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_sessionid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_sessionid",
+      "type": "pre",
+      "content": "- connect() 메소드에서 파라미터 생략 시 sessionid 속성값을 사용합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "p_01_timeout",
+      "type": "heading2",
+      "content": "timeout",
+      "option": {
+        "alias": "XPush_timeout"
+      }
+    },
+    {
+      "id": "p_02_timeout",
+      "type": "pre",
+      "content": "X-PUSH 서버와 연결을 위해 보낸 메시지의 응답을 기다리는 시간을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_timeout",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_timeout",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_timeout",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_timeout",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_timeout",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3298729834200128",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.timeout = 60;</div></td></tr><tr><th>nTimeOut</th><td colspan=\"2\"><div>X-PUSH 서버와 연결을 위해 보낸 메시지의 응답을 기다리는 시간을 초(Second) 단위의 숫자로 설정합니다.\n\n\"1\" 이상의 정수값을 설정할 수 있습니다.\nX-PUSH 서버에 설정된 응답시간보다 크거나 같게 설정하여야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_timeout",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_timeout",
+      "type": "pre",
+      "content": "- timeout 속성값을 설정하지 않으면 30 으로 적용됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_userid",
+      "type": "heading2",
+      "content": "userid",
+      "option": {
+        "alias": "XPush_userid"
+      }
+    },
+    {
+      "id": "p_02_userid",
+      "type": "pre",
+      "content": "X-PUSH 서버 연결 시 사용할 User ID를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_userid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_userid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_userid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_userid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_userid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4619939506340016",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strUserID</th><td colspan=\"2\"><div>X-PUSH 서버 연결 시 사용할 User ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_userid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_userid",
+      "type": "pre",
+      "content": "- connect() 메소드에서 파라미터 생략 시 userid 속성값을 사용합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01connect",
+      "type": "heading2",
+      "content": "connect",
+      "option": {
+        "alias": "XPush_connect"
+      }
+    },
+    {
+      "id": "m_02_connect",
+      "type": "pre",
+      "content": "X-PUSH 서버와 연결을 수행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_connect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_connect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_connect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_connect",
+      "type": "command",
+      "content": "XPush.connect( [strUserID [,strSessionID]] )"
+    },
+    {
+      "id": "m_07_connect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9397698802611503",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>X-PUSH 서버에 연결 시 인증을 위한 User ID를 설정합니다.\n\n값 생략 시 userid 속성값이 적용됩니다.</div></td></tr><tr><td>strSessionID</td><td>String</td><td colspan=\"2\"><div>X-PUSH 서버에 연결 시 인증을 위한 Session ID 를 설정합니다.\n\n값 생략 시 sessionid 속성값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.userid = \"user00\";    \nthis.XPush00.sessionid = \"session00\";\n\nthis.XPush00.connect();\nthis.XPush00.connect(\"user00\");\nthis.XPush00.connect(\"user00\", \"session00\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_connect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_connect",
+      "type": "pre",
+      "content": "- connect() 메소드는 iplist 속성에 설정된 서버를 무작위로 선택해서 접속을 시도합니다.  \n\n- X-PUSH 서버 연결에 성공하면 onsuccess 이벤트가 실행됩니다.\n   iplist 속성에 설정된 모든 Push 서버와 연결을 실패하면 onerror 이벤트가 실행됩니다.\n\n- 네트워크에 연결되지 않은 경우는 timeout 속성값만큼 기다리지 않고 곧바로 onerror 이벤트가 발생합니다.\n\n- protocolversion 속성값이 3 인 경우 서버와 연결 시 projectid 속성값이 자동으로 사용됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01disconnect",
+      "type": "heading2",
+      "content": "disconnect",
+      "option": {
+        "alias": "XPush_disconnect"
+      }
+    },
+    {
+      "id": "m_02_disconnect",
+      "type": "pre",
+      "content": "X-PUSH 서버의 연결을 해제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_disconnect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_disconnect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_disconnect",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_disconnect",
+      "type": "command",
+      "content": "XPush.disconnect()"
+    },
+    {
+      "id": "m_07_disconnect",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.512380043065312",
+      "type": "command",
+      "content": "this.XPush00.disconnect();"
+    },
+    {
+      "id": "m_09_disconnect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_disconnect",
+      "type": "pre",
+      "content": "- X-PUSH 서버의 연결해제에 성공하면 onsuccess 이벤트가 실행됩니다.\n   X-PUSH 서버의 연결해제에 실패하면 onerror 이벤트가 실행됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01getCurrentIP",
+      "type": "heading2",
+      "content": "getCurrentIP",
+      "option": {
+        "alias": "XPush_getCurrentIP"
+      }
+    },
+    {
+      "id": "m_02_getCurrentIP",
+      "type": "pre",
+      "content": "현재 접속중인 X-PUSH 서버의 IP값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getCurrentIP",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getCurrentIP",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getCurrentIP",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getCurrentIP",
+      "type": "command",
+      "content": "XPush.getCurrentIP()"
+    },
+    {
+      "id": "m_07_getCurrentIP",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.1739727427851333",
+      "type": "command",
+      "content": "var strIPAddress = this.XPush00.getCurrentIP();"
+    },
+    {
+      "id": "m_08_getCurrentIP",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.30415104316782127",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>현재 접속중인 X-PUSH 서버의 IP값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getCurrentIP",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getCurrentIP",
+      "type": "pre",
+      "content": "- 접속이 끊어진 경우에도 접속했던 X-PUSH 서버의 IP값을 반환합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01getCurrentPort",
+      "type": "heading2",
+      "content": "getCurrentPort",
+      "option": {
+        "alias": "XPush_getCurrentPort"
+      }
+    },
+    {
+      "id": "m_02_getCurrentPort",
+      "type": "pre",
+      "content": "현재 접속중인 X-PUSH 서버의 Port 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getCurrentPort",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getCurrentPort",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getCurrentPort",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getCurrentPort",
+      "type": "command",
+      "content": "XPush.getCurrentPort()"
+    },
+    {
+      "id": "m_07_getCurrentPort",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.4137305555350075",
+      "type": "command",
+      "content": "var nPort = this.XPush00.getCurrentPort();"
+    },
+    {
+      "id": "m_08_getCurrentPort",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6885273054038761",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>현재 접속중인 X-PUSH 서버의 Port 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getCurrentPort",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getCurrentPort",
+      "type": "pre",
+      "content": "- 접속이 끊어진 경우에도 접속했던 X-PUSH 서버의 Port 값을 반환합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01getRegisteredTopics",
+      "type": "heading2",
+      "content": "getRegisteredTopics",
+      "option": {
+        "alias": "XPush_getRegisteredTopics"
+      }
+    },
+    {
+      "id": "m_02_getRegisteredTopics",
+      "type": "pre",
+      "content": "신뢰성 메시지를 수신하기 위해 X-PUSH 서버에 등록한 Topic 정보를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getRegisteredTopics",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getRegisteredTopics",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getRegisteredTopics",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getRegisteredTopics",
+      "type": "command",
+      "content": "XPush.getRegisteredTopics()"
+    },
+    {
+      "id": "m_09_getRegisteredTopics",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getRegisteredTopics",
+      "type": "pre",
+      "content": "- 대상 Topic은 데이터베이스에 저장된 Topic 정보만 해당합니다\n  (메모리에 저장된 정보는 해당되지 않음).\n\n- Topic 정보 조회 성공 시 onsuccess 이벤트가 발생합니다.\n  XPushEventInfo 오브젝트의 action 속성값은 11이며 \n  returnvalue 속성값에서 아래와 같은 형태로  값을 확인할 수 있습니다.\n{\n  \"topic_A\" : [\"id_a\", \"id_b\", id_c\"],\n  \"topic_B\" : [\"id_a\"],\n  \"topic_C\" : [\"id_a\", \"id_b\"]\n};\n\n- Topic 정보 조회 실패 시 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01getRegisteredTopicsWithUserID",
+      "type": "heading2",
+      "content": "getRegisteredTopicsWithUserID",
+      "option": {
+        "alias": "XPush_getRegisteredTopicsWithUserID"
+      }
+    },
+    {
+      "id": "m_02_getRegisteredTopicsWithUserID",
+      "type": "pre",
+      "content": "신뢰성 메시지가 특정 사용자에게 수신될 수 있도록 X-PUSH 서버에 등록한 Topic 정보를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getRegisteredTopicsWithUserID",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getRegisteredTopicsWithUserID",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getRegisteredTopicsWithUserID",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getRegisteredTopicsWithUserID",
+      "type": "command",
+      "content": "XPush.getRegisteredTopicsWithUserID(strUserID [, strProjectID] )"
+    },
+    {
+      "id": "m_07_getRegisteredTopicsWithUserID",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.37108866501665005",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 사용자의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 프로젝트의 ID를 문자열로 설정합니다.\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_getRegisteredTopicsWithUserID",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getRegisteredTopicsWithUserID",
+      "type": "pre",
+      "content": "- 대상 Topic은 데이터베이스에 저장된 Topic 정보만 해당합니다\n  (메모리에 저장된 정보는 해당되지 않음).\n\n- Topic 정보 조회 성공 시 onsuccess 이벤트가 발생합니다.\n  XPushEventInfo 오브젝트의 action 속성값은 11이며 \n  returnvalue 속성값에서 아래와 같은 형태로  값을 확인할 수 있습니다.\n{\n  \"topic_A\" : [\"id_a\", \"id_b\", id_c\"],\n  \"topic_B\" : [\"id_a\"],\n  \"topic_C\" : [\"id_a\", \"id_b\"]\n};\n\n- Topic 정보 조회 실패 시 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01registerDevice",
+      "type": "heading2",
+      "content": "registerDevice",
+      "option": {
+        "alias": "XPush_registerDevice"
+      }
+    },
+    {
+      "id": "m_02_registerDevice",
+      "type": "pre",
+      "content": "모바일에서 Notification 을 받기 위해 DeviceToken 값을 X-PUSH 서버에 등록하는 메소드입니다."
+    },
+    {
+      "id": "m_03_registerDevice",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_registerDevice",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_registerDevice",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_registerDevice",
+      "type": "command",
+      "content": "XPush.registerDevice()"
+    },
+    {
+      "id": "m_07_registerDevice",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.7161601962088444",
+      "type": "command",
+      "content": "this.XPush00.registerDevice()"
+    },
+    {
+      "id": "m_09_registerDevice",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_registerDevice",
+      "type": "pre",
+      "content": "- 모바일 환경만 지원하는 기능입니다."
+    },
+    {
+      "id": "m_01registerTopic",
+      "type": "heading2",
+      "content": "registerTopic",
+      "option": {
+        "alias": "XPush_registerTopic"
+      }
+    },
+    {
+      "id": "m_02_registerTopic",
+      "type": "pre",
+      "content": "신뢰성 메시지를 수신하기 위해 X-PUSH 서버에 Topic 을 등록하는 메소드입니다."
+    },
+    {
+      "id": "m_03_registerTopic",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_registerTopic",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_registerTopic",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_registerTopic",
+      "type": "command",
+      "content": "this.XPush00.registerTopic(strMessageType, strMessgageKey);"
+    },
+    {
+      "id": "m_07_registerTopic",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7545357918541162",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.registerTopic(\"CPDT\", \"command01\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_registerTopic",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_registerTopic",
+      "type": "pre",
+      "content": "- 신뢰성 메시지 Topic 등록에 성공하면 onsuccess 이벤트가 실행됩니다.\n  신뢰성 메시지 Topic 등록에 실패하면 onerror 이벤트가 실행됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01registerTopicWithUserID",
+      "type": "heading2",
+      "content": "registerTopicWithUserID",
+      "option": {
+        "alias": "XPush_registerTopicWithUserID"
+      }
+    },
+    {
+      "id": "m_02_registerTopicWithUserID",
+      "type": "pre",
+      "content": "신뢰성 메시지가 특정 사용자에게 수신될 수 있도록 X-PUSH 서버에 Topic 을 등록하는 메소드입니다."
+    },
+    {
+      "id": "m_03_registerTopicWithUserID",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_registerTopicWithUserID",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_registerTopicWithUserID",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_registerTopicWithUserID",
+      "type": "command",
+      "content": "this.XPush00.registerTopicWithUserID( strMessageType, strMessgageKey, strUserID [, strProjectID] );"
+    },
+    {
+      "id": "m_07_registerTopicWithUserID",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8589697890652056",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.registerTopicWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.registerTopicWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_registerTopicWithUserID",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_registerTopicWithUserID",
+      "type": "pre",
+      "content": "- 신뢰성 메시지 Topic 등록에 성공하면 onsuccess 이벤트가 실행됩니다.\n   신뢰성 메시지 Topic 등록에 실패하면 onerror 이벤트가 실행됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01requestMessage",
+      "type": "heading2",
+      "content": "requestMessage",
+      "option": {
+        "alias": "XPush_requestMessage"
+      }
+    },
+    {
+      "id": "m_02_requestMessage",
+      "type": "pre",
+      "content": "X-PUSH 서버에서 미수신한 신뢰성 메시지를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_requestMessage",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_requestMessage",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_requestMessage",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_requestMessage",
+      "type": "command",
+      "content": "requestMessage ( strMsgType, strMsgKeys );"
+    },
+    {
+      "id": "m_07_requestMessage",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4814230205135924",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMsgType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMsgKeys</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.\n\n수신 받을 메세지가 여러개일 경우 콤마(\",\")로 구분하여  여러개의 Key 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_requestMessage",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_requestMessage",
+      "type": "pre",
+      "content": "- 미수신 메시지 요청에 성공하면 onsuccess 이벤트가 발생합니다.\n   미수신 메시지 요청에 실패하면 onerror 이벤트가 발생합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01requestMessageCount",
+      "type": "heading2",
+      "content": "requestMessageCount",
+      "option": {
+        "alias": "XPush_requestMessageCount"
+      }
+    },
+    {
+      "id": "m_02_requestMessageCount",
+      "type": "pre",
+      "content": "X-PUSH 서버에서 미수신한 신뢰성 메시지의 갯수를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_requestMessageCount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_requestMessageCount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_requestMessageCount",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_requestMessageCount",
+      "type": "command",
+      "content": "XPush.requestMessageCount(strMessageType, strMessgageKey)"
+    },
+    {
+      "id": "m_07_requestMessageCount",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.42295385493467064",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 갯수를 수신 받을 메시지의 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>미수신된 신뢰성 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.requestMessageCount(\"CPDT\", \"command01\")</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_requestMessageCount",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_requestMessageCount",
+      "type": "pre",
+      "content": "- 미수신 메시지 갯수 요청에 성공하면 onsuccess 이벤트가 발생합니다.\n   미수신 메시지 갯수 요청에 실패하면 onerror 이벤트가 발생합니다.\n\n- 미수신 메시지 갯수는 onsuccess 이벤트에서 \"e\" 오브젝트(XPushEventInfo)의 returnvalue 속성값으로 전달됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01requestMessageCountWithUserID",
+      "type": "heading2",
+      "content": "requestMessageCountWithUserID",
+      "option": {
+        "alias": "XPush_requestMessageCountWithUserID"
+      }
+    },
+    {
+      "id": "m_02_requestMessageCountWithUserID",
+      "type": "pre",
+      "content": "특정 사용자가 미수신한 신뢰성 메시지의 갯수를 X-PUSH 서버에 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_requestMessageCountWithUserID",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_requestMessageCountWithUserID",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_requestMessageCountWithUserID",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_requestMessageCountWithUserID",
+      "type": "command",
+      "content": "XPush.requestMessageCountWithUserID( strMessageType, strMessgageKey, strUserID [, strProjectID] )"
+    },
+    {
+      "id": "m_07_requestMessageCountWithUserID",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.978909844796982",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 갯수를 수신 받을 메시지의 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 갯수를 확인할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 갯수를 확인할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.requestMessageCountWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.requestMessageCountWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_requestMessageCountWithUserID",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_requestMessageCountWithUserID",
+      "type": "pre",
+      "content": "- 미수신 메시지 갯수 요청에 성공하면 onsuccess 이벤트가 발생합니다.\n   미수신 메시지 갯수 요청에 실패하면 onerror 이벤트가 발생합니다.\n\n- 미수신 메시지 갯수는 onsuccess 이벤트에서 e 오브젝트(XPushEventInfo)의 returnvalue 속성값으로 전달됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01sendResponse",
+      "type": "heading2",
+      "content": "sendResponse",
+      "option": {
+        "alias": "XPush_sendResponse"
+      }
+    },
+    {
+      "id": "m_02_sendResponse",
+      "type": "pre",
+      "content": "X-PUSH 서버에서 수신한 신뢰성 메시지에 대한 수신응답을 보내는 메소드입니다."
+    },
+    {
+      "id": "m_03_sendResponse",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_sendResponse",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_sendResponse",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_sendResponse",
+      "type": "command",
+      "content": "XPush.sendResponse(strmsgid)"
+    },
+    {
+      "id": "m_07_sendResponse",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.33745374178028065",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strmsgid</td><td>String</td><td colspan=\"2\"><div>수신된 신뢰성 메시지의 ID를 설정합니다.\n\n메시지 수신 시 발생하는 CallBack 함수에 \"msgid\" 파라미터의 값으로 ID가 전달됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_sendResponse",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_sendResponse",
+      "type": "pre",
+      "content": "- 메시지 수신응답에 성공하면 onsuccess 이벤트가 발생합니다.\n   메시지 수신응답에 실패하면 onerror 이벤트가 발생합니다.\n\n- 메시지 수신응답에 실패한 경우 requestMessage() 메소드 수행 시 해당 메시지가 존재합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01subscribe",
+      "type": "heading2",
+      "content": "subscribe",
+      "option": {
+        "alias": "XPush_subscribe"
+      }
+    },
+    {
+      "id": "m_02_subscribe",
+      "type": "pre",
+      "content": "메시지를 받기 위해 연결된 X-PUSH 서버에 Topic 을 등록하는 메소드입니다."
+    },
+    {
+      "id": "m_03_subscribe",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_subscribe",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_subscribe",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_subscribe",
+      "type": "command",
+      "content": "XPush.subscribe(strMsgType, strMsgKey, objForm, objDataset, strType, strCallBack[, nRow[, strCheck[, bUseActiveFormCallBack]]])"
+    },
+    {
+      "id": "m_07_subscribe",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3715369032788791",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMsgType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMsgKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td>objForm</td><td>Object</td><td colspan=\"2\"><div>메시지를 수신 받을 Form 의 오브젝트를 설정합니다.</div></td></tr><tr><td>objDataset</td><td>Object</td><td colspan=\"2\"><div>수신 받은 메시지를 저장할 DataSet 의 오브젝트를 설정합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>수신 된 메시지를 DataSet 에 저장하는 방법을 설정합니다.\n\n\"append\" 설정 시 DataSet 의 마지막 Row 로 수신된 메시지를 추가합니다.\n\n\"insert\" 설정 시 nRow 파라미터로 설정한 위치에 수신된 메시지를 추가합니다.\nnRow 파라미터를 설정하지 않으면 0 으로 적용됩니다.\n\n\"replace\" 설정 시 첫번째 Row 가 수신된 메시지로 대체됩니다.\nRow 가 없을 경우 메시지가 DataSet 에 추가되지 않습니다.\n\n\"update\" 설정 시 DataSet 의 Row 중 Key 값이 동일한 첫번째 Row 에 수신된 메시지를 업데이트 합니다.\n업데이트할 Row가 없다면 콜백함수는 호출되지 않습니다.\n\n\"allUpdate\" 설정 시 DataSet 의 Row 중 Key 값이 동일한 모든 Row 에 수신된 메시지를 업데이트 합니다.\n\n\"updateorappend\" 설정 시 \"update\" 설정과 동일하게 동작하지만 Key 값이 동일한 Row 가 없을 경우 \"append\" 로 동작합니다.\n\n* Key 값이 동일한 Row 는 아래 순서로 찾습니다.\n  a) Message Layout 파일에서 \"key\" 속성값이 \"true\" 로 설정된 필드(Field)의 이름을 확인\n  b) a) 에서 확인한 필드(Field) 이름과 동일한 이름의 Column 을 확인\n  c) b) 에서 확인한 Column 에서 메시지에 포함된 Key 값과 동일값을 갖는 Row  를 확인</div></td></tr><tr><td>strCallBack</td><td>String</td><td colspan=\"2\"><div>수신된 메시지를 DataSet 에 저장 후 호출할 CallBack 함수명을 문자열로 설정합니다.\n\nCallBack 함수는 CallBackName ( ChangeRow, ChangeCol, ColList, strMsgType, strActionType, strMsgID ) 형태로 정의하며 strType 파라미터와 조건에 따라 파라미터의 의미가 다르므로  하단 리마크를 참조하시기 바랍니다.</div></td></tr><tr><td>nRow</td><td>Number</td><td colspan=\"2\"><div>strType 값이 \"insert\" 일 경우 DataSet 에 삽입할 Row 의 인덱스를 설정합니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>strCheck</td><td>String</td><td colspan=\"2\"><div>\"0\" 설정 시 DataSet 에 메시지를 무조건 반영합니다.\nstrCheck 에 설정한 값이 Message Layout 파일에 \"check\" 속성값이 \"true\" 로 설정된 필드(Field)값과 일치할 경우만 DataSet 에 메시지를 반영합니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td>bUseActiveFormCallBack</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 활성화된 Form 에서만 CallBack 함수를 호출합니다.\nfalse 설정 시 활성화 되지 않은 Form 에서도 CallBack 함수를 호출합니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.subscribe(\"CPDT\", \"command01\", this, this.Dataset00, \"append\", \"funcCallback\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_subscribe",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_subscribe",
+      "type": "pre",
+      "content": "- subscribe() 메소드 실행 전 X-PUSH 서버에 연결되어 있어야 합니다.\n\n- CallBack 함수는 CallBackName ( ChangeRow, ChangeCol, ColList, strMsgType, strActionType, strMsgID ) 형태로 구성되며 각 파라미터는 아래 조건에 따라 다른 의미를 갖습니다.\n\n   a) strType 파라미터값이 \"allUpdate\" 값이고 데이터를 받았을 경우\n       &gt; ChangeRow : 변경된 Row 들의 인덱스가 \",\" 로 구분되어 설정됩니다.\n       &gt; ChangeCol : Null 값이 설정됩니다.\n       &gt; ColList : 변경된 Row 와 Column 의 ID 가 배열로 설정됩니다.\n                      하나의 원소에는 변경된 Row 의 인덱스와 변경된 Column 의 ID 가 \",\" 로 구분되어 설정됩니다.\n       &gt; strMsgType : \"DATA\" 값이 설정됩니다.\n\n   b) strType 파라미터값이 \"allUpdate\" 이 외의 값이고 데이터를 받았을 경우\n       &gt; ChangeRow : 변경된 Row 의 인덱스가 설정됩니다.\n       &gt; ChangeCol : 변경된 Column ID 가 \",\" 로 구분되어 설정됩니다.\n       &gt; ColList : 모든 Column ID 가 \",\" 로 구분되어 설정됩니다.\n       &gt; strMsgType : \"DATA\" 값이 설정됩니다.\n\n   c) Recovery 메시지를 받았을 경우\n       &gt; ChangeRow : -1 값이 설정됩니다.\n       &gt; ChangeCol : 빈 문자열이 설정됩니다.\n       &gt; ColList : 빈 문자열이 설정됩니다.\n       &gt; strMsgType : \"RECOVERY\" 값이 설정됩니다.\n  \n   d) 공통값을 갖는 파라미터\n       &gt; strActionType : 일반 메시지를 수신했을 경우 \"PUSH\" 값이 설정됩니다.\n                               신뢰성 메시지를 수신했을 경우 \"RECT\" 값이 설정됩니다.\n       &gt; strMsgID : 메시지를 구분할 수 있는 값이 설정됩니다.\n                        sendResponse() 메소드에서 파라미터값으로 사용됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01unregisterDevice",
+      "type": "heading2",
+      "content": "unregisterDevice",
+      "option": {
+        "alias": "XPush_unregisterDevice"
+      }
+    },
+    {
+      "id": "m_02_unregisterDevice",
+      "type": "pre",
+      "content": "모바일에서 Notification 을 받기 위해 X-PUSH 서버에 등록한 DeviceToken 값을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_unregisterDevice",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_unregisterDevice",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_unregisterDevice",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_unregisterDevice",
+      "type": "command",
+      "content": "XPush.unregisterDevice()"
+    },
+    {
+      "id": "m_07_unregisterDevice",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2606554116346208",
+      "type": "command",
+      "content": "this.XPush00.unregisterDevice()"
+    },
+    {
+      "id": "m_09_unregisterDevice",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_unregisterDevice",
+      "type": "pre",
+      "content": "- 모바일 환경만 지원하는 기능입니다."
+    },
+    {
+      "id": "m_01unregisterTopic",
+      "type": "heading2",
+      "content": "unregisterTopic",
+      "option": {
+        "alias": "XPush_unregisterTopic"
+      }
+    },
+    {
+      "id": "m_02_unregisterTopic",
+      "type": "pre",
+      "content": "신뢰성 메시지를 수신하기 위해 X-PUSH 서버에 등록한 Topic 을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_unregisterTopic",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_unregisterTopic",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_unregisterTopic",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_unregisterTopic",
+      "type": "command",
+      "content": "XPush.unregisterTopic(strMessageType, strMessgageKey)"
+    },
+    {
+      "id": "m_07_unregisterTopic",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.04885637781306773",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unregisterTopic(\"CPDT\", \"command01\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_unregisterTopic",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_unregisterTopic",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01unregisterTopicWithUserID",
+      "type": "heading2",
+      "content": "unregisterTopicWithUserID",
+      "option": {
+        "alias": "XPush_unregisterTopicWithUserID"
+      }
+    },
+    {
+      "id": "m_02_unregisterTopicWithUserID",
+      "type": "pre",
+      "content": "특정 사용자에게 수신되는 신뢰성 메시지의 Topic 을 X-PUSH 서버에서 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_unregisterTopicWithUserID",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_unregisterTopicWithUserID",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_unregisterTopicWithUserID",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_unregisterTopicWithUserID",
+      "type": "command",
+      "content": "XPush.unregisterTopicWithUserID( strMessageType, strMessgageKey, strUserID [, strProjectID] )"
+    },
+    {
+      "id": "m_07_unregisterTopicWithUserID",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2928366599241903",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 메시지 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지의 수신을 중지할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지의 수신을 중지할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unregisterTopicWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.unregisterTopicWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_unregisterTopicWithUserID",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_unregisterTopicWithUserID",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "m_01unsubscribe",
+      "type": "heading2",
+      "content": "unsubscribe",
+      "option": {
+        "alias": "XPush_unsubscribe"
+      }
+    },
+    {
+      "id": "m_02_unsubscribe",
+      "type": "pre",
+      "content": "메시지를 받기 위해 X-PUSH 서버에 등록한 Topic 을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_unsubscribe",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_unsubscribe",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_unsubscribe",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_unsubscribe",
+      "type": "command",
+      "content": "XPush.unsubscribe(strMsgType, strMsgKey, objForm, objDataset, strType, strCallBack)"
+    },
+    {
+      "id": "m_07_unsubscribe",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6749418710665488",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 Topic 의 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 Topic 의 Key 값을 설정합니다.</div></td></tr><tr><td>objForm</td><td>Object</td><td colspan=\"2\"><div>Topic 등록 시 설정한 Form 오브젝트를 설정합니다.</div></td></tr><tr><td>objDataset</td><td>Object</td><td colspan=\"2\"><div>Topic 등록 시 설정한 DataSet 오브젝트를 설정합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>Topic 등록 시 설정한 메시지 저장 방법을 설정합니다.</div></td></tr><tr><td>strCallBack</td><td>String</td><td colspan=\"2\"><div>Topic 등록 시 설정한 CallBack 함수명을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unsubscribe(\"CPDT\", \"command01\", this, this.Dataset00, \"append\", \"funcCallback\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_unsubscribe",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_unsubscribe",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "XPush_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "XPush 에서 요청된 작업이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.XPush,e:nexacro.XPushErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6099982436165778",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XPushErrorEventInfo\" string=\"XPushErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "e_01onkeepalive",
+      "type": "heading2",
+      "content": "onkeepalive",
+      "option": {
+        "alias": "XPush_onkeepalive"
+      }
+    },
+    {
+      "id": "e_02_onkeepalive",
+      "type": "pre",
+      "content": "X-PUSH 서버에서 통신유지를 위해 메시지를 받았을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onkeepalive",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onkeepalive",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onkeepalive",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onkeepalive",
+      "type": "command",
+      "content": "onkeepalive(obj:nexacro.XPush,e:nexacro.XPushKeepAliveEventInfo);",
+      "option": "onkeepalive"
+    },
+    {
+      "id": "e_07_onkeepalive",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.35416310206328483",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XPushKeepAliveEventInfo\" string=\"XPushKeepAliveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onkeepalive",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onkeepalive",
+      "type": "pre",
+      "content": "- XPush 클라이언트는 서버와 통신유지를 위해 keepalivetime 속성에 설정된 시간 간격으로 메시지를 주고 받습니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "XPush_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "XPush 에서 요청된 작업이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.XPush,e:nexacro.XPushEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.28790550663042735",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#XPushEventInfo\" string=\"XPushEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
+    }
+  ]
+}
