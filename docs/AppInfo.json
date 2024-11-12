@@ -1,0 +1,485 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "넥사크로로 만든 앱 버전 정보와 루팅(Android), 탈옥(iOS/iPadOS) 여부, USB 디버깅 여부를 확인하기 위한 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- AppInfo 오브젝트는 별도 모듈 설치 후 사용할 수 있습니다.\n  투비소프트 고객센터에서 모듈 설치 파일을 내려받아 설치할 수 있습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "AppInfo_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "AppInfo의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "AppInfo.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2439246860555716",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>AppInfo를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_jailbreaking",
+      "type": "heading2",
+      "content": "jailbreaking",
+      "option": {
+        "alias": "AppInfo_jailbreaking"
+      }
+    },
+    {
+      "id": "p_02_jailbreaking",
+      "type": "pre",
+      "content": "앱이 설치된 기기의 iOS/iPadOS 운영체제 변조(탈옥) 여부를 확인할 수 있는 속성입니다."
+    },
+    {
+      "id": "p_03_jailbreaking",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_jailbreaking",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_jailbreaking",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_jailbreaking",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_jailbreaking",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_jailbreaking",
+      "type": "command",
+      "content": "AppInfo.jailbreaking"
+    },
+    {
+      "id": "p_11_jailbreaking",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_jailbreaking",
+      "type": "pre",
+      "content": "- 탈옥 여부에 따라 true, false 값을 반환합니다.\n  지원하지 않는 기기인 경우에는 undefined를 반환합니다."
+    },
+    {
+      "id": "p_01_rooting",
+      "type": "heading2",
+      "content": "rooting",
+      "option": {
+        "alias": "AppInfo_rooting"
+      }
+    },
+    {
+      "id": "p_02_rooting",
+      "type": "pre",
+      "content": "앱이 설치된 기기의 Android 운영체제 변조(루팅) 여부를 확인할 수 있는 속성입니다."
+    },
+    {
+      "id": "p_03_rooting",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_rooting",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_rooting",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_rooting",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_rooting",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_rooting",
+      "type": "command",
+      "content": "AppInfo.rooting"
+    },
+    {
+      "id": "p_11_rooting",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_rooting",
+      "type": "pre",
+      "content": "- 탈옥 여부에 따라 true, false 값을 반환합니다.\n  지원하지 않는 기기인 경우에는 undefined를 반환합니다."
+    },
+    {
+      "id": "p_01_version",
+      "type": "heading2",
+      "content": "version",
+      "option": {
+        "alias": "AppInfo_version"
+      }
+    },
+    {
+      "id": "p_02_version",
+      "type": "pre",
+      "content": "앱 내부에서 사용하는 버전 정보를 반환하는 속성입니다."
+    },
+    {
+      "id": "p_03_version",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_version",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_version",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_version",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_version",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_version",
+      "type": "command",
+      "content": "AppInfo.version"
+    },
+    {
+      "id": "p_11_version",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_version",
+      "type": "pre",
+      "content": "- 운영체제에 따라 아래 정보를 반환합니다.\n  앱 내에서 버전 정보에 따라 업데이트 등의 작업을 처리할 수 있습니다.\n  Android: versionCode\n  iOS/iPadOS: CFBundleVersion\n\n- 앱빌더를 사용하는 경우 앱을 빌드할 때마다 1씩 증가한 값으로 설정됩니다."
+    },
+    {
+      "id": "p_01_versionname",
+      "type": "heading2",
+      "content": "versionname",
+      "option": {
+        "alias": "AppInfo_versionname"
+      }
+    },
+    {
+      "id": "p_02_versionname",
+      "type": "pre",
+      "content": "앱 사용자에게 제공하는 버전 정보를 반환하는 속성입니다."
+    },
+    {
+      "id": "p_03_versionname",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_versionname",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_versionname",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_versionname",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_versionname",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_versionname",
+      "type": "command",
+      "content": "AppInfo.versionname"
+    },
+    {
+      "id": "p_11_versionname",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_versionname",
+      "type": "pre",
+      "content": "- 운영체제에 따라 아래 정보를 반환합니다.\n  Android: versionName\n  iOS/iPadOS: CFBundleShortVersionString\n\n- 넥사크로 스튜디오에서 빌드한 경우 [Build App &gt; Setup Version] 값으로 설정한 값입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "AppInfo_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 AppInfo 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "AppInfo.destroy()"
+    },
+    {
+      "id": "m_07_destroy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.16179474244539493",
+      "type": "command",
+      "content": "var bSucc = this.AppInfo00.destroy();"
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 AppInfo 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01isDebuggerConnected",
+      "type": "heading2",
+      "content": "isDebuggerConnected",
+      "option": {
+        "alias": "AppInfo_isDebuggerConnected"
+      }
+    },
+    {
+      "id": "m_02_isDebuggerConnected",
+      "type": "pre",
+      "content": "USB 디버깅 설정 활성화 여부를 반환하는 메서드입니다."
+    },
+    {
+      "id": "m_03_isDebuggerConnected",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isDebuggerConnected",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isDebuggerConnected",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isDebuggerConnected",
+      "type": "command",
+      "content": "AppInfo.isDebuggerConnected()"
+    },
+    {
+      "id": "m_08_isDebuggerConnected",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07735822571856343",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>USB 디버깅 설정 활성화 여부를 반환합니다.\nUSB 디버깅 설정이 활성화된 경우는 true를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    }
+  ]
+}
