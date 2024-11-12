@@ -1,0 +1,1705 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Form 또는 컨테이너 컴포넌트에서 스크롤이 필요할 때 사용되는 ScrollIndicator Control 입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- Mobile 환경에서 주로 사용되는 Scroll 타입입니다.\n\n- FileUpload, Grid, ListBox, TextArea, Form 에서 하위 Control 로 사용중입니다."
+    },
+    {
+      "id": "u_06",
+      "type": "heading2",
+      "content": "컴포넌트 구조"
+    },
+    {
+      "id": "u_07",
+      "type": "normal",
+      "content": "<img src='https://raw.githubusercontent.com/TOBESOFT-DOCS/CHM_Nexacro_N_V24/refs/heads/main/images/2663%5CScrollIndicatorControl.png?raw=true'/>"
+    },
+    {
+      "id": "u_15",
+      "type": "heading2",
+      "content": "Control"
+    },
+    {
+      "id": "u_10_0.801918009600774",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th colspan=\"2\">Name</th><th>TypeName</th></tr></thead><tbody><tr><td colspan=\"2\">trackbar</td><td>nexacro.Button</td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,120,?"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_background",
+      "type": "heading2",
+      "content": "background",
+      "option": {
+        "alias": "ScrollIndicatorControl_background"
+      }
+    },
+    {
+      "id": "p_02_background",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 배경 영역을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_background",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_background",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_background",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_background",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_background",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_background",
+      "type": "command",
+      "content": "ScrollIndicatorControl.background"
+    },
+    {
+      "id": "p_09_background",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8713281235087944",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBackground ::= [&lt;bg-image&gt; | &lt;linear-gradient&gt;] [&lt;background-origin&gt; [&lt;background-clip&gt;]] [&lt;background-color&gt;]\n\n&lt;bg-image&gt; ::= 'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\n   &lt;imageurl&gt; ::= 'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\n   &lt;repeat-style&gt; ::= 'repeat-x' | 'repeat-y' | 'repeat' | 'no-repeat'\n   &lt;position&gt; ::= &lt;horizontal-position&gt; &lt;vertical-position&gt; ['/' &lt;background-size&gt;]\n      &lt;horizontal-position&gt; ::= 'left' | 'center' | 'right' | &lt;pos-percentage&gt; '%'\n      &lt;vertical-position&gt; ::= 'top' | 'center' | 'bottom' | &lt;pos-percentage&gt; '%'\n      &lt;background-size&gt; ::= 'auto' | 'cover' | 'contain' | (&lt;length&gt; 'px' | &lt;percentage&gt; '%') {1,2}\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n   &lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n   &lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\n      &lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\n         &lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;background-origin&gt; ::= 'border-box' | 'padding-box'\n&lt;background-clip&gt; ::= 'border-box' | 'padding-box'\n&lt;background-color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbackground : #ffffaa;\nbackground : url('./images/smiley.gif') no-repeat center center #ffffaa;\nbackground : url('./images/smiley.gif') no-repeat center center /auto #ffffaa;\nbackground : url('./images/smiley.gif') no-repeat center center /15px 15% #ffffaa;\nbackground : linear-gradient( red , blue , yellow );\nbackground : linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0));\nbackground : url('./images/smiley.gif') border-box border-box #ffffaa;</div></td></tr><tr><th>&lt;bg-image&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 이미지가 표시됩니다.\n\n\"none\" 으로 설정하면 이미지를 설정하지 않습니다.\n&lt;imageurl&gt; 값으로 이미지를 설정할 수 있습니다.\n&lt;repeat-style&gt; 값으로 이미지의 반복표시 방향을 설정할 수 있습니다.\n&lt;position&gt; 값으로 이미지의 표시위치를 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;imageurl&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\" 형식으로 설정합니다.\n\n\"URL ( [이미지경로] )\" 형식으로 테마 또는 웹의 이미지를 설정합니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;repeat-style&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 반복표시 방향을 설정합니다.\n\n\"repeat-x\" 설정 시 이미지가 가로 방향으로 반복표시 됩니다.\n\"repeat-y\" 설정 시 이미지가 세로 방향으로 반복표시 됩니다.\n\"repeat\" 설정 시 이미지가 가로,세로 방향으로 모두 반복표시 됩니다.\n\"no-repeat\" 설정 시 이미지가 반복표시 되지 않습니다.\n\n값을 설정하지 않으면 \"repeat\" 로 적용됩니다.</div></td></tr><tr><th>&lt;horizontal-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로 위치를 설정합니다.\n\n\"left\" 설정 시 ScrollIndicatorControl 의 왼쪽면과 이미지의 왼쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 ScrollIndicatorControl 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"right\" 설정 시 ScrollIndicatorControl 의 오른쪽면과 이미지의 오른쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;vertical-position&gt; 값을 설정하고, &lt;horizontal-position&gt; 값을 설정하지 않으면 &lt;horizontal-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;horizontal-position&gt; 은 \"left\" 로 적용됩니다.</div></td></tr><tr><th>&lt;vertical-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 세로 위치를 설정합니다.\n\n\"top\" 설정 시 ScrollIndicatorControl 의 윗쪽면과 이미지의 윗쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 ScrollIndicatorControl 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"bottom\" 설정 시 ScrollIndicatorControl 의 아랫쪽면과 이미지의 아랫쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;horizontal-position&gt; 값을 설정하고, &lt;vertical-position&gt; 값을 설정하지 않으면 &lt;vertical-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;vertical-position&gt; 은 \"top\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;pos-percentage&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로/세로 위치를 비율로 설정합니다.\n\n&lt;horizontal-position&gt; 에 \"0%\" 설정 시 \"left\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"100%\" 설정 시 \"right\" 과 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"0%\" 설정 시 \"top\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"100%\" 설정 시 \"bottom\" 과 같은 위치로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 ScrollIndicatorControl 의 영역을 벗어난 가상의 위치로 적용됩니다.\n\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-size&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 크기를 설정합니다.\n- auto: 원본 이미지 크기를 유지합니다.\n- cover: 이미지 비율을 유지하는 한도 내에서 배경에 빈 공간이 없도록 가장 크게 설정합니다.\n  width 또는 height 길이가 긴 쪽은 잘려서 표시될 수 있습니다.\n- contain: 이미지가 잘리지 않고 비율을 유지하는 한도 내에서 가장 크게 설정합니다.\n- &lt;length&gt; | &lt;percentage&gt;: 이미지의 width, height 크기 또는 컴포넌트 대비 비율을 설정합니다. \n  width 값만 설정하면 원본 이미지 비율에 따라 height 크기를 자동으로 처리합니다.\n  height 값만 설정할 수는 없습니다. \n  음수값은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>배경에 표시될 그라데이션을 \"'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 그라데이션이 표시됩니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\"으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 \"&lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점과 끝점의 위치가 결정됩니다.\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 ScrollIndicatorControl 의 right 위치가 시작점이 되고, left 위치가 끝점이 됩니다.\n              &lt;angle&gt; 값이 \"to right\" 이면 ScrollIndicatorControl 의 left 위치가 시작점이 되고, right 위치가 끝점이 됩니다.\n\n&lt;listcolor-stop&gt; 에 그라데이션 중간점의 색을 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 \"0\" 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 \"100\" 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\" 형식으로 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.\n뒤에 선언된 색의 &lt;percentage&gt; 값은 먼저 선언된 색의 &lt;percentage&gt; 값보다 커야 합니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그라데이션 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 ScrollIndicatorControl 의 영역을 벗어난 가상의 위치로 적용됩니다.\n예를 들어 \"150%\" 설정 시 시작점에서 끝점까지 거리의 반만큼 끝점에서 벗어난 위치에 &lt;color&gt; 값이 적용됩니다.\n\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-origin&gt;</th><td colspan=\"2\"><div>배경으로 처리될 기준영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역이 배경영역으로 처리됩니다.\n\n\"padding-box\" 설정 시 Border 의 안쪽 영역이 배경영역으로 처리됩니다.\n\"padding-box\" 설정 시 그라데이션의 시작점, 끝점과 배경이미지의 반복 기준위치가 Border 안쪽 영역으로 처리됩니다.\n\n값을 설정하지 않으면 \"padding-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-clip&gt;</th><td colspan=\"2\"><div>배경이 실제로 표시될 영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역에 배경이 표시됩니다.\n\"padding-box\" 설정 시 Border 의 안쪽 영역에 배경이 표시됩니다.\n\n값을 설정하지 않으면 &lt;background-origin&gt; 에 설정한 값이 동일하게 적용됩니다.\n&lt;background-origin&gt; 값도 설정하지 않았을 경우 \"border-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-color&gt;</th><td colspan=\"2\"><div>배경에 표시될 색을 색상이름 또는 색상코드로 설정합니다.\n\n&lt;bg-image&gt; 또는 &lt;linear-gradient&gt; 값이 설정되어 있다면 배경색은 배경이미지 또는 그라데이션 아래에 표시됩니다.\n&lt;bg-image&gt; 에 적용된 이미지에 투명으로 적용된 부분이 있거나 이미지가 ScrollIndicatorControl 영역보다 작다면 해당 영역에 배경색이 표시됩니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_background",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_background",
+      "type": "pre",
+      "content": "- background 속성값을 설정하지 않으면 undefined 가 설정되고, \"transparent\" 로 동작합니다.\n\n- TypeDefinition 영역의 Services 에 정의된 사용자 Prefix 는 테마 또는 XCSS 에서 이미지경로로 사용할 수 없습니다.\n   사용자 Prefix 는 스크립트 또는 넥사크로 스튜디오에서 속성값으로 설정 시 사용할 수 있습니다.\n\n- 배경의 기준영역과 표시영역은 &lt;background-origin&gt;, &lt;background-clip&gt; 값으로 각각 설정합니다.\n\n- 배경 이미지를 중앙에 위치시키려면 &lt;position&gt; 값을 \"center\" 또는 \"center center\" 로 설정하여야 합니다.\n\n- 배경이미지와 배경색을 모두 설정하면 배경색 위에 이미지가 표시됩니다.\n   그라데이션과 배경색을 모두 설정하면 배경색 위에 그라데이션이 표시됩니다.\n\n- 그라데이션과 배경이미지를 동시에 설정할 수 없습니다.\n   두 값을 동시에 설정 시 오동작이 발생할 수 있습니다."
+    },
+    {
+      "id": "p_01_barminsize",
+      "type": "heading2",
+      "content": "barminsize",
+      "option": {
+        "alias": "ScrollIndicatorControl_barminsize"
+      }
+    },
+    {
+      "id": "p_02_barminsize",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 트랙바(TrackBar) 최소 크기를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_barminsize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_barminsize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_barminsize",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_barminsize",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_barminsize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_barminsize",
+      "type": "command",
+      "content": "ScrollIndicatorControl.barminsize"
+    },
+    {
+      "id": "p_09_barminsize",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9893367235761433",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>barminsize</th><td colspan=\"2\"><div>ScrollIndicatorControl 의 트랙바 최소 크기를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_barminsize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_barminsize",
+      "type": "pre",
+      "content": "- 컨텐츠 크기에 따라 트랙바 크기가 자동으로 조절될 때 barminsize 크기 이하로 작아지지 않습니다.\n\n- 트랙바가 표시되는 영역보다 barminsize 속성값을 크게 설정해도 트랙바는 표시영역까지만 표현됩니다.\n\n- trackbarsize 속성값이 설정되어 있으면 barminsize 속성값은 무시됩니다."
+    },
+    {
+      "id": "p_01_baroutsize",
+      "type": "heading2",
+      "content": "baroutsize",
+      "option": {
+        "alias": "ScrollIndicatorControl_baroutsize"
+      }
+    },
+    {
+      "id": "p_02_baroutsize",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 에서 트랙바(TrackBar)가 사라지는 기준 크기를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_baroutsize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_baroutsize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_baroutsize",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_baroutsize",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_baroutsize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_baroutsize",
+      "type": "command",
+      "content": "ScrollIndicatorControl.baroutsize"
+    },
+    {
+      "id": "p_09_baroutsize",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6724390694532678",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>baroutsize</th><td colspan=\"2\"><div>ScrollIndicatorControl 에서 트랙바가 사라지는 기준 크기를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_baroutsize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_baroutsize",
+      "type": "pre",
+      "content": "- 컨텐츠 크기에 따라 스크롤바가 줄어들 때 트랙바를 표시할 공간이 baroutsize 속성값보다 작아지면 트랙바를 표시하지 않습니다.\n\n- 트랙바 크기는 컨텐츠 크기와 갯수에 따라 자동으로 조절됩니다.\n\n- trackbarsize 속성값이 설정되어 있으면 baroutsize 속성값은 무시됩니다."
+    },
+    {
+      "id": "p_01_border-radius",
+      "type": "heading2",
+      "content": "border-radius",
+      "option": {
+        "alias": "ScrollIndicatorControl_border-radius"
+      }
+    },
+    {
+      "id": "p_02_border-radius",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 모서리 모양을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_border-radius",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_border-radius",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_border-radius",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_border-radius",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_border-radius",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_border-radius",
+      "type": "command",
+      "content": "ScrollIndicatorControl.border-radius"
+    },
+    {
+      "id": "p_09_border-radius",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.39747251521617877",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>border-radius ::= &lt;horizontal-radius&gt;{4} ['/' &lt;vertical-radius&gt;{4}]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nborder-radius : 10px;\nborder-radius : 5px 6px 10px / 5px 10px;</div></td></tr><tr><th>&lt;horizontal-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 가로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 가로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;vertical-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 세로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 세로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_border-radius",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_border-radius",
+      "type": "pre",
+      "content": "- border-radius 속성값을 설정하지 않으면 undefined 가 설정되고, \"0px\" 로 동작합니다. \n\n- &lt;horizontal-radius&gt; 와 &lt;vertical-radius&gt; 는 \"/\" 문자로 구분하여 입력합니다.\n\n◆ NRE 제약\n\n- border-radius 속성을 설정하면 모든 테두리가 같은 색으로 적용됩니다.\n   -nexa-border 속성에서 top 에 적용된 색이 모든 테두리에 적용됩니다."
+    },
+    {
+      "id": "p_01_cursor",
+      "type": "heading2",
+      "content": "cursor",
+      "option": {
+        "alias": "ScrollIndicatorControl_cursor"
+      }
+    },
+    {
+      "id": "p_02_cursor",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 영역에서 표시될 마우스 포인터의 종류를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_cursor",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_cursor",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_cursor",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_cursor",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_cursor",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_cursor",
+      "type": "command",
+      "content": "ScrollIndicatorControl.cursor"
+    },
+    {
+      "id": "p_09_cursor",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1618281655050713",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>cursor ::= 'none' | 'auto' | 'default' | 'copy' | 'crosshair' | 'help' | 'move' | 'not-allowed' | 'pointer' | 'progress' | 'text' | 'wait' | 'ew-resize' | 'e-resize' | 'w-resize' | 'ns-resize' | 'n-resize' | 's-resize' | 'nesw-resize' | 'ne-resize' | 'sw-resize' | 'nwse-resize' | 'nw-resize' | 'se-resize'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncursor : default ;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 포인터를 표시하지 않습니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>컴포넌트의 특성에 맞는 포인터가 표시됩니다.\n\nEdit계열 컴포넌트는 \"text\" 포인터가 표시됩니다.\n그외 계열 컴포넌트는 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>시스템의 기본 포인터가 표시됩니다.\n\n일반적으로 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"copy\"</th><td colspan=\"2\"><div>화살표와 작은 십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"crosshair\"</th><td colspan=\"2\"><div>십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"help\"</th><td colspan=\"2\"><div>화살표와 작은 물음표 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 물음표 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"move\"</th><td colspan=\"2\"><div>십자 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"not-allowed\"</th><td colspan=\"2\"><div>금지 표지판 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 화살표와 금지 표지판 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"pointer\"</th><td colspan=\"2\"><div>손모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"progress\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 화살표와 모래시계, 화살표와 원 등 다양한 형태로 표시됩니다.\n\n* macOS NRE 에서는 지원하지 않습니다.</div></td></tr><tr><th>\"text\"</th><td colspan=\"2\"><div>아이(\"I\") 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"wait\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 모래시계, 시계 등 다양한 형태로 표시됩니다.</div></td></tr><tr><th>\"ew-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"e-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"w-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ns-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"n-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"s-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nesw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ne-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"sw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nwse-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"nw-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS 는 지원하지 않습니다.</div></td></tr><tr><th>\"se-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_cursor",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_cursor",
+      "type": "pre",
+      "content": "- cursor 속성값을 설정하지 않으면 undefined 가 설정되고 \"auto\" 로 동작합니다.\n\n- disable 상태인 서브컨트롤이 있는 컴포넌트의 경우 마우스 포인터는 서브컨트롤 영역에서\n   서브컨트롤의 disable status값이 적용되지 않고, 컴포넌트의 enable status 설정값이 적용됩니다.\n   서브컨트롤과 컴포넌트가 모두 disable 상태일 때는 parent 의 enable status 설정값이 적용됩니다."
+    },
+    {
+      "id": "p_01_direction",
+      "type": "heading2",
+      "content": "direction",
+      "option": {
+        "alias": "ScrollIndicatorControl_direction"
+      }
+    },
+    {
+      "id": "p_02_direction",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 이 표시될 형태를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_direction",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_direction",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_direction",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_direction",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_direction",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_direction",
+      "type": "command",
+      "content": "ScrollIndicatorControl.direction"
+    },
+    {
+      "id": "p_09_direction",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5880905987376933",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>direction ::= 'horizontal' | 'vertical'</div></td></tr><tr><th>\"horizontal\"</th><td colspan=\"2\"><div>ScrollIndicatorControl 이 수평 스크롤바 형태로 적용됩니다.</div></td></tr><tr><th>\"vertical\"</th><td colspan=\"2\"><div>ScrollIndicatorControl 이 수직 스크롤바 형태로 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_direction",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_direction",
+      "type": "pre",
+      "content": "- direction 속성값을 설정하지 않으면 \"vertical\" 로 적용됩니다.\n\n- 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 direction 속성값에 따라 달라집니다."
+    },
+    {
+      "id": "p_01_enable",
+      "type": "heading2",
+      "content": "enable",
+      "option": {
+        "alias": "ScrollIndicatorControl_enable"
+      }
+    },
+    {
+      "id": "p_02_enable",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 사용가능 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_enable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_enable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_enable",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_enable",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_enable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_enable",
+      "type": "command",
+      "content": "ScrollIndicatorControl.enable"
+    },
+    {
+      "id": "p_09_enable",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.21272879008097212",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enable ::= 'true' | 'false'</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>ScrollIndicatorControl 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>ScrollIndicatorControl 을(를) 사용할 수 없게 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_enable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_enable",
+      "type": "pre",
+      "content": "- enable 속성값이 false 이면 컴포넌트가 화면에 표시되지만 포커스나 입력을 받을 수 없습니다.\n\n- Div 와 같은 컨테이너 컴포넌트의 enable 속성값을 false 로 설정하면 자식 컴포넌트도 모두 Disable 됩니다."
+    },
+    {
+      "id": "p_01_line",
+      "type": "heading2",
+      "content": "line",
+      "option": {
+        "alias": "ScrollIndicatorControl_line"
+      }
+    },
+    {
+      "id": "p_02_line",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 에서 Line 단위로 스크롤 될 때 pos 속성값에 적용될 값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_line",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_line",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_line",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_line",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_line",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_line",
+      "type": "command",
+      "content": "ScrollIndicatorControl.line"
+    },
+    {
+      "id": "p_11_line",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_line",
+      "type": "pre",
+      "content": "- 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"linedown\" 또는 \"lineright\" 일 때 pos 속성값이 line 속성값만큼 증가합니다.\n\n- 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"lineup\" 또는 \"lineleft\" 일 때 pos 속성값이 line 속성값만큼 감소합니다."
+    },
+    {
+      "id": "p_01_max",
+      "type": "heading2",
+      "content": "max",
+      "option": {
+        "alias": "ScrollIndicatorControl_max"
+      }
+    },
+    {
+      "id": "p_02_max",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 pos 속성이 가질 수 있는 최대값이 설정된 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_max",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_max",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_max",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_max",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_max",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_max",
+      "type": "command",
+      "content": "ScrollIndicatorControl.max"
+    },
+    {
+      "id": "p_11_max",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_max",
+      "type": "pre",
+      "content": "- ScrollIndicatorControl 의 pos 속성값이 max 속성값에 도달하면 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"last\" 가 됩니다."
+    },
+    {
+      "id": "p_01_min",
+      "type": "heading2",
+      "content": "min",
+      "option": {
+        "alias": "ScrollIndicatorControl_min"
+      }
+    },
+    {
+      "id": "p_02_min",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 pos 속성이 가질 수 있는 최소값이 설정된 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_min",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_min",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_min",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_min",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_min",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_min",
+      "type": "command",
+      "content": "ScrollIndicatorControl.min"
+    },
+    {
+      "id": "p_11_min",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_min",
+      "type": "pre",
+      "content": "- ScrollIndicatorControl 의 pos 속성값이 min 속성값에 도달하면 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"first\" 가 됩니다"
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "ScrollIndicatorControl_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "ScrollIndicatorControl.name"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.727239502771048",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>name</th><td colspan=\"2\"><div>Control 의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- 컴포넌트 내부에 정의된 Control 은 name 을 설정할 수 없습니다."
+    },
+    {
+      "id": "p_01_-nexa-border",
+      "type": "heading2",
+      "content": "-nexa-border",
+      "option": {
+        "alias": "ScrollIndicatorControl_-nexa-border"
+      }
+    },
+    {
+      "id": "p_02_-nexa-border",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 테두리를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_-nexa-border",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_-nexa-border",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_-nexa-border",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_-nexa-border",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_-nexa-border",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_-nexa-border",
+      "type": "command",
+      "content": "ScrollIndicatorControl.-nexa-border"
+    },
+    {
+      "id": "p_09_-nexa-border",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.39381820420468594",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>-nexa-border ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_-nexa-border",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_-nexa-border",
+      "type": "pre",
+      "content": "- -nexa-border 속성값을 설정하지 않으면 undefined 가 설정되고, \"medium none #999999\" 로 동작합니다.\n\n- &lt;line-style&gt; 이 \"double\" 일 때 두 줄을 다른 색으로 설정할 수 없습니다.\n   &lt;color&gt; 에 설정된 색이 두 줄에 모두 적용됩니다.\n\n\n◆ Nexacro Runtime Environment 제약\n\n- 각 테두리의 색상이나 두께를 다르게 설정했을 경우 top &gt; right &gt; bottom &gt; left 순으로 겹쳐서 표시됩니다.\n\n- &lt;line-style&gt; 파라미터에 \"double\",\"groove\",\"ridge\",\"inset\",\"outset\" 값을 설정해도 적용되지 않습니다.\n\n- &lt;line-width&gt; 파라미터에 \"thin\",\"medium\",\"thick\" 값을 설정해도 적용되지 않습니다.\n\n\n◆ Web Runtime Environment 제약\n\n- 각 테두리의 색상이나 두께를 다르게 설정했을 경우 웹브라우저에 따라 테두리가 겹쳐지는 순서가 다르게 처리될 수 있습니다.\n\n- 각 테두리의 색상이나 두께를 다르게 설정했을 경우 border-radius 속성값이 설정되어 있으면 \n   두께는 각 테두리 별로 따로 적용되고, 색상은 top 에 설정된 색이 적용됩니다.\n\n- 각 테두리의 색상이나 두께를 다르게 설정했을 경우 border-radius 속성값이 설정되어 있어도\n   일부 브라우저는 각 테두리의 색상이나 두께가 각각 적용됩니다."
+    },
+    {
+      "id": "p_01_-nexa-edge",
+      "type": "heading2",
+      "content": "-nexa-edge",
+      "option": {
+        "alias": "ScrollIndicatorControl_-nexa-edge"
+      }
+    },
+    {
+      "id": "p_02_-nexa-edge",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 테두리(Border) 안쪽에 표시될 Edge 이미지를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_-nexa-edge",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_-nexa-edge",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_-nexa-edge",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_-nexa-edge",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_-nexa-edge",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_-nexa-edge",
+      "type": "command",
+      "content": "ScrollIndicatorControl.-nexa-edge"
+    },
+    {
+      "id": "p_09_-nexa-edge",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5961557567974858",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>-nexa-edge ::= 'none' | &lt;image&gt; [&lt;fixedwidth&gt;'px' &lt;fixedheight&gt;'px']\n\n&lt;image&gt; ::= 'URL(\"' &lt;Theme-Image&gt; | &lt;Web-Image&gt; '\")'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-edge : URL(\"./images/border.png\") 5px 5px;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>edge 이미지를 설정하지 않습니다.</div></td></tr><tr><th>&lt;image&gt;</th><td colspan=\"2\"><div>'URL (\"[이미지위치]\")' 형식으로 테마 또는 웹의 이미지를 설정합니다.\n\n테두리(border) 안쪽에 edge 형태로 이미지가 표시됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;fixedwidth&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 왼쪽/오른쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 왼쪽/오른쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr><tr><th>&lt;fixedheight&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 위쪽/아래쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 위쪽/아래쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_-nexa-edge",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_-nexa-edge",
+      "type": "pre",
+      "content": "- -nexa-edge 속성값을 설정하지 않으면 undefined 가 설정되고, \"none\" 으로 동작합니다.\n\n- ScrollIndicatorControl 내부에 테두리 형태로 이미지를 표시하고자 할 때 사용하는 속성입니다.\n\n- -nexa-edge 속성값을 설정하면 이미지의 상/하/좌/우 일정 영역(&lt;fixedwidth&gt;,&lt;fixedheight&gt; 값)을 고정하고 안쪽 사각형 영역을 Stretch 하여 처리합니다.\n\n- background 속성에 의해 배경색 또는 이미지가 설정되어 있어도 -nexa-edge 속성에 설정된 이미지가 제일 위에 표시됩니다.\n\n\n◆ web runtime environment 제약\n\n- &lt;fixedwidth&gt;,&lt;fixedheight&gt; 값이 이미지사이즈의 1/2을 초과할 경우 브라우저별로 보이는 형태가 다를 수 있습니다.\n\n- CSS3 스펙을 지원하지 않는 브라우저 버전에서는 정상적으로 표시되지 않을 수 있습니다."
+    },
+    {
+      "id": "p_01_-nexa-padding",
+      "type": "heading2",
+      "content": "-nexa-padding",
+      "option": {
+        "alias": "ScrollIndicatorControl_-nexa-padding"
+      }
+    },
+    {
+      "id": "p_02_-nexa-padding",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 영역의 안쪽 여백을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_-nexa-padding",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_-nexa-padding",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_-nexa-padding",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_-nexa-padding",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_-nexa-padding",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_-nexa-padding",
+      "type": "command",
+      "content": "ScrollIndicatorControl.-nexa-padding"
+    },
+    {
+      "id": "p_09_-nexa-padding",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4210165777512589",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>-nexa-padding ::= &lt;npadding&gt;'px'{4}</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-padding : 5px 5px 5px 5px;</div></td></tr><tr><th>&lt;npadding&gt;</th><td colspan=\"2\"><div>ScrollIndicatorControl 영역의 안쪽 여백을 pixel 단위로 설정합니다.\n\n값을 1회 입력 시 top/right/bottom/left 에 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_-nexa-padding",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_-nexa-padding",
+      "type": "pre",
+      "content": "- -nexa-padding 속성값을 설정하지 않으면 undefined 가 설정되고, \"0px\" 로 동작합니다.\n\n- -nexa-padding 속성은 컴포넌트에 표시되는 아이콘과 텍스트의 영역에 적용됩니다.\n\n- ScrollIndicatorControl 의 너비보다 표시되는 컨텐츠의 너비가 길면 \"right\" 방향의 padding 값이 무시됩니다.\n\n- Div 와 같이 자식을 갖을 수 있는 컴포넌트에서 -nexa-padding 속성은 자식 컴포넌트의 위치에 영향을 주지 않습니다."
+    },
+    {
+      "id": "p_01_-nexa-rtl-background-image",
+      "type": "heading2",
+      "content": "-nexa-rtl-background-image",
+      "option": {
+        "alias": "ScrollIndicatorControl_-nexa-rtl-background-image"
+      }
+    },
+    {
+      "id": "p_02_-nexa-rtl-background-image",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 rtl 속성이 true 로 적용될 때 배경에 표시될 이미지를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_-nexa-rtl-background-image",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_-nexa-rtl-background-image",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_-nexa-rtl-background-image",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_-nexa-rtl-background-image",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_-nexa-rtl-background-image",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_-nexa-rtl-background-image",
+      "type": "command",
+      "content": "ScrollIndicatorControl.-nexa-rtl-background-image"
+    },
+    {
+      "id": "p_09_-nexa-rtl-background-image",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.135593147367427",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlBgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-background-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-background-image : URL(\"theme://images/Test.jpg\");</div></td></tr><tr><th>strRtlBgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\nbackground 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\nbackground 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_-nexa-rtl-background-image",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_-nexa-rtl-background-image",
+      "type": "pre",
+      "content": "- rtl 속성에 의해 표시기준이 변경되면 반전된 이미지를 적용하려 할 때 사용하는 속성입니다.\n\n- XCSS 에서만 설정할 수 있는 속성으로 스크립트로 값을 변경할 수 없습니다.\n   XCSS 에 -nexa-rtl-background-image 속성값을 설정하지 않으면 background 속성에 설정된 이미지가 적용됩니다.\n\n- TypeDefinition 영역의 Services 에 정의된 사용자 Prefix 는 테마 또는 XCSS 에서 이미지경로로 사용할 수 없습니다.\n\n- 배경이미지가 적용되는 영역은 컴포넌트의 클라이언트 영역입니다.\n\n- background 속성에 배경색이 설정되어 있을 경우 배경색 위에 이미지가 표시됩니다.\n\n- 그라데이션과 배경이미지를 동시에 설정할 수 없습니다.\n   background 속성에 그라데이션이 설정되어 있을 경우 오동작이 발생할 수 있습니다."
+    },
+    {
+      "id": "p_01_-nexa-rtl-edge-image",
+      "type": "heading2",
+      "content": "-nexa-rtl-edge-image",
+      "option": {
+        "alias": "ScrollIndicatorControl_-nexa-rtl-edge-image"
+      }
+    },
+    {
+      "id": "p_02_-nexa-rtl-edge-image",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 rtl 속성이 true 로 적용될 때 테두리(Border) 안쪽에 표시될 Edge 이미지를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_-nexa-rtl-edge-image",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_-nexa-rtl-edge-image",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_-nexa-rtl-edge-image",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_-nexa-rtl-edge-image",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_-nexa-rtl-edge-image",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_-nexa-rtl-edge-image",
+      "type": "command",
+      "content": "ScrollIndicatorControl.-nexa-rtl-edge-image"
+    },
+    {
+      "id": "p_09_-nexa-rtl-edge-image",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6421120694059123",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlEgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-edge-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-edge-image : URL(\"theme://images/Test.jpg\")</div></td></tr><tr><th>strRtlEgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\n-nexa-edge 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\n-nexa-edge 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_-nexa-rtl-edge-image",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_-nexa-rtl-edge-image",
+      "type": "pre",
+      "content": "- rtl 속성에 의해 표시기준이 변경되면 반전된 이미지를 적용하려 할 때 사용하는 속성입니다.\n\n- XCSS 에서만 설정할 수 있는 속성으로 스크립트로 값을 변경할 수 없습니다.\n   XCSS 에 -nexa-rtl-edge-image 속성값을 설정하지 않으면 -nexa-edge 속성에 설정된 이미지가 적용됩니다.\n\n- TypeDefinition 영역의 Services 에 정의된 사용자 Prefix 는 테마 또는 XCSS 에서 이미지경로로 사용할 수 없습니다.\n\n- 배경이미지가 적용되는 영역은 컴포넌트의 클라이언트 영역입니다.\n\n- background 또는 -nexa-rtl-background-image 속성에 의해 배경색 또는 이미지가 설정되어 있어도 -nexa-rtl-edge-image 속성에 설정된 이미지가 제일 위에 표시됩니다.\n\n\n◆ web runtime environment 제약\n\n- CSS3 스펙을 지원하지 않는 브라우저 버전에서는 정상적으로 표시되지 않을 수 있습니다."
+    },
+    {
+      "id": "p_01_opacity",
+      "type": "heading2",
+      "content": "opacity",
+      "option": {
+        "alias": "ScrollIndicatorControl_opacity"
+      }
+    },
+    {
+      "id": "p_02_opacity",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 영역의 투명도를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_opacity",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_opacity",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_opacity",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_opacity",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_opacity",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_opacity",
+      "type": "command",
+      "content": "ScrollIndicatorControl.opacity"
+    },
+    {
+      "id": "p_09_opacity",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5317601907445094",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nopacity : 0.8 ;\nopacity : 80%;</div></td></tr><tr><th>opacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nXCSS는 숫자 또는 퍼센트 값으로만 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_opacity",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_opacity",
+      "type": "pre",
+      "content": "- opacity 속성값을 설정하지 않으면 undefined 가 설정되고, 1 로 동작합니다.\n\n- Div 와 같이 자식 컴포넌트를 가질 수 있는 컴포넌트에 opacity 속성을 적용하면 자식 컴포넌트도 함께 적용됩니다.\n\n- 부모와 자식 컴포넌트에 각각 opacity 속성이 설정되어 있으면 자식 컴포넌트의 투명도는 부모의 투명도에 추가적으로 적용됩니다.\n   예를 들어 부모의 opacity가 0.5 이고 자식의 opacity가 0.4 이면 결과적으로 자식 컴포넌트는 0.2 의 투명도가 적용됩니다."
+    },
+    {
+      "id": "p_01_page",
+      "type": "heading2",
+      "content": "page",
+      "option": {
+        "alias": "ScrollIndicatorControl_page"
+      }
+    },
+    {
+      "id": "p_02_page",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 에서 Page 단위로 스크롤 될 때 pos 속성값에 적용될 값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_page",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_page",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_page",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_page",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_page",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_page",
+      "type": "command",
+      "content": "ScrollIndicatorControl.page"
+    },
+    {
+      "id": "p_11_page",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_page",
+      "type": "pre",
+      "content": "- 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"pagedown\" 또는 \"pageright\" 일 때 pos 속성값이 page 속성값만큼 증가합니다.\n\n- 스크롤 관련 이벤트에 전달되는 ScrollEventInfo 오브젝트의 type 값이 \"pageup\" 또는 \"pageleft\" 일 때 pos 속성값이 page 속성값만큼 감소합니다."
+    },
+    {
+      "id": "p_01_pos",
+      "type": "heading2",
+      "content": "pos",
+      "option": {
+        "alias": "ScrollIndicatorControl_pos"
+      }
+    },
+    {
+      "id": "p_02_pos",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 트랙바 위치값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_pos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_pos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_pos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_pos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_pos",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_pos",
+      "type": "command",
+      "content": "ScrollIndicatorControl.pos"
+    },
+    {
+      "id": "p_09_pos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8832427616555858",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>pos</th><td colspan=\"2\"><div>min 속성값보다 크거나 같고, max속성값보다 작거나 같은 값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_pos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_pos",
+      "type": "pre",
+      "content": "- pos 속성값을 min 속성값보다 작게 설정하면 pos 속성값이 min 속성값으로 설정됩니다.\n\n- pos 속성값을 max 속성값보다 크게 설정하면 pos 속성값이 max 속성값으로 설정됩니다."
+    },
+    {
+      "id": "p_01_trackbar",
+      "type": "heading2",
+      "content": "trackbar",
+      "option": {
+        "alias": "ScrollIndicatorControl_trackbar"
+      }
+    },
+    {
+      "id": "p_02_trackbar",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 서브컨트롤인 트랙바(TrackBar)버튼 오브젝트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_trackbar",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_trackbar",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_trackbar",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_trackbar",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☑ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_trackbar",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_trackbar",
+      "type": "command",
+      "content": "ScrollIndicatorControl.trackbar"
+    },
+    {
+      "id": "p_11_trackbar",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_trackbar",
+      "type": "pre",
+      "content": "- 트랙바(TrackBar) 버튼은 ScrollIndicatorControl 이 스크롤 된 위치를 나타냅니다."
+    },
+    {
+      "id": "p_01_trackbarsize",
+      "type": "heading2",
+      "content": "trackbarsize",
+      "option": {
+        "alias": "ScrollIndicatorControl_trackbarsize"
+      }
+    },
+    {
+      "id": "p_02_trackbarsize",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 의 서브컨트롤인 트랙바(TrackBar)버튼의 크기를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_trackbarsize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_trackbarsize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_trackbarsize",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_trackbarsize",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_trackbarsize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_trackbarsize",
+      "type": "command",
+      "content": "ScrollIndicatorControl.trackbarsize"
+    },
+    {
+      "id": "p_09_trackbarsize",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7978356014319908",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>trackbarsize</th><td colspan=\"2\"><div>트랙바(TrackBar)버튼의 크기를 pixel 단위의 숫자로 설정합니다.\n\n\"-1\" 설정 시 트랙바(TrackBar)버튼의 크기는 컨텐츠에 따라 자동으로 조절됩니다.\n특정값을 설정하면 트랙바(TrackBar)버튼의 크기는 컨텐츠에 관계없이 고정크기를 유지합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_trackbarsize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_trackbarsize",
+      "type": "pre",
+      "content": "- trackbarsize 속성값을 설정하지 않으면 \"-1\" 로 적용됩니다.\n\n- 수직스크롤바 일때 trackbarsize 속성값은 트랙바(TrackBar)버튼의 높이로 적용됩니다.\n\n- 수평스크롤바 일때 trackbarsize 속성값은 트랙바(TrackBar)버튼의 너비로 적용됩니다."
+    },
+    {
+      "id": "p_01_visible",
+      "type": "heading2",
+      "content": "visible",
+      "option": {
+        "alias": "ScrollIndicatorControl_visible"
+      }
+    },
+    {
+      "id": "p_02_visible",
+      "type": "pre",
+      "content": "ScrollIndicatorControl 이(가) 화면에 표시될지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_visible",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_visible",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_visible",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_visible",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_visible",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_visible",
+      "type": "command",
+      "content": "ScrollIndicatorControl.visible"
+    },
+    {
+      "id": "p_09_visible",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9831201484222387",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>visible ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>ScrollIndicatorControl 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>ScrollIndicatorControl 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_visible",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_visible",
+      "type": "pre",
+      "content": "- visible 속성값이 \"false\"이면 컴포넌트가 화면에 표시되지 않고, 포커스를 받을 수 없으므로 입력이나 사용이 불가능합니다.\n\n- Div 와 같은 컨테이너 컴포넌트의 visible 속성값을 \"false\"로 설정하면 자식 컴포넌트도 함께 화면에 표시되지 않습니다.\n\n- visible 속성값이 \"false\"이어도 컴포넌트는 존재하기 때문에 스크립트로 제어가 가능합니다.\n\n- 넥사크로 스튜디오에서는 visible 속성값을 'false'로 설정해도 디자인화면에서 사라지지 않습니다."
+    }
+  ]
+}
