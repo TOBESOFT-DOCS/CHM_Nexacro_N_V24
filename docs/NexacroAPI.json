@@ -1,0 +1,3648 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "넥사크로에서 기능을 확장하여 추가로 제공하는 메소드입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 넥사크로에 정의된 메소드는 정적 메소드이므로 생성이나 선언 없이 바로 사용할 수 있습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addErrorMessage",
+      "type": "heading2",
+      "content": "addErrorMessage",
+      "option": {
+        "alias": "NexacroAPI_addErrorMessage"
+      }
+    },
+    {
+      "id": "m_02_addErrorMessage",
+      "type": "pre",
+      "content": "어플리케이션에 사용자가 정의한 에러메시지를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addErrorMessage",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addErrorMessage",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addErrorMessage",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addErrorMessage",
+      "type": "command",
+      "content": "nexacro.addErrorMessage( enumLang, strCode, strMsg )"
+    },
+    {
+      "id": "m_07_addErrorMessage",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.32422814715476045",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumLang</td><td>String</td><td colspan=\"2\"><div>에러메시지가 추가될 언어를 설정합니다.\n\n\"ko\" 설정 시 한국어 영역에 에러메시지를 추가합니다.\n\"en\" 설정 시 영어 영역에 에러메시지를 추가합니다.\n\"ja\" 설정 시 일본어 영역에 에러메시지를 추가합니다.\n\"zh\" 설정 시 중국어 영역에 에러메시지를 추가합니다.</div></td></tr><tr><td>strCode</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지의 코드를 문자열로 설정합니다.</div></td></tr><tr><td>strMsg</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.addErrorMessage( \"en\", \"test_code\",\"Test Error Message\" ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_addErrorMessage",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addErrorMessage",
+      "type": "pre",
+      "content": "- 추가된 에러메시지에 대응하는 에러를 발생시키려면 Library 를 수정하여야 합니다."
+    },
+    {
+      "id": "m_01base64Decode",
+      "type": "heading2",
+      "content": "base64Decode",
+      "option": {
+        "alias": "NexacroAPI_base64Decode"
+      }
+    },
+    {
+      "id": "m_02_base64Decode",
+      "type": "pre",
+      "content": "Base64 형식으로 인코딩된 데이터를 디코딩 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_base64Decode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_base64Decode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_base64Decode",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_base64Decode",
+      "type": "command",
+      "content": "nexacro.base64Decode( strData )"
+    },
+    {
+      "id": "m_07_base64Decode",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.32392220546098927",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩된 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Decode( strInput ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_base64Decode",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4288502850755489",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>디코딩된 결과 데이터를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01base64Encode",
+      "type": "heading2",
+      "content": "base64Encode",
+      "option": {
+        "alias": "NexacroAPI_base64Encode"
+      }
+    },
+    {
+      "id": "m_02_base64Encode",
+      "type": "pre",
+      "content": "데이터를 Base64 형식으로 인코딩 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_base64Encode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_base64Encode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_base64Encode",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_base64Encode",
+      "type": "command",
+      "content": "nexacro.base64Encode( strData )"
+    },
+    {
+      "id": "m_07_base64Encode",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.14707724102409048",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩할 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Encode( strInput ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_base64Encode",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2535960134432468",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Base64 형식으로 인코딩된 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01ceil",
+      "type": "heading2",
+      "content": "ceil",
+      "option": {
+        "alias": "NexacroAPI_ceil"
+      }
+    },
+    {
+      "id": "m_02_ceil",
+      "type": "pre",
+      "content": "지정된 자릿수 또는 소수점을 기준으로 올림한 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_ceil",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_ceil",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_ceil",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_ceil",
+      "type": "command",
+      "content": "nexacro.ceil( nVal [,nFractionDigit] );"
+    },
+    {
+      "id": "m_07_ceil",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.038556883288768606",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum\nnNum = nexacro.ceil(3.0123);      // nNum = 4\nnNum = nexacro.ceil(3.0123, 2);  // nNum = 3.02</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_ceil",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3942878577448037",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>올림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_ceil",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_ceil",
+      "type": "pre",
+      "content": "- 자릿수 지정 시 오차가 발생할 수 있습니다."
+    },
+    {
+      "id": "m_01deleteCacheDB",
+      "type": "heading2",
+      "content": "deleteCacheDB",
+      "option": {
+        "alias": "NexacroAPI_deleteCacheDB"
+      }
+    },
+    {
+      "id": "m_02_deleteCacheDB",
+      "type": "pre",
+      "content": "어플리케이션에서 사용한 Cache DB 파일 및 관련된 임시파일을 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_deleteCacheDB",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_deleteCacheDB",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_deleteCacheDB",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_deleteCacheDB",
+      "type": "command",
+      "content": "nexacro.deleteCacheDB()"
+    },
+    {
+      "id": "m_07_deleteCacheDB",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.2846166061764369",
+      "type": "command",
+      "content": "nexacro.deleteCacheDB() ;"
+    },
+    {
+      "id": "m_09_deleteCacheDB",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_deleteCacheDB",
+      "type": "pre",
+      "content": "- Cache 경로의 \".db\" 파일을 삭제한 후 새로 작성합니다.\n  추가로 Cache 경로에서 현재 어플리케이션의 키값에 해당하는 하위폴더의 모든 파일을 함께 삭제합니다."
+    },
+    {
+      "id": "m_01flashWindow",
+      "type": "heading2",
+      "content": "flashWindow",
+      "option": {
+        "alias": "NexacroAPI_flashWindow"
+      }
+    },
+    {
+      "id": "m_02_flashWindow",
+      "type": "pre",
+      "content": "작업표시줄에서 해당 어플리케이션 아이콘을 깜빡이게 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_flashWindow",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_flashWindow",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_flashWindow",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_flashWindow",
+      "type": "command",
+      "content": "nexacro.flashWindow( enumType, nCount, [,nInterval] )"
+    },
+    {
+      "id": "m_07_flashWindow",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8683616508620547",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumType</td><td>String</td><td colspan=\"2\"><div>어플리케이션이 아이콘이 깜빡이는 방식을 설정합니다.\n\n\"count\" 설정 시 지정된 횟수만큼 깜빡인 후 종료됩니다.\n\"timer\" 설정 시 \"stop\" 값으로 flashWindow() 메소드를 실행할 때까지 계속 깜빡입니다.\n\"timernofg\" 설정 시 해당 어플리케이션이 활성화 될 때까지 깜빡입니다.\n\"stop\" 설정 시 현재 깜빡이는 동작을 중지합니다.</div></td></tr><tr><td>nCount</td><td>Number</td><td colspan=\"2\"><div>enumType 값이 \"count\" 인 경우 깜박이는 횟수를 숫자로 설정합니다.\n\nenumType 값이 \"count\" 가 아닌 경우 설정값은 무시됩니다.</div></td></tr><tr><td>nInterval</td><td>Number</td><td colspan=\"2\"><div>어플리케이션 아이콘이 깜박이는 간격을 밀리초(milliseconds) 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.flashWindow( \"count\", 10, 500 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_flashWindow",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_flashWindow",
+      "type": "pre",
+      "content": "- 사용자에게 알릴 작업이 있는 경우에 사용합니다."
+    },
+    {
+      "id": "m_01floor",
+      "type": "heading2",
+      "content": "floor",
+      "option": {
+        "alias": "NexacroAPI_floor"
+      }
+    },
+    {
+      "id": "m_02_floor",
+      "type": "pre",
+      "content": "지정된 자릿수 또는 소수점을 기준으로 내림한 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_floor",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_floor",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_floor",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_floor",
+      "type": "command",
+      "content": "nexacro.floor( nVal [,nFractionDigit] );"
+    },
+    {
+      "id": "m_07_floor",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.18271368607918204",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.floor(9.9999);      // nNum = 9\nnNum = nexacro.floor(9.9999, 2);  // nNum = 9.99</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_floor",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.823133890993681",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>내림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_floor",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_floor",
+      "type": "pre",
+      "content": "- 자릿수 지정 시 오차가 발생할 수 있습니다."
+    },
+    {
+      "id": "m_01gc",
+      "type": "heading2",
+      "content": "gc",
+      "option": {
+        "alias": "NexacroAPI_gc"
+      }
+    },
+    {
+      "id": "m_02_gc",
+      "type": "pre",
+      "content": "메모리에서 사용하지 않는 데이터를 즉시 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_gc",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_gc",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_gc",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_gc",
+      "type": "command",
+      "content": "nexacro.gc()"
+    },
+    {
+      "id": "m_07_gc",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.20847665280998096",
+      "type": "command",
+      "content": "nexacro.gc() ;"
+    },
+    {
+      "id": "m_09_gc",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_gc",
+      "type": "pre",
+      "content": "- 팝업되었던 Form, ChildFrame, DataSet 등 현재 사용되지 않고 메모리에 남아 있는 데이터를 명시적으로 삭제하기 위한 메소드입니다.\n\n- gc() 메소드는 방법에 따라 성능에 영향을 미칠 수 있으므로 주의하여 사용하여야 합니다."
+    },
+    {
+      "id": "m_01getApplication",
+      "type": "heading2",
+      "content": "getApplication",
+      "option": {
+        "alias": "NexacroAPI_getApplication"
+      }
+    },
+    {
+      "id": "m_02_getApplication",
+      "type": "pre",
+      "content": "현재 실행된 어플리케이션의 Application 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getApplication",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getApplication",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getApplication",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getApplication",
+      "type": "command",
+      "content": "nexacro.getApplication()"
+    },
+    {
+      "id": "m_07_getApplication",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.44711186588132523",
+      "type": "command",
+      "content": "var objApp = nexacro.getApplication() ;"
+    },
+    {
+      "id": "m_08_getApplication",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.595497312641174",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Application 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getCookieVariable",
+      "type": "heading2",
+      "content": "getCookieVariable",
+      "option": {
+        "alias": "NexacroAPI_getCookieVariable"
+      }
+    },
+    {
+      "id": "m_02_getCookieVariable",
+      "type": "pre",
+      "content": "Environment 의 Cookies 영역에 정의된 쿠키의 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getCookieVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getCookieVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getCookieVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getCookieVariable",
+      "type": "command",
+      "content": "nexacro.getCookieVariable( strID [, bSecure] )"
+    },
+    {
+      "id": "m_07_getCookieVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5425680707865144",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 값을 가져옵니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 값을 가져옵니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 값을 가져옵니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 값을 가져옵니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vCookie0 = nexacro.getCookieVariable(\"Cookie0\") ;\nvar vCookie1 = nexacro.getCookieVariable(\"Cookie1\", true) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getCookieVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.48979391041303555",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Cookies 영역에 정의된 쿠키변수의 값을 반환합니다.\n\n조건에 만족하는 쿠키변수가 없을 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getCookieVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getCookieVariable",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- Secure 속성이 설정된 상태로 서버에서 받은 Cookie 는 Cookies 영역에 추가되거나 변경되지 않습니다.\n\n- Cross Domain 상황이면 Cookies 영역의 Cookie 가 서버로 전송되거나 서버에서 받은 값으로 변경되지 않습니다."
+    },
+    {
+      "id": "m_01getEnableWheelZoom",
+      "type": "heading2",
+      "content": "getEnableWheelZoom",
+      "option": {
+        "alias": "NexacroAPI_getEnableWheelZoom"
+      }
+    },
+    {
+      "id": "m_02_getEnableWheelZoom",
+      "type": "pre",
+      "content": "지정된 Frame 이 속한 window 의 Zoom 기능 설정여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEnableWheelZoom",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEnableWheelZoom",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEnableWheelZoom",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEnableWheelZoom",
+      "type": "command",
+      "content": "nexacro.getEnableWheelZoom( objFrame )"
+    },
+    {
+      "id": "m_07_getEnableWheelZoom",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9382001577028586",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능 설정여부를 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar bEnableZoom = nexacro.getEnableWheelZoom( objFrame )</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEnableWheelZoom",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3902307726635418",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있으면 true 를 반환합니다.\n\n지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getEnableWheelZoom",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getEnableWheelZoom",
+      "type": "pre",
+      "content": "- Zoom 기능의 설정을 변경하지 않았다면 true 로 적용됩니다.\n\n- Zoom 기능은 window 단위로 설정 할 수 있습니다.\n   따라서, open(), showModalWindow() 등의 메소드로 오픈된 별도의 window 를 갖는 팝업창은 Zoom 기능을 따로 설정하여야 합니다."
+    },
+    {
+      "id": "m_01getEnvironment",
+      "type": "heading2",
+      "content": "getEnvironment",
+      "option": {
+        "alias": "NexacroAPI_getEnvironment"
+      }
+    },
+    {
+      "id": "m_02_getEnvironment",
+      "type": "pre",
+      "content": "현재 실행된 어플리케이션의 Environment 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEnvironment",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEnvironment",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEnvironment",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEnvironment",
+      "type": "command",
+      "content": "nexacro.getEnvironment()"
+    },
+    {
+      "id": "m_07_getEnvironment",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.8357933047730743",
+      "type": "command",
+      "content": "var objEnv = nexacro.getEnvironment() ;"
+    },
+    {
+      "id": "m_08_getEnvironment",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8683801769556058",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Environment 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getEnvironmentVariable",
+      "type": "heading2",
+      "content": "getEnvironmentVariable",
+      "option": {
+        "alias": "NexacroAPI_getEnvironmentVariable"
+      }
+    },
+    {
+      "id": "m_02_getEnvironmentVariable",
+      "type": "pre",
+      "content": "Environment 의 Variables 영역에 정의된 변수의 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEnvironmentVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEnvironmentVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEnvironmentVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEnvironmentVariable",
+      "type": "command",
+      "content": "nexacro.getEnvironmentVariable( strID )"
+    },
+    {
+      "id": "m_07_getEnvironmentVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8262604974386984",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.getEnvironmentVariable(\"Env_Variable0\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEnvironmentVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2026497922046514",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Environment 의 Variable 영역에 정의된 변수의 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getEnvironmentVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getEnvironmentVariable",
+      "type": "pre",
+      "content": "- Application 의 AppVariables 영역에 정의된 변수값을 얻으려면 getApplication() 메소드를 사용하여 변수에 접근하여야 합니다."
+    },
+    {
+      "id": "m_01getHTTPHeaderVariable",
+      "type": "heading2",
+      "content": "getHTTPHeaderVariable",
+      "option": {
+        "alias": "NexacroAPI_getHTTPHeaderVariable"
+      }
+    },
+    {
+      "id": "m_02_getHTTPHeaderVariable",
+      "type": "pre",
+      "content": "Environment 의 HTTP Header 영역에 정의된 변수의 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getHTTPHeaderVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getHTTPHeaderVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getHTTPHeaderVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getHTTPHeaderVariable",
+      "type": "command",
+      "content": "nexacro.getHTTPHeaderVariable( strID )"
+    },
+    {
+      "id": "m_07_getHTTPHeaderVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.552961039094651",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vHTTPVal0 = nexacro.getHTTPHeaderVariable(\"HeaderVal00\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_01getLogFilePath",
+      "type": "heading2",
+      "content": "getLogFilePath",
+      "option": {
+        "alias": "NexacroAPI_getLogFilePath"
+      }
+    },
+    {
+      "id": "m_02_getLogFilePath",
+      "type": "pre",
+      "content": "앱에서 로그 파일을 저장하는 경로를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getLogFilePath",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getLogFilePath",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getLogFilePath",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getLogFilePath",
+      "type": "command",
+      "content": "nexacro.getLogFilePath()"
+    },
+    {
+      "id": "m_07_getLogFilePath",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.0828117344271353",
+      "type": "command",
+      "content": "var strLogFilePath = nexacro.getLogFilePath();"
+    },
+    {
+      "id": "m_08_getLogFilePath",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.48078851509071374",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>로그 파일이 저장된 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getLogFilePath",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getLogFilePath",
+      "type": "pre",
+      "content": "- 윈도우 운영체제에서 로그 파일을 읽기 위해서는 Environment filesecurelevel 속성값이 \"all\"로 설정되어 있어야 합니다. 최초 로그 파일 접근 시 샌드박스 창이 표시됩니다.\n\n- VirtualFile 오브젝트를 사용해 저장한 로그 파일 정보를 확인할 수 있습니다. 아래 예제를 참고하세요."
+    },
+    {
+      "id": "m_01getPopupFrames",
+      "type": "heading2",
+      "content": "getPopupFrames",
+      "option": {
+        "alias": "NexacroAPI_getPopupFrames"
+      }
+    },
+    {
+      "id": "m_02_getPopupFrames",
+      "type": "pre",
+      "content": "파라미터로 설정한 Frame 이 속한 Window 를 기준으로 팝업된 ChildFrame 을 Collection 형태로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getPopupFrames",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getPopupFrames",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getPopupFrames",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getPopupFrames",
+      "type": "command",
+      "content": "nexacro.getPopupFrames( [objFrame] )"
+    },
+    {
+      "id": "m_07_getPopupFrames",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7152236899262104",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>기준 Frame 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 Remark 에 설명된 조건에 따라 적용되는 Frame 이 달라질 수 있으므로 주의하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrPopFrame = nexacro.getPopupFrames() ;\nvar arrPopFrame = nexacro.getPopupFrames( this.getOwnerFrame() ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getPopupFrames",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.43037737050552405",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>파라미터로 설정한 Frame 이 속한 Window 에서 팝업으로 실행된 Frame 을 Collection 형태로 반환합니다.\n\nobjFrame 파라미터에 null 또는 잘못된 값을 설정할 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getPopupFrames",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getPopupFrames",
+      "type": "pre",
+      "content": "- 팝업된 ChildFrame 의 리스트는 Window 를 기준으로 관리됩니다.\n   따라서 objFrame 파라미터에 서로 다른 Frame 을 설정해도 같은 Window 에 있으면 동일한 결과값을 반환합니다.\n   예를 들어 동일한 Window 에 속한 \"A\", \"B\" Frame 에서 각각 팝업을 했을 때 objFrame 에 어떤 Frame 을 설정해도 동일한 결과값을 반환합니다.\n   그러나 Window 가 다른 \"A\", \"B\" Frame 에서 각각 팝업을 했을 때는 objFrame 에 설정한 Frame 에 따라 다른 결과값을 반환합니다.\n\n- objFrame 파라미터를 생략했을 경우 getPopupFrames() 메소드가 실행되는 시점에 활성화 되어 있는 Window 를 기준으로 결과값을 반환하므로 특정 조건일 때 결과값이 달라질 수 있습니다.\n   예를 들어 \"A\" Frame 에서 open() 메소드로 별도 Window 가 있는 \"B\" Frame 을 팝업한 상태에서 \"A\" Frame 에 정의된 스크립트롤 호출하여 \"A\" Frame\" 에서 getPopupFrames() 메소드가 실행되어도 활성화 된 Window 가 기준이 되므로 \"B\" Frame 을 기준으로 결과값을 반환할 수 있습니다.\n   그러므로 objFrame 파라미터를 생략하지 않을 것을 권장합니다.\n\n- open(), showModalWindow() 메소드는 부모와 별도의 Window 를 갖고 팝업됩니다.\n   showModal(), showModalSync() 메소드는 부모와 동일한 Window 로 팝업됩니다.\n\n- open(), showModal(), showModalSync(), showModalWindow() 메소드로 팝업된 ChildFrame 은\n   해당 메소드 실행 시 objParentFrame 파라미터에 설정한 Frame 이 속한 Window 의 팝업리스트에 추가됩니다.\n\n- 결과값으로 반환된 오브젝트는 Collection 접근방식을 사용할 수 있습니다.\n   ReturnObj[0], ReturnObj[\"Frame0\"], ReturnObj.length 등의 방법을 사용합니다."
+    },
+    {
+      "id": "m_01getPrivateProfile",
+      "type": "heading2",
+      "content": "getPrivateProfile",
+      "option": {
+        "alias": "NexacroAPI_getPrivateProfile"
+      }
+    },
+    {
+      "id": "m_02_getPrivateProfile",
+      "type": "pre",
+      "content": "어플리케이션에서 저장한 개인화 데이터를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getPrivateProfile",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getPrivateProfile",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getPrivateProfile",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getPrivateProfile",
+      "type": "command",
+      "content": "nexacro.getPrivateProfile( strKey )"
+    },
+    {
+      "id": "m_07_getPrivateProfile",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4096460664112569",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장할 때 설정했던 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vPrivate0 = nexacro.getPrivateProfile( \"aa\" ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getPrivateProfile",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.812956279803784",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>인수로 전달된 키값에 해당하는 개인화 데이터를 저장 시 설정한 데이터 타입으로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getPrivateProfile",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getPrivateProfile",
+      "type": "pre",
+      "content": "- 개인화 데이터는 어플리케이션이 구동될 때 설정한 Key 값 별로 따로 관리되며 \"nexacro.xml\" 파일에 저장됩니다.\n\n- \"nexacro.xml\" 파일은 사용자별로 정보를 관리하기 위해 사용하는 XML 형식의 파일입니다.\n  Windows 운영체제의 경우 C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24 위치에 파일이 생성됩니다.\n\n- 웹브라우저 환경일 경우 브라우저의 Local Storage 영역에 개인화 데이터를 저장합니다."
+    },
+    {
+      "id": "m_01getProjectPath",
+      "type": "heading2",
+      "content": "getProjectPath",
+      "option": {
+        "alias": "NexacroAPI_getProjectPath"
+      }
+    },
+    {
+      "id": "m_02_getProjectPath",
+      "type": "pre",
+      "content": "애플리케이션의 실행 경로를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getProjectPath",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getProjectPath",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getProjectPath",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getProjectPath",
+      "type": "command",
+      "content": "nexacro.getProjectPath()"
+    },
+    {
+      "id": "m_07_getProjectPath",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.9569001261257291",
+      "type": "command",
+      "content": "var strPrjPath = nexacro.getProjectPath();"
+    },
+    {
+      "id": "m_08_getProjectPath",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5086582448174145",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>애플리케이션의 실행 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getStringResourceValue",
+      "type": "heading2",
+      "content": "getStringResourceValue",
+      "option": {
+        "alias": "NexacroAPI_getStringResourceValue"
+      }
+    },
+    {
+      "id": "m_02_getStringResourceValue",
+      "type": "pre",
+      "content": "StringResource에서 지정한 Key 값에 해당하는 문자열을 반환하는 메서드입니다."
+    },
+    {
+      "id": "m_03_getStringResourceValue",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getStringResourceValue",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getStringResourceValue",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getStringResourceValue",
+      "type": "command",
+      "content": "nexacro.getStringResourceValue(strKey);"
+    },
+    {
+      "id": "m_07_getStringResourceValue",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.16166241350227029",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>StringResource에서 가져올 문자열에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strResource = nexacro.getStringResourceValue(\"A0001\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getStringResourceValue",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6066629726509049",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>StringResource에서 지정한 Key 값에 해당하는 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getTextSize",
+      "type": "heading2",
+      "content": "getTextSize",
+      "option": {
+        "alias": "NexacroAPI_getTextSize"
+      }
+    },
+    {
+      "id": "m_02_getTextSize",
+      "type": "pre",
+      "content": "인수로 전달된 값을 기준으로 텍스트가 표시되는 영역의 크기를 계산하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getTextSize",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getTextSize",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getTextSize",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getTextSize",
+      "type": "command",
+      "content": "nexacro.getTextSize( strText, strFont [, nLimitWidth, strWordWrap [, refObj]] );\nnexacro.getTextSize( strText, strFont [, refObj] );"
+    },
+    {
+      "id": "m_07_getTextSize",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.30249328015625676",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText </td><td>String</td><td colspan=\"2\"><div>화면에 표시될 텍스트를 설정합니다.</div></td></tr><tr><td>strFont</td><td>String</td><td colspan=\"2\"><div>텍스트에 적용될 폰트정보를 font 속성 형식에 맞게 설정합니다.\n\n컴포넌트의 font 속성에 값이 설정되어 있다면 font 속성을 설정할 수 있습니다.</div></td></tr><tr><td>nLimitWidth</td><td>Number</td><td colspan=\"2\"><div>텍스트가 표시되는 영역의 최대 너비를 pixel 단위의 숫자로 설정합니다.\n\nstrWordWrap 값이 \"none\" 또는 \"line\" 이면 nLimitWidth 에 설정된 값은 무시됩니다.\nstrWordWrap 값이 \"char\" 또는 \"english\" 일 경우 nLimitWidth 값에 맞게 텍스트가 줄바꿈되어 표시됩니다.</div></td></tr><tr><td>strWordWrap</td><td>String</td><td colspan=\"2\"><div>텍스트가 줄바꿈 되는 기준을 설정합니다.\n\n\"none\" 설정 시 텍스트에 포함된 개행문자와 nLimitWidth 값이 무시되어 한줄로 표시됩니다.\n\"line\" 설정 시 nLimitWidth 값은 무시되고 텍스트에 포함된 개행문자를 기준으로 줄바꿈이 됩니다.\n\"char\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\"english\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\n\"char\", \"english\" 설정 시 텍스트에 포함된 개행문자에 의해서도 줄바꿈이 됩니다.</div></td></tr><tr><td>refObj</td><td>Object</td><td colspan=\"2\"><div>strFont의 단위가 \"em\"인 경우 상대적인 크기를 설정할 기준 컴포넌트(오브젝트)를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00.font = \"italic bold 10pt Arial\";\n\nvar strText = \"Sample Text\";\n\nvar objSize = nexacro.getTextSize( strText, this.Static00.font );\nvar objSize2 = nexacro.getTextSize( strText, \"italic bold 10pt Arial\", 100, \"char\" );\nvar objSize3 = nexacro.getTextSize( strText, \"italic bold 2em Arial\", this );\n\ntrace( objSize.nx + \",\" + objSize.ny );\ntrace( objSize2.nx + \",\" + objSize2.ny );\ntrace( objSize3.nx + \",\" + objSize3.ny );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getTextSize",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5495558274516751",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>인수값을 기준으로 계산된 텍스트가 표시되는 영역의 크기 정보를 오브젝트로 반환합니다.\n\n반환된 오브젝트의 \"nx\" 속성에 텍스트의 가로크기가 저장됩니다.\n반환된 오브젝트의 \"ny\" 속성에 텍스트의 세로크기가 저장됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getTextSize",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getTextSize",
+      "type": "pre",
+      "content": "- Theme 나 XCSS 로 설정된 속성값은 스크립트로 접근할 수 없습니다.\n   따라서 strFont 에 컴포넌트의 font 속성을 사용하려면 넥사크로 스튜디오나 스크립트로 font 속성을 설정하여야 합니다.\n\n- nLimitWidth, strWordWrap 값을 설정하면 줄바꿈이 적용되어 텍스트가 표시되는 영역의 크기가 계산됩니다."
+    },
+    {
+      "id": "m_11_getTextSize",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_getTextSize",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_grid_95'>컬럼 너비보다 큰 텍스트만 툴팁으로 보여주기</a>"
+    },
+    {
+      "id": "m_01getWheelZoom",
+      "type": "heading2",
+      "content": "getWheelZoom",
+      "option": {
+        "alias": "NexacroAPI_getWheelZoom"
+      }
+    },
+    {
+      "id": "m_02_getWheelZoom",
+      "type": "pre",
+      "content": "지정된 Frame 이 속한 window 의 Zoom 배율을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getWheelZoom",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getWheelZoom",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getWheelZoom",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getWheelZoom",
+      "type": "command",
+      "content": "nexacro.getWheelZoom( objFrame )"
+    },
+    {
+      "id": "m_07_getWheelZoom",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6680161217696011",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar nZoomScale = nexacro.getWheelZoom( objFrame );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getWheelZoom",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.1257834662936922",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>지정된 Frame 이 속한 window 의 Zoom 배율을 \"%\" 단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getWheelZoom",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getWheelZoom",
+      "type": "pre",
+      "content": "- Zoom 배율을 변경하지 않았다면 100 으로 적용됩니다.\n\n- Zoom 기능은 window 단위로 설정 할 수 있습니다.\n   따라서, open(), showModalWindow() 등의 메소드로 오픈된 별도의 window 를 갖는 팝업창은 Zoom 배율을 따로 설정하여야 합니다."
+    },
+    {
+      "id": "m_01isAlpha",
+      "type": "heading2",
+      "content": "isAlpha",
+      "option": {
+        "alias": "NexacroAPI_isAlpha"
+      }
+    },
+    {
+      "id": "m_02_isAlpha",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 알파벳인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isAlpha",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isAlpha",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isAlpha",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isAlpha",
+      "type": "command",
+      "content": "nexacro.isAlpha( nChar )\nnexacro.isAlpha( strChar )"
+    },
+    {
+      "id": "m_07_isAlpha",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8301561022298332",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlpha(97);       // true, 97 = 'a'\nbRet = nexacro.isAlpha(\"aaa\");  // true</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isAlpha",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.43839006933847924",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isAlphaNumeric",
+      "type": "heading2",
+      "content": "isAlphaNumeric",
+      "option": {
+        "alias": "NexacroAPI_isAlphaNumeric"
+      }
+    },
+    {
+      "id": "m_02_isAlphaNumeric",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 알파벳 또는 숫자인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isAlphaNumeric",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isAlphaNumeric",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isAlphaNumeric",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isAlphaNumeric",
+      "type": "command",
+      "content": "nexacro.isAlphaNumeric( nChar )\nnexacro.isAlphaNumeric( strChar )"
+    },
+    {
+      "id": "m_07_isAlphaNumeric",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.05836300911090553",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 또는 숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳과 숫자로만 이루어져 있는지 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlphaNumeric(97);            // true , 97 = 'a'\nbRet = nexacro.isAlphaNumeric(\"123abc\");   // true</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isAlphaNumeric",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7731521475950003",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드가 알파벳 또는 숫자이면 \"true\" 를 반환합니다.\n전달된 문자열이 알파벳과 숫자로만 이루어져 있다면 \"true\" 를 반환합니다.\n\n전달된 문자코드가 알파벳 또는 숫자가 아니면 \"false\" 를 반환합니다.\n전달된 문자열에 알파벳과 숫자 이외의 문자가 있다면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isExistCookieVariable",
+      "type": "heading2",
+      "content": "isExistCookieVariable",
+      "option": {
+        "alias": "NexacroAPI_isExistCookieVariable"
+      }
+    },
+    {
+      "id": "m_02_isExistCookieVariable",
+      "type": "pre",
+      "content": "Environment 의 Cookies 영역에서 특정 쿠키변수의 존재여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isExistCookieVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isExistCookieVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isExistCookieVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isExistCookieVariable",
+      "type": "command",
+      "content": "nexacro.isExistCookieVariable( strID [, bSecure] )"
+    },
+    {
+      "id": "m_07_isExistCookieVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9862114146469753",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 존재여부를 확인합니다.\n\ntrue 설정 시 쿠키변수가 존재하고 Secure 속성값이 true 일 때만 true 를 반환합니다.\nfalse 설정 시 쿠키변수가 존재하고 Secure 속성값이 false 일 때만 true 를 반환합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 존재여부를 확인합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.isExistCookieVariable( \"Cookie0\" ) ;\nnexacro.isExistCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isExistCookieVariable",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.00800222697114128",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Cookies 영역에 쿠키변수가 존재하면 true 를 반환합니다.\nCookies 영역에 쿠키변수가 존재하지 않으면 false 를 반환합니다.\n\nbSecure 설정 시 bSecure 에 설정한 값까지 일치할 경우 true 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isLower",
+      "type": "heading2",
+      "content": "isLower",
+      "option": {
+        "alias": "NexacroAPI_isLower"
+      }
+    },
+    {
+      "id": "m_02_isLower",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 알파벳 소문자인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isLower",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isLower",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isLower",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isLower",
+      "type": "command",
+      "content": "nexacro.isLower( nChar )\nnexacro.isLower( strChar )"
+    },
+    {
+      "id": "m_07_isLower",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2422720273677309",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 소문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 소문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isLower(97);       // true , 97 = 'a'\nbRet = nexacro.isLower(\"abC\");  // false</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isLower",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8597383678678155",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 소문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 소문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isNumeric",
+      "type": "heading2",
+      "content": "isNumeric",
+      "option": {
+        "alias": "NexacroAPI_isNumeric"
+      }
+    },
+    {
+      "id": "m_02_isNumeric",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 숫자인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isNumeric",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isNumeric",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isNumeric",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isNumeric",
+      "type": "command",
+      "content": "nexacro.isNumeric( nChar )\nnexacro.isNumeric( strChar )"
+    },
+    {
+      "id": "m_07_isNumeric",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.19253831094102558",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>숫자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isNumeric(97);      // false , 97 = 'a'\nbRet = nexacro.isNumeric(\"123\");  // true</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isNumeric",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3582103072833479",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 숫자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 숫자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isSpace",
+      "type": "heading2",
+      "content": "isSpace",
+      "option": {
+        "alias": "NexacroAPI_isSpace"
+      }
+    },
+    {
+      "id": "m_02_isSpace",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 공백문자인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isSpace",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isSpace",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isSpace",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isSpace",
+      "type": "command",
+      "content": "nexacro.isSpace( nChar )\nnexacro.isSpace( strChar )"
+    },
+    {
+      "id": "m_07_isSpace",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9229048099460931",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>공백문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>공백문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isSpace(0);        // false , 0 = Null\nbRet = nexacro.isSpace(32);      // true , 32 = Space\nbRet = nexacro.isSpace(97);      // false , 97 = 'a'\nbRet = nexacro.isSpace(\"\");       // true\nbRet = nexacro.isSpace(\" \");      // true</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isSpace",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4204118738697301",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 공백문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 공백문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01isUpper",
+      "type": "heading2",
+      "content": "isUpper",
+      "option": {
+        "alias": "NexacroAPI_isUpper"
+      }
+    },
+    {
+      "id": "m_02_isUpper",
+      "type": "pre",
+      "content": "인수로 전달된 문자코드 또는 문자열이 알파벳 대문자인지 여부를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isUpper",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isUpper",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isUpper",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isUpper",
+      "type": "command",
+      "content": "nexacro.isUpper( nChar );\nnexacro.isUpper( strChar );"
+    },
+    {
+      "id": "m_07_isUpper",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7400565413904655",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 대문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 대문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isUpper(65);        // true , 65 = 'A'\nbRet = nexacro.isUpper(\"abC\");   // false</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_isUpper",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7929244073793338",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 대문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 대문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01loadStringResource",
+      "type": "heading2",
+      "content": "loadStringResource",
+      "option": {
+        "alias": "NexacroAPI_loadStringResource"
+      }
+    },
+    {
+      "id": "m_02_loadStringResource",
+      "type": "pre",
+      "content": "지정한 언어에 해당하는 StringResource를 로드하는 메서드입니다."
+    },
+    {
+      "id": "m_03_loadStringResource",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_loadStringResource",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_loadStringResource",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_loadStringResource",
+      "type": "command",
+      "content": "nexacro.loadStringResource(strLang[, strUrl]);\nnexacro.loadStringResource(strUrl);"
+    },
+    {
+      "id": "m_07_loadStringResource",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9163793417305814",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLang</td><td>String</td><td colspan=\"2\"><div>StringResource에서 로드할 대상 언어를 설정합니다.\n\nstrLang 파라미터 값만 설정한 경우 아래와 같은 상황에서는 메서드가 동작하지 않습니다.\n- 제너레이트 된 StringResource 파일이 없는 경우\n- Environment.usestringresource 속성값이 false인 경우</div></td></tr><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>StringResource 정보를 갱신하기 위한 서비스 URL을 문자열로 설정합니다.\n\n- strUrl 파라미터 값 설정 시 Environment.usestringresource 속성값과 상관없이 동작합니다.\n- 반환되는 값은 지정한 언어 데이터를 포함한 JSON 파일 형식이어야 합니다.\n\n* strLang 파라미터 값을 설정한 경우\nstrLang 파라미터값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.\nURL 문자열 형태에 따라 URL 호출 시점에 lang=[strLang] 매개변수를 추가합니다.\n- 매개변수가 있는 경우: ⟨=[strLang] 추가\n  예) http://dummy.com/i18n?test=true\n       -&gt; http://dummy.com/i18n?test=true⟨=ja\n- 매개변수가 없는 경우: ?lang=[strLang] 추가\n  예) http://dummy.com/i18n\n       -&gt; http://dummy.com/i18n?lang=ja\n\n* strUrl 파라미터 값만 설정한 경우\nEnvironment.locale 속성값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStringResource(\"ja\");\nnexacro.loadStringResource(\"ja\", \"https://dummy.com/i18n\");\nnexacro.loadStringResource(\"https://dummy.com/i18n\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_loadStringResource",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_loadStringResource",
+      "type": "pre",
+      "content": "- 첫 번째 파라미터 값이 URL 문자열 형태인지 구분해서 strLang 또는 strUrl 파라미터로 처리합니다.\n\n- strUrl 파라미터 값 설정 시 반환되는 JSON 파일에는 지정한 언어 데이터가 포함되어야 합니다.\n  지정된 언어 데이터를 찾지 못하면 Environment.onerror 이벤트에서 에러로 처리합니다.\n  예를 들어 지정한 언어가 en인 경우 JSON 파일은 아래와 같은 형태여야 합니다.\n\n  {\n      \"en\": {\n              \"btn_0001\" : \"Example\",\n              \"btn_0002\" : \"Source\",\n              \"btn_0003\" : \"Script\",\n              \"msg_0001\" : \"The example application was tested on the Nexaro N\",\n              \"msg_0002\" : \"version.\"\n      }\n  }"
+    },
+    {
+      "id": "m_01loadStyle",
+      "type": "heading2",
+      "content": "loadStyle",
+      "option": {
+        "alias": "NexacroAPI_loadStyle"
+      }
+    },
+    {
+      "id": "m_02_loadStyle",
+      "type": "pre",
+      "content": "어플리케이션에 XCSS 파일을 로드하여 적용하는 메소드입니다."
+    },
+    {
+      "id": "m_03_loadStyle",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_loadStyle",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_loadStyle",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_loadStyle",
+      "type": "command",
+      "content": "nexacro.loadStyle( strURL )"
+    },
+    {
+      "id": "m_07_loadStyle",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9710933259752419",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>어플리케이션에 적용시킬 XCSS 파일경로를 \"xcssrc::[FileID]\" 형식으로 설정합니다.\n\n파일경로의 \"xcssrc::\" 는 고정 Prefix 값으로 수정할 수 없습니다.\nXCSS 파일은 Resource Service 영역의 \"./_resource_/_xcss_\" 에 위치하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStyle( \"xcssrc::theme1.xcss\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_loadStyle",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_loadStyle",
+      "type": "pre",
+      "content": "- Form을 로드하기 전에 loadStyle 메소드를 실행해 새로운 스타일을 적용하는 용도로 사용할 수 있습니다.\n\n- 열려있는 Form에 새로운 스타일을 적용하기 위해 loadStyle 메소드를 사용한다면 아래와 같은 제약이 있을 수 있습니다.\n  &gt; 크기나 위치에 영향을 줄 수 있는 스타일 속성 중 일부는 loadStyle 메소드를 실행해도 열려있는 Form에 적용되지 않습니다.\n  &gt; 스타일 속성을 모두 적용하려면 reload 메소드를 실행해야 합니다. 단, reload 메소드 실행 시에는 화면이 초기화되며 동적으로 추가된 컴포넌트는 유지되지 않습니다.\n  &gt; loadStyle 메소드 실행 후 reload 메소드를 실행하지 않고 동적으로 컴포넌트를 추가하는 경우에는 추가한 컴포넌트에 한정해 새로운 스타일이 정상적으로 적용됩니다.\n\n- 메소드 실행 시 기존에 적용된 XCSS 에 새로운 XCSS 설정값을 중첩하여 적용합니다.\n\n- \"xcssrc\" 는 User Prefix 로 사용하실 수 없습니다."
+    },
+    {
+      "id": "m_01open",
+      "type": "heading2",
+      "content": "open",
+      "option": {
+        "alias": "NexacroAPI_open"
+      }
+    },
+    {
+      "id": "m_02_open",
+      "type": "pre",
+      "content": "동적으로 생성한 ChildFrame 을 Modeless Window 로 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_open",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_open",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_open",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_open",
+      "type": "command",
+      "content": "nexacro.open( strID, strFormURL, objParentFrame, {objArguList}, strOpenStyle, nLeft, nTop [, nWidth, nHeight [, objOpener [, strExtOpenStyle ]]])"
+    },
+    {
+      "id": "m_07_open",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.831328537004877",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strFormURL</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 로딩될 Form 을 URL 로 설정합니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 부모가 설정되지 않습니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>strOpenStyle</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 적용될 속성값을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n\nChildFrame 의 일부 속성을 설정할 수 있으며 각 속성은 공백(Space)으로 구분합니다.\nChildFrame 의 CSS 관련 속성은 설정할 수 없습니다. (예: background, -nexa-border, font 등)\n\n\"dragmovetype\" 속성의 \"all\" 값은 Windows NRE 만 지원합니다.\n\"layered\" 속성은 Windows NRE 와 macOS NRE 만 지원합니다.\n\"openstatus\" 속성의 \"maximize\" 값은 Windows NRE만 지원합니다.\n\"openstatus\" 속성의 \"normal\", \"minimize\" 값은 Windows NRE 만 지원합니다.\n\"titlebar\" 속성은 Windows NRE 환경만 지원합니다.\n\"showstatusbar\" 속성은 Windows NRE만 지원합니다.</div></td></tr><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 left 값을 설정합니다.</div></td></tr><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 top 값을 설정합니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 width 값을 설정합니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 height 값을 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>opener 로 설정할 Form 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Form 이 설정됩니다.</div></td></tr><tr><td>strExtOpenStyle</td><td>String</td><td colspan=\"2\"><div>ChildFrame 이 표시될 때 추가적으로 적용될 속성을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n환경에 따라 설정할 수 있는 속성이 다르며 각 속성은 공백(Space)으로 구분합니다.\n\n\n* Windows NRE 환경에서만 지원하는 속성으로 생략 시 false 로 적용됩니다.\n\"noactivate\" 속성에 true 설정 시 표시된 ChildFrame 이 활성화 되지 않습니다.\n\"noactivate\" 속성에 false 설정 시 표시된 ChildFrame 이 활성화 되어 포커스를 갖습니다.\n\"noactivate\" 속성은 표시된 ChildFrame 에 포커스를 이동하지 않으려 할 때 사용합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"location=true menubar=true toolbar=true\");\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"noactivate=true\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_open",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4923030158326531",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Modeless Window 가 정상으로 표시되면 true 를 반환합니다.\n\nModeless Window 가 정상으로 표시되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_open",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_open",
+      "type": "pre",
+      "content": "- objParentFrame 파라미터에 null 설정 시 팝업창으로 표시된 ChildFrame에 부모는 설정되지 않지만, MainFrame 오브젝트의 Window에는 팝업된 ChildFrame이 팝업리스트에 추가됩니다.\n\n- ChildFrame 의 autosize 속성값이 true 인 경우 nWidth, nHeight 파라미터값을 생략해도 자동으로 Form 의 크기에 맞춰집니다.\n   그렇지 않은 경우 nWidth, nHeight 의 기본값이 0 이므로 화면에 표시되지 않을 수 있습니다. (autosize 속성은 Default 값이 true 입니다)\n\n- strOpenStyle 파라미터에서 환경에 따른 제약을 받는 속성은 open() 메소드로 생성할 때만 적용되는 제약입니다.\n   각 속성의 실제 지원환경은 각 속성의 Chm 페이지를 확인하시기 바랍니다.\n\n\n◆ Desktop WRE 제약\n\n- strOpenStyle 파라미터에 resizable 속성값을 false로 지정하여도 항상 true로 동작합니다."
+    },
+    {
+      "id": "m_11_open",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_open",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_frame_05'>open 메소드로 속성값 전달하기</a>"
+    },
+    {
+      "id": "m_01parseDate",
+      "type": "heading2",
+      "content": "parseDate",
+      "option": {
+        "alias": "NexacroAPI_parseDate"
+      }
+    },
+    {
+      "id": "m_02_parseDate",
+      "type": "pre",
+      "content": "날짜형식의 문자열을 분석해 1970년 1월 1일 자정부터 해당 날짜 사이의 시간을 밀리초로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_parseDate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_parseDate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_parseDate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_parseDate",
+      "type": "command",
+      "content": "nexacro.parseDate( strDate )"
+    },
+    {
+      "id": "m_07_parseDate",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5558779385969644",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDate</td><td>String</td><td colspan=\"2\"><div>날짜형식의 문자열을 설정합니다.\n\n유효하지 않은 날짜형식의 문자열은 오류로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.parseDate(\"1999-10-10\");     // 939481200000</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_parseDate",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3531202905876928",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 인수로 전달된 날짜 사이의 시간을 밀리초로 반환합니다.\n\n유효하지 않은 날짜형식으로 오류로 처리되면 undefined 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_parseDate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_parseDate",
+      "type": "pre",
+      "content": "- 메소드에 사용하는 문자열은 ISO 8601 날짜 형식 또는 RFC2822 / IETF 날짜 형식을 따릅니다.\n\n  * ECMA 표준 \n    [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15]\n  * ISO 8601 날짜형식 : YYYY-MM-DD'T'hh:mm:ss.sss'Z' \n    [http://www.iso.org/iso/home/standards/iso8601.htm]\n  * RFC2822 / IETF 날짜형식 : 'May 21, 2012', 'Mon, 21 May 2012 03:20:00 +0900'\n    [https://datatracker.ietf.org/doc/html/rfc2822#page-14]\n  * Mozilla 웹브라우저 지원 형식\n    [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse]\n\n\n◆ WRE 제약\n\n- ECMA5 표준에서는 ISO 8601 날짜 형식을 따르도록 명시되어 있습니다. \n  하지만 이전 ECMA 표준에서는 Date 표준 내장 객체의 toString 메소드 실행 결과를 해석하는 것으로 명시되어 있어 브라우저에 따라 동작이 다를 수 있으며 오류가 발생할 수 있습니다.\n\n- 브라우저에 상관없이 같은 결과를 얻기 위해서는 아래 날짜 형식 문자열을 사용해야 합니다.\n  YYYY-MM-DD (ISO 8601 날짜 형식, 예: 2021-06-29)\n  YYYY-MM-DD'T'hh:mm:ss.sss'Z' (ISO 8601 조합된 UTC 날짜 및 시간, 예: 2021-06-29T11:00:00.000Z)\n  MMM DD, YYYY (예: May 21, 2012)\n  EEE, DD MMM YYYY hh:mm:ss Z (예: Mon, 21 May 2012 03:20:00 +0900)\n  EEE, DD MMM YYYY hh:mm:ss z (예: Wed, 09 Aug 1995 00:00:00 GMT)\n  EEE, DD MMM YYYY hh:mm:ss (예: Wed, 09 Aug 1995 00:00:00)"
+    },
+    {
+      "id": "m_01removeCookieVariable",
+      "type": "heading2",
+      "content": "removeCookieVariable",
+      "option": {
+        "alias": "NexacroAPI_removeCookieVariable"
+      }
+    },
+    {
+      "id": "m_02_removeCookieVariable",
+      "type": "pre",
+      "content": "Environment 의 Cookies 영역에서 쿠키변수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeCookieVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeCookieVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeCookieVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeCookieVariable",
+      "type": "command",
+      "content": "nexacro.removeCookieVariable( strID [, bSecure] )"
+    },
+    {
+      "id": "m_07_removeCookieVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7505793626838416",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수를 제거합니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 쿠키변수를 제거합니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 쿠키변수를 제거합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeCookieVariable( \"Cookie0\" ) ;\nnexacro.removeCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_removeCookieVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeCookieVariable",
+      "type": "pre",
+      "content": "- Application 영역에 있는 변수를 제거하기 위해서는 removeVariable() 메소드를 사용하여야 합니다.\n\n- Environment 영역에 있는 변수를 제거하기 위해서는 removeEnvironmentVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEnvironmentVariable",
+      "type": "heading2",
+      "content": "removeEnvironmentVariable",
+      "option": {
+        "alias": "NexacroAPI_removeEnvironmentVariable"
+      }
+    },
+    {
+      "id": "m_02_removeEnvironmentVariable",
+      "type": "pre",
+      "content": "Environment 의 Variables 영역에 정의된 변수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEnvironmentVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEnvironmentVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEnvironmentVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEnvironmentVariable",
+      "type": "command",
+      "content": "nexacro.removeEnvironmentVariable( strID )"
+    },
+    {
+      "id": "m_07_removeEnvironmentVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3295706610511887",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeEnvironmentVariable( \"Env_Variable0\" ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_removeEnvironmentVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEnvironmentVariable",
+      "type": "pre",
+      "content": "- Application 의 AppVariables 영역에 있는 변수를 제거하기 위해서는 removeVariable() 메소드를 사용하여야 합니다.\n\n- 통신 시 사용되는 Cookie 를 제거하기 위해서는 removeCookieVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeHTTPHeaderVariable",
+      "type": "heading2",
+      "content": "removeHTTPHeaderVariable",
+      "option": {
+        "alias": "NexacroAPI_removeHTTPHeaderVariable"
+      }
+    },
+    {
+      "id": "m_02_removeHTTPHeaderVariable",
+      "type": "pre",
+      "content": "Environment 의 HTTP Header 영역에서 변수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeHTTPHeaderVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeHTTPHeaderVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeHTTPHeaderVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeHTTPHeaderVariable",
+      "type": "command",
+      "content": "nexacro.removeHTTPHeaderVariable( strID )"
+    },
+    {
+      "id": "m_07_removeHTTPHeaderVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5122820548708074",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeHTTPHeaderVariable( \"HeaderVal00\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_01removePrivateProfile",
+      "type": "heading2",
+      "content": "removePrivateProfile",
+      "option": {
+        "alias": "NexacroAPI_removePrivateProfile"
+      }
+    },
+    {
+      "id": "m_02_removePrivateProfile",
+      "type": "pre",
+      "content": "애플리케이션에서 저장한 개인화 데이터를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removePrivateProfile",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removePrivateProfile",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removePrivateProfile",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removePrivateProfile",
+      "type": "command",
+      "content": "nexacro.removePrivateProfile( strKey )"
+    },
+    {
+      "id": "m_07_removePrivateProfile",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4198055847756713",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>삭제할 개인화 데이터의 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removePrivateProfile(\"aa\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_01replaceAll",
+      "type": "heading2",
+      "content": "replaceAll",
+      "option": {
+        "alias": "NexacroAPI_replaceAll"
+      }
+    },
+    {
+      "id": "m_02_replaceAll",
+      "type": "pre",
+      "content": "인수로 전달된 문자열에서 특정 문자열을 새 문자열로 모두 변환하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_replaceAll",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_replaceAll",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_replaceAll",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_replaceAll",
+      "type": "command",
+      "content": "nexacro.replaceAll( strText, strOrgText, strRepText );"
+    },
+    {
+      "id": "m_07_replaceAll",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.027244612406766233",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>변환을 수행할 전체 문자열을 설정합니다.</div></td></tr><tr><td>strOrgText</td><td>String</td><td colspan=\"2\"><div>strText 값에서 새 문자열로 변환될 문자열을 설정합니다.</div></td></tr><tr><td>strRepText</td><td>String</td><td colspan=\"2\"><div>strOrgText 값의 문자열 대신 변환할 문자열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_replaceAll",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.16581240105162554",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 문자열을 새 문자열로 변환한 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01round",
+      "type": "heading2",
+      "content": "round",
+      "option": {
+        "alias": "NexacroAPI_round"
+      }
+    },
+    {
+      "id": "m_02_round",
+      "type": "pre",
+      "content": "지정된 자릿수 또는 소수점을 기준으로 반올림한 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_round",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_round",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_round",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_round",
+      "type": "command",
+      "content": "nexacro.round( nVal [,nFractionDigit] );"
+    },
+    {
+      "id": "m_07_round",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2718122408403465",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.round(1.4915);         // 1 \nnNum = nexacro.round(1.4915, 2);     // 1.49  \nnNum = nexacro.round(1.5163);         // 2\nnNum = nexacro.round(1.5163, 2);     // 1.52\nnNum = nexacro.round(1024.256, -1); // 1020\nnNum = nexacro.round(1024.256, -2); // 1000\nnNum = nexacro.round(1024.256, -4); // 0</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_round",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.367852754428201",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>반올림한 값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_round",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_round",
+      "type": "pre",
+      "content": "- 자릿수 지정 시 오차가 발생할 수 있습니다."
+    },
+    {
+      "id": "m_01setCookieVariable",
+      "type": "heading2",
+      "content": "setCookieVariable",
+      "option": {
+        "alias": "NexacroAPI_setCookieVariable"
+      }
+    },
+    {
+      "id": "m_02_setCookieVariable",
+      "type": "pre",
+      "content": "Environment 의 Cookies 영역에 쿠키를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setCookieVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setCookieVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setCookieVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setCookieVariable",
+      "type": "command",
+      "content": "nexacro.setCookieVariable( strID, varVal [, bSecure] )"
+    },
+    {
+      "id": "m_07_setCookieVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.08678168870371661",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수가 갖는 값을 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>추가될 쿠키변수의 Secure 속성 여부를 설정합니다.\n\ntrue 로 설정 시 HTTP 통신일 때 쿠키변수를 포함시키지 않습니다.\ntrue 로 설정 시 HTTPS 통신일 때 쿠키변수에 Secure 속성을 설정하여 포함시킵니다.\nfalse 설정 시 모든 통신에 Secure 속성을 설정하지 않은 쿠키변수를 포함시킵니다.\n\n값을 생략하면 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setCookieVariable( \"Cookie0\", \"test\" ) ;\nnexacro.setCookieVariable( \"Cookie1\", \"test\", true ) ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setCookieVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setCookieVariable",
+      "type": "pre",
+      "content": "- Application 영역에 변수를 추가하기 위해서는 addVariable() 또는 setVariable() 메소드를 사용하여야 합니다.\n\n- Environment 영역에 변수를 추가하기 위해서는 setEnvironmentVariable() 메소드를 사용하여야 합니다.\n\n- strID 에 설정한 쿠키변수가 존재할 경우에는 쿠키변수의 값을 변경합니다.\n\n\n◆ web runtime environment 제약\n\n- Secure 속성이 설정된 상태로 서버에서 받은 Cookie 는 Cookies 영역에 추가되거나 변경되지 않습니다.\n\n- Cross Domain 상황이면 Cookies 영역의 Cookie 가 서버로 전송되거나 서버에서 받은 값으로 변경되지 않습니다."
+    },
+    {
+      "id": "m_01setEnableWheelZoom",
+      "type": "heading2",
+      "content": "setEnableWheelZoom",
+      "option": {
+        "alias": "NexacroAPI_setEnableWheelZoom"
+      }
+    },
+    {
+      "id": "m_02_setEnableWheelZoom",
+      "type": "pre",
+      "content": "지정된 Frame 이 속한 window 의 Zoom 기능을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEnableWheelZoom",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEnableWheelZoom",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEnableWheelZoom",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEnableWheelZoom",
+      "type": "command",
+      "content": "nexacro.setEnableWheelZoom( objFrame, bZoom)"
+    },
+    {
+      "id": "m_07_setEnableWheelZoom",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4988735292098183",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>bZoom</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 objFrame 이 속한 window  의 Zoom 기능을 활성화 합니다.\n\nfalse 설정 시 objFrame 이 속한 window  의 Zoom 기능을 비활성화 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setEnableWheelZoom( objFrame, false );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setEnableWheelZoom",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEnableWheelZoom",
+      "type": "pre",
+      "content": "- Zoom 기능의 설정을 변경하지 않았다면 true 로 적용됩니다.\n\n- Zoom 기능은 window 단위로 설정 할 수 있습니다.\n   따라서, open(), showModalWindow() 등의 메소드로 오픈된 별도의 window 를 갖는 팝업창은 Zoom 기능을 따로 설정하여야 합니다.\n\n- Zoom 기능이 활성화 되어 있을 때 Control 키를 누른 상태에서 휠버튼을 회전시키면 window 화면단위로 Zoom 이 발생합니다.\n   Zoom 발생 시 50%~200% 범위 내에서 10% 단위로 Zoom 배율이 변경됩니다.\n\n- Zoom 배율이 100% 가 아닌 경우 성능이 저하될 수 있으므로 주의하여야 합니다.\n\n- Zoom 배율이 적용된 상태에서 Zoom 기능을 비활성화 하여도 적용된 Zoom 배율은 유지됩니다.\n\n- 특정 Zoom 배율로 확대/축소하려면 setWheelZoom() 메소드를 사용하여야 합니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 메소드입니다.\n   web runtime environment 는 웹브라우저에서 제공하는 Zoom 기능을 사용하므로 \n   Control 키를 누른 상태에서 휠버튼을 회전시키면 전체화면에서 50/75/100/125/150/175/200 배율로 Zoom 이 발생합니다."
+    },
+    {
+      "id": "m_01setEnvironmentVariable",
+      "type": "heading2",
+      "content": "setEnvironmentVariable",
+      "option": {
+        "alias": "NexacroAPI_setEnvironmentVariable"
+      }
+    },
+    {
+      "id": "m_02_setEnvironmentVariable",
+      "type": "pre",
+      "content": "Environment 의 Variables 영역에 변수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEnvironmentVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEnvironmentVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEnvironmentVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEnvironmentVariable",
+      "type": "command",
+      "content": "nexacro.setEnvironmentVariable( strID, varVal )"
+    },
+    {
+      "id": "m_07_setEnvironmentVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6351603428973494",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수의 ID를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.setEnvironmentVariable(\"Env_Variable0\", \"test\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setEnvironmentVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEnvironmentVariable",
+      "type": "pre",
+      "content": "- Application 영역에 변수를 추가하기 위해서는 addVariable() 또는 setVariable() 메소드를 사용하여야 합니다.\n\n- 통신 시 사용되는 Cookie 를 추가하기 위해서는 setCookieVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setHTTPHeaderVariable",
+      "type": "heading2",
+      "content": "setHTTPHeaderVariable",
+      "option": {
+        "alias": "NexacroAPI_setHTTPHeaderVariable"
+      }
+    },
+    {
+      "id": "m_02_setHTTPHeaderVariable",
+      "type": "pre",
+      "content": "Environment 의 HTTP Header 영역에 변수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setHTTPHeaderVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setHTTPHeaderVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setHTTPHeaderVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setHTTPHeaderVariable",
+      "type": "command",
+      "content": "nexacro.setHTTPHeaderVariable( strID, varVal )"
+    },
+    {
+      "id": "m_07_setHTTPHeaderVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.154235549413954",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setHTTPHeaderVariable(\"HeaderVal00\", \"test\") ;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setHTTPHeaderVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setHTTPHeaderVariable",
+      "type": "pre",
+      "content": "- HTTP Header 영역에 정의된 변수는 HTTP 통신 시 Header 영역에 추가됩니다.\n   Cross Domain 상황인 경우는 Header 영역에 변수가 추가되지 않습니다.\n\n- Nexacro Runtime Environment 환경에서 실행 시에는 아래 오브젝트 통신 처리 시 Header 영역에 변수를 추가할 수 있습니다.\n(Web Runtime Environment 환경에서 실행 시에는 아래 오브젝트 통신 처리 시 Header 영역에 변수를 추가할 수 없습니다).\nFileUpload, FileDownload, ExcelExportObject, ExcelImportObject, FileUpTransfer, FileDownTransfer"
+    },
+    {
+      "id": "m_01setInitialVariable",
+      "type": "heading2",
+      "content": "setInitialVariable",
+      "option": {
+        "alias": "NexacroAPI_setInitialVariable"
+      }
+    },
+    {
+      "id": "m_02_setInitialVariable",
+      "type": "pre",
+      "content": "웹브라우저 환경에서 어플리케이션이 로드되기 전 Global 영역 변수에 값을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setInitialVariable",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setInitialVariable",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setInitialVariable",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setInitialVariable",
+      "type": "command",
+      "content": "nexacro.setInitialVariable( strType, strID, varVal )"
+    },
+    {
+      "id": "m_07_setInitialVariable",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8975657902666268",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>설정할 변수의 Global 영역 위치를 문자열로 설정합니다.\n\n“environment” 설정 시 Environment 의 Variables 영역에 변수를 설정합니다.\n“cookie” 설정 시 Environment 의 Cookies 영역에 변수를 설정합니다.\n“httpheader” 설정 시 Environment 의 HTTPHeader 영역에 변수를 설정합니다.\n“application” 설정 시 Application 의 Variables 영역에 변수를 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>설정할 Global 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>Global 변수의 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setInitialVariable( \"cookie\", \"ValA\", \"Text\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setInitialVariable",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setInitialVariable",
+      "type": "pre",
+      "content": "- 어플리케이션이 로드 된 후에는 사용할 수 없는 메소드입니다.\n\n- 외부 HTML 의 oninitframework 함수에서 어플리케이션 로딩 전에 넥사크로의 Global 영역 변수값을 설정할 때 사용하는 메소드입니다.\n\n- 어플리케이션 내부에서는 setCookieVariable(), setEnvironmentVariable(), setHTTPHeaderVariable(), setVariable() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setPrivateProfile",
+      "type": "heading2",
+      "content": "setPrivateProfile",
+      "option": {
+        "alias": "NexacroAPI_setPrivateProfile"
+      }
+    },
+    {
+      "id": "m_02_setPrivateProfile",
+      "type": "pre",
+      "content": "어플리케이션에서 개인화 데이터를 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setPrivateProfile",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setPrivateProfile",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setPrivateProfile",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setPrivateProfile",
+      "type": "command",
+      "content": "nexacro.setPrivateProfile( strKey, varVal )"
+    },
+    {
+      "id": "m_07_setPrivateProfile",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.19646858864408756",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장하기 위한 키값을 설정합니다.\n\nXML 태그명으로 사용되므로 XML 태그명에서 사용 할 수 없는 문자는 설정할 수 없습니다.\n또한, \":\" 문자를 설정할 수 없습니다.</div></td></tr><tr><td>varVal </td><td>Variant</td><td colspan=\"2\"><div>저장할 개인화 데이터를 설정합니다.\n\n기본 자료형(integer, float, string, boolean) 과 Date 를 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = nexacro.setPrivateProfile( \"aa\", \"A\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setPrivateProfile",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9625358131364473",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>개인화 데이터 저장에 성공하면 \"true\" 를 반환합니다.\n개인화 데이터 저장에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setPrivateProfile",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setPrivateProfile",
+      "type": "pre",
+      "content": "- 개인화 데이터는 어플리케이션이 구동될 때 설정한 Key 값 별로 따로 관리되며 \"nexacro.xml\" 파일에 저장됩니다.\n\n- \"nexacro.xml\" 파일은 사용자별로 정보를 관리하기 위해 사용하는 XML 형식의 파일입니다.\n  Windows 운영체제의 경우 C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24 위치에 파일이 생성됩니다.\n\n- 웹브라우저 환경일 경우 브라우저의 Local Storage 영역에 개인화 데이터를 저장합니다."
+    },
+    {
+      "id": "m_01setProtocolVar",
+      "type": "heading2",
+      "content": "setProtocolVar",
+      "option": {
+        "alias": "NexacroAPI_setProtocolVar"
+      }
+    },
+    {
+      "id": "m_02_setProtocolVar",
+      "type": "pre",
+      "content": "통신에 사용되는 Protocol 어답터에 설정값을 전달하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setProtocolVar",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setProtocolVar",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setProtocolVar",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setProtocolVar",
+      "type": "command",
+      "content": "nexacro.setProtocolVar(strName, strKey, strValue) ;"
+    },
+    {
+      "id": "m_07_setProtocolVar",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.12930352616503393",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>TypeDefinition 의 Protocols 영역에 정의된 Protocol 어답터 중 설정값을 전달할 Protocol 의 \"Protocol ID\" 를 설정합니다.</div></td></tr><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td>strValue</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_01setRenderingType",
+      "type": "heading2",
+      "content": "setRenderingType",
+      "option": {
+        "alias": "NexacroAPI_setRenderingType"
+      }
+    },
+    {
+      "id": "m_02_setRenderingType",
+      "type": "pre",
+      "content": "Windows NRE에서 렌더링 방식을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setRenderingType",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setRenderingType",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setRenderingType",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setRenderingType",
+      "type": "command",
+      "content": "nexacro.setRenderingType( nType )"
+    },
+    {
+      "id": "m_07_setRenderingType",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6296743863698249",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nType</td><td>Number</td><td colspan=\"2\"><div>Windows 넥사크로의 렌더링 방식을 0 또는 1 로 설정합니다.\n\n0 설정 시 RealTime 방식(기존과 동일)으로 주기적으로 렌더링을 실행합니다.\n1 설정 시 Event 방식으로 내부 규칙에 의해 렌더링을 실행합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setRenderingType( 1 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setRenderingType",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setRenderingType",
+      "type": "pre",
+      "content": "- Windows NRE 만 사용할 수 있는 메소드입니다.\n\n- 화면의 복잡도가 높아 표시되어야 할 내용이 많은 경우 성능을 위하여 렌더링을 제한할 필요가 있을 때 사용하는 메소드입니다.\n\n- 렌더링을 Event 방식으로 설정 시 다른 작업보다 렌더링 순위가 낮아질 수 있습니다."
+    },
+    {
+      "id": "m_01setWheelZoom",
+      "type": "heading2",
+      "content": "setWheelZoom",
+      "option": {
+        "alias": "NexacroAPI_setWheelZoom"
+      }
+    },
+    {
+      "id": "m_02_setWheelZoom",
+      "type": "pre",
+      "content": "지정된 Frame 이 속한 window 의 Zoom 배율을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setWheelZoom",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setWheelZoom",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setWheelZoom",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setWheelZoom",
+      "type": "command",
+      "content": "nexacro.setWheelZoom( objFrame, nZoomScale)"
+    },
+    {
+      "id": "m_07_setWheelZoom",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8832868161117067",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>nZoomScale</td><td>Number</td><td colspan=\"2\"><div>objFrame 이 속한 window  의 Zoom 배율을 \"%\" 단위의 숫자로 설정합니다.\n\n50%~200% 범위 내에서 10% 단위로 설정하여야 합니다.\n설정값이 범위를 벗어나거나 10% 단위가 아닌 경우 메소드가 실행되지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setWheelZoom( objFrame, 150 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setWheelZoom",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setWheelZoom",
+      "type": "pre",
+      "content": "- Zoom 배율을 변경하지 않았다면 100 으로 적용됩니다.\n\n- Zoom 기능은 window 단위로 설정 할 수 있습니다.\n   따라서, open(), showModalWindow() 등의 메소드로 오픈된 별도의 window 를 갖는 팝업창은 Zoom 배율을 따로 설정하여야 합니다.\n\n- Zoom 배율이 100% 가 아닌 경우 성능이 저하될 수 있으므로 주의하여야 합니다.\n\n- Zoom 기능이 비활성화된 상태에서도 setWheelZoom() 메소드를 사용하여 Zoom 배율을 변경할 수 있습니다.\n\n- Zoom 배율이 적용된 상태에서 Zoom 기능을 비활성화 하여도 적용된 Zoom 배율은 유지됩니다.\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 는 지원하지 않는 메소드입니다.\n   web runtime environment 는 웹브라우저에서 제공하는 Zoom 기능을 사용하므로 \n   Control 키를 누른 상태에서 휠버튼을 회전시키면 전체화면에서 50/75/100/125/150/175/200 배율로 Zoom 이 발생합니다."
+    },
+    {
+      "id": "m_01stripQuote",
+      "type": "heading2",
+      "content": "stripQuote",
+      "option": {
+        "alias": "NexacroAPI_stripQuote"
+      }
+    },
+    {
+      "id": "m_02_stripQuote",
+      "type": "pre",
+      "content": "인수로 전달된 문자열의 양쪽 끝에서 따옴표를 제거한 후 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_stripQuote",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_stripQuote",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_stripQuote",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_stripQuote",
+      "type": "command",
+      "content": "nexacro.stripQuote( strText )"
+    },
+    {
+      "id": "m_07_stripQuote",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.21866730898420483",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>Object</td><td colspan=\"2\"><div>따옴표를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.stripQuote(\"\\\"hello\\\"\"); // hello</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_stripQuote",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8118965784994063",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에서 따옴표를 제거하여 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_stripQuote",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_stripQuote",
+      "type": "pre",
+      "content": "- 큰따옴표(Double Quotes), 작은따옴표(Single Quotes) 모두 제거하는 메소드입니다.\n\n- 양쪽 끝에 있는 따옴표는 같은 형식이어야 합니다.\n  앞쪽에는 큰따옴표가 있고 뒷쪽에는 작은따옴표가 있거나 그 반대라면 메소드는 수행되지 않습니다."
+    },
+    {
+      "id": "m_01toNumber",
+      "type": "heading2",
+      "content": "toNumber",
+      "option": {
+        "alias": "NexacroAPI_toNumber"
+      }
+    },
+    {
+      "id": "m_02_toNumber",
+      "type": "pre",
+      "content": "인수로 전달된 문자열을 숫자로 변환하여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_toNumber",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_toNumber",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_toNumber",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_toNumber",
+      "type": "command",
+      "content": "nexacro.toNumber( varValue [, varNanVal [, varPinfVal [, varNinfVal]]] )"
+    },
+    {
+      "id": "m_07_toNumber",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.48535493410234976",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>숫자로 변환할 문자열을 설정합니다.</div></td></tr><tr><td>varNanVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NaN\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NaN\" 이 적용됩니다.</div></td></tr><tr><td>varPinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"POSITIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"POSITIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td>varNinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NEGATIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NEGATIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varNum;\nvarNum = nexacro.toNumber(\"123.4\");                                          // 123.4\nvarNum = nexacro.toNumber(Number.NaN, 0);                               // 0\nvarNum = nexacro.toNumber(Number.POSITIVE_INFINITY, 0, 1);       // 1\nvarNum = nexacro.toNumber(Number.NEGATIVE_INFINITY, 0, 1, 2);  // 2</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_toNumber",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8857864401814268",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>문자열을 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01trim",
+      "type": "heading2",
+      "content": "trim",
+      "option": {
+        "alias": "NexacroAPI_trim"
+      }
+    },
+    {
+      "id": "m_02_trim",
+      "type": "pre",
+      "content": "인수로 전달된 문자열의 양쪽 끝에서 공백문자 또는 지정된 문자를 제거한 후 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_trim",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trim",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trim",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trim",
+      "type": "command",
+      "content": "nexacro.trim( strText [,strChar] )"
+    },
+    {
+      "id": "m_07_trim",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8031912363699838",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>양쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 양쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 양쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strText = \"  abcd  \";\nvar strText2 = \"abcdaa\";\nvar strTrim = nexacro.trim( strText );             // strTrim = abcd\nvar strTrim = nexacro.trim( strText2 ,\"a\" );     // strTrim =  bcd</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_trim",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3556195052795268",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 양쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01trimLeft",
+      "type": "heading2",
+      "content": "trimLeft",
+      "option": {
+        "alias": "NexacroAPI_trimLeft"
+      }
+    },
+    {
+      "id": "m_02_trimLeft",
+      "type": "pre",
+      "content": "인수로 전달된 문자열의 왼쪽 끝에서 공백문자 또는 지정된 문자를 제거한 후 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_trimLeft",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trimLeft",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trimLeft",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trimLeft",
+      "type": "command",
+      "content": "nexacro.trimLeft( strText [,strChar] )"
+    },
+    {
+      "id": "m_07_trimLeft",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.0014347472477332923",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>왼쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 왼쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 왼쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \" nexacro\" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_trimLeft",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.25949292149529135",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 왼쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01trimRight",
+      "type": "heading2",
+      "content": "trimRight",
+      "option": {
+        "alias": "NexacroAPI_trimRight"
+      }
+    },
+    {
+      "id": "m_02_trimRight",
+      "type": "pre",
+      "content": "인수로 전달된 문자열의 오른쪽 끝에서 공백문자 또는 지정된 문자를 제거한 후 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_trimRight",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_trimRight",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_trimRight",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_trimRight",
+      "type": "command",
+      "content": "nexacro.trimRight( strText [,strChar] )"
+    },
+    {
+      "id": "m_07_trimRight",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.015296352497713328",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>오른쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strTarget</td><td>String</td><td colspan=\"2\"><div>문자열의 오른쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 오른쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \"nexacro  \" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_trimRight",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7987258355835785",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 오른쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01wrapQuote",
+      "type": "heading2",
+      "content": "wrapQuote",
+      "option": {
+        "alias": "NexacroAPI_wrapQuote"
+      }
+    },
+    {
+      "id": "m_02_wrapQuote",
+      "type": "pre",
+      "content": "인수로 전달된 문자열의 양쪽 끝에 큰따옴표를 붙여 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_wrapQuote",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_wrapQuote",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_wrapQuote",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_wrapQuote",
+      "type": "command",
+      "content": "nexacro.wrapQuote( strText )"
+    },
+    {
+      "id": "m_07_wrapQuote",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6809840605427682",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>큰따옴표를 붙일 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.wrapQuote(\"hello\"); // \"hello\"</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_wrapQuote",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.41253633926655486",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에 큰따옴표를 붙여 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    }
+  ]
+}
