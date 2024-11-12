@@ -1,0 +1,482 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "이미지를 처리하기 위해 제공되는 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- src 속성을 사용하여 로딩된 이미지는 크기정보를 속성으로 얻을수 있습니다.\n\n- Base64 로 인코딩된 이미지 정보를 처리할 수 있는 메소드를 제공합니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_height",
+      "type": "heading2",
+      "content": "height",
+      "option": {
+        "alias": "Image_height"
+      }
+    },
+    {
+      "id": "p_02_height",
+      "type": "pre",
+      "content": "Image 오브젝트의 src 속성에 로드된 이미지의 높이값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_height",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_height",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_height",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_height",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_height",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_height",
+      "type": "pre",
+      "content": "- src 속성값이 설정된 후 정상적으로 이미지가 로드되면 height 속성값이 자동으로 설정됩니다."
+    },
+    {
+      "id": "p_01_src",
+      "type": "heading2",
+      "content": "src",
+      "option": {
+        "alias": "Image_src"
+      }
+    },
+    {
+      "id": "p_02_src",
+      "type": "pre",
+      "content": "Image 오브젝트에 로드 할 이미지 파일의 위치 경로를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_src",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_src",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_src",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_src",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_src",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6426291723669538",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strImgpath ::= 'URL(' &lt;theme-Image&gt; | &lt;web-Image&gt; | &lt;absolute-image&gt; | &lt;relative-image&gt; ')'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objImg = new nexacro.Image();\n\nobjImg.src = \"URL('theme://images/V13_logo.png')\";                            // 테마 이미지\nobjImg.src = \"URL('http://www.tobesoft.com/images/gnb/btn_h1.gif')\";  // 웹 이미지\nobjImg.src = \"URL('file://C:\\\\xplatform_logo.gif')\";                             // 절대경로 이미지\nobjImg.src = \"URL('Base::test.jpg')\";                                                   // TypeDefinition Prefix 이미지\nobjImg.src = \"URL('./test.jpg')\";                                                         // 상대경로 이미지</div></td></tr><tr><th>&lt;theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;absolute-image&gt;</th><td colspan=\"2\"><div>로컬에 정의된 이미지를 \"file://절대경로\" 형식으로 설정합니다.\n\n또는 TypeDefinition 영역의 Services 에 정의된 Prefix를 사용한 형식으로 설정합니다.</div></td></tr><tr><th>&lt;relative-image&gt;</th><td colspan=\"2\"><div>폼의 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_src",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_src",
+      "type": "pre",
+      "content": "- 이미지 데이터 전체를 로드하지 않고 이미지 파일에 대한 핸들을 관리합니다."
+    },
+    {
+      "id": "p_01_width",
+      "type": "heading2",
+      "content": "width",
+      "option": {
+        "alias": "Image_width"
+      }
+    },
+    {
+      "id": "p_02_width",
+      "type": "pre",
+      "content": "Image 오브젝트의 src 속성에 로드된 이미지의 너비값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_width",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_width",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_width",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_width",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_width",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_width",
+      "type": "pre",
+      "content": "- src 속성값이 설정된 후 정상적으로 이미지가 로드되면 width 속성값이 자동으로 설정됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01getBase64String",
+      "type": "heading2",
+      "content": "getBase64String",
+      "option": {
+        "alias": "Image_getBase64String"
+      }
+    },
+    {
+      "id": "m_02_getBase64String",
+      "type": "pre",
+      "content": "Image 오브젝트에 저장된 Base64 인코딩 데이터를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getBase64String",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getBase64String",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getBase64String",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getBase64String",
+      "type": "command",
+      "content": "Image.getBase64String([bOnlydata]);"
+    },
+    {
+      "id": "m_07_getBase64String",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.588887688992636",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bOnlydata</td><td>Boolean</td><td colspan=\"2\"><div>false: Data URI 형태로 반환\ntrue: Data URI 형태 중 Base64 인코딩 데이터만 반환\n\n값을 설정하지 않으면 false로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strBase64 = objImg.getBase64String(); // data:image/png;base64,iVBORw0KGgoAAAA....\nvar strBase64 = objImg.getBase64String(true); // iVBORw0KGgoAAAA....</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getBase64String",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2641996911213349",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Image 오브젝트에 저장된 Base64 데이터를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getBase64String",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getBase64String",
+      "type": "pre",
+      "content": "- src 속성에 설정된 이미지정보와 별개로 Image 오브젝트에 저장된 Base64 인코딩 데이터를 반환합니다.\n\n- src 속성에 설정된 이미지를 Base64 인코딩 데이터로 반환하는 메소드가 아닙니다.\n  setBase64String 메소드를 실행해 저장했거나 Sketch 컴포넌트의 value 속성 등에 저장된 Base64 데이터를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_01setBase64String",
+      "type": "heading2",
+      "content": "setBase64String",
+      "option": {
+        "alias": "Image_setBase64String"
+      }
+    },
+    {
+      "id": "m_02_setBase64String",
+      "type": "pre",
+      "content": "Image 오브젝트에 Base64 로 인코딩 된 데이터를 저장하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setBase64String",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setBase64String",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setBase64String",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setBase64String",
+      "type": "command",
+      "content": "Image.setBase64String(strBase64);"
+    },
+    {
+      "id": "m_07_setBase64String",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8312430649332676",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strBase64</td><td>String</td><td colspan=\"2\"><div>Base64 로 인코딩 된 이미지 데이터를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setBase64String",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setBase64String",
+      "type": "pre",
+      "content": "- Image 오브젝트의 src 속성에 설정된 이미지정보와 별개로 Base64 인코딩 데이터를 저장하는 메소드입니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "Image_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "src 속성에 설정한 이미지 로드에 실패했을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.Image,e:nexacro.ErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.817348510998537",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onload",
+      "type": "heading2",
+      "content": "onload",
+      "option": {
+        "alias": "Image_onload"
+      }
+    },
+    {
+      "id": "e_02_onload",
+      "type": "pre",
+      "content": "src 속성에 설정한 이미지 로드에 성공했을때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onload",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onload",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onload",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onload",
+      "type": "command",
+      "content": "onload(obj:nexacro.Image,e:nexacro.LoadEventInfo);",
+      "option": "onload"
+    },
+    {
+      "id": "e_07_onload",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9711620937438289",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onload",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onload",
+      "type": "pre",
+      "content": "- 이미지 데이터를 로드하지 않고 이미지 파일에 대한 핸들을 관리합니다."
+    }
+  ]
+}
