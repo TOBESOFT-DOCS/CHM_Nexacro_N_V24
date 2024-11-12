@@ -1,0 +1,757 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "사용자가 파일을 열거나 저장할 경로를 선택하기 위한 파일 선택 대화상자 컴포넌트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 속성에 따라 지원되는 환경과 범위가 다르므로 사용에 주의하여야 합니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_accept",
+      "type": "heading2",
+      "content": "accept",
+      "option": {
+        "alias": "FileDialog_accept"
+      }
+    },
+    {
+      "id": "p_02_accept",
+      "type": "pre",
+      "content": "FileDialog 에 적용될 파일형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_accept",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_accept",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_accept",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_accept",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_accept",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_accept",
+      "type": "command",
+      "content": "FileDialog.accept[= strAccept]"
+    },
+    {
+      "id": "p_09_accept",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7458082654655717",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.accept = \".png, .exe\"; \nthis.FileDialog00.accept = \"image/png, application/*\"; \nthis.FileDialog00.accept = \"audio/*, .png, .exe\";</div></td></tr><tr><th>strAccept</th><td colspan=\"2\"><div>FileDialog 에 적용될 파일형식을 확장자 또는 MIME 형태로 설정합니다.\n\n\".png\", \".exe\", \".png, .exe\" 형식의 확장자 형태로 파일형식을 설정합니다.\n\"image/png\", \"application/*\", \"audio\" 형식의 MIME 형태로 파일형식을 설정합니다.\n\n\"audio/*, .png, .exe\" 와 같이 \",\" 문자를 구분자로 하여 확장자, MIME 구분없이 여러개의 파일형식을 설정할 수 있습니다.\n\n* Mobile WRE 는 MIME 형태만 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_accept",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_accept",
+      "type": "pre",
+      "content": "◆ 데스크탑 NRE 제약\n\n- FileDialog 에 파일형식을 적용하려면 filter 속성을 설정하여야 합니다.\n\n\n◆ Mobile WRE 제약\n\n- MIME 으로 \"image\", \"video\", \"audio\" 값만 설정할 수 있습니다.\n   \"image/png\" 와 같은 형식의 확장자 제한방식은 적용되지 않습니다.\n\n- MIME 으로 \"image\", \"video\", \"audio\" 설정 시 각각 메모리에 로드된 \"이미지\", \"비디오\", \"오디오\" 파일이 있는 폴더만 접근할 수 있습니다.\n\n- 구글드라이브, NAS 와 같이 외부영역에 위치한 파일은 설정한 파일형식이 적용되지 않습니다.\n\n\n◆ iOS/iPadOS Default Web Browser 제약\n\n- 사진보관함은 설정한 파일형식이 적용되지 않습니다."
+    },
+    {
+      "id": "p_13_accept",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_accept",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_filedialog_01'>FileDialog 실행하고 선택한 파일 표시하기</a>"
+    },
+    {
+      "id": "p_01_defaultextension",
+      "type": "heading2",
+      "content": "defaultextension",
+      "option": {
+        "alias": "FileDialog_defaultextension"
+      }
+    },
+    {
+      "id": "p_02_defaultextension",
+      "type": "pre",
+      "content": "FileDialog 에 선택되어 있는 파일형식의 확장자를 파일명에 포함시킬지 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_defaultextension",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_defaultextension",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_defaultextension",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_defaultextension",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_defaultextension",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_defaultextension",
+      "type": "command",
+      "content": "FileDialog.defaultextension[= bExtension]"
+    },
+    {
+      "id": "p_09_defaultextension",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.37088665433256685",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bExtension ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.defaultextension = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>FileDialog 에 파일명만 설정하였을 경우 현재 선택된 파일형식의 확장자를 자동으로 포함합니다.\n\nFileDialog 에 파일명과 확장자를 모두 설정한 경우는 설정값이 적용됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>FileDialog 에서 기본선택 확장자를 적용하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_defaultextension",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_defaultextension",
+      "type": "pre",
+      "content": "- Nexacro Runtime Environment에서 FileDialog 를 \"SAVE\" 옵션으로 오픈했을 경우만 적용되는 속성입니다.\n\n- defaultextension 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n- FileDialog 에 적용될 파일형식은 filter, filterindex 속성으로 설정합니다."
+    },
+    {
+      "id": "p_01_filter",
+      "type": "heading2",
+      "content": "filter",
+      "option": {
+        "alias": "FileDialog_filter"
+      }
+    },
+    {
+      "id": "p_02_filter",
+      "type": "pre",
+      "content": "FileDialog 에 적용될 파일형식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filter",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filter",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filter",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filter",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_filter",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_filter",
+      "type": "command",
+      "content": "FileDialog.filter[= strFilter]"
+    },
+    {
+      "id": "p_09_filter",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6093232922848927",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.filter = \"All(*.*)|*.*|Text Files(*.txt)|*.txt|\"; \nthis.FileDialog00.filter = \"Excel Files(*.xlsx)|*.xls;*.xlsx|Word Files(*.docx)|*.doc;*.docx|ALL Files(*.*)|*.*|\";</div></td></tr><tr><th>strFilter</th><td colspan=\"2\"><div>FileDialog 에 적용될 파일형식을 \"설명|확장자\" 형식으로 설정합니다.\n\n\"|\" 문자를 구분자로 하여 설명과 실제 확장자를 쌍으로 여러개의 파일형식을 설정할 수 있습니다.\n한 개의 파일형식내에서 복수개의 확장자를 지정할 때는 \"*.xlsx;*.xls\" 와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filter",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filter",
+      "type": "pre",
+      "content": "- filter 속성값을 설정하지 않으면 빈문자열이 설정되고, \"All(*.*)|*.*|\" 로 동작합니다.\n\n- FileDialog 가 표시될 때 선택될 필터는 filterindex 속성에 설정합니다.\n\n- 웹브라우저 환경일 때 FileDialog 에 파일형식을 적용하려면 accept 속성을 설정하여야 합니다."
+    },
+    {
+      "id": "p_01_filterindex",
+      "type": "heading2",
+      "content": "filterindex",
+      "option": {
+        "alias": "FileDialog_filterindex"
+      }
+    },
+    {
+      "id": "p_02_filterindex",
+      "type": "pre",
+      "content": "FileDialog 에 기본으로 표시될 파일형식을 인덱스값으로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_filterindex",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_filterindex",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_filterindex",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_filterindex",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_filterindex",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_filterindex",
+      "type": "command",
+      "content": "FileDialog.filterindex[= nFilterIndex]"
+    },
+    {
+      "id": "p_09_filterindex",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.90239468722773",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.filterindex = 1;</div></td></tr><tr><th>nFilterIndex</th><td colspan=\"2\"><div>FileDialog 에 설정된 파일형식 중 기본으로 표시될 파일형식의 인덱스를 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_filterindex",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_filterindex",
+      "type": "pre",
+      "content": "- filterindex 속성값을 설정하지 않으면 0 으로 적용됩니다.\n\n- FileDialog 에 표시될 파일형식은 filter 속성을 설정하여야 합니다.\n   파일형식의 인덱스는 0 부터 시작하며 첫번째 파일형식부터 차례로 인덱스가 설정됩니다.\n\n- 화면에 표시된 FileDialog 의 파일형식을 변경하면 filterindex 속성에 반영됩니다.\n\n- 웹브라우저 환경일 때 FileDialog 에 파일형식을 적용하려면 accept 속성을 설정하여야 합니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "FileDialog_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "FileDialog의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "FileDialog.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5282190604146395",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>FileDialog를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "FileDialog_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "FileDialog 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "FileDialog.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.007677809172109251",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "FileDialog_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "FileDialog 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "FileDialog.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5588824112855459",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.FileDialog00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- FileDialog 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01open",
+      "type": "heading2",
+      "content": "open",
+      "option": {
+        "alias": "FileDialog_open"
+      }
+    },
+    {
+      "id": "m_02_open",
+      "type": "pre",
+      "content": "FileDialog 를 표시하는 메소드입니다."
+    },
+    {
+      "id": "m_03_open",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_open",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_open",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_open",
+      "type": "command",
+      "content": "FileDialog.open( strTitle, constOpenMode [, strInitialPath [, strFileName [, nWidth [, nHeight ]]]] )"
+    },
+    {
+      "id": "m_07_open",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8131756811735583",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTitle</td><td>String</td><td colspan=\"2\"><div>File Dialog 의 TitleBar 에 표시할 문자열을 나타냅니다.\n\n* macOS NRE 와 web runtime environment 는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>constOpenMode</td><td>Constant</td><td colspan=\"2\"><div>표시되는 FileDialog 의 종류를 설정합니다.\n\n\"FileDialog.LOAD\" 또는 1 설정 시 한 개 파일을 읽을 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.SAVE\" 또는 2 설정 시 한 개 파일을 쓸 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.MULTILOAD\" 또는 3 설정 시 여러개의 파일을 읽을 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.SELFOLDER\" 또는 4 설정 시 폴더를 선택할 수 있는 FileDialog 가 표시됩니다.\n\n잘못된 값 설정 시 \"FileDialog.LOAD\" 로 적용됩니다.\n\n* Desktop WRE 는 \"FileDialog.LOAD\" 와 \"FileDialog.MULTILOAD\" 만 설정할 수 있습니다.\n* Mobile 인 경우 iOS/iPadOS WRE 또는 iOS/iPad NRE(iOS/iPadOS 14 이상) 만 \"FileDialog.MULTILOAD\" 를 설정할 수 있습니다.</div></td></tr><tr><td>strInitialPath</td><td>String</td><td colspan=\"2\"><div>FileDialog 가 표시될 때 기본으로 선택될 폴더를 설정합니다.\n절대경로 또는 Alias 를 사용하여 설정합니다.\n\n* 모바일 NRE는 설정값이 적용되지 않습니다.\n* WRE는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>strFileName</td><td>String</td><td colspan=\"2\"><div>FileDialog 가 표시될 때 기본으로 지정될 파일명을 설정합니다.\n\nconstOpenMode 값이 \"FileDialog.SELFOLDER\" 이면 이 파라미터는 무시됩니다.\n\n* web runtime environment 는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>FileDialog 의 너비를 pixel 단위의 숫자로 설정합니다.\n\n값을 설정하지 않거나 648 보다 작은 값을 설정하면 648 또는 마지막에 표시된 너비로 적용됩니다.\n모니터의 너비보다 큰 값을 설정하면 모니터의 너비값으로 적용됩니다.\n\n* Windows NRE 만 설정값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>FileDialog 의 높이를 pixel 단위의 숫자로 설정합니다.\n\n값을 설정하지 않거나 356 보다 작은 값을 설정하면 356 또는 마지막에 표시된 높이로 적용됩니다.\n모니터의 높이보다 큰 값을 설정하면 모니터의 높이값으로 적용됩니다.\n\n* Windows NRE 만 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varRet;\nvarRet = this.FileDialog00.open( \"FileOpen\", FileDialog.LOAD );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\" );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\", \"abc.txt\" );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\", \"abc.txt\", 800, 600 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_open",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8492848714120541",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n파라미터값을 잘 못 설정하거나 메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_open",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_open",
+      "type": "pre",
+      "content": "- open() 메소드 실행 후 다음 스크립트가 바로 실행되며, 파일 선택 후 FileDialog를 닫으면 onclose 이벤트가 발생합니다.\n\n- FileDialog 에 적용될 파일형식은 환경에 따라 filter 또는 accept 속성으로 설정할 수 있습니다.\n\n- nWidth, nHeight 를 설정한 경우 FileDialog 가 모니터의 중앙에 표시됩니다.\n\n- strInitialPath 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_11_open",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_open",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_filedialog_01'>FileDialog 실행하고 선택한 파일 표시하기</a>"
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onclose",
+      "type": "heading2",
+      "content": "onclose",
+      "option": {
+        "alias": "FileDialog_onclose"
+      }
+    },
+    {
+      "id": "e_02_onclose",
+      "type": "pre",
+      "content": "FileDialog 를 닫았을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onclose",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onclose",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onclose",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onclose",
+      "type": "command",
+      "content": "onclose(obj:nexacro.FileDialog,e:nexacro.FileDialogEventInfo);",
+      "option": "onclose"
+    },
+    {
+      "id": "e_07_onclose",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.19272346309335164",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDialog</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDialogEventInfo\" string=\"FileDialogEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onclose",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onclose",
+      "type": "pre",
+      "content": "◆ web runtime environment 제약\n\n- \"FileDialog.LOAD\" 또는 \"FileDialog.MULTILOAD\" 옵션으로 open() 메소드 실행 후 파일을 선택했을 때 onclose 이벤트가 발생합니다.\n   FileDialog 를 \"취소\" 또는 \"X\" 버튼으로 닫았을 경우 onclose 이벤트가 발생하지 않습니다."
+    }
+  ]
+}
