@@ -1,0 +1,281 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "connect, callMethod 메서드 실행 실패 시 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_data",
+      "type": "heading2",
+      "content": "data",
+      "option": {
+        "alias": "XAgentErrorEventInfo_data"
+      }
+    },
+    {
+      "id": "p_02_data",
+      "type": "pre",
+      "content": "이벤트 정보 객체를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_data",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_data",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_data",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_data",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_01_errorcode",
+      "type": "heading2",
+      "content": "errorcode",
+      "option": {
+        "alias": "XAgentErrorEventInfo_errorcode"
+      }
+    },
+    {
+      "id": "p_02_errorcode",
+      "type": "pre",
+      "content": "에러 코드를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_errorcode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errorcode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errorcode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errorcode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_errorcode",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errorcode",
+      "type": "pre",
+      "content": ""
+    },
+    {
+      "id": "u_10_0.37849178060242694",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>service</th>\t\t<th>errorcode</th>\t\t<th>errormsg</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"8\"><div>connect/disconnect</div></td>\t\t<td><div>-101</div></td>\t\t<td><div>서버연결에 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-102</div></td>\t\t<td><div>서버의 연결 해제를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-103</div></td>\t\t<td><div>통신 오류가 발생하였습니다. 다시 접속하여 주세요.</div></td>\t</tr><tr>\t\t<td><div>-104</div></td>\t\t<td><div>연결을 실패 하였습니다. 다시 설치해주세요.</div></td>\t</tr><tr>\t\t<td><div>-105</div></td>\t\t<td><div>연결을 실패하였습니다.  잘못된 서비스 형식입니다.</div></td>\t</tr><tr>\t\t<td><div>-106</div></td>\t\t<td><div>연결을 실패하였습니다. 소켓 연결을 먼저 수행해 주시기 바랍니다.</div></td>\t</tr><tr>\t\t<td><div>-107</div></td>\t\t<td><div>연결이 종료되었습니다. 다시 접속하여 주세요.</div></td>\t</tr><tr>\t\t<td><div>-108</div></td>\t\t<td><div>Xagent와 연결 중 지정 Port 연결이 실패하였습니다. 다른 포트로 접속 중입니다</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>update-module</div></td>\t\t<td><div>-201</div></td>\t\t<td><div>Module 업데이트에 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-202</div></td>\t\t<td><div>URL이 유효하지 않습니다.</div></td>\t</tr><tr>\t\t<td><div>-203</div></td>\t\t<td><div>업데이트 버전 비교를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-204</div></td>\t\t<td><div>업데이트 파일 다운로드를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-205</div></td>\t\t<td><div>디렉터리 삭제 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-206</div></td>\t\t<td><div>파일 압축 해제 실패해였습니다.</div></td>\t</tr><tr>\t\t<td><div>-207</div></td>\t\t<td><div>Temp 폴더 정리 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"4\"><div>update-modules</div></td>\t\t<td><div>-301</div></td>\t\t<td><div>Modules 업데이트 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-302</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-303</div></td>\t\t<td><div>modules.json 파일 찾을 수 없음</div></td>\t</tr><tr>\t\t<td><div>-304</div></td>\t\t<td><div>모듈 다운로드 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>update-module-check</div></td>\t\t<td><div>-401</div></td>\t\t<td><div>업데이트 모듈 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-402</div></td>\t\t<td><div>알 수 없는 모듈 체크 오류입니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"4\"><div>installed</div></td>\t\t<td><div>-501</div></td>\t\t<td><div>타사 앱 설치 여부 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-502</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-503</div></td>\t\t<td><div>인자값 오류(ResisteryKey)입니다.</div></td>\t</tr><tr>\t\t<td><div>-504</div></td>\t\t<td><div>인자값 오류(ResisteryPath)입니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"3\"><div>status</div></td>\t\t<td><div>-601</div></td>\t\t<td><div>상태 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-602</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-603</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td rowspan=\"5\"><div>version</div></td>\t\t<td><div>-701</div></td>\t\t<td><div>버전 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-702</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-703</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-704</div></td>\t\t<td><div>서버 버전 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-705</div></td>\t\t<td><div>모듈 버전 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>project</div></td>\t\t<td><div>-801</div></td>\t\t<td><div>프로젝트 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-802</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-803</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-804</div></td>\t\t<td><div>프로젝트 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-805</div></td>\t\t<td><div>라이선스 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-806</div></td>\t\t<td><div>라이선스 검증 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-807</div></td>\t\t<td><div>업데이트 URL 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>execute</div></td>\t\t<td><div>-1001</div></td>\t\t<td><div>모듈 실행을 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-1002</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-1003</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-1004</div></td>\t\t<td><div>모듈을 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1005</div></td>\t\t<td><div>함수를 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1006</div></td>\t\t<td><div>인자를 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1007</div></td>\t\t<td><div>JSON 데이터 파싱 오류입니다.</div></td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_errormsg",
+      "type": "heading2",
+      "content": "errormsg",
+      "option": {
+        "alias": "XAgentErrorEventInfo_errormsg"
+      }
+    },
+    {
+      "id": "p_02_errormsg",
+      "type": "pre",
+      "content": "error 정보를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_errormsg",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errormsg",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errormsg",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errormsg",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_errormsg",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errormsg",
+      "type": "pre",
+      "content": ""
+    },
+    {
+      "id": "u_10_0.2572928136597611",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>service</th>\t\t<th>errorcode</th>\t\t<th>errormsg</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"8\"><div>connect/disconnect</div></td>\t\t<td><div>-101</div></td>\t\t<td><div>서버연결에 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-102</div></td>\t\t<td><div>서버의 연결 해제를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-103</div></td>\t\t<td><div>통신 오류가 발생하였습니다. 다시 접속하여 주세요.</div></td>\t</tr><tr>\t\t<td><div>-104</div></td>\t\t<td><div>연결을 실패 하였습니다. 다시 설치해주세요.</div></td>\t</tr><tr>\t\t<td><div>-105</div></td>\t\t<td><div>연결을 실패하였습니다.  잘못된 서비스 형식입니다.</div></td>\t</tr><tr>\t\t<td><div>-106</div></td>\t\t<td><div>연결을 실패하였습니다. 소켓 연결을 먼저 수행해 주시기 바랍니다.</div></td>\t</tr><tr>\t\t<td><div>-107</div></td>\t\t<td><div>연결이 종료되었습니다. 다시 접속하여 주세요.</div></td>\t</tr><tr>\t\t<td><div>-108</div></td>\t\t<td><div>Xagent와 연결 중 지정 Port 연결이 실패하였습니다. 다른 포트로 접속 중입니다</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>update-module</div></td>\t\t<td><div>-201</div></td>\t\t<td><div>Module 업데이트에 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-202</div></td>\t\t<td><div>URL이 유효하지 않습니다.</div></td>\t</tr><tr>\t\t<td><div>-203</div></td>\t\t<td><div>업데이트 버전 비교를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-204</div></td>\t\t<td><div>업데이트 파일 다운로드를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-205</div></td>\t\t<td><div>디렉터리 삭제 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-206</div></td>\t\t<td><div>파일 압축 해제 실패해였습니다.</div></td>\t</tr><tr>\t\t<td><div>-207</div></td>\t\t<td><div>Temp 폴더 정리 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"4\"><div>update-modules</div></td>\t\t<td><div>-301</div></td>\t\t<td><div>Modules 업데이트 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-302</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-303</div></td>\t\t<td><div>modules.json 파일 찾을 수 없음</div></td>\t</tr><tr>\t\t<td><div>-304</div></td>\t\t<td><div>모듈 다운로드 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>update-module-check</div></td>\t\t<td><div>-401</div></td>\t\t<td><div>업데이트 모듈 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-402</div></td>\t\t<td><div>알 수 없는 모듈 체크 오류입니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"4\"><div>installed</div></td>\t\t<td><div>-501</div></td>\t\t<td><div>타사 앱 설치 여부 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-502</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-503</div></td>\t\t<td><div>인자값 오류(ResisteryKey)입니다.</div></td>\t</tr><tr>\t\t<td><div>-504</div></td>\t\t<td><div>인자값 오류(ResisteryPath)입니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"3\"><div>status</div></td>\t\t<td><div>-601</div></td>\t\t<td><div>상태 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-602</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-603</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td rowspan=\"5\"><div>version</div></td>\t\t<td><div>-701</div></td>\t\t<td><div>버전 체크 실패 하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-702</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-703</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-704</div></td>\t\t<td><div>서버 버전 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-705</div></td>\t\t<td><div>모듈 버전 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>project</div></td>\t\t<td><div>-801</div></td>\t\t<td><div>프로젝트 정보 체크를 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-802</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-803</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-804</div></td>\t\t<td><div>프로젝트 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-805</div></td>\t\t<td><div>라이선스 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-806</div></td>\t\t<td><div>라이선스 검증 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-807</div></td>\t\t<td><div>업데이트 URL 정보를 찾는데 실패하였습니다.</div></td>\t</tr><tr>\t\t<td rowspan=\"7\"><div>execute</div></td>\t\t<td><div>-1001</div></td>\t\t<td><div>모듈 실행을 실패하였습니다.</div></td>\t</tr><tr>\t\t<td><div>-1002</div></td>\t\t<td><div>알 수 없는 오류입니다.</div></td>\t</tr><tr>\t\t<td><div>-1003</div></td>\t\t<td><div>인자값 오류입니다</div></td>\t</tr><tr>\t\t<td><div>-1004</div></td>\t\t<td><div>모듈을 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1005</div></td>\t\t<td><div>함수를 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1006</div></td>\t\t<td><div>인자를 찾을 수 없습니다.</div></td>\t</tr><tr>\t\t<td><div>-1007</div></td>\t\t<td><div>JSON 데이터 파싱 오류입니다.</div></td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "XAgentErrorEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "XAgentErrorEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.22156751627223004",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    }
+  ]
+}
