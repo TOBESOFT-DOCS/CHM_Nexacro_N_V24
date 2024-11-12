@@ -1,0 +1,1009 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기의 연락처 데이터를 처리합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_addresses",
+      "type": "heading2",
+      "content": "addresses",
+      "option": {
+        "alias": "Contact_addresses"
+      }
+    },
+    {
+      "id": "p_02_addresses",
+      "type": "pre",
+      "content": "연락처의 주소정보를 ContactAddress 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_addresses",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_addresses",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_addresses",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_addresses",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_addresses",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.08161597104892626",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objAddress = new nexacro.ContactAdress();\nvar arrAddress = new Array();\n\narrAddress.push(objAddress); \nobjContact.addresses = arrAddress;</div></td></tr><tr><th>objAddresses</th><td colspan=\"2\"><div>ContactAddress 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_birthday",
+      "type": "heading2",
+      "content": "birthday",
+      "option": {
+        "alias": "Contact_birthday"
+      }
+    },
+    {
+      "id": "p_02_birthday",
+      "type": "pre",
+      "content": "연락처의 생년월일을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_birthday",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_birthday",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_birthday",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_birthday",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_birthday",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.03862204857063567",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Contact00.birthday = new Date();</div></td></tr><tr><th>objBirthday</th><td colspan=\"2\"><div>Date 타입의 자료형으로 날짜를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_categories",
+      "type": "heading2",
+      "content": "categories",
+      "option": {
+        "alias": "Contact_categories"
+      }
+    },
+    {
+      "id": "p_02_categories",
+      "type": "pre",
+      "content": "연락처의 구분정보를 ContactField 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_categories",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_categories",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_categories",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_categories",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_categories",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6573235641966058",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objCategorie = new nexacro.ContactField();\nvar arrCategorie = new Array();\n\narrCategorie .push(objCategorie);\nobjContact.categories = arrCategorie;</div></td></tr><tr><th>objCategories</th><td colspan=\"2\"><div>ContactField 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_contactname",
+      "type": "heading2",
+      "content": "contactname",
+      "option": {
+        "alias": "Contact_contactname"
+      }
+    },
+    {
+      "id": "p_02_contactname",
+      "type": "pre",
+      "content": "연락처의 이름을 하위속성으로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_contactname",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_contactname",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_contactname",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_contactname",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_contactname",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.851426734820512",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Contact.contactname.familyname = \"홍\";\nthis.Contact.contactname.givenname = \"길동\";\nthis.Contact.contactname.middlename = \"\";\nthis.Contact.contactname.prefix = \"괴도\";\nthis.Contact.contactname.suffix = \"님\";\n\nalert(this.Contact.contactname.displayname);      // \"괴도홍길동님\"</div></td></tr><tr><th>objContactname</th><td colspan=\"2\"><div>familyname 하위속성에 이름의 \"성\"을 설정합니다.\ngivenname 하위속성에 \"이름\"을 설정합니다.\nmiddlename 하위속성에 이름의 \"중간이름\"을 설정합니다.\nprefix 하위속성에 이름 앞에 붙는 \"호칭\"을 설정합니다.\nsuffix 하위속성에 이름 뒤에 붙는 \"호칭\"을 설정합니다.\n\ndisplayname 하위속성에 나머지 하위속성값이 조합되어 자동으로 설정됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_contactname",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_contactname",
+      "type": "pre",
+      "content": "- 모바일 기기에 따라 사용 가능한 하위속성이 다를 수 있습니다.\n  또한, 모바일 기기에 따라 설정한 값이 표시되지 않을 수 있습니다."
+    },
+    {
+      "id": "p_01_emails",
+      "type": "heading2",
+      "content": "emails",
+      "option": {
+        "alias": "Contact_emails"
+      }
+    },
+    {
+      "id": "p_02_emails",
+      "type": "pre",
+      "content": "연락처의 이메일정보를 ContactField 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_emails",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_emails",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_emails",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_emails",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_emails",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.10331234371195219",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objEmails = new nexacro.ContactField();\nvar arrEmails = new Array();\n\narrEmails.push(objEmails);\nobjContact.emails = arrEmails;</div></td></tr><tr><th>objEmails</th><td colspan=\"2\"><div>ContactField 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_emails",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_emails",
+      "type": "pre",
+      "content": "- 허용되는 타입에 한해서 1개 이상 중복하여 설정 및 조회가 가능합니다.\n  단, 설정된 값을 모바일 기기의 기본 연락처 어플리케이션에서 조회시 기종에 따라 표현되는 방식은 상이할 수 있습니다.\n\n\n◆ 사용가능한 타입\n\nAndroid : \n0 TYPE_CUSTOM\n4 TYPE_HOME\n6 TYPE_MOBILE\n7 TYPE_OTHER\n10 TYPE_WORK\n\niOS :\n0 TYPE_CUSTOM\n2 TYPE_FAX_HOME\n3 TYPE_FAX_WORK\n4 TYPE_HOME\n5 TYPE_MAIN\n6 TYPE_MOBILE\n7 TYPE_OTHER\n8 TYPE_OTHER_FAX\n9 TYPE_PAGER\n10 TYPE_WORK\n11 TYPE_IPHONE\n12 TYPE_HOMEPAGE"
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "Contact_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "Contact의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "Contact.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.573290727131803",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Contact를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_ims",
+      "type": "heading2",
+      "content": "ims",
+      "option": {
+        "alias": "Contact_ims"
+      }
+    },
+    {
+      "id": "p_02_ims",
+      "type": "pre",
+      "content": "연락처의 IM(Instant Messenger)정보를 ContactIM 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_ims",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_ims",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_ims",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_ims",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_ims",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4951680998780357",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objIms = new nexacro.ContactField();\nvar arrIms = new Array();\n\narrIms.push(objIms);\nobjContact.ims = arrIms;</div></td></tr><tr><th>objIms</th><td colspan=\"2\"><div>ContactIM 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Contact_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Contact 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Contact.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.710232173371065",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_nickname",
+      "type": "heading2",
+      "content": "nickname",
+      "option": {
+        "alias": "Contact_nickname"
+      }
+    },
+    {
+      "id": "p_02_nickname",
+      "type": "pre",
+      "content": "연락처의 별명을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_nickname",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_nickname",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_nickname",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_nickname",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_nickname",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_nickname",
+      "type": "command",
+      "content": ""
+    },
+    {
+      "id": "p_09_nickname",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.47888306107152834",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Contact00.nickname = \"nickname\";</div></td></tr><tr><th>strNickname</th><td colspan=\"2\"><div>연락처의 별명으로 사용될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_note",
+      "type": "heading2",
+      "content": "note",
+      "option": {
+        "alias": "Contact_note"
+      }
+    },
+    {
+      "id": "p_02_note",
+      "type": "pre",
+      "content": "연락처의 메모정보를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_note",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_note",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_note",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_note",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_note",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5998164874050083",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Contact00.note = \"note string\";</div></td></tr><tr><th>strNote</th><td colspan=\"2\"><div>연락처의 메모정보를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_organizations",
+      "type": "heading2",
+      "content": "organizations",
+      "option": {
+        "alias": "Contact_organizations"
+      }
+    },
+    {
+      "id": "p_02_organizations",
+      "type": "pre",
+      "content": "연락처의 회사정보를 ContactOrganization 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_organizations",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_organizations",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_organizations",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_organizations",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_organizations",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.39972579171472744",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objOrgan = new nexacro.ContactOrganization();\nvar arrOrgan = new Array();\n\narrOrgan.push(objOrgan);\nobjContact.organization = arrOrgan;</div></td></tr><tr><th>objOrganizations</th><td colspan=\"2\"><div>ContactOrganization 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_organizations",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_organizations",
+      "type": "pre",
+      "content": "- 허용되는 타입에 한해서 1개 이상 중복하여 설정 및 조회가 가능합니다.\n  단, 설정된 값을 모바일 기기의 기본 연락처 어플리케이션에서 조회시 기종에 따라 표현되는 방식은 상이할 수 있습니다.\n\n\n◆ 사용가능한 타입\n\nAndroid : \n0 TYPE_CUSTOM\n7 TYPE_OTHER\n10 TYPE_WORK\n\niOS :\n10 TYPE_WORK"
+    },
+    {
+      "id": "p_01_phonenumbers",
+      "type": "heading2",
+      "content": "phonenumbers",
+      "option": {
+        "alias": "Contact_phonenumbers"
+      }
+    },
+    {
+      "id": "p_02_phonenumbers",
+      "type": "pre",
+      "content": "연락처의 전화번호정보를 ContactField 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_phonenumbers",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_phonenumbers",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_phonenumbers",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_phonenumbers",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_phonenumbers",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.23532642617229627",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objPhone = new nexacro.ContactField();\nvar arrPhone = new Array();\n\narrPhone.push(objPhone);\nobjContact.phonenumbers = arrPhone;</div></td></tr><tr><th>objPhonenumbers</th><td colspan=\"2\"><div>ContactField 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_phonenumbers",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_phonenumbers",
+      "type": "pre",
+      "content": "- 허용되는 타입에 한해서 1개 이상 중복하여 설정 및 조회가 가능합니다.\n  단, 설정된 값을 모바일 기기의 기본 연락처 어플리케이션에서 조회시 기종에 따라 표현되는 방식은 상이할 수 있습니다.\n\n\n◆ 사용가능한 타입\n\nAndroid : \n0 TYPE_CUSTOM\n1 TYPE_CALLBACK\n2 TYPE_FAX_HOME\n3 TYPE_FAX_WORK\n4 TYPE_HOME\n6 TYPE_MOBILE\n7 TYPE_OTHER\n9 TYPE_PAGER\n10 TYPE_WORK\n\niOS :\n0 TYPE_CUSTOM\n2 TYPE_FAX_HOME\n3 TYPE_FAX_WORK\n4 TYPE_HOME\n5 TYPE_MAIN\n6 TYPE_MOBILE\n7 TYPE_OTHER\n8 TYPE_OTHER_FAX\n9 TYPE_PAGER\n10 TYPE_WORK\n11 TYPE_IPHONE\n12 TYPE_HOMEPAGE"
+    },
+    {
+      "id": "p_01_photos",
+      "type": "heading2",
+      "content": "photos",
+      "option": {
+        "alias": "Contact_photos"
+      }
+    },
+    {
+      "id": "p_02_photos",
+      "type": "pre",
+      "content": "연락처의 사진정보를 ContactPhoto 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_photos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_photos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_photos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_photos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_photos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5229135079943161",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objPhoto = new nexacro.ContactPhoto();\nvar arrPhoto = new Array();\n\narrPhoto.push(objPhoto);\nobjContact.photos = arrPhoto;</div></td></tr><tr><th>objPhotos</th><td colspan=\"2\"><div>ContactPhotos 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_photos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_photos",
+      "type": "pre",
+      "content": "- 현재 출시된 iOS와 Android 버젼에서는 1개의 사진만 사용이 가능합니다.\n  모바일 기기의 확장 가능성을 고려하여 배열구조로 설정하도록 되어 있습니다."
+    },
+    {
+      "id": "p_01_uniqueid",
+      "type": "heading2",
+      "content": "uniqueid",
+      "option": {
+        "alias": "Contact_uniqueid"
+      }
+    },
+    {
+      "id": "p_02_uniqueid",
+      "type": "pre",
+      "content": "연락처의 식별자(id) 값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_uniqueid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_uniqueid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_uniqueid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_uniqueid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_uniqueid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_uniqueid",
+      "type": "pre",
+      "content": "- 모바일 기기의 연락처 종류에 따라 저장되는 값이 다릅니다."
+    },
+    {
+      "id": "p_01_urls",
+      "type": "heading2",
+      "content": "urls",
+      "option": {
+        "alias": "Contact_urls"
+      }
+    },
+    {
+      "id": "p_02_urls",
+      "type": "pre",
+      "content": "연락처의 웹페이지주소정보를 ContactField 객체의 배열로 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_urls",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_urls",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_urls",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_urls",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_urls",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.40237153611863175",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objContact = new nexacro.Contact();\nvar objUrls = new nexacro.ContactField();\nvar arrUrls = new Array();\n\narrUrls.push(objUrls);\nobjContact.urls = arrUrls;</div></td></tr><tr><th>objUrls</th><td colspan=\"2\"><div>ContactField 객체의 배열을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_urls",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_urls",
+      "type": "pre",
+      "content": "- 허용되는 타입에 한해서 1개 이상 중복하여 설정 및 조회가 가능합니다.\n  단, 설정된 값을 모바일 기기의 기본 연락처 어플리케이션에서 조회시 기종에 따라 표현되는 방식은 상이할 수 있습니다.\n\n- Android에서는 ContactField 객체의 type 속성에 \"12\"(TYPE_HOMEPAGE) 만 설정이 가능합니다."
+    }
+  ]
+}
