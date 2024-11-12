@@ -1,0 +1,754 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기의 위치정보를 제공합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_coords",
+      "type": "heading2",
+      "content": "coords",
+      "option": {
+        "alias": "Geolocation_coords"
+      }
+    },
+    {
+      "id": "p_02_coords",
+      "type": "pre",
+      "content": "모바일 기기에서 마지막으로 수신된 위치정보 객체를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_coords",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_coords",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_coords",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_coords",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_coords",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3182800296665772",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nlatitude = this.Geolocation00.coords.latitude ;</div></td></tr><tr><th>accuracy</th><td colspan=\"2\"><div>위치정보의 오차범위값을 갖는 하위속성입니다.</div></td></tr><tr><th>altitude</th><td colspan=\"2\"><div>위치정보 중 고도정보를 Meter 단위의 숫자로 갖는 하위속성입니다.</div></td></tr><tr><th>altitudeaccuracy</th><td colspan=\"2\"><div>고도정보의 오차범위값을 갖는 하위속성입니다.</div></td></tr><tr><th>heading</th><td colspan=\"2\"><div>위치정보 중 방향정보를 360도 단위의 숫자로 갖는 하위속성입니다.</div></td></tr><tr><th>latitude</th><td colspan=\"2\"><div>위치정보 중 위도정보를 숫자로 갖는 하위속성입니다.</div></td></tr><tr><th>longitude</th><td colspan=\"2\"><div>위치정보 중 경도정보를 숫자로 갖는 하위속성입니다.</div></td></tr><tr><th>speed</th><td colspan=\"2\"><div>위치정보 중 속도정보를 Meter/Second 단위의 숫자로 갖는 하위속성입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_coords",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_coords",
+      "type": "pre",
+      "content": "- Android 일 경우 altitudeaccuracy 하위속성을 지원하지 않습니다.\n- 하위 속성 중 speed 속성값이 유효하지 않은 값인 경우(0 또는 0보다 작은 값)에는 speed 속성값을 undefined로 반환합니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "Geolocation_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "Geolocation의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "Geolocation.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.14382408833430127",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Geolocation를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Geolocation_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Geolocation 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Geolocation.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.43973466664233984",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "Geolocation_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "Geolocation 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "Geolocation.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6032759622573151",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Geolocation00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- Geolocation 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_sourcetype",
+      "type": "heading2",
+      "content": "sourcetype",
+      "option": {
+        "alias": "Geolocation_sourcetype"
+      }
+    },
+    {
+      "id": "p_02_sourcetype",
+      "type": "pre",
+      "content": "모바일 기기에서 수신된 위치정보를 제공한 소스를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_sourcetype",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_sourcetype",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_sourcetype",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_sourcetype",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_sourcetype",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_sourcetype",
+      "type": "pre",
+      "content": "- GPS 에서 수신된 위치정보일 경우 1 로 설정됩니다.\n   WPS 에서 수신된 위치정보일 경우 2 로 설정됩니다.\n\n- iOS/iPadOS NRE 는 사용할 수 없는 속성입니다."
+    },
+    {
+      "id": "p_01_timestamp",
+      "type": "heading2",
+      "content": "timestamp",
+      "option": {
+        "alias": "Geolocation_timestamp"
+      }
+    },
+    {
+      "id": "p_02_timestamp",
+      "type": "pre",
+      "content": "모바일 기기에서 위치정보를 수신한 시간을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_timestamp",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_timestamp",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_timestamp",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_timestamp",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01getCurrentPosition",
+      "type": "heading2",
+      "content": "getCurrentPosition",
+      "option": {
+        "alias": "Geolocation_getCurrentPosition"
+      }
+    },
+    {
+      "id": "m_02_getCurrentPosition",
+      "type": "pre",
+      "content": "모바일 기기의 위치정보를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getCurrentPosition",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getCurrentPosition",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getCurrentPosition",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getCurrentPosition",
+      "type": "command",
+      "content": "Geolocation.getCurrentPosition ( nAccuracy, nTimeout )"
+    },
+    {
+      "id": "m_07_getCurrentPosition",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.04247881599868153",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAccuracy</td><td>Number</td><td colspan=\"2\"><div>위치 정보의 정확도를 숫자로 설정합니다.\n값이 작을수록 반환되는 값의 정확도가 높아집니다.\n\nAndroid NRE 는 0~2 범위의 값(ACCURACY_0~ACCURACY_2)을 설정합니다.\niOS/iPadOS NRE 는 0~4 범위의 값(ACCURACY_0~ACCURACY_4)을 설정합니다.</div></td></tr><tr><td>nTimeout</td><td>Number</td><td colspan=\"2\"><div>위치 정보를 수신할 제한시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n200ms~86,400,000ms 사이의 값을 설정할 수 있습니다.\n제한시간을 초과할 때까지 응답이 없는 경우 onrecverror 이벤트가 발생합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>Geolocation.getCurrentPosition( 2, 1000 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getCurrentPosition",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8922657986145097",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>위치 정보 수신에 성공하면 true 를 반환하고, onrecvsuccess 이벤트가 발생합니다.\n위치 정보 수신에 실패하면  false 를 반환하고, onrecverror 이벤트가 발생합니다.\n\nnAccuracy 값이 0~4 값이 아니면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getCurrentPosition",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getCurrentPosition",
+      "type": "pre",
+      "content": "- Android NRE 는 어플리케이션 설치시 GPS 사용허가를 획득한 경우에만 사용가능합니다.\n\n- iOS/iPadOS NRE 는 기기가 Airplane 모드일 때 GPS 기능을 사용할 수 없습니다."
+    },
+    {
+      "id": "m_01watchStart",
+      "type": "heading2",
+      "content": "watchStart",
+      "option": {
+        "alias": "Geolocation_watchStart"
+      }
+    },
+    {
+      "id": "m_02_watchStart",
+      "type": "pre",
+      "content": "모바일 기기의 위치정보를 일정 간격으로 수신하도록 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_watchStart",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_watchStart",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_watchStart",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_watchStart",
+      "type": "command",
+      "content": "Geolocation.watchStart(nAccuracy, nIntervalTime)"
+    },
+    {
+      "id": "m_07_watchStart",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6704514075494648",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAccuracy</td><td>Number</td><td colspan=\"2\"><div>위치 정보의 정확도를 숫자로 설정합니다.\n값이 작을수록 반환되는 값의 정확도가 높아집니다.\n\nAndroid 일 경우 \"0~2\"(ACCURACY_0~ACCURACY_2) 범위의 값을 설정합니다.\niOS 일 경우 \"0~4\"(ACCURACY_0 ~ ACCURACY_4) 범위의 값을 설정합니다.</div></td></tr><tr><td>nIntervalTime</td><td>Number</td><td colspan=\"2\"><div>위치 정보를 수신할 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>Geolocation.watchStart(1, 1000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_watchStart",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3018639772211239",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_watchStart",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_watchStart",
+      "type": "pre",
+      "content": "- nIntervalTime 간격으로 nAccuracy 정확도의 위치 정보를 수신합니다.\n  위치 정보 수신에 성공하면 onrecvsuccess 이벤트가 발생합니다.\n  위치 정보 수신에 실패하면 onrecverror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01watchStop",
+      "type": "heading2",
+      "content": "watchStop",
+      "option": {
+        "alias": "Geolocation_watchStop"
+      }
+    },
+    {
+      "id": "m_02_watchStop",
+      "type": "pre",
+      "content": "watchStart() 메소드로 설정한 주기적인 위치정보 수신을 종료하는 메소드입니다."
+    },
+    {
+      "id": "m_03_watchStop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_watchStop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_watchStop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_watchStop",
+      "type": "command",
+      "content": "Geolocation.watchStop()"
+    },
+    {
+      "id": "m_09_watchStop",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_watchStop",
+      "type": "pre",
+      "content": "- Android 일 경우 watchStop() 메소드 수행으로 GPS 사용을 변경하지 않습니다.\n  환경설정에서 GPS 사용 여부를 변경 해야 합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onrecverror",
+      "type": "heading2",
+      "content": "onrecverror",
+      "option": {
+        "alias": "Geolocation_onrecverror"
+      }
+    },
+    {
+      "id": "e_02_onrecverror",
+      "type": "pre",
+      "content": "모바일 기기에서 위치정보 수신이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrecverror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrecverror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrecverror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrecverror",
+      "type": "command",
+      "content": "onrecverror(obj:nexacro.Geolocation,e:nexacro.GeolocationErrorEventInfo);",
+      "option": "onrecverror"
+    },
+    {
+      "id": "e_07_onrecverror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.24003740917468286",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Geolocation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#GeolocationErrorEventInfo\" string=\"GeolocationErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onrecvsuccess",
+      "type": "heading2",
+      "content": "onrecvsuccess",
+      "option": {
+        "alias": "Geolocation_onrecvsuccess"
+      }
+    },
+    {
+      "id": "e_02_onrecvsuccess",
+      "type": "pre",
+      "content": "모바일 기기에서 위치정보 수신이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onrecvsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onrecvsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onrecvsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onrecvsuccess",
+      "type": "command",
+      "content": "onrecvsuccess(obj:nexacro.Geolocation,e:nexacro.GeolocationEventInfo);",
+      "option": "onrecvsuccess"
+    },
+    {
+      "id": "e_07_onrecvsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7495568713960803",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Geolocation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#GeolocationEventInfo\" string=\"GeolocationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
