@@ -1,0 +1,384 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "TCPClientSocket 컴포넌트에서 요청된 작업이 성공했을 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_bytesremain",
+      "type": "heading2",
+      "content": "bytesremain",
+      "option": {
+        "alias": "SocketEventInfo_bytesremain"
+      }
+    },
+    {
+      "id": "p_02_bytesremain",
+      "type": "pre",
+      "content": "write() 메소드에 의해 송신되고 남은 데이터의 길이를 바이트 단위로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_bytesremain",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_bytesremain",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_bytesremain",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_bytesremain",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_bytesremain",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_bytesremain",
+      "type": "command",
+      "content": "SocketEventInfo.bytesremain"
+    },
+    {
+      "id": "p_11_bytesremain",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_bytesremain",
+      "type": "pre",
+      "content": "- reason 속성값이 \"3\" 인 경우만 의미가 있는 속성입니다.\n\n- TCPClientSocket 에서 대용량 데이터를 송신하는 경우 패킷을 송신 가능한 크기로 나누어 송신합니다.\n   이 때, 송신 후 남은 데이터가 있는 경우 남은 데이터의 길이를 바이트 단위로 갖습니다."
+    },
+    {
+      "id": "p_01_bytessent",
+      "type": "heading2",
+      "content": "bytessent",
+      "option": {
+        "alias": "SocketEventInfo_bytessent"
+      }
+    },
+    {
+      "id": "p_02_bytessent",
+      "type": "pre",
+      "content": "write() 메소드에 의해 송신된 데이터의 길이를 바이트 단위로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_bytessent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_bytessent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_bytessent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_bytessent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_bytessent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_bytessent",
+      "type": "command",
+      "content": "SocketEventInfo.bytessent"
+    },
+    {
+      "id": "p_11_bytessent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_bytessent",
+      "type": "pre",
+      "content": "- reason 속성값이 \"3\" 인 경우만 의미가 있는 속성입니다.\n\n- TCPClientSocket 에서 대용량 데이터를 송신하는 경우 패킷을 송신 가능한 크기로 나누어 송신합니다.\n   이 때, 송신 후 남은 데이터가 있는 경우 남은 데이터의 정보는 bytesremain 속성으로 전달됩니다."
+    },
+    {
+      "id": "p_01_eventid",
+      "type": "heading2",
+      "content": "eventid",
+      "option": {
+        "alias": "SocketEventInfo_eventid"
+      }
+    },
+    {
+      "id": "p_02_eventid",
+      "type": "pre",
+      "content": "이벤트의 ID를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_eventid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_eventid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_eventid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_eventid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_eventid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_eventid",
+      "type": "command",
+      "content": "SocketEventInfo.eventid"
+    },
+    {
+      "id": "p_09_eventid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6942941433398669",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_eventid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_eventid",
+      "type": "pre",
+      "content": "- 이벤트에 핸들러로 등록된 함수의 이름이 아닌 발생한 이벤트명을 갖습니다."
+    },
+    {
+      "id": "p_01_reason",
+      "type": "heading2",
+      "content": "reason",
+      "option": {
+        "alias": "SocketEventInfo_reason"
+      }
+    },
+    {
+      "id": "p_02_reason",
+      "type": "pre",
+      "content": "이벤트가 발생한 원인에 대한 정보를 정수로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_reason",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_reason",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_reason",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_reason",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_reason",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_reason",
+      "type": "command",
+      "content": "SocketEventInfo.reason"
+    },
+    {
+      "id": "p_09_reason",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.33987844716794",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>1</th><td colspan=\"2\"><div>open() 메소드를 사용하여 서버와 연결된 경우 갖는 값입니다.</div></td></tr><tr><th>2</th><td colspan=\"2\"><div>close() 메소드를 사용하여 서버와 연결이 해제된 경우 갖는 값입니다.</div></td></tr><tr><th>3</th><td colspan=\"2\"><div>write() 메소드를 사용하여 연결된 서버로 데이터를 송신한 경우 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_01_reasonmsg",
+      "type": "heading2",
+      "content": "reasonmsg",
+      "option": {
+        "alias": "SocketEventInfo_reasonmsg"
+      }
+    },
+    {
+      "id": "p_02_reasonmsg",
+      "type": "pre",
+      "content": "이벤트가 발생한 원인을 넥사크로플랫폼 14 이벤트명으로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_reasonmsg",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_reasonmsg",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_reasonmsg",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_reasonmsg",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_reasonmsg",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_reasonmsg",
+      "type": "command",
+      "content": "SocketEventInfo.reasonmsg"
+    },
+    {
+      "id": "p_09_reasonmsg",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.14154535861999729",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>\"on_connect\"</th><td colspan=\"2\"><div>open() 메소드를 사용하여 서버와 연결된 경우 갖는 값입니다.</div></td></tr><tr><th>\"on_close\"</th><td colspan=\"2\"><div>close() 메소드를 사용하여 서버와 연결이 해제된 경우 갖는 값입니다.</div></td></tr><tr><th>\"on_send\"</th><td colspan=\"2\"><div>write() 메소드를 사용하여 연결된 서버로 데이터를 송신한 경우 갖는 값입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_reasonmsg",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_reasonmsg",
+      "type": "pre",
+      "content": "- 넥사크로플랫폼 14 와 비교를 위해 추가된 속성입니다."
+    }
+  ]
+}
