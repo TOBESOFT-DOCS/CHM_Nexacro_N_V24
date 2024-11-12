@@ -1,0 +1,1114 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기에서 지원되는 데이터베이스의 연결 정보를 보여줍니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_async",
+      "type": "heading2",
+      "content": "async",
+      "option": {
+        "alias": "LiteDBConnection_async"
+      }
+    },
+    {
+      "id": "p_02_async",
+      "type": "pre",
+      "content": "LiteDBConnection 에 요청된 작업이 동작되는 방식을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_async",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_async",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_async",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_async",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_async",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6937181925001703",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bAsync ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.async = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>LiteDBConnection 에 요청된 작업이 비동기(Async) 로 동작됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>LiteDBConnection 에 요청된 작업이 동기(Sync) 로 동작됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_async",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_async",
+      "type": "pre",
+      "content": "- async 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n\n◆ Mobile 제약\n\n- 모바일 환경에서는 항상 비동기(Async) 로 동작합니다."
+    },
+    {
+      "id": "p_01_busytimeout",
+      "type": "heading2",
+      "content": "busytimeout",
+      "option": {
+        "alias": "LiteDBConnection_busytimeout"
+      }
+    },
+    {
+      "id": "p_02_busytimeout",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결된 데이터베이스에서 응답을 받기 위한 최대 대기시간을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_busytimeout",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_busytimeout",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_busytimeout",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_busytimeout",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_busytimeout",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_busytimeout",
+      "type": "command",
+      "content": ""
+    },
+    {
+      "id": "p_09_busytimeout",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5824349278671439",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.busytimeout = 1000;</div></td></tr><tr><th>nSec</th><td colspan=\"2\"><div>응답을 받기위한 최대시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_busytimeout",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_busytimeout",
+      "type": "pre",
+      "content": "- busytimeout 속성값을 설정하지 않으면 60000 으로 적용됩니다.\n\n- Android NRE 는 지원하지 않는 속성입니다."
+    },
+    {
+      "id": "p_01_datasource",
+      "type": "heading2",
+      "content": "datasource",
+      "option": {
+        "alias": "LiteDBConnection_datasource"
+      }
+    },
+    {
+      "id": "p_02_datasource",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결할 데이터베이스의 위치정보를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_datasource",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_datasource",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_datasource",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_datasource",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_datasource",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8074386052140426",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.datasource = \"%USERAPP%filename\";</div></td></tr><tr><th>strPath</th><td colspan=\"2\"><div>연결할 데이터베이스의 위치정보를 문자열로 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_datasource",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_datasource",
+      "type": "pre",
+      "content": "- strPath 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "u_10_0.18863897931021167",
+      "type": "table",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Alias</th>\t\t<th>OS</th>\t\t<th>Path</th>\t\t<th>Remark</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"4\"><div>%USERAPP%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Library/TOBESOFT/Nexacro N/24</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>Android</div></td>\t\t<td><div>/data/data/[PackageName]/files/NEXACRO/\n* Key를 설정한 경우에는 아래와 같이 적용\n/data/data/[PackageName]/files/[Key]</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>iOS</div></td>\t\t<td><div>[AppRoot]/Library/Application Support/NEXACRO/</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%USERAPPLOCAL%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\Local</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Library/Application Support</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%MYDOCUMENT%\n%DOCUMENT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>\"내 문서\" 로 설정한 위치</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Documents</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%SD_CARD%</div></td>\t\t<td><div>Android</div></td>\t\t<td><div>/storage/emulated/0/Android/data/[PackageName]/files/</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%INSTALLROOT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>Packing 시 Update Type이 \"Update(Local+Server)\" 또는 \"Local\"인 경우\n%USERAPP%\\projects\\[Key]\\[BootStrapURL]\nPacking 시 Update Type이 \"Server\"인 경우\n%USERAPP%</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%EXECUTE%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>NRE: nexacro.exe 실행 위치\nWRE: 브라우저 실행 위치</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>앱이 설치된 경로</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%COMPONENTHOME%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24\\Component\\[Key]\\</div></td>\t\t<td><div></div></td>\t</tr></tbody></table>",
+      "option": {
+        "table_layout": "auto",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": null
+      }
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "LiteDBConnection_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "LiteDBConnection의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "LiteDBConnection.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7884759907394518",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>LiteDBConnection를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "LiteDBConnection_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "LiteDBConnection 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "LiteDBConnection.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5173180831058853",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_openflag",
+      "type": "heading2",
+      "content": "openflag",
+      "option": {
+        "alias": "LiteDBConnection_openflag"
+      }
+    },
+    {
+      "id": "p_02_openflag",
+      "type": "pre",
+      "content": "LiteDBConnection 에 데이터베이스를 연결하는 옵션을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_openflag",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_openflag",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_openflag",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_openflag",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_openflag",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5828000287056999",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.openflag = LiteDBConnection.openReadWrite;</div></td></tr><tr><th>constOpenFlag</th><td colspan=\"2\"><div>데이터베이스와 연결하는 옵션을 설정합니다.\n\nLiteDBConnection.openReadWrite 또는 0 설정 시 데이터베이스를 읽기/쓰기가 가능하도록 연결합니다.\nLiteDBConnection.openReadWriteCreate 또는 1 설정 시 데이터베이스를 읽기/쓰기/파일생성이 가능하도록 연결합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_openflag",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_openflag",
+      "type": "pre",
+      "content": "- openflag 속성값을 설정하지 않으면 LiteDBConnection.openReadWriteCreate 로 적용됩니다.\n\n- 넥사크로 스튜디오는 \"openReadWrite\", \"openReadWriteCreate\" 의 Enum 형태로 값을 설정하면 Generate 시 상수값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "LiteDBConnection_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "LiteDBConnection 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "LiteDBConnection.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7920245580169922",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.LiteDBConnection00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- LiteDBConnection 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_preconnect",
+      "type": "heading2",
+      "content": "preconnect",
+      "option": {
+        "alias": "LiteDBConnection_preconnect"
+      }
+    },
+    {
+      "id": "p_02_preconnect",
+      "type": "pre",
+      "content": "LiteDBConnection 생성 시 데이터베이스를 연결할지 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_preconnect",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_preconnect",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_preconnect",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_preconnect",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_preconnect",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2838310059462169",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bPreconn ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.preconnect = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>LiteDBConnection 생성 시 datasource, openflag 속성에 설정된 값으로 데이터베이스를 연결합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>LiteDBConnection 생성 시 데이터베이스를 자동으로 연결하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_preconnect",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_preconnect",
+      "type": "pre",
+      "content": "- preconnect 속성값을 설정하지 않으면 \"false\" 로 적용됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01begin",
+      "type": "heading2",
+      "content": "begin",
+      "option": {
+        "alias": "LiteDBConnection_begin"
+      }
+    },
+    {
+      "id": "m_02_begin",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결된 데이터베이스에 트랜잭션을 설정하는 메소드입니다."
+    },
+    {
+      "id": "m_03_begin",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_begin",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_begin",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_begin",
+      "type": "command",
+      "content": "LiteDBConnection.begin()"
+    },
+    {
+      "id": "m_07_begin",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.31305526373365977",
+      "type": "command",
+      "content": "this.LiteDBConnection00.begin();"
+    },
+    {
+      "id": "m_09_begin",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_begin",
+      "type": "pre",
+      "content": "- 트랜잭션 설정에 성공하면 onsuccess 이벤트가 발생합니다.\n  트랜잭션 설정에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01close",
+      "type": "heading2",
+      "content": "close",
+      "option": {
+        "alias": "LiteDBConnection_close"
+      }
+    },
+    {
+      "id": "m_02_close",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결된 데이터베이스를 닫는 메소드입니다."
+    },
+    {
+      "id": "m_03_close",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_close",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_close",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_close",
+      "type": "command",
+      "content": "LiteDBConnection.close()"
+    },
+    {
+      "id": "m_07_close",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.38205822401216716",
+      "type": "command",
+      "content": "this.LiteDBConnection00.close();"
+    },
+    {
+      "id": "m_09_close",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_close",
+      "type": "pre",
+      "content": "- 데이터베이스 닫기에 성공하면 onsuccess 이벤트가 발생합니다.\n  데이터베이스 닫기에 실패하면 onerror 이벤트가 발생합니다.\n\n- 이미 닫혀있는 데이터베이스에 close() 메소드 수행 시 정상으로 처리되어 onsuccess 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01commit",
+      "type": "heading2",
+      "content": "commit",
+      "option": {
+        "alias": "LiteDBConnection_commit"
+      }
+    },
+    {
+      "id": "m_02_commit",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결된 데이터베이스에 트랜잭션 Commit 을 수행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_commit",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_commit",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_commit",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_commit",
+      "type": "command",
+      "content": "LiteDBConnection.commit()"
+    },
+    {
+      "id": "m_07_commit",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.512050673718359",
+      "type": "command",
+      "content": "this.LiteDBConnection00.commit();"
+    },
+    {
+      "id": "m_09_commit",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_commit",
+      "type": "pre",
+      "content": "- 트랜잭션 Commit 에 성공하면 onsuccess 이벤트가 발생합니다.\n  트랜잭션 Commit 에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01isConnected",
+      "type": "heading2",
+      "content": "isConnected",
+      "option": {
+        "alias": "LiteDBConnection_isConnected"
+      }
+    },
+    {
+      "id": "m_02_isConnected",
+      "type": "pre",
+      "content": "LiteDBConnection 에 데이터베이스가 연결되어 있는지 확인하는 메소드입니다."
+    },
+    {
+      "id": "m_03_isConnected",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_isConnected",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_isConnected",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_isConnected",
+      "type": "command",
+      "content": "LiteDBConnection.isConnected()"
+    },
+    {
+      "id": "m_07_isConnected",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.4254332360139699",
+      "type": "command",
+      "content": "this.LiteDBConnection00.isConnected();"
+    },
+    {
+      "id": "m_09_isConnected",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_isConnected",
+      "type": "pre",
+      "content": "- 데이터베이스가 연결되어 있으면 onsuccess 이벤트가 발생합니다.\n  데이터베이스가 연결되어 있지 않으면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01open",
+      "type": "heading2",
+      "content": "open",
+      "option": {
+        "alias": "LiteDBConnection_open"
+      }
+    },
+    {
+      "id": "m_02_open",
+      "type": "pre",
+      "content": "LiteDBConnection 에 데이터베이스를 연결하는 메소드입니다."
+    },
+    {
+      "id": "m_03_open",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_open",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_open",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_open",
+      "type": "command",
+      "content": "LiteDBConnection.open( [strDataSource [,constOpenFlag]] )"
+    },
+    {
+      "id": "m_07_open",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.92914688900066",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDataSource</td><td>String</td><td colspan=\"2\"><div>연결할 데이터베이스의 위치정보를 문자열로 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.\n값 생략 시 datasource 속성값이 적용됩니다.</div></td></tr><tr><td>constOpenFlag</td><td>Constant</td><td colspan=\"2\"><div>데이터베이스와 연결하는 옵션을 설정합니다.\n\nLiteDBConnection.openReadWrite 또는 0 설정 시 데이터베이스를 읽기/쓰기가 가능하도록 연결합니다.\nLiteDBConnection.openReadWriteCreate 또는 1  설정 시 데이터베이스를 읽기/쓰기/파일생성이 가능하도록 연결합니다.\n\n값 생략 시 openflag 속성값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.LiteDBConnection00.open();\nthis.LiteDBConnection00.open(\"%USERAPP%datasource\");\nthis.LiteDBConnection00.open(\"%USERAPP%datasource\", LiteDBConnection.openReadWrite);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_open",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6200937095446529",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n파라미터값을 잘 못 설정하면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_open",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_open",
+      "type": "pre",
+      "content": "- 데이터베이스 연결에 성공하면 onsuccess 이벤트가 발생합니다.\n   데이터베이스 연결에 실패하면 onerror 이벤트가 발생합니다.\n\n- 이미 연결되어 열려 있는 데이터베이스에 open() 메소드 수행 시 정상으로 처리되어 onsuccess 이벤트가 발생합니다.\n\n- strDataSource 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01rollback",
+      "type": "heading2",
+      "content": "rollback",
+      "option": {
+        "alias": "LiteDBConnection_rollback"
+      }
+    },
+    {
+      "id": "m_02_rollback",
+      "type": "pre",
+      "content": "LiteDBConnection 에 연결된 데이터베이스에 트랜잭션 RollBack 을 수행하는 메소드입니다."
+    },
+    {
+      "id": "m_03_rollback",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_rollback",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_rollback",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_rollback",
+      "type": "command",
+      "content": "LiteDBConnection.rollback()"
+    },
+    {
+      "id": "m_07_rollback",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.014632280045723922",
+      "type": "command",
+      "content": "this.LiteDBConnection00.rollback();"
+    },
+    {
+      "id": "m_09_rollback",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_rollback",
+      "type": "pre",
+      "content": "- 트랜잭션 RollBack 에 성공하면 onsuccess 이벤트가 발생합니다.\n  트랜잭션 RollBack 에 실패하면 onerror 이벤트가 발생합니다.\n\n- RollBack 을 수행할 대상이 없는 경우도 정상으로 처리되어 onsuccess 이벤트가 발생합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "LiteDBConnection_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "LiteDBConnection 에 요청된 작업이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.LiteDBConnection,e:nexacro.LiteDBErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5111233296236087",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBConnection</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBErrorEventInfo\" string=\"LiteDBErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "LiteDBConnection_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "LiteDBConnection 에 요청된 작업이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.LiteDBConnection,e:nexacro.LiteDBEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8618242125044828",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBConnection</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBEventInfo\" string=\"LiteDBEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
