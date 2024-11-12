@@ -1,0 +1,1960 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "TCP 통신을 사용하여 서버에 연결하여 정보를 송수신할 수 있는 클라이언트 컴포넌트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 1:1 연결방식의 TCP 통신 Socket 기능을 지원하고 있습니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_address",
+      "type": "heading2",
+      "content": "address",
+      "option": {
+        "alias": "TCPClientSocket_address"
+      }
+    },
+    {
+      "id": "p_02_address",
+      "type": "pre",
+      "content": "연결한 서버의 주소값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_address",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_address",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_address",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_address",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_address",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.015105401188491574",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strAddress = this.TCPClientSocket00.address;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_address",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_address",
+      "type": "pre",
+      "content": "- open() 메소드를 사용하여 서버에 연결했을 때 값을 갖는 속성입니다."
+    },
+    {
+      "id": "p_01_errorcode",
+      "type": "heading2",
+      "content": "errorcode",
+      "option": {
+        "alias": "TCPClientSocket_errorcode"
+      }
+    },
+    {
+      "id": "p_02_errorcode",
+      "type": "pre",
+      "content": "TCPClientSocket 에서 요청된 작업이 실패했을 때 발생한 에러코드값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_errorcode",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errorcode",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errorcode",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errorcode",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_errorcode",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.022646877783725317",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nErrCd = this.TCPClientSocket00.errorcode;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_errorcode",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errorcode",
+      "type": "pre",
+      "content": "- TCPClientSocket 에서 마지막에 발생한 에러코드값을 갖습니다."
+    },
+    {
+      "id": "p_01_errormsg",
+      "type": "heading2",
+      "content": "errormsg",
+      "option": {
+        "alias": "TCPClientSocket_errormsg"
+      }
+    },
+    {
+      "id": "p_02_errormsg",
+      "type": "pre",
+      "content": "TCPClientSocket 에서 요청된 작업이 실패했을 때 발생한 에러메시지값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_errormsg",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_errormsg",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_errormsg",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_errormsg",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_errormsg",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2995448702030753",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nErrMsg = this.TCPClientSocket00.errormsg;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_errormsg",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_errormsg",
+      "type": "pre",
+      "content": "- TCPClientSocket 에서 마지막에 발생한 에러메시지값을 갖습니다.\n\n- 에러 메시지는 운영체제 레벨에서 제공되는 시스템 메시지를 사용합니다.\n   따라서, 운영체제의 버전에 따라 에러 메시지가 달라질 수 있습니다."
+    },
+    {
+      "id": "p_01_isopen",
+      "type": "heading2",
+      "content": "isopen",
+      "option": {
+        "alias": "TCPClientSocket_isopen"
+      }
+    },
+    {
+      "id": "p_02_isopen",
+      "type": "pre",
+      "content": "서버와 연결된 상태값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_isopen",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_isopen",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_isopen",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_isopen",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_isopen",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1021136450034913",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bOpen = this.TCPClientSocket00.isopen;</div></td></tr><tr><th>isopen</th><td colspan=\"2\"><div>서버와 연결된 상태이면 \"true\" 값을 갖습니다.\n\n서버와 연결된 상태가 아니면 \"false\" 값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_isopen",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_isopen",
+      "type": "pre",
+      "content": "- 서버와 연결하려면 open() 메소드를 사용하여야 합니다.\n\n- 서버에서 연결을 끊었을 경우는 isopen 속성에 정확한 값이 설정되지 않습니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "TCPClientSocket_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "TCPClientSocket.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6764112130670463",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_port",
+      "type": "heading2",
+      "content": "port",
+      "option": {
+        "alias": "TCPClientSocket_port"
+      }
+    },
+    {
+      "id": "p_02_port",
+      "type": "pre",
+      "content": "연결된 서버의 Port 값을 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_port",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_port",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_port",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_port",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_port",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3746844725481415",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPort = this.TCPClientSocket00.port;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_port",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_port",
+      "type": "pre",
+      "content": "- open() 메소드를 사용하여 서버에 연결했을 때 값을 갖는 속성입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "TCPClientSocket_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "TCPClientSocket 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "TCPClientSocket.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.02085239842904474",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>TCPClientSocket 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.TCPClientSocket00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.025784258935013238",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- TCPClientSocket 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.03997570521636784",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.addEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.3926849581652794",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "TCPClientSocket_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "검색된 함수를 TCPClientSocket 의 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "TCPClientSocket.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7077464616713385",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n\n해당 영역에 핸들러 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.addEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9147213650426238",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.2992431995015167",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 모두 제거할 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.TCPClientSocket00.clearEventHandler( \"onerror\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.19260905581951204",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01close",
+      "type": "heading2",
+      "content": "close",
+      "option": {
+        "alias": "TCPClientSocket_close"
+      }
+    },
+    {
+      "id": "m_02_close",
+      "type": "pre",
+      "content": "연결된 서버에 연결해제를 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_close",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_close",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_close",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_close",
+      "type": "command",
+      "content": "TCPClientSocket.close()"
+    },
+    {
+      "id": "m_07_close",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.5171883392985456",
+      "type": "command",
+      "content": "var bSucc = this.TCPClientSocket00.close();"
+    },
+    {
+      "id": "m_08_close",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.05447889342558432",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결해제 요청이 정상적으로 실행되었으면 \"true\" 를 반환합니다.\n\n연결해제 요청이 정상적으로 실행되지 않았으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_close",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_close",
+      "type": "pre",
+      "content": "- 서버와 연결해제에 성공하면 onsuccess 이벤트가 발생합니다.\n   서버와 연결해제에 실패하면 onerror 이벤트가 발생합니다.\n\n- 연결된 서버의 설정에 따라 연결을 해제하지 않으면, 마지막에 보낸 내용이 실제로 보내지지 않을 수도 있습니다.\n \n- 서버 연결을 더 이상 사용하지 않으면 시스템 자원 절약과 데이터 송신 마무리를 위해 close() 메서드를 사용하여 연결을 해제하는게 좋습니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8101063121443697",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.findEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8628460037669383",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에서 찾으려고 하는 핸들러 함수의 인덱스를 반환합니다.\n\n찾으려고 하는 핸들러 함수가 존재하지 않는다면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 인덱스는 \"0\" 부터 시작합니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5864264794687652",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n인덱스는 \"0\" 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = TCPClientSocket00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7856861591491249",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7160978516011007",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.insertEventHandler( \"onerror\", 0, this.TCPClientSocket00_onerror, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9694537482608191",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01open",
+      "type": "heading2",
+      "content": "open",
+      "option": {
+        "alias": "TCPClientSocket_open"
+      }
+    },
+    {
+      "id": "m_02_open",
+      "type": "pre",
+      "content": "TCP 를 이용하여 서버에 소켓연결을 요청하는 메소드입니다."
+    },
+    {
+      "id": "m_03_open",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_open",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_open",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_open",
+      "type": "command",
+      "content": "TCPClientSocket.open( strAddress, nPort )"
+    },
+    {
+      "id": "m_07_open",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9407141903395932",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAddress</td><td>String</td><td colspan=\"2\"><div>연결할 서버의 도메인명 또는 IPv4 형식의 IP 를 문자열로 설정합니다.</div></td></tr><tr><td>nPort</td><td>Number</td><td colspan=\"2\"><div>연결할 서버의 Port 값을 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = this.TCPClientSocket00.open(\"127.0.0.1\",3000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_open",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.2242261156251506",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결요청이 정상적으로 실행되었으면 true 를 반환합니다.\n\n연결요청이 정상적으로 실행되지 않았으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_open",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_open",
+      "type": "pre",
+      "content": "- 서버와 연결에 성공하면 onsuccess 이벤트가 발생합니다.\n   서버와 연결에 실패하면 onerror 이벤트가 발생합니다.\n\n- 연결할 서버의 주소가 잘못되었거나 허용하지 않는 주소이면 \"false\"를 반환하고 이벤트가 발생하지 않습니다.\n\n- 넥사크로 스튜디오에서 개발중인 경우는 모든 서버 주소에 대하여 연결을 허용하지만,\n   어플리케이션이 운영중인 경우는 연결할 서버의 주소가 ADL 주소와 C-Class 대역이 같아야 합니다.\n   주소의 C-Class 영역이 다를 경우 연결에 문제가 발생할 수 있습니다.\n\n- ADL 주소와 서버의 주소가 모두 도메인명이거나 IP 주소 형식일 경우 URL 검사를 수행합니다.\n   두 주소의 형식이 다른 경우에는 연결에 문제가 발생할 수 있습니다.\n\n- 샌드박스(sandbox) 옵션인 Environment 의 networksecurelevel 속성값이 \"all\" 인 경우는 모든 경로의 접근을 허용합니다.\n   이 경우 사용자에게 접근 허용 여부를 확인 한 후 사용자가 승인한 경우에만 기능을 수행합니다."
+    },
+    {
+      "id": "m_01read",
+      "type": "heading2",
+      "content": "read",
+      "option": {
+        "alias": "TCPClientSocket_read"
+      }
+    },
+    {
+      "id": "m_02_read",
+      "type": "pre",
+      "content": "연결된 서버에서 데이터를 수신하는 메소드입니다."
+    },
+    {
+      "id": "m_03_read",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_read",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_read",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_read",
+      "type": "command",
+      "content": "TCPClientSocket.read( nSize [, nTimeOut [, strCharSet]] )"
+    },
+    {
+      "id": "m_07_read",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.03719103527229961",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSize</td><td>Number</td><td colspan=\"2\"><div>수신될 데이터의 최대 크기를 바이트 단위의 숫자로 설정합니다.\n\n설정값은 수신될 데이터의 최대 크기로 적용되며 실제 수신된 데이터는 설정값보다 작을 수 있습니다.\n\n0 을 설정하면 수신 할 데이터가 있는지 검사만 수행합니다.\n음수값을 설정하면 메소드 실행 시 실패로 처리됩니다.</div></td></tr><tr><td>nTimeOut</td><td>Number</td><td colspan=\"2\"><div>데이터가 수신될 때까지 대기하는 시간을 초단위의 숫자로 설정합니다.\n\n0 이하값을 설정하면 대기시간이 무한대로 적용됩니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>strCharSet</td><td>String</td><td colspan=\"2\"><div>데이터가 수신될 때 적용될 문자셋을 설정합니다.\n\n값 생략 시 시스템의 문자셋이 적용됩니다.\n\n특별히 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrRecvData;\n\narrRecvData = this.TCPClientSocket00.read( 1000 );\narrRecvData = this.TCPClientSocket00.read( 1000, 3 );\narrRecvData = this.TCPClientSocket00.read( 1000, 3, \"utf-8\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_read",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.31132104162662544",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>데이터의 수신 성공여부와 수신데이터를 배열형태로 반환합니다.\n\n배열의 첫번째 원소에 데이터 수신여부를 Boolean 값으로 반환합니다.\n배열의 두번째 원소에 수신된 데이터를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_read",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_read",
+      "type": "pre",
+      "content": "- 데이터 수신에 실패하면 onerror 이벤트가 발생합니다.\n\n- 반환되는 배열의 두번째 원소는 데이터 수신에 성공하고 데이터가 존재하는 경우만 설정됩니다.\n\n- 데이터를 줄단위로 수신하려면 readLine() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01readLine",
+      "type": "heading2",
+      "content": "readLine",
+      "option": {
+        "alias": "TCPClientSocket_readLine"
+      }
+    },
+    {
+      "id": "m_02_readLine",
+      "type": "pre",
+      "content": "연결된 서버에서 줄단위로 데이터를 수신하는 메소드입니다."
+    },
+    {
+      "id": "m_03_readLine",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_readLine",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_readLine",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_readLine",
+      "type": "command",
+      "content": "TCPClientSocket.readLine( nSize [, nTimeOut [, strCharSet]] )"
+    },
+    {
+      "id": "m_07_readLine",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.0077587373404348625",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSize</td><td>Number</td><td colspan=\"2\"><div>수신될 데이터의 최대 크기를 바이트 단위의 숫자로 설정합니다.\n\n설정값은 수신될 데이터의 최대 크기로 적용되며 실제 수신된 데이터는 설정값보다 작을 수 있습니다.\n\n0 이하값을 설정하면 메소드가 정상적으로 실행되지 않습니다.</div></td></tr><tr><td>nTimeOut</td><td>Number</td><td colspan=\"2\"><div>데이터가 수신될 때까지 대기하는 시간을 초단위의 숫자로 설정합니다..\n\n수신된 데이터에 줄바꿈 문자가 없을 경우 대기시간이 다시 적용되므로 값 설정에 주의하여야 합니다.\n\n0 이하값을 설정하면 대기시간이 무한대로 적용됩니다.\n값을 설정하지 않으면 0 으로 적용됩니다.</div></td></tr><tr><td>strCharSet</td><td>String</td><td colspan=\"2\"><div>데이터가 수신될 때 적용될 문자셋을 설정합니다.\n\n값 생략 시 시스템의 문자셋이 적용됩니다.\n\n특별히 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrRecvData;\n\narrRecvData = this.TCPClientSocket00.readLine( 1000 );\narrRecvData = this.TCPClientSocket00.readLine( 1000, 3 );\narrRecvData = this.TCPClientSocket00.readLine( 1000, 3, \"utf-8\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_readLine",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6666804304296479",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>데이터의 수신 성공여부와 수신데이터를 배열형태로 반환합니다.\n\n배열의 첫번째 원소에 데이터 수신여부를 Boolean 값으로 반환합니다.\n배열의 두번째 원소에 수신된 데이터를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_readLine",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_readLine",
+      "type": "pre",
+      "content": "- 데이터 수신에 실패하면 onerror 이벤트가 발생합니다.\n\n- 반환되는 배열의 두번째 원소는 데이터 수신에 성공하고 데이터가 존재하는 경우만 설정됩니다.\n\n- 정상적으로 수신된 데이터의 마지막은 줄바꿈 문자로 끝납니다.\n   그러나, 아래의 이유로 수신된 데이터의 마지막이 줄바꿈 문자가 아닌 경우가 발생할 수 있습니다.\n   &gt; nSize 로 설정한 값보다 한 줄의 데이터가 큰 경우\n   &gt; 시간내에 데이터를 수신 받지 못한 경우\n   &gt; 서버와 연결이 끊긴 경우\n\n- readLine() 메소드에서 nTimeOut 값은 데이터를 한번 수신하는데 대기하는 시간으로만 적용되지 않습니다.\n   수신된 데이터에 줄바꿈 문자가 없을 경우 nTimeout 값은 다음 데이터를 대기하는 시간으로 여러번 재설정될 수 있습니다.\n   따라서 nTimeOut 값이나 nSize 값을 너무 길게 설정하면 화면이 멈춘것처럼 보일 수 있으니 주의하셔야 합니다.\n\n- 데이터를 바이트 단위로 수신하려면 read() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "TCPClientSocket_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "TCPClientSocket 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "TCPClientSocket.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.11244295353018197",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>TCPClientSocket 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.TCPClientSocket00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.4104660178628716",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- TCPClientSocket 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- TCPClientSocket 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에서 전달된 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.746264923018837",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.removeEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.470443762095065",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\" 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 \"0\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 \"0\" 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "TCPClientSocket_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에 정의된 핸들러 함수에서 검색된 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "TCPClientSocket.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.04271926953865757",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.removeEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8989478910976779",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\" 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 \"0\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n   검색된 함수가 이벤트에 핸들러 함수로 추가되어 있다면 해당 핸들러 함수를 제거합니다.\n\n- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 \"0\" 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "TCPClientSocket_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "TCPClientSocket.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5454944945744721",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.setEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8820890565171834",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\" 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 \"0\" 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 \"0\" 번인 핸들러 함수가 없다면 \"0\" 번 인덱스에 대체할 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "TCPClientSocket_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "TCPClientSocket 의 이벤트에 정의된 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "TCPClientSocket.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7195840364874604",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.setEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.37802025383774607",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n   검색된 함수가 있다면 이벤트의 첫번째 핸들러 함수를 검색된 함수로 변경합니다.\n\n- 인덱스가 \"0\" 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 \"0\" 번인 핸들러 함수가 없다면 \"0\" 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01write",
+      "type": "heading2",
+      "content": "write",
+      "option": {
+        "alias": "TCPClientSocket_write"
+      }
+    },
+    {
+      "id": "m_02_write",
+      "type": "pre",
+      "content": "연결된 서버로 데이터를 송신하는 메소드입니다."
+    },
+    {
+      "id": "m_03_write",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_write",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_write",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_write",
+      "type": "command",
+      "content": "TCPClientSocket.write( strData [, strCharset] )"
+    },
+    {
+      "id": "m_07_write",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7437833280368972",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>연결된 서버로 송신 할 데이터를 설정합니다.</div></td></tr><tr><td>strCharset</td><td>String</td><td colspan=\"2\"><div>연결된 서버로 송신 할 데이터의 문자셋을 설정합니다.\n\n값을 설정하지 않으면 시스템의 문자셋이 설정됩니다.\n\n특별히 데이터의 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nvar bSucc = this.TCPClientSocket00.write( \"Send Message\" );\nvar bSucc = this.TCPClientSocket00.write( \"Send Message\", \"utf-8\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_write",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.32210217609176384",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결된 서버로 데이터 송신을 시작하면 \"true\" 를 반환합니다.\n\n연결된 서버로 데이터 송신을 시작하지 못하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_write",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_write",
+      "type": "pre",
+      "content": "- 데이터 송신에 성공하면 onsuccess 이벤트가 발생합니다.\n   데이터 송신에 실패하면 onerror 이벤트가 발생합니다.\n\n- write() 메소드를 실행하여 대용량 데이터를 송신하는 경우 패킷을 송신 가능한 크기로 나누어 송신합니다.\n   이 때, 송신 후 남은 데이터가 있는 경우 onsuccess 이벤트가 여러번 발생할 수 있습니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01ondataarrived",
+      "type": "heading2",
+      "content": "ondataarrived",
+      "option": {
+        "alias": "TCPClientSocket_ondataarrived"
+      }
+    },
+    {
+      "id": "e_02_ondataarrived",
+      "type": "pre",
+      "content": "연결된 서버에 수신 가능한 데이터가 있을 경우에 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_ondataarrived",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_ondataarrived",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_ondataarrived",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_ondataarrived",
+      "type": "command",
+      "content": "ondataarrived(obj:nexacro.TCPClientSocket,e:nexacro.SocketReceiveEventInfo);",
+      "option": "ondataarrived"
+    },
+    {
+      "id": "e_07_ondataarrived",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.22730581330161703",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketReceiveEventInfo\" string=\"SocketReceiveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_ondataarrived",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_ondataarrived",
+      "type": "pre",
+      "content": "- ondataarrived 이벤트는 수신 가능한 데이터가 있는 경우 1회만 발생하며 실제 데이터를 수신하지 않습니다.\n  read(), readLine() 메소드를 실행하여 데이터를 직접 수신하여야 합니다.\n\n- read(), readLine() 메소드를 실행하여 데이터를 수신하지 않으면 수신 가능한 데이터가 누적되어도 이벤트가 추가로 발생하지 않습니다.\n\n- read(), readLine() 메소드를 실행하여 데이터를 수신한 후 수신 가능한 데이터가 남아 있으면 다시 ondataarrived 이벤트가 1회 발생합니다."
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "TCPClientSocket_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "TCPClientSocket 에서 요청된 작업이 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.TCPClientSocket,e:nexacro.SocketErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.08654072042104266",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketErrorEventInfo\" string=\"SocketErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- 이벤트가 발생한 원인은 EventInfo 의 statuscode 속성을 참조하여야 합니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "TCPClientSocket_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "TCPClientSocket 에서 요청된 작업이 성공했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.TCPClientSocket,e:nexacro.SocketEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.0786200047906086",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketEventInfo\" string=\"SocketEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "- onsuccess 이벤트는 비동기로 동작하므로 메소드 실행이 완료된 후에 발생합니다.\n\n- write() 메소드를 실행하여 대용량 데이터를 송신하는 경우 패킷을 송신 가능한 크기로 나누어 송신합니다.\n   이 때, 송신 후 남은 데이터가 있는 경우 onsuccess 이벤트가 여러번 발생할 수 있습니다.\n   송신 후 남은 데이터가 있는지 여부는 EventInfo 의 bytesremain 속성을 참조하여야 합니다."
+    }
+  ]
+}
