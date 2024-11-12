@@ -1,0 +1,1891 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "서버로부터 파일을 다운로드하기 위한 Invisible 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- HTTP/HTTPS 프로토콜의 POST 방식을 사용하여 서버의 파일을 지정된 경로로 다운로드합니다.\n\n- onsuccess, onerror 이벤트는 웹브라우저 환경에서는 발생하지 않습니다."
+    },
+    {
+      "id": "u_13",
+      "type": "heading2",
+      "content": "생성자"
+    },
+    {
+      "id": "u_09_0.9754630903952646",
+      "type": "command",
+      "content": "FileDownTransfer( strName, objParent )"
+    },
+    {
+      "id": "u_10_0.6838496405285447",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objFileDown = new nexacro.FileDownTransfer( \"FileDownTransfer00\", this );  \n\n// Add Object to Parent Form  \nthis.addChild( \"FileDownTransfer00\", objFileDown );\n\n// Set Object \nobjFileDown.url = \"http://localhost/Test.txt\";\nobjFileDown.setEventHandler( \"onsuccess\", this.FileDownTransfer00_onsuccess, this);\n\n// Remove Object form Parent\nvar objFileDown = this.removeChild( \"FileDownTransfer00\" );\n \n// Destroy Object\nobjFileDown.destroy();\nobjFileDown = null;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "100%"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_downloadfilename",
+      "type": "heading2",
+      "content": "downloadfilename",
+      "option": {
+        "alias": "FileDownTransfer_downloadfilename"
+      }
+    },
+    {
+      "id": "p_02_downloadfilename",
+      "type": "pre",
+      "content": "파일 다운로드 시 표시되는 FileDialog 에 기본으로 표시될 파일명을 설정합니다."
+    },
+    {
+      "id": "p_03_downloadfilename",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_downloadfilename",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_downloadfilename",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_downloadfilename",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_downloadfilename",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_downloadfilename",
+      "type": "command",
+      "content": "FileDownTransfer.downloadfilename[= strFileName]"
+    },
+    {
+      "id": "p_09_downloadfilename",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5812458891729969",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.downloadfilename = \"Test.txt\";</div></td></tr><tr><th>strFileName</th><td colspan=\"2\"><div>다운로드를 위한 FileDialog 에 기본으로 표시될 파일명을 설정합니다.\n\n값을 설정하지 않으면 FileDialog 에 빈값이 표시됩니다.\n파일명으로 사용할 수 없는 \"\\\", \"/\", \"*\", \"\"\", \"'\", \"&lt;\", \"&gt;\", \"|\" 등의 문자는 설정할 수 없습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_downloadfilename",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_downloadfilename",
+      "type": "pre",
+      "content": "- Windows NRE 환경만 지원하는 속성입니다.\n\n- download() 메소드에서 strTargetpath 파라미터를 설정했을 경우 다운로드를 위한 FileDialog 는 표시되지 않습니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "FileDownTransfer_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "FileDownTransfer의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "FileDownTransfer.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3034982028560018",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>FileDownTransfer를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "FileDownTransfer_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "FileDownTransfer 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "FileDownTransfer.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.748268226714447",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_postdatalist",
+      "type": "heading2",
+      "content": "postdatalist",
+      "option": {
+        "alias": "FileDownTransfer_postdatalist"
+      }
+    },
+    {
+      "id": "p_02_postdatalist",
+      "type": "pre",
+      "content": "파일을 다운로드할 때 서버로 전송할 데이터를 Collection 형태로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_postdatalist",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_postdatalist",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_postdatalist",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_postdatalist",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_postdatalist",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_postdatalist",
+      "type": "command",
+      "content": "FileDownTransfer.postdatalist"
+    },
+    {
+      "id": "p_09_postdatalist",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3961460626068276",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.postdatalist[\"Key\"];</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_postdatalist",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_postdatalist",
+      "type": "pre",
+      "content": "- 서버로 데이터 전송 시 HTTP/HTTPS 프로토콜을 사용하여 POST 방식으로 전송합니다.\n\n- postdatalist 속성은 \"{ Key : Value }\" 형태의 Collection 으로 setPostData() 메소드를 사용하여 설정할 수 있습니다.\n\n- postdatalist 속성은 Collection 접근방식을 사용할 수 잇습니다.\n   postdatalist[0], postdatalist[\"strKey\"], postdatalist.length 등의 방법을 사용합니다."
+    },
+    {
+      "id": "p_01_url",
+      "type": "heading2",
+      "content": "url",
+      "option": {
+        "alias": "FileDownTransfer_url"
+      }
+    },
+    {
+      "id": "p_02_url",
+      "type": "pre",
+      "content": "FileDownTransfer 에서 다운로드 받을 파일의 서버경로와 파일명을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_url",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_url",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_url",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_url",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_url",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_url",
+      "type": "command",
+      "content": "FileDownTransfer.url[= strURL]"
+    },
+    {
+      "id": "p_09_url",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7967662591013347",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.urll = \"http://localhost/Test.txt\";</div></td></tr><tr><th>strURL</th><td colspan=\"2\"><div>다운로드 받을 파일의 서버경로와 파일명을 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_url",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_url",
+      "type": "pre",
+      "content": "- download() 메소드 실행 시 다운로드 경로 파라미터를 설정하지 않으면 url 속성에 설정된 값이 적용됩니다.\n   download() 메소드 실행 시 다운로드 경로 파라미터를 설정하면 url 속성에 설정된 값은 무시됩니다.\n\n\n◆ web runtime environment 제약\n\n- Image, PDF 와 같은 특정 컨텐츠는 다운로드 시 웹브라우저가 파일을 수신하여 오픈 할 수 있습니다.\n   웹브라우저의 파일 수신을 막으려면 url 속성에 다운로드를 위한 모듈경로를 설정하고 \n   실제 파일정보는 PostData 에 설정하여 다운로드 모듈에서 파일을 전송하는 방법을 사용하여야 합니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "FileDownTransfer_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "FileDownTransfer 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "FileDownTransfer.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3026089138086574",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>FileDownTransfer 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.FileDownTransfer00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8985138556926531",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- FileDownTransfer 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.924074511097439",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.addEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.44779788643250384",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "FileDownTransfer_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "함수를 검색하여 FileDownTransfer 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "FileDownTransfer.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6760305359420788",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.addEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7117535165725222",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7696043753183002",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.FileDownTransfer00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.07689935537171333",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01clearPostDataList",
+      "type": "heading2",
+      "content": "clearPostDataList",
+      "option": {
+        "alias": "FileDownTransfer_clearPostDataList"
+      }
+    },
+    {
+      "id": "m_02_clearPostDataList",
+      "type": "pre",
+      "content": "postdatalist 속성에 설정된 데이터를 모두 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearPostDataList",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearPostDataList",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearPostDataList",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearPostDataList",
+      "type": "command",
+      "content": "FileDownTransfer.clearPostDataList()"
+    },
+    {
+      "id": "m_07_clearPostDataList",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.3224791166058891",
+      "type": "command",
+      "content": "this.FileDownTransfer00.clearPostDataList();"
+    },
+    {
+      "id": "m_09_clearPostDataList",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearPostDataList",
+      "type": "pre",
+      "content": "- postdatalist 속성은 \"{ Key : Value }\" 형태의 Collection 으로 setPostData() 메소드를 사용하여 설정할 수 있습니다."
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "FileDownTransfer_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 FileDownTransfer 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "FileDownTransfer.destroy()"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6799844335910126",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>FileDownTransfer 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nFileDownTransfer 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 FileDownTransfer 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01download",
+      "type": "heading2",
+      "content": "download",
+      "option": {
+        "alias": "FileDownTransfer_download"
+      }
+    },
+    {
+      "id": "m_02_download",
+      "type": "pre",
+      "content": "서버에서 HTTP/HTTPS 프로토콜의 POST 방식으로 특정 파일을 다운로드 하는 메소드입니다."
+    },
+    {
+      "id": "m_03_download",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_download",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_download",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_download",
+      "type": "command",
+      "content": "FileDownTransfer.download( [strUrl [, strTargetpath]] )"
+    },
+    {
+      "id": "m_07_download",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.47788664567381445",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>다운로드 받을 파일의 경로를 설정합니다.\n\n값을 생략할 경우 url 속성에 설정된 값이 적용됩니다.\n값을 설정하면 url 속성에 설정된 값이 무시됩니다.</div></td></tr><tr><td>strTargetPath</td><td>String</td><td colspan=\"2\"><div>다운로드 받은 파일이 저장될 경로와 파일명을 설정합니다.\n\n값 설정 시 저장경로를 물어보지 않고 해당 위치로 파일을 다운로드합니다.\n존재하지 않는 경로를 지정한 경우 다운로드 되지 않습니다.\n\n샌드박스(SandBox) 옵션인 Environment 의 filesecurelevel 속성값이 \"all\" 일 때 모든 경로에 접근을 허용합니다.\n이 경우 사용자에게 접근 허용 여부를 확인 한 후 사용자가 승인한 경우에만 메소드를 수행합니다.\n\n* Windows NRE 만 지원되는 파라미터입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00.download( );\nthis.FileDownTransfer00.download( \"http://localdhost/Test.txt\" );\nthis.FileDownTransfer00.download( \"http://localdhost/Test.txt\", \"C:\\\\Users\\\\nexacro\\\\Down_Test.txt\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_download",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_download",
+      "type": "pre",
+      "content": "- 서버에 다운로드 요청 시 postdatalist 속성에 설정된 데이터를 HTTP/HTTPS 프로토콜을 사용하여 POST 방식으로 전송합니다.\n\n\n◆ web runtime environment 제약\n\n- Image, PDF 와 같은 특정 컨텐츠는 다운로드 시 웹브라우저가 파일을 수신하여 오픈 할 수 있습니다.\n   웹브라우저의 파일 수신을 막으려면 strUrl 파라미터에 다운로드를 위한 모듈경로를 설정하고 \n   실제 파일정보는 PostData 에 설정하여 다운로드 모듈에서 파일을 전송하는 방법을 사용하여야 합니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5085013986928187",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.FileDownTransfer00.findEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.027775351287951278",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수의 인덱스는 0 부터 시작합니다."
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.31076788742295236",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = FileDownTransfer00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6380449981347893",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getPostData",
+      "type": "heading2",
+      "content": "getPostData",
+      "option": {
+        "alias": "FileDownTransfer_getPostData"
+      }
+    },
+    {
+      "id": "m_02_getPostData",
+      "type": "pre",
+      "content": "postdatalist 속성에 설정된 데이터에서 특정 Key 값에 해당하는 데이터를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getPostData",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getPostData",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getPostData",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getPostData",
+      "type": "command",
+      "content": "FileDownTransfer.getPostData( strKey )"
+    },
+    {
+      "id": "m_07_getPostData",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1621072048028056",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>반환 받으려는 데이터의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varVal = this.FileDownTransfer00.getPostData( \"key0\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getPostData",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7414142140037809",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>strKey 값에 해당하는 데이터를 반환합니다.\n\nstrKey 값에 해당하는 데이터가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getPostData",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getPostData",
+      "type": "pre",
+      "content": "- postdatalist 속성은 \"{ Key : Value }\" 형태의 Collection 입니다."
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.43969157247388746",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.FileDownTransfer00.insertEventHandler( \"onmove\", 0, this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8244300814950141",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "FileDownTransfer_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "FileDownTransfer 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "FileDownTransfer.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4799519891120202",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>FileDownTransfer 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.FileDownTransfer00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8524049160138785",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- FileDownTransfer 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- FileDownTransfer 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.662314941057725",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.removeEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5431289552217752",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "FileDownTransfer_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "FileDownTransfer.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3167260171367926",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.removeEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6018807983403011",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removePostData",
+      "type": "heading2",
+      "content": "removePostData",
+      "option": {
+        "alias": "FileDownTransfer_removePostData"
+      }
+    },
+    {
+      "id": "m_02_removePostData",
+      "type": "pre",
+      "content": "postdatalist 속성에 설정된 데이터에서 특정 Key 값에 해당하는 데이터를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removePostData",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removePostData",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removePostData",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removePostData",
+      "type": "command",
+      "content": "FileDownTransfer.removePostData( strKey );"
+    },
+    {
+      "id": "m_07_removePostData",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.6068879794355574",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>제거할 데이터의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00.removePostData( \"Key0\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_removePostData",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removePostData",
+      "type": "pre",
+      "content": "- postdatalist 속성은 \"{ Key : Value }\" 형태의 Collection 입니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "FileDownTransfer_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "FileDownTransfer.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.11092982663546025",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.setEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.23258869425093287",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "FileDownTransfer_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "FileDownTransfer 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "FileDownTransfer.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.12115356231556496",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.setEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.052826862543459696",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setPostData",
+      "type": "heading2",
+      "content": "setPostData",
+      "option": {
+        "alias": "FileDownTransfer_setPostData"
+      }
+    },
+    {
+      "id": "m_02_setPostData",
+      "type": "pre",
+      "content": "파일 다운로드 요청 시 서버로 전송할 데이터를 postdatalist 속성에 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setPostData",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setPostData",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setPostData",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setPostData",
+      "type": "command",
+      "content": "FileDownTransfer.setPostData( strKey, varVal )"
+    },
+    {
+      "id": "m_07_setPostData",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7219048836149206",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>서버로 전송할 데이터의 Key 값을 문자열로 설정합니다.\n\n동일한 Key 값이 존재할 경우 새로운 데이터로 변경됩니다.</div></td></tr><tr><td>varVal</td><td>Variant</td><td colspan=\"2\"><div>서버로 전송할 데이터를 설정합니다.\n\n기본 자료형(number, string, boolean 등)을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownlTransfer00.setPostData( \"Key0\", \"PostData00\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_setPostData",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setPostData",
+      "type": "pre",
+      "content": "- postdatalist 속성은 \"{ Key : Value }\" 형태의 Collection 입니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "FileDownTransfer_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "파일 다운로드에 실패하거나 에러코드가 반환 되었을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.FileDownTransfer,e:nexacro.FileDownTransferErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8413022608583366",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDownTransferErrorEventInfo\" string=\"FileDownTransferErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- 서버에서 0 미만의 음수값이 결과코드로 반환되었을 때 실패로 처리됩니다.\n\n◆ web runtime environment 제약\n- web runtime environment 는 지원하지 않는 이벤트입니다.\n- WRE에서는 파일 다운로드의 성공 또는 실패, 취소 등의 상태를 확인할 수 없어 onerror, onsuccess 이벤트를 지원하지 않습니다.\n  개발 단계에서 필요하다면 WRE에서는 개발자도구(콘솔, 네트워크)를 통해 파일 다운로드 상태를 확인할 수 있습니다.\n  NRE는 파일 다운로드 상태를 자체적으로 처리하며 해당 정보를 통해 onerror, onsuccess 이벤트를 지원합니다.\n- 파일 다운로드 동작은 서버 측 코드 없이 직접 다운로드할 파일 URL을 지정해서 다운로드를 시도할 수 있기 때문에 WRE에서는 서버 측 코드에서 응답하는 에러코드, 메시지를 처리하지 않도록 구현됐습니다."
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "FileDownTransfer_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "파일 다운로드가 완료된 후 성공코드가 반환 되었을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.FileDownTransfer,e:nexacro.FileDownTransferEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.650840042803847",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDownTransferEventInfo\" string=\"FileDownTransferEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "- 서버에서 0 이상의 결과코드가 반환되었을 때 성공으로 처리됩니다.\n\n- web runtime environment 는 지원하지 않는 이벤트입니다."
+    }
+  ]
+}
