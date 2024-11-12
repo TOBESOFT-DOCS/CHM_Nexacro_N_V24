@@ -1,0 +1,1805 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "Form 의 하위요소인 Layout 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 기본적으로 한 개의 Layout 오브젝트가 자동으로 정의되며, 멀티 Layout 의 경우 여러개의 Layout 오브젝트가 Form 하위에 정의됩니다.\n\n- Layout 오브젝트의 속성은 넥사크로 스튜디오에서 Form 을 선택하면 \"Layout Information\" 그룹에 표시되며, 여기에 설정된 속성값은 Layout 오브젝트에 저장됩니다.\n  멀티 Layout 일 경우 Form 내부의 Layout 선택을 변경하면 \"Layout Information\" 그룹 속성값이 해당 Layout 에 저장된 값으로 표시됩니다.\n\n- Layout 오브젝트의 속성은 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없습니다.\n\n- 선택된 Screen 에 표시될 Layout 의 선택기준은 다음과 같습니다.\n  \n  1) 선택된 Screen 의 ID 가 screenid 속성에 정의된 LayOut 을 선택\n  2) 1번에서 선택된 Layout 목록이 2 개 이상이면 Screen 의 너비와 오차가 가장 적은 Layout 을 선택\n  3) 2번에서 선택된 Layout 목록이 2 개 이상이면 Screen 의 높이와 오차가 가장 적은 Layout 을 선택\n  4) 3번에서 선택된 Layout 목록이 2 개 이상이면 먼저 정의된 Layout 을 선택\n  \n  * 각 단계에서 만족하는 Layout 이 없을 경우 Default Layout 이 표시됩니다.\n  * 모바일 환경에서는 1번 선택 과정에서 실제 디바이스의 방향값과 Layout 에 정의된 방향값이 일치하여야 합니다.\n\n- portrait 상태에서 \"mobile_small\" 은 \"480x768\", \"mobile_medium\" 은 \"640x1024\", \"mobile_large\" 는 \"800x1280\" 해상도로 처리됩니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_description",
+      "type": "heading2",
+      "content": "description",
+      "option": {
+        "alias": "Layout_description"
+      }
+    },
+    {
+      "id": "p_02_description",
+      "type": "pre",
+      "content": "Form 에 정의된 Layout 에 대한 사용자 설명을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_description",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_description",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_description",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_description",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_description",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_description",
+      "type": "command",
+      "content": "Layout.description"
+    },
+    {
+      "id": "p_09_description",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6140058731337592",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>description</th><td colspan=\"2\"><div>현재 Layout 에 대한 추가정보 및 사용자 정보를 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_description",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_description",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 기능에 영향을 주지 않고, 추가적인 정보만 저장하는 속성입니다.\n\n- Layout 마다 다르게 설정할 수 있습니다."
+    },
+    {
+      "id": "p_01_flexcrossaxisalign",
+      "type": "heading2",
+      "content": "flexcrossaxisalign",
+      "option": {
+        "alias": "Layout_flexcrossaxisalign"
+      }
+    },
+    {
+      "id": "p_02_flexcrossaxisalign",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 Cross Axis(type 속성값이 \"horizontal\"이면 수직축, type 속성값이 \"vertical\"이면 수평축)을 기준으로 컴포넌트의 배치 방식을 설정합니다."
+    },
+    {
+      "id": "p_03_flexcrossaxisalign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_flexcrossaxisalign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_flexcrossaxisalign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_flexcrossaxisalign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_flexcrossaxisalign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_flexcrossaxisalign",
+      "type": "command",
+      "content": "Layout.flexcrossaxisalign"
+    },
+    {
+      "id": "p_09_flexcrossaxisalign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.060465584878132694",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>flexcrossaxisalign::= 'start' | 'end' | 'center'</div></td></tr><tr><th>\"start\"</th><td colspan=\"2\"><div>Cross Axis 시작 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"end\"</th><td colspan=\"2\"><div>Cross Axis 끝 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"center\"</th><td colspan=\"2\"><div>Cross Axis 가운데 위치에 맞추어 배치됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_flexcrossaxisalign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_flexcrossaxisalign",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- flexcrossaxisalign 속성값을 설정하지 않으면 \"start\"로 설정됩니다.\n\n- flexwrap 속성값을 \"wrap\"으로 설정하고 줄바꿈이 발생한 경우에는 각 행 또는 열 영역에 대한 배치만 처리합니다.\n   전체 컴포넌트를 묶어서 배치하는 것은 flexcrossaxiswrapalign 속성에서 처리합니다."
+    },
+    {
+      "id": "p_13_flexcrossaxisalign",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_flexcrossaxisalign",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_div_07'>권한별 버튼 배치하기</a>"
+    },
+    {
+      "id": "p_01_flexcrossaxiswrapalign",
+      "type": "heading2",
+      "content": "flexcrossaxiswrapalign",
+      "option": {
+        "alias": "Layout_flexcrossaxiswrapalign"
+      }
+    },
+    {
+      "id": "p_02_flexcrossaxiswrapalign",
+      "type": "pre",
+      "content": "flexwrap 속성값을 \"wrap\"으로 설정한 경우 Layout 컨테이너 내 Cross Axis(type 속성값이 \"horizontal\"이면 수직축, type 속성값이 \"vertical\"이면 수평축)을 기준으로 컴포넌트의 배치 방식을 설정합니다."
+    },
+    {
+      "id": "p_03_flexcrossaxiswrapalign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_flexcrossaxiswrapalign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_flexcrossaxiswrapalign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_flexcrossaxiswrapalign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_flexcrossaxiswrapalign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_flexcrossaxiswrapalign",
+      "type": "command",
+      "content": "Layout.flexcrossaxiswrapalign"
+    },
+    {
+      "id": "p_09_flexcrossaxiswrapalign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.11549787570511916",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>flexcrossaxiswrapalign::= 'start' | 'end' | 'center' | 'spacebetween' | 'spacearound' | 'spaceevenly'</div></td></tr><tr><th>\"start\"</th><td colspan=\"2\"><div>Cross Axis 시작 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"end\"</th><td colspan=\"2\"><div>Cross Axis 끝 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"center\"</th><td colspan=\"2\"><div>Cross Axis 가운데 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"spacebetween\"</th><td colspan=\"2\"><div>Cross Axis 시작 위치와 끝 위치에 컴포넌트를 배치하고 나머지 컴포넌트는 컴포넌트 간 간격이 같도록 배치합니다.</div></td></tr><tr><th>\"spacearound\"</th><td colspan=\"2\"><div>Cross Axis를 기준으로 컴포넌트의 위, 아래 또는 왼쪽, 오른쪽에 같은 크기의 여백을 가지도록 컴포넌트를 배치합니다. 시작 위치와 첫 번째 컴포넌트 사이의 간격, 마지막 컴포넌트와 끝 위치 사이의 간격은 각 컴포넌트 사이의 간격의 1/2 크기로 배치합니다.</div></td></tr><tr><th>\"spaceevenly\"</th><td colspan=\"2\"><div>Cross Axis를 기준으로 시작 위치와 첫 번째 컴포넌트 사이의 간격, 각 컴포넌트 사이의 간격, 마지막 컴포넌트와 끝 위치 사이의 간격이 같도록 컴포넌트를 배치합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_flexcrossaxiswrapalign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_flexcrossaxiswrapalign",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- flexcrossaxiswrapalign 속성값을 설정하지 않으면 \"start\"로 설정됩니다.\n\n- 줄바꿈 처리 시 각 행과 열의 영역 크기가 다를 수 있고 컴포넌트의 배치 위치에 영향을 미칩니다.\n\n- spacing, verticalgap, horizontalgap 속성값에서 설정한 값을 제외한 여백을 기준으로 간격을 조정해 컴포넌트를 배치합니다. 여백이 없는 경우에는 동작하지 않습니다."
+    },
+    {
+      "id": "p_01_flexmainaxisalign",
+      "type": "heading2",
+      "content": "flexmainaxisalign",
+      "option": {
+        "alias": "Layout_flexmainaxisalign"
+      }
+    },
+    {
+      "id": "p_02_flexmainaxisalign",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 Main Axis(type 속성값이 \"horizontal\"이면 수평축, type 속성값이 \"vertical\"이면 수직축)을 기준으로 컴포넌트의 배치 방식을 설정합니다."
+    },
+    {
+      "id": "p_03_flexmainaxisalign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_flexmainaxisalign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_flexmainaxisalign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_flexmainaxisalign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_flexmainaxisalign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_flexmainaxisalign",
+      "type": "command",
+      "content": "Layout.flexmainaxisalign"
+    },
+    {
+      "id": "p_09_flexmainaxisalign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6503073267538345",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>flexmainaxisalign::= 'start' | 'end' | 'center' | 'spacebetween' | 'spacearound' | 'spaceevenly'</div></td></tr><tr><th>\"start\"</th><td colspan=\"2\"><div>Main Axis 시작 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"end\"</th><td colspan=\"2\"><div>Main Axis 끝 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"center\"</th><td colspan=\"2\"><div>Main Axis 가운데 위치에 맞추어 배치됩니다.</div></td></tr><tr><th>\"spacebetween\"</th><td colspan=\"2\"><div>Main Axis 시작 위치와 끝 위치에 컴포넌트를 배치하고 나머지 컴포넌트는 컴포넌트 간 간격이 같도록 배치합니다.</div></td></tr><tr><th>\"spacearound\"</th><td colspan=\"2\"><div>Main Axis를 기준으로 컴포넌트의 위, 아래 또는 왼쪽, 오른쪽에 같은 크기의 여백을 가지도록 컴포넌트를 배치합니다. 시작 위치와 첫 번째 컴포넌트 사이의 간격, 마지막 컴포넌트와 끝 위치 사이의 간격은 각 컴포넌트 사이의 간격의 1/2 크기로 배치합니다.</div></td></tr><tr><th>\"spaceevenly\"</th><td colspan=\"2\"><div>Main Axis를 기준으로 시작 위치와 첫 번째 컴포넌트 사이의 간격, 각 컴포넌트 사이의 간격, 마지막 컴포넌트와 끝 위치 사이의 간격이 같도록 컴포넌트를 배치합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_flexmainaxisalign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_flexmainaxisalign",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- flexmainaxisalign 속성값을 설정하지 않으면 \"start\"로 설정됩니다.\n\n- spacing, verticalgap, horizontalgap 속성값에서 설정한 값을 제외한 여백을 기준으로 간격을 조정해 컴포넌트를 배치합니다. 여백이 없는 경우에는 동작하지 않습니다."
+    },
+    {
+      "id": "p_13_flexmainaxisalign",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_flexmainaxisalign",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_div_07'>권한별 버튼 배치하기</a>"
+    },
+    {
+      "id": "p_01_flexwrap",
+      "type": "heading2",
+      "content": "flexwrap",
+      "option": {
+        "alias": "Layout_flexwrap"
+      }
+    },
+    {
+      "id": "p_02_flexwrap",
+      "type": "pre",
+      "content": "컴포넌트가 배치되면서 Layout 컨테이너 영역을 넘어갈 때 줄바꿈 여부를 설정합니다."
+    },
+    {
+      "id": "p_03_flexwrap",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_flexwrap",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_flexwrap",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_flexwrap",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_flexwrap",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_flexwrap",
+      "type": "command",
+      "content": "Layout.flexwrap"
+    },
+    {
+      "id": "p_09_flexwrap",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9769789163394943",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>flexwrap::= 'nowrap' | 'wrap'</div></td></tr><tr><th>\"nowrap\"</th><td colspan=\"2\"><div>자동으로 줄바꿈을 처리하지 않습니다.</div></td></tr><tr><th>\"wrap\"</th><td colspan=\"2\"><div>자동으로 줄바꿈 처리합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_flexwrap",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_flexwrap",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- flexwrap 속성값을 설정하지 않으면 \"nowrap\"으로 설정됩니다.\n\n- flexwrap 속성값을 \"wrap\"으로 설정한 경우 컴포넌트의 flexshrink 속성은 무시됩니다."
+    },
+    {
+      "id": "p_01_height",
+      "type": "heading2",
+      "content": "height",
+      "option": {
+        "alias": "Layout_height"
+      }
+    },
+    {
+      "id": "p_02_height",
+      "type": "pre",
+      "content": "Form 에 정의된 현재 Layout 의 높이를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_height",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_height",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_height",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_height",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_height",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_height",
+      "type": "command",
+      "content": "Layout.height"
+    },
+    {
+      "id": "p_09_height",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8479286539788259",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>height ::= &lt;nVal&gt; ['px']</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>현재 Layout 의 높이를 pixel 단위의 숫자로 설정합니다.\n0~12000 사이의 숫자만 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_height",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_height",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다."
+    },
+    {
+      "id": "p_01_horizontalgap",
+      "type": "heading2",
+      "content": "horizontalgap",
+      "option": {
+        "alias": "Layout_horizontalgap"
+      }
+    },
+    {
+      "id": "p_02_horizontalgap",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 배치된 컴포넌트(또는 Cell)의 수평축 간격을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_horizontalgap",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_horizontalgap",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_horizontalgap",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_horizontalgap",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_horizontalgap",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_horizontalgap",
+      "type": "command",
+      "content": "Layout.horizontalgap"
+    },
+    {
+      "id": "p_09_horizontalgap",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.1397133395541037",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>horizontalgap ::= &lt;nGap&gt;</div></td></tr><tr><th>&lt;nGap&gt;</th><td colspan=\"2\"><div>type 속성값에 따라 간격을 설정합니다.\n\n- \"horizontal\", \"vertical\": 컴포넌트의 수평축 간격\n- \"table\": Layout 컨테이너 내 가상의 Table Cell의 수평축 간격</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_horizontalgap",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_horizontalgap",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- horizontalgap 속성값을 설정하지 않으면 undefined로 설정되고, 0px 값으로 동작합니다.\n\n- 음수값으로 허용하지 않으며 유효하지 않은 값은 0px 값으로 동작합니다.\n\n- 개별 컴포넌트(또는 Cell) 간의 간격은 설정할 수 없습니다."
+    },
+    {
+      "id": "p_13_horizontalgap",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_horizontalgap",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_div_07'>권한별 버튼 배치하기</a>"
+    },
+    {
+      "id": "p_01_initvalueid",
+      "type": "heading2",
+      "content": "initvalueid",
+      "option": {
+        "alias": "Layout_initvalueid"
+      }
+    },
+    {
+      "id": "p_02_initvalueid",
+      "type": "pre",
+      "content": "Layout 에 적용될 InitValue 의 ID 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_initvalueid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_initvalueid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_initvalueid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_initvalueid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_initvalueid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_initvalueid",
+      "type": "command",
+      "content": "Layout.initvalueid[= strValueID]"
+    },
+    {
+      "id": "p_09_initvalueid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.12086372238627097",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 Layout 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_initvalueid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_initvalueid",
+      "type": "pre",
+      "content": "- Layout 가 화면에 표시된 후에는 속성값을 설정하거나 변경 할 수 없습니다.\n   Layout 를 동적으로 생성 시 show() 메소드 실행 전에 속성값을 설정하여야 합니다.\n\n- Screen 별로 Environment 의 initvaluefileid 속성을 각각 설정하면 Screen 에 따라 다른 초기값을 설정할 수 있습니다.\n\n- InitValueDefinition 영역에 한 개 이상의 InitValue 파일을 정의할 수 있고,\n   InitValue 파일에는 컴포넌트별로 여러개의 초기값 정의를 할 수 있습니다."
+    },
+    {
+      "id": "p_01_mobileorientation",
+      "type": "heading2",
+      "content": "mobileorientation",
+      "option": {
+        "alias": "Layout_mobileorientation"
+      }
+    },
+    {
+      "id": "p_02_mobileorientation",
+      "type": "pre",
+      "content": "모바일 환경에서 LayOut 이 표시될 디바이스의 방향값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_mobileorientation",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_mobileorientation",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_mobileorientation",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_mobileorientation",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_mobileorientation",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_mobileorientation",
+      "type": "command",
+      "content": "Layout.mobileorientation"
+    },
+    {
+      "id": "p_09_mobileorientation",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6977560161543022",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>mobileorientation  ::= 'portrait' | 'landscape'</div></td></tr><tr><th>\"portrait\"</th><td colspan=\"2\"><div>디바이스의 방향이 \"Portrait\" 일 때 현재 LayOut 이 표시됩니다.</div></td></tr><tr><th>\"landscape\"</th><td colspan=\"2\"><div>디바이스의 방향이 \"Landscape\" 일 때 현재 LayOut 이 표시됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_mobileorientation",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_mobileorientation",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 모바일 환경일 때만 지원되는 속성이며, \"Desktop\" 환경에서는 속성값에 관계없이 LayOut 이 표시됩니다.\n\n- 모바일 환경에서 디바이스 방향과 일치하는 설정이 없을 경우 \"default\" LayOut 이 표시됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "Layout_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "Layout 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "Layout.name"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.39130029016996426",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>name</th><td colspan=\"2\"><div>Layout 을 구별할 수 있는 유일값을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- Form 에는 \"default\" 로 이름이 설정된 Layout 이 반드시 존재하여야 합니다."
+    },
+    {
+      "id": "p_01_screenid",
+      "type": "heading2",
+      "content": "screenid",
+      "option": {
+        "alias": "Layout_screenid"
+      }
+    },
+    {
+      "id": "p_02_screenid",
+      "type": "pre",
+      "content": "Layout 이 적용될 Screen 의 ID 를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_screenid",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_screenid",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_screenid",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_screenid",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_screenid",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_screenid",
+      "type": "command",
+      "content": "Layout.screenid"
+    },
+    {
+      "id": "p_09_screenid",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.507003938189791",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>screenid</th><td colspan=\"2\"><div>ScreenDefinition 영역에 정의된 Screen 의 ID 를 콤마(\",\")로 구분하여 여러개 설정할 수 있습니다.\n\n값을 설정하지 않으면 모든 Screen 에 Layout 이 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_screenid",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_screenid",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- ScreenDefinition 영역에 정의되지 않은 Screen 의 ID 설정 시 무시됩니다.\n\n- 선택된 Screen 에 해당하는 Layout 이 존재하지 않을 경우 screenid 속성값에 관계없이 Default Layout 이 표시될 수 있습니다."
+    },
+    {
+      "id": "p_01_spacing",
+      "type": "heading2",
+      "content": "spacing",
+      "option": {
+        "alias": "Layout_spacing"
+      }
+    },
+    {
+      "id": "p_02_spacing",
+      "type": "pre",
+      "content": "Layout 컨테이너와 컴포넌트 간 여백을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_spacing",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_spacing",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_spacing",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_spacing",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_spacing",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_spacing",
+      "type": "command",
+      "content": "Layout.spacing"
+    },
+    {
+      "id": "p_09_spacing",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.19856200215976105",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>spacing ::= &lt;nVal&gt;'px'{4}\n\n1회 입력: top/right/bottom/left 에 모두 적용됩니다.\n2회 입력: top/bottom, right/left 에 첫 번째 값부터 각각 적용됩니다.\n3회 입력: top, right/left, bottom 에 첫 번째 값부터 각각 적용됩니다.\n4회 입력: top, right, bottom, left 에 첫 번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>여백의 너비를 pixel 단위 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_spacing",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_spacing",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- spacing 속성값을 설정하지 않으면 undefined로 설정되고, \"0px\" 값으로 동작합니다.\n\n- 음수값으로 허용하지 않으며 유효하지 않은 값은 \"0px\" 값으로 동작합니다.\n\n- Layout에 배치되는 컴포넌트의 개수가 특정 범위를 넘어서면 아래의 조건 중 하나를 만족할 때 spacing 속성값과 실제 여백 너비가 달라질 수 있습니다.\n    - flexmainaxisalign 속성값을 \"center\", \"spacearound\", \"spaceevenly\" 중 하나로 설정\n    - flexcrossaxisalign, flexcrossaxiswrapalign 속성값을 \"center\", \"spacearound\", \"spaceevenly\" 중 하나로 설정"
+    },
+    {
+      "id": "p_01_stepcount",
+      "type": "heading2",
+      "content": "stepcount",
+      "option": {
+        "alias": "Layout_stepcount"
+      }
+    },
+    {
+      "id": "p_02_stepcount",
+      "type": "pre",
+      "content": "Layout 의 화면이 분할되는 갯수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_stepcount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_stepcount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_stepcount",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_stepcount",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_stepcount",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_stepcount",
+      "type": "command",
+      "content": "Layout.stepcount"
+    },
+    {
+      "id": "p_09_stepcount",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.09283263408925668",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>stepcount</th><td colspan=\"2\"><div>Layout 의 화면이 분할되는 갯수를 숫자로 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_stepcount",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_stepcount",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- stepcount 속성값 만큼 현재 Layout 을 분할하여 사용할 수 있습니다.\n  Layout 의 크기는 변경되지 않고, 동일 화면에서 Layout 의 갯수만 증가됩니다.\n\n- Layout 화면이 분할되면 실행 시 StepControl 이 표시되며 가로 방향으로 이동할 수 있습니다.\n\n- 컴포넌트의 positionstep 속성을 사용하여 특정 분할화면에만 컴포넌트를 표시하거나 전체 분할화면에 컴포넌트를 표시할 수 있습니다.\n\n- 설정된 stepcount 속성값은 화면이 표시될 때 StepControl 의 stepcount 속성값에 반영됩니다."
+    },
+    {
+      "id": "p_13_stepcount",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_stepcount",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_form_02'>화면을 스탭 단위로 나누기</a>"
+    },
+    {
+      "id": "p_01_stepindex",
+      "type": "heading2",
+      "content": "stepindex",
+      "option": {
+        "alias": "Layout_stepindex"
+      }
+    },
+    {
+      "id": "p_02_stepindex",
+      "type": "pre",
+      "content": "Layout 에 분할된 화면 중 표시할 화면의 인덱스를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_stepindex",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_stepindex",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_stepindex",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_stepindex",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_stepindex",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_stepindex",
+      "type": "command",
+      "content": "Layout.stepindex"
+    },
+    {
+      "id": "p_09_stepindex",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.18178619960745768",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>stepindex</th><td colspan=\"2\"><div>표시할 화면의 인덱스를 숫자로 설정합니다.\n\n인덱스는 \"0\" 부터 시작하며 \"stepcount속성값 - 1\"까지 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_stepindex",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_stepindex",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- Form 로딩 시 stepindex 속성에 설정된 인덱스에 해당하는 분할화면이 표시됩니다.\n\n- 컴포넌트의 positionstep 속성을 사용하여 특정 분할화면에만 컴포넌트를 표시하거나 전체 분할화면에 컴포넌트를 표시할 수 있습니다.\n\n- 설정된 stepindex 속성값은 화면이 표시될 때 StepControl 의 stepindex 속성값에 반영됩니다."
+    },
+    {
+      "id": "p_01_tablecellalign",
+      "type": "heading2",
+      "content": "tablecellalign",
+      "option": {
+        "alias": "Layout_tablecellalign"
+      }
+    },
+    {
+      "id": "p_02_tablecellalign",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 가상의 Table Cell의 배치 방식을 설정합니다."
+    },
+    {
+      "id": "p_03_tablecellalign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tablecellalign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tablecellalign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tablecellalign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tablecellalign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tablecellalign",
+      "type": "command",
+      "content": "Layout.tablecellalign"
+    },
+    {
+      "id": "p_09_tablecellalign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.137015199795676",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>tablecellalign ::= &lt;horizontal-tablecellalign&gt; &lt;vertical-tablecellalign&gt;\n\n&lt;horizontal-tablecellalign&gt; ::= &lt;tablecellalign&gt;\n\n&lt;vertical-tablecellalign&gt; ::= &lt;tablecellalign&gt;\n\n&lt;tablecellalign&gt; ::= 'start' | 'end' | 'center' | 'spacebetween' | 'spacearound' | 'spaceevenly'</div></td></tr><tr><th>&lt;horizontal-tablecellalign&gt;</th><td colspan=\"2\"><div>수평 방향 배치 기준을 설정합니다.</div></td></tr><tr><th>&lt;vertical-tablecellalign&gt;</th><td colspan=\"2\"><div>수직 방향 배치 기준을 설정합니다.</div></td></tr><tr><th>&lt;tablecellalign&gt;</th><td colspan=\"2\"><div>배치 기준을 설정합니다.\n- \"start\": Layout 컨테이너 내 수평축 또는 수직축 시작 위치에 맞추어 배치됩니다.\n- \"end\": Layout 컨테이너 내 수평축 또는 수직축 끝 위치에 맞추어 배치됩니다.\n- \"center\": Layout 컨테이너 내 수평축 또는 수직축 가운데 위치에 맞추어 배치됩니다.\n- \"spacebetween\": Layout 컨테이너 내 수평축 또는 수직축 시작 위치와 끝 위치에 Cell을 배치하고 나머지 Cell은 Cell 간 간격이 같도록 배치합니다.\n- \"spacearound\": Layout 컨테이너 내 수평축 또는 수직축을 기준으로 Cell의 위, 아래 또는 왼쪽, 오른쪽에 같은 크기의 여백을 가지도록 Cell을 배치합니다. \n   시작 위치와 첫 번째 Cell 사이의 간격, 마지막 Cell과 끝 위치 사이의 간격은 각 Cell 사이의 간격의 1/2 크기로 배치합니다.\n- \"spaceevenly\": Layout 컨테이너 내 수평축 또는 수직축을 기준으로 시작 위치와 첫 번째 Cell 사이의 간격, 각 Cell 사이의 간격, 마지막 Cell과 끝 위치 사이의 간격이 같도록 Cell을 배치합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tablecellalign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tablecellalign",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다."
+    },
+    {
+      "id": "p_01_tablecellincompalign",
+      "type": "heading2",
+      "content": "tablecellincompalign",
+      "option": {
+        "alias": "Layout_tablecellincompalign"
+      }
+    },
+    {
+      "id": "p_02_tablecellincompalign",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 가상의 Table Cell 영역 내에서 컴포넌트의 배치 방식을 설정합니다."
+    },
+    {
+      "id": "p_03_tablecellincompalign",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tablecellincompalign",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tablecellincompalign",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tablecellincompalign",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tablecellincompalign",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tablecellincompalign",
+      "type": "command",
+      "content": "Layout.tablecellincompalign"
+    },
+    {
+      "id": "p_09_tablecellincompalign",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.564767756429837",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>tablecellincompalign ::= &lt;horizontal-tablecellincompalign&gt; &lt;vertical-tablecellincompalign&gt;\n&lt;horizontal-tablecellincompalign&gt; ::= &lt;tablecellincompalign&gt;\n&lt;vertical-tablecellincompalign&gt; ::= &lt;tablecellincompalign&gt;\n&lt;tablecellincompalign&gt; ::= 'start' | 'end' | 'center'</div></td></tr><tr><th>&lt;horizontal-tablecellincompalign&gt;</th><td colspan=\"2\"><div>컴포넌트의 수평 방향 배치 기준을 설정합니다.</div></td></tr><tr><th>&lt;vertical-tablecellincompalign&gt;</th><td colspan=\"2\"><div>컴포넌트의 수직 방향 배치 기준을 설정합니다.</div></td></tr><tr><th>&lt;tablecellincompalign&gt;</th><td colspan=\"2\"><div>배치 기준을 설정합니다.\n- \"start\": Cell 영역 내 수평축 또는 수직축 시작 위치에 맞추어 배치됩니다.\n- \"center\": Cell 영역 내 수평축 또는 수직축 가운데 위치에 맞추어 배치됩니다.\n- \"end\": Cell 영역 내 수평축 또는 수직축 끝 위치에 맞추어 배치됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tablecellincompalign",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tablecellincompalign",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- 하나의 Cell 영역 내 2개 이상의 컴포넌트가 배치된 경우 겹쳐진 상태로 배치됩니다.\n\n- tabletemplatearea 속성에서 2개 이상의 Cell을 같은 이름으로 설정하고 해당 영역에 컴포넌트를 배치한 경우 같은 이름으로 묶은 Cell 영역 기준으로 배치됩니다."
+    },
+    {
+      "id": "p_01_tabledirection",
+      "type": "heading2",
+      "content": "tabledirection",
+      "option": {
+        "alias": "Layout_tabledirection"
+      }
+    },
+    {
+      "id": "p_02_tabledirection",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 가상의 Table Cell에 컴포넌트가 자동으로 배치되는 방향을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_tabledirection",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tabledirection",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tabledirection",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tabledirection",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tabledirection",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tabledirection",
+      "type": "command",
+      "content": "Layout.tabledirection"
+    },
+    {
+      "id": "p_09_tabledirection",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3940038728545203",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>tabledirection ::= 'horizontal' | 'vertical'</div></td></tr><tr><th>\"horizontal\"</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell을 수평 방향으로 탐색합니다.</div></td></tr><tr><th>\"vertical\"</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell을 수직 방향으로 탐색합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tabledirection",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tabledirection",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- tabledirection 속성값을 설정하지 않으면 \"horizontal\"으로 설정됩니다.\n\n- 컴포넌트가 배치된 Cell은 탐색 대상에서 제외합니다."
+    },
+    {
+      "id": "p_01_tabletemplate",
+      "type": "heading2",
+      "content": "tabletemplate",
+      "option": {
+        "alias": "Layout_tabletemplate"
+      }
+    },
+    {
+      "id": "p_02_tabletemplate",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 가상의 Table Cell을 설정합니다."
+    },
+    {
+      "id": "p_03_tabletemplate",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tabletemplate",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tabletemplate",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tabletemplate",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tabletemplate",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tabletemplate",
+      "type": "command",
+      "content": "Layout.tabletemplate"
+    },
+    {
+      "id": "p_09_tabletemplate",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7098700953565324",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>tabletemplate ::= &lt;rowtemplate&gt; '/' &lt;columntemplate&gt;\n\n &lt;rowtemplate&gt; ::= &lt;nVal&gt;'px'|'%'|'*' {n}\n &lt;columntemplate&gt; ::= &lt;nVal&gt;'px'|'%'|'*' {n}</div></td></tr><tr><th>&lt;rowtemplate&gt;</th><td colspan=\"2\"><div>생성할 Row 개수만큼 정보를 공백문자로 구분해 설정합니다.</div></td></tr><tr><th>&lt;columntemplate&gt;</th><td colspan=\"2\"><div>생성할 Column 개수만큼 정보를 공백문자로 구분해 설정합니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Cell이 차지할 크기를 설정합니다.\n\n- px: 설정된 크기\n- %: 컨테이너 크기 기준으로 설정된 비율만큼의 크기\n- *: 0보다 큰 실수로 설정하며 컨테이너 크기에서 고정된 크기(\"px\" 또는 \"%\"로 설정한 값, spacing, verticalgap, horizontalgap 속성값에서 설정한 값)을 제외한 크기를 기준으로 비율을 계산한 크기</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tabletemplate",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tabletemplate",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n  속성값을 직접 수정할 수는 없지만 Form 오브젝트의 setFluidLayoutProperty 메소드를 사용해 속성값을 수정할 수 있습니다.\n  (setFluidLayoutProperty 메소드 사용 시 일부 제약이 있습니다).\n\n- tabletemplate 속성값을 설정하지 않으면 \"1* / 1*\"로 설정됩니다.\n\n- Cell은 서로 겹치지 않습니다. Cell에 배치된 컴포넌트의 크기가 Cell보다 큰 경우 Cell 영역을 벗어날 수 있습니다."
+    },
+    {
+      "id": "p_01_tabletemplatearea",
+      "type": "heading2",
+      "content": "tabletemplatearea",
+      "option": {
+        "alias": "Layout_tabletemplatearea"
+      }
+    },
+    {
+      "id": "p_02_tabletemplatearea",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 가상의 Table Cell의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_tabletemplatearea",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_tabletemplatearea",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_tabletemplatearea",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_tabletemplatearea",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_tabletemplatearea",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_tabletemplatearea",
+      "type": "command",
+      "content": "Layout.tabletemplatearea"
+    },
+    {
+      "id": "p_09_tabletemplatearea",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7054521457039176",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>tabletemplatearea ::= '\"'&lt;strArea&gt; {n}'\"' {n}</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_tabletemplatearea",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_tabletemplatearea",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- tabletemplate 속성에서 설정한 Row, Column 개수만큼 설정합니다. 개수가 맞지 않은 경우 유효하지 않은 값으로 처리합니다.\n\n- Cell 이름을 지정하지 않은 경우에는 \".\"로 미사용 Cell 영역을 표시합니다.\n\n- 여러 개의 Cell을 하나의 이름으로 설정해 묶을 수 있습니다. \n  - 이때 묶여지는 Cell은 연속적이어야 하고 사각형 형태로 묶여야 합니다.\n    예를 들어 3*2 형태로 tabletemplate 속성을 설정한 경우 Column 별로 이름을 설정한다면 아래와 같이 설정할 수 있습니다.\n      \"LEFT BODY RIGHT\" \"LEFT BODY RIGHT\"\n  - 여러 개의 Cell을 하나의 이름으로 설정한 후 같은 이름으로 다른 쪽에 있는 여러 개의 Cell을 설정할 수는 없습니다.\n    아래와 같은 경우 첫 번째 Column과 세 번째 컬럼의 이름(\"SIDE\")이 같아서 둘 다 유효하지 않은 값으로 처리합니다.\n      \"SIDE BODY SIDE\" \"SIDE BODY SIDE\""
+    },
+    {
+      "id": "p_01_type",
+      "type": "heading2",
+      "content": "type",
+      "option": {
+        "alias": "Layout_type"
+      }
+    },
+    {
+      "id": "p_02_type",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 컴포넌트 배치 기준을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_type",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_type",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_type",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_type",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_type",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_type",
+      "type": "command",
+      "content": "Layout.type"
+    },
+    {
+      "id": "p_09_type",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.5781544015105246",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>type ::= 'default' | 'horizontal' | 'vertical' | 'table'</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>컴포넌트의 좌표 속성값을 기준으로 배치합니다.</div></td></tr><tr><th>\"horizontal\"</th><td colspan=\"2\"><div>컴포넌트를 수평 방향으로 배치합니다.</div></td></tr><tr><th>\"vertical\"</th><td colspan=\"2\"><div>컴포넌트를 수직 방향으로 배치합니다.</div></td></tr><tr><th>\"table\"</th><td colspan=\"2\"><div>컴포넌트를 Layout 컨테이너 내 가상의 Table Cell에 배치합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_type",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_type",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- type 속성값을 설정하지 않으면 \"default\"로 설정됩니다.\n\n- PopupMenu, PopupDiv 컴포넌트는 type 속성과 상관없이 동작합니다.\n  예를 들어 type 속성값을 “table”로 설정한 경우 배치된 컴포넌트의 크기를 %로 설정한 경우 Layout 컨테이너 내 가상의 Table Cell 크기를 기준으로 크기가 조정되지만 PopupMenu, PopupDiv 컴포넌트는 부모 Form 오브젝트 기준으로 크기가 조정됩니다.\n\n- 선택한 속성값에 따라 편집할 수 있는 속성이 달라집니다.\n\n- type 속성값을 \"horizontal\", \"vertical\", \"table\"으로 설정 시\n    - Layout 내 배치된 컴포넌트의 left, top, right, bottom 속성값(Position Base 포함)은 무시됩니다.\n    - stepcount 속성값을 설정해 화면 분할 기능을 사용할 수 없습니다."
+    },
+    {
+      "id": "p_01_verticalgap",
+      "type": "heading2",
+      "content": "verticalgap",
+      "option": {
+        "alias": "Layout_verticalgap"
+      }
+    },
+    {
+      "id": "p_02_verticalgap",
+      "type": "pre",
+      "content": "Layout 컨테이너 내 배치된 컴포넌트(또는 Cell)의 수직축 간격을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_verticalgap",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_verticalgap",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_verticalgap",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_verticalgap",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_verticalgap",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_verticalgap",
+      "type": "command",
+      "content": "Layout.verticalgap"
+    },
+    {
+      "id": "p_09_verticalgap",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7692230763797588",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>verticalgap ::= &lt;nGap&gt;</div></td></tr><tr><th>&lt;nGap&gt;</th><td colspan=\"2\"><div>type 속성값에 따라 간격을 설정합니다.\n\n- \"horizontal\", \"vertical\": 컴포넌트의 수직축 간격\n- \"table\": Layout 컨테이너 내 가상의 Table Cell의 수직축 간격</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_verticalgap",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_verticalgap",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행 중에는 수정할 수 없는 속성입니다.\n\n- verticalgap 속성값을 설정하지 않으면 undefined로 설정되고, 0px 값으로 동작합니다.\n\n- 음수값으로 허용하지 않으며 유효하지 않은 값은 0px 값으로 동작합니다.\n\n- 개별 컴포넌트(또는 Cell) 간의 간격은 설정할 수 없습니다."
+    },
+    {
+      "id": "p_13_verticalgap",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_verticalgap",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_div_07'>권한별 버튼 배치하기</a>"
+    },
+    {
+      "id": "p_01_width",
+      "type": "heading2",
+      "content": "width",
+      "option": {
+        "alias": "Layout_width"
+      }
+    },
+    {
+      "id": "p_02_width",
+      "type": "pre",
+      "content": "Form 에 정의된 현재 Layout 의 너비를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_width",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_width",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_width",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_width",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_width",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_width",
+      "type": "command",
+      "content": "Layout.width"
+    },
+    {
+      "id": "p_09_width",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.023551192966607792",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>width ::= &lt;nVal&gt; ['px']</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>현재 Layout 의 너비를 pixel 단위의 숫자로 설정합니다.\n0~12000 사이의 숫자만 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_width",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_width",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다."
+    }
+  ]
+}
