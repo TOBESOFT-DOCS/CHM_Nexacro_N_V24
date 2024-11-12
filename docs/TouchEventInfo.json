@@ -1,0 +1,432 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "터치입력에 의해 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 멀티터치를 지원하는 윈도우7 이상 또는 모바일 환경에서 이벤트가 발생합니다."
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_changedtouchinputinfos",
+      "type": "heading2",
+      "content": "changedtouchinputinfos",
+      "option": {
+        "alias": "TouchEventInfo_changedtouchinputinfos"
+      }
+    },
+    {
+      "id": "p_02_changedtouchinputinfos",
+      "type": "pre",
+      "content": "터치입력이 있는 상태에서 추가로 터치입력이 발생한 경우 추가로 입력된 터치정보를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_changedtouchinputinfos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_changedtouchinputinfos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_changedtouchinputinfos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_changedtouchinputinfos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_changedtouchinputinfos",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_changedtouchinputinfos",
+      "type": "command",
+      "content": "TouchEventInfo.changedtouchinputinfos"
+    },
+    {
+      "id": "p_09_changedtouchinputinfos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8381551900522115",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strID = e.changedtouchinputinfos[0].touchid</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_changedtouchinputinfos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_changedtouchinputinfos",
+      "type": "pre",
+      "content": "- 추가로 입력된 터치정보를 TouchInputInfo 오브젝트의 배열로 저장합니다.\n\n- TouchInputInfo 오브젝트는 입력종류, 좌표,시간 등의 정보를 가지고 있습니다."
+    },
+    {
+      "id": "p_01_fromobject",
+      "type": "heading2",
+      "content": "fromobject",
+      "option": {
+        "alias": "TouchEventInfo_fromobject"
+      }
+    },
+    {
+      "id": "p_02_fromobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트를 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromobject",
+      "type": "command",
+      "content": "TouchEventInfo.fromobject"
+    },
+    {
+      "id": "p_09_fromobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.09302323545524938",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromobject",
+      "type": "pre",
+      "content": "- onlbuttondown 과 같이 상위로 전파되는 이벤트에서 fromobject 속성은 이벤트가 최초로 발생한 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_fromreferenceobject",
+      "type": "heading2",
+      "content": "fromreferenceobject",
+      "option": {
+        "alias": "TouchEventInfo_fromreferenceobject"
+      }
+    },
+    {
+      "id": "p_02_fromreferenceobject",
+      "type": "pre",
+      "content": "이벤트 발생의 원인이 되는 컴포넌트 또는 서브컨트롤을 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_fromreferenceobject",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_fromreferenceobject",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_fromreferenceobject",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_fromreferenceobject",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_fromreferenceobject",
+      "type": "command",
+      "content": "TouchEventInfo.fromreferenceobject"
+    },
+    {
+      "id": "p_09_fromreferenceobject",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.8601302923296836",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_fromreferenceobject",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_fromreferenceobject",
+      "type": "pre",
+      "content": "- Calendar 와 같이 서브컨트롤이 있는 컴포넌트에서 서브컨트롤에 의해 이벤트가 발생한 경우 fromreferenceobject 속성은 서브컨트롤을 갖습니다.\n  Button 과 같이 서브컨트롤이 없는 컴포넌트는 해당 컴포넌트를 갖습니다.\n\n- onlbuttondown과 같이 상위로 전파되는 이벤트에서 fromreferenceobject 속성은 이벤트가 최초로 발생한 컴포넌트 또는 서브컨트롤을 갖습니다."
+    },
+    {
+      "id": "p_01_touchinputinfos",
+      "type": "heading2",
+      "content": "touchinputinfos",
+      "option": {
+        "alias": "TouchEventInfo_touchinputinfos"
+      }
+    },
+    {
+      "id": "p_02_touchinputinfos",
+      "type": "pre",
+      "content": "터치정보가 저장된 TouchInputInfo 오브젝트를 배열형태로 갖는 속성입니다."
+    },
+    {
+      "id": "p_03_touchinputinfos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_touchinputinfos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_touchinputinfos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_touchinputinfos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☑ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_touchinputinfos",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_touchinputinfos",
+      "type": "command",
+      "content": "TouchEventInfo.touchinputinfos"
+    },
+    {
+      "id": "p_09_touchinputinfos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.904369573538855",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strID = e.touchinputinfos[0].touchid</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_touchinputinfos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_touchinputinfos",
+      "type": "pre",
+      "content": "- TouchInputInfo 오브젝트는 동시에 터치한 입력(손가락) 수 만큼 생성되며, 입력종류, 좌표,시간 등의 정보를 가지고 있습니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01preventDefault",
+      "type": "heading2",
+      "content": "preventDefault",
+      "option": {
+        "alias": "TouchEventInfo_preventDefault"
+      }
+    },
+    {
+      "id": "m_02_preventDefault",
+      "type": "pre",
+      "content": "현재 이벤트의 Default Action 을 취소하는 메소드입니다."
+    },
+    {
+      "id": "m_03_preventDefault",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_preventDefault",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_preventDefault",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_preventDefault",
+      "type": "command",
+      "content": "TouchEventInfo.preventDefault()"
+    },
+    {
+      "id": "m_01stopPropagation",
+      "type": "heading2",
+      "content": "stopPropagation",
+      "option": {
+        "alias": "TouchEventInfo_stopPropagation"
+      }
+    },
+    {
+      "id": "m_02_stopPropagation",
+      "type": "pre",
+      "content": "현재 이벤트를 상위컴포넌트로 전파하지 않게 중지시키는 메소드입니다."
+    },
+    {
+      "id": "m_03_stopPropagation",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_stopPropagation",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_stopPropagation",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_stopPropagation",
+      "type": "command",
+      "content": "TouchEventInfo.stopPropagation()"
+    }
+  ]
+}
