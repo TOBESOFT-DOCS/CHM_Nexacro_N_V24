@@ -1,0 +1,1499 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 파일을 재생합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_currentpos",
+      "type": "heading2",
+      "content": "currentpos",
+      "option": {
+        "alias": "AudioPlayer_currentpos"
+      }
+    },
+    {
+      "id": "p_02_currentpos",
+      "type": "pre",
+      "content": "모바일기기에서 재생중인 오디오파일의 현재 재생위치를 밀리초(milliseconds) 단위로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_currentpos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_currentpos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_currentpos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_currentpos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_currentpos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_currentpos",
+      "type": "pre",
+      "content": "- currentpos 속성값은 onload 또는 onplaying 이벤트가 발생한 경우에 설정됩니다."
+    },
+    {
+      "id": "p_01_duration",
+      "type": "heading2",
+      "content": "duration",
+      "option": {
+        "alias": "AudioPlayer_duration"
+      }
+    },
+    {
+      "id": "p_02_duration",
+      "type": "pre",
+      "content": "로드된 오디오파일의 총 재생시간을 밀리초(milliseconds)단위로 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_duration",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_duration",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_duration",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_duration",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_duration",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_duration",
+      "type": "pre",
+      "content": "- duration 속성값은 onload 또는 onplaying 이벤트가 발생한 경우에 설정됩니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "AudioPlayer_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "AudioPlayer의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "AudioPlayer.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7765410295049989",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>AudioPlayer를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "AudioPlayer_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "AudioPlayer 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "AudioPlayer.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.2950597039132765",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_pan",
+      "type": "heading2",
+      "content": "pan",
+      "option": {
+        "alias": "AudioPlayer_pan"
+      }
+    },
+    {
+      "id": "p_02_pan",
+      "type": "pre",
+      "content": "모바일 기기에서 스피커의 밸런스를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_pan",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_pan",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_pan",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_pan",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_pan",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.017753550291902065",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.pan = 0.5;</div></td></tr><tr><th>nPan</th><td colspan=\"2\"><div>오디오파일 재생 시작 시 적용될 왼쪽 스피커의 밸런스를 \"0.0 ~ 1.0\" 범위의 실수값으로 설정합니다.\n\n\"0\" 설정 시 왼쪽 스피커만 사용합니다.\n\"0.5\" 설정 시 좌우 스피커를 동일하게 사용합니다.\n\"1\" 설정 시 오른쪽 스피커만 사용합니다.\n\"-1\" 설정 시 모바일에 설정되어 있는 밸런스값이 적용됩니다</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_pan",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_pan",
+      "type": "pre",
+      "content": "- pan 속성값을 설저하지 않으면 \"-1\" 로 적용됩니다.\n\n- pan 속성값을 \"0.3\" 으로 설정 시 오른쪽 스피커에 30% 음량이, 왼쪽 스피커에 70% 의 음량이 적용됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "AudioPlayer_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "AudioPlayer 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "AudioPlayer.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4314164870345556",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.AudioPlayer00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- AudioPlayer 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_repeatcount",
+      "type": "heading2",
+      "content": "repeatcount",
+      "option": {
+        "alias": "AudioPlayer_repeatcount"
+      }
+    },
+    {
+      "id": "p_02_repeatcount",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 파일의 반복재생 횟수를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_repeatcount",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_repeatcount",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_repeatcount",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_repeatcount",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_repeatcount",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.9674177403747216",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.repeatcount = 3;</div></td></tr><tr><th>nRepeatCount</th><td colspan=\"2\"><div>오디오 파일의 반복재생 횟수를 정수로 설정합니다.\n\n\"0\" 설정 시 오디오 파일을 무한 반복재생합니다.\n\"1\" 설정 시 오디오 파일을 반복재생하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_repeatcount",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_repeatcount",
+      "type": "pre",
+      "content": "- repeatcount 속성값을 설정하지 않으면 \"1\" 로 적용됩니다."
+    },
+    {
+      "id": "p_01_startpos",
+      "type": "heading2",
+      "content": "startpos",
+      "option": {
+        "alias": "AudioPlayer_startpos"
+      }
+    },
+    {
+      "id": "p_02_startpos",
+      "type": "pre",
+      "content": "모바일 기기에서 구간 반복 시 구간의 시작지점을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_startpos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_startpos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_startpos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_startpos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_startpos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7590274481681005",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.startpos = 1000;</div></td></tr><tr><th>nStartPos</th><td colspan=\"2\"><div>전체 오디오 재생시간 중 구간반복 시작지점의 시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n\"-1\" 설정 시 구간반복의 시작지점을 설정하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_startpos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_startpos",
+      "type": "pre",
+      "content": "- startpos 속성값을 설정하지 않으면 -1 로 적용됩니다.\n\n- 오디오파일이 로딩되면 -1 로 재설정 됩니다."
+    },
+    {
+      "id": "p_01_stoppos",
+      "type": "heading2",
+      "content": "stoppos",
+      "option": {
+        "alias": "AudioPlayer_stoppos"
+      }
+    },
+    {
+      "id": "p_02_stoppos",
+      "type": "pre",
+      "content": "모바일 기기에서 구간 반복 시 구간의 끝지점을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_stoppos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_stoppos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_stoppos",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_stoppos",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_stoppos",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.4435707306645248",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.stoppos = 5000;</div></td></tr><tr><th>nStoppos</th><td colspan=\"2\"><div>전체 오디오 재생시간 중 구간반복 끝지점의 시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n\"-1\" 설정 시 구간반복의 끝지점을 설정하지 않습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_stoppos",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_stoppos",
+      "type": "pre",
+      "content": "- stoppos 속성값을 설정하지 않으면 \"-1\" 로 적용됩니다.\n\n- 오디오파일이 로딩되면 \"-1\"로 재설정 됩니다."
+    },
+    {
+      "id": "p_01_url",
+      "type": "heading2",
+      "content": "url",
+      "option": {
+        "alias": "AudioPlayer_url"
+      }
+    },
+    {
+      "id": "p_02_url",
+      "type": "pre",
+      "content": "AudioPlayer 에 로드된 오디오파일의 경로를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_url",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_url",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_url",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_url",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_11_url",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_url",
+      "type": "pre",
+      "content": "- url 속성값은 load() 메소드가 수행될 때 설정됩니다."
+    },
+    {
+      "id": "p_01_volume",
+      "type": "heading2",
+      "content": "volume",
+      "option": {
+        "alias": "AudioPlayer_volume"
+      }
+    },
+    {
+      "id": "p_02_volume",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오 파일 재생 시 볼륨값을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_volume",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_volume",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_volume",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_volume",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_09_volume",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3196129435087435",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.volume = 0.7;</div></td></tr><tr><th>nVolume</th><td colspan=\"2\"><div>오디오파일 재생 시작 시 적용될 볼륨값을 0.0~1.0 범위의 실수값으로 설정합니다.\n\n-1 설정 시 모바일에 설정되어 있는 볼륨값이 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_volume",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_volume",
+      "type": "pre",
+      "content": "- volumn 속성값을 설정하지 않으면 -1 로 적용됩니다.\n\n- iOS/iPadOS NRE 는 모바일 기기에 설정된 시스템 볼륨이 최대값으로 적용되므로 volumn 속성에 시스템 볼륨값보다 큰 값을 설정하여도 시스템 볼륨값으로 적용됩니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01load",
+      "type": "heading2",
+      "content": "load",
+      "option": {
+        "alias": "AudioPlayer_load"
+      }
+    },
+    {
+      "id": "m_02_load",
+      "type": "pre",
+      "content": "AudioPlayer 에 오디오파일을 로딩하는 메소드입니다."
+    },
+    {
+      "id": "m_03_load",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_load",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_load",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_load",
+      "type": "command",
+      "content": "AudioPlayer.load(strUrl)"
+    },
+    {
+      "id": "m_07_load",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.36205045188341745",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl </td><td>String</td><td colspan=\"2\"><div>로딩할 오디오 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\n모바일 기기에 저장된 오디오 파일은 Alias 를 사용하여 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer00.load( \"%USERAPP%filename.mp3\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_load",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6396298428687436",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환하고, onload 이벤트가 발생합니다.\n메소드 실행에 실패하면 \"true\"를 반환하고, onerror 이벤트가 발생합니다.\n\nstrUrl 값이 생략된 경우 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_load",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_load",
+      "type": "pre",
+      "content": "- 오디오 파일을 정상적으로 로딩하면 오디오파일 위치가 url 속성에 저장됩니다.\n\n- 모바일 기기의 경로에 사용되는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 SD카드 메모리 공간, 다른 애플리케이션 접근가능"
+    },
+    {
+      "id": "m_01movePos",
+      "type": "heading2",
+      "content": "movePos",
+      "option": {
+        "alias": "AudioPlayer_movePos"
+      }
+    },
+    {
+      "id": "m_02_movePos",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일의 재생위치를 특정 부분으로 이동하는 메소드입니다."
+    },
+    {
+      "id": "m_03_movePos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_movePos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_movePos",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_movePos",
+      "type": "command",
+      "content": "AudioPlayer.movePos(nPos)"
+    },
+    {
+      "id": "m_07_movePos",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9961000912547532",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nPos</td><td>Number</td><td colspan=\"2\"><div>오디오파일의 재생 위치를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n이동 위치는 \"0ms ~ duration속성값\" 사이의 값을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer.movePos(1000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_movePos",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.15202151305011102",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환하고, onmovepos 이벤트가 발생합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환하고, onerror 이벤트가 발생합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01pause",
+      "type": "heading2",
+      "content": "pause",
+      "option": {
+        "alias": "AudioPlayer_pause"
+      }
+    },
+    {
+      "id": "m_02_pause",
+      "type": "pre",
+      "content": "모바일기기에서 오디오파일의 재생을 일시중지하는 메소드입니다."
+    },
+    {
+      "id": "m_03_pause",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_pause",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_pause",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_pause",
+      "type": "command",
+      "content": "AudioPlayer.pause()"
+    },
+    {
+      "id": "m_07_pause",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.45502870114049654",
+      "type": "command",
+      "content": "this.AudioPlayer00.pause();"
+    },
+    {
+      "id": "m_09_pause",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_pause",
+      "type": "pre",
+      "content": "- pause() 메소드 수행이 완료되면  onstop 이벤트가 발생합니다.\n  이 때, onstop 이벤트의 e.reason 속성값은 \"6\" 이 됩니다."
+    },
+    {
+      "id": "m_01play",
+      "type": "heading2",
+      "content": "play",
+      "option": {
+        "alias": "AudioPlayer_play"
+      }
+    },
+    {
+      "id": "m_02_play",
+      "type": "pre",
+      "content": "모바일기기에서 로딩 된 오디오파일을 재생하는 메소드입니다."
+    },
+    {
+      "id": "m_03_play",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_play",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_play",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_play",
+      "type": "command",
+      "content": "AudioPlayer.play( [nIntervalTime] )"
+    },
+    {
+      "id": "m_07_play",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.11190314476649499",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIntervalTime</td><td>Object</td><td colspan=\"2\"><div>오디오 파일 재생 중 onplaying 이벤트가 발생하는 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.\n값을 생략하거나 200ms 미만으로 설정 시 onplaying 이벤트가 발생하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer00.play(1000);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_play",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7048322175997843",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_play",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_play",
+      "type": "pre",
+      "content": "- 오디오파일 재생에 성공하면 onplay 이벤트 발생 후 onplaying 이벤트가 설정된 주기만큼 반복 발생합니다.\n   오디오파일 재생에 실패하면 onerror 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01resume",
+      "type": "heading2",
+      "content": "resume",
+      "option": {
+        "alias": "AudioPlayer_resume"
+      }
+    },
+    {
+      "id": "m_02_resume",
+      "type": "pre",
+      "content": "모바일 기기에서 일시중지 상태의 오디오파일을 재생상태로 전환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_resume",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_resume",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_resume",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_resume",
+      "type": "command",
+      "content": "AudioPlayer.resume()"
+    },
+    {
+      "id": "m_09_resume",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_resume",
+      "type": "pre",
+      "content": "- resume() 메소드 수행이 완료되면  onplay 이벤트가 발생합니다.\n   이 때, onplay 이벤트의 e.reason 속성값은 2 가 됩니다."
+    },
+    {
+      "id": "m_01stop",
+      "type": "heading2",
+      "content": "stop",
+      "option": {
+        "alias": "AudioPlayer_stop"
+      }
+    },
+    {
+      "id": "m_02_stop",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일의 재생을 중지하는 메소드입니다."
+    },
+    {
+      "id": "m_03_stop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_stop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_stop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_stop",
+      "type": "command",
+      "content": "AudioPlayer.stop()"
+    },
+    {
+      "id": "m_07_stop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.895645380903557",
+      "type": "command",
+      "content": "this.AudioPlayer00.stop();"
+    },
+    {
+      "id": "m_09_stop",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_stop",
+      "type": "pre",
+      "content": "- stop() 메소드 수행이 완료되면  onstop 이벤트가 발생합니다.\n  이 때, onstop 이벤트의 e.reason 속성값은 \"5\" 가 됩니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "AudioPlayer_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일에 대한 처리가 실패했을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.AudioPlayer,e:nexacro.AudioErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3220763253378144",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioErrorEventInfo\" string=\"AudioErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onload",
+      "type": "heading2",
+      "content": "onload",
+      "option": {
+        "alias": "AudioPlayer_onload"
+      }
+    },
+    {
+      "id": "e_02_onload",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일이 로드됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onload",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onload",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onload",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onload",
+      "type": "command",
+      "content": "onload(obj:nexacro.AudioPlayer,e:nexacro.AudioEventInfo);",
+      "option": "onload"
+    },
+    {
+      "id": "e_07_onload",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.58782908426039",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onload",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onload",
+      "type": "pre",
+      "content": "- 오디오파일이 로딩 된 후 url, duration, currentpos 속성값이 파일정보에 맞게 설정됩니다."
+    },
+    {
+      "id": "e_01onmovepos",
+      "type": "heading2",
+      "content": "onmovepos",
+      "option": {
+        "alias": "AudioPlayer_onmovepos"
+      }
+    },
+    {
+      "id": "e_02_onmovepos",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일의 재생 위치가 이동됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onmovepos",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onmovepos",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onmovepos",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onmovepos",
+      "type": "command",
+      "content": "onmovepos(obj:nexacro.AudioPlayer,e:nexacro.AudioEventInfo);",
+      "option": "onmovepos"
+    },
+    {
+      "id": "e_07_onmovepos",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8407196858170098",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onplay",
+      "type": "heading2",
+      "content": "onplay",
+      "option": {
+        "alias": "AudioPlayer_onplay"
+      }
+    },
+    {
+      "id": "e_02_onplay",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일의 재생이 시작됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onplay",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onplay",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onplay",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onplay",
+      "type": "command",
+      "content": "onplay(obj:nexacro.AudioPlayer,e:nexacro.AudioEventInfo);",
+      "option": "onplay"
+    },
+    {
+      "id": "e_07_onplay",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1179795024178798",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onplaying",
+      "type": "heading2",
+      "content": "onplaying",
+      "option": {
+        "alias": "AudioPlayer_onplaying"
+      }
+    },
+    {
+      "id": "e_02_onplaying",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일이 재생중일 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onplaying",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onplaying",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onplaying",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onplaying",
+      "type": "command",
+      "content": "onplaying(obj:nexacro.AudioPlayer,e:nexacro.AudioEventInfo);",
+      "option": "onplaying"
+    },
+    {
+      "id": "e_07_onplaying",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.18857667249029908",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_01onstop",
+      "type": "heading2",
+      "content": "onstop",
+      "option": {
+        "alias": "AudioPlayer_onstop"
+      }
+    },
+    {
+      "id": "e_02_onstop",
+      "type": "pre",
+      "content": "모바일 기기에서 오디오파일의 재생이 중지됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onstop",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onstop",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onstop",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onstop",
+      "type": "command",
+      "content": "onstop(obj:nexacro.AudioPlayer,e:nexacro.AudioEventInfo);",
+      "option": "onstop"
+    },
+    {
+      "id": "e_07_onstop",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7046991798046005",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    }
+  ]
+}
