@@ -1,0 +1,2673 @@
+{
+  "elements": [
+    {
+      "id": "u_01",
+      "type": "heading1",
+      "content": "개요"
+    },
+    {
+      "id": "u_02",
+      "type": "pre",
+      "content": "데이터를 호출하거나 작성하고 관리하는 오브젝트입니다.\nREST API 호출 기능과 Dataset 오브젝트와 단방향 바인딩을 지원합니다."
+    },
+    {
+      "id": "u_03",
+      "type": "heading2",
+      "content": "지원 환경"
+    },
+    {
+      "id": "u_04",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- 데이터 로딩 성공 시 이벤트는 다음 순서로 발생합니다.\nrequest: DataObject.onsuccess -&gt; DataObject.onload -&gt; Dataset.onload\nload: DataObject.onload -&gt; Dataset.onload\n\n- 데이터 통신 실패 시 이벤트는 다음 순서로 발생합니다.\nEnvironment.onerror (Return false) -&gt; DataObject.onerror\nEnvironment.onerror (Return true)"
+    },
+    {
+      "id": "u_16",
+      "type": "heading1",
+      "content": "속성"
+    },
+    {
+      "id": "p_01_data",
+      "type": "heading2",
+      "content": "data",
+      "option": {
+        "alias": "DataObject_data"
+      }
+    },
+    {
+      "id": "p_02_data",
+      "type": "pre",
+      "content": "데이터 정보를 갖는 오브젝트 형태의 속성입니다."
+    },
+    {
+      "id": "p_03_data",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_data",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_data",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_data",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_data",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_data",
+      "type": "command",
+      "content": "DataObject.data[= objData]"
+    },
+    {
+      "id": "p_09_data",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7835143943781742",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>DataObject00.data = {\n                \"status\" : \"success\",\n                \"data\" : [\n                    {\n                        \"id\" : \"1\",\n                        \"employee_name\" : \"Tiger Nixon\",\n                        \"employee_salary\" : \"320800\",\n                        \"employee_age\" : \"61\",\n                        \"profile_image\" : \"\"\n                    }\n                ]\n            };</div></td></tr><tr><th>objData</th><td colspan=\"2\"><div>데이터를 문자열 또는 오브젝트 형태로 설정할 수 있습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_data",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_data",
+      "type": "pre",
+      "content": "- 넥사크로 스튜디오 Json Contents Editor를 사용하는 경우 콘텐츠 조회 또는 편집 후 저장 시 data 속성값을 설정합니다.\n\n- load, request 메소드 실행 후 받은 데이터는 data 속성값에 반영되고 onload 이벤트가 발생합니다.\n  속성값이 유효하지 않은 경우에는 속성값을 undefined로 설정하고 onload 이벤트가 발생합니다."
+    },
+    {
+      "id": "p_13_data",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "p_14_data",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_dataobject_02'>다국어로 Button 라벨 표시하기</a>"
+    },
+    {
+      "id": "p_01_enableevent",
+      "type": "heading2",
+      "content": "enableevent",
+      "option": {
+        "alias": "DataObject_enableevent"
+      }
+    },
+    {
+      "id": "p_02_enableevent",
+      "type": "pre",
+      "content": "DataObject 에서 이벤트를 발생시킬지 여부를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_enableevent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_enableevent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_enableevent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_enableevent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_enableevent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_enableevent",
+      "type": "command",
+      "content": "DataObject.enableevent[= bEvent]"
+    },
+    {
+      "id": "p_09_enableevent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.38499433297146113",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.enableevent = true;  \n\nthis.DataObject00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>DataObject 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>DataObject 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_enableevent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_enableevent",
+      "type": "pre",
+      "content": "- enableevent 속성값을 설정하지 않으면 true로 적용됩니다.\n\n- enableevent 속성값이 true일 때 많은 양의 데이터를 변경할 경우 DataObject에 작업을 할 때마다 이벤트가 발생합니다.\n  이 경우 enableevent 속성값을 false로 설정하면 이벤트 발생으로 인한 처리속도 지연과 화면 깜빡임을 방지할 수 있습니다.\n\n- enableevent 속성값을 true로 변경하면 ondatachanged 이벤트가 발생합니다."
+    },
+    {
+      "id": "p_01_id",
+      "type": "heading2",
+      "content": "id",
+      "option": {
+        "alias": "DataObject_id"
+      }
+    },
+    {
+      "id": "p_02_id",
+      "type": "pre",
+      "content": "DataObject의 고유 식별자를 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_id",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_id",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_id",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_id",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_id",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_id",
+      "type": "command",
+      "content": "DataObject.id"
+    },
+    {
+      "id": "p_09_id",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.7221565506149449",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>DataObject를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_id",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_id",
+      "type": "pre",
+      "content": "-  addChild나 insertChild 메소드를 사용하여 컴포넌트를 등록할때 parent 가 자식컴포넌트를 구별하기 위한 고유한 key값입니다.\n\n- 속성명이나 메소드명과 같은 예약어를 id 속성값으로 설정할 경우 오류가 발생할 수 있습니다.\n\n- 컴포넌트의 속성은 아니지만 편의를 위하여 넥사크로 스튜디오에서 설정할 수 있는 기능이 제공됩니다.\n\n- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_name",
+      "type": "heading2",
+      "content": "name",
+      "option": {
+        "alias": "DataObject_name"
+      }
+    },
+    {
+      "id": "p_02_name",
+      "type": "pre",
+      "content": "DataObject 의 이름을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_name",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_name",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_name",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_name",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_name",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_name",
+      "type": "command",
+      "content": "DataObject.name[= strName]"
+    },
+    {
+      "id": "p_09_name",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.3545738263412064",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_name",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_name",
+      "type": "pre",
+      "content": "- name 속성은 사용자가 지정한 컴포넌트의 이름으로 논리적으로 중복이 가능합니다.\n\n- 넥사크로 스튜디오에서 컴포넌트를 생성하거나 id 값을 설정하면 name 속성에 동일한 값이 설정됩니다."
+    },
+    {
+      "id": "p_01_parent",
+      "type": "heading2",
+      "content": "parent",
+      "option": {
+        "alias": "DataObject_parent"
+      }
+    },
+    {
+      "id": "p_02_parent",
+      "type": "pre",
+      "content": "DataObject 의 부모 오브젝트를 갖는 읽기전용 속성입니다."
+    },
+    {
+      "id": "p_03_parent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_parent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_parent",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_parent",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_parent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_parent",
+      "type": "command",
+      "content": "DataObject.parent"
+    },
+    {
+      "id": "p_09_parent",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.07453245137762832",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.DataObject00.parent;</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_parent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_parent",
+      "type": "pre",
+      "content": "- parent 속성은 일반적으로 컴포넌트가 속한 Form을 갖습니다.\n\n- DataObject 이(가) Div 와 같은 컨테이너 컴포넌트에 자식으로 존재한다면 parent 속성은 해당 컨테이너 컴포넌트를 갖습니다.\n\n- Calendar 와 같이 서브컨트롤이 존재하는 컴포넌트에서 서브컨트롤의 parent 속성은 해당 컴포넌트를 갖습니다."
+    },
+    {
+      "id": "p_01_preload",
+      "type": "heading2",
+      "content": "preload",
+      "option": {
+        "alias": "DataObject_preload"
+      }
+    },
+    {
+      "id": "p_02_preload",
+      "type": "pre",
+      "content": "url 속성값을 설정한 경우 데이터를 로드하는 시점을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_preload",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_preload",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_preload",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_preload",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_preload",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_preload",
+      "type": "command",
+      "content": "DataObject.preload[= [bPreload]]"
+    },
+    {
+      "id": "p_09_preload",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.6459655506787036",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bPreload ::= true | false</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.preload = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>화면이 로드되기 전에 url 속성값으로 설정한 서비스의 데이터를 먼저 로드합니다.  Form의 onload 이벤트가 발생하기 전에 데이터를 로드합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>데이터를 자동으로 로드하지 않습니다.  preload 속성값이 false 인 경우에는 load 메소드를 호출해야 데이터를 로드합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_preload",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_preload",
+      "type": "pre",
+      "content": "속성값을 설정하지 않으면 false로 적용됩니다."
+    },
+    {
+      "id": "p_01_url",
+      "type": "heading2",
+      "content": "url",
+      "option": {
+        "alias": "DataObject_url"
+      }
+    },
+    {
+      "id": "p_02_url",
+      "type": "pre",
+      "content": "데이터를 호출할 URL을 설정하는 속성입니다."
+    },
+    {
+      "id": "p_03_url",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "p_04_url",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "p_05_url",
+      "type": "headline",
+      "content": "속성 타입"
+    },
+    {
+      "id": "p_06_url",
+      "type": "table",
+      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "80,70,90,90,110,80,110,140"
+      }
+    },
+    {
+      "id": "p_07_url",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "p_08_url",
+      "type": "command",
+      "content": "DataObject.url[= strUrl]"
+    },
+    {
+      "id": "p_09_url",
+      "type": "headline",
+      "content": "문법 설정"
+    },
+    {
+      "id": "u_10_0.45727262072364494",
+      "type": "table",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strUrl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.url = \"http://localhost:8080/Prj/BService/Serv00.jsp\";     // 절대경로 \nthis.DataObject00.url = \"../BService/Serv00.jsp\";                                     // 상대경로\nthis.DataObject00.url = \"Service1::Serv00.jsp\";                                         // TypeDefinition의 Services 경로</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>Business Service 가 제공되는 경로를 \"http://경로/서비스명\", \"https://경로/서비스명\" 형식의 절대경로로 설정합니다.\n\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>TypeDefinition 영역의 Services 에 정의된 Prefix를 사용한 형식으로 설정합니다.\n\n또는 현재 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "p_11_url",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "p_12_url",
+      "type": "pre",
+      "content": "- preload 속성이 false로 설정되어도 load() 메소드를 수행하면 url 속성값에 설정된 서비스에서 데이터를 호출합니다.\n\n◆ 서비스(Service Prefix)\n- Service 를 호출하기 위해 공통되는 접근경로를 TypeDefinition 에 정의하고, \n  컴포넌트의 속성이나 스크립트에 TypeDefinition에 정의된 Preifx를 기술하여 경로 정보를 간단히 표현할 수 있는 기능입니다."
+    },
+    {
+      "id": "u_17",
+      "type": "heading1",
+      "content": "메서드"
+    },
+    {
+      "id": "m_01addEvent",
+      "type": "heading2",
+      "content": "addEvent",
+      "option": {
+        "alias": "DataObject_addEvent"
+      }
+    },
+    {
+      "id": "m_02_addEvent",
+      "type": "pre",
+      "content": "DataObject 에 특정 이벤트를 선언하여 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEvent",
+      "type": "command",
+      "content": "DataObject.addEvent( strEventID )"
+    },
+    {
+      "id": "m_07_addEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.3571403075605344",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DataObject 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DataObject00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5245908444644084",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에 특정 이벤트를 추가할 때 사용하는 메소드입니다.\n\n- DataObject 에서 특정 이벤트를 제거하려면 removeEvent() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01addEventHandler",
+      "type": "heading2",
+      "content": "addEventHandler",
+      "option": {
+        "alias": "DataObject_addEventHandler"
+      }
+    },
+    {
+      "id": "m_02_addEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에 핸들러 함수를 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandler",
+      "type": "command",
+      "content": "DataObject.addEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9926567631645674",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.addEventHandler( \"onmove\", this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7847328512727311",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01addEventHandlerLookup",
+      "type": "heading2",
+      "content": "addEventHandlerLookup",
+      "option": {
+        "alias": "DataObject_addEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_addEventHandlerLookup",
+      "type": "pre",
+      "content": "함수를 검색하여 DataObject 의 특정 이벤트에 핸들러 함수로 추가하는 메소드입니다."
+    },
+    {
+      "id": "m_03_addEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_addEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_addEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_addEventHandlerLookup",
+      "type": "command",
+      "content": "DataObject.addEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_addEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7282358363321999",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.addEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_addEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.06620231604411897",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_addEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_addEventHandlerLookup",
+      "type": "pre",
+      "content": "- strFunc 이름의 함수를 objTarget 영역부터 상위로 올라가며 검색합니다.\n  검색된 함수가 있다면 이벤트에 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01clearChangedInfo",
+      "type": "heading2",
+      "content": "clearChangedInfo",
+      "option": {
+        "alias": "DataObject_clearChangedInfo"
+      }
+    },
+    {
+      "id": "m_02_clearChangedInfo",
+      "type": "pre",
+      "content": "변경 정보를 전부 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearChangedInfo",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearChangedInfo",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearChangedInfo",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearChangedInfo",
+      "type": "command",
+      "content": "DataObject.clearChangedInfo()"
+    },
+    {
+      "id": "m_01clearEventHandler",
+      "type": "heading2",
+      "content": "clearEventHandler",
+      "option": {
+        "alias": "DataObject_clearEventHandler"
+      }
+    },
+    {
+      "id": "m_02_clearEventHandler",
+      "type": "pre",
+      "content": "특정 이벤트에 등록된 핸들러 함수를 모두 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_clearEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_clearEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_clearEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_clearEventHandler",
+      "type": "command",
+      "content": "DataObject.clearEventHandler( strEventID )"
+    },
+    {
+      "id": "m_07_clearEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4196367999610573",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.DataObject00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_clearEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9025259491692645",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_clearEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_clearEventHandler",
+      "type": "pre",
+      "content": "- 특정 핸들러 함수만 제거하려면 removeEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01destroy",
+      "type": "heading2",
+      "content": "destroy",
+      "option": {
+        "alias": "DataObject_destroy"
+      }
+    },
+    {
+      "id": "m_02_destroy",
+      "type": "pre",
+      "content": "스크립트에서 동적으로 생성한 DataObject 을(를) 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_destroy",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_destroy",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_destroy",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_destroy",
+      "type": "command",
+      "content": "DataObject.destroy()"
+    },
+    {
+      "id": "m_07_destroy",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_09_0.8970667764988908",
+      "type": "command",
+      "content": "var bSucc = this.DataObject00.destroy();"
+    },
+    {
+      "id": "m_08_destroy",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8928152356984852",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>DataObject 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nDataObject 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_destroy",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_destroy",
+      "type": "pre",
+      "content": "- 동적으로 생성한 DataObject 을(를) 완전히 삭제하기 위해서는 destroy() 메소드를 호출해야 합니다."
+    },
+    {
+      "id": "m_01findEventHandler",
+      "type": "heading2",
+      "content": "findEventHandler",
+      "option": {
+        "alias": "DataObject_findEventHandler"
+      }
+    },
+    {
+      "id": "m_02_findEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 핸들러 함수를 찾아 인덱스를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_findEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_findEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_findEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_findEventHandler",
+      "type": "command",
+      "content": "DataObject.findEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_findEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7358172943080649",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.DataObject00.findEventHandler( \"onmove\", this.DataObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_findEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8297538600002826",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_findEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_findEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수의 인덱스는 0 부터 시작합니다."
+    },
+    {
+      "id": "m_01getAllResponseHeaders",
+      "type": "heading2",
+      "content": "getAllResponseHeaders",
+      "option": {
+        "alias": "DataObject_getAllResponseHeaders"
+      }
+    },
+    {
+      "id": "m_02_getAllResponseHeaders",
+      "type": "pre",
+      "content": "request 메소드 호출 후 Response header 정보를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getAllResponseHeaders",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getAllResponseHeaders",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getAllResponseHeaders",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getAllResponseHeaders",
+      "type": "command",
+      "content": "DataObject00.getAllResponseHeaders()"
+    },
+    {
+      "id": "m_08_getAllResponseHeaders",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.958282999283447",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>header, value 쌍으로 구성된 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getAllResponseHeaders",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getAllResponseHeaders",
+      "type": "pre",
+      "content": "- default 값은 undefind 입니다.\n  onsuccess, onerror, onload 이벤트 핸들러 함수 내에서만 정보를 확인할 수 있습니다."
+    },
+    {
+      "id": "m_01getChangedInfo",
+      "type": "heading2",
+      "content": "getChangedInfo",
+      "option": {
+        "alias": "DataObject_getChangedInfo"
+      }
+    },
+    {
+      "id": "m_02_getChangedInfo",
+      "type": "pre",
+      "content": "저장된 변경 정보를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getChangedInfo",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getChangedInfo",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getChangedInfo",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getChangedInfo",
+      "type": "command",
+      "content": "DataObject.getChangedInfo()"
+    },
+    {
+      "id": "m_08_getChangedInfo",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.8801699493827657",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>Infoarray 형식의 배열을 반환합니다.\nInfoarray 각 속성은 아래 표를 참고하세요.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getChangedInfo",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getChangedInfo",
+      "type": "pre",
+      "content": "- 특정 이벤트가 발생하지 않는 상태에서 사용자가 임의로 변경 정보를 확인하고 처리할 때 실행합니다.\n\n- Infoarray 속성 참조"
+    },
+    {
+      "id": "m_01getEventHandler",
+      "type": "heading2",
+      "content": "getEventHandler",
+      "option": {
+        "alias": "DataObject_getEventHandler"
+      }
+    },
+    {
+      "id": "m_02_getEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 지정된 인덱스에 해당하는 핸들러 함수를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getEventHandler",
+      "type": "command",
+      "content": "DataObject.getEventHandler( strEventID, nIdx )"
+    },
+    {
+      "id": "m_07_getEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8816108706395144",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = DataObject00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.7955444188445554",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_01getObjectByPath",
+      "type": "heading2",
+      "content": "getObjectByPath",
+      "option": {
+        "alias": "DataObject_getObjectByPath"
+      }
+    },
+    {
+      "id": "m_02_getObjectByPath",
+      "type": "pre",
+      "content": "jsonpath값으로 필터링한 데이터 오브젝트를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getObjectByPath",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getObjectByPath",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getObjectByPath",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getObjectByPath",
+      "type": "command",
+      "content": "DataObject00.getObjectByPath(strJsonpath)"
+    },
+    {
+      "id": "m_07_getObjectByPath",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.049247739089881226",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strJsonpath</td><td>String</td><td colspan=\"2\"><div>jsonpath 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.getObjectByPath(\"$.data[*]\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getObjectByPath",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.584832660340746",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>필터링된 데이터 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getObjectByPath",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getObjectByPath",
+      "type": "pre",
+      "content": "- strJsonpath 파라미터의 상세한 문법은 아래 링크를 참고하세요.\nhttps://github.com/dchester/jsonpath#jsonpath-syntax"
+    },
+    {
+      "id": "m_01getResponse",
+      "type": "heading2",
+      "content": "getResponse",
+      "option": {
+        "alias": "DataObject_getResponse"
+      }
+    },
+    {
+      "id": "m_02_getResponse",
+      "type": "pre",
+      "content": "request 메소드 호출 후 response data 정보를 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getResponse",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getResponse",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getResponse",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getResponse",
+      "type": "command",
+      "content": "DataObject00.getResponse()"
+    },
+    {
+      "id": "m_08_getResponse",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.270377540556863",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>데이터 통신 후 서버에서 받은 데이터값을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getResponse",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getResponse",
+      "type": "pre",
+      "content": "- default 값은 undefind 입니다.\n  onsuccess, onerror, onload 이벤트 핸들러 함수 내에서만 정보를 확인할 수 있습니다.\n- onerror 이벤트 발생 시에 서버 측에서 제공하는 정보를 확인하기 위해 사용할 수 있습니다."
+    },
+    {
+      "id": "m_01getResponseHeader",
+      "type": "heading2",
+      "content": "getResponseHeader",
+      "option": {
+        "alias": "DataObject_getResponseHeader"
+      }
+    },
+    {
+      "id": "m_02_getResponseHeader",
+      "type": "pre",
+      "content": "request 메소드 호출 후 특정 Response header 값을 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_getResponseHeader",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_getResponseHeader",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_getResponseHeader",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_getResponseHeader",
+      "type": "command",
+      "content": "DataObject.getResponseHeader(strHeaderName)"
+    },
+    {
+      "id": "m_07_getResponseHeader",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7081758390677487",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strHeaderName</td><td>String</td><td colspan=\"2\"><div>반환 받을 header 이름을 설정합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_getResponseHeader",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9072755911783268",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>파라미터로 설정한 header 이름에 해당하는 값을 반환합니다.\n대소문자 구분 없이 설정한 header 이름과 일치하는 값을 반환합니다.\n일치하는 header 정보가 없는 경우에는 null을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_getResponseHeader",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_getResponseHeader",
+      "type": "pre",
+      "content": "- 실행 환경에 따라 지원하는 header 정보가 다를 수 있습니다."
+    },
+    {
+      "id": "m_01insertEventHandler",
+      "type": "heading2",
+      "content": "insertEventHandler",
+      "option": {
+        "alias": "DataObject_insertEventHandler"
+      }
+    },
+    {
+      "id": "m_02_insertEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에 핸들러 함수를 지정한 위치에 삽입하는 메소드입니다."
+    },
+    {
+      "id": "m_03_insertEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_insertEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_insertEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_insertEventHandler",
+      "type": "command",
+      "content": "DataObject.insertEventHandler( strEventID, nIndex, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_insertEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7242916550633256",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.DataObject00.insertEventHandler( \"onmove\", 0, this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_insertEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.09762240424339019",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_insertEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_insertEventHandler",
+      "type": "pre",
+      "content": "- 첫번째 핸들러 함수의 인덱스는 0 입니다."
+    },
+    {
+      "id": "m_01load",
+      "type": "heading2",
+      "content": "load",
+      "option": {
+        "alias": "DataObject_load"
+      }
+    },
+    {
+      "id": "m_02_load",
+      "type": "pre",
+      "content": "url 속성에 설정한 서비스에서 데이터를 로드하는 메소드입니다."
+    },
+    {
+      "id": "m_03_load",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_load",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_load",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_load",
+      "type": "command",
+      "content": "DataObject00.load([bAsync])"
+    },
+    {
+      "id": "m_07_load",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8088784780910266",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bAsync</td><td>Boolean</td><td colspan=\"2\"><div>비동기 처리 여부를 설정합니다.\n기본값은 true이며 비동기 방식으로 동작합니다. 데이터 로드 완료와 관계없이 스크립트가 수행됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.load(); \nthis.DataObject00.load(false);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_load",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_load",
+      "type": "pre",
+      "content": "- load 메소드는 GET 방식으로 데이터를 로드합니다.\n- 로드한 데이터를 정상적으로 받은 경우에는 onload 이벤트가 발생합니다.\n  호출한 URL에서 데이터를 반환하지 않거나 url 속성값 또는 strUrl 파라미터를 지정하지 않은 경우에는 onload 이벤트를 발생하지 않습니다.\n- 에러 발생 시 Environment.onerror 이벤트 발생 후 DataObject 오브젝트의 onerror 이벤트가 발생합니다.\n\n- Dataset 오브젝트의 binddataobject 속성값으로 DataObject 오브젝트를 설정한 경우에는 Dataset 오브젝트의 onload 이벤트가 발생합니다."
+    },
+    {
+      "id": "m_01removeChangedInfo",
+      "type": "heading2",
+      "content": "removeChangedInfo",
+      "option": {
+        "alias": "DataObject_removeChangedInfo"
+      }
+    },
+    {
+      "id": "m_02_removeChangedInfo",
+      "type": "pre",
+      "content": "변경 정보에서 특정 uid에 해당하는 item 정보를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeChangedInfo",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeChangedInfo",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeChangedInfo",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeChangedInfo",
+      "type": "command",
+      "content": "DataObject.removeChangedInfo(uid)"
+    },
+    {
+      "id": "m_07_removeChangedInfo",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.06572327988063598",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>uid</td><td>String</td><td colspan=\"2\"><div>삭제할 변경 정보의 uid를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.removeChangedInfo(\"update_25017468\");</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_removeChangedInfo",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeChangedInfo",
+      "type": "pre",
+      "content": "- 변경 정보가 서버로 모두 정상 전송되었거나 더 이상 데이터의 가치가 없을 때 실행합니다."
+    },
+    {
+      "id": "m_01removeEvent",
+      "type": "heading2",
+      "content": "removeEvent",
+      "option": {
+        "alias": "DataObject_removeEvent"
+      }
+    },
+    {
+      "id": "m_02_removeEvent",
+      "type": "pre",
+      "content": "DataObject 에 선언된 특정 이벤트를 삭제하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEvent",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEvent",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEvent",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEvent",
+      "type": "command",
+      "content": "DataObject.removeEvent( strEventID )"
+    },
+    {
+      "id": "m_07_removeEvent",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.501647383134075",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DataObject 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DataObject00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEvent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.37309749550290183",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEvent",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEvent",
+      "type": "pre",
+      "content": "- Composite Component 와 같은 사용자 컴포넌트에서 특정 이벤트를 삭제할 때 사용하는 메소드입니다.\n\n- 이벤트에 핸들러 함수가 정의되어 있을 경우 이벤트를 삭제할 수 없습니다.\n\n- DataObject 에 특정 이벤트를 추가하려면 addEvent() 메소드를 사용하여야 합니다.\n\n- DataObject 에 기본으로 선언되어 있는 이벤트 삭제 시 오동작 할 수 있으므로 주의하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandler",
+      "type": "heading2",
+      "content": "removeEventHandler",
+      "option": {
+        "alias": "DataObject_removeEventHandler"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandler",
+      "type": "command",
+      "content": "DataObject.removeEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.005433997317030648",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.removeEventHandler( \"onmove\", this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5059500415255478",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandler",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01removeEventHandlerLookup",
+      "type": "heading2",
+      "content": "removeEventHandlerLookup",
+      "option": {
+        "alias": "DataObject_removeEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 검색된 함수와 동일한 핸들러 함수를 제거하는 메소드입니다."
+    },
+    {
+      "id": "m_03_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_removeEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_removeEventHandlerLookup",
+      "type": "command",
+      "content": "DataObject.removeEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9067520911448964",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.removeEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5277342970231546",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_removeEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_removeEventHandlerLookup",
+      "type": "pre",
+      "content": "- 핸들러 함수가 제거되면 핸들러 함수의 인덱스가 0 번부터 재조정됩니다.\n\n- 이벤트에 등록된 핸들러 함수를 모두 제거하려면 clearEventHandler() 메소드를 사용하여야 합니다."
+    },
+    {
+      "id": "m_01request",
+      "type": "heading2",
+      "content": "request",
+      "option": {
+        "alias": "DataObject_request"
+      }
+    },
+    {
+      "id": "m_02_request",
+      "type": "pre",
+      "content": "설정된 속성값에 따라 통신을 처리하는 메소드입니다."
+    },
+    {
+      "id": "m_03_request",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_request",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_request",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_request",
+      "type": "command",
+      "content": "DataObject00.request(strServiceid, strMethod, strUrl[, objParam])"
+    },
+    {
+      "id": "m_07_request",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.8386897852361653",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strServiceid</td><td>String</td><td colspan=\"2\"><div>서비스 ID 값을 설정합니다.</div></td></tr><tr><td>strMethod</td><td>String</td><td colspan=\"2\"><div>요청 시 처리할 메소드를 설정합니다.\n아래 메소드를 지정할 수 있습니다.\nGET, POST, PUT, DELETE, HEAD, PATCH</div></td></tr><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>JSON 데이터를 호출할 URL을 설정합니다.</div></td></tr><tr><td>objParam</td><td>Object</td><td colspan=\"2\"><div>header, postdata, async 정보를 저장한 JSON 오브젝트를 설정합니다.\nJSON 오브젝트는 아래와 같은 형식으로 처리할 수 있습니다.\nvar json_param = {\n    \"httpheader\" : header,\n    \"postdata\" : \"test\",\n    \"async\" : true\n}\nasync 정보를 설정하지 않으면 true로 처리합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var header = {\"Content-Type\" : \"application/x-www-form-urlencoded\"};\nvar json_param = {\n    \"httpheader\" : header,\n    \"postdata\" : \"test\",\n    \"async\" : true\n}\nthis.DataObject00.request(\"no2\", \"GET\", \"http://localhost:8080/api/employees\", json_param);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_09_request",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_request",
+      "type": "pre",
+      "content": "- 데이터를 정상적으로 받은 경우에는 onsuccess 이벤트가 발생합니다.\n  onsuccess 이벤트 발생 시 DataObjectEventInfo 오브젝트가 response 속성값을 가지고 있다면 onload 이벤트가 발생합니다.\n  strMethod 파라미터값이 HEAD인 경우에는 onload 이벤트가 발생하지 않습니다.\n- 에러 발생 시 Environment.onerror 이벤트 발생 후 DataObject 오브젝트의 onerror 이벤트가 발생합니다.\n\n- strMethod 파라미터값이 \"GET\", \"HEAD\" 인 경우 objParam 파라미터 내 postdata 값을 설정하더라도 서버로 전달되지 않습니다. XMLHttpRequest send 메소드 명세에 따른 동작 방식입니다.\n  https://xhr.spec.whatwg.org/#the-send()-method"
+    },
+    {
+      "id": "m_11_request",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "m_12_request",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_dataobject_03'>메소드 파라미터 지정해서 request 메소드 실행하기</a>"
+    },
+    {
+      "id": "m_01serializeToString",
+      "type": "heading2",
+      "content": "serializeToString",
+      "option": {
+        "alias": "DataObject_serializeToString"
+      }
+    },
+    {
+      "id": "m_02_serializeToString",
+      "type": "pre",
+      "content": "데이터를 문자열로 반환하는 메소드입니다."
+    },
+    {
+      "id": "m_03_serializeToString",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_serializeToString",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_serializeToString",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_serializeToString",
+      "type": "command",
+      "content": "DataObject00.serializeToString([funcReplacer | arrReplacer[, strSpace | nSpace]])"
+    },
+    {
+      "id": "m_07_serializeToString",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.1364128484742969",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>funcReplacer</td><td>Object</td><td colspan=\"2\"><div>key, value 값을 매개변수로 받는 함수로 반환값에 따라 문자열 결과에 포함할 속성을 설정합니다.</div></td></tr><tr><td>arrReplacer</td><td>Array</td><td colspan=\"2\"><div>문자열 결과에 포함할 속성 이름을 배열로 설정합니다.</div></td></tr><tr><td>strSpace</td><td>String</td><td colspan=\"2\"><div>문자열 출력 시 공백을 대체할 문자열을 설정합니다.\n문자열의 길이가 10보다 큰 경우에는 10번째 문자까지만 사용합니다.</div></td></tr><tr><td>nSpace</td><td>Number</td><td colspan=\"2\"><div>문자열 출력 시 사용할 공백문자의 숫자를 설정합니다.\n10보다 큰 경우에는 10으로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.funcReplacer = function(key, value)  {\n    if(typeof value == \"string\") {\n        return undefined;\n    }\n    return value;\n}\nthis.DataObject00.serializeToString(funcReplacer); \nthis.DataObject00.serializeToString(['employee_name','id']);\nthis.DataObject00.serializeToString(null, '##');\nthis.DataObject00.serializeToString(null, 2);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_serializeToString",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.041801023444268615",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>데이터를 변환한 문자열</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_serializeToString",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_serializeToString",
+      "type": "pre",
+      "content": "- 전달인자 값에 대한 세부 동작은 아래 링크 정보를 참고하세요.\n프레임워크 내에서 JSON.stringify 메소드의 value 파라미터를 제외한 두 번째, 세 번째 파라미터로 전달되어 처리합니다.\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+    },
+    {
+      "id": "m_01setEventHadlerLookup",
+      "type": "heading2",
+      "content": "setEventHadlerLookup",
+      "option": {
+        "alias": "DataObject_setEventHadlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHadlerLookup",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHadlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHadlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHadlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHadlerLookup",
+      "type": "command",
+      "content": "DataObject.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHadlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.5108653325437182",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.setEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHadlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.5875088323238558",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHadlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHadlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandler",
+      "type": "heading2",
+      "content": "setEventHandler",
+      "option": {
+        "alias": "DataObject_setEventHandler"
+      }
+    },
+    {
+      "id": "m_02_setEventHandler",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 첫번째 핸들러 함수를 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandler",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandler",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandler",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandler",
+      "type": "command",
+      "content": "DataObject.setEventHandler( strEventID, objFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandler",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.4039748925079182",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.DataObject00.setEventHandler( \"onmove\", this.DataObject00_onmove, this );</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandler",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.6557097106782009",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandler",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandler",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "u_18",
+      "type": "heading1",
+      "content": "이벤트"
+    },
+    {
+      "id": "e_01ondatachanged",
+      "type": "heading2",
+      "content": "ondatachanged",
+      "option": {
+        "alias": "DataObject_ondatachanged"
+      }
+    },
+    {
+      "id": "e_02_ondatachanged",
+      "type": "pre",
+      "content": "DataObject 오브젝트의 data가 Row 단위로 변경됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_ondatachanged",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_ondatachanged",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_ondatachanged",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_ondatachanged",
+      "type": "command",
+      "content": "ondatachanged(obj:nexacro.DataObject,e:nexacro.DataObjectDataChangedEventInfo);",
+      "option": "ondatachanged"
+    },
+    {
+      "id": "e_07_ondatachanged",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.07350961326209415",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectDataChangedEventInfo\" string=\"DataObjectDataChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_ondatachanged",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_ondatachanged",
+      "type": "pre",
+      "content": "- 바인딩 된 Dataset 오브젝트의 dataobjectbindmode 속성값이 \"twoway\"일 때 아래와 같은 경우 이벤트가 발생합니다.\n  - Row 단위 데이터 변경 시\n  - updatecontrol 속성값이 true일 때 데이터 변경 후 applyChange 메소드 실행 시\n\n- insert type으로 데이터가 변경된 경우 서버에 데이터 전송 후 다시 load 메소드로 가져와야 합니다. 그렇지 않으면 서버 데이터와 DataObject 오브젝트 사이의 차이가 생길 수 있습니다.\n\n◆ 주의\n\n- ondatachanged 이벤트 핸들러 함수 내에서 DataObject 오브젝트의 enableevent 속성값을 false로 변경했다가 다시 true로 변경하면 이벤트가 반복해서 발생하며 무한 루프에 빠집니다."
+    },
+    {
+      "id": "e_15_ondatachanged",
+      "type": "headline",
+      "content": "활용 예제"
+    },
+    {
+      "id": "e_16_ondatachanged",
+      "type": "unordered_list",
+      "content": "* <a class='link' href='/developer_guide_nexacro_n_v24_ko/sample_dataobject_04'>양방향 통신 적용하기</a>"
+    },
+    {
+      "id": "e_01onerror",
+      "type": "heading2",
+      "content": "onerror",
+      "option": {
+        "alias": "DataObject_onerror"
+      }
+    },
+    {
+      "id": "e_02_onerror",
+      "type": "pre",
+      "content": "load, request 메서드 호출 후 통신 실패 시 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onerror",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onerror",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onerror",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onerror",
+      "type": "command",
+      "content": "onerror(obj:nexacro.DataObject,e:nexacro.DataObjectErrorEventInfo);",
+      "option": "onerror"
+    },
+    {
+      "id": "e_07_onerror",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.9769315845727262",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectErrorEventInfo\" string=\"DataObjectErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_08_onerror",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.35927151781172306",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 값을 반환하면 \n&gt; load, request 메서드 실행 상태를 유지합니다. \n\nfalse 값을 반환하면 \n&gt; load, request 메서드 실행을 중지합니다. \n\n반환값을 따로 지정하지 않으면 false 값으로 적용됩니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "e_09_onerror",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onerror",
+      "type": "pre",
+      "content": "- 통신 실패 시 Environment 오브젝트의 onerror 이벤트가 발생하고 이벤트 핸들러 함수 내에서 true 값을 반환하지 않은 경우 DataObject 오브젝트의 oneror 이벤트가 발생합니다."
+    },
+    {
+      "id": "e_01onload",
+      "type": "heading2",
+      "content": "onload",
+      "option": {
+        "alias": "DataObject_onload"
+      }
+    },
+    {
+      "id": "e_02_onload",
+      "type": "pre",
+      "content": "데이터 로딩이 완료된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onload",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onload",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onload",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onload",
+      "type": "command",
+      "content": "onload(obj:nexacro.DataObject,e:nexacro.DataObjectLoadEventInfo);",
+      "option": "onload"
+    },
+    {
+      "id": "e_07_onload",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.18707956386033375",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectLoadEventInfo\" string=\"DataObjectLoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onload",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onload",
+      "type": "pre",
+      "content": "- data 속성값이 반영된 후에 onload 이벤트가 발생합니다.\n\n- Dataset 오브젝트의 bindDataobject 속성값으로 DataObject 오브젝트를 설정한 경우에는 Dataset 오브젝트의 onload 이벤트가 발생합니다."
+    },
+    {
+      "id": "e_01onloaddatasets",
+      "type": "heading2",
+      "content": "onloaddatasets",
+      "option": {
+        "alias": "DataObject_onloaddatasets"
+      }
+    },
+    {
+      "id": "e_02_onloaddatasets",
+      "type": "pre",
+      "content": "DataObejct 오브젝트가 Dataset 오브젝트의 binddataobject 속성값으로 설정된 경우 Dataset 오브젝트의 데이터 로딩이 처리된 후 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onloaddatasets",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onloaddatasets",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onloaddatasets",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onloaddatasets",
+      "type": "command",
+      "content": "onloaddatasets(obj:nexacro.DataObject,e:nexacro.DataObjectLoadDatasetsEventInfo);",
+      "option": "onloaddatasets"
+    },
+    {
+      "id": "e_07_onloaddatasets",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.09065293075986103",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectLoadDatasetsEventInfo\" string=\"DataObjectLoadDatasetsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onloaddatasets",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onloaddatasets",
+      "type": "pre",
+      "content": "- 이벤트 발생 순서는 다음과 같습니다.\n (1) DataObject onsuccess\n (2) DataObject onload\n (3) Dataset onload(또는 onerror):\n      binddataobject 속성값으로 DataObject를 설정한 모든 Dataset 오브젝트\n (4) DataObject onloaddatasets"
+    },
+    {
+      "id": "e_01onsuccess",
+      "type": "heading2",
+      "content": "onsuccess",
+      "option": {
+        "alias": "DataObject_onsuccess"
+      }
+    },
+    {
+      "id": "e_02_onsuccess",
+      "type": "pre",
+      "content": "request 메소드 호출 후 통신 성공 시 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onsuccess",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onsuccess",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onsuccess",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onsuccess",
+      "type": "command",
+      "content": "onsuccess(obj:nexacro.DataObject,e:nexacro.DataObjectEventInfo);",
+      "option": "onsuccess"
+    },
+    {
+      "id": "e_07_onsuccess",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.40613077708523915",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectEventInfo\" string=\"DataObjectEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onsuccess",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onsuccess",
+      "type": "pre",
+      "content": "- 통신 성공 시에는 데이터가 없어도 이벤트가 발생합니다.\n- 데이터가 없을 때 onload 이벤트가 발생하면서 기존 데이터는 삭제됩니다.\n  onload 이벤트를 막으려면 preventDefault 메소드를 호출합니다.\n  그 이후 getAllResponseHeaders, getResponse 메소드를 사용해 필요한 정보를 확인하고 처리할 수 있습니다.\n\n  this.DataObject00_onsuccess = function(obj:nexacro.DataObject,e:nexacro.DataObjectEventInfo)\n  {\n    if (e.statuscode == 200)\n        trace(\"getAllResponseHeaders:\"+ obj.getAllResponseHeaders())\n    else if (e.statuscode &gt; 200)\n    {\n        e.preventDefault();\n        trace(obj.getAllResponseHeaders())\n        trace(obj.getResponse())\n    }\n  };"
+    },
+    {
+      "id": "e_13_onsuccess",
+      "type": "headline",
+      "content": "Default Action"
+    },
+    {
+      "id": "e_14_onsuccess",
+      "type": "pre",
+      "content": "서버로부터 전송받은 response 데이터를 DataObject의 data 속성으로 설정합니다 (Head method 제외)"
+    },
+    {
+      "id": "e_01onvaluechanged",
+      "type": "heading2",
+      "content": "onvaluechanged",
+      "option": {
+        "alias": "DataObject_onvaluechanged"
+      }
+    },
+    {
+      "id": "e_02_onvaluechanged",
+      "type": "pre",
+      "content": "DataObject 오브젝트의 value 값(JSON 데이터에서 특정 key에 해당하는 value)이 변경됐을 때 발생하는 이벤트입니다."
+    },
+    {
+      "id": "e_03_onvaluechanged",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "e_04_onvaluechanged",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "e_05_onvaluechanged",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "e_06_onvaluechanged",
+      "type": "command",
+      "content": "onvaluechanged(obj:nexacro.DataObject,e:nexacro.DataObjectValueChangedEventInfo);",
+      "option": "onvaluechanged"
+    },
+    {
+      "id": "e_07_onvaluechanged",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.33475835053926384",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectValueChangedEventInfo\" string=\"DataObjectValueChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "120,240,?"
+      }
+    },
+    {
+      "id": "e_09_onvaluechanged",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "e_10_onvaluechanged",
+      "type": "pre",
+      "content": "- 바인딩 된 Dataset 오브젝트의 dataobjectbindmode 속성값이 \"twoway\", updatecontrol 속성값이 false일 때 특정 Row의 Column 값 변경 시 이벤트가 발생합니다."
+    }
+  ]
+}
