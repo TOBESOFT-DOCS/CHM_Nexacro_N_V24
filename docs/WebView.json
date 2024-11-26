@@ -46,12 +46,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.7400154341586624",
+      "id": "u_09_0.30445324130344076",
       "type": "command",
       "content": "WebView.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.6319521033840722",
+      "id": "u_10_0.45863324646803916",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>WebView 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>WebView 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebView 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>WebView 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebView 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>WebView 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>WebView 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>WebView 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebView 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>WebView 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>WebView 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>WebView 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>WebView 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>WebView 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new WebView();\n\nobjComp.init( \"WebView00\", 30, 120, 196, 46 );\nobjComp.init( \"WebView00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"WebView00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"WebView00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"WebView00\", \"WebView22:10\", 300, null, null, \"WebView33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "u_10_0.5268460013618095",
+      "id": "u_10_0.46299817049316927",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objWebView = new WebView();  \nobjWebView.init(\"WebView\", 30, 120, 196, 46, null, null);\nobjWebView.init(\"WebView\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objWebView = new WebView(\"WebView\", 30, 120, 196, 46, null, null);\nvar objWebView = new WebView(\"WebView\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"WebView\", objWebView); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"WebView\", objWebView); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"WebView\"); \n \n// Show Object  \nobjWebView.show(); \n \n// Destroy Object  \nobjWebView.destroy(); \nobjWebView = null;</div></td></tr></tbody></table>",
       "option": {
@@ -76,7 +76,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.6506205285572562",
+      "id": "u_10_0.08163596719090893",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -149,7 +149,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6236245112443531",
+      "id": "u_10_0.09589868422524439",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilityaction = \"Accessibility Action Message\"; \nthis.WebView00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -227,7 +227,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5601660850822539",
+      "id": "u_10_0.5383399144784289",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>WebView 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>WebView 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>WebView 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>WebView 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -305,7 +305,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5094390913372674",
+      "id": "u_10_0.6566168037912783",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -383,7 +383,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.47676362414741225",
+      "id": "u_10_0.627141057858429",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>WebView 컴포넌트에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>WebView 컴포넌트에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 WebView 컴포넌트에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 WebView 컴포넌트에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -400,7 +400,7 @@
     {
       "id": "p_12_accessibilityenable",
       "type": "pre",
-      "content": "- accessibilityenable 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다.\n\n- 선택상자 이동 시 컴포넌트의 ARIA-LABEL + Status + Role 순서로 정보가 조합되어 접근성으로 출력됩니다.\n   각 정보의 조합순서는 스크린 리더의 종류에 따라 달라질 수 있습니다.\n   &gt; ARIA-LABEL : Environment 의 accessibilitydescreadtype 속성에 설정된 속성값이 반영됩니다.\n   &gt; Status : WebView 컴포넌트의 현재 상태가 반영됩니다.\n   &gt; Role : accessibilityrole 속성값이 반영됩니다. accessibilityrole 속성값을 설정하지 않으면 WebView 컴포넌트의 고유 Role 이 반영됩니다.\n\n- 접근성 기능이 활성화 되어 있을때 WebView 컴포넌트 내부로 들어가기 위해서는 가상 커서의 활성/비활성화 작업이 필요합니다.\n\n- accessibilityenable 속성값이 false 일 때 데스크탑 환경에서 방향키 외의 방법으로 선택상자를 WebView 컴포넌트로 이동시키면 스크린 리딩 프로그램에서 임의의 값을 출력할 수 있습니다."
+      "content": "- accessibilityenable 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다.\n\n- 선택상자 이동 시 컴포넌트의 ARIA-LABEL + Status + Role 순서로 정보가 조합되어 접근성으로 출력됩니다.\n   각 정보의 조합순서는 스크린 리더의 종류에 따라 달라질 수 있습니다.\n   &gt; ARIA-LABEL : Environment 의 accessibilitydescreadtype 속성에 설정된 속성값이 반영됩니다.\n   &gt; Status : WebView 컴포넌트의 현재 상태가 반영됩니다.\n   &gt; Role : accessibilityrole 속성값이 반영됩니다. accessibilityrole 속성값을 설정하지 않으면 WebView 컴포넌트의 고유 Role 이 반영됩니다.\n\n- 접근성 기능이 활성화 되어 있을때 WebView 컴포넌트 내부로 들어가기 위해서는 가상 커서의 활성/비활성화 작업이 필요합니다.\n\n- accessibilityenable 속성값이 false 일 때 데스크탑 환경에서 방향키 외의 방법으로 선택상자를 WebView 컴포넌트로 이동시키면 스크린 리딩 프로그램에서 임의의 값을 출력할 수 있습니다.\n\n\n◆ 컨테이너 컴포넌트(Div, PopupDiv, TabpageControl, View) 선택상자 이동 제약\n\n아래와 같은 환경에서 컨테이너 컴포넌트로 선택상자가 이동하지 않고 컨테이너 컴포넌트 내에 배치된 컴포넌트로 이동합니다.\n- Android, iOS/iPadOS 운영체제에서 실행 시\n- Windows 운영체제에서 센스리더 가상커서 사용 시"
     },
     {
       "id": "p_01_accessibilitylabel",
@@ -461,7 +461,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8904677912377917",
+      "id": "u_10_0.9605392885123624",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilitylabel = \"OK Button\"; \nthis.WebView00.accessibilitylabel = \"[@static00]\"; \nthis.WebView00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.WebView00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -539,7 +539,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.196396893743067",
+      "id": "u_10_0.7200852444795206",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilityleavemessage = \"Leave Message\";</div></td></tr><tr><th>strMsg</th><td colspan=\"2\"><div>스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -617,7 +617,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.008557488163853266",
+      "id": "u_10_0.3242689653173547",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.accessibilityrole = \"none\"; \nthis.WebView00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\"은 특정 컨테이너 컴포넌트에 설정 시 accessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값의 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -695,7 +695,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.004740244573741781",
+      "id": "u_10_0.9369906834358751",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.bottom = 10; \nthis.WebView00.bottom = \"10px\"; \nthis.WebView00.bottom = \"10%\"; \nthis.WebView00.bottom = \"Button00:10px\"; \nthis.WebView00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 WebView의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebView의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 WebView의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebView의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -773,7 +773,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8354000460128863",
+      "id": "u_10_0.6816811701747244",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.cssclass = \"TestClass\"; \nthis.WebView00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -851,7 +851,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.014720545041758681",
+      "id": "u_10_0.9140079486119783",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.enable = true; \nthis.WebView00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>WebView 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>WebView 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -929,7 +929,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.05908349379773359",
+      "id": "u_10_0.9529195072282198",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -946,7 +946,7 @@
     {
       "id": "p_12_flexgrow",
       "type": "pre",
-      "content": "- flexgrow 속성값을 설정하지 않으면 undefined로 설정되고 0 값으로 동작합니다.\n  속성값이 0이면 크기를 재조정하지 않습니다.\n    \n- Layout 컨테이너 내 배치된 컴포넌트 중 flexgrow 속성값이 0보다 큰 값으로 설정된 컴포넌트를 대상으로 Main Axis의 여백을 설정한 비율만큼 나누어 크기에 적용합니다.\n\n- maxwidth, maxheight 속성값을 설정한 경우에는 해당 크기보다 크게 크기가 조정되지는 않습니다.\n\n\n◆ fittocontents 속성과 같이 사용하는 경우\n\n- 컴포넌트가 fittocontents 속성을 지원하는 경우 fittocontents 속성값을 \"none\"이 아닌 값으로 설정하고 flexgrow 속성값을 설정하면 flexgrow 속성값은 무시되고 fittocontents 속성만 적용됩니다."
+      "content": "- flexgrow 속성값을 설정하지 않으면 undefined로 설정되고 0 값으로 동작합니다.\n  속성값이 0이면 크기를 재조정하지 않습니다.\n    \n- Layout 컨테이너 내 배치된 컴포넌트 중 flexgrow 속성값이 0보다 큰 값으로 설정된 컴포넌트를 대상으로 Main Axis의 여백을 설정한 비율만큼 나누어 크기에 적용합니다.\n\n- maxwidth, maxheight 속성값을 설정한 경우에는 해당 크기보다 크게 크기가 조정되지는 않습니다.\n\n\n◆ fittocontents 속성과 같이 사용하는 경우\n\n아래와 같은 경우 컴포넌트의 flexgrow 속성값이 무시되고 fittocontents 속성만 적용됩니다.\n\n- Layout 오브젝트 또는 Panel 컴포넌트의 type 속성값이 \"horizontal\"이고\n  컴포넌트의 fittocontents 속성값이 \"width\" 또는 \"both\"일 때\n- Layout 오브젝트 또는 Panel 컴포넌트의 type 속성값이 \"vertical\"이고\n  컴포넌트의 fittocontents 속성값이 \"height\" 또는 \"both\"일 때"
     },
     {
       "id": "p_01_flexshrink",
@@ -1007,7 +1007,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33622672795988817",
+      "id": "u_10_0.16595940851954627",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1024,7 +1024,7 @@
     {
       "id": "p_12_flexshrink",
       "type": "pre",
-      "content": "- flexshrink 속성값을 설정하지 않으면 undefined로 설정되고 1 값으로 동작합니다.\n  속성값이 0이면 크기를 재조정하지 않습니다.\n    \n- Layout 컨테이너 내 배치된 컴포넌트 중 flexshrink 속성값이 0보다 큰 값으로 설정된 컴포넌트를 대상으로 Main Axis의 초과 영역을 설정한 비율만큼 나누어 크기에 적용합니다.\n\n- minwidth, minheight 속성값을 설정한 경우에는 해당 크기보다 작게 크기가 조정되지는 않습니다.\n\n\n◆ fittocontents 속성과 같이 사용하는 경우\n\n- 컴포넌트가 fittocontents 속성을 지원하는 경우 fittocontents 속성값을 \"none\"이 아닌 값으로 설정하고 flexshrink 속성값을 설정하면 flexshrink 속성값은 무시되고 fittocontents 속성만 적용됩니다."
+      "content": "- flexshrink 속성값을 설정하지 않으면 undefined로 설정되고 1 값으로 동작합니다.\n  속성값이 0이면 크기를 재조정하지 않습니다.\n    \n- Layout 컨테이너 내 배치된 컴포넌트 중 flexshrink 속성값이 0보다 큰 값으로 설정된 컴포넌트를 대상으로 Main Axis의 초과 영역을 설정한 비율만큼 나누어 크기에 적용합니다.\n\n- minwidth, minheight 속성값을 설정한 경우에는 해당 크기보다 작게 크기가 조정되지는 않습니다.\n\n\n◆ fittocontents 속성과 같이 사용하는 경우\n\n아래와 같은 경우 컴포넌트의 flexshrink 속성값이 무시되고 fittocontents 속성만 적용됩니다.\n\n- Layout 오브젝트 또는 Panel 컴포넌트의 type 속성값이 \"horizontal\"이고\n  컴포넌트의 fittocontents 속성값이 \"width\" 또는 \"both\"일 때\n- Layout 오브젝트 또는 Panel 컴포넌트의 type 속성값이 \"vertical\"이고\n  컴포넌트의 fittocontents 속성값이 \"height\" 또는 \"both\"일 때"
     },
     {
       "id": "p_01_height",
@@ -1085,7 +1085,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34232856266680134",
+      "id": "u_10_0.12520460594711968",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.height = 10; \nthis.WebView00.height = \"10px\"; \nthis.WebView00.height = 10%\"; \nthis.WebView00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": WebView의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebView의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 WebView의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebView의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1163,7 +1163,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.41415533728502885",
+      "id": "u_10_0.3273655900788952",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>WebView를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1241,7 +1241,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9629003041938009",
+      "id": "u_10_0.5473178205728564",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 WebView 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1319,7 +1319,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.017960618935232042",
+      "id": "u_10_0.34786116729646666",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1397,7 +1397,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9039616432715333",
+      "id": "u_10_0.3064857425585955",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.left = 10; \nthis.WebView00.left = \"10px\"; \nthis.WebView00.left = \"10%\"; \nthis.WebView00.left = \"Button00:10px\"; \nthis.WebView00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 WebView의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebView의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 WebView의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebView의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1475,7 +1475,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.012555103433044001",
+      "id": "u_10_0.000899937950353813",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.maxheight = 20; \nthis.WebView00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1553,7 +1553,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.019245372575268038",
+      "id": "u_10_0.8879675706900182",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.maxwidth = 20; \nthis.WebView00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1631,7 +1631,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6532155580662959",
+      "id": "u_10_0.9932074907661228",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.minheight = 20; \nthis.WebView00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1709,7 +1709,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4541987899280553",
+      "id": "u_10_0.6412128365173188",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.minwidth = 20; \nthis.WebView00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1787,7 +1787,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.745594356136866",
+      "id": "u_10_0.36188252923728514",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1865,7 +1865,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0118052311776069",
+      "id": "u_10_0.6811780576191505",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.WebView00.border = \"1px solid #999999\";\nthis.WebView00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1943,7 +1943,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4998797954251061",
+      "id": "u_10_0.39816897580007216",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.WebView00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2021,7 +2021,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.03254056289342344",
+      "id": "u_10_0.28622609677344824",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.positionstep = 0; \nthis.WebView00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>WebView 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 WebView 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2109,7 +2109,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.301517389993627",
+      "id": "u_10_0.019502111668568523",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.right = 10; \nthis.WebView00.right = \"10px\"; \nthis.WebView00.right = \"10%\"; \nthis.WebView00.right = \"Button00:10px\"; \nthis.WebView00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 WebView의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebView의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 WebView의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebView의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2187,7 +2187,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7245129842252219",
+      "id": "u_10_0.522543592308009",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2265,7 +2265,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9976661849534303",
+      "id": "u_10_0.8108696297887025",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2353,7 +2353,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.30051582848741765",
+      "id": "u_10_0.5149293752395404",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>WebView 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>WebView 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2431,7 +2431,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.666306696245061",
+      "id": "u_10_0.43062115523323663",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.top = 10; \nthis.WebView00.top = \"10px\"; \nthis.WebView00.top = \"10%\"; \nthis.WebView00.top = \"Button00:10px\"; \nthis.WebView00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 WebView의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebView의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 WebView의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebView의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2509,7 +2509,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.04016659449074034",
+      "id": "u_10_0.8166635148295988",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strUrl ::= &lt;Web-Url&gt; | &lt;Local-Url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.url = \"http://www.dummy.com\";\nthis.WebView00.url = \"about:blank\";\nthis.WebView00.url = \"file://C:\\\\Test.html\";</div></td></tr><tr><th>&lt;Web-Url&gt;</th><td colspan=\"2\"><div>웹에 위치한 웹페이지의 URL 을 \"http://경로/파일명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;Local-Url&gt;</th><td colspan=\"2\"><div>로컬에 위치한 파일의 경로를 \"file://절대경로\\\\파일명\" 형식으로 설정합니다.\n\nEnvironment 의 filesecurelevel 속성으로 접근이 허용된 경로에 로컬파일이 위치하여야 합니다.\nNexacro Runtime Environment에서만 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2587,7 +2587,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6619812966250139",
+      "id": "u_10_0.7784590195598935",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bHistory ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.userurlhistory = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>url 속성이 변경되면 History 기능이 적용되어 변경된 url 정보가 저장됩니다.\n\n\"뒤로가기\" 시도 시 HIstory  정보에 맞게 페이지가 변경됩니다. \n웹브라우저는 뒤로가기 버튼이 활성화됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>url 속성이 변경되면 History 기능이 적용되지 않아 url 정보가 저장되지 않습니다.\n\n\"뒤로가기\" 시도 시 페이지가 변경되지 않습니다.\n웹브라우저는 뒤로가기 버튼이 비활성화됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2665,7 +2665,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.03593487375861415",
+      "id": "u_10_0.7041045551500278",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.visible = true; \nthis.WebView00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>WebView 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>WebView 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2743,7 +2743,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5769105600633081",
+      "id": "u_10_0.936802337385838",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebView00.width = 10; this.WebView00.width = \"10px\"; \nthis.WebView00.width = \"10%\"; \nthis.WebView00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebView 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebView 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebView 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebView 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": WebView의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebView의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebView의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebView의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 WebView의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebView의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2811,7 +2811,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9761907249502629",
+      "id": "u_10_0.7046528738651333",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>WebView 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.WebView00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2826,7 +2826,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.37183869120437285",
+      "id": "u_10_0.767749376058262",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2889,7 +2889,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6334405964284932",
+      "id": "u_10_0.8737280336903755",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebView00.addEventHandler( \"onmove\", this.WebView00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -2904,7 +2904,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.04576444784943756",
+      "id": "u_10_0.10014356580923367",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2957,7 +2957,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4466806604637892",
+      "id": "u_10_0.5446166276037406",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebView00.addEventHandlerLookup( \"onmove\", \"WebView00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -2972,7 +2972,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9449828160511375",
+      "id": "u_10_0.5032588186093495",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3035,7 +3035,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.22371113685414756",
+      "id": "u_09_0.3239311485300329",
       "type": "command",
       "content": "this.WebView.bringToFront();"
     },
@@ -3093,7 +3093,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2626957206804642",
+      "id": "u_09_0.8675351413505812",
       "type": "command",
       "content": "this.WebView.bringToPrev();"
     },
@@ -3151,7 +3151,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3878274060784449",
+      "id": "u_10_0.17249197628121637",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strScript</td><td>String</td><td colspan=\"2\"><div>스크립트를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00.callScript(\"document.getElementById('fname').value\");\nthis.WebView00.callScript(\"getJsonData()\");</div></td></tr></tbody></table>",
       "option": {
@@ -3166,7 +3166,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8465847034198025",
+      "id": "u_10_0.35940555793902973",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>스크립트 실행 결과값을 문자열 형태로 반환합니다.\n\n실행 결과값이 오브젝트이면 JSON 형태로 파싱할 수 있는 문자열 형태로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3229,7 +3229,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7582384955532946",
+      "id": "u_10_0.943523164479349",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.WebView00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3244,7 +3244,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.924135580424726",
+      "id": "u_10_0.19717702868710818",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3307,7 +3307,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.596597053656657",
+      "id": "u_09_0.337194021555814",
       "type": "command",
       "content": "var bSucc = this.WebView00.destroy();"
     },
@@ -3317,7 +3317,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.0712512818449198",
+      "id": "u_10_0.07586946937645445",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>WebView 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nWebView 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3380,7 +3380,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.24544747130502187",
+      "id": "u_10_0.31809709386985163",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.WebView00.findEventHandler( \"onmove\", this.WebView00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -3395,7 +3395,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7482468985331054",
+      "id": "u_10_0.8567110045560458",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3458,7 +3458,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5910370046500932",
+      "id": "u_10_0.23539463529450966",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = WebView00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -3473,7 +3473,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.27041927546268696",
+      "id": "u_10_0.33439229175614893",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3526,7 +3526,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.601272794986792",
+      "id": "u_09_0.08574966449838228",
       "type": "command",
       "content": "var nBottom = this.WebView.getOffsetBottom();"
     },
@@ -3536,7 +3536,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.45224106253238383",
+      "id": "u_10_0.6725932372375264",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 WebView 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3599,7 +3599,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6201287152378597",
+      "id": "u_09_0.034786456988357695",
       "type": "command",
       "content": "var nHeight = this.WebView.getOffsetHeight();"
     },
@@ -3609,7 +3609,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6588514165421955",
+      "id": "u_10_0.15341075662517745",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3682,7 +3682,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2389751413523774",
+      "id": "u_09_0.29071458509493964",
       "type": "command",
       "content": "var nleft = this.WebView.getOffsetLeft();"
     },
@@ -3692,7 +3692,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6438196401664462",
+      "id": "u_10_0.3001046524117663",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 WebView 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3755,7 +3755,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5248442589971296",
+      "id": "u_09_0.9275774961071366",
       "type": "command",
       "content": "var nRight = this.WebView.getOffsetRight();"
     },
@@ -3765,7 +3765,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8494068566207551",
+      "id": "u_10_0.1869939273663782",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 WebView 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3828,7 +3828,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8878593371468364",
+      "id": "u_09_0.1869908143865212",
       "type": "command",
       "content": "var nTop = this.WebView.getOffsetTop();"
     },
@@ -3838,7 +3838,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.12237112083475188",
+      "id": "u_10_0.2464751134650709",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 WebView 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3901,7 +3901,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3468098632388661",
+      "id": "u_09_0.48113485891742636",
       "type": "command",
       "content": "var nWidth = this.WebView.getOffsetWidth();"
     },
@@ -3911,7 +3911,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8082934331484839",
+      "id": "u_10_0.3513029025707688",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3984,7 +3984,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.18350793654645792",
+      "id": "u_09_0.8994270858834447",
       "type": "command",
       "content": "var nbottom = this.WebView.getPixelBottom();"
     },
@@ -3994,7 +3994,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5206669713673824",
+      "id": "u_10_0.8961402150125781",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4057,7 +4057,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5342776380536122",
+      "id": "u_09_0.531465107651044",
       "type": "command",
       "content": "var nheight = this.WebView.getPixelHeight();"
     },
@@ -4067,7 +4067,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6891122676120802",
+      "id": "u_10_0.2441272993080016",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4130,7 +4130,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7872214106200875",
+      "id": "u_09_0.5482498979865095",
       "type": "command",
       "content": "var nleft = this.WebView.getPixelLeft();"
     },
@@ -4140,7 +4140,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9647544422256716",
+      "id": "u_10_0.9729968574307426",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4203,7 +4203,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7362496659879533",
+      "id": "u_09_0.7991193014691426",
       "type": "command",
       "content": "var nright = this.WebView.getPixelRight();"
     },
@@ -4213,7 +4213,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4020591834318529",
+      "id": "u_10_0.6686106952533939",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4276,7 +4276,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6420165649113297",
+      "id": "u_09_0.6835711115708918",
       "type": "command",
       "content": "var nTop = this.WebView.getOffsetTop();"
     },
@@ -4286,7 +4286,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30240282070190116",
+      "id": "u_10_0.4973163842281316",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 WebView 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4349,7 +4349,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.25277744751617914",
+      "id": "u_09_0.4266694105495654",
       "type": "command",
       "content": "var nwidth = this.WebView.getPixelWidth();"
     },
@@ -4359,7 +4359,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3961491972072252",
+      "id": "u_10_0.3538012923865984",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebView 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4518,7 +4518,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4594744339685708",
+      "id": "u_10_0.5063878558279006",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>WebView 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebView 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebView 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebView 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new WebView();\n\nobjComp.init( \"WebView00\", 30, 120, 196, 46 );\nobjComp.init( \"WebView00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"WebView00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"WebView00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"WebView00\", \"WebView22:10\", 300, null, null, \"WebView33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -4581,7 +4581,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4668364185898274",
+      "id": "u_10_0.704057253386549",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.WebView00.insertEventHandler( \"onmove\", 0, this.WebView00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4596,7 +4596,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9705276506872548",
+      "id": "u_10_0.9452229988072297",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4659,7 +4659,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7469325329433408",
+      "id": "u_10_0.5380938357046609",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebView 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebView 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebView 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00.move(10,10);\nthis.WebView00.move(10,10,100,100);\nthis.WebView00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -4722,7 +4722,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5876661662091517",
+      "id": "u_10_0.57490586063594",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.moveToNext( this.Button00 );\nthis.WebView.moveToNext( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4785,7 +4785,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6116733682794945",
+      "id": "u_10_0.06054367307396091",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.moveToPrev( this.Button00 );\nthis.WebView.moveToPrev( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4848,7 +4848,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.857831403250156",
+      "id": "u_09_0.005123960964254715",
       "type": "command",
       "content": "this.WebView00.reload();"
     },
@@ -4906,7 +4906,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.38004342128691715",
+      "id": "u_10_0.18016181030636214",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>WebView 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.WebView00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4921,7 +4921,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.49285748249989514",
+      "id": "u_10_0.15853368566845627",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4984,7 +4984,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7272481383894018",
+      "id": "u_10_0.3007716722960879",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebView00.removeEventHandler( \"onmove\", this.WebView00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4999,7 +4999,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.34063665627797346",
+      "id": "u_10_0.5784601732618138",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5062,7 +5062,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6737514051912877",
+      "id": "u_10_0.7139170946653581",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebView00.removeEventHandlerLookup( \"onmove\", \"WebView00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5077,7 +5077,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9047936907442532",
+      "id": "u_10_0.939842619523177",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5140,7 +5140,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13405251446388833",
+      "id": "u_10_0.9602418650197605",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebView 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>WebView 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebView 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebView 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -5203,7 +5203,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7438664029061368",
+      "id": "u_09_0.6368657921934172",
       "type": "command",
       "content": "this.WebView.sendToBack();"
     },
@@ -5261,7 +5261,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.803900445137598",
+      "id": "u_09_0.9233103289155923",
       "type": "command",
       "content": "this.WebView.sendToNext();"
     },
@@ -5319,7 +5319,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6550105522430724",
+      "id": "u_10_0.7372790606367204",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.WebView00.setEventHandler( \"onmove\", this.WebView00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5334,7 +5334,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3568845910480979",
+      "id": "u_10_0.1462269316328425",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5397,7 +5397,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7284722306208854",
+      "id": "u_10_0.04649908321916352",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView00_onmove = function( obj:nexacro.WebView,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebView00.setEventHandlerLookup( \"onmove\", \"WebView00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5412,7 +5412,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5181474549119194",
+      "id": "u_10_0.4811317944255621",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5475,7 +5475,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.29952397754426685",
+      "id": "u_10_0.7174473017273363",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 WebView 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5538,7 +5538,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4803472759276136",
+      "id": "u_10_0.803719616861294",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>WebView 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5601,7 +5601,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23815614570793198",
+      "id": "u_10_0.026717164399613358",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 WebView 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5664,7 +5664,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08660464096695364",
+      "id": "u_10_0.5175222938174636",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 WebView 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -5727,7 +5727,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.041454897579960015",
+      "id": "u_10_0.4010357976168907",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 WebView 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5790,7 +5790,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18373867655187803",
+      "id": "u_10_0.9508028507967553",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>WebView 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebView.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5853,7 +5853,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.005412347362347969",
+      "id": "u_09_0.9666993530088395",
       "type": "command",
       "content": "this.WebView00.show();"
     },
@@ -5917,7 +5917,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8369975227489033",
+      "id": "u_10_0.5943657101817076",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebView</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DeviceButtonEventInfo\" string=\"DeviceButtonEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -5932,7 +5932,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.34597113377108457",
+      "id": "u_10_0.4892813168149086",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\nfalse 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n반환값을 생략하면 false로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6006,7 +6006,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4924954827115361",
+      "id": "u_10_0.75306039030294",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebView</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#WebLoadCompEventInfo\" string=\"WebLoadCompEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6070,7 +6070,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.030055008216272938",
+      "id": "u_10_0.3958699203718543",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebView</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6124,7 +6124,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16888483339253013",
+      "id": "u_10_0.327618205728579",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebView</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6178,7 +6178,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6522149279189545",
+      "id": "u_10_0.2447672241093075",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebView</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#WebUserNotifyEventInfo\" string=\"WebUserNotifyEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
