@@ -94,7 +94,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7835143943781742",
+      "id": "u_10_0.8438697437578555",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>DataObject00.data = {\n                \"status\" : \"success\",\n                \"data\" : [\n                    {\n                        \"id\" : \"1\",\n                        \"employee_name\" : \"Tiger Nixon\",\n                        \"employee_salary\" : \"320800\",\n                        \"employee_age\" : \"61\",\n                        \"profile_image\" : \"\"\n                    }\n                ]\n            };</div></td></tr><tr><th>objData</th><td colspan=\"2\"><div>데이터를 문자열 또는 오브젝트 형태로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -182,7 +182,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.38499433297146113",
+      "id": "u_10_0.8215660061690296",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.enableevent = true;  \n\nthis.DataObject00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>DataObject 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>DataObject 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -260,7 +260,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7221565506149449",
+      "id": "u_10_0.5583670346780384",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>DataObject를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -338,7 +338,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3545738263412064",
+      "id": "u_10_0.737862436054439",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -416,7 +416,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07453245137762832",
+      "id": "u_10_0.5148844481676235",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.DataObject00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -494,7 +494,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6459655506787036",
+      "id": "u_10_0.16586266204005273",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bPreload ::= true | false</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.preload = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>화면이 로드되기 전에 url 속성값으로 설정한 서비스의 데이터를 먼저 로드합니다.  Form의 onload 이벤트가 발생하기 전에 데이터를 로드합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>데이터를 자동으로 로드하지 않습니다.  preload 속성값이 false 인 경우에는 load 메소드를 호출해야 데이터를 로드합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -572,7 +572,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.45727262072364494",
+      "id": "u_10_0.04093416570738062",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strUrl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.DataObject00.url = \"http://localhost:8080/Prj/BService/Serv00.jsp\";     // 절대경로 \nthis.DataObject00.url = \"../BService/Serv00.jsp\";                                     // 상대경로\nthis.DataObject00.url = \"Service1::Serv00.jsp\";                                         // TypeDefinition의 Services 경로</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>Business Service 가 제공되는 경로를 \"http://경로/서비스명\", \"https://경로/서비스명\" 형식의 절대경로로 설정합니다.\n\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>TypeDefinition 영역의 Services 에 정의된 Prefix를 사용한 형식으로 설정합니다.\n\n또는 현재 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -640,7 +640,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3571403075605344",
+      "id": "u_10_0.7201336043603941",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DataObject 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DataObject00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -655,7 +655,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5245908444644084",
+      "id": "u_10_0.8462251996570206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -718,7 +718,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9926567631645674",
+      "id": "u_10_0.1889212128513783",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.addEventHandler( \"onmove\", this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -733,7 +733,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7847328512727311",
+      "id": "u_10_0.9597317988542837",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -786,7 +786,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7282358363321999",
+      "id": "u_10_0.06320001507717254",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.addEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -801,7 +801,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.06620231604411897",
+      "id": "u_10_0.6243202930815603",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -902,7 +902,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4196367999610573",
+      "id": "u_10_0.8244040016248871",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.DataObject00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -917,7 +917,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9025259491692645",
+      "id": "u_10_0.9004005219436753",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -980,7 +980,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8970667764988908",
+      "id": "u_09_0.6426575548065637",
       "type": "command",
       "content": "var bSucc = this.DataObject00.destroy();"
     },
@@ -990,7 +990,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8928152356984852",
+      "id": "u_10_0.5945227109297941",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>DataObject 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nDataObject 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1053,7 +1053,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7358172943080649",
+      "id": "u_10_0.5429030282948233",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.DataObject00.findEventHandler( \"onmove\", this.DataObject00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -1068,7 +1068,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8297538600002826",
+      "id": "u_10_0.010069727018561347",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1131,7 +1131,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.958282999283447",
+      "id": "u_10_0.9639430109389935",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>header, value 쌍으로 구성된 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1194,7 +1194,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8801699493827657",
+      "id": "u_10_0.26857254289305077",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>Infoarray 형식의 배열을 반환합니다.\nInfoarray 각 속성은 아래 표를 참고하세요.</div></td></tr></tbody></table>",
       "option": {
@@ -1257,7 +1257,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8816108706395144",
+      "id": "u_10_0.02894652492835481",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = DataObject00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -1272,7 +1272,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7955444188445554",
+      "id": "u_10_0.750164554742581",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1325,7 +1325,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.049247739089881226",
+      "id": "u_10_0.36312513200685126",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strJsonpath</td><td>String</td><td colspan=\"2\"><div>jsonpath 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.getObjectByPath(\"$.data[*]\");</div></td></tr></tbody></table>",
       "option": {
@@ -1340,7 +1340,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.584832660340746",
+      "id": "u_10_0.5294095513866571",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>필터링된 데이터 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1403,7 +1403,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.270377540556863",
+      "id": "u_10_0.8369066742835419",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>데이터 통신 후 서버에서 받은 데이터값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1466,7 +1466,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7081758390677487",
+      "id": "u_10_0.785798791426955",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strHeaderName</td><td>String</td><td colspan=\"2\"><div>반환 받을 header 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1481,7 +1481,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9072755911783268",
+      "id": "u_10_0.4038003627211256",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>파라미터로 설정한 header 이름에 해당하는 값을 반환합니다.\n대소문자 구분 없이 설정한 header 이름과 일치하는 값을 반환합니다.\n일치하는 header 정보가 없는 경우에는 null을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1544,7 +1544,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7242916550633256",
+      "id": "u_10_0.980862463953863",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.DataObject00.insertEventHandler( \"onmove\", 0, this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1559,7 +1559,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.09762240424339019",
+      "id": "u_10_0.2266857922172939",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1622,7 +1622,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8088784780910266",
+      "id": "u_10_0.3530127353050262",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bAsync</td><td>Boolean</td><td colspan=\"2\"><div>비동기 처리 여부를 설정합니다.\n기본값은 true이며 비동기 방식으로 동작합니다. 데이터 로드 완료와 관계없이 스크립트가 수행됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.load(); \nthis.DataObject00.load(false);</div></td></tr></tbody></table>",
       "option": {
@@ -1685,7 +1685,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06572327988063598",
+      "id": "u_10_0.6274407277189323",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>uid</td><td>String</td><td colspan=\"2\"><div>삭제할 변경 정보의 uid를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00.removeChangedInfo(\"update_25017468\");</div></td></tr></tbody></table>",
       "option": {
@@ -1748,7 +1748,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.501647383134075",
+      "id": "u_10_0.9515896650932131",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DataObject 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DataObject00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1763,7 +1763,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.37309749550290183",
+      "id": "u_10_0.3885264459089911",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1826,7 +1826,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.005433997317030648",
+      "id": "u_10_0.1861537256592667",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.removeEventHandler( \"onmove\", this.DataObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1841,7 +1841,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5059500415255478",
+      "id": "u_10_0.5199991498163907",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1904,7 +1904,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9067520911448964",
+      "id": "u_10_0.8237241656211247",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.removeEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1919,7 +1919,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5277342970231546",
+      "id": "u_10_0.33072755324040937",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1982,7 +1982,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8386897852361653",
+      "id": "u_10_0.5153280651404842",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strServiceid</td><td>String</td><td colspan=\"2\"><div>서비스 ID 값을 설정합니다.</div></td></tr><tr><td>strMethod</td><td>String</td><td colspan=\"2\"><div>요청 시 처리할 메소드를 설정합니다.\n아래 메소드를 지정할 수 있습니다.\nGET, POST, PUT, DELETE, HEAD, PATCH</div></td></tr><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>JSON 데이터를 호출할 URL을 설정합니다.</div></td></tr><tr><td>objParam</td><td>Object</td><td colspan=\"2\"><div>header, postdata, async 정보를 저장한 JSON 오브젝트를 설정합니다.\nJSON 오브젝트는 아래와 같은 형식으로 처리할 수 있습니다.\nvar json_param = {\n    \"httpheader\" : header,\n    \"postdata\" : \"test\",\n    \"async\" : true\n}\nasync 정보를 설정하지 않으면 true로 처리합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var header = {\"Content-Type\" : \"application/x-www-form-urlencoded\"};\nvar json_param = {\n    \"httpheader\" : header,\n    \"postdata\" : \"test\",\n    \"async\" : true\n}\nthis.DataObject00.request(\"no2\", \"GET\", \"http://localhost:8080/api/employees\", json_param);</div></td></tr></tbody></table>",
       "option": {
@@ -2055,7 +2055,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1364128484742969",
+      "id": "u_10_0.10917293697316532",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>funcReplacer</td><td>Object</td><td colspan=\"2\"><div>key, value 값을 매개변수로 받는 함수로 반환값에 따라 문자열 결과에 포함할 속성을 설정합니다.</div></td></tr><tr><td>arrReplacer</td><td>Array</td><td colspan=\"2\"><div>문자열 결과에 포함할 속성 이름을 배열로 설정합니다.</div></td></tr><tr><td>strSpace</td><td>String</td><td colspan=\"2\"><div>문자열 출력 시 공백을 대체할 문자열을 설정합니다.\n문자열의 길이가 10보다 큰 경우에는 10번째 문자까지만 사용합니다.</div></td></tr><tr><td>nSpace</td><td>Number</td><td colspan=\"2\"><div>문자열 출력 시 사용할 공백문자의 숫자를 설정합니다.\n10보다 큰 경우에는 10으로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.funcReplacer = function(key, value)  {\n    if(typeof value == \"string\") {\n        return undefined;\n    }\n    return value;\n}\nthis.DataObject00.serializeToString(funcReplacer); \nthis.DataObject00.serializeToString(['employee_name','id']);\nthis.DataObject00.serializeToString(null, '##');\nthis.DataObject00.serializeToString(null, 2);</div></td></tr></tbody></table>",
       "option": {
@@ -2070,7 +2070,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.041801023444268615",
+      "id": "u_10_0.11158715837074773",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>데이터를 변환한 문자열</div></td></tr></tbody></table>",
       "option": {
@@ -2088,84 +2088,6 @@
       "id": "m_10_serializeToString",
       "type": "pre",
       "content": "- 전달인자 값에 대한 세부 동작은 아래 링크 정보를 참고하세요.\n프레임워크 내에서 JSON.stringify 메소드의 value 파라미터를 제외한 두 번째, 세 번째 파라미터로 전달되어 처리합니다.\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
-    },
-    {
-      "id": "m_01setEventHadlerLookup",
-      "type": "heading2",
-      "content": "setEventHadlerLookup",
-      "option": {
-        "alias": "DataObject_setEventHadlerLookup"
-      }
-    },
-    {
-      "id": "m_02_setEventHadlerLookup",
-      "type": "pre",
-      "content": "DataObject 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
-    },
-    {
-      "id": "m_03_setEventHadlerLookup",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "m_04_setEventHadlerLookup",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
-      }
-    },
-    {
-      "id": "m_05_setEventHadlerLookup",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "m_06_setEventHadlerLookup",
-      "type": "command",
-      "content": "DataObject.setEventHandlerLookup( strEventID, strFunc, objTarget )"
-    },
-    {
-      "id": "m_07_setEventHadlerLookup",
-      "type": "headline",
-      "content": "파라미터"
-    },
-    {
-      "id": "u_10_0.5108653325437182",
-      "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.setEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
-      "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
-      }
-    },
-    {
-      "id": "m_08_setEventHadlerLookup",
-      "type": "headline",
-      "content": "반환"
-    },
-    {
-      "id": "u_10_0.5875088323238558",
-      "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
-      "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
-      }
-    },
-    {
-      "id": "m_09_setEventHadlerLookup",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "m_10_setEventHadlerLookup",
-      "type": "pre",
-      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
     },
     {
       "id": "m_01setEventHandler",
@@ -2211,7 +2133,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4039748925079182",
+      "id": "u_10_0.5546160810278076",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.DataObject00.setEventHandler( \"onmove\", this.DataObject00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -2226,7 +2148,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6557097106782009",
+      "id": "u_10_0.6584129250394596",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2244,6 +2166,84 @@
       "id": "m_10_setEventHandler",
       "type": "pre",
       "content": "- 인덱스가 0 번인 핸들러 함수를 새로운 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 새로운 함수를 핸들러 함수로 추가합니다."
+    },
+    {
+      "id": "m_01setEventHandlerLookup",
+      "type": "heading2",
+      "content": "setEventHandlerLookup",
+      "option": {
+        "alias": "DataObject_setEventHandlerLookup"
+      }
+    },
+    {
+      "id": "m_02_setEventHandlerLookup",
+      "type": "pre",
+      "content": "DataObject 의 특정 이벤트에서 첫번째 핸들러 함수를 검색된 함수로 변경하는 메소드입니다."
+    },
+    {
+      "id": "m_03_setEventHandlerLookup",
+      "type": "headline",
+      "content": "지원 환경"
+    },
+    {
+      "id": "m_04_setEventHandlerLookup",
+      "type": "table",
+      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "110,110,110,110,110,110,110"
+      }
+    },
+    {
+      "id": "m_05_setEventHandlerLookup",
+      "type": "headline",
+      "content": "문법"
+    },
+    {
+      "id": "m_06_setEventHandlerLookup",
+      "type": "command",
+      "content": "DataObject.setEventHandlerLookup( strEventID, strFunc, objTarget )"
+    },
+    {
+      "id": "m_07_setEventHandlerLookup",
+      "type": "headline",
+      "content": "파라미터"
+    },
+    {
+      "id": "u_10_0.7936510127766788",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DataObject00_onmove = function( obj:nexacro.DataObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DataObject00.setEventHandlerLookup( \"onmove\", \"DataObject00_onmove\", this);</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,120,?"
+      }
+    },
+    {
+      "id": "m_08_setEventHandlerLookup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.17535022828855662",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
+      "option": {
+        "table_layout": "user",
+        "codeLanguage": "Javascript",
+        "table_layout_setting": "180,?"
+      }
+    },
+    {
+      "id": "m_09_setEventHandlerLookup",
+      "type": "headline",
+      "content": "참고"
+    },
+    {
+      "id": "m_10_setEventHandlerLookup",
+      "type": "pre",
+      "content": "- 인덱스가 0 번인 핸들러 함수를 검색된 함수로 대체합니다.\n\n- 인덱스가 0 번인 핸들러 함수가 없다면 0 번 인덱스에 검색된 함수를 핸들러 함수로 추가합니다."
     },
     {
       "id": "u_18",
@@ -2295,7 +2295,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07350961326209415",
+      "id": "u_10_0.610483461786746",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectDataChangedEventInfo\" string=\"DataObjectDataChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2369,7 +2369,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9769315845727262",
+      "id": "u_10_0.29169304664066875",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectErrorEventInfo\" string=\"DataObjectErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2384,7 +2384,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.35927151781172306",
+      "id": "u_10_0.514601043230736",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 값을 반환하면 \n&gt; load, request 메서드 실행 상태를 유지합니다. \n\nfalse 값을 반환하면 \n&gt; load, request 메서드 실행을 중지합니다. \n\n반환값을 따로 지정하지 않으면 false 값으로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2448,7 +2448,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18707956386033375",
+      "id": "u_10_0.18143672738323424",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectLoadEventInfo\" string=\"DataObjectLoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2512,7 +2512,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09065293075986103",
+      "id": "u_10_0.7141355115279622",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectLoadDatasetsEventInfo\" string=\"DataObjectLoadDatasetsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2576,7 +2576,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.40613077708523915",
+      "id": "u_10_0.5488043422912432",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectEventInfo\" string=\"DataObjectEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2650,7 +2650,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.33475835053926384",
+      "id": "u_10_0.679731163287726",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DataObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DataObjectValueChangedEventInfo\" string=\"DataObjectValueChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
