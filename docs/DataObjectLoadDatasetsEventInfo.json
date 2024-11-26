@@ -89,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.28256131585937005",
+      "id": "u_10_0.31357464608581853",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -167,7 +167,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.822283446094476",
+      "id": "u_10_0.972392479232462",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -245,7 +245,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7955389447680231",
+      "id": "u_10_0.24761011154770374",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -328,9 +328,9 @@
       "content": "이벤트의 발생원인을 알려줍니다."
     },
     {
-      "id": "u_10_0.14521887492052332",
+      "id": "u_10_0.02726173801595122",
       "type": "table",
-      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Reason</th>\t\t<th>Value</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t<tbody><tr>\t\t<td><div>DataObject.REASON_LOAD</div></td>\t\t<td><div>0</div></td>\t\t<td><div>DataObject 오브젝트의 url 속성값으로 설정한 서비스에서 데이터 로드를 완료했을 때 발생하는 값입니다.</div></td>\t</tr><tr>\t\t<td><div>DataObject.REASON_LOADCONTENT</div></td>\t\t<td><div>1</div></td>\t\t<td><div>DataObject 오브젝트의 data 속성값 설정 시 발생하는 값입니다.\n넥사크로 스튜디오에서 직접 설정한 data 속성값은 Form 오브젝트의 onload 이벤트보다 먼저 처리됩니다.</div></td>\t</tr><tr>\t\t<td><div>DataObject.REASON_REQUEST</div></td>\t\t<td><div>2</div></td>\t\t<td><div>DataObject 오브젝트의 request 메소드 호출 후 데이터 로드가 완료됐을때 발생하는 값입니다. onsuccess 이벤트 발생 후 onload 이벤트가 발생합니다.</div></td>\t</tr></tbody></table>",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Constant</th>\t\t<th>Value</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t<tbody><tr>\t\t<td><div>DataObject.REASON_LOAD</div></td>\t\t<td><div>0</div></td>\t\t<td><div>DataObject 오브젝트의 url 속성값으로 설정한 서비스에서 데이터 로드를 완료했을 때 발생하는 값입니다.</div></td>\t</tr><tr>\t\t<td><div>DataObject.REASON_LOADCONTENT</div></td>\t\t<td><div>1</div></td>\t\t<td><div>DataObject 오브젝트의 data 속성값 설정 시 발생하는 값입니다.\n넥사크로 스튜디오에서 직접 설정한 data 속성값은 Form 오브젝트의 onload 이벤트보다 먼저 처리됩니다.</div></td>\t</tr><tr>\t\t<td><div>DataObject.REASON_REQUEST</div></td>\t\t<td><div>2</div></td>\t\t<td><div>DataObject 오브젝트의 request 메소드 호출 후 데이터 로드가 완료됐을때 발생하는 값입니다. onsuccess 이벤트 발생 후 onload 이벤트가 발생합니다.</div></td>\t</tr></tbody></table>",
       "option": {
         "table_layout": "auto",
         "codeLanguage": "Javascript",
