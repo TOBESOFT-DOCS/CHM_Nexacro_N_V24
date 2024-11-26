@@ -94,7 +94,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6270376166039592",
+      "id": "u_10_0.4447513787821714",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCnt = e.count;</div></td></tr></tbody></table>",
       "option": {
@@ -172,7 +172,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7525214873568911",
+      "id": "u_10_0.5388852987273951",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -250,7 +250,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.41277436376652676",
+      "id": "u_10_0.275141742126929",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -328,7 +328,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6321628418116638",
+      "id": "u_10_0.02793594122606613",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -406,7 +406,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3899768819735957",
+      "id": "u_10_0.5752065841854835",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nReason = e.reason;</div></td></tr></tbody></table>",
       "option": {
@@ -426,9 +426,9 @@
       "content": "- onrowsetchanged 이벤트의 발생원인을 알려줍니다."
     },
     {
-      "id": "u_10_0.876568596628915",
+      "id": "u_10_0.8345653096679408",
       "type": "table",
-      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Reason</th>\t\t<th>Value</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td><div>Dataset.REASON_ASSIGN</div></td>\t\t<td><div>10</div></td>\t\t<td><div>Dataset이 Assign 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_COPY</div></td>\t\t<td><div>11</div></td>\t\t<td><div>Dataset이 복사되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_APPEND</div></td>\t\t<td><div>12</div></td>\t\t<td><div>Dataset이 추가되었 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_MERGE</div></td>\t\t<td><div>13</div></td>\t\t<td><div>Dataset이 통합되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_DELETE</div></td>\t\t<td><div>20</div></td>\t\t<td><div>Dataset의 Row가 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_DELETEALL</div></td>\t\t<td><div>22</div></td>\t\t<td><div>Dataset의 모든 Row가 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CLEARDATA</div></td>\t\t<td><div>23</div></td>\t\t<td><div>Dataset의 모든 Row가 완전 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CLEAR</div></td>\t\t<td><div>24</div></td>\t\t<td><div>Dataset의 모든 Column 및 Row가 완전히 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_SORTGROUP</div></td>\t\t<td><div>30</div></td>\t\t<td><div>Dataset의 데이터가 정렬 또는 그룹화 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_FILTER</div></td>\t\t<td><div>31</div></td>\t\t<td><div>Dataset의 데이터가 Filter 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_MOVE</div></td>\t\t<td><div>32</div></td>\t\t<td><div>Dataset의 Row가 다른 위치로 이동되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_EXCHANGE</div></td>\t\t<td><div>33</div></td>\t\t<td><div>Dataset의 두 Row가 서로 위치가 바뀌었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGELAYOUT</div></td>\t\t<td><div>34</div></td>\t\t<td><div>Dataset의 Column 정보가 변경되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGESTATUS</div></td>\t\t<td><div>40</div></td>\t\t<td><div>Dataset의 Row 상태(Type, Select)이 변경되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_ENABLEEVENT</div></td>\t\t<td><div>41</div></td>\t\t<td><div>Dataset의 enableevent 속성이 'true'가 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_RESETSTATUS</div></td>\t\t<td><div>42</div></td>\t\t<td><div>TR이나 applyChange로 인한 RowType변경완료 후</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGEDATAOBJECT</div></td>\t\t<td><div>43</div></td>\t\t<td><div>바인딩된 DataObject 오브젝트의 데이터가 변경됐을 때</div></td>\t</tr></tbody></table>",
+      "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Constant</th>\t\t<th>Value</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td><div>Dataset.REASON_ASSIGN</div></td>\t\t<td><div>10</div></td>\t\t<td><div>Dataset이 Assign 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_COPY</div></td>\t\t<td><div>11</div></td>\t\t<td><div>Dataset이 복사되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_APPEND</div></td>\t\t<td><div>12</div></td>\t\t<td><div>Dataset이 추가되었 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_MERGE</div></td>\t\t<td><div>13</div></td>\t\t<td><div>Dataset이 통합되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_DELETE</div></td>\t\t<td><div>20</div></td>\t\t<td><div>Dataset의 Row가 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_DELETEALL</div></td>\t\t<td><div>22</div></td>\t\t<td><div>Dataset의 모든 Row가 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CLEARDATA</div></td>\t\t<td><div>23</div></td>\t\t<td><div>Dataset의 모든 Row가 완전 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CLEAR</div></td>\t\t<td><div>24</div></td>\t\t<td><div>Dataset의 모든 Column 및 Row가 완전히 삭제되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_SORTGROUP</div></td>\t\t<td><div>30</div></td>\t\t<td><div>Dataset의 데이터가 정렬 또는 그룹화 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_FILTER</div></td>\t\t<td><div>31</div></td>\t\t<td><div>Dataset의 데이터가 Filter 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_MOVE</div></td>\t\t<td><div>32</div></td>\t\t<td><div>Dataset의 Row가 다른 위치로 이동되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_EXCHANGE</div></td>\t\t<td><div>33</div></td>\t\t<td><div>Dataset의 두 Row가 서로 위치가 바뀌었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGELAYOUT</div></td>\t\t<td><div>34</div></td>\t\t<td><div>Dataset의 Column 정보가 변경되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGESTATUS</div></td>\t\t<td><div>40</div></td>\t\t<td><div>Dataset의 Row 상태(Type, Select)이 변경되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_ENABLEEVENT</div></td>\t\t<td><div>41</div></td>\t\t<td><div>Dataset의 enableevent 속성이 'true'가 되었을 때</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_RESETSTATUS</div></td>\t\t<td><div>42</div></td>\t\t<td><div>TR이나 applyChange로 인한 RowType변경완료 후</div></td>\t</tr><tr>\t\t<td><div>Dataset.REASON_CHANGEDATAOBJECT</div></td>\t\t<td><div>43</div></td>\t\t<td><div>바인딩된 DataObject 오브젝트의 데이터가 변경됐을 때</div></td>\t</tr></tbody></table>",
       "option": {
         "table_layout": "auto",
         "codeLanguage": "Javascript",
@@ -494,7 +494,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6013710290204743",
+      "id": "u_10_0.9077304354559674",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nRow = e.row;</div></td></tr></tbody></table>",
       "option": {
