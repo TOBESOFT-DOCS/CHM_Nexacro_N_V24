@@ -36,12 +36,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.38653684237790986",
+      "id": "u_09_0.5537134651507202",
       "type": "command",
       "content": "new ColumnInfo( [name, type, size] );"
     },
     {
-      "id": "u_10_0.3818232704752561",
+      "id": "u_10_0.23601297381729103",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object\nvar colinfo = new ColumnInfo( \"column00\", \"string\", 120 );\n\n// add new column information to Dataset 'Dataset00'\nthis.Dataset00.addColumnInfo( \"ColId00\", colinfo );</div></td></tr></tbody></table>",
       "option": {
@@ -114,7 +114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32248640975695697",
+      "id": "u_10_0.47466493372658924",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>Dataset00.getColumnInfo(0).datapath = \"@.id\";</div></td></tr><tr><th>strDatapath</th><td colspan=\"2\"><div>데이터에서 컬럼 값으로 가져올 datapath를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -255,7 +255,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.12452404032888265",
+      "id": "u_10_0.2263007477013611",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"NONE\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼의 타입이 문자일 경우 값을 표시하지 않습니다.\n논리적 레코드(Logical Record) 의 해당 컬럼의 타입이 숫자일 경우 그룹의 합계값을 표시합니다.\n논리적 레코드(Logical Record) 의 해당 컬럼의 타입이 날짜일 경우 \"0000-01-01\"을 표시합니다.</div></td></tr><tr><th>\"AVG\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 그룹의 평균값을 표시합니다.</div></td></tr><tr><th>\"COUNT\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 그룹의 Row 갯수를 표시합니다.</div></td></tr><tr><th>\"MAX\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 그룹의 최대값을 표시합니다.</div></td></tr><tr><th>\"MIN\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 그룹의 최소값을 표시합니다.</div></td></tr><tr><th>\"SUM\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 그룹의 합계값을 표시합니다.</div></td></tr><tr><th>\"TEXT\"</th><td colspan=\"2\"><div>논리적 레코드(Logical Record) 의 해당 컬럼에 sumtext 속성값을 표시합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -333,7 +333,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5611586631970924",
+      "id": "u_10_0.04005526494086875",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nColSize</th><td colspan=\"2\"><div>Column 에 저장할 수 있는 데이터의 최대길이를 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -401,7 +401,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.24502948571780503",
+      "id": "u_10_0.06711537792043243",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strSumtext</th><td colspan=\"2\"><div>Grid 에 표시되는 Row 가 논리적 레코드일 때 해당 컬럼에 표시되는 값을 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -479,9 +479,9 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6058597794959552",
+      "id": "u_10_0.7112137045227263",
       "type": "table",
-      "content": "<table><caption></caption><tbody><tr><th>\"STRING\"</th><td colspan=\"2\"><div>Primitive Type, 문자열</div></td></tr><tr><th>\"INT\"</th><td colspan=\"2\"><div>Primitive Type, 정수형</div></td></tr><tr><th>\"FLOAT\"</th><td colspan=\"2\"><div>Primitive Type, 실수형</div></td></tr><tr><th>\"BIGDECIMAL\"</th><td colspan=\"2\"><div>Object Type(nexacro.Decimal), 실수형 (24자리로 표현)</div></td></tr><tr><th>\"DATE\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date), 날짜 : YYYYMMDD (0000/01/01 ~ 9999/12/31)</div></td></tr><tr><th>\"TIME\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date), 시간 : HHmmssuuu (msec 포함가능)</div></td></tr><tr><th>\"DATETIME\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date), 일시 : YYYYMMDDHHmmssuuu (msec 포함가능)</div></td></tr><tr><th>\"BLOB\"</th><td colspan=\"2\"><div>바이너리 데이터, 대용량 데이터\n\n* NRE 만 지원합니다.\n* 넥사크로 X-API 사용 시 BLOB 타입 Column에 이미지 데이터를 설정하는 경우 Data URI 형태는 지원하지 않으며 Base64 인코딩 데이터만 설정할 수 있습니다.\n (X) data:image/png;base64,iVBORw0~...\n (O) iVBORw0~....</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><tbody><tr><th>\"STRING\"</th><td colspan=\"2\"><div>Primitive Type, 문자열</div></td></tr><tr><th>\"INT\"</th><td colspan=\"2\"><div>Primitive Type, 정수형</div></td></tr><tr><th>\"FLOAT\"</th><td colspan=\"2\"><div>Primitive Type, 실수형</div></td></tr><tr><th>\"BIGDECIMAL\"</th><td colspan=\"2\"><div>Object Type(nexacro.Decimal)\n실수형 (십진수 기준으로 최대 31자리 표현 가능하며, 정수부는 최대 24자리, 소수부는 최대 15자리까지 지원)\n자세한 내용은 Script &gt; Nexacro Objects &gt; Decimal 설명을 참고하세요.</div></td></tr><tr><th>\"DATE\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date)\n날짜 : YYYYMMDD (0000/01/01 ~ 9999/12/31)</div></td></tr><tr><th>\"TIME\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date)\n시간 : HHmmssuuu (msec 포함가능)</div></td></tr><tr><th>\"DATETIME\"</th><td colspan=\"2\"><div>Object Type(nexacro.Date)\n일시 : YYYYMMDDHHmmssuuu (msec 포함가능)</div></td></tr><tr><th>\"BLOB\"</th><td colspan=\"2\"><div>바이너리 데이터, 대용량 데이터\n\n* NRE 만 지원합니다.\n* 넥사크로 X-API 사용 시 BLOB 타입 Column에 이미지 데이터를 설정하는 경우 Data URI 형태는 지원하지 않으며 Base64 인코딩 데이터만 설정할 수 있습니다.\n (X) data:image/png;base64,iVBORw0~...\n (O) iVBORw0~....</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
