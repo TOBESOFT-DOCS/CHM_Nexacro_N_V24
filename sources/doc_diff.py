@@ -62,19 +62,29 @@ def compare_json_folders(folder1, folder2):
 
 # 결과 출력
 def print_results(added_files, changed_files):
+    # Added files 출력 및 저장
     if added_files:
         print("Added files:")
-        for file in added_files:
-            print(f"  {file}")
+        with open("added_files.txt", "w") as added_file:
+            for file in added_files:
+                print(f"  {file}")
+                added_file.write(f"{file}\n")
     else:
         print("No added files.")
+        with open("added_files.txt", "w") as added_file:
+            added_file.write("No added files.\n")
 
+    # Changed files 출력 및 저장
     if changed_files:
         print("Changed files:")
-        for file in changed_files:
-            print(f"  {file}")
+        with open("changed_files.txt", "w") as changed_file:
+            for file in changed_files:
+                print(f"  {file}")
+                changed_file.write(f"{file}\n")
     else:
         print("No changed files.")
+        with open("changed_files.txt", "w") as changed_file:
+            changed_file.write("No changed files.\n")
 
 # GitHub에 파일 업로드
 def upload_to_github(repo, path, filepath, message, github_token):
