@@ -26,11 +26,6 @@
       }
     },
     {
-      "id": "u_05",
-      "type": "pre",
-      "content": "- LiteDB 의 세부적인 기능은 http://www.sqlite.org/ 내용을 참고하시기 바랍니다."
-    },
-    {
       "id": "u_16",
       "type": "heading1",
       "content": "속성"
@@ -94,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7482632552187729",
+      "id": "u_10_0.43095014531110865",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -172,7 +167,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.21350635520945216",
+      "id": "u_10_0.41760289347370083",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>1</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 begin() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>2</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 close() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>3</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 commit() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>4</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 isConnected() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>5</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 open() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>6</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 rollback() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>7</th><td colspan=\"2\"><div>LiteDBStatement 오브젝트의 executeQuery() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>8</th><td colspan=\"2\"><div>LiteDBStatement 오브젝트의 executeUpdate() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>9</th><td colspan=\"2\"><div>LiteDBStatement 오브젝트의 close() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
