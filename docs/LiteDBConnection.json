@@ -8,7 +8,7 @@
     {
       "id": "u_02",
       "type": "pre",
-      "content": "모바일 기기에서 지원되는 데이터베이스의 연결 정보를 보여줍니다."
+      "content": "데이터베이스 연결 정보를 관리하고 제어하는 오브젝트입니다."
     },
     {
       "id": "u_03",
@@ -24,6 +24,11 @@
         "codeLanguage": "Javascript",
         "table_layout_setting": "110,110,110,110,110,110,110"
       }
+    },
+    {
+      "id": "u_05",
+      "type": "pre",
+      "content": "- LiteDBConnection 오브젝트는 SQLite 데이터베이스만 지원합니다.\n  SQLite 데이터베이스에 대한 세부적인 기능은 https://www.sqlite.org/ 를 참고하세요."
     },
     {
       "id": "u_16",
@@ -79,7 +84,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6937181925001703",
+      "id": "u_10_0.5497038011173331",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bAsync ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.async = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>LiteDBConnection 에 요청된 작업이 비동기(Async) 로 동작됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>LiteDBConnection 에 요청된 작업이 동기(Sync) 로 동작됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -157,7 +162,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5824349278671439",
+      "id": "u_10_0.7303532642686484",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.busytimeout = 1000;</div></td></tr><tr><th>nSec</th><td colspan=\"2\"><div>응답을 받기위한 최대시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -225,7 +230,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8074386052140426",
+      "id": "u_10_0.8330586331476256",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.datasource = \"%USERAPP%filename\";</div></td></tr><tr><th>strPath</th><td colspan=\"2\"><div>연결할 데이터베이스의 위치정보를 문자열로 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -245,7 +250,7 @@
       "content": "- strPath 에 사용할 수 있는 Alias 실제경로입니다.\n\n\n\n  * %USERAPP% : 애플리케이션에서 할당받은 공간, 다른 애플리케이션 접근불가\n  * %SD_CARD% : 모바일 기기의 외부 저장소 공간, 다른 애플리케이션 접근가능"
     },
     {
-      "id": "u_10_0.18863897931021167",
+      "id": "u_10_0.5893941283916051",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Alias</th>\t\t<th>OS</th>\t\t<th>Path</th>\t\t<th>Remark</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td rowspan=\"4\"><div>%USERAPP%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Library/TOBESOFT/Nexacro N/24</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>Android</div></td>\t\t<td><div>/data/data/[PackageName]/files/NEXACRO/\n* Key를 설정한 경우에는 아래와 같이 적용\n/data/data/[PackageName]/files/[Key]</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>iOS</div></td>\t\t<td><div>[AppRoot]/Library/Application Support/NEXACRO/</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%USERAPPLOCAL%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\Local</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Library/Application Support</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%MYDOCUMENT%\n%DOCUMENT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>\"내 문서\" 로 설정한 위치</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>/Users/[UserName]/Documents</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%SD_CARD%</div></td>\t\t<td><div>Android</div></td>\t\t<td><div>/storage/emulated/0/Android/data/[PackageName]/files/</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%INSTALLROOT%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>Packing 시 Update Type이 \"Update(Local+Server)\" 또는 \"Local\"인 경우\n%USERAPP%\\projects\\[Key]\\[BootStrapURL]\nPacking 시 Update Type이 \"Server\"인 경우\n%USERAPP%</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"2\"><div>%EXECUTE%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>NRE: nexacro.exe 실행 위치\nWRE: 브라우저 실행 위치</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td><div>macOS</div></td>\t\t<td><div>앱이 설치된 경로</div></td>\t\t<td><div></div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>%COMPONENTHOME%</div></td>\t\t<td><div>Windows</div></td>\t\t<td><div>C:\\Users\\[UserName]\\AppData\\LocalLow\\TOBESOFT\\Nexacro N\\24\\Component\\[Key]\\</div></td>\t\t<td><div></div></td>\t</tr></tbody></table>",
       "option": {
@@ -313,7 +318,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7884759907394518",
+      "id": "u_10_0.512161931753183",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>LiteDBConnection를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -391,7 +396,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5173180831058853",
+      "id": "u_10_0.43255906604293015",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -459,7 +464,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5828000287056999",
+      "id": "u_10_0.530087466138704",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.openflag = LiteDBConnection.openReadWrite;</div></td></tr><tr><th>constOpenFlag</th><td colspan=\"2\"><div>데이터베이스와 연결하는 옵션을 설정합니다.\n\nLiteDBConnection.openReadWrite 또는 0 설정 시 데이터베이스를 읽기/쓰기가 가능하도록 연결합니다.\nLiteDBConnection.openReadWriteCreate 또는 1 설정 시 데이터베이스를 읽기/쓰기/파일생성이 가능하도록 연결합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -537,7 +542,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7920245580169922",
+      "id": "u_10_0.29525235963233",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.LiteDBConnection00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -605,7 +610,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2838310059462169",
+      "id": "u_10_0.817427683108341",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bPreconn ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.LiteDBConnection00.preconnect = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>LiteDBConnection 생성 시 datasource, openflag 속성에 설정된 값으로 데이터베이스를 연결합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>LiteDBConnection 생성 시 데이터베이스를 자동으로 연결하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -673,7 +678,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.31305526373365977",
+      "id": "u_09_0.4902785076671523",
       "type": "command",
       "content": "this.LiteDBConnection00.begin();"
     },
@@ -731,7 +736,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.38205822401216716",
+      "id": "u_09_0.3885656191521788",
       "type": "command",
       "content": "this.LiteDBConnection00.close();"
     },
@@ -789,7 +794,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.512050673718359",
+      "id": "u_09_0.1994182890820425",
       "type": "command",
       "content": "this.LiteDBConnection00.commit();"
     },
@@ -847,7 +852,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4254332360139699",
+      "id": "u_09_0.6724022376755824",
       "type": "command",
       "content": "this.LiteDBConnection00.isConnected();"
     },
@@ -905,7 +910,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.92914688900066",
+      "id": "u_10_0.32276910882416554",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDataSource</td><td>String</td><td colspan=\"2\"><div>연결할 데이터베이스의 위치정보를 문자열로 설정합니다.\n\n절대경로 또는 Alias 를 사용하여 설정합니다.\n값 생략 시 datasource 속성값이 적용됩니다.</div></td></tr><tr><td>constOpenFlag</td><td>Constant</td><td colspan=\"2\"><div>데이터베이스와 연결하는 옵션을 설정합니다.\n\nLiteDBConnection.openReadWrite 또는 0 설정 시 데이터베이스를 읽기/쓰기가 가능하도록 연결합니다.\nLiteDBConnection.openReadWriteCreate 또는 1  설정 시 데이터베이스를 읽기/쓰기/파일생성이 가능하도록 연결합니다.\n\n값 생략 시 openflag 속성값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.LiteDBConnection00.open();\nthis.LiteDBConnection00.open(\"%USERAPP%datasource\");\nthis.LiteDBConnection00.open(\"%USERAPP%datasource\", LiteDBConnection.openReadWrite);</div></td></tr></tbody></table>",
       "option": {
@@ -920,7 +925,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6200937095446529",
+      "id": "u_10_0.8834964259210294",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n파라미터값을 잘 못 설정하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -983,7 +988,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.014632280045723922",
+      "id": "u_09_0.6124251350577843",
       "type": "command",
       "content": "this.LiteDBConnection00.rollback();"
     },
@@ -1047,7 +1052,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5111233296236087",
+      "id": "u_10_0.7778822532024815",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBConnection</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBErrorEventInfo\" string=\"LiteDBErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1101,7 +1106,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8618242125044828",
+      "id": "u_10_0.23840876210296458",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>LiteDBConnection</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LiteDBEventInfo\" string=\"LiteDBEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
