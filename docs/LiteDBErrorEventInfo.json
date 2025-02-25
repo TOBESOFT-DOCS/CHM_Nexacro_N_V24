@@ -26,11 +26,6 @@
       }
     },
     {
-      "id": "u_05",
-      "type": "pre",
-      "content": "- LiteDB 의 세부적인 기능은 http://www.sqlite.org/ 내용을 참고하시기 바랍니다."
-    },
-    {
       "id": "u_16",
       "type": "heading1",
       "content": "속성"
@@ -94,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7546020060892317",
+      "id": "u_10_0.7136465323974215",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"00001\"</th><td colspan=\"2\"><div>Parameter Error</div></td></tr><tr><th>\"1201\"</th><td colspan=\"2\"><div>LiteDBConnection busytimeout Fail\n\n* Android NRE 는 발생하지 않는 에러입니다.</div></td></tr><tr><th>\"1202\"</th><td colspan=\"2\"><div>LiteDBConnection begin Fail</div></td></tr><tr><th>\"1203\"</th><td colspan=\"2\"><div>LiteDBConnection close Fail</div></td></tr><tr><th>\"1204\"</th><td colspan=\"2\"><div>LiteDBConnection commit Fail</div></td></tr><tr><th>\"1205\"</th><td colspan=\"2\"><div>LiteDBConnection isConnected Fail</div></td></tr><tr><th>\"1206\"</th><td colspan=\"2\"><div>LiteDBConnection open Fail</div></td></tr><tr><th>\"1207\"</th><td colspan=\"2\"><div>LiteDBConnection rollback Fail</div></td></tr><tr><th>\"1210\"</th><td colspan=\"2\"><div>LiteDBStatement executeQuery Fail</div></td></tr><tr><th>\"1211\"</th><td colspan=\"2\"><div>LiteDBStatement executeUpdate Fail\n\nAndroid NRE 는 발생하지 않는 에러입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -162,7 +157,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1390561423847183",
+      "id": "u_10_0.10957895741127865",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"ObjectError\"</th><td colspan=\"2\"><div>개별 오브젝트에서 사용하는 에러인 경우에 갖는 값입니다.\n\nLiteDB 관련 컴포넌트에서 에러 발생 시 항상 이 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -230,7 +225,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5278944742197902",
+      "id": "u_10_0.9130539734050535",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -424,7 +419,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8572635180170786",
+      "id": "u_10_0.9517622830714607",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"00001\"</th><td colspan=\"2\"><div>메소드의 파라미터를 잘 못 설정하여 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1201\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트에 연결된 DB 의 응답시간이 대기시간을 초과하여 이벤트 발생 시 갖는 값입니다.\n\n* Android NRE 는 발생하지 않는 에러입니다.</div></td></tr><tr><th>\"1202\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 begin() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1203\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 close() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1204\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 commit() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1205\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 isConnected() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1206\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 open() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1207\"</th><td colspan=\"2\"><div>LiteDBConnection 오브젝트의 rollback() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1210\"</th><td colspan=\"2\"><div>LiteDBStatement 오브젝트의 executeQuery() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.</div></td></tr><tr><th>\"1211\"</th><td colspan=\"2\"><div>LiteDBStatement 오브젝트의 executeUpdate() 메소드 수행에 의해 이벤트 발생 시 갖는 값입니다.\n\n* Android NRE 는 발생하지 않는 에러입니다.</div></td></tr></tbody></table>",
       "option": {
