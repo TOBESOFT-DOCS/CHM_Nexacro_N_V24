@@ -142,7 +142,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7706805779809791",
+      "id": "u_10_0.5023496241803365",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Acceleration를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -220,7 +220,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.562630307954247",
+      "id": "u_10_0.11906137473151024",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -298,7 +298,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8752859459990548",
+      "id": "u_10_0.5897780833742822",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Acceleration00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -568,7 +568,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.20851053341080972",
+      "id": "u_10_0.40087598160460214",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAccuracy </td><td>Number</td><td colspan=\"2\"><div>가속도 정보의 정확도를 \"0~3\" 범위의 숫자로 설정합니다.\n값이 작을수록 반환되는 값의 정확도가 높아집니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>Acceleration.getCurrentAcceleration(2);</div></td></tr></tbody></table>",
       "option": {
@@ -583,7 +583,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6530407142187024",
+      "id": "u_10_0.5267154122793797",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>가속도 정보 수신에 성공하면 true 를 반환하고, onrecvsuccess 이벤트가 발생합니다.\n\n가속도 정보 수신에 실패하면 false 를 반환하고, onrecverror 이벤트가 발생합니다.\nnAccuracy 값이 \"0~3\" 값이 아니면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -636,7 +636,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2538576129078204",
+      "id": "u_10_0.24068808988284152",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAccuracy</td><td>Number</td><td colspan=\"2\"><div>가속도 정보 정확도를 \"0~3\"범위의 숫자로 설정합니다.\n값이 작을수록 반환되는 값의 정확도가 높아집니다.</div></td></tr><tr><td>nIntervalTime</td><td>Number</td><td colspan=\"2\"><div>가속도 정보를 수신할 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>Acceleration.watchStart(1, 1000);</div></td></tr></tbody></table>",
       "option": {
@@ -651,7 +651,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.25145030502049337",
+      "id": "u_10_0.20654874531196876",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -714,7 +714,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8798025347810927",
+      "id": "u_09_0.31610732783037965",
       "type": "command",
       "content": "Acceleration.watchStop();"
     },
@@ -768,9 +768,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7251980538338523",
+      "id": "u_10_0.16997062387911677",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Acceleration</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AccelerationErrorEventInfo\" string=\"AccelerationErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Acceleration</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AccelerationErrorEventInfo\" string=\"AccelerationErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -822,9 +822,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8892714589674396",
+      "id": "u_10_0.10470668518873483",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Acceleration</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AccelerationEventInfo\" string=\"AccelerationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Acceleration</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AccelerationEventInfo\" string=\"AccelerationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
