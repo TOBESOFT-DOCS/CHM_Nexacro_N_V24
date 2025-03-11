@@ -84,7 +84,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.015105401188491574",
+      "id": "u_10_0.6829142890097126",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strAddress = this.TCPClientSocket00.address;</div></td></tr></tbody></table>",
       "option": {
@@ -152,7 +152,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.022646877783725317",
+      "id": "u_10_0.3931428148207875",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nErrCd = this.TCPClientSocket00.errorcode;</div></td></tr></tbody></table>",
       "option": {
@@ -220,7 +220,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2995448702030753",
+      "id": "u_10_0.30712852539360125",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nErrMsg = this.TCPClientSocket00.errormsg;</div></td></tr></tbody></table>",
       "option": {
@@ -288,7 +288,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1021136450034913",
+      "id": "u_10_0.14833587299154027",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bOpen = this.TCPClientSocket00.isopen;</div></td></tr><tr><th>isopen</th><td colspan=\"2\"><div>서버와 연결된 상태이면 \"true\" 값을 갖습니다.\n\n서버와 연결된 상태가 아니면 \"false\" 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -366,7 +366,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6764112130670463",
+      "id": "u_10_0.224632552381685",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -434,7 +434,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3746844725481415",
+      "id": "u_10_0.24074469470627569",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPort = this.TCPClientSocket00.port;</div></td></tr></tbody></table>",
       "option": {
@@ -502,7 +502,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.02085239842904474",
+      "id": "u_10_0.1396423483544299",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>TCPClientSocket 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.TCPClientSocket00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -517,7 +517,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.025784258935013238",
+      "id": "u_10_0.5620817681806642",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -580,7 +580,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.03997570521636784",
+      "id": "u_10_0.9560247669906607",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.addEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
       "option": {
@@ -595,7 +595,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3926849581652794",
+      "id": "u_10_0.6365977072658443",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -648,7 +648,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7077464616713385",
+      "id": "u_10_0.2873784199903481",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n\n해당 영역에 핸들러 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.addEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -663,7 +663,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9147213650426238",
+      "id": "u_10_0.4135125496036921",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -726,7 +726,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2992431995015167",
+      "id": "u_10_0.9373497367457795",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 모두 제거할 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.TCPClientSocket00.clearEventHandler( \"onerror\" );</div></td></tr></tbody></table>",
       "option": {
@@ -741,7 +741,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.19260905581951204",
+      "id": "u_10_0.0019763776514244435",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -804,7 +804,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5171883392985456",
+      "id": "u_09_0.5511841787357299",
       "type": "command",
       "content": "var bSucc = this.TCPClientSocket00.close();"
     },
@@ -814,7 +814,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05447889342558432",
+      "id": "u_10_0.565778929909571",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결해제 요청이 정상적으로 실행되었으면 \"true\" 를 반환합니다.\n\n연결해제 요청이 정상적으로 실행되지 않았으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -877,7 +877,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8101063121443697",
+      "id": "u_10_0.18612843895466236",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.findEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
       "option": {
@@ -892,7 +892,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8628460037669383",
+      "id": "u_10_0.7902160213027204",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에서 찾으려고 하는 핸들러 함수의 인덱스를 반환합니다.\n\n찾으려고 하는 핸들러 함수가 존재하지 않는다면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -955,7 +955,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5864264794687652",
+      "id": "u_10_0.36742570258343665",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n인덱스는 \"0\" 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = TCPClientSocket00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -970,7 +970,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7856861591491249",
+      "id": "u_10_0.31629918917643673",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1023,7 +1023,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7160978516011007",
+      "id": "u_10_0.7057334983639485",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.insertEventHandler( \"onerror\", 0, this.TCPClientSocket00_onerror, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1038,7 +1038,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9694537482608191",
+      "id": "u_10_0.6733072834498891",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1101,7 +1101,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9407141903395932",
+      "id": "u_10_0.113434485895206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAddress</td><td>String</td><td colspan=\"2\"><div>연결할 서버의 도메인명 또는 IPv4 형식의 IP 를 문자열로 설정합니다.</div></td></tr><tr><td>nPort</td><td>Number</td><td colspan=\"2\"><div>연결할 서버의 Port 값을 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = this.TCPClientSocket00.open(\"127.0.0.1\",3000);</div></td></tr></tbody></table>",
       "option": {
@@ -1116,7 +1116,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2242261156251506",
+      "id": "u_10_0.5739152330125018",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결요청이 정상적으로 실행되었으면 true 를 반환합니다.\n\n연결요청이 정상적으로 실행되지 않았으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1179,7 +1179,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.03719103527229961",
+      "id": "u_10_0.415132492258234",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSize</td><td>Number</td><td colspan=\"2\"><div>수신될 데이터의 최대 크기를 바이트 단위의 숫자로 설정합니다.\n\n설정값은 수신될 데이터의 최대 크기로 적용되며 실제 수신된 데이터는 설정값보다 작을 수 있습니다.\n\n0 을 설정하면 수신 할 데이터가 있는지 검사만 수행합니다.\n음수값을 설정하면 메소드 실행 시 실패로 처리됩니다.</div></td></tr><tr><td>nTimeOut</td><td>Number</td><td colspan=\"2\"><div>데이터가 수신될 때까지 대기하는 시간을 초단위의 숫자로 설정합니다.\n\n0 이하값을 설정하면 대기시간이 무한대로 적용됩니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>strCharSet</td><td>String</td><td colspan=\"2\"><div>데이터가 수신될 때 적용될 문자셋을 설정합니다.\n\n값 생략 시 시스템의 문자셋이 적용됩니다.\n\n특별히 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrRecvData;\n\narrRecvData = this.TCPClientSocket00.read( 1000 );\narrRecvData = this.TCPClientSocket00.read( 1000, 3 );\narrRecvData = this.TCPClientSocket00.read( 1000, 3, \"utf-8\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1194,7 +1194,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.31132104162662544",
+      "id": "u_10_0.5799509741625892",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>데이터의 수신 성공여부와 수신데이터를 배열형태로 반환합니다.\n\n배열의 첫번째 원소에 데이터 수신여부를 Boolean 값으로 반환합니다.\n배열의 두번째 원소에 수신된 데이터를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1257,7 +1257,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0077587373404348625",
+      "id": "u_10_0.5688367635349164",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSize</td><td>Number</td><td colspan=\"2\"><div>수신될 데이터의 최대 크기를 바이트 단위의 숫자로 설정합니다.\n\n설정값은 수신될 데이터의 최대 크기로 적용되며 실제 수신된 데이터는 설정값보다 작을 수 있습니다.\n\n0 이하값을 설정하면 메소드가 정상적으로 실행되지 않습니다.</div></td></tr><tr><td>nTimeOut</td><td>Number</td><td colspan=\"2\"><div>데이터가 수신될 때까지 대기하는 시간을 초단위의 숫자로 설정합니다..\n\n수신된 데이터에 줄바꿈 문자가 없을 경우 대기시간이 다시 적용되므로 값 설정에 주의하여야 합니다.\n\n0 이하값을 설정하면 대기시간이 무한대로 적용됩니다.\n값을 설정하지 않으면 0 으로 적용됩니다.</div></td></tr><tr><td>strCharSet</td><td>String</td><td colspan=\"2\"><div>데이터가 수신될 때 적용될 문자셋을 설정합니다.\n\n값 생략 시 시스템의 문자셋이 적용됩니다.\n\n특별히 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrRecvData;\n\narrRecvData = this.TCPClientSocket00.readLine( 1000 );\narrRecvData = this.TCPClientSocket00.readLine( 1000, 3 );\narrRecvData = this.TCPClientSocket00.readLine( 1000, 3, \"utf-8\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1272,7 +1272,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6666804304296479",
+      "id": "u_10_0.6723940551623073",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>데이터의 수신 성공여부와 수신데이터를 배열형태로 반환합니다.\n\n배열의 첫번째 원소에 데이터 수신여부를 Boolean 값으로 반환합니다.\n배열의 두번째 원소에 수신된 데이터를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1335,7 +1335,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11244295353018197",
+      "id": "u_10_0.8204380077937588",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>TCPClientSocket 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.TCPClientSocket00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1350,7 +1350,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4104660178628716",
+      "id": "u_10_0.11928947323585481",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1413,7 +1413,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.746264923018837",
+      "id": "u_10_0.9535645131675278",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.removeEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1428,7 +1428,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.470443762095065",
+      "id": "u_10_0.7634611113317867",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\" 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 \"0\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1491,7 +1491,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.04271926953865757",
+      "id": "u_10_0.9809713703723378",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.removeEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1506,7 +1506,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8989478910976779",
+      "id": "u_10_0.8347598480910029",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\" 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 \"0\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1569,7 +1569,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5454944945744721",
+      "id": "u_10_0.0267129154023793",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.setEventHandler( \"onerror\", this.TCPClientSocket_onerror, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1584,7 +1584,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8820890565171834",
+      "id": "u_10_0.5935207823457193",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\" 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1647,7 +1647,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7195840364874604",
+      "id": "u_10_0.16795153207482116",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.TCPClientSocket00_onerror = function( obj:nexacro.TCPClientSocket,  e:nexacro.SocketErrorEventInfo)\n{ // 수행할 스크립트 };\n\nvar nIndex = this.TCPClientSocket00.setEventHandlerLookup( \"onerror\", \"TCPClientSocket_onerror\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1662,7 +1662,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.37802025383774607",
+      "id": "u_10_0.6540682734755836",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1725,7 +1725,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7437833280368972",
+      "id": "u_10_0.7870380202705967",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>연결된 서버로 송신 할 데이터를 설정합니다.</div></td></tr><tr><td>strCharset</td><td>String</td><td colspan=\"2\"><div>연결된 서버로 송신 할 데이터의 문자셋을 설정합니다.\n\n값을 설정하지 않으면 시스템의 문자셋이 설정됩니다.\n\n특별히 데이터의 문자셋을 변환할 필요가 있을 때만 설정하는 것을 권장합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nvar bSucc = this.TCPClientSocket00.write( \"Send Message\" );\nvar bSucc = this.TCPClientSocket00.write( \"Send Message\", \"utf-8\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1740,7 +1740,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.32210217609176384",
+      "id": "u_10_0.7675982593904822",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>연결된 서버로 데이터 송신을 시작하면 \"true\" 를 반환합니다.\n\n연결된 서버로 데이터 송신을 시작하지 못하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1809,9 +1809,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22730581330161703",
+      "id": "u_10_0.16524875821115315",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketReceiveEventInfo\" string=\"SocketReceiveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SocketReceiveEventInfo\" string=\"SocketReceiveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1873,9 +1873,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08654072042104266",
+      "id": "u_10_0.6420938516156605",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketErrorEventInfo\" string=\"SocketErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SocketErrorEventInfo\" string=\"SocketErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1937,9 +1937,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0786200047906086",
+      "id": "u_10_0.7113440521827724",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SocketEventInfo\" string=\"SocketEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TCPClientSocket</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SocketEventInfo\" string=\"SocketEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
