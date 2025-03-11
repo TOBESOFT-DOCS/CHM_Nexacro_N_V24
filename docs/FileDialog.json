@@ -94,7 +94,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7458082654655717",
+      "id": "u_10_0.7093017364434503",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.accept = \".png, .exe\"; \nthis.FileDialog00.accept = \"image/png, application/*\"; \nthis.FileDialog00.accept = \"audio/*, .png, .exe\";</div></td></tr><tr><th>strAccept</th><td colspan=\"2\"><div>FileDialog 에 적용될 파일형식을 확장자 또는 MIME 형태로 설정합니다.\n\n\".png\", \".exe\", \".png, .exe\" 형식의 확장자 형태로 파일형식을 설정합니다.\n\"image/png\", \"application/*\", \"audio\" 형식의 MIME 형태로 파일형식을 설정합니다.\n\n\"audio/*, .png, .exe\" 와 같이 \",\" 문자를 구분자로 하여 확장자, MIME 구분없이 여러개의 파일형식을 설정할 수 있습니다.\n\n* Mobile WRE 는 MIME 형태만 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -182,7 +182,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.37088665433256685",
+      "id": "u_10_0.960246621353625",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bExtension ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.defaultextension = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>FileDialog 에 파일명만 설정하였을 경우 현재 선택된 파일형식의 확장자를 자동으로 포함합니다.\n\nFileDialog 에 파일명과 확장자를 모두 설정한 경우는 설정값이 적용됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>FileDialog 에서 기본선택 확장자를 적용하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -260,7 +260,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6093232922848927",
+      "id": "u_10_0.6834020738671618",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.filter = \"All(*.*)|*.*|Text Files(*.txt)|*.txt|\"; \nthis.FileDialog00.filter = \"Excel Files(*.xlsx)|*.xls;*.xlsx|Word Files(*.docx)|*.doc;*.docx|ALL Files(*.*)|*.*|\";</div></td></tr><tr><th>strFilter</th><td colspan=\"2\"><div>FileDialog 에 적용될 파일형식을 \"설명|확장자\" 형식으로 설정합니다.\n\n\"|\" 문자를 구분자로 하여 설명과 실제 확장자를 쌍으로 여러개의 파일형식을 설정할 수 있습니다.\n한 개의 파일형식내에서 복수개의 확장자를 지정할 때는 \"*.xlsx;*.xls\" 와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -338,7 +338,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.90239468722773",
+      "id": "u_10_0.4590389628361312",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDialog00.filterindex = 1;</div></td></tr><tr><th>nFilterIndex</th><td colspan=\"2\"><div>FileDialog 에 설정된 파일형식 중 기본으로 표시될 파일형식의 인덱스를 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -416,7 +416,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5282190604146395",
+      "id": "u_10_0.4712729563989615",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>FileDialog를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -494,7 +494,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.007677809172109251",
+      "id": "u_10_0.33130859406145474",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -572,7 +572,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5588824112855459",
+      "id": "u_10_0.8665126465696599",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.FileDialog00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -640,7 +640,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8131756811735583",
+      "id": "u_10_0.15127662952817167",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTitle</td><td>String</td><td colspan=\"2\"><div>File Dialog 의 TitleBar 에 표시할 문자열을 나타냅니다.\n\n* macOS NRE 와 web runtime environment 는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>constOpenMode</td><td>Constant</td><td colspan=\"2\"><div>표시되는 FileDialog 의 종류를 설정합니다.\n\n\"FileDialog.LOAD\" 또는 1 설정 시 한 개 파일을 읽을 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.SAVE\" 또는 2 설정 시 한 개 파일을 쓸 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.MULTILOAD\" 또는 3 설정 시 여러개의 파일을 읽을 수 있는 FileDialog 가 표시됩니다.\n\"FileDialog.SELFOLDER\" 또는 4 설정 시 폴더를 선택할 수 있는 FileDialog 가 표시됩니다.\n\n잘못된 값 설정 시 \"FileDialog.LOAD\" 로 적용됩니다.\n\n* Desktop WRE 는 \"FileDialog.LOAD\" 와 \"FileDialog.MULTILOAD\" 만 설정할 수 있습니다.\n* Mobile 인 경우 iOS/iPadOS WRE 또는 iOS/iPad NRE(iOS/iPadOS 14 이상) 만 \"FileDialog.MULTILOAD\" 를 설정할 수 있습니다.</div></td></tr><tr><td>strInitialPath</td><td>String</td><td colspan=\"2\"><div>FileDialog 가 표시될 때 기본으로 선택될 폴더를 설정합니다.\n절대경로 또는 Alias 를 사용하여 설정합니다.\n\n* 모바일 NRE는 설정값이 적용되지 않습니다.\n* WRE는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>strFileName</td><td>String</td><td colspan=\"2\"><div>FileDialog 가 표시될 때 기본으로 지정될 파일명을 설정합니다.\n\nconstOpenMode 값이 \"FileDialog.SELFOLDER\" 이면 이 파라미터는 무시됩니다.\n\n* web runtime environment 는 설정값이 적용되지 않습니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>FileDialog 의 너비를 pixel 단위의 숫자로 설정합니다.\n\n값을 설정하지 않거나 648 보다 작은 값을 설정하면 648 또는 마지막에 표시된 너비로 적용됩니다.\n모니터의 너비보다 큰 값을 설정하면 모니터의 너비값으로 적용됩니다.\n\n* Windows NRE 만 설정값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>FileDialog 의 높이를 pixel 단위의 숫자로 설정합니다.\n\n값을 설정하지 않거나 356 보다 작은 값을 설정하면 356 또는 마지막에 표시된 높이로 적용됩니다.\n모니터의 높이보다 큰 값을 설정하면 모니터의 높이값으로 적용됩니다.\n\n* Windows NRE 만 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varRet;\nvarRet = this.FileDialog00.open( \"FileOpen\", FileDialog.LOAD );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\" );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\", \"abc.txt\" );\nvarRet = this.FileDialog00.open( \"FileSave\", FileDialog.SAVE, \"%UserApp%\", \"abc.txt\", 800, 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -655,7 +655,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8492848714120541",
+      "id": "u_10_0.7871496539201509",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n파라미터값을 잘 못 설정하거나 메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -734,9 +734,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19272346309335164",
+      "id": "u_10_0.10587663739454878",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDialog</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDialogEventInfo\" string=\"FileDialogEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDialog</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#FileDialogEventInfo\" string=\"FileDialogEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
