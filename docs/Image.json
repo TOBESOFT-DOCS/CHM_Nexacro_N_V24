@@ -137,7 +137,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6426291723669538",
+      "id": "u_10_0.9707981800695326",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strImgpath ::= 'URL(' &lt;theme-Image&gt; | &lt;web-Image&gt; | &lt;absolute-image&gt; | &lt;relative-image&gt; ')'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objImg = new nexacro.Image();\n\nobjImg.src = \"URL('theme://images/V13_logo.png')\";                            // 테마 이미지\nobjImg.src = \"URL('http://www.tobesoft.com/images/gnb/btn_h1.gif')\";  // 웹 이미지\nobjImg.src = \"URL('file://C:\\\\xplatform_logo.gif')\";                             // 절대경로 이미지\nobjImg.src = \"URL('Base::test.jpg')\";                                                   // TypeDefinition Prefix 이미지\nobjImg.src = \"URL('./test.jpg')\";                                                         // 상대경로 이미지</div></td></tr><tr><th>&lt;theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;absolute-image&gt;</th><td colspan=\"2\"><div>로컬에 정의된 이미지를 \"file://절대경로\" 형식으로 설정합니다.\n\n또는 TypeDefinition 영역의 Services 에 정의된 Prefix를 사용한 형식으로 설정합니다.</div></td></tr><tr><th>&lt;relative-image&gt;</th><td colspan=\"2\"><div>폼의 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -258,7 +258,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.588887688992636",
+      "id": "u_10_0.8387901508482319",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bOnlydata</td><td>Boolean</td><td colspan=\"2\"><div>false: Data URI 형태로 반환\ntrue: Data URI 형태 중 Base64 인코딩 데이터만 반환\n\n값을 설정하지 않으면 false로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strBase64 = objImg.getBase64String(); // data:image/png;base64,iVBORw0KGgoAAAA....\nvar strBase64 = objImg.getBase64String(true); // iVBORw0KGgoAAAA....</div></td></tr></tbody></table>",
       "option": {
@@ -273,7 +273,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2641996911213349",
+      "id": "u_10_0.7964993512455255",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Image 오브젝트에 저장된 Base64 데이터를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -336,7 +336,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8312430649332676",
+      "id": "u_10_0.48321076302859045",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strBase64</td><td>String</td><td colspan=\"2\"><div>Base64 로 인코딩 된 이미지 데이터를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -405,9 +405,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.817348510998537",
+      "id": "u_10_0.006310110723183104",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -459,9 +459,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9711620937438289",
+      "id": "u_10_0.6804093049504019",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Image</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
