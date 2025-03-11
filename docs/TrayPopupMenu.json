@@ -79,7 +79,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4167626679127705",
+      "id": "u_10_0.8614225478690093",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>Tray 팝업메뉴에 아이템으로 표시될 텍스트가 정의된 Column 의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -147,7 +147,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.05065281074597461",
+      "id": "u_10_0.6384660030494731",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>체크이미지 표시 여부가 정의된 Column 의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -167,7 +167,7 @@
       "content": "- innerdataset 속성에 설정된 DataSet 의 Column 만 설정할 수 있습니다.\n\n- Column 의 데이터가 true 로 처리되면 체크이미지가 표시됩니다.\n\n- Column 에 데이터가 없거나 false 로 처리되면 체크이미지가 표시되지 않습니다.\n   이 때, iconcolumn 속성이 설정되어 있다면 아이콘이 표시됩니다.\n\n- innerdataset, idcolumn, levelcolumn, captioncolumn 속성을 모두 설정해야 메뉴 아이템이 정상적으로 표시됩니다."
     },
     {
-      "id": "u_10_0.10988882383816101",
+      "id": "u_10_0.6431449196872525",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>true / false</th>\t\t<th>Column type</th>\t\t<th>Row data</th>\t</tr></thead>\t\t\t<tbody><tr>\t\t<td rowspan=\"2\"><div>false</div></td>\t\t<td><div>STRING</div></td>\t\t<td><div>\"0\", \"-0\", \"false\", \"NaN\", 빈 값, Null</div></td>\t</tr><tr>\t\t<td><div>INT, FLOAT, BIGDECIMAL</div></td>\t\t<td><div>0, -0, 빈 값, Null</div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>true</div></td>\t\t<td><div></div></td>\t\t<td><div>false로 처리되는 값 이외의 모든 값</div></td>\t</tr></tbody></table>",
       "option": {
@@ -225,7 +225,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9696414886072053",
+      "id": "u_10_0.07817651555124616",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템의 활성화 여부가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -293,7 +293,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7874455871653357",
+      "id": "u_10_0.4910890908761122",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>메뉴 아이템의 단축키가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -371,7 +371,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4073965686938018",
+      "id": "u_10_0.27317813772826816",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>아이콘의 정보가 정의된 Column 의 ID 를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -449,7 +449,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.16690456960358935",
+      "id": "u_10_0.9983291377672484",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>TrayPopupMenu를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -517,7 +517,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9514898474983141",
+      "id": "u_10_0.09199455603350526",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템의 ID가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -585,7 +585,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8838613037207881",
+      "id": "u_10_0.05871802185204367",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>팝업메뉴 아이템이 정의된 DataSet의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -663,7 +663,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6994200656592239",
+      "id": "u_10_0.7445327327781137",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>각 팝업메뉴 아이템의 상/하위 관계가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -731,7 +731,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.760678281502474",
+      "id": "u_10_0.31812409415640763",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strColumnID</th><td colspan=\"2\"><div>사용자 데이터를 처리할 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -799,7 +799,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9361687248385785",
+      "id": "u_09_0.21752426694448124",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].items[\"item00\"].trackPopup();"
     },
@@ -853,9 +853,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7693516627453266",
+      "id": "u_10_0.5158405343657734",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#InnerdataChangedEventInfo\" string=\"InnerdataChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#InnerdataChangedEventInfo\" string=\"InnerdataChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -917,9 +917,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7811586109697448",
+      "id": "u_10_0.1359744354640421",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MenuClickEventInfo\" string=\"MenuClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>TrayPopupMenu</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MenuClickEventInfo\" string=\"MenuClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
