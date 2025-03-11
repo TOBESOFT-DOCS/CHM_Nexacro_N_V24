@@ -36,12 +36,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.3231677523176121",
+      "id": "u_09_0.3308448919580189",
       "type": "command",
       "content": "Animation( strName, objParent )"
     },
     {
-      "id": "u_10_0.3932744811126947",
+      "id": "u_10_0.780002577883248",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objAni = new nexacro.Animation(\"Animation00\", this);  \n\n// Add Object to Parent Form  \nthis.addChild( \"Animation00\", objAni );\n\n// Set Object \nobjAni.duration = 1000;\nobjAni.easing = \"linear\";\nobjAni.setEventHandler( \"onbegin\", this.Animation00_onbegin, this);\n\n// Add Item to Object\nobjAni.addTarget( \"AniItem00\", this.Button00, \"left:600\" );\n\n// Play Object\nobjAni.play();\n \n// Remove Object form Parent\nvar objAniItem = objAni.removeTarget( \"AniItem00\" );\nthis.removeChild( \"Animation00\" );\n \n// Destroy Object\nobjAniItem.destroy();\nobjAni.destroy();\nobjAniItem = null;\nobjAni = null;</div></td></tr></tbody></table>",
       "option": {
@@ -114,7 +114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6378356841287056",
+      "id": "u_10_0.5075259598611785",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.beziercurve = \"0, .76, 1, -0.79\";</div></td></tr><tr><th>strBezier</th><td colspan=\"2\"><div>애니메이션 효과에 적용될 Bezier 곡선의 조절점 값을 \",\" 로 구분하여 설정합니다.\n\n\"In\" 지점의 조절점 좌표값을 첫번째, 두번째 파라미터로 설정합니다.\n\"Out\" 지점의 조절점 좌표값을 세번째, 네번째 파라미터로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -192,7 +192,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1749476498875987",
+      "id": "u_10_0.755098828084812",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.delay = 5000;</div></td></tr><tr><th>nDelay</th><td colspan=\"2\"><div>애니메이션 효과의 시작이 지연되는 시간을 밀리세컨드 단위로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -270,7 +270,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3643572823548624",
+      "id": "u_10_0.9187692048714048",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumDirect ::= 'normal' | 'reverse' | 'alternate'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.direction = \"alternate\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>AnimationItem 오브젝트의 props 속성에 설정된 속성값 순서대로 애니메이션 효과가 진행됩니다.</div></td></tr><tr><th>\"reverse\"</th><td colspan=\"2\"><div>AnimationItem 오브젝트의 props 속성에 설정된 속성값 순서의 반대로 애니메이션 효과가 진행됩니다.\n\n대상 컴포넌트가 props 속성에 설정된 마지막 속성값 위치로 이동된 후 애니메이션 효과가 진행됩니다.</div></td></tr><tr><th>\"alternate\"</th><td colspan=\"2\"><div>애니메이션 효과가 정방향과 역방향 순서로 번갈아 진행됩니다.\n\nAnimationItem 오브젝트의 props 속성에 설정된 속성값 순서대로 애니메이션 효과가 진행된 후 반대순서로 진행됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -348,7 +348,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6155193431370172",
+      "id": "u_10_0.20363823408631",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.duration = 3000;</div></td></tr><tr><th>nDuration</th><td colspan=\"2\"><div>애니메이션 효과가 실행되는 시간을 밀리세컨드 단위로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -436,7 +436,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06805648646148155",
+      "id": "u_10_0.07380590000285026",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>&lt;enumEasing&gt; ::= 'linear' \n                        | 'easeinsine' | 'easeoutsine' | 'easeinoutsine' | 'easeinquad' | 'easeoutquad' | 'easeinoutquad'\n                        | 'easeincubic' | 'easeoutcubic' | 'easeinoutcubic' | 'easeinquart' | 'easeoutquart' | 'easeinoutquart'\n                        | 'easeinquint' | 'easeoutquint'| 'easeinoutquint' | 'easeinexpo' | 'easeoutexpo' | 'easeinoutexpo'\n                        | 'easeincirc' | 'easeoutcirc'  | 'easeinoutcirc' | 'easeinback' | 'easeoutback' | 'easeinoutback'\n                        | 'easeinelastic' | 'easeoutelastic' | 'easeinoutelastic' | 'easeinbounce' | 'easeoutbounce' | 'easeinoutbounce'\n                        | 'custom'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.easing = \"linear\"; \nthis.Animation00.easing = \"easeoutquad\"; \nthis.Animation00.easing = \"easeinoutquad\"; \nthis.Animation00.easing = \"custom\";</div></td></tr><tr><th>enumEasing</th><td colspan=\"2\"><div>Animation 효과에 적용될 Interpolation 함수를 설정합니다.\n\n\"linear\"\n, \"easeinback\", \"easeinbounce\", \"easeincubic\", \"easeincirc\", \"easeinelastic\", \"easeinexpo\"\n, \"easeinquad\", \"easeinquart\", \"easeinquint\", \"easeinsine\"\n, \"easeoutback\", \"easeoutbounce\", \"easeoutcubic\", \"easeoutcirc\", \"easeoutelastic\"\n, \"easeoutexpo\", \"easeoutquad\", \"easeoutquart\", \"easeoutquint\", \"easeoutsine\"\n, \"easeinoutback\", \"easeinoutbounce\", \"easeinoutcubic\", \"easeinoutcirc\", \"easeinoutelastic\"\n, \"easeinoutexpo\", \"easeinoutquad\", \"easeinoutquart\", \"easeinoutquint\", \"easeinoutsine\"\n, \"custom\"\n\n중 하나의 값을 설정합니다.\n\n\"custom\" 설정 시 beziercurve 속성에 정의된 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -524,7 +524,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14414661101553583",
+      "id": "u_10_0.5332614315304207",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.elasticity = 1000;</div></td></tr><tr><th>nElasticity</th><td colspan=\"2\"><div>애니메이션 효과에 적용될 탄력도를 정수값으로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -602,7 +602,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3575600819481157",
+      "id": "u_10_0.35148668578717823",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAni = new nexacro.Animation( \"Animation00\", this );</div></td></tr><tr><th>id</th><td colspan=\"2\"><div>Animation 오브젝트를 구별할 수 있는 유일값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -680,7 +680,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5447247782440197",
+      "id": "u_10_0.7859314519960748",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var arrAniItem = this.Animation00.items[0];</div></td></tr><tr><th>items</th><td colspan=\"2\"><div>addTarget() 메소드를 사용하여 등록된 AnimationItem 오브젝트를 Collection 형태로 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -758,7 +758,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9548713424630054",
+      "id": "u_10_0.6559684188612582",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bLoop ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.loop = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>loopcount 속성에 설정된 횟수만큼 반복되어 실행됩니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>애니메이션 효과가 1번 실행됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -846,7 +846,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.44924456258659695",
+      "id": "u_10_0.6581482376273456",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Animation00.loopcount = 1;</div></td></tr><tr><th>nLoopCnt</th><td colspan=\"2\"><div>애니메이션 효과가 반복될 횟수를 정수로 설정합니다.\n\n2 이상 설정 시 설정된 횟수만큼 애니메이션 효과가 반복됩니다.\n1 이하 또는 잘못된 값을 설정 시 애니메이션 효과가 무한반복됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -924,7 +924,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8334633966725226",
+      "id": "u_10_0.15986222722505417",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objAni = new nexacro.Animation( \"Animation00\", this );</div></td></tr><tr><th>name</th><td colspan=\"2\"><div>Animation 오브젝트를 구별할 수 있는 유일값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1055,7 +1055,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8547690711369929",
+      "id": "u_10_0.16865588592298342",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Animation 오브젝트에 추가될 AnimationItem 오브젝트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>애니메이션 효과가 적용될 컴포넌트를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>strProps</td><td>String</td><td colspan=\"2\"><div>애니메이션 효과가 적용될 속성과 속성값을 문자열로 설정합니다.\n\n파라미터값 설정방법은 AnimationItem 오브젝트의 props 속성 페이지를 참조하세요.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Animation00.addTarget( \"AnimationItem00\", this.Button00, \"left:[100,600]\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1070,7 +1070,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9956482440276219",
+      "id": "u_10_0.6887058074953786",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>추가된 AnimationItem 오브젝트의 인덱스를 반환합니다.\n\nAnimationItem 오브젝트가 정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1133,7 +1133,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.19499267317431113",
+      "id": "u_10_0.1466872218021107",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Animation 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nAnimation 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1196,7 +1196,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5107468619055417",
+      "id": "u_09_0.6436741575016922",
       "type": "command",
       "content": "this.Animation00.pause();"
     },
@@ -1206,7 +1206,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30620433704817696",
+      "id": "u_10_0.8196215231323323",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1269,7 +1269,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.25951430556588917",
+      "id": "u_09_0.07170035678321851",
       "type": "command",
       "content": "this.Animation00.play();"
     },
@@ -1279,7 +1279,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6726252380103994",
+      "id": "u_10_0.21505552873678502",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1352,7 +1352,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.677742337538797",
+      "id": "u_10_0.34469686153385726",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Animation 오브젝트에 등록된 아이템에서 제거할 AnimationItem 오브젝트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Animation00.removeTarget( \"AnimationItem00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1367,7 +1367,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.44555455131163124",
+      "id": "u_10_0.04699480236702114",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Animation 오브젝트에서 제거된 AnimationItem 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1430,7 +1430,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9507877413976933",
+      "id": "u_09_0.5136817199403332",
       "type": "command",
       "content": "this.Animation00.reverse()"
     },
@@ -1440,7 +1440,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9172451303029601",
+      "id": "u_10_0.3256668494066377",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1503,7 +1503,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7076049814488219",
+      "id": "u_10_0.3170666470923922",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMSecond</td><td>Number</td><td colspan=\"2\"><div>이동시킬 위치의 시간을 밀리세컨드 단위의 숫자로 설정합니다.\n\nduration 속성에 설정된 전체 진행시간 범위 안의 값을 설정하여야 합니다.\n진행시간을 벗어난 값을 설정하면 최소 또는 최대값으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Animation00.seek( 1500 )</div></td></tr></tbody></table>",
       "option": {
@@ -1518,7 +1518,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.617595456947003",
+      "id": "u_10_0.8546696605473888",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>메소드 실행에 의해 실제로 변경된 위치의 진행시간을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1581,7 +1581,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.17889707227388008",
+      "id": "u_09_0.611971413706007",
       "type": "command",
       "content": "this.Animation00.stop()"
     },
@@ -1591,7 +1591,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9655335225410067",
+      "id": "u_10_0.791015382879696",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1660,9 +1660,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30673162029552303",
+      "id": "u_10_0.37232749718601177",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1724,9 +1724,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.004124459607925068",
+      "id": "u_10_0.9205289978328327",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1788,9 +1788,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6479772260217685",
+      "id": "u_10_0.39364389803356437",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1862,9 +1862,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8855692091207676",
+      "id": "u_10_0.4460385430350985",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Animation</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AnimationEventInfo\" string=\"AnimationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
