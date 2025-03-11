@@ -89,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7769366037693343",
+      "id": "u_10_0.48933628394099116",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Sms를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -157,7 +157,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34955958632535034",
+      "id": "u_10_0.8445763205812513",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Sms00.message = \"hello\";</div></td></tr><tr><th>strMessage</th><td colspan=\"2\"><div>상대에게 전송할 메시지를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -235,7 +235,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3824258041988655",
+      "id": "u_10_0.38528186135237696",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -313,7 +313,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.16356691860004935",
+      "id": "u_10_0.029559863264268516",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Sms00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -381,7 +381,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14236776644129567",
+      "id": "u_10_0.03952446491269268",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Sms00.phonenumber = \"010-1234-5678\";</div></td></tr><tr><th>strNumber</th><td colspan=\"2\"><div>메시지를 보낼 상대의 전화번호를 문자열로 설정합니다.\n\n전화번호에 \"-\" 문자를 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -449,7 +449,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9857118622215734",
+      "id": "u_10_0.17484772241687774",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSmsid</td><td>Number</td><td colspan=\"2\"><div>저장되어 있는 SMS 에서 삭제할 메시지의 인덱스값을 설정합니다.\n\nreadMessageList() 메소드를 사용하여 반환되는 SMS 목록에서 인덱스값을 확인합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Sms00.deleteMessage( 1 );</div></td></tr></tbody></table>",
       "option": {
@@ -464,7 +464,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8288358695343158",
+      "id": "u_10_0.7025268020348161",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>nSmsid 가 생략되거나 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -527,7 +527,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.438753632822386",
+      "id": "u_09_0.46590576029373776",
       "type": "command",
       "content": "this.Sms00.readMessageList();"
     },
@@ -585,7 +585,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6192533280391946",
+      "id": "u_09_0.8354736888733785",
       "type": "command",
       "content": "this.Sms00.recvStart();"
     },
@@ -643,7 +643,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6693101496291326",
+      "id": "u_09_0.2338679539810996",
       "type": "command",
       "content": "this.Sms00.recvStop()"
     },
@@ -701,7 +701,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8266529658900081",
+      "id": "u_10_0.8172282134671834",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strNumber</td><td>String</td><td colspan=\"2\"><div>메시지를 보낼 상대의 전화번호를 문자열로 설정합니다.\n\n값 생략 시 phonenumber 속성값이 적용됩니다.</div></td></tr><tr><td>strMessage</td><td>String</td><td colspan=\"2\"><div>상대에게 전송할 메시지를 문자열로 설정합니다.\n\n값 생략 시 message 속성값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Sms00.sendMessage(\"010-1234-5678\", \"hello\");</div></td></tr></tbody></table>",
       "option": {
@@ -716,7 +716,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7764251197643423",
+      "id": "u_10_0.8030817823199238",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터에 허용되지 않는 문자가 사용된 경우에는 false 를 반환합니다.\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -785,9 +785,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4884807987480396",
+      "id": "u_10_0.6480330475890305",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -800,7 +800,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.20560913699924244",
+      "id": "u_10_0.6689557471051493",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값을 \"true\" 로 반환하면 메시지가 송신됩니다.\n이벤트에서 리턴값을 \"false\" 로 반환하면 메시지가 송신되지 않습니다.\n\n이벤트에서 리턴값을 생략하면 \"true\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -864,9 +864,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4199565843549927",
+      "id": "u_10_0.7826841592389754",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -928,9 +928,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32691916700726564",
+      "id": "u_10_0.41861381854247415",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsErrorEventInfo\" string=\"SmsErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsErrorEventInfo\" string=\"SmsErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -992,9 +992,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7678624195764602",
+      "id": "u_10_0.17316570724535785",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsMessageListEventInfo\" string=\"SmsMessageListEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsMessageListEventInfo\" string=\"SmsMessageListEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1056,9 +1056,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8655240741713849",
+      "id": "u_10_0.21063957071851724",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1120,9 +1120,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1452836768116752",
+      "id": "u_10_0.2482169046182956",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Sms</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SmsEventInfo\" string=\"SmsEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
