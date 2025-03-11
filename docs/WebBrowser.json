@@ -46,12 +46,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.18623609812220931",
+      "id": "u_09_0.4863514764451671",
       "type": "command",
       "content": "WebBrowser.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.18825970509338075",
+      "id": "u_10_0.722883562623317",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>WebBrowser 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>WebBrowser 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>WebBrowser 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>WebBrowser 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>WebBrowser 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>WebBrowser 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>WebBrowser 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>WebBrowser 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>WebBrowser 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>WebBrowser 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>WebBrowser 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new WebBrowser();\n\nobjComp.init( \"WebBrowser00\", 30, 120, 196, 46 );\nobjComp.init( \"WebBrowser00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"WebBrowser00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"WebBrowser00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"WebBrowser00\", \"WebBrowser22:10\", 300, null, null, \"WebBrowser33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": "u_10_0.50321862398761",
+      "id": "u_10_0.6538015485220916",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objWebBrowser = new WebBrowser();  \nobjWebBrowser.init(\"WebBrowser\", 30, 120, 196, 46, null, null);\nobjWebBrowser.init(\"WebBrowser\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objWebBrowser = new WebBrowser(\"WebBrowser\", 30, 120, 196, 46, null, null);\nvar objWebBrowser = new WebBrowser(\"WebBrowser\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"WebBrowser\", objWebBrowser); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"WebBrowser\", objWebBrowser); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"WebBrowser\"); \n \n// Show Object  \nobjWebBrowser.show(); \n \n// Destroy Object  \nobjWebBrowser.destroy(); \nobjWebBrowser = null;</div></td></tr></tbody></table>",
       "option": {
@@ -76,7 +76,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.3343864863526238",
+      "id": "u_10_0.7951305198569838",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -149,7 +149,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.524307345911205",
+      "id": "u_10_0.5883413170130591",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilityaction = \"Accessibility Action Message\"; \nthis.WebBrowser00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -227,7 +227,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0027193717943099216",
+      "id": "u_10_0.16612917882667577",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>WebBrowser 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>WebBrowser 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>WebBrowser 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>WebBrowser 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -305,7 +305,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.12147825966759462",
+      "id": "u_10_0.01690209422470046",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -383,7 +383,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.49405579505680197",
+      "id": "u_10_0.8492486603122255",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>WebBrowser 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>WebBrowser 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 WebBrowser 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 WebBrowser 에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -461,7 +461,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6714597674280218",
+      "id": "u_10_0.21811256534525392",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilitylabel = \"OK Button\"; \nthis.WebBrowser00.accessibilitylabel = \"[@static00]\"; \nthis.WebBrowser00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.WebBrowser00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -539,7 +539,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.845737380838321",
+      "id": "u_10_0.055281092540853005",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBorwser00.accessibilityleavemessage = \"Leave Message\";</div></td></tr><tr><th>strMsg</th><td colspan=\"2\"><div>스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -617,7 +617,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8913388301450094",
+      "id": "u_10_0.4239721703587329",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.accessibilityrole = \"none\"; \nthis.WebBrowser00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -695,7 +695,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7123807524998368",
+      "id": "u_10_0.11861307183888858",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.bottom = 10; \nthis.WebBrowser00.bottom = \"10px\"; \nthis.WebBrowser00.bottom = \"10%\"; \nthis.WebBrowser00.bottom = \"Button00:10px\"; \nthis.WebBrowser00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 WebBrowser의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebBrowser의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 WebBrowser의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebBrowser의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -773,7 +773,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.18554531838012256",
+      "id": "u_10_0.199207866542239",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.cssclass = \"TestClass\"; \nthis.WebBrowser00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -851,7 +851,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7612756052604576",
+      "id": "u_10_0.3626482029063792",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.enable = true; \nthis.WebBrowser00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>WebBrowser 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>WebBrowser 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -929,7 +929,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2054966932565252",
+      "id": "u_10_0.7214888110037879",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1007,7 +1007,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6977426483605004",
+      "id": "u_10_0.4635577974473164",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1085,7 +1085,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2634967322852162",
+      "id": "u_10_0.30088504206310307",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.height = 10; \nthis.WebBrowser00.height = \"10px\"; \nthis.WebBrowser00.height = 10%\"; \nthis.WebBrowser00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": WebBrowser의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebBrowser의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 WebBrowser의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebBrowser의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1163,7 +1163,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4949460796185271",
+      "id": "u_10_0.07120720945196213",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>WebBrowser를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1241,7 +1241,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09478703924903786",
+      "id": "u_10_0.5882130520969304",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 WebBrowser 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1319,7 +1319,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.013471248207424735",
+      "id": "u_10_0.03598249711424162",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1397,7 +1397,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0057542671330446105",
+      "id": "u_10_0.10670602966331189",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.left = 10; \nthis.WebBrowser00.left = \"10px\"; \nthis.WebBrowser00.left = \"10%\"; \nthis.WebBrowser00.left = \"Button00:10px\"; \nthis.WebBrowser00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 WebBrowser의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebBrowser의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 WebBrowser의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebBrowser의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1475,7 +1475,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8905246879491711",
+      "id": "u_10_0.4841001150339317",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.maxheight = 20; \nthis.WebBrowser00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1553,7 +1553,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07260032047627862",
+      "id": "u_10_0.05196901656775832",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.maxwidth = 20; \nthis.WebBrowser00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1631,7 +1631,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3880992474352569",
+      "id": "u_10_0.31841040322172176",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.minheight = 20; \nthis.WebBrowser00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1709,7 +1709,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7502159188605072",
+      "id": "u_10_0.7228642664151539",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.minwidth = 20; \nthis.WebBrowser00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1787,7 +1787,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6333578738087938",
+      "id": "u_10_0.5820338112673504",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1865,7 +1865,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5312518270225822",
+      "id": "u_10_0.5791161686401325",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.WebBrowser00.border = \"1px solid #999999\";\nthis.WebBrowser00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1943,7 +1943,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7211346520417128",
+      "id": "u_10_0.3287718459346133",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.WebBrowser00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2021,7 +2021,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32970581033297763",
+      "id": "u_10_0.7773607396618389",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.positionstep = 0; \nthis.WebBrowser00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>WebBrowser 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 WebBrowser 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2109,7 +2109,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3162958564123144",
+      "id": "u_10_0.34471306848876226",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.right = 10; \nthis.WebBrowser00.right = \"10px\"; \nthis.WebBrowser00.right = \"10%\"; \nthis.WebBrowser00.right = \"Button00:10px\"; \nthis.WebBrowser00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 WebBrowser의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebBrowser의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 WebBrowser의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebBrowser의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2187,7 +2187,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8391495324425734",
+      "id": "u_10_0.7569248466800379",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2275,7 +2275,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.20189810491911064",
+      "id": "u_10_0.06145012769835234",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2363,7 +2363,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6081757337908116",
+      "id": "u_10_0.8055518176688921",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>WebBrowser 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>WebBrowser 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2441,7 +2441,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4055283601005244",
+      "id": "u_10_0.026179155217728844",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.top = 10; \nthis.WebBrowser00.top = \"10px\"; \nthis.WebBrowser00.top = \"10%\"; \nthis.WebBrowser00.top = \"Button00:10px\"; \nthis.WebBrowser00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 WebBrowser의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 WebBrowser의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 WebBrowser의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 WebBrowser의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2519,7 +2519,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2756120948434634",
+      "id": "u_10_0.5770068001832218",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strUrl ::= &lt;Web-Url&gt; | &lt;Local-Url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.url = \"http://www.tobesoft.co.kr\"; \n\nthis.WebBrowser00.url = \"http://m.naver.com\"; \n\nthis.WebBrowser00.url = \"about:blank\"; \n\nthis.WebBrowser00.url = \"file://C:\\\\Test.html\";</div></td></tr><tr><th>&lt;Web-Url&gt;</th><td colspan=\"2\"><div>웹에 위치한 웹페이지의 URL 을 \"http://경로/파일명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;Local-Url&gt;</th><td colspan=\"2\"><div>로컬에 위치한 파일의 경로를 \"file://절대경로\\\\파일명\" 형식으로 설정합니다.\n\nEnvironment 의 filesecurelevel 속성으로 접근이 허용된 경로에 로컬파일이 위치하여야 합니다.\nNexacro Runtime Environment에서만 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2607,7 +2607,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5777411608931594",
+      "id": "u_10_0.4228523815391776",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bHistory ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.userurlhistory = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>url 속성이 변경되면 History 기능이 적용되어 변경된 url 정보가 저장됩니다.\n\n\"뒤로가기\" 시도 시 HIstory  정보에 맞게 페이지가 변경됩니다. \n웹브라우저는 뒤로가기 버튼이 활성화됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>url 속성이 변경되면 History 기능이 적용되지 않아 url 정보가 저장되지 않습니다.\n\n\"뒤로가기\" 시도 시 페이지가 변경되지 않습니다.\n웹브라우저는 뒤로가기 버튼이 비활성화됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2685,7 +2685,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6508336964907397",
+      "id": "u_10_0.635865688149008",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.visible = true; \nthis.WebBrowser00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>WebBrowser 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>WebBrowser 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2763,7 +2763,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32922175172154944",
+      "id": "u_10_0.5818079434558725",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.WebBrowser00.width = 10; this.WebBrowser00.width = \"10px\"; \nthis.WebBrowser00.width = \"10%\"; \nthis.WebBrowser00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>WebBrowser 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 WebBrowser 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 WebBrowser 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>WebBrowser 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": WebBrowser의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 WebBrowser의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 WebBrowser의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 WebBrowser의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 WebBrowser의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 WebBrowser의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2831,7 +2831,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8658236675056566",
+      "id": "u_10_0.8532131170792107",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>WebBrowser 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.WebBrowser00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2846,7 +2846,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3776510963062796",
+      "id": "u_10_0.08067962010155272",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2909,7 +2909,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3663145382178771",
+      "id": "u_10_0.9300877764987969",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebBrowser00.addEventHandler( \"onmove\", this.WebBrowser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -2924,7 +2924,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30730258401506827",
+      "id": "u_10_0.8134601134973349",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2977,7 +2977,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.35957908408760897",
+      "id": "u_10_0.6831264131655258",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebBrowser00.addEventHandlerLookup( \"onmove\", \"WebBrowser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -2992,7 +2992,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.570511602293851",
+      "id": "u_10_0.3771434182214711",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3055,7 +3055,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6256738805852714",
+      "id": "u_09_0.705318355462042",
       "type": "command",
       "content": "this.WebBrowser.bringToFront();"
     },
@@ -3113,7 +3113,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.35778499720937884",
+      "id": "u_09_0.4059603988968262",
       "type": "command",
       "content": "this.WebBrowser.bringToPrev();"
     },
@@ -3171,7 +3171,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1757453422830657",
+      "id": "u_10_0.8507855358733613",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMethodID</td><td>String</td><td colspan=\"2\"><div>호출할 메소드의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>varArg1</td><td>Object</td><td colspan=\"2\"><div>호출할 메소드에 전달될 인수를 설정합니다.</div></td></tr><tr><td>varArg2</td><td>Object</td><td colspan=\"2\"><div>호출할 메소드에 전달될 인수를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3186,7 +3186,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.026814245620835675",
+      "id": "u_10_0.6012063548646841",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>window 객체의 메소드에서 리턴값이 있을 경우 해당값을 반환합니다.\n\nwindow 객체의 메소드에서 오브젝트를 리턴한 경우 PluginObject 로 Wrapping 되어 반환될 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3259,7 +3259,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9961104909605357",
+      "id": "u_10_0.0316901051839773",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.WebBrowser00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3274,7 +3274,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3358101569591261",
+      "id": "u_10_0.16746718232179214",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3337,7 +3337,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5968057143258046",
+      "id": "u_09_0.6253920031581656",
       "type": "command",
       "content": "var bSucc = this.WebBrowser00.destroy();"
     },
@@ -3347,7 +3347,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.733881490910062",
+      "id": "u_10_0.4663488737837481",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>WebBrowser 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nWebBrowser 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3410,7 +3410,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7944175499590158",
+      "id": "u_10_0.473811295833542",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.WebBrowser00.findEventHandler( \"onmove\", this.WebBrowser00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -3425,7 +3425,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7100315952623301",
+      "id": "u_10_0.2841074845896536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3488,7 +3488,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6929420384111393",
+      "id": "u_10_0.5836580298774623",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = WebBrowser00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -3503,7 +3503,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8456406756238076",
+      "id": "u_10_0.3914319656685227",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3556,7 +3556,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5813980015509083",
+      "id": "u_09_0.41012703537535045",
       "type": "command",
       "content": "var nBottom = this.WebBrowser.getOffsetBottom();"
     },
@@ -3566,7 +3566,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7546720930621104",
+      "id": "u_10_0.9022349411383611",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 WebBrowser 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3629,7 +3629,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.43468785087116046",
+      "id": "u_09_0.05683036932659047",
       "type": "command",
       "content": "var nHeight = this.WebBrowser.getOffsetHeight();"
     },
@@ -3639,7 +3639,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.048856003031414685",
+      "id": "u_10_0.6341963064667424",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3712,7 +3712,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2633432714969245",
+      "id": "u_09_0.83790094637719",
       "type": "command",
       "content": "var nleft = this.WebBrowser.getOffsetLeft();"
     },
@@ -3722,7 +3722,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.09741338392156695",
+      "id": "u_10_0.5937366273470751",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 WebBrowser 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3785,7 +3785,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.45028092128566444",
+      "id": "u_09_0.6439561337039129",
       "type": "command",
       "content": "var nRight = this.WebBrowser.getOffsetRight();"
     },
@@ -3795,7 +3795,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6772542890548905",
+      "id": "u_10_0.2577859938017675",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 WebBrowser 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3858,7 +3858,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5188142001026533",
+      "id": "u_09_0.7719474496805762",
       "type": "command",
       "content": "var nTop = this.WebBrowser.getOffsetTop();"
     },
@@ -3868,7 +3868,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8379483256506989",
+      "id": "u_10_0.965882713704963",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 WebBrowser 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3931,7 +3931,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9530869718490474",
+      "id": "u_09_0.30841274282016773",
       "type": "command",
       "content": "var nWidth = this.WebBrowser.getOffsetWidth();"
     },
@@ -3941,7 +3941,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5568407700347723",
+      "id": "u_10_0.7829643736108484",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4014,7 +4014,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4346911701823869",
+      "id": "u_09_0.8561978503238379",
       "type": "command",
       "content": "var nbottom = this.WebBrowser.getPixelBottom();"
     },
@@ -4024,7 +4024,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8017179509852408",
+      "id": "u_10_0.629150540380703",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4087,7 +4087,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.555462429418543",
+      "id": "u_09_0.30837131495679626",
       "type": "command",
       "content": "var nheight = this.WebBrowser.getPixelHeight();"
     },
@@ -4097,7 +4097,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3876714311228936",
+      "id": "u_10_0.6428311920522384",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4160,7 +4160,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5358216938197692",
+      "id": "u_09_0.6623372623113584",
       "type": "command",
       "content": "var nleft = this.WebBrowser.getPixelLeft();"
     },
@@ -4170,7 +4170,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5074729790529682",
+      "id": "u_10_0.4727868349497244",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4233,7 +4233,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5006975472543567",
+      "id": "u_09_0.9172885099150989",
       "type": "command",
       "content": "var nright = this.WebBrowser.getPixelRight();"
     },
@@ -4243,7 +4243,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6859847946200334",
+      "id": "u_10_0.05634070753068776",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4306,7 +4306,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4904625378029681",
+      "id": "u_09_0.46917852149393646",
       "type": "command",
       "content": "var ntop = this.WebBrowser.getPixelTop();"
     },
@@ -4316,7 +4316,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8613875445843415",
+      "id": "u_10_0.8443502164129552",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4379,7 +4379,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.032748660379722905",
+      "id": "u_09_0.7140675806294786",
       "type": "command",
       "content": "var nwidth = this.WebBrowser.getPixelWidth();"
     },
@@ -4389,7 +4389,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4977966965936843",
+      "id": "u_10_0.3073081595226703",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>WebBrowser 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4452,7 +4452,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8287295191161141",
+      "id": "u_10_0.22429622240557834",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strObjID</td><td>String</td><td colspan=\"2\"><div>\"window\" 설정 시 웹페이지의 window 객체를 반환합니다.\n\n\"document\" 설정 시 웹페이지의 document 객체를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00.getProperty( \"window\" );\nthis.WebBrowser00.getProperty( \"document\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4467,7 +4467,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.023045383667840702",
+      "id": "u_10_0.05929571745119944",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>window 또는 document 객체를 갖는 PluginObject 객체를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4540,7 +4540,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4067635105943207",
+      "id": "u_10_0.0725027827010345",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>WebBrowser 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new WebBrowser();\n\nobjComp.init( \"WebBrowser00\", 30, 120, 196, 46 );\nobjComp.init( \"WebBrowser00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"WebBrowser00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"WebBrowser00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"WebBrowser00\", \"WebBrowser22:10\", 300, null, null, \"WebBrowser33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -4603,7 +4603,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9777210083309045",
+      "id": "u_10_0.11339109666871927",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.WebBrowser00.insertEventHandler( \"onmove\", 0, this.WebBrowser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4618,7 +4618,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.31570525659719717",
+      "id": "u_10_0.4745936668357198",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4681,7 +4681,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6570012640723976",
+      "id": "u_10_0.15620702464938407",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00.move(10,10);\nthis.WebBrowser00.move(10,10,100,100);\nthis.WebBrowser00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -4744,7 +4744,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18410819479172613",
+      "id": "u_10_0.4250093501874631",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.moveToNext( this.Button00 );\nthis.WebBrowser.moveToNext( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4807,7 +4807,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2606065091035463",
+      "id": "u_10_0.1253676886605929",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.moveToPrev( this.Button00 );\nthis.WebBrowser.moveToPrev( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4870,7 +4870,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8972743841842212",
+      "id": "u_09_0.47957896585501214",
       "type": "command",
       "content": "this.WebBrowser00.reload();"
     },
@@ -4928,7 +4928,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4385842581602952",
+      "id": "u_10_0.13553832758361595",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>WebBrowser 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.WebBrowser00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4943,7 +4943,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8509263489806829",
+      "id": "u_10_0.8924831820852301",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5006,7 +5006,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8110834609159846",
+      "id": "u_10_0.026695982563556542",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebBrowser00.removeEventHandler( \"onmove\", this.WebBrowser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -5021,7 +5021,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9591622301725293",
+      "id": "u_10_0.7526308675114357",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5084,7 +5084,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10273220814864348",
+      "id": "u_10_0.8185353120448908",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebBrowser00.removeEventHandlerLookup( \"onmove\", \"WebBrowser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5099,7 +5099,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4503384496916739",
+      "id": "u_10_0.1488085435195362",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5162,7 +5162,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.047875482860716634",
+      "id": "u_10_0.023112685838613034",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 WebBrowser 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>WebBrowser 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 WebBrowser 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 WebBrowser 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -5225,7 +5225,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.0986645579496116",
+      "id": "u_09_0.9952616354016546",
       "type": "command",
       "content": "this.WebBrowser.sendToBack();"
     },
@@ -5283,7 +5283,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5593761459754942",
+      "id": "u_09_0.3785395819160067",
       "type": "command",
       "content": "this.WebBrowser.sendToNext();"
     },
@@ -5341,7 +5341,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3740681085241947",
+      "id": "u_10_0.5639795573966315",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.WebBrowser00.setEventHandler( \"onmove\", this.WebBrowser00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5356,7 +5356,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7046410773815152",
+      "id": "u_10_0.9941077608122155",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5419,7 +5419,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.14599573728361603",
+      "id": "u_10_0.16509675605788232",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00_onmove = function( obj:nexacro.WebBrowser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.WebBrowser00.setEventHandlerLookup( \"onmove\", \"WebBrowser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5434,7 +5434,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.31628657132360305",
+      "id": "u_10_0.533054626574341",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5497,7 +5497,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9549113735242997",
+      "id": "u_10_0.623597685225455",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 WebBrowser 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5560,7 +5560,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9999112866220935",
+      "id": "u_10_0.7131425354309147",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>WebBrowser 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5623,7 +5623,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6333096026557316",
+      "id": "u_10_0.20805716870274393",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 WebBrowser 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5686,7 +5686,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0655132022671081",
+      "id": "u_10_0.37261549389525817",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 WebBrowser 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -5749,7 +5749,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6095960602563051",
+      "id": "u_10_0.052991603008535226",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 WebBrowser 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5812,7 +5812,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3571325012221608",
+      "id": "u_10_0.37990298704791625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>WebBrowser 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5875,7 +5875,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.843141109384615",
+      "id": "u_10_0.9354382367376622",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPropertyID</td><td>String</td><td colspan=\"2\"><div>document 객체에 정의된 속성명을 문자열로 설정합니다.</div></td></tr><tr><td>varValue </td><td>Variant</td><td colspan=\"2\"><div>strPropertyID 속성에 저장할 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.WebBrowser00.setProperty( \"prop1\", 3 );</div></td></tr></tbody></table>",
       "option": {
@@ -5938,7 +5938,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8554516070542432",
+      "id": "u_09_0.31903446335949814",
       "type": "command",
       "content": "this.WebBrowser00.show();"
     },
@@ -6002,9 +6002,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5351144276302349",
+      "id": "u_10_0.9042829390037763",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DeviceButtonEventInfo\" string=\"DeviceButtonEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DeviceButtonEventInfo\" string=\"DeviceButtonEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6017,7 +6017,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21158781978770935",
+      "id": "u_10_0.4468738117242659",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\nfalse 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n반환값을 생략하면 false로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6091,9 +6091,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4269217735334099",
+      "id": "u_10_0.8037084934307007",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#WebLoadCompEventInfo\" string=\"WebLoadCompEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#WebLoadCompEventInfo\" string=\"WebLoadCompEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6155,9 +6155,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4041152515199833",
+      "id": "u_10_0.24170530293051062",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6209,9 +6209,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08960314792439916",
+      "id": "u_10_0.7368695767198403",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6263,9 +6263,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6240831375337346",
+      "id": "u_10_0.35628669969194726",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#WebUserNotifyEventInfo\" string=\"WebUserNotifyEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>WebBrowser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#WebUserNotifyEventInfo\" string=\"WebUserNotifyEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
