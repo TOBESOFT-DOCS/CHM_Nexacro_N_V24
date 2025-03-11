@@ -195,7 +195,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7765410295049989",
+      "id": "u_10_0.3533839666697298",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>AudioPlayer를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -273,7 +273,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2950597039132765",
+      "id": "u_10_0.41294304740009147",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -341,7 +341,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.017753550291902065",
+      "id": "u_10_0.7850508932999204",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.pan = 0.5;</div></td></tr><tr><th>nPan</th><td colspan=\"2\"><div>오디오파일 재생 시작 시 적용될 왼쪽 스피커의 밸런스를 \"0.0 ~ 1.0\" 범위의 실수값으로 설정합니다.\n\n\"0\" 설정 시 왼쪽 스피커만 사용합니다.\n\"0.5\" 설정 시 좌우 스피커를 동일하게 사용합니다.\n\"1\" 설정 시 오른쪽 스피커만 사용합니다.\n\"-1\" 설정 시 모바일에 설정되어 있는 밸런스값이 적용됩니다</div></td></tr></tbody></table>",
       "option": {
@@ -419,7 +419,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4314164870345556",
+      "id": "u_10_0.5942958430429676",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.AudioPlayer00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -487,7 +487,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9674177403747216",
+      "id": "u_10_0.818035420928404",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.repeatcount = 3;</div></td></tr><tr><th>nRepeatCount</th><td colspan=\"2\"><div>오디오 파일의 반복재생 횟수를 정수로 설정합니다.\n\n\"0\" 설정 시 오디오 파일을 무한 반복재생합니다.\n\"1\" 설정 시 오디오 파일을 반복재생하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -555,7 +555,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7590274481681005",
+      "id": "u_10_0.7337603407089428",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.startpos = 1000;</div></td></tr><tr><th>nStartPos</th><td colspan=\"2\"><div>전체 오디오 재생시간 중 구간반복 시작지점의 시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n\"-1\" 설정 시 구간반복의 시작지점을 설정하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -623,7 +623,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4435707306645248",
+      "id": "u_10_0.5478317786561605",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.stoppos = 5000;</div></td></tr><tr><th>nStoppos</th><td colspan=\"2\"><div>전체 오디오 재생시간 중 구간반복 끝지점의 시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n\"-1\" 설정 시 구간반복의 끝지점을 설정하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -744,7 +744,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3196129435087435",
+      "id": "u_10_0.36705974516189155",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.AudioPlayer00.volume = 0.7;</div></td></tr><tr><th>nVolume</th><td colspan=\"2\"><div>오디오파일 재생 시작 시 적용될 볼륨값을 0.0~1.0 범위의 실수값으로 설정합니다.\n\n-1 설정 시 모바일에 설정되어 있는 볼륨값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -812,7 +812,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.36205045188341745",
+      "id": "u_10_0.521779016882212",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl </td><td>String</td><td colspan=\"2\"><div>로딩할 오디오 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\n모바일 기기에 저장된 오디오 파일은 Alias 를 사용하여 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer00.load( \"%USERAPP%filename.mp3\" );</div></td></tr></tbody></table>",
       "option": {
@@ -827,7 +827,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6396298428687436",
+      "id": "u_10_0.48827774598078855",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환하고, onload 이벤트가 발생합니다.\n메소드 실행에 실패하면 \"true\"를 반환하고, onerror 이벤트가 발생합니다.\n\nstrUrl 값이 생략된 경우 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -890,7 +890,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9961000912547532",
+      "id": "u_10_0.677149255224959",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nPos</td><td>Number</td><td colspan=\"2\"><div>오디오파일의 재생 위치를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n이동 위치는 \"0ms ~ duration속성값\" 사이의 값을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer.movePos(1000);</div></td></tr></tbody></table>",
       "option": {
@@ -905,7 +905,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.15202151305011102",
+      "id": "u_10_0.522606470721306",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환하고, onmovepos 이벤트가 발생합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환하고, onerror 이벤트가 발생합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -958,7 +958,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.45502870114049654",
+      "id": "u_09_0.629507276153426",
       "type": "command",
       "content": "this.AudioPlayer00.pause();"
     },
@@ -1016,7 +1016,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11190314476649499",
+      "id": "u_10_0.7735994511536785",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIntervalTime</td><td>Object</td><td colspan=\"2\"><div>오디오 파일 재생 중 onplaying 이벤트가 발생하는 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.\n\n주기는 200ms ~ 86,400,000ms 사이의 값을 설정할 수 있습니다.\n값을 생략하거나 200ms 미만으로 설정 시 onplaying 이벤트가 발생하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.AudioPlayer00.play(1000);</div></td></tr></tbody></table>",
       "option": {
@@ -1031,7 +1031,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7048322175997843",
+      "id": "u_10_0.8412715144909503",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1142,7 +1142,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.895645380903557",
+      "id": "u_09_0.21138177511147782",
       "type": "command",
       "content": "this.AudioPlayer00.stop();"
     },
@@ -1206,9 +1206,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3220763253378144",
+      "id": "u_10_0.785928885974716",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioErrorEventInfo\" string=\"AudioErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioErrorEventInfo\" string=\"AudioErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1260,9 +1260,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.58782908426039",
+      "id": "u_10_0.38511437465395104",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1324,9 +1324,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8407196858170098",
+      "id": "u_10_0.3229924508919235",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1378,9 +1378,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1179795024178798",
+      "id": "u_10_0.9585391390188907",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1432,9 +1432,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18857667249029908",
+      "id": "u_10_0.4353087354603785",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1486,9 +1486,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7046991798046005",
+      "id": "u_10_0.632877433893315",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>AudioPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#AudioEventInfo\" string=\"AudioEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
