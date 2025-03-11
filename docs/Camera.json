@@ -79,7 +79,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.004490986696732868",
+      "id": "u_10_0.5831098052373919",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'JPEG' | 'PNG'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.encodingtype = \"JPEG\";\nthis.Camera00.encodingtype = \"PNG\";</div></td></tr><tr><th>\"JPEG\"</th><td colspan=\"2\"><div>카메라 앱을 통해 얻은 이미지를 JPEG 형식으로 저장합니다.</div></td></tr><tr><th>\"PNG\"</th><td colspan=\"2\"><div>카메라 앱을 통해 얻은 이미지를 PNG 형식으로 저장합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -147,7 +147,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.771467445195679",
+      "id": "u_10_0.19152245798106127",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'url' | 'imagedata'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.gettype = \"imagedata\";</div></td></tr><tr><th>\"url\"</th><td colspan=\"2\"><div>촬영된 이미지의 위치정보가 URL 형태로 전달됩니다.</div></td></tr><tr><th>\"imagedata\"</th><td colspan=\"2\"><div>촬영된 이미지가 오브젝트로 전달됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -225,7 +225,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09175297893437506",
+      "id": "u_10_0.6119446251617191",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Camera를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -303,7 +303,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7543198984624042",
+      "id": "u_10_0.3325978249933358",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.imageheight = 1500;</div></td></tr><tr><th>nImageHeight</th><td colspan=\"2\"><div>촬영된 이미지의 높이를 pixel 단위의 숫자로 설정합니다.\n\n\"0\" 으로 설정 시 촬영된 이미지의 높이를 변경하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -371,7 +371,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.23989928790028803",
+      "id": "u_10_0.12691154964639684",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.imagequality = 90;</div></td></tr><tr><th>nImageQuality</th><td colspan=\"2\"><div>이미지의 품질을 \"0 ~ 100\" 범위의 값으로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -439,7 +439,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6541434186159568",
+      "id": "u_10_0.8799876219498055",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.imagewidth = 1500;</div></td></tr><tr><th>nImageWidth</th><td colspan=\"2\"><div>촬영된 이미지의 너비를 pixel 단위의 숫자로 설정합니다.\n\n\"0\" 으로 설정 시 촬영된 이미지의 너비를 변경하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -517,7 +517,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34879116330933213",
+      "id": "u_10_0.4802243374180769",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -595,7 +595,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8594526632583167",
+      "id": "u_10_0.17885509095424246",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Camera00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -663,7 +663,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8052112552944931",
+      "id": "u_10_0.5413840087889836",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bUseGallery ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Camera00.usegallery = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>모바일 기기에서 촬영된 이미지를 사진앨범 영역에 저장합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>모바일 기기에서 촬영된 이미지를 사진앨범 영역에 저장하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -731,7 +731,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.338254117677689",
+      "id": "u_09_0.8931191572297433",
       "type": "command",
       "content": "this.Camera00.takePicture();"
     },
@@ -795,9 +795,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.17341097726474797",
+      "id": "u_10_0.821014262567125",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Camera</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#CameraEventInfo\" string=\"CameraEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Camera</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#CameraEventInfo\" string=\"CameraEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -849,9 +849,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30472481098877335",
+      "id": "u_10_0.592051513166319",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Camera</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#CameraErrorEventInfo\" string=\"CameraErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Camera</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#CameraErrorEventInfo\" string=\"CameraErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
