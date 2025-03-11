@@ -94,7 +94,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.17482148591159496",
+      "id": "u_10_0.32426891450818685",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>BluetoothLE를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -172,7 +172,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7248318303275276",
+      "id": "u_10_0.1623632380195298",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -240,7 +240,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.022460260339887128",
+      "id": "u_10_0.6221954081793447",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAddress </td><td>String</td><td colspan=\"2\"><div>Peripheral 디바이스의 주소를 문자열로 설정합니다.\n\nWindows NRE 와 Android NRE 는 MAC Address 를 사용합니다.\nmacOS NRE 는 OS 가 부여한 UUID 를 사용합니다.\niOS/iPadOS NRE 는 검색된 디바이스 목록의 Index 를 사용합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.BluetoothLE00.connect( \"00:00:00:00:00:00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -303,7 +303,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.21296559432528295",
+      "id": "u_09_0.34276543593140063",
       "type": "command",
       "content": "this.BluetoothLE00.disconnect();"
     },
@@ -361,7 +361,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2889499704648222",
+      "id": "u_09_0.48038984722263467",
       "type": "command",
       "content": "this.BluetoothLE00.discoverService();"
     },
@@ -419,7 +419,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8617123479286207",
+      "id": "u_10_0.4619234146631699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcUUID</td><td>String</td><td colspan=\"2\"><div>Characteristic 이 정의된 서비스의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td>strCharUUID</td><td>String</td><td colspan=\"2\"><div>값을 가져오려는 Characteristic 의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// Serial 통신 서비스의 RX Characteristic 값 요청\nthis.BluetoothLE00.readCharacteristic( \"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\", \"6E400003-B5A3-F393-E0A9-E50E24DCCA9E\" );</div></td></tr></tbody></table>",
       "option": {
@@ -482,7 +482,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8617573128881686",
+      "id": "u_10_0.0004700527943303223",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDuration</td><td>Number</td><td colspan=\"2\"><div>검색을 지속할 시간을 밀리초(Millisecond) 단위의 숫자로 설정합니다.\n\n값 생략 시 2000 으로 적용됩니다.</div></td></tr><tr><td>strSvcUUID</td><td>String</td><td colspan=\"2\"><div>찾으려고 하는 특정 서비스의 UUID 를 문자열로 설정합니다.\n\n값 생략 시 게시(Advertiesement)중인 모든 Peripheral 디바이스를 검색합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.BluetoothLE.scanStart();\nthis.BluetoothLE.scanStart( 5000 );\nthis.BluetoothLE.scanStart( 5000, \"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\" ); // Serial 통신 서비스</div></td></tr></tbody></table>",
       "option": {
@@ -593,7 +593,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8723227879431548",
+      "id": "u_10_0.3545275820309406",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcUUID</td><td>String</td><td colspan=\"2\"><div>Characteristic 이 정의된 서비스의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td>strCharUUID</td><td>String</td><td colspan=\"2\"><div>Notification 을 요청할 Characteristic 의 UUID 를 문자열로 설정합니다.\n\nCharacteristic 의 값이 변경되면 서버로 부터 Notification 이 전달됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// Serial 통신 서비스의 RX Characteristic 값 변경 시 Notification 요청\nthis.BluetoothLE00.subscribe( \"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\", \"6E400003-B5A3-F393-E0A9-E50E24DCCA9E\" );</div></td></tr></tbody></table>",
       "option": {
@@ -656,7 +656,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.14842956618857672",
+      "id": "u_10_0.4353960344185118",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcUUID</td><td>String</td><td colspan=\"2\"><div>Characteristic 이 정의된 서비스의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td>strCharUUID</td><td>String</td><td colspan=\"2\"><div>Notification 해제를 요청할 Characteristic 의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// Serial 통신 서비스의 RX Characteristic 에 대한 Notification 해제\nthis.BluetoothLE00.unsubscribe( \"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\", \"6E400003-B5A3-F393-E0A9-E50E24DCCA9E\" );</div></td></tr></tbody></table>",
       "option": {
@@ -719,7 +719,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7982081065820766",
+      "id": "u_10_0.1739131117497802",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcUUID</td><td>String</td><td colspan=\"2\"><div>Characteristic 이 정의된 서비스의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td>strCharUUID</td><td>String</td><td colspan=\"2\"><div>값을 저장하려는 Characteristic 의 UUID 를 문자열로 설정합니다.</div></td></tr><tr><td>strVal</td><td>String</td><td colspan=\"2\"><div>Characteristic 에 저장할 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// Serial 통신 서비스의 RX Characteristic 값 저장\nthis.BluetoothLE00.readCharacteristic( \"6E400001-B5A3-F393-E0A9-E50E24DCCA9E\", \"6E400003-B5A3-F393-E0A9-E50E24DCCA9E\", \"C#B0\" );</div></td></tr></tbody></table>",
       "option": {
@@ -788,9 +788,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16858505821385228",
+      "id": "u_10_0.7608905446267322",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#BluetoothLEErrorEventInfo\" string=\"BluetoothLEErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#BluetoothLEErrorEventInfo\" string=\"BluetoothLEErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -852,9 +852,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5151347218373684",
+      "id": "u_10_0.9075984898793736",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#BluetoothLEScanDeviceEventInfo\" string=\"BluetoothLEScanDeviceEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#BluetoothLEScanDeviceEventInfo\" string=\"BluetoothLEScanDeviceEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -916,9 +916,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4478820259313643",
+      "id": "u_10_0.5308293192191625",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#BluetoothLEEventInfo\" string=\"BluetoothLEEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#BluetoothLEEventInfo\" string=\"BluetoothLEEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -980,9 +980,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4944709011987739",
+      "id": "u_10_0.22773319309953777",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#BluetoothLEEventInfo\" string=\"BluetoothLEEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>BluetoothLE</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#BluetoothLEEventInfo\" string=\"BluetoothLEEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
