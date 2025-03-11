@@ -89,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8222509961324106",
+      "id": "u_10_0.08905542005465072",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>ContactSet를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -167,7 +167,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0015786371254027376",
+      "id": "u_10_0.8689550155477668",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -245,7 +245,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.47886607071562515",
+      "id": "u_10_0.06695518864231331",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.ContactSet00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -313,7 +313,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8302828117708319",
+      "id": "u_10_0.0312544056363101",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objContact</td><td>Object</td><td colspan=\"2\"><div>추가할 연락처 정보를 Contact 객체 형태로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objContact = new nexacro.Contact();\n\nobjContact.contactname.familyname = \"testname\";\nthis.ContactSet00.append(objContact);</div></td></tr></tbody></table>",
       "option": {
@@ -328,7 +328,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08025495554659068",
+      "id": "u_10_0.39529783845644517",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -391,7 +391,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5829772612186932",
+      "id": "u_10_0.829214121611793",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strQueryInfo</td><td>String</td><td colspan=\"2\"><div>연락처정보 중 조회할 연락처의 조건을 문자열로 설정합니다.\n\n\"필드이름:검색어;필드이름:검색어;...\" 형태로 설정하여야 합니다.\n검색어에는 \"?\", \"*\" 와 같은 와일드카드 문자를 사용할 수 있습니다.</div></td></tr><tr><td>nResultCnt</td><td>Number</td><td colspan=\"2\"><div>조건에 맞는 연락처 중 반환받을 연락처정보 갯수를 설정합니다.\n\n\"-1\" 설정 시 조건에 맞는 연락처를 모두 조회합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ContactSet00.query( \"contactname:홍길동;phonenumbers:*2214\", 5 );</div></td></tr></tbody></table>",
       "option": {
@@ -406,7 +406,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.045368116341855336",
+      "id": "u_10_0.6024528157054738",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -469,7 +469,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9342069683862679",
+      "id": "u_10_0.761672573859311",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUniqueID</td><td>String</td><td colspan=\"2\"><div>삭제할 연락처정보의 Contact 객체의 uniqueid 속성값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ContactSet00.remove(\"5\");</div></td></tr></tbody></table>",
       "option": {
@@ -484,7 +484,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4264502857980377",
+      "id": "u_10_0.8216530365918093",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -547,7 +547,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.51587704737281",
+      "id": "u_10_0.7041965288218184",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objContact</td><td>Object</td><td colspan=\"2\"><div>수정할 연락처 정보의 Contact 객체를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objContact = e.contacts[0];                                   // onsuccess 이벤트에서 연락처정보를 받는다.\n\nobjContact.contactname.familyname = \"new name\";  // 내용수정\nthis.Contact00.update(objContact);                             // 연락처정보를 갱신한다.</div></td></tr></tbody></table>",
       "option": {
@@ -562,7 +562,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8655117204671195",
+      "id": "u_10_0.10447919047097554",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 \"true\"를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -631,9 +631,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6971316612414404",
+      "id": "u_10_0.960354562036276",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ContactSet</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ContactSetErrorEventInfo\" string=\"ContactSetErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ContactSet</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContactSetErrorEventInfo\" string=\"ContactSetErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -685,9 +685,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.43916768399177497",
+      "id": "u_10_0.24740059657674884",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ContactSet</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ContactSetEventInfo\" string=\"ContactSetEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ContactSet</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContactSetEventInfo\" string=\"ContactSetEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
