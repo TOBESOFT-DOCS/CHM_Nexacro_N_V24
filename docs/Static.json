@@ -46,12 +46,12 @@
       "content": "컴포넌트, 내부 컨텐츠 크기"
     },
     {
-      "id": "u_09_0.9190197838717765",
+      "id": "u_09_0.44366616332588005",
       "type": "pre",
       "content": "Static 컴포넌트의 크기를 결정하는 기준입니다.\n\n- Static 컴포넌트의 fittocontents 속성값이 \"none\" 일 경우 기준입니다."
     },
     {
-      "id": "u_10_0.04169790367665016",
+      "id": "u_10_0.5358626557223337",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Static Component</div></td></tr><tr><td>Width</td><td><div>Static 컴포넌트의 width 속성값이 적용됩니다.\n컴포넌트에 표시되는 텍스트의 길이 보다 Width 가 작을 경우 텍스트가 잘려서 표시됩니다.</div></td></tr><tr><td>Height</td><td><div>Static 컴포넌트의 height 속성값이 적용됩니다.\n컴포넌트에 표시되는 텍스트의 높이 보다 Height 가 작을 경우 텍스트가 잘려서 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -61,12 +61,12 @@
       }
     },
     {
-      "id": "u_09_0.21672718696888083",
+      "id": "u_09_0.8834115016283156",
       "type": "pre",
       "content": "- Static 컴포넌트의 fittocontents 속성값이 \"width\" 일 경우 기준입니다."
     },
     {
-      "id": "u_10_0.4636051669849741",
+      "id": "u_10_0.10793566234300012",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Static Component</div></td></tr><tr><td>Width</td><td><div>텍스트 길이에 맞게 계산된 값이 적용됩니다.\n텍스트가 여러줄 일 경우 가장 긴 줄을 기준으로 계산됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -76,12 +76,12 @@
       }
     },
     {
-      "id": "u_09_0.42560878823800485",
+      "id": "u_09_0.6581474662308767",
       "type": "pre",
       "content": "- Static 컴포넌트의 fittocontents 속성값이 \"height\" 일 경우 기준입니다."
     },
     {
-      "id": "u_10_0.2075047284724324",
+      "id": "u_10_0.22436715394782558",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Static Component</div></td></tr><tr><td>Height</td><td><div>텍스트 크기에 맞게 계산된 값이 적용됩니다.\n텍스트가 여러줄 일 경우 전체 줄의 높이가 계산됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -91,12 +91,12 @@
       }
     },
     {
-      "id": "u_09_0.12578162303555496",
+      "id": "u_09_0.8639482913634763",
       "type": "pre",
       "content": "- Static 컴포넌트의 fittocontents 속성값이 \"both\" 일 경우 기준입니다."
     },
     {
-      "id": "u_10_0.817803167597529",
+      "id": "u_10_0.4425306313278228",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Static Component</div></td></tr><tr><td>Width</td><td><div>텍스트 길이에 맞게 계산된 값이 적용됩니다.\n텍스트가 여러줄 일 경우 가장 긴 줄을 기준으로 계산됩니다.</div></td></tr><tr><td>Height</td><td><div>텍스트 크기에 맞게 계산된 값이 적용됩니다.\n텍스트가 여러줄 일 경우 전체 줄의 높이가 계산됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -111,7 +111,7 @@
       "content": "Accessibility Key Action"
     },
     {
-      "id": "u_10_0.8407449460719317",
+      "id": "u_10_0.09973786427474685",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Action</th><th>Key</th><th>Description</th></tr></thead><tbody><tr><td>선택상자 이동</td><td>상하방향키</td><td><div>Tab Order 가 이전/다음인 컴포넌트로 선택상자가 이동합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -126,12 +126,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.7905478286412541",
+      "id": "u_09_0.5003361056234545",
       "type": "command",
       "content": "Static.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.751678246100667",
+      "id": "u_10_0.6431316358065059",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>Static 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>Static 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Static 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>Static 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Static 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>Static 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>Static 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>Static 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Static 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>Static 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Static 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>Static 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>Static 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>Static 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>Static 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new Static();\n\nobjComp.init( \"Static00\", 30, 120, 196, 46 );\nobjComp.init( \"Static00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Static00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Static00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Static00\", \"Static22:10\", 300, null, null, \"Static33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "u_10_0.24285088337642513",
+      "id": "u_10_0.7076879498042952",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objStatic = new Static();  \nobjStatic.init(\"Static\", 30, 120, 196, 46, null, null);\nobjStatic.init(\"Static\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objStatic = new Static(\"Static\", 30, 120, 196, 46, null, null);\nvar objStatic = new Static(\"Static\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"Static\", objStatic); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"Static\", objStatic); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"Static\"); \n \n// Show Object  \nobjStatic.show(); \n \n// Destroy Object  \nobjStatic.destroy(); \nobjStatic = null;</div></td></tr></tbody></table>",
       "option": {
@@ -156,7 +156,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.37611743097555306",
+      "id": "u_10_0.05402352249888598",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -229,7 +229,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7390293972915353",
+      "id": "u_10_0.3911113303368853",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilityaction = \"Accessibility Action Message\"; \nthis.Static00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -307,7 +307,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.22722361456387996",
+      "id": "u_10_0.5430752922156932",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>Static 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>Static 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>Static 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Static 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -385,7 +385,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.29908746170707556",
+      "id": "u_10_0.8571641288425103",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -463,7 +463,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9367851248140834",
+      "id": "u_10_0.2588353602078214",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Static 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Static 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 Static 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 Static 에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -541,7 +541,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3387525850747666",
+      "id": "u_10_0.7589066287026818",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilitylabel = \"OK Button\"; \nthis.Static00.accessibilitylabel = \"[@static00]\"; \nthis.Static00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.Static00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -619,7 +619,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9623287284498826",
+      "id": "u_10_0.3375335509596483",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.accessibilityrole = \"none\"; \nthis.Static00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -697,7 +697,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9694667461650607",
+      "id": "u_10_0.6681080330594716",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBackground ::= [&lt;bg-image&gt; | &lt;linear-gradient&gt;] [&lt;background-origin&gt; [&lt;background-clip&gt;]] [&lt;background-color&gt;]\n\n&lt;bg-image&gt; ::= 'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\n   &lt;imageurl&gt; ::= 'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\n   &lt;repeat-style&gt; ::= 'repeat-x' | 'repeat-y' | 'repeat' | 'no-repeat'\n   &lt;position&gt; ::= &lt;horizontal-position&gt; &lt;vertical-position&gt; ['/' &lt;background-size&gt;]\n      &lt;horizontal-position&gt; ::= 'left' | 'center' | 'right' | &lt;pos-percentage&gt; '%'\n      &lt;vertical-position&gt; ::= 'top' | 'center' | 'bottom' | &lt;pos-percentage&gt; '%'\n      &lt;background-size&gt; ::= 'auto' | 'cover' | 'contain' | (&lt;length&gt; 'px' | &lt;percentage&gt; '%') {1,2}\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n   &lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n   &lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\n      &lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\n         &lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;background-origin&gt; ::= 'border-box' | 'padding-box'\n&lt;background-clip&gt; ::= 'border-box' | 'padding-box'\n&lt;background-color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbackground : #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa;\nbackground : linear-gradient( red , blue , yellow );\nbackground : linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0));\nbackground : \"URL('./images/smiley.gif')\" border-box border-box #ffffaa;\n\n* Script ( normal property )\nthis.Static00.background = \"#ffffaa\";\nthis.Static00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center #ffffaa\";\nthis.Static00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa\";\nthis.Static00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa\";\nthis.Static00.background = \"linear-gradient( red , blue , yellow )\";\nthis.Static00.background = \"linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0))\";\nthis.Static00.background = \"\"URL('./images/smiley.gif')\" border-box border-box #ffffaa\";</div></td></tr><tr><th>&lt;bg-image&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 이미지가 표시됩니다.\n\n\"none\" 으로 설정하면 이미지를 설정하지 않습니다.\n&lt;imageurl&gt; 값으로 이미지를 설정할 수 있습니다.\n&lt;repeat-style&gt; 값으로 이미지의 반복표시 방향을 설정할 수 있습니다.\n&lt;position&gt; 값으로 이미지의 표시위치를 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;imageurl&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\" 형식으로 설정합니다.\n\n\"URL ( [이미지경로] )\" 형식으로 테마 또는 웹의 이미지를 설정합니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;repeat-style&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 반복표시 방향을 설정합니다.\n\n\"repeat-x\" 설정 시 이미지가 가로 방향으로 반복표시 됩니다.\n\"repeat-y\" 설정 시 이미지가 세로 방향으로 반복표시 됩니다.\n\"repeat\" 설정 시 이미지가 가로,세로 방향으로 모두 반복표시 됩니다.\n\"no-repeat\" 설정 시 이미지가 반복표시 되지 않습니다.\n\n값을 설정하지 않으면 \"repeat\" 로 적용됩니다.</div></td></tr><tr><th>&lt;horizontal-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로 위치를 설정합니다.\n\n\"left\" 설정 시 Static 의 왼쪽면과 이미지의 왼쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Static 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"right\" 설정 시 Static 의 오른쪽면과 이미지의 오른쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;vertical-position&gt; 값을 설정하고, &lt;horizontal-position&gt; 값을 설정하지 않으면 &lt;horizontal-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;horizontal-position&gt; 은 \"left\" 로 적용됩니다.</div></td></tr><tr><th>&lt;vertical-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 세로 위치를 설정합니다.\n\n\"top\" 설정 시 Static 의 윗쪽면과 이미지의 윗쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Static 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"bottom\" 설정 시 Static 의 아랫쪽면과 이미지의 아랫쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;horizontal-position&gt; 값을 설정하고, &lt;vertical-position&gt; 값을 설정하지 않으면 &lt;vertical-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;vertical-position&gt; 은 \"top\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;pos-percentage&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로/세로 위치를 비율로 설정합니다.\n\n&lt;horizontal-position&gt; 에 \"0%\" 설정 시 \"left\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"100%\" 설정 시 \"right\" 과 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"0%\" 설정 시 \"top\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"100%\" 설정 시 \"bottom\" 과 같은 위치로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Static 의 영역을 벗어난 가상의 위치로 적용됩니다.\n\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-size&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 크기를 설정합니다.\n- auto: 원본 이미지 크기를 유지합니다.\n- cover: 이미지 비율을 유지하는 한도 내에서 배경에 빈 공간이 없도록 가장 크게 설정합니다.\n  width 또는 height 길이가 긴 쪽은 잘려서 표시될 수 있습니다.\n- contain: 이미지가 잘리지 않고 비율을 유지하는 한도 내에서 가장 크게 설정합니다.\n- &lt;length&gt; | &lt;percentage&gt;: 이미지의 width, height 크기 또는 컴포넌트 대비 비율을 설정합니다. \n  width 값만 설정하면 원본 이미지 비율에 따라 height 크기를 자동으로 처리합니다.\n  height 값만 설정할 수는 없습니다. \n  음수값은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>배경에 표시될 그라데이션을 \"'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 그라데이션이 표시됩니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\"으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 \"&lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점과 끝점의 위치가 결정됩니다.\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 Static 의 right 위치가 시작점이 되고, left 위치가 끝점이 됩니다.\n              &lt;angle&gt; 값이 \"to right\" 이면 Static 의 left 위치가 시작점이 되고, right 위치가 끝점이 됩니다.\n\n&lt;listcolor-stop&gt; 에 그라데이션 중간점의 색을 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 \"0\" 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 \"100\" 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\" 형식으로 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.\n뒤에 선언된 색의 &lt;percentage&gt; 값은 먼저 선언된 색의 &lt;percentage&gt; 값보다 커야 합니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그라데이션 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Static 의 영역을 벗어난 가상의 위치로 적용됩니다.\n예를 들어 \"150%\" 설정 시 시작점에서 끝점까지 거리의 반만큼 끝점에서 벗어난 위치에 &lt;color&gt; 값이 적용됩니다.\n\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-origin&gt;</th><td colspan=\"2\"><div>배경으로 처리될 기준영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역이 배경영역으로 처리됩니다.\n\n\"padding-box\" 설정 시 Border 의 안쪽 영역이 배경영역으로 처리됩니다.\n\"padding-box\" 설정 시 그라데이션의 시작점, 끝점과 배경이미지의 반복 기준위치가 Border 안쪽 영역으로 처리됩니다.\n\n값을 설정하지 않으면 \"padding-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-clip&gt;</th><td colspan=\"2\"><div>배경이 실제로 표시될 영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역에 배경이 표시됩니다.\n\"padding-box\" 설정 시 Border 의 안쪽 영역에 배경이 표시됩니다.\n\n값을 설정하지 않으면 &lt;background-origin&gt; 에 설정한 값이 동일하게 적용됩니다.\n&lt;background-origin&gt; 값도 설정하지 않았을 경우 \"border-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-color&gt;</th><td colspan=\"2\"><div>배경에 표시될 색을 색상이름 또는 색상코드로 설정합니다.\n\n&lt;bg-image&gt; 또는 &lt;linear-gradient&gt; 값이 설정되어 있다면 배경색은 배경이미지 또는 그라데이션 아래에 표시됩니다.\n&lt;bg-image&gt; 에 적용된 이미지에 투명으로 적용된 부분이 있거나 이미지가 Static 영역보다 작다면 해당 영역에 배경색이 표시됩니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -785,7 +785,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3510812656819631",
+      "id": "u_10_0.9637355834066398",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborderradius ::= &lt;horizontal-radius&gt;{4} ['/' &lt;vertical-radius&gt;{4}]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nborder-radius : 10px;\nborder-radius : 5px 6px 10px / 5px 10px;\n\n* Script ( normal property )\nthis.Static00.borderRadius = \"10px\";\nthis.Static00.borderRadius = \"5px 6px 10px / 5px 10px\";</div></td></tr><tr><th>&lt;horizontal-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 가로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 가로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;vertical-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 세로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 세로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -863,7 +863,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9969841586393451",
+      "id": "u_10_0.5868514557434631",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.bottom = 10; \nthis.Static00.bottom = \"10px\"; \nthis.Static00.bottom = \"10%\"; \nthis.Static00.bottom = \"Button00:10px\"; \nthis.Static00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 Static의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Static의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 Static의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Static의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -941,7 +941,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6013334608123234",
+      "id": "u_10_0.7009503178900349",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strbshadow ::= 'none' | [&lt;inset&gt;] &lt;offset&gt; [&lt;blur&gt;'px'] [&lt;spread&gt;'px'] [&lt;color&gt;]\n\n&lt;offset&gt; ::= &lt;horizontal&gt;'px' &lt;vertical&gt;'px'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbox-shadow : 10px 10px 10px #888888;\nbox-shadow : inset 10px 10px 10px 5px #888888\n\n* Script ( normal property )\nthis.Static00.boxShadow  = \"10px 10px 10px #888888\";\nthis.Static00.boxShadow  = \"inset 10px 10px 10px 5px #888888\";</div></td></tr><tr><th>&lt;inset&gt;</th><td colspan=\"2\"><div>그림자 효과가 컴포넌트 안쪽에 표시됩니다.\n생략 시에는 outset으로 동작합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;offset&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 위치를 설정합니다.\n\nStatic 의 좌상단 위치를 기준으로 그림자 효과가 표시될 위치를 가로/세로 픽셀값으로 설정합니다.</div></td></tr><tr><th>&lt;horizontal&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 가로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 왼쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;vertical&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 세로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 윗쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;blur&gt;</th><td colspan=\"2\"><div>그림자 효과에 blur를 설정합니다.\n음수로 설정 시 blur가 적용되지 않습니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;spread&gt;</th><td colspan=\"2\"><div>그림자를 확장하거나 축소합니다.\n양수로 설정 시에는 그림자를 확장하고 음수로 설정 시에는 그림자를 축소합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그림자 효과의 색을 색상이름 또는 색상코드로 설정할 수 있습니다.\n\n값을 입력하지 않으면 브라우저별로 다르게 동작하거나 오동작할 수 있습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1019,7 +1019,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9436375840196162",
+      "id": "u_10_0.36850246341911064",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcolor ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncolor : #999999;\ncolor : rgb ( 255, 0, 0 );\ncolor : red;\n\n* Script ( normal property )\nthis.Static00.color = \"#999999\";\nthis.Static00.color = \"rgb(255,0,0)\";\nthis.Static00.color = \"red\";</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1097,7 +1097,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9195813224106247",
+      "id": "u_10_0.6042432549507244",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.cssclass = \"TestClass\"; \nthis.Static00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1175,7 +1175,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9630528989313617",
+      "id": "u_10_0.41708485046214183",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strCursor ::= 'none' | 'auto' | 'default' | 'copy' | 'crosshair' | 'help' | 'move' | 'not-allowed' | 'pointer' | 'progress' | 'text' | 'wait' | 'ew-resize' | 'e-resize' | 'w-resize' | 'ns-resize' | 'n-resize' | 's-resize' | 'nesw-resize' | 'ne-resize' | 'sw-resize' | 'nwse-resize' | 'nw-resize' | 'se-resize'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncursor : default;\n\n* Script ( normal property )\nthis.Static00.cursor = \"default\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 포인터를 표시하지 않습니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>컴포넌트의 특성에 맞는 포인터가 표시됩니다.\n\nEdit계열 컴포넌트는 \"text\" 포인터가 표시됩니다.\n그외 계열 컴포넌트는 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>시스템의 기본 포인터가 표시됩니다.\n\n일반적으로 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"copy\"</th><td colspan=\"2\"><div>화살표와 작은 십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"crosshair\"</th><td colspan=\"2\"><div>십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"help\"</th><td colspan=\"2\"><div>화살표와 작은 물음표 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 물음표 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"move\"</th><td colspan=\"2\"><div>십자 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"not-allowed\"</th><td colspan=\"2\"><div>금지 표지판 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 화살표와 금지 표지판 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"pointer\"</th><td colspan=\"2\"><div>손모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"progress\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 화살표와 모래시계, 화살표와 원 등 다양한 형태로 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"text\"</th><td colspan=\"2\"><div>아이(\"I\") 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"wait\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 모래시계, 시계 등 다양한 형태로 표시됩니다.</div></td></tr><tr><th>\"ew-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"e-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"w-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ns-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"n-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"s-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nesw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ne-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"sw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nwse-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"nw-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"se-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1253,7 +1253,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.715345534449647",
+      "id": "u_10_0.08896737730519921",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.enable = true; \nthis.Static00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Static 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Static 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1331,7 +1331,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9222901220819562",
+      "id": "u_10_0.6072325811006807",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.enableevent = true;  \n\nthis.Static00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Static 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Static 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1409,7 +1409,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7386933278019294",
+      "id": "u_10_0.8717851793405073",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.expr = \"3*5\";\nthis.Static00.expr = \"image.text\";</div></td></tr><tr><th>strExpr</th><td colspan=\"2\"><div>텍스트로 적용될 수식을 설정합니다.\n접근 가능한 영역에 정의된 함수를 설정할 수 있습니다.\n\n설정된 수식을 동적으로 실행하여 그 결과값을 Static 에 텍스트로 표시합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1487,7 +1487,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10945062413997553",
+      "id": "u_10_0.2918650324937063",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumFitTo ::= 'none' | 'width' | 'height' | 'both'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.fittocontents = \"width\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>컨텐츠 내용과 관계없이 디자인 시 설정한 Static 의 너비와 높이를 유지합니다.</div></td></tr><tr><th>\"width\"</th><td colspan=\"2\"><div>컨텐츠 내용에 맞게 Static 의 내부 컨텐츠영역 너비를 자동 조정합니다.</div></td></tr><tr><th>\"height\"</th><td colspan=\"2\"><div>컨텐츠 내용에 맞게 Static 의 내부 컨텐츠영역 높이를 자동 조정합니다.</div></td></tr><tr><th>\"both\"</th><td colspan=\"2\"><div>컨텐츠 내용에 맞게 Static 의 내부 컨텐츠영역 너비와 높이를 자동 조정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1575,7 +1575,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8573453111776912",
+      "id": "u_10_0.3455913907110043",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1653,7 +1653,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4062017186180067",
+      "id": "u_10_0.1094650435760629",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1731,7 +1731,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4582355640998439",
+      "id": "u_10_0.08367678030198011",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strfont ::= [&lt;font-style&gt;] [&lt;font-weight&gt;] &lt;font-size&gt; ['/'&lt;line-height&gt;] &lt;font-family&gt;\n\n&lt;font-style&gt; ::= 'normal' | 'italic'\n&lt;font-weight&gt; ::= 'normal' | 'bold' | '100' | '200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'\n&lt;font-size&gt; ::= &lt;nSize&gt; 'px'|'pt'|'em'|'rem'\n&lt;line-height&gt; ::= 'normal' | &lt;nValue&gt; | &lt;nPixel&gt;'px' | &lt;nPercent&gt;'%'\n&lt;font-family&gt; ::= &lt;font-name&gt; [',' &lt;font-name&gt;]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nfont : bold 12pt/30px arial, sans-serif;\n\n* Script ( normal property )\nthis.Static00.font = \"bold 12pt/30px arial, sans-serif\";</div></td></tr><tr><th>&lt;font-style&gt;</th><td colspan=\"2\"><div>폰트의 스타일을 설정합니다.\n\n\"normal\" 설정 시 스타일이 적용되지 않습니다.\n\"italic\" 설정 시 기울임 스타일이 적용됩니다.</div></td></tr><tr><th>&lt;font-weight&gt;</th><td colspan=\"2\"><div>폰트의 굵기를 설정합니다.\n\n\"normal\" 설정 시 굵기가 적용되지 않습니다.\n\"bold\" 설정 시 굵은 폰트가 적용됩니다.\n\n\"100\"~\"900\" 로 설정 시 설정한 굵기로 폰트가 적용됩니다.\n\"100\"~\"900\" 로 설정 시 굵기에 해당하는 폰트가 정의되어 있어야 합니다.</div></td></tr><tr><th>&lt;font-size&gt;</th><td colspan=\"2\"><div>폰트 크기의 단위는 아래와 같이 절대 길이 단위와 상대 길이 단위로 설정할 수 있습니다.\n단위를 지정하지 않으면 속성값이 적용되지 않습니다.\n- 절대 길이 단위: pixel(\"px\"), point(\"pt\")\n- 상대 길이 단위: \"em\", \"rem\"\n\n폰트 크기 단위를 \"em\", \"rem\"으로 설정한 경우에는 아래와 같이 폰트 크기가 계산됩니다.\n- \"em\": 상위 컴포넌트 font-size 기준으로 상대적인 크기를 설정\n- \"rem\": MainFrame font-size 기준으로 상대적인 크기를 설정</div></td></tr><tr><th>&lt;nSize&gt;</th><td colspan=\"2\"><div>폰트 크기 단위에 따라 정수 또는 소수로 설정합니다.\n음수값은 설정할 수 없습니다.\n- \"px\", \"pt\": 정수\n- \"em\", \"rem\": 정수 또는 소수</div></td></tr><tr><th>&lt;line-height&gt;</th><td colspan=\"2\"><div>텍스트가 여러줄로 표시되는 경우 줄 사이의 간격을 설정합니다.\n\n음수값을 설정할 수 없습니다.\n\n\"normal\" 설정 시 줄 사이의 간격을 설정하지 않습니다.\n\"normal\" 설정 시 웹브라우저마다 줄 사이의 간격이 다르게 적용됩니다.\n\"normal\" 설정 시 Nexacro Runtime Environment는 폰트 크기에 곱할 값(&lt;nValue&gt;값)이 \"1.15\" 일 때와 동일하게 동작합니다.</div></td></tr><tr><th>&lt;nValue&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.</div></td></tr><tr><th>&lt;nPixel&gt;</th><td colspan=\"2\"><div>줄 사이의 간격을 pixel 단위의 숫자로 설정합니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;nPercent&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 비율값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.\n\"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;font-family&gt;</th><td colspan=\"2\"><div>폰트 이름을 리스트로 설정합니다.\n\n콤마(\",\")로 구분하여 폰트 이름을 여러개 설정할 수 있습니다.\n먼저 선언된 폰트가 우선적으로 적용됩니다.\n선언된 폰트가 시스템에 없을 경우 선언된 순서대로 사용 가능한 폰트를 적용합니다.\n선언된 폰트가 모두 없을 경우 시스템 기본 폰트가 적용됩니다.</div></td></tr><tr><th>&lt;font-name&gt;</th><td colspan=\"2\"><div>폰트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1809,7 +1809,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.43148115604443815",
+      "id": "u_10_0.35758119834916335",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.height = 10; \nthis.Static00.height = \"10px\"; \nthis.Static00.height = 10%\"; \nthis.Static00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Static의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Static의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Static의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Static의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1887,7 +1887,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.04886939915314403",
+      "id": "u_10_0.9085411496544271",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.hotkey = \"G\"; \nthis.Static00.hotkey = \"CTRL+A\"; \nthis.Static00.hotkey = \"CTRL+ALT+X\";</div></td></tr><tr><th>strHotkey</th><td colspan=\"2\"><div>수식키(CTRL, ALT, SHIFT)와 일반키의 조합으로 설정합니다.\n수식키는 중복으로 조합하여 설정할 수 있습니다.\n각 키는 \"+\" 를 사용하여 조합을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1975,7 +1975,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08945380442900552",
+      "id": "u_10_0.18686685098191003",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Static를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2053,7 +2053,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11036467859092614",
+      "id": "u_10_0.6707600287003475",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 Static 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2131,7 +2131,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8836280322775834",
+      "id": "u_10_0.7190269429063262",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2209,7 +2209,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5044177711530783",
+      "id": "u_10_0.48470851037214413",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.left = 10; \nthis.Static00.left = \"10px\"; \nthis.Static00.left = \"10%\"; \nthis.Static00.left = \"Button00:10px\"; \nthis.Static00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 Static의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Static의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 Static의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Static의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2297,7 +2297,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6841346354162792",
+      "id": "u_10_0.2301449939025556",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strspace ::= 'normal' | &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nletter-spacing : 2px ;\n\n* Script ( normal property )\nthis.Static00.letterSpacing = \"2px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 설정하지 않습니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 pixel 단위로 설정합니다.\n\n스크립트 작성 시에는 \"px\" 단위 표기를 생략할 수 있습니다.\n(XCSS 작성 시에는 \"px\" 단위를 포함해 작성해야 합니다).</div></td></tr></tbody></table>",
       "option": {
@@ -2375,7 +2375,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.05365980596731379",
+      "id": "u_10_0.9150833993719036",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.maxheight = 20; \nthis.Static00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2453,7 +2453,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6903324691348608",
+      "id": "u_10_0.2515905694586936",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.maxwidth = 20; \nthis.Static00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2531,7 +2531,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7610636933469581",
+      "id": "u_10_0.7198053590419572",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.minheight = 20; \nthis.Static00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2609,7 +2609,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.05394064882010763",
+      "id": "u_10_0.5796226916071149",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.minwidth = 20; \nthis.Static00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2687,7 +2687,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6529669822662676",
+      "id": "u_10_0.7157368794166702",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2765,7 +2765,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9796586201962231",
+      "id": "u_10_0.0519526002671139",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.Static00.border = \"1px solid #999999\";\nthis.Static00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -2843,7 +2843,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10479111046521217",
+      "id": "u_10_0.09373872850487963",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>stredge ::= 'none' | &lt;image&gt; [&lt;fixedwidth&gt;'px' &lt;fixedheight&gt;'px']\n\n&lt;image&gt; ::= 'URL(\"' &lt;Theme-Image&gt; | &lt;Web-Image&gt; '\")'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-edge : \"URL('./images/border.png')\" 5px 5px;\n\n* Script ( normal property )\nthis.Static00.edge = \"URL('./images/border.png')\" 5px 5px;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>edge 이미지를 설정하지 않습니다.</div></td></tr><tr><th>&lt;image&gt;</th><td colspan=\"2\"><div>'URL (\"[이미지위치]\")' 형식으로 테마 또는 웹의 이미지를 설정합니다.\n\n테두리(border) 안쪽에 edge 형태로 이미지가 표시됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;fixedwidth&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 왼쪽/오른쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 왼쪽/오른쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr><tr><th>&lt;fixedheight&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 위쪽/아래쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 위쪽/아래쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2921,7 +2921,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5334263398431177",
+      "id": "u_10_0.9624553283051418",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strpadding ::= &lt;npadding&gt;'px'{4}</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-padding : 5px 5px 5px 5px;\n\n* Script ( normal property )\nthis.Static00.padding = \"5px 5px 5px 5px\";</div></td></tr><tr><th>&lt;npadding&gt;</th><td colspan=\"2\"><div>Static 영역의 안쪽 여백을 pixel 단위로 설정합니다.\n\n값을 1회 입력 시 top/right/bottom/left 에 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2999,7 +2999,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5826530126930123",
+      "id": "u_10_0.26992272445788923",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlBgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-background-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-background-image : URL(\"theme://images/Test.jpg\");</div></td></tr><tr><th>strRtlBgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\nbackground 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\nbackground 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3077,7 +3077,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.44916626773870705",
+      "id": "u_10_0.993795045456772",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlEgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-edge-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-edge-image : URL(\"theme://images/Test.jpg\")</div></td></tr><tr><th>strRtlEgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\n-nexa-edge 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\n-nexa-edge 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3155,7 +3155,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2783417623910154",
+      "id": "u_10_0.4853365717821543",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strtextalign ::= 'left' | 'center' | 'right'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-text-align : center;\n\n* Script ( normal property )\nthis.Static00.textAlign = \"center\";</div></td></tr><tr><th>\"left\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 왼쪽으로 정렬합니다.</div></td></tr><tr><th>\"center\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 가운데로 정렬합니다.</div></td></tr><tr><th>\"right\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 오른쪽으로 정렬합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3233,7 +3233,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.01133901265366355",
+      "id": "u_10_0.27598303202884067",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strTxtDeco ::= 'none' | &lt;txt-deco&gt; [' ' &lt;txt-deco&gt;]{2}\n\n&lt;txt-deco&gt; ::= 'underline' | 'overline' | 'line-through'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-text-decoration : underline overline;\n\n* Script ( normal property )\nthis.Static00.textDecoration = \"underline overline\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>텍스트에 효과를 적용하지 않습니다.</div></td></tr><tr><th>&lt;txt-deco&gt;</th><td colspan=\"2\"><div>텍스트에 적용할 효과를 설정합니다.\n\n\"underline\" 설정 시 텍스트에 밑줄 효과가 적용됩니다.\n\"overline\" 설정 시 텍스트에 윗줄 효과가 적용됩니다.\n\"line-through\" 설정 시 텍스트에 취소선 효과가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3311,7 +3311,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8624241166547784",
+      "id": "u_10_0.1990503844856233",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strvertalign ::= 'top' | 'middle' | 'bottom'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-vertical-align : middle;\n\n* Script ( normal property )\nthis.Static00.verticalAlign = \"middle\";</div></td></tr><tr><th>\"top\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 위쪽으로 정렬합니다.</div></td></tr><tr><th>\"middle\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 가운데로 정렬합니다.</div></td></tr><tr><th>\"bottom\"</th><td colspan=\"2\"><div>텍스트 또는 컨텐츠를 아래쪽으로 정렬합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3389,7 +3389,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.30031634948543406",
+      "id": "u_10_0.5993776519651685",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strwordwrap ::= 'none' | 'char' | 'english'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-word-wrap : char;\n\n* Script ( normal property )\nthis.Static.wordWrap = \"char\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>자동으로 줄바꿈을 수행하지 않습니다.</div></td></tr><tr><th>\"char\"</th><td colspan=\"2\"><div>글자 단위로 줄바꿈을 자동 수행합니다.</div></td></tr><tr><th>\"english\"</th><td colspan=\"2\"><div>영문자일 경우 단어 단위로 줄바꿈을 자동 수행합니다.\n영문자 이외의 문자는 글자 단위로 줄바꿈을 자동 수행합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3477,7 +3477,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5523358510217522",
+      "id": "u_10_0.7857973776255615",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nopacity : 0.8;\nopacity : 80%;\n\n* Script ( normal property )\nthis.Static00.opacity = \"0.8\";\nthis.Static00.opacity = 0.8;\nthis.Static00.opacity = \"80%\";</div></td></tr><tr><th>strOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nXCSS는 숫자 또는 퍼센트 값으로만 설정할 수 있습니다.\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3555,7 +3555,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34626954837290025",
+      "id": "u_10_0.8517883786202387",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Static00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -3633,7 +3633,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2724984228674364",
+      "id": "u_10_0.5055057976982661",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.positionstep = 0; \nthis.Static00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>Static 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 Static 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3721,7 +3721,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.45534221314438694",
+      "id": "u_10_0.5516542784007252",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.right = 10; \nthis.Static00.right = \"10px\"; \nthis.Static00.right = \"10%\"; \nthis.Static00.right = \"Button00:10px\"; \nthis.Static00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 Static의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Static의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 Static의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Static의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3799,7 +3799,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8252220394448541",
+      "id": "u_10_0.6248506505720052",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRtl ::= undefined | 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var vRtl = this.Static00.rtl;</div></td></tr><tr><th>undefined</th><td colspan=\"2\"><div>undefined 설정 시 상위 컴포넌트의 rtl 속성값이 적용됩니다.\n\n사용자가 rtl 속성값을 설정하지 않거나 삭제했을 경우 undefined 가 설정됩니다.</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Static 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 오른쪽으로 설정합니다.\nStatic 의 내부 좌표계의 기준을 오른쪽으로 설정합니다.\nStatic 의 텍스트 표시 기준을 오른쪽으로 설정합니다.\n수직스크롤바가 있을 경우 왼쪽에 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Static 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 왼쪽으로 설정합니다.\nStatic 의 내부 좌표계의 기준을 왼쪽으로 설정합니다.\nStatic 의 텍스트 표시 기준을 왼쪽으로 설정합니다.\n수직스크롤바가 있을 경우 오른쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3877,7 +3877,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4766995747495665",
+      "id": "u_10_0.7334553046637484",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3965,7 +3965,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.45652970242889546",
+      "id": "u_10_0.22715833027585153",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4053,7 +4053,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2507176904552325",
+      "id": "u_10_0.751135434788946",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.text = \"No :\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>Static 에 표시될 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4131,7 +4131,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.28395391392278035",
+      "id": "u_10_0.09337147948399682",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.tooltiptext = \"This is ToolTip Text\"; this.Static00.tooltiptext = \"\";          // 풍선 도움말이 표시되지 않습니다. \n\nthis.Static00.tooltiptext = null;        // 상위 컴포넌트의 풍선 도움말이 표시됩니다.</div></td></tr><tr><th>strToolTipText</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n빈문자열(EmptyString) 설정 시 풍선도움말이 표시되지 않습니다.\nnull 또는 undefined 설정 시 상위컴포넌트(Form, Div 등)의 풍선도움말이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4209,7 +4209,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.12118602033708337",
+      "id": "u_10_0.9298675187392856",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumTooltipType ::= 'default' | 'hover' | 'inplace' | 'default,mouseleave' | 'hover,mouseleave' | 'inplace,mouseleave'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.tooltiptype = \"hover\";</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"hover\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역내에 멈춰서 일정시간이 경과하면 풍선도움말이 사라집니다.\nStatic 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경되거나 사라진 풍선도움말이 다시 표시됩니다.</div></td></tr><tr><th>\"inplace\"</th><td colspan=\"2\"><div>Static 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"default,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr><tr><th>\"hover,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역에 있으면 풍선도움말이 사라지지 않습니다.\nStatic 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경됩니다.</div></td></tr><tr><th>\"inplace,mouseleave\"</th><td colspan=\"2\"><div>Static 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Static 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4287,7 +4287,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6934515275248686",
+      "id": "u_10_0.15568473196149613",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.top = 10; \nthis.Static00.top = \"10px\"; \nthis.Static00.top = \"10%\"; \nthis.Static00.top = \"Button00:10px\"; \nthis.Static00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 Static의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Static의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 Static의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Static의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4365,7 +4365,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7612726485361664",
+      "id": "u_10_0.6562423619278772",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bDecorate ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.usedecorate = true; \nthis.Static00.text = \"&lt;u v='true'&gt;&lt;i v='true'&gt;Static00&lt;/i&gt;&lt;/u&gt;\";</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>텍스트에 Decorate 효과를 적용합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>텍스트에 Decorate 효과를 적용하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4385,7 +4385,7 @@
       "content": "- usedecorate 속성값을 설정하지 않으면 false 로 적용됩니다.\n\n- Source에 text 속성값을 직접 입력할 때 \"&lt;\", \"&gt;\" 같은 특수문자는 \"&lt;\", \"&gt;\" 형태의 HTML 문법을 사용하여야 합니다.\n  \"@굴림\" 등 \"@\"가 붙은 폰트는 HTML에서 지원하지 않습니다.\n\n- text 속성값에 Tag 형식으로 Decorate 효과를 설정합니다. \n\n- link 효과는 execBrowser() 메소드와 동일하게 동작합니다. \n\n\n◆ 일부 문자 입력 제한\n\n- Tag 형태의 \"&lt;\", \"&gt;\" 특수문자를 사용하고 지정된 Tag 형식 외의 영문자를 사용하는 경우에는 입력값이 삭제됩니다.\n  예를 들어 \"&lt;a href=''&gt;\" 형식으로 입력 시 해당 값은 삭제되어 처리됩니다.."
     },
     {
-      "id": "u_10_0.20610468735071585",
+      "id": "u_10_0.5539610278382627",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Type</th>\t\t<th>Description</th>\t\t<th>Default</th>\t\t<th>Example</th>\t</tr></thead>\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td><div>fs</div></td>\t\t<td><div>폰트크기(font size)를 지정</div></td>\t\t<td><div>\"12\"</div></td>\t\t<td><div>&lt;fs v='12'&gt;Text&lt;/fs&gt;</div></td>\t</tr><tr>\t\t<td><div>fc</div></td>\t\t<td><div>폰트색상(font color)를 지정</div></td>\t\t<td><div>\"#000000\"</div></td>\t\t<td><div>&lt;fc v='red'&gt;Text&lt;/fc&gt;</div></td>\t</tr><tr>\t\t<td><div>ff</div></td>\t\t<td><div>폰트종류(font face)를 지정</div></td>\t\t<td><div>\"굴림\"</div></td>\t\t<td><div>&lt;ff v='Dotum'&gt;Text&lt;/ff&gt;</div></td>\t</tr><tr>\t\t<td><div>b</div></td>\t\t<td><div>굵은(bold) 효과 지정</div></td>\t\t<td><div>\"false\"</div></td>\t\t<td><div>&lt;b v='true'&gt;Text&lt;/b&gt;</div></td>\t</tr><tr>\t\t<td><div>i</div></td>\t\t<td><div>기울임(italic) 효과 지정</div></td>\t\t<td><div>\"false\"</div></td>\t\t<td><div>&lt;i v='true'&gt;Text&lt;/i&gt;</div></td>\t</tr><tr>\t\t<td><div>u</div></td>\t\t<td><div>밑줄(under line) 효과 지정</div></td>\t\t<td><div>\"false\"</div></td>\t\t<td><div>&lt;u v='true'&gt;Text&lt;/u&gt;</div></td>\t</tr><tr>\t\t<td><div>s</div></td>\t\t<td><div>취소선(strike) 효과 지정</div></td>\t\t<td><div>\"false\"</div></td>\t\t<td><div>&lt;s v='true'&gt;Text&lt;/s&gt;</div></td>\t</tr><tr>\t\t<td><div>l</div></td>\t\t<td><div>링크(link) 효과 지정\n\nvalue 에는 URL, 전화번호, 메일주소 중 하나를 설정할 수 있습니다.\nvalue 에 설정된 형태에 따라 알맞는 앱이 실행됩니다.</div></td>\t\t<td><div>\"false\"</div></td>\t\t<td><div>&lt;l v='http://www.tobesoft.co.kr'&gt;Text&lt;/l&gt;\n&lt;l v='tel:010-1234-5678'&gt; 전화걸기 &lt;/l&gt;\n&lt;l v='mailto:manager@tobesoft.co.kr'&gt; 메일보내기 &lt;/l&gt;</div></td>\t</tr></tbody></table>",
       "option": {
@@ -4463,7 +4463,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.29249866022046656",
+      "id": "u_10_0.6134906630886435",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.visible = true; \nthis.Static00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Static 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Static 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4541,7 +4541,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9326993245113671",
+      "id": "u_10_0.8276125664428953",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Static00.width = 10; this.Static00.width = \"10px\"; \nthis.Static00.width = \"10%\"; \nthis.Static00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Static 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Static 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Static 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Static 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Static의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Static의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Static의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Static의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Static의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Static의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4619,7 +4619,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7261830812143182",
+      "id": "u_10_0.13471156549161134",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strWordSpacing ::= 'normal' | &lt;nVal&gt;'px'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nword-spacing : 30px;\n\n* Script ( normal property )\nthis.Static00.wordSpacing = \"30px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>텍스트의 단어 사이 간격을 설정하지 않습니다.\n\n현재 font 에 맞는 기본형태로 텍스트가 표시됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>pixel 단위로 텍스트의 단어 사이 간격을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4687,7 +4687,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2707649882682478",
+      "id": "u_10_0.8934976893282472",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>Static 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.Static00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4702,7 +4702,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07647605603440055",
+      "id": "u_10_0.5529246516707843",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4765,7 +4765,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30288038019943564",
+      "id": "u_10_0.6179859024837057",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Static00.addEventHandler( \"onmove\", this.Static00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4780,7 +4780,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.14791740185410185",
+      "id": "u_10_0.05584425123861736",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4833,7 +4833,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8243638699074557",
+      "id": "u_10_0.8421941815808711",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Static00.addEventHandlerLookup( \"onmove\", \"Static00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -4848,7 +4848,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.0588594116972202",
+      "id": "u_10_0.1725656924722504",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4911,7 +4911,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6385407747955729",
+      "id": "u_09_0.2214807227383",
       "type": "command",
       "content": "this.Static.bringToFront();"
     },
@@ -4969,7 +4969,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4458061592221412",
+      "id": "u_09_0.471960085658087",
       "type": "command",
       "content": "this.Static.bringToPrev();"
     },
@@ -5027,7 +5027,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07910012502962527",
+      "id": "u_10_0.6319956578664355",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.Static00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5042,7 +5042,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6838076457345349",
+      "id": "u_10_0.829963586514484",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5105,7 +5105,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2827880177094526",
+      "id": "u_09_0.301033454491323",
       "type": "command",
       "content": "var bSucc = this.Static00.destroy();"
     },
@@ -5115,7 +5115,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8154290637649462",
+      "id": "u_10_0.25712475410642854",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Static 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nStatic 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5178,7 +5178,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5985926038782619",
+      "id": "u_10_0.9444468111928445",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.Static00.findEventHandler( \"onmove\", this.Static00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5193,7 +5193,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8297120917690229",
+      "id": "u_10_0.2972508034928405",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5256,7 +5256,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7680596000155816",
+      "id": "u_09_0.9697174913047293",
       "type": "command",
       "content": "var strTxt = this.Static00.getDisplayText() ;"
     },
@@ -5266,7 +5266,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6451544838757128",
+      "id": "u_10_0.16985741726664927",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Static 에 표시된 텍스트값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5329,7 +5329,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.030356141379717205",
+      "id": "u_10_0.08985682551760898",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = Static00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -5344,7 +5344,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6172007158729574",
+      "id": "u_10_0.4512701210852136",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5397,7 +5397,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6217409788203806",
+      "id": "u_09_0.046050377514440965",
       "type": "command",
       "content": "var nBottom = this.Static.getOffsetBottom();"
     },
@@ -5407,7 +5407,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6630394257993574",
+      "id": "u_10_0.05450912598172708",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Static 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5470,7 +5470,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.37912096327794576",
+      "id": "u_09_0.3184206287632818",
       "type": "command",
       "content": "var nHeight = this.Static.getOffsetHeight();"
     },
@@ -5480,7 +5480,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.147757642529721",
+      "id": "u_10_0.5606173983544186",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5553,7 +5553,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8693322051594208",
+      "id": "u_09_0.9348423435981461",
       "type": "command",
       "content": "var nleft = this.Static.getOffsetLeft();"
     },
@@ -5563,7 +5563,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2998059300294066",
+      "id": "u_10_0.4313594612974805",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Static 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5626,7 +5626,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6196794529468092",
+      "id": "u_09_0.5685527967169348",
       "type": "command",
       "content": "var nRight = this.Static.getOffsetRight();"
     },
@@ -5636,7 +5636,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.34470980184037725",
+      "id": "u_10_0.6471995143804389",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Static 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5699,7 +5699,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6699908368780759",
+      "id": "u_09_0.6435942845702569",
       "type": "command",
       "content": "var nTop = this.Static.getOffsetTop();"
     },
@@ -5709,7 +5709,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9878754921989871",
+      "id": "u_10_0.22409544676140591",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Static 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5772,7 +5772,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.22900262439431185",
+      "id": "u_09_0.5870318848636837",
       "type": "command",
       "content": "var nWidth = this.Static.getOffsetWidth();"
     },
@@ -5782,7 +5782,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.024681882362569962",
+      "id": "u_10_0.7681850215069272",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5855,7 +5855,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7522125723900117",
+      "id": "u_09_0.26366065681235373",
       "type": "command",
       "content": "var nbottom = this.Static.getPixelBottom();"
     },
@@ -5865,7 +5865,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48580513500581557",
+      "id": "u_10_0.5670700069872922",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5928,7 +5928,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.06156230242780247",
+      "id": "u_09_0.5950903288658808",
       "type": "command",
       "content": "var nheight = this.Static.getPixelHeight();"
     },
@@ -5938,7 +5938,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8501705240230826",
+      "id": "u_10_0.2942147387302686",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6001,7 +6001,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.925709674643789",
+      "id": "u_09_0.7892964453036865",
       "type": "command",
       "content": "var nleft = this.Static.getPixelLeft();"
     },
@@ -6011,7 +6011,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9938927822301018",
+      "id": "u_10_0.38342419123710225",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6074,7 +6074,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4134582992528629",
+      "id": "u_09_0.8099153730009065",
       "type": "command",
       "content": "var nright = this.Static.getPixelRight();"
     },
@@ -6084,7 +6084,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9310616614781753",
+      "id": "u_10_0.27474976056908973",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6147,7 +6147,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4599541487218074",
+      "id": "u_09_0.22608936145370473",
       "type": "command",
       "content": "var ntop = this.Static.getPixelTop();"
     },
@@ -6157,7 +6157,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4797145198626045",
+      "id": "u_10_0.9628136366357833",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6220,7 +6220,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8605063160330328",
+      "id": "u_09_0.8813130934160431",
       "type": "command",
       "content": "var nwidth = this.Static.getPixelWidth();"
     },
@@ -6230,7 +6230,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4995445724383455",
+      "id": "u_10_0.4985218217614007",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Static 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6293,7 +6293,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.053756069353778746",
+      "id": "u_10_0.5463214885293196",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>Static 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Static 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Static 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Static 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Static 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>Static 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new Static();\n\nobjComp.init( \"Static00\", 30, 120, 196, 46 );\nobjComp.init( \"Static00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Static00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Static00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Static00\", \"Static22:10\", 300, null, null, \"Static33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -6356,7 +6356,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5675071080943759",
+      "id": "u_10_0.8587343241663955",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.Static00.insertEventHandler( \"onmove\", 0, this.Static00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -6371,7 +6371,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4551796634745705",
+      "id": "u_10_0.02205059382069441",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6434,7 +6434,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5084213960349827",
+      "id": "u_10_0.20655732744351307",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Static 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Static 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Static 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Static 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00.move(10,10);\nthis.Static00.move(10,10,100,100);\nthis.Static00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -6497,7 +6497,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9626750420507119",
+      "id": "u_10_0.8858234678151363",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.moveToNext( this.Button00 );\nthis.Static.moveToNext( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6560,7 +6560,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7187156786133487",
+      "id": "u_10_0.4237849074972715",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.moveToPrev( this.Button00 );\nthis.Static.moveToPrev( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6623,7 +6623,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3525292212287624",
+      "id": "u_10_0.84286526704336",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>Static 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.Static00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6638,7 +6638,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6671719691087905",
+      "id": "u_10_0.8754213036531803",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6701,7 +6701,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7859641985477229",
+      "id": "u_10_0.8832321672705206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Static00.removeEventHandler( \"onmove\", this.Static00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -6716,7 +6716,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2533966472292407",
+      "id": "u_10_0.8918225845458274",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6779,7 +6779,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8317318877571448",
+      "id": "u_10_0.6804361473407213",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Static00.removeEventHandlerLookup( \"onmove\", \"Static00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -6794,7 +6794,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6797459845209063",
+      "id": "u_10_0.9494363231564382",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6857,7 +6857,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9239432318438853",
+      "id": "u_10_0.44197018185816506",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Static 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Static 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>Static 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Static 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Static 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -6920,7 +6920,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3355468485571942",
+      "id": "u_09_0.4007064739196864",
       "type": "command",
       "content": "this.Static.sendToBack();"
     },
@@ -6978,7 +6978,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.02347930773291329",
+      "id": "u_09_0.06435392806495621",
       "type": "command",
       "content": "this.Static.sendToNext();"
     },
@@ -7036,7 +7036,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.34151340013836595",
+      "id": "u_10_0.46392410275379625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.Static00.setEventHandler( \"onmove\", this.Static00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -7051,7 +7051,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8007536856390219",
+      "id": "u_10_0.7903246349324785",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7114,7 +7114,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11547478847159998",
+      "id": "u_10_0.5243504265690628",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00_onmove = function( obj:nexacro.Static,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Static00.setEventHandlerLookup( \"onmove\", \"Static00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7129,7 +7129,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7776863488315581",
+      "id": "u_10_0.33980106406549904",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7192,7 +7192,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32387373071690573",
+      "id": "u_10_0.846009152616607",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Static 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -7255,7 +7255,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0008271113390765361",
+      "id": "u_10_0.24044780310674774",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Static 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -7318,7 +7318,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8564510273974046",
+      "id": "u_10_0.42694387574638115",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Static 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -7381,7 +7381,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09915863366697653",
+      "id": "u_10_0.37569728649108614",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Static 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -7444,7 +7444,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.012120824388313967",
+      "id": "u_10_0.26151090601847227",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Static 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -7507,7 +7507,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.024212577599645235",
+      "id": "u_10_0.3244635842468242",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Static 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -7570,7 +7570,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3920360120925479",
+      "id": "u_09_0.578585041237424",
       "type": "command",
       "content": "this.Static00.show();"
     },
@@ -7634,9 +7634,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5528197285629859",
+      "id": "u_10_0.8485676303695945",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ClickEventInfo\" string=\"ClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ClickEventInfo\" string=\"ClickEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -7698,9 +7698,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8948073844433192",
+      "id": "u_10_0.5611812408325879",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ContextMenuEventInfo\" string=\"ContextMenuEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContextMenuEventInfo\" string=\"ContextMenuEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -7762,9 +7762,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19192256053189005",
+      "id": "u_10_0.43325250898844214",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -7777,7 +7777,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8595100556279015",
+      "id": "u_10_0.0285749920575189",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7841,9 +7841,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6388397678277481",
+      "id": "u_10_0.20385375544599849",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -7856,7 +7856,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7505869786483482",
+      "id": "u_10_0.9078297221654077",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7940,9 +7940,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3836270476940422",
+      "id": "u_10_0.7742267581940135",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -7955,7 +7955,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21280076709545737",
+      "id": "u_10_0.5811635746756596",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8019,9 +8019,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5763660846421106",
+      "id": "u_10_0.8739531545254364",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8034,7 +8034,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9416960876438413",
+      "id": "u_10_0.8314938154558793",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8098,9 +8098,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06291978956287281",
+      "id": "u_10_0.06747379770055495",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8113,7 +8113,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8720698654985419",
+      "id": "u_10_0.048185686421794216",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8177,9 +8177,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.025585865103418648",
+      "id": "u_10_0.011066949611997723",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8231,9 +8231,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9123592547012718",
+      "id": "u_10_0.06492730443544492",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8246,7 +8246,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.32353675738043575",
+      "id": "u_10_0.28884988476468",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8320,9 +8320,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9138033601712154",
+      "id": "u_10_0.7878673067968858",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\" string=\"MouseEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8335,7 +8335,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22308184632851003",
+      "id": "u_10_0.7278157346629789",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8409,9 +8409,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.025549556796112483",
+      "id": "u_10_0.6727890314393676",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8463,9 +8463,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7972277633022192",
+      "id": "u_10_0.5591591422070306",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8478,7 +8478,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.11210067802107104",
+      "id": "u_10_0.2519605329766892",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8542,9 +8542,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8457873608640218",
+      "id": "u_10_0.8210884137346592",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8557,7 +8557,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.29477663532425913",
+      "id": "u_10_0.5135661493972613",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8621,9 +8621,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.510221246776011",
+      "id": "u_10_0.9058128548452449",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Static</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\" string=\"TouchEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -8636,7 +8636,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9746225815578179",
+      "id": "u_10_0.4240427565752015",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
