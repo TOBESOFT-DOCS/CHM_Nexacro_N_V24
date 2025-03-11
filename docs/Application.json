@@ -79,7 +79,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7468773620236793",
+      "id": "u_10_0.7769122877466095",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objItem0 = objApp.all[0] ;</div></td></tr></tbody></table>",
       "option": {
@@ -157,7 +157,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.30464459302136826",
+      "id": "u_10_0.240398206657506",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nalert(objApp.licenseurl);</div></td></tr><tr><th>licenseurl</th><td colspan=\"2\"><div>라이선스 정보를 가진 파일의 경로를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -225,7 +225,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7808531288565423",
+      "id": "u_10_0.6556726883130783",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objMainframe = objApp.mainframe ;</div></td></tr></tbody></table>",
       "option": {
@@ -293,7 +293,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8419790053187369",
+      "id": "u_10_0.03677281115895703",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>Application 의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -371,7 +371,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5521877896089574",
+      "id": "u_10_0.6360314746956393",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>screenid</th><td colspan=\"2\"><div>ScreenDefinition 영역에 정의된 스크린 항목을 콤마(\",\")로 구분하여 여러개 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -439,7 +439,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8822337252813189",
+      "id": "u_10_0.18542689482554087",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objTray0 = objApp.trays[0] ;</div></td></tr></tbody></table>",
       "option": {
@@ -507,7 +507,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.866564241496919",
+      "id": "u_10_0.6757659128685619",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nobjApp.version = \"4.0\";</div></td></tr><tr><th>strVersion</th><td colspan=\"2\"><div>Application 의 버전을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -565,7 +565,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6542859335696691",
+      "id": "u_10_0.9422773806701384",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.addEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
       "option": {
@@ -580,7 +580,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6811355957706701",
+      "id": "u_10_0.3286398974666608",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -633,7 +633,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06569924739599564",
+      "id": "u_10_0.6996485464955321",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.addEventHandlerLookup( \"onload\", \"application_onload\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -648,7 +648,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8218732933661483",
+      "id": "u_10_0.45553025822923465",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -711,7 +711,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16924099309204854",
+      "id": "u_10_0.3788005561834006",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTrayID</td><td>String</td><td colspan=\"2\"><div>Application 에 추가될 Tray 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objTray</td><td>Object</td><td colspan=\"2\"><div>Application 에 추가될 Tray 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
       "option": {
@@ -726,7 +726,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.43354130081856135",
+      "id": "u_10_0.21279682152354962",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>trays 속성에 추가된 Tray 오브젝트의 인덱스를 반환합니다.\n\nTray 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -789,7 +789,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.051330588298515445",
+      "id": "u_10_0.8904639940649399",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수의 ID를 설정합니다.</div></td></tr><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar nSucc;\nnSucc = objApp.addVariable(\"aa\", \"test1\");\nnSucc = objApp.addVariable(\"aa\", \"test1\");</div></td></tr></tbody></table>",
       "option": {
@@ -804,7 +804,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.19682321012893023",
+      "id": "u_10_0.12298036975872362",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>변수 추가에 성공하면 \"1\" 을 반환합니다.\n변수 추가에 실패하면 \"0\" 을 반환합니다.\n동일한 변수가 존재하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -877,7 +877,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5583975253641145",
+      "id": "u_10_0.7977369669972295",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.alert( \"warning\" );</div></td></tr></tbody></table>",
       "option": {
@@ -950,7 +950,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23367850720012617",
+      "id": "u_10_0.5639739333714003",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>중지 시킬 트랜잭션의 ID 를 설정합니다.\n\n값 생략 시 트랜잭션 중 ESC 키를 입력했을 때와 동일하게 통신을 강제로 중지시킵니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1013,7 +1013,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.785978053343317",
+      "id": "u_10_0.14744799396971597",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar nCnt = objApp.clearEventHandler( \"onload\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1028,7 +1028,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5663292859681254",
+      "id": "u_10_0.6930928428606552",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1091,7 +1091,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5840468103684581",
+      "id": "u_10_0.9609191228881506",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다.</div></td></tr><tr><td>strCaption</td><td>String</td><td colspan=\"2\"><div>대화상자의 TitleBar 에 표시할 텍스트를 설정합니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>대화상자의 왼쪽 영역에 표시될 아이콘 종류를 문자열로 설정합니다.\n\n\"error\" 설정 시 빨간색 \"X\" 모양 아이콘이 표시됩니다.\n\"question\" 설정 시 물음표(\"?\") 모양 아이콘이 표시됩니다.\n\"warning\" 설정 시 노랑색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\"information\" 설정 시 파란색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\n값을 설정하지 않으면 아이콘을 표시하지 않습니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar bOK;\nbOK = objApp.confirm( \"Please check it carefully.\" );\nbOK = objApp.confirm( \"Please check it carefully.\" , \"TitleTest\");\nbOK = objApp.confirm( \"Please check it carefully.\" , \"TitleTest\", \"error\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1106,7 +1106,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.29456353037873995",
+      "id": "u_10_0.42014889389143817",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>표시된 선택 대화상자에서 \"확인\" 버튼을 선택하면 \"true\"를 반환합니다.\n표시된 선택 대화상자에서 \"취소\" 버튼을 선택하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1169,7 +1169,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.267094074646146",
+      "id": "u_09_0.47361648642389376",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;\nobjApp.exit() ;"
     },
@@ -1227,7 +1227,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.42476152691039826",
+      "id": "u_10_0.6124284249887003",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.findEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1242,7 +1242,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9747284658794162",
+      "id": "u_10_0.3305475463133022",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에서 찾으려고 하는 핸들러 함수의 인덱스를 반환합니다.\n\n찾으려고 하는 핸들러 함수가 존재하지 않는다면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1305,7 +1305,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.771954202935543",
+      "id": "u_09_0.8630813138432026",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ; \nvar objForm = objApp.getActiveForm() ;"
     },
@@ -1315,7 +1315,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6194590778856666",
+      "id": "u_10_0.5663992656176479",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 포커스를 가진 컴포넌트의 부모 Form 을 반환합니다.\n\nDiv 와 같은 컨테이너 컴포넌트에 속한 컴포넌트에 포커스가 있을 경우 Div 의 부모 Form 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1378,7 +1378,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7571736473010694",
+      "id": "u_09_0.8272874954233103",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;\nvar objForm = objApp.getActiveFrame() ;"
     },
@@ -1388,7 +1388,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8397385432494805",
+      "id": "u_10_0.6084344903291313",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 포커스를 가진 Form 의 부모 Frame 을 반환합니다.\n\nModal, Modeless 자식 Frame 을 포함하여 현재 포커스를 가진 Frame 이 반환됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1451,7 +1451,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6512419038793715",
+      "id": "u_10_0.1252402495301832",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx </td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n인덱스는 \"0\"부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar objFunc = objApp.getEventHandler( \"onload\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -1466,7 +1466,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5852036517922719",
+      "id": "u_10_0.7283215771483929",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 \"null\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1519,7 +1519,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6816544477596567",
+      "id": "u_10_0.22230537550479013",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.insertEventHandler( \"onload\", 0, this.application_onload, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1534,7 +1534,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6752566098828285",
+      "id": "u_10_0.33829877449830503",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1597,7 +1597,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8131826149884948",
+      "id": "u_10_0.15331568825401165",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 변수의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\nvar bExist = objApp.isExistVariable(\"aa\");</div></td></tr></tbody></table>",
       "option": {
@@ -1612,7 +1612,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.34571748189406193",
+      "id": "u_10_0.48326533699588137",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>변수가 AppVariables 영역에 존재하면 \"true\" 를 반환합니다.\n변수가 AppVariables 영역에 존재하지 않으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1665,7 +1665,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.14848901768474065",
+      "id": "u_10_0.9029886530361882",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strObjectID</td><td>String</td><td colspan=\"2\"><div>검색하여 찾고자 하는 오브젝트의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1680,7 +1680,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.18959647437905525",
+      "id": "u_10_0.4995562274059656",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>검색하여 찾아낸 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1733,7 +1733,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1555554552054782",
+      "id": "u_10_0.08036814715605645",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.removeEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1748,7 +1748,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3971780736038649",
+      "id": "u_10_0.23323724893891828",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\"을 반환합니다.\n핸들러 함수 제거에 실패하면 \"0\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1811,7 +1811,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6167039058140564",
+      "id": "u_10_0.1299260988515557",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.removeEventHandlerLookup( \"onload\", \"application_onload\", this );</div></td></tr></tbody></table>",
       "option": {
@@ -1826,7 +1826,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.730012843823431",
+      "id": "u_10_0.5712549326760769",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 \"1\"을 반환합니다.\n핸들러 함수 제거에 실패하면 \"0\"을 반환합니다</div></td></tr></tbody></table>",
       "option": {
@@ -1889,7 +1889,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8969790313185244",
+      "id": "u_10_0.915833150036996",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strId</td><td>String</td><td colspan=\"2\"><div>Application 의 trays 속성에서 삭제될 Tray 오브젝트의 ID 를 설정합니다.\n\n값을 설정하지 않으면 등록된 전체 Tray 오브젝트가 삭제됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication();\n\nobjApp.removeTray(\"Tray00\");\nobjApp.removeTray();</div></td></tr></tbody></table>",
       "option": {
@@ -1942,7 +1942,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.24333766641659416",
+      "id": "u_10_0.7610861748072085",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.removeVariable(\"aa\") ;</div></td></tr></tbody></table>",
       "option": {
@@ -2005,7 +2005,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9999507210300841",
+      "id": "u_10_0.09302812429663265",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.setEventHandler( \"onload\", this.application_onload, this);</div></td></tr></tbody></table>",
       "option": {
@@ -2020,7 +2020,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21127225832206986",
+      "id": "u_10_0.5135428149620109",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2083,7 +2083,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4559701324255193",
+      "id": "u_10_0.11491120210090855",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget </td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.application_onload = function(obj:nexacro.Application,e:nexacro.LoadEventInfo) { // 수행할 스크립트 };\n\nvar objApp = nexacro.getApplication() ; \nvar nIndex = objApp.setEventHandlerLookup( \"onload\", \"application_onload\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -2098,7 +2098,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.36258013986947957",
+      "id": "u_10_0.888471554871395",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 \"0\"을 반환합니다.\n첫번째 핸들러 함수 변경에 실패하면 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2161,7 +2161,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.04499237732623729",
+      "id": "u_10_0.866721590199032",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수명을 설정합니다.</div></td></tr><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar nSucc = objApp.setVariable(\"aa\", \"test1\");</div></td></tr></tbody></table>",
       "option": {
@@ -2176,7 +2176,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4162005318856049",
+      "id": "u_10_0.80716146286801",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>변수 추가에 성공하면 \"1\" 을 반환합니다.\n변수 추가에 실패하면 \"0\" 을 반환합니다.\n동일한 변수가 존재하면 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2239,7 +2239,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9642459772168636",
+      "id": "u_10_0.8169948157497331",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLog</td><td>String</td><td colspan=\"2\"><div>로그로 출력할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trace( \"Check - first position\" ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -2302,7 +2302,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3106499507190563",
+      "id": "u_10_0.04901172006754084",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 구분하기 위한 ID를 문자열로 설정합니다.</div></td></tr><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 요청할 서버페이지 주소를 문자열로 설정합니다.\n\nstrURL ::= &lt;absolute-url&gt; | &lt;relative-url&gt;\n\n&lt;absolute-url&gt;\n서버에 배포된 페이지 주소를 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.\n\n&lt;relative-url&gt;\nTypeDefinition 의 Services 영역에 정의된 Prefix 를 사용한 형식으로 설정합니다.\n또는 ADL 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr><tr><td>strInDatasets</td><td>String</td><td colspan=\"2\"><div>데이터 처리를 위해 서버로 보낼 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"입력ID=DataSet ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 보낼 수 있습니다.\n\nex) \"input1=DataSet00 input2=DataSet01\"\n\nApplication 하위 오브젝트의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"input1=mainframe.frame.form.Dataset00 input2=Dataset01\"</div></td></tr><tr><td>strOutDatasets</td><td>String</td><td colspan=\"2\"><div>서버에서 보내는 데이터를 받을 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"DataSet ID=출력ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output1\"\n\n아래와 같은 형식으로 하나의 Ouput Dataset(출력ID)을 여러 개의 Dataset에서 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output0\"\n\nApplication 하위 오브젝트의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"mainframe.frame.form.Dataset00=ouput0 Dataset01=output1\"</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>서버페이지에 보낼 정보를 문자열로 설정합니다.\n\"변수ID=변수값\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 인수값을 보낼 수 있습니다.\n\nex) \"argu0=test argu1=30\"</div></td></tr><tr><td>strCallbackFunc</td><td>String</td><td colspan=\"2\"><div>트랜젝션 결과를 받을 때 호출될 콜백함수명을 문자열로 설정합니다.\n콜백함수는 Application 영역에 정의되어 있어야 합니다.</div></td></tr><tr><td>bAsync</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션을 비동기(ASync)로 처리할지 설정합니다.\n\ntrue 설정 시 트랜잭션을 비동기(ASync)로 처리하여 트랜잭션의 완료와 관계없이 스크립트가 수행됩니다.\nfalse 설정 시 트랜잭션을 동기(Sync)로 처리하여 트랜잭션이 완료될 때까지 스크립트 수행이 중단됩니다.\n\n값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td>nDataType</td><td>Number</td><td colspan=\"2\"><div>트랜잭션 시 클라이언트에서 서버로 보내는 데이터의 형태를 설정합니다.\n\n\"0\" : XML 형식\n\"1\" : Binary 형식\n\"2\" : SSV 형식\n\"3\" : JSON 형식\n\n값을 설정하지 않으면 \"0\" 으로 적용됩니다.</div></td></tr><tr><td>bCompress</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션 시 데이터를 압축시킬지 설정합니다.\n\ntrue 설정 시 데이터를 압축하여 송수신합니다.\nfalse 설정 시 데이터를 압축하지 않고 송수신합니다.\n\n값을 설정하지 않으면 false로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.transaction( \"MyService01\" ,\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\" );\nobjApp.transaction( \"MyService01\" ,\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\",false,1,false );</div></td></tr></tbody></table>",
       "option": {
@@ -2371,9 +2371,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6319757723419036",
+      "id": "u_10_0.3172174150985848",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2435,9 +2435,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5964601757337232",
+      "id": "u_10_0.350433597680628",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2450,7 +2450,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9023088881679797",
+      "id": "u_10_0.5127421788629878",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>- 확인창 표시\n(NRE에서만 지원하는 기능입니다).\n\n이벤트 핸들러 함수에서 리턴값으로 문자열 설정 시 Application 종료를 위한 확인창이 표시됩니다.\n리턴값으로 설정한 문자열이 종료를 위한 확인창에 사용됩니다.\n\n이벤트 핸들러 함수에서 리턴값을 생략하거나 null, undefined, 빈문자열(\"\") 으로 설정 시 확인창이 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2514,9 +2514,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.02052137235032081",
+      "id": "u_10_0.916142323182752",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\" string=\"EventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2578,9 +2578,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7702408080692313",
+      "id": "u_10_0.8225390965454389",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DuplicateExecutionEventInfo\" string=\"DuplicateExecutionEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DuplicateExecutionEventInfo\" string=\"DuplicateExecutionEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2642,9 +2642,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9723214881244847",
+      "id": "u_10_0.8695357256757668",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ErrorEventInfo\" string=\"ErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2657,7 +2657,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7320883612960932",
+      "id": "u_10_0.17627553215064595",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파하지 않습니다.\n  &gt; 실행중인 Transaction 을 중지시키지 않고 유지합니다.\n\n이벤트에서 리턴값으로 false 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파합니다.\n  &gt; 실행중인 Transaction 의 중지여부는 Environment 의 onerror 에서 리턴값으로 결정됩니다.\n  &gt; Environment 에 onerror 이벤트가 정의되어 있지 않으면 실행중인 Transaction 은 중지됩니다.\n\n이벤트의 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2721,9 +2721,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5107545802594172",
+      "id": "u_10_0.8755387263733266",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExitEventInfo\" string=\"ExitEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2785,9 +2785,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8732680929199113",
+      "id": "u_10_0.8307571762426645",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2849,9 +2849,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3298080556052768",
+      "id": "u_10_0.2868573407382179",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2903,9 +2903,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9978745874612107",
+      "id": "u_10_0.8091593550476246",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LoadEventInfo\" string=\"LoadEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -2967,9 +2967,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9620700457521997",
+      "id": "u_10_0.9499411165340259",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#NotificationEventInfo\" string=\"NotificationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Application</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#NotificationEventInfo\" string=\"NotificationEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
