@@ -36,12 +36,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.014329521609825924",
+      "id": "u_09_0.7988340373576666",
       "type": "command",
       "content": "VideoPlayer.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.1740023123176596",
+      "id": "u_10_0.65265245491136",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>VideoPlayer 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>VideoPlayer 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>VideoPlayer 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>VideoPlayer 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>VideoPlayer 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>VideoPlayer 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>VideoPlayer 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>VideoPlayer 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>VideoPlayer 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>VideoPlayer 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>VideoPlayer 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new VideoPlayer();\n\nobjComp.init( \"VideoPlayer00\", 30, 120, 196, 46 );\nobjComp.init( \"VideoPlayer00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"VideoPlayer00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"VideoPlayer00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"VideoPlayer00\", \"VideoPlayer22:10\", 300, null, null, \"VideoPlayer33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "u_10_0.4749708260535618",
+      "id": "u_10_0.10485793526415776",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objVideoPlayer = new VideoPlayer();  \nobjVideoPlayer.init(\"VideoPlayer\", 30, 120, 196, 46, null, null);\nobjVideoPlayer.init(\"VideoPlayer\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objVideoPlayer = new VideoPlayer(\"VideoPlayer\", 30, 120, 196, 46, null, null);\nvar objVideoPlayer = new VideoPlayer(\"VideoPlayer\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"VideoPlayer\", objVideoPlayer); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"VideoPlayer\", objVideoPlayer); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"VideoPlayer\"); \n \n// Show Object  \nobjVideoPlayer.show(); \n \n// Destroy Object  \nobjVideoPlayer.destroy(); \nobjVideoPlayer = null;</div></td></tr></tbody></table>",
       "option": {
@@ -124,7 +124,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4491573603681649",
+      "id": "u_10_0.383278037123989",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilityaction = \"Accessibility Action Message\"; \nthis.VideoPlayer00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -202,7 +202,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07649389477087876",
+      "id": "u_10_0.28040529470754794",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>VideoPlayer 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>VideoPlayer 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>VideoPlayer 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>VideoPlayer 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -280,7 +280,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.656766066597077",
+      "id": "u_10_0.2794591870902552",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -358,7 +358,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9812206747847007",
+      "id": "u_10_0.3150907382621906",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>VideoPlayer 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>VideoPlayer 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 VideoPlayer 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 VideoPlayer 에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -436,7 +436,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.699697153305961",
+      "id": "u_10_0.4519536440127212",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilitylabel = \"OK Button\"; \nthis.VideoPlayer00.accessibilitylabel = \"[@static00]\"; \nthis.VideoPlayer00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.VideoPlayer00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -514,7 +514,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08832080985008606",
+      "id": "u_10_0.3558573559063559",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.accessibilityrole = \"none\"; \nthis.VideoPlayer00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -592,7 +592,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10259085975479876",
+      "id": "u_10_0.3668319836912938",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>trace( this.VideoPlayer00.aspectratio );               // \"16:9\" or \"4:3\" ...</div></td></tr><tr><th>aspectratio</th><td colspan=\"2\"><div>\"가로:세로\" 형식의 화면비율값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -660,7 +660,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.12359564955728042",
+      "id": "u_10_0.4746578816248259",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bAutoplay ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.autoplay = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>파일이 로드되면 자동으로 재생시킵니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>파일이 로드되어도 자동으로 재생시키지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -738,7 +738,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.44838582710321817",
+      "id": "u_10_0.6896487232797104",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.bottom = 10; \nthis.VideoPlayer00.bottom = \"10px\"; \nthis.VideoPlayer00.bottom = \"10%\"; \nthis.VideoPlayer00.bottom = \"Button00:10px\"; \nthis.VideoPlayer00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 VideoPlayer의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 VideoPlayer의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 VideoPlayer의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 VideoPlayer의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -816,7 +816,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.045232879379814905",
+      "id": "u_10_0.7503176741321118",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.cssclass = \"TestClass\"; \nthis.VideoPlayer00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -894,7 +894,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7494870342217884",
+      "id": "u_10_0.9995025366497353",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.currenttime = 5000;</div></td></tr><tr><th>nCurrenttime</th><td colspan=\"2\"><div>비디오의 재생위치를 밀리초(MilliSecond) 단위로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -982,7 +982,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.26794078693343626",
+      "id": "u_10_0.09667653717201063",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>duration</th><td colspan=\"2\"><div>비디오의 전체 재생시간을 밀리초(MilliSecond) 단위로 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1060,7 +1060,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.698481267419792",
+      "id": "u_10_0.1814837693753617",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.enable = true; \nthis.VideoPlayer00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>VideoPlayer 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>VideoPlayer 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1138,7 +1138,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3831735461611051",
+      "id": "u_10_0.11496571613753903",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.enableevent = true;  \n\nthis.VideoPlayer00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>VideoPlayer 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>VideoPlayer 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1216,7 +1216,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6883232663393474",
+      "id": "u_10_0.4240984045637479",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1294,7 +1294,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6083260464461032",
+      "id": "u_10_0.24626695803404108",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1372,7 +1372,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6690147847259061",
+      "id": "u_10_0.47188270804535826",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.height = 10; \nthis.VideoPlayer00.height = \"10px\"; \nthis.VideoPlayer00.height = 10%\"; \nthis.VideoPlayer00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": VideoPlayer의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 VideoPlayer의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 VideoPlayer의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 VideoPlayer의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1450,7 +1450,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6652918569349623",
+      "id": "u_10_0.0030304920158521487",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>VideoPlayer를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1528,7 +1528,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.876593561705951",
+      "id": "u_10_0.1003923301111399",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1606,7 +1606,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.31727305445921306",
+      "id": "u_10_0.7119565770061984",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.left = 10; \nthis.VideoPlayer00.left = \"10px\"; \nthis.VideoPlayer00.left = \"10%\"; \nthis.VideoPlayer00.left = \"Button00:10px\"; \nthis.VideoPlayer00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 VideoPlayer의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 VideoPlayer의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 VideoPlayer의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 VideoPlayer의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1684,7 +1684,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4412076709570889",
+      "id": "u_10_0.8985751769577649",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.maxheight = 20; \nthis.VideoPlayer00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1762,7 +1762,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.060331232208569396",
+      "id": "u_10_0.12124926310753092",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.maxwidth = 20; \nthis.VideoPlayer00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1840,7 +1840,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8247637848575159",
+      "id": "u_10_0.4181611792955675",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.minheight = 20; \nthis.VideoPlayer00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1918,7 +1918,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.20881745091241843",
+      "id": "u_10_0.5537859050961119",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.minwidth = 20; \nthis.VideoPlayer00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1996,7 +1996,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10079664528319865",
+      "id": "u_10_0.6969515267671846",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bMute ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>비디오 재생 시 음소거 되어 소리를 재생하지 않습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>비디오 재생 시 소리를 재생합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2084,7 +2084,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4225778500917947",
+      "id": "u_10_0.9806857464332304",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2162,7 +2162,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.688195694307529",
+      "id": "u_10_0.20482085276443485",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.VideoPlayer00.border = \"1px solid #999999\";\nthis.VideoPlayer00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -2240,7 +2240,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2054885039018315",
+      "id": "u_10_0.7258287286516379",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.VideoPlayer00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2318,7 +2318,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6674593666633163",
+      "id": "u_10_0.4037120609892205",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.positionstep = 0; \nthis.VideoPlayer00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>VideoPlayer 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 VideoPlayer 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2406,7 +2406,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7177050805611619",
+      "id": "u_10_0.9321312505547876",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRepeat ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.repeat = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>비디오를 반복재생합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>비디오를 반복재생하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2484,7 +2484,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.23336300828329481",
+      "id": "u_10_0.5954391832042101",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.right = 10; \nthis.VideoPlayer00.right = \"10px\"; \nthis.VideoPlayer00.right = \"10%\"; \nthis.VideoPlayer00.right = \"Button00:10px\"; \nthis.VideoPlayer00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 VideoPlayer의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 VideoPlayer의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 VideoPlayer의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 VideoPlayer의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2562,7 +2562,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.679238123215461",
+      "id": "u_10_0.9155969211259917",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bShow ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.showcontrolbar = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>기본 UI(ControlBar)를 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>기본 UI(ControlBar)를 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2640,7 +2640,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5748234436167643",
+      "id": "u_10_0.40449148901226206",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2728,7 +2728,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3722661364681755",
+      "id": "u_10_0.8099368507006296",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2816,7 +2816,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7817072300103903",
+      "id": "u_10_0.22988438154418267",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>VideoPlayer 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>VideoPlayer 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2894,7 +2894,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.273492540098207",
+      "id": "u_10_0.9618293840034086",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.top = 10; \nthis.VideoPlayer00.top = \"10px\"; \nthis.VideoPlayer00.top = \"10%\"; \nthis.VideoPlayer00.top = \"Button00:10px\"; \nthis.VideoPlayer00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 VideoPlayer의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 VideoPlayer의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 VideoPlayer의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 VideoPlayer의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2972,7 +2972,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.702317015894834",
+      "id": "u_10_0.8650122278312395",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strUrl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.url = \"http://localhost:8080/Video/test.avi\";     // 웹경로  \n\nthis.VideoPlayer00.url = \"../Video/test.avi\";                                // 상대경로 \nthis.VideoPlayer00.url = \"Video::test.avi\";                                   // TypeDefinition의 Services 경로</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>웹에 위치한 파일을 \"http://경로/파일명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>TypeDefinition 영역의 Services 에 정의된 Prefix 를 사용하여 파일의 위치를 설정합니다.\n\n현재 Form의 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3050,7 +3050,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.970938629198965",
+      "id": "u_10_0.36578252453400195",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nWidth = this.VideoPlayer00.videosize[0] ;\nvar nHeight = this.VideoPlayer00.videosize[1] ;</div></td></tr><tr><th>videosize</th><td colspan=\"2\"><div>비디오 파일의 너비를 배열의 첫번째 원소값으로 갖습니다.\n비디오 파일의 높이를 배열의 두번째 원소값으로 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3118,7 +3118,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32844715331673424",
+      "id": "u_10_0.2628348460949399",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.visible = true; \nthis.VideoPlayer00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>VideoPlayer 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>VideoPlayer 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3196,7 +3196,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5176040391404565",
+      "id": "u_10_0.7093197518983008",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.volume = 60;</div></td></tr><tr><th>nVolume</th><td colspan=\"2\"><div>음량을 0 ~ 100 사이의 숫자값으로 설정합니다.\n\n음수로 설정 시 0 으로 적용됩니다.\n100 초과값을 설정 시 100 으로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3274,7 +3274,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9401892104419342",
+      "id": "u_10_0.1239838569385543",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.VideoPlayer00.width = 10; this.VideoPlayer00.width = \"10px\"; \nthis.VideoPlayer00.width = \"10%\"; \nthis.VideoPlayer00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 VideoPlayer 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 VideoPlayer 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>VideoPlayer 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": VideoPlayer의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 VideoPlayer의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 VideoPlayer의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 VideoPlayer의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 VideoPlayer의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 VideoPlayer의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3342,7 +3342,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7932690361813692",
+      "id": "u_10_0.15115923671239795",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>VideoPlayer 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.VideoPlayer00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3357,7 +3357,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9110801431582918",
+      "id": "u_10_0.12313772612179563",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3420,7 +3420,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30967164084826193",
+      "id": "u_10_0.37779953355154117",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.addEventHandler( \"onmove\", this.VideoPlayer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -3435,7 +3435,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7385515715945897",
+      "id": "u_10_0.9218635943388398",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3488,7 +3488,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9597013560095282",
+      "id": "u_10_0.007853018123293753",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.addEventHandlerLookup( \"onmove\", \"VideoPlayer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -3503,7 +3503,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5426104655496856",
+      "id": "u_10_0.8141989829630397",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3566,7 +3566,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2226992070326873",
+      "id": "u_10_0.8851971314527534",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.VideoPlayer00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3581,7 +3581,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.17868519000195493",
+      "id": "u_10_0.45128212298900405",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3644,7 +3644,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9647943386619282",
+      "id": "u_09_0.9494178427248924",
       "type": "command",
       "content": "var bSucc = this.VideoPlayer00.destroy();"
     },
@@ -3654,7 +3654,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9451036217787397",
+      "id": "u_10_0.6509861031473858",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>VideoPlayer 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nVideoPlayer 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3717,7 +3717,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.61768069956022",
+      "id": "u_10_0.20330225778178113",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.VideoPlayer00.findEventHandler( \"onmove\", this.VideoPlayer00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -3732,7 +3732,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6699676917052897",
+      "id": "u_10_0.8997811494025136",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3795,7 +3795,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.88665651710935",
+      "id": "u_10_0.08155295819354746",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = VideoPlayer00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -3810,7 +3810,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.10693396712163894",
+      "id": "u_10_0.6115999181309736",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3863,7 +3863,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9507115742824084",
+      "id": "u_09_0.36928882754588765",
       "type": "command",
       "content": "var nBottom = this.VideoPlayer.getOffsetBottom();"
     },
@@ -3873,7 +3873,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8799729543213691",
+      "id": "u_10_0.13569165659803628",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 VideoPlayer 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3936,7 +3936,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5310449028503369",
+      "id": "u_09_0.4463090864808079",
       "type": "command",
       "content": "var nHeight = this.VideoPlayer.getOffsetHeight();"
     },
@@ -3946,7 +3946,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9194957950567311",
+      "id": "u_10_0.6103649450992138",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4019,7 +4019,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.07321693811280039",
+      "id": "u_09_0.00787480797438822",
       "type": "command",
       "content": "var nleft = this.VideoPlayer.getOffsetLeft();"
     },
@@ -4029,7 +4029,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8581045778114363",
+      "id": "u_10_0.9581496167818193",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 VideoPlayer 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4092,7 +4092,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9413583396579764",
+      "id": "u_09_0.8700825401202391",
       "type": "command",
       "content": "var nRight = this.VideoPlayer.getOffsetRight();"
     },
@@ -4102,7 +4102,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4975378423277278",
+      "id": "u_10_0.7334596473190369",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 VideoPlayer 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4165,7 +4165,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4129101131147709",
+      "id": "u_09_0.617854735696697",
       "type": "command",
       "content": "var nTop = this.VideoPlayer.getOffsetTop();"
     },
@@ -4175,7 +4175,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3659236580292017",
+      "id": "u_10_0.5722017757214589",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 VideoPlayer 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4238,7 +4238,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5994566341225109",
+      "id": "u_09_0.01049942325898967",
       "type": "command",
       "content": "var nWidth = this.VideoPlayer.getOffsetWidth();"
     },
@@ -4248,7 +4248,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7098779522408385",
+      "id": "u_10_0.7313848698188442",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4321,7 +4321,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.15845733920717198",
+      "id": "u_09_0.6046380317590421",
       "type": "command",
       "content": "var nbottom = this.VideoPlayer.getPixelBottom();"
     },
@@ -4331,7 +4331,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.49201385991200963",
+      "id": "u_10_0.42641964610485017",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4394,7 +4394,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.006338249571959942",
+      "id": "u_09_0.1799162703060001",
       "type": "command",
       "content": "var nheight = this.VideoPlayer.getPixelHeight();"
     },
@@ -4404,7 +4404,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5814347416068255",
+      "id": "u_10_0.7305377337137228",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4467,7 +4467,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3439292982533695",
+      "id": "u_09_0.16258235355150086",
       "type": "command",
       "content": "var nleft = this.VideoPlayer.getPixelLeft();"
     },
@@ -4477,7 +4477,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1645014947046446",
+      "id": "u_10_0.6482369834027081",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4540,7 +4540,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5718587431548531",
+      "id": "u_09_0.826814148895374",
       "type": "command",
       "content": "var nright = this.VideoPlayer.getPixelRight();"
     },
@@ -4550,7 +4550,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48585899175040415",
+      "id": "u_10_0.716643402424333",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4613,7 +4613,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.12947909210023556",
+      "id": "u_09_0.3451003575080339",
       "type": "command",
       "content": "var ntop = this.VideoPlayer.getPixelTop();"
     },
@@ -4623,7 +4623,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6132242512806075",
+      "id": "u_10_0.6432357073680621",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4686,7 +4686,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.1542573282146783",
+      "id": "u_09_0.6831553150396085",
       "type": "command",
       "content": "var nwidth = this.VideoPlayer.getPixelWidth();"
     },
@@ -4696,7 +4696,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7131148909022588",
+      "id": "u_10_0.4408707637476673",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>VideoPlayer 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4759,7 +4759,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6967865411446268",
+      "id": "u_10_0.11550735741344154",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>VideoPlayer 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new VideoPlayer();\n\nobjComp.init( \"VideoPlayer00\", 30, 120, 196, 46 );\nobjComp.init( \"VideoPlayer00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"VideoPlayer00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"VideoPlayer00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"VideoPlayer00\", \"VideoPlayer22:10\", 300, null, null, \"VideoPlayer33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -4822,7 +4822,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06870751577048895",
+      "id": "u_10_0.20543273503978687",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.VideoPlayer00.insertEventHandler( \"onmove\", 0, this.VideoPlayer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4837,7 +4837,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3959539127276045",
+      "id": "u_10_0.21055597509559676",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4900,7 +4900,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9901271679940912",
+      "id": "u_10_0.4880925441357058",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00.move(10,10);\nthis.VideoPlayer00.move(10,10,100,100);\nthis.VideoPlayer00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -5021,7 +5021,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5116559769359607",
+      "id": "u_09_0.25658784266338874",
       "type": "command",
       "content": "this.VideoPlayer00.play();"
     },
@@ -5089,7 +5089,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30875008677035987",
+      "id": "u_10_0.2287154107777618",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>VideoPlayer 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.VideoPlayer00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5104,7 +5104,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7111834194943273",
+      "id": "u_10_0.3496843343572371",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5167,7 +5167,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.446588903831312",
+      "id": "u_10_0.36904914874513084",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.removeEventHandler( \"onmove\", this.VideoPlayer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -5182,7 +5182,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5725329078409221",
+      "id": "u_10_0.42582902713211035",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5245,7 +5245,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.902705705028321",
+      "id": "u_10_0.28478405351110614",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.removeEventHandlerLookup( \"onmove\", \"VideoPlayer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5260,7 +5260,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.17553051160658273",
+      "id": "u_10_0.5011548024446986",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5323,7 +5323,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.14937838376814128",
+      "id": "u_10_0.6148678665781177",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 VideoPlayer 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>VideoPlayer 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 VideoPlayer 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 VideoPlayer 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -5434,7 +5434,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4059136969090381",
+      "id": "u_10_0.6945454889493962",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.setEventHandler( \"onmove\", this.VideoPlayer00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5449,7 +5449,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8291741503827236",
+      "id": "u_10_0.0336634116503739",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5512,7 +5512,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.027480488319196694",
+      "id": "u_10_0.11432659997785666",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer00_onmove = function( obj:nexacro.VideoPlayer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.VideoPlayer00.setEventHandlerLookup( \"onmove\", \"VideoPlayer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5527,7 +5527,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3832195875184907",
+      "id": "u_10_0.8250949661973445",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5590,7 +5590,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.019937553938791597",
+      "id": "u_10_0.6751197973757463",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 VideoPlayer 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5653,7 +5653,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.156926343365151",
+      "id": "u_10_0.41098942072144806",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>VideoPlayer 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5716,7 +5716,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9257055985661493",
+      "id": "u_10_0.24074232237097537",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 VideoPlayer 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5779,7 +5779,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09945857076620934",
+      "id": "u_10_0.17509577292809964",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 VideoPlayer 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -5842,7 +5842,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.42805609025709324",
+      "id": "u_10_0.38677056437829593",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 VideoPlayer 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5905,7 +5905,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9867689232800207",
+      "id": "u_10_0.29004962644331767",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>VideoPlayer 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.VideoPlayer.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5968,7 +5968,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.09377579429580907",
+      "id": "u_09_0.869662421548246",
       "type": "command",
       "content": "this.VideoPlayer00.show();"
     },
@@ -6090,9 +6090,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6896010048149367",
+      "id": "u_10_0.28421109076249185",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VideoCurrentTimeChangedEventInfo\" string=\"VideoCurrentTimeChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VideoCurrentTimeChangedEventInfo\" string=\"VideoCurrentTimeChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6164,9 +6164,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.20871560874723172",
+      "id": "u_10_0.22545450185741112",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VideoErrorEventInfo\" string=\"VideoErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VideoErrorEventInfo\" string=\"VideoErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6218,9 +6218,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9351045810048937",
+      "id": "u_10_0.002442255813216998",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\" string=\"MoveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6272,9 +6272,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10012593454395158",
+      "id": "u_10_0.8401378604623375",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VideoPlayStateChangedEventInfo\" string=\"VideoPlayStateChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VideoPlayStateChangedEventInfo\" string=\"VideoPlayStateChangedEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -6346,9 +6346,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6406797954262454",
+      "id": "u_10_0.49831887441906564",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>VideoPlayer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\" string=\"SizeEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
