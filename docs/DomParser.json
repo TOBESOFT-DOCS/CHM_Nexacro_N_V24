@@ -36,12 +36,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.186372138772691",
+      "id": "u_09_0.9685609520625695",
       "type": "command",
       "content": "new nexacro.DomParser();"
     },
     {
-      "id": "u_10_0.8464955362482982",
+      "id": "u_10_0.0003635198580717036",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object\nvar objDom = new nexacro.DomParser();\n\n// Create DOMDocument Object\nvar objDomDoc = objDom.parseFromString( strXMLData );</div></td></tr></tbody></table>",
       "option": {
@@ -114,7 +114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4053662679421819",
+      "id": "u_10_0.9949408868068099",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -182,7 +182,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7972032193605251",
+      "id": "u_10_0.640241087232888",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DomParser 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DomParser00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -197,7 +197,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.043424015702626995",
+      "id": "u_10_0.6145872977338341",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -260,7 +260,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9853354858925109",
+      "id": "u_10_0.40059834422555374",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DomParser00.addEventHandler( \"onmove\", this.DomParser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -275,7 +275,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6599450142586079",
+      "id": "u_10_0.20159488584020058",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -328,7 +328,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5693174527246729",
+      "id": "u_10_0.5542487946280567",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DomParser00.addEventHandlerLookup( \"onmove\", \"DomParser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -343,7 +343,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6383855392224557",
+      "id": "u_10_0.8484787745632253",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -406,7 +406,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23923466946583993",
+      "id": "u_10_0.8201404597373064",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.DomParser00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -421,7 +421,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7296072823427465",
+      "id": "u_10_0.33352715861144444",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -484,7 +484,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2022932001461003",
+      "id": "u_10_0.7979092196350298",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.DomParser00.findEventHandler( \"onmove\", this.DomParser00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -499,7 +499,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07163633113490853",
+      "id": "u_10_0.6446005559109079",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -562,7 +562,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6357508702974155",
+      "id": "u_10_0.918750438962301",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = DomParser00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -577,7 +577,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3815361019292367",
+      "id": "u_10_0.49603509173339555",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -630,7 +630,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9495132440145381",
+      "id": "u_10_0.17046600168672044",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.DomParser00.insertEventHandler( \"onmove\", 0, this.DomParser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -645,7 +645,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6682525794588133",
+      "id": "u_10_0.47098271778497114",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -708,7 +708,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6386783882123853",
+      "id": "u_10_0.9798341953256137",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strXML</td><td>String</td><td colspan=\"2\"><div>DOMDocument 오브젝트로 변환하려는 XML 문자열을 설정합니다.\n\n\"text/xml\" 형식의 문자열만 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDom00 = new nexacro.DomParser();\n\nvar objDomDoc = objDom00.parseFromString( strXML );</div></td></tr></tbody></table>",
       "option": {
@@ -723,7 +723,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.394639320758033",
+      "id": "u_10_0.01597494927587728",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>XML 문자열 해석에 성공하면 DOMDocumnet 오브젝트를 반환합니다.\n\nXML 문자열 해석에 실패하면 null 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -786,7 +786,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.004643367594557857",
+      "id": "u_10_0.4301279533813587",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>DomParser 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.DomParser00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -801,7 +801,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7514781822463228",
+      "id": "u_10_0.9314623427752038",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -864,7 +864,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2551142113482773",
+      "id": "u_10_0.835218568172235",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DomParser00.removeEventHandler( \"onmove\", this.DomParser00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -879,7 +879,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3529569108726359",
+      "id": "u_10_0.2189866973355531",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -942,7 +942,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6951364420544075",
+      "id": "u_10_0.2553692495163481",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DomParser00.removeEventHandlerLookup( \"onmove\", \"DomParser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -957,7 +957,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48906418761708004",
+      "id": "u_10_0.16073320213803022",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1020,7 +1020,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9189227107371947",
+      "id": "u_10_0.8896582232808067",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.DomParser00.setEventHandler( \"onmove\", this.DomParser00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -1035,7 +1035,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7570915017891224",
+      "id": "u_10_0.29598164687395423",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1098,7 +1098,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8531227733288752",
+      "id": "u_10_0.35485411332252836",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.DomParser00_onmove = function( obj:nexacro.DomParser,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.DomParser00.setEventHandlerLookup( \"onmove\", \"DomParser00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1113,7 +1113,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8595701290864232",
+      "id": "u_10_0.49943511962717724",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1182,9 +1182,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2493686676957415",
+      "id": "u_10_0.3487031982567975",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DomParser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#DomParseErrorEventInfo\" string=\"DomParseErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>DomParser</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DomParseErrorEventInfo\" string=\"DomParseErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
