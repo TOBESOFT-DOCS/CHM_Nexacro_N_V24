@@ -94,7 +94,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.981464009253322",
+      "id": "u_10_0.10578239602524797",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>ExternalAPI를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -172,7 +172,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.36863437610074257",
+      "id": "u_10_0.058906080195456845",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -250,7 +250,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7573722407547958",
+      "id": "u_10_0.27439303148919414",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.ExternalAPI00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -318,7 +318,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16490681231503612",
+      "id": "u_10_0.061636943132290956",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRecvID</td><td>String</td><td colspan=\"2\"><div>실행한 메소드를 구분하기 위한 ID 를 문자열로 설정합니다.\n\nonsuccess, onrecvdata 이벤트에서 ExternalAPIEventIfo 오브젝트의 recvid 속성에 설정한 값이 전달됩니다.</div></td></tr><tr><td>strAppID</td><td>String</td><td colspan=\"2\"><div>실행하려는 API 모듈이 정의된 외부 앱의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strAPI</td><td>String</td><td colspan=\"2\"><div>실행하려는 API 모듈의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>strParams</td><td>String</td><td colspan=\"2\"><div>실행할 API 모듈에 전달할 파라미터를 문자열로 설정합니다.\n\n파라미터가 여러개일 경우 각 파라미터는 공백으로 구분합니다.\n파라미터값에 공백이 포함된 경우는 \" ' \" (홑따옴표) 를 사용하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExternalAPI00.execExtAPI( \"100\", \"com.nexacro.testmodule\", \"fn_Chk\" );\nthis.ExternalAPI00.execExtAPI( \"200\", \"TestApp://\", \"fn_Chk\", \"aa bb 'cc c' dd\" );</div></td></tr></tbody></table>",
       "option": {
@@ -333,7 +333,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8618457772752479",
+      "id": "u_10_0.18276152349536112",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>API 모듈의 실행여부와 관계없이 메소드 실행에 성공하면 true 를 반환합니다.\n\nAPI 모듈의 실행여부와 관계없이 메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -396,7 +396,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.653273901455963",
+      "id": "u_10_0.9870682131303024",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAppID</td><td>String</td><td colspan=\"2\"><div>접근 가능여부를 확인하려는 외부 앱의 ID 를 문자열로 설정합니다.\n\nAndroid 는 Domain 형태로 설정합니다. (\"com.nexacro.testmodule\")\niOS 는 URL Scheme 형태로 설정합니다. (\"TestApp://\")</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExternalAPI00.isAccessible ( \"com.nexacro.testmodule\" );     // Android\nthis.ExternalAPI00.isAccessible ( \"TestApp://\" );                                    // iOS</div></td></tr></tbody></table>",
       "option": {
@@ -411,7 +411,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7975423247079036",
+      "id": "u_10_0.7167585645479726",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>외부 앱의 접근 가능여부와 관계없이 메소드 실행에 성공하면 true 를 반환합니다.\n\n외부 앱의 접근 가능여부와 관계없이 메소드 실행에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -480,9 +480,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11759924420878887",
+      "id": "u_10_0.04502764967617312",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExternalAPIErrorEventInfo\" string=\"ExternalAPIErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExternalAPIErrorEventInfo\" string=\"ExternalAPIErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -534,9 +534,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7586104355648355",
+      "id": "u_10_0.07064728657160113",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExternalAPIEventInfo\" string=\"ExternalAPIEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExternalAPIEventInfo\" string=\"ExternalAPIEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -598,9 +598,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6051856080380937",
+      "id": "u_10_0.4609961183151724",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ExternalAPIEventInfo\" string=\"ExternalAPIEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExternalAPI</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExternalAPIEventInfo\" string=\"ExternalAPIEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
