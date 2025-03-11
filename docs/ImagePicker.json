@@ -84,7 +84,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7544039422165367",
+      "id": "u_10_0.5333212587349595",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"JPEG\"</th><td colspan=\"2\"><div>가져온 이미지가 \"JPEG\" 형식일 때 갖는 값입니다.</div></td></tr><tr><th>\"PNG\"</th><td colspan=\"2\"><div>가져온 이미지가 \"PNG\" 형식일 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -152,7 +152,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33655294803327374",
+      "id": "u_10_0.06480496275727599",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"url\"</th><td colspan=\"2\"><div>가져온 이미지가 \"URL\" 형태일 때 갖는 값입니다.</div></td></tr><tr><th>\"imagedata\"</th><td colspan=\"2\"><div>가져온 이미지가 오브젝트 형태일 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -230,7 +230,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6071377988171752",
+      "id": "u_10_0.6813244856924314",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>ImagePicker를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -298,7 +298,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.48187425167489895",
+      "id": "u_10_0.4637142711536181",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ImagePicker00.imageheight = 1500;</div></td></tr><tr><th>nImgHeight</th><td colspan=\"2\"><div>이미지를 가져올 때 적용될 높이를 픽셀 단위의 숫자로 설정합니다.\n\n0 으로 설정 시 원본 이미지의 높이를 변경하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -366,7 +366,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.015032964856759867",
+      "id": "u_10_0.24796097448842713",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ImagePicker00.imagequality = 90;</div></td></tr><tr><th>nImgQuality</th><td colspan=\"2\"><div>이미지를 가져올 때 적용될 품질을 \"0 ~ 100\" 범위의 값으로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -434,7 +434,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8945667672072183",
+      "id": "u_10_0.8346053442485418",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ImagePicker00.imagewidth = 1500;</div></td></tr><tr><th>nImgWidth</th><td colspan=\"2\"><div>이미지를 가져올 때 적용될 너비를 픽셀 단위의 숫자로 설정합니다.\n\n0 으로 설정 시 원본 이미지의 너비를 변경하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -512,7 +512,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32919438167470816",
+      "id": "u_10_0.8619447893123333",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -590,7 +590,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.47552335626903364",
+      "id": "u_10_0.6419977662359222",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.ImagePicker00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -658,7 +658,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6003495242487272",
+      "id": "u_10_0.6087338078832163",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumGettype</td><td>String</td><td colspan=\"2\"><div>이미지가 전달되는 방식을 설정합니다.\n\n\"url\" 설정 시 이미지의 위치정보가 \"URL\" 형태로 전달됩니다.\n\"imagedata\" 설정 시 이미지가 오브젝트 형태로 전달됩니다.\n\n메소드 수행 후 gettype 속성에 파라미터값이 저장됩니다.</div></td></tr><tr><td>enumEncodingtype </td><td>String</td><td colspan=\"2\"><div>이미지가 전달되는 파일 형식을 설정합니다.\n\n\"JPEG\" 설정 시 이미지가 \"JPEG\" 파일로 전달됩니다.\n\"PNG\" 설정 시 이미지가 \"PNG\" 파일로 전달됩니다.\n\n메소드 수행 후 encodingtype 속성에 파라미터값이 저장됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ImagePicker00.open( \"imagedata\", \"JPEG\" );\nthis.ImagePicker00.open( \"url\", \"PNG\" );</div></td></tr></tbody></table>",
       "option": {
@@ -673,7 +673,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9563618582085044",
+      "id": "u_10_0.9196403913134397",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 실행에 성공하면 true 를 반환합니다.\n\n메소드 실행에 실패하거나 파라미터값을 잘 못 설정하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -742,9 +742,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7562795649352406",
+      "id": "u_10_0.3927724103288821",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ImagePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ImagePickerErrorEventInfo\" string=\"ImagePickerErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ImagePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ImagePickerErrorEventInfo\" string=\"ImagePickerErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -796,9 +796,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9939174588963695",
+      "id": "u_10_0.6108092462930723",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ImagePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#ImagePickerEventInfo\" string=\"ImagePickerEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ImagePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ImagePickerEventInfo\" string=\"ImagePickerEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
