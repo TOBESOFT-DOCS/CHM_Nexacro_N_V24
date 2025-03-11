@@ -36,12 +36,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.9754630903952646",
+      "id": "u_09_0.9556634456874658",
       "type": "command",
       "content": "FileDownTransfer( strName, objParent )"
     },
     {
-      "id": "u_10_0.6838496405285447",
+      "id": "u_10_0.5843641820639183",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objFileDown = new nexacro.FileDownTransfer( \"FileDownTransfer00\", this );  \n\n// Add Object to Parent Form  \nthis.addChild( \"FileDownTransfer00\", objFileDown );\n\n// Set Object \nobjFileDown.url = \"http://localhost/Test.txt\";\nobjFileDown.setEventHandler( \"onsuccess\", this.FileDownTransfer00_onsuccess, this);\n\n// Remove Object form Parent\nvar objFileDown = this.removeChild( \"FileDownTransfer00\" );\n \n// Destroy Object\nobjFileDown.destroy();\nobjFileDown = null;</div></td></tr></tbody></table>",
       "option": {
@@ -114,7 +114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5812458891729969",
+      "id": "u_10_0.12409277615340497",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.downloadfilename = \"Test.txt\";</div></td></tr><tr><th>strFileName</th><td colspan=\"2\"><div>다운로드를 위한 FileDialog 에 기본으로 표시될 파일명을 설정합니다.\n\n값을 설정하지 않으면 FileDialog 에 빈값이 표시됩니다.\n파일명으로 사용할 수 없는 \"\\\", \"/\", \"*\", \"\"\", \"'\", \"&lt;\", \"&gt;\", \"|\" 등의 문자는 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -192,7 +192,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3034982028560018",
+      "id": "u_10_0.7608431898263763",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>FileDownTransfer를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -270,7 +270,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.748268226714447",
+      "id": "u_10_0.8300877615295897",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -348,7 +348,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3961460626068276",
+      "id": "u_10_0.8094990141200871",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.postdatalist[\"Key\"];</div></td></tr></tbody></table>",
       "option": {
@@ -426,7 +426,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7967662591013347",
+      "id": "u_10_0.9646655903460547",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.FileDownTransfer00.urll = \"http://localhost/Test.txt\";</div></td></tr><tr><th>strURL</th><td colspan=\"2\"><div>다운로드 받을 파일의 서버경로와 파일명을 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -494,7 +494,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3026089138086574",
+      "id": "u_10_0.16279940320792996",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>FileDownTransfer 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.FileDownTransfer00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -509,7 +509,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8985138556926531",
+      "id": "u_10_0.24239622991698817",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -572,7 +572,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.924074511097439",
+      "id": "u_10_0.2222543995160211",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.addEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -587,7 +587,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.44779788643250384",
+      "id": "u_10_0.5203401705554372",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -640,7 +640,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6760305359420788",
+      "id": "u_10_0.8894046196655998",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.addEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -655,7 +655,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7117535165725222",
+      "id": "u_10_0.7630239397722669",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -718,7 +718,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7696043753183002",
+      "id": "u_10_0.8470658914164622",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.FileDownTransfer00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -733,7 +733,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07689935537171333",
+      "id": "u_10_0.7192031672422052",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -796,7 +796,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3224791166058891",
+      "id": "u_09_0.13848330290301625",
       "type": "command",
       "content": "this.FileDownTransfer00.clearPostDataList();"
     },
@@ -854,7 +854,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6799844335910126",
+      "id": "u_10_0.9949735301532137",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>FileDownTransfer 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nFileDownTransfer 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -917,7 +917,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.47788664567381445",
+      "id": "u_10_0.2248338630045984",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>다운로드 받을 파일의 경로를 설정합니다.\n\n값을 생략할 경우 url 속성에 설정된 값이 적용됩니다.\n값을 설정하면 url 속성에 설정된 값이 무시됩니다.</div></td></tr><tr><td>strTargetPath</td><td>String</td><td colspan=\"2\"><div>다운로드 받은 파일이 저장될 경로와 파일명을 설정합니다.\n\n값 설정 시 저장경로를 물어보지 않고 해당 위치로 파일을 다운로드합니다.\n존재하지 않는 경로를 지정한 경우 다운로드 되지 않습니다.\n\n샌드박스(SandBox) 옵션인 Environment 의 filesecurelevel 속성값이 \"all\" 일 때 모든 경로에 접근을 허용합니다.\n이 경우 사용자에게 접근 허용 여부를 확인 한 후 사용자가 승인한 경우에만 메소드를 수행합니다.\n\n* Windows NRE 만 지원되는 파라미터입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00.download( );\nthis.FileDownTransfer00.download( \"http://localdhost/Test.txt\" );\nthis.FileDownTransfer00.download( \"http://localdhost/Test.txt\", \"C:\\\\Users\\\\nexacro\\\\Down_Test.txt\" );</div></td></tr></tbody></table>",
       "option": {
@@ -980,7 +980,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5085013986928187",
+      "id": "u_10_0.8168156526501171",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.FileDownTransfer00.findEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -995,7 +995,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.027775351287951278",
+      "id": "u_10_0.7132148310891286",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1058,7 +1058,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.31076788742295236",
+      "id": "u_10_0.4653410997908578",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = FileDownTransfer00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -1073,7 +1073,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6380449981347893",
+      "id": "u_10_0.2523760164969806",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1126,7 +1126,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1621072048028056",
+      "id": "u_10_0.18390278905048318",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>반환 받으려는 데이터의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varVal = this.FileDownTransfer00.getPostData( \"key0\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1141,7 +1141,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7414142140037809",
+      "id": "u_10_0.18398247030952797",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>strKey 값에 해당하는 데이터를 반환합니다.\n\nstrKey 값에 해당하는 데이터가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1204,7 +1204,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.43969157247388746",
+      "id": "u_10_0.6902602601714201",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.FileDownTransfer00.insertEventHandler( \"onmove\", 0, this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1219,7 +1219,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8244300814950141",
+      "id": "u_10_0.47274674951943874",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1282,7 +1282,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4799519891120202",
+      "id": "u_10_0.723898231905756",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>FileDownTransfer 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.FileDownTransfer00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1297,7 +1297,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8524049160138785",
+      "id": "u_10_0.5970873570588292",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1360,7 +1360,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.662314941057725",
+      "id": "u_10_0.23508016539486065",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.removeEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1375,7 +1375,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5431289552217752",
+      "id": "u_10_0.5196171367839205",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1438,7 +1438,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3167260171367926",
+      "id": "u_10_0.8998287701986756",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.removeEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1453,7 +1453,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6018807983403011",
+      "id": "u_10_0.09422182287023251",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1516,7 +1516,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6068879794355574",
+      "id": "u_10_0.07237851570354248",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>제거할 데이터의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00.removePostData( \"Key0\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1579,7 +1579,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11092982663546025",
+      "id": "u_10_0.3248115652109741",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.setEventHandler( \"onmove\", this.FileDownTransfer00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -1594,7 +1594,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.23258869425093287",
+      "id": "u_10_0.6848526330800666",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1657,7 +1657,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12115356231556496",
+      "id": "u_10_0.18779958333494873",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownTransfer00_onmove = function( obj:nexacro.FileDownTransfer,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.FileDownTransfer00.setEventHandlerLookup( \"onmove\", \"FileDownTransfer00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1672,7 +1672,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.052826862543459696",
+      "id": "u_10_0.004104692287714262",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1735,7 +1735,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7219048836149206",
+      "id": "u_10_0.11011337396814913",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>서버로 전송할 데이터의 Key 값을 문자열로 설정합니다.\n\n동일한 Key 값이 존재할 경우 새로운 데이터로 변경됩니다.</div></td></tr><tr><td>varVal</td><td>Variant</td><td colspan=\"2\"><div>서버로 전송할 데이터를 설정합니다.\n\n기본 자료형(number, string, boolean 등)을 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.FileDownlTransfer00.setPostData( \"Key0\", \"PostData00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1804,9 +1804,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8413022608583366",
+      "id": "u_10_0.5895252198739618",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDownTransferErrorEventInfo\" string=\"FileDownTransferErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#FileDownTransferErrorEventInfo\" string=\"FileDownTransferErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -1868,9 +1868,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.650840042803847",
+      "id": "u_10_0.2996278838061518",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#FileDownTransferEventInfo\" string=\"FileDownTransferEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>FileDownTransfer</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#FileDownTransferEventInfo\" string=\"FileDownTransferEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
