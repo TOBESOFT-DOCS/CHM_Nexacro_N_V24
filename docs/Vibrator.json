@@ -89,7 +89,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5802463651409282",
+      "id": "u_10_0.24292304825839295",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Vibrator를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -167,7 +167,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.22310371929220185",
+      "id": "u_10_0.9678887575170481",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -245,7 +245,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7316110054687002",
+      "id": "u_10_0.4082115718920941",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Vibrator00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -323,7 +323,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.749993959853093",
+      "id": "u_10_0.17012659692197607",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var arrPattern = new Array(1000, 200, 1000, 2000, 1200, 1000);\nthis.Vibrator00.patterns = arrPattern;</div></td></tr><tr><th>arrPattern</th><td colspan=\"2\"><div>진동 패턴을 \"무진동, 진동\" 의 쌍으로 이루어진 배열로 설정합니다.\n\n배열의 요소값은 밀리초(milliseconds)단위의 시간으로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -391,7 +391,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9172538213170073",
+      "id": "u_10_0.03602293115828348",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Vibrator00.repeatcount = 10;</div></td></tr><tr><th>nRepeatCount</th><td colspan=\"2\"><div>patterns 속성값에 설정된 진동패턴이 반복되는 횟수를 숫자로 설정합니다.\n\n0 설정 시 진동패턴이 무한반복됩니다.\n1 설정 시 반복없이 1회만 실행됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -459,7 +459,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0912005123187053",
+      "id": "u_10_0.07988673389057066",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Vibrator00.startpos = 10;</div></td></tr><tr><th>nStartPos</th><td colspan=\"2\"><div>patterns 속성에 설정된 진동패턴 배열값에서 진동을 시작할 배열요소의 인덱스값을 설정합니다.\n\n배열요소의 갯수보다 큰 값을 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -527,7 +527,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7515484353667905",
+      "id": "u_09_0.14880622278908995",
       "type": "command",
       "content": "this.Vibrator00.hasVibrator();"
     },
@@ -537,7 +537,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30700930000028437",
+      "id": "u_10_0.38928170178086763",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>기기에서 진동기능을 사용할수 있으면 \"true\" 를 반환합니다.\n기기에서 진동기능을 사용할 수 없으면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -590,7 +590,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6892587167467706",
+      "id": "u_09_0.2936219406659538",
       "type": "command",
       "content": "this.Vibrator00.play();"
     },
@@ -648,7 +648,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8956236200548315",
+      "id": "u_09_0.6152672893770033",
       "type": "command",
       "content": "this.Vibrator00.stop();"
     },
@@ -702,9 +702,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9227433149546298",
+      "id": "u_10_0.38183563697859224",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorErrorEventInfo\" string=\"VibratorErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VibratorErrorEventInfo\" string=\"VibratorErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -756,9 +756,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4874392889291218",
+      "id": "u_10_0.2578813954653585",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
@@ -810,9 +810,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9636022431104444",
+      "id": "u_10_0.585875311130233",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Vibrator</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#VibratorEventInfo\" string=\"VibratorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
         "table_layout": "user",
         "codeLanguage": "Javascript",
