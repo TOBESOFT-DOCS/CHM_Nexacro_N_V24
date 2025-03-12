@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -53,9 +52,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -68,9 +66,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -89,13 +86,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07061142980591939",
+      "id": "u_10_0.5817281147238833",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nWidth = e.cx;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -131,9 +127,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -146,9 +141,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -167,13 +161,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1950024106424585",
+      "id": "u_10_0.6127608824293076",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nHeight = e.cy;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -209,9 +202,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -224,9 +216,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -245,13 +236,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08171165975025385",
+      "id": "u_10_0.6962096696416125",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -287,9 +277,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -302,9 +291,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -323,13 +311,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.854195479781553",
+      "id": "u_10_0.7664210082373183",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -365,9 +352,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -380,9 +366,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -401,13 +386,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3489519042376039",
+      "id": "u_10_0.46765086920937526",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -443,9 +427,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -458,9 +441,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -479,13 +461,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6211351708024202",
+      "id": "u_10_0.1574322063286484",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strOrient = e.orientation;</div></td></tr><tr><th>\"portrait\"</th><td colspan=\"2\"><div>모바일 기기의 방향이 세로일 때 갖는 값입니다.</div></td></tr><tr><th>\"landscape\"</th><td colspan=\"2\"><div>모바일 기기의 방향이 가로일 때 갖는 값입니다.</div></td></tr><tr><th>\"resize\"</th><td colspan=\"2\"><div>Windows 환경일 때 컴포넌트의 크기가 변경되면 갖는 값입니다.</div></td></tr><tr><th>\"onsize\"</th><td colspan=\"2\"><div>Windows 환경일 때 MainFrame 의 크기가 변경되면 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     }
   ]
