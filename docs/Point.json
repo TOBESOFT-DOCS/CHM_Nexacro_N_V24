@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -58,9 +57,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -73,9 +71,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -84,13 +81,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6422407305527412",
+      "id": "u_10_0.7095654377603445",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objPnt = new nexacro.Point(20, 20) ;\nobjPnt.x = 40;</div></td></tr><tr><th>nX</th><td colspan=\"2\"><div>x 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -126,9 +122,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -141,9 +136,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -152,13 +146,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1866196510059368",
+      "id": "u_10_0.004923055326793269",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objPnt = new nexacro.Point(20, 20) ;\nobjPnt.y = 40;</div></td></tr><tr><th>nY</th><td colspan=\"2\"><div>y 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -199,9 +192,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -220,7 +212,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7925753183168341",
+      "id": "u_09_0.6892326557954692",
       "type": "command",
       "content": "var objPoint1 = new nexacro.Point(10,10);\n\nvar objPoint2 = objPoint1.clone();"
     },
@@ -230,13 +222,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3519640146295334",
+      "id": "u_10_0.34717262934885207",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>현재 Point 오브젝트의 값을 복사한 새로운 Point 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -262,9 +253,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -283,13 +273,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7936575821995283",
+      "id": "u_10_0.7286203012459241",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objPoint</td><td>Object</td><td colspan=\"2\"><div>현재 Point 오브젝트의 x, y 속성값에 복사될 값을 Point 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>Point 오브젝트의 x 속성값에 복사할 값을 숫자 형태로 설정합니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>Point 오브젝트의 y 속성값에 복사할 값을 숫자 형태로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objPoint1 = new nexacro.Point(10,10);\nvar objPoint2 = new nexacro.Point(20,20);\n\nobjPoint1.copy(objPoint2);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -325,9 +314,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -346,13 +334,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8871529803779301",
+      "id": "u_10_0.8047827554001847",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objPoint</td><td>Object</td><td colspan=\"2\"><div>Point 오브젝트의 x, y 속성값과 비교할 값을 Point 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>arrVal</td><td>Array</td><td colspan=\"2\"><div>Point 오브젝트의 x, y 속성값과 비교할 값을 배열 형태로 설정합니다.\n\nx, y 속성값을 각각 첫번째, 두번째 원소와 비교합니다.</div></td></tr><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>Point 오브젝트의 x 속성값과 비교할 값을 숫자 형태로 설정합니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>Point 오브젝트의 y 속성값과 비교할 값을 숫자 형태로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objPoint1 = new nexacro.Point(10,10);\nvar objPoint2 = new nexacro.Point(20,20);\nvar arrVal = new Array(20,20);\n\nalert( objPoint1.equals(objPoint2) );\nalert( objPoint1.equals(arrVal) );\nalert( objPoint1.equals(20,20) );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -361,13 +348,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.40322400475569764",
+      "id": "u_10_0.1865581572436844",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Point 오브젝트에 저장된 x, y 속성값과 인수로 전달된 값이 모두 일치하면 \"true\" 를 반환합니다.\n\nPoint 오브젝트에 저장된 x, y 속성값과 인수로 전달된 값이 하나라도 다르면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
