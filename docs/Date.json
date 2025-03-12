@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -36,28 +35,26 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.06103595007771645",
+      "id": "u_09_0.39282544181029855",
       "type": "command",
       "content": "new nexacro.Date( [nYear [, nMonth [, nDay [, nHours [, nMinutes [, nSeconds [,nMillisecond]]]]]]] )"
     },
     {
-      "id": "u_10_0.49571817745465463",
+      "id": "u_10_0.9199948738357933",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>nYear</td><td>Number</td><td><div>네자리 년도(Year)값을 설정합니다.\n\n0부터 99까지의 값을 입력하는 경우 1900 을 더한 값으로 처리됩니다.</div></td></tr><tr><td>nMonth</td><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDay</td><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 설정합니다.</div></td></tr><tr><td>nHours</td><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 설정합니다.\n\n0 은 자정, 23 은 오후 11 시를 의미합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "120,120,?"
+        "tableLayout": "120,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
-      "id": "u_10_0.13203871087862962",
+      "id": "u_10_0.8021784755823606",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object (Valid Value)\nvar objDate1 = new nexacro.Date();\nvar objDate2 = new nexacro.Date( 2000,1,1 );\nvar objDate3 = new nexacro.Date( 2000,1,1,9,0,0,0 );\n\n// Create Object (Invalid Value)\nvar objDate4 = new nexacro.Date( undefined );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "100%"
+        "tableLayout": "100%",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -88,9 +85,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -109,13 +105,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6922330828837523",
+      "id": "u_10_0.670274401143266",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDays</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 날짜(Day) 수를 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 날짜 (Day)수를 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addDate(30);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -124,13 +119,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2622006711650402",
+      "id": "u_10_0.9742453550566389",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 날짜만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -166,9 +160,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -187,13 +180,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9391814176672274",
+      "id": "u_10_0.8859053672339869",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 시간값(Hour)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 시간값(Hour)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addHours(10);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -202,13 +194,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07024536002095583",
+      "id": "u_10_0.3237897159315384",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 시간만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -234,9 +225,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -255,13 +245,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6030299970806213",
+      "id": "u_10_0.16867197041083903",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMsec</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 밀리초값(MilliSecond)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 밀리초값(MilliSecond)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMilliseconds(80);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -270,13 +259,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22625554452810814",
+      "id": "u_10_0.8441791684929273",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 밀리초만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -302,9 +290,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -323,13 +310,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18325587948811106",
+      "id": "u_10_0.9673596303836859",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 분값(Minutes)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 분값(Minutes)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMinutes(5);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -338,13 +324,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3908553518919461",
+      "id": "u_10_0.9194342306437892",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 분(Minutes)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -370,9 +355,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -391,13 +375,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4607457841154262",
+      "id": "u_10_0.43074413679856516",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonths</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 월값(Month)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 월값(Month)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addMonth(3);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -406,13 +389,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8434543292203076",
+      "id": "u_10_0.3167690365026937",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 월(Month)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -438,9 +420,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -459,13 +440,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.45874712438035503",
+      "id": "u_10_0.20930064565624884",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 초값(Second)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 초값(Second)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addSeconds(30);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -474,13 +454,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9027349294605358",
+      "id": "u_10_0.6462850909988893",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 초(Second)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -506,9 +485,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -527,13 +505,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.01452091377055964",
+      "id": "u_10_0.48443011786070034",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>Date 오브젝트에 더할 년수값(Year)을 숫자로 설정합나다.\n\n음수로 설정 시 Date 오브젝트에서 설정한 년수값(Year)을 뺍니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.addYear(3);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -542,13 +519,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.45913261638565583",
+      "id": "u_10_0.6515650759327413",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 날짜에 지정한 년수(Year)만큼 더한 날짜를 반환합니다.\n\nUTC(협정세계시) 1970년 1월 1일 자정부터 밀리초 단위로 저장된 시간 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -574,9 +550,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -595,7 +570,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.28433952263323115",
+      "id": "u_09_0.5334983666271046",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getDate());"
     },
@@ -605,13 +580,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8520129219629088",
+      "id": "u_10_0.4859882918482815",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -657,9 +631,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -678,7 +651,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7520237373756636",
+      "id": "u_09_0.43980722060713506",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getDay());"
     },
@@ -688,13 +661,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.33240136928214215",
+      "id": "u_10_0.6582933361838261",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (일요일) 부터 6 (토요일) 사이의 요일 코드값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -740,9 +712,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -761,7 +732,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.458625342680134",
+      "id": "u_09_0.5416819140020158",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getFullYear());"
     },
@@ -771,13 +742,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.516788787918107",
+      "id": "u_10_0.6542861852290958",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>네자리 년도(Year)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -823,9 +793,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -844,7 +813,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9537304635927489",
+      "id": "u_09_0.39292354913823013",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getHours());"
     },
@@ -854,13 +823,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.967393861856864",
+      "id": "u_10_0.39554452606091073",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -896,9 +864,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -917,7 +884,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.13864191934241565",
+      "id": "u_09_0.08874190813737648",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMilliseconds());"
     },
@@ -927,13 +894,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6064735149007889",
+      "id": "u_10_0.5963377025791746",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -969,9 +935,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -990,7 +955,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3156237426459322",
+      "id": "u_09_0.32539924702409095",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMinutes());"
     },
@@ -1000,13 +965,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.10834730357785449",
+      "id": "u_10_0.14308124121339316",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1042,9 +1006,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1063,7 +1026,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.346472830571821",
+      "id": "u_09_0.9601419750677547",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getMonth());"
     },
@@ -1073,13 +1036,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.798488748616446",
+      "id": "u_10_0.5002547927133716",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1125,9 +1087,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1146,7 +1107,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2729028952818746",
+      "id": "u_09_0.20031676725151748",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getSeconds());"
     },
@@ -1156,13 +1117,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5257758215156749",
+      "id": "u_10_0.5620759564149441",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1198,9 +1158,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1219,7 +1178,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3765665863803489",
+      "id": "u_09_0.5320586108420527",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getTime());"
     },
@@ -1229,13 +1188,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9899883526359761",
+      "id": "u_10_0.741894456464339",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1281,9 +1239,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1302,7 +1259,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2656109897606215",
+      "id": "u_09_0.9895197246275629",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getTimezoneOffset());"
     },
@@ -1312,13 +1269,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3139626549914646",
+      "id": "u_10_0.07113739762458648",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Date 오브젝트에 저장된 값과 UTC(협정세계시) 사이의 시간차를 분(Minute)값으로 반환합니다.\n\nDate 오브젝트에 저장된 값이 태평양 일광 절약 시간(PDT)처럼 UTC보다 느리면 양수가 되고 한국이나 일본처럼 UTC보다 빠르면 음수가 됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1354,9 +1310,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1375,7 +1330,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7106143112835861",
+      "id": "u_09_0.1278620065532684",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCDate());"
     },
@@ -1385,13 +1340,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21932637994532123",
+      "id": "u_10_0.3437956469763708",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1 부터 31 사이의 날짜 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1427,9 +1381,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1448,7 +1401,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.17684662810576768",
+      "id": "u_09_0.37423042246118476",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCDay());"
     },
@@ -1458,13 +1411,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.34307999041501847",
+      "id": "u_10_0.49318812959581193",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (일요일) 부터 6 (토요일) 사이의 요일 코드값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1500,9 +1452,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1521,7 +1472,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.21630837615609777",
+      "id": "u_09_0.7864807969131357",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCFullYear());"
     },
@@ -1531,13 +1482,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3929463170128372",
+      "id": "u_10_0.26046853315707863",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>네자리 년도(Year)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1573,9 +1523,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1594,7 +1543,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5246824310088954",
+      "id": "u_09_0.8881779398448021",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCHours());"
     },
@@ -1604,13 +1553,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07213058730657251",
+      "id": "u_10_0.08577861925267327",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 23 까지의 시(Hour)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1646,9 +1594,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1667,7 +1614,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2631803931036566",
+      "id": "u_09_0.20094759554209252",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMilliseconds());"
     },
@@ -1677,13 +1624,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8933507494812022",
+      "id": "u_10_0.40577029621087457",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 999 사이의 밀리초(MilliSecond)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1709,9 +1655,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1730,7 +1675,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9386559137709256",
+      "id": "u_09_0.9264308175209979",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMinutes());"
     },
@@ -1740,13 +1685,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.283413617018891",
+      "id": "u_10_0.0599257728475574",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 분(Minute)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1782,9 +1726,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1803,7 +1746,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.03401544709873239",
+      "id": "u_09_0.15362315007309701",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCMonth());"
     },
@@ -1813,13 +1756,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.11374023302642888",
+      "id": "u_10_0.6374455042299886",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1855,9 +1797,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1876,7 +1817,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.27153595737526626",
+      "id": "u_09_0.004193199588247598",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getUTCSeconds());"
     },
@@ -1886,13 +1827,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7860178856670702",
+      "id": "u_10_0.9665972188465968",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>0 부터 59 사이의 초(Second)값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1928,9 +1868,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1949,7 +1888,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.355409211954562",
+      "id": "u_09_0.504291356209802",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.getYear());"
     },
@@ -1959,13 +1898,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5797641693676725",
+      "id": "u_10_0.05098284007995946",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1900년에서 1999년까지의 날짜는 두자리 년도(Year)값을 반환합니다.\n이 기간 외의 날짜는 네자리 년도(Year)값을 반환합니다.\n\n예를 들어, 1996년은 96으로 반환하고 1825년이나 2025년은 네자리 그대로 반환됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2001,9 +1939,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2022,13 +1959,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9043284415973527",
+      "id": "u_10_0.9061282212156935",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDate</td><td>String</td><td colspan=\"2\"><div>날짜 형식의 문자열을 설정합니다.\n\n유효하지 않은 날짜형식의 문자열은 오류로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\nvar nMs = objDate.parse(\"2021-06-29T11:00:00.000Z\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2037,13 +1973,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22693934848779618",
+      "id": "u_10_0.9014060857778412",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정과 지정된 날짜 사이의 시간을 밀리초(MilliSecond)로 반환합니다.\n\n유효하지 않은 날짜형식으로 오류로 처리되면 NaN을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2079,9 +2014,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2100,13 +2034,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08375883588933142",
+      "id": "u_10_0.26224278007195434",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDate </td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)를 숫자로 설정합니다.\n\n현재 달(Month)의 마지막 날짜(Day) 보다 큰 수를 설정하면 다음달로 전체 날짜값이 변경됩니다.\n0 을 설정하면 이전 달의 마지막 날로 전체 날짜값이 변경됩니다.\n음수를 설정하면 이전 달의 마지막 날부터 날짜(Day)를 거꾸로 계산하여 전체 날짜값이 변경됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntraceobjDate.setDate(28));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2115,13 +2048,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.011232716384311558",
+      "id": "u_10_0.07640474153323418",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 변경된 날짜까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2157,9 +2089,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2178,13 +2109,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3199823447051907",
+      "id": "u_10_0.9936615174240159",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYear </td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td>nMonth </td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.\n\n값을 설정하지 않으면 월(Month)을 변경하지 않습니다.</div></td></tr><tr><td>nDate </td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setFullYear(2009));\ntrace(objDate.setFullYear(2009,3,1));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2193,13 +2123,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7991741854142759",
+      "id": "u_10_0.7281808890248885",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2235,9 +2164,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2256,13 +2184,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5172084858031908",
+      "id": "u_10_0.29588923746141593",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours </td><td>Number</td><td colspan=\"2\"><div>변경시킬 시(Hour)값을 설정합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.\n\n값을 설정하지 않으면 분(Minute)을 변경하지 않습니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setHours( 13 ));\ntrace(objDate.setHours( 13, 24 ));\ntrace(objDate.setHours( 13, 59, 59, 999 ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2271,13 +2198,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4284215905601464",
+      "id": "u_10_0.8544739867948943",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2313,9 +2239,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2334,13 +2259,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1489854187023969",
+      "id": "u_10_0.40806830489223644",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMilliSecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMilliseconds(568));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2349,13 +2273,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6812628347510675",
+      "id": "u_10_0.8253557924718724",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2391,9 +2314,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2412,13 +2334,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8281504535251296",
+      "id": "u_10_0.36880246316900245",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes </td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds </td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMinutes( 49 ));\ntrace(objDate.setMinutes( 49, 59 ));\ntrace(objDate.setMinutes( 49, 59, 999 ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2427,13 +2348,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.0727557129086227",
+      "id": "u_10_0.8100800640375877",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2469,9 +2389,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2490,13 +2409,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.49339557245558874",
+      "id": "u_10_0.8135488374054747",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setMonth( 3 ));\ntrace(objDate.setMonth( 3, 15 ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2505,13 +2423,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.31474325961353977",
+      "id": "u_10_0.4262959599090437",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2547,9 +2464,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2568,13 +2484,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.17668583727268017",
+      "id": "u_10_0.7937288999652663",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setSeconds( 59 ));\ntrace(objDate.setSeconds( 59, 456 ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2583,13 +2498,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2815805570164477",
+      "id": "u_10_0.6703022960413928",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2625,9 +2539,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2646,13 +2559,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5390873354723742",
+      "id": "u_10_0.8841182568782119",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMs</td><td>Number</td><td colspan=\"2\"><div>1970년 1월 1일 자정부터 설정할 날짜까지의 시간을 밀리초(MilliSecond)값으로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\nvar nMs = objDate.setTime(199);   // 1 January 1970</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2661,13 +2573,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.49468847648900327",
+      "id": "u_10_0.8562372441826493",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2703,9 +2614,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2724,13 +2634,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6888549524768336",
+      "id": "u_10_0.988437966177885",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCDate(31));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2739,13 +2648,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8917102843425245",
+      "id": "u_10_0.9316537956588309",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2781,9 +2689,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2802,13 +2709,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8245583727161595",
+      "id": "u_10_0.9152894397369361",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td>nMonths</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.\n\n값을 설정하지 않으면 월(Month)을 변경하지 않습니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCFullYear(2009));\ntrace(objDate.setUTCFullYear(2009, 3, 15));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2817,13 +2723,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9464823258558148",
+      "id": "u_10_0.7359533368268086",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2859,9 +2764,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2880,13 +2784,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07356736152291299",
+      "id": "u_10_0.7121323122693652",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>변경시킬 시(Hour)값을 설정합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.\n\n값을 설정하지 않으면 분(Minute)을 변경하지 않습니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCHours(23));\ntrace(objDate.setUTCHours(23, 59));\ntrace(objDate.setUTCHours(23, 59, 59));\ntrace(objDate.setUTCHours(23, 59, 59, 999));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2895,13 +2798,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.20891163619732167",
+      "id": "u_10_0.6028242344679995",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2937,9 +2839,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2958,13 +2859,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6337632294062773",
+      "id": "u_10_0.8712438319239566",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMs</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMilliseconds(999));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2973,13 +2873,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5298079819460143",
+      "id": "u_10_0.656709671619924",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3015,9 +2914,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3036,13 +2934,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30391493695151095",
+      "id": "u_10_0.3302958928783496",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>변경시킬 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.\n\n값을 설정하지 않으면 초(Second)를 변경하지 않습니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMinutes(59));\ntrace(objDate.setUTCMinutes(59,59));\ntrace(objDate.setUTCMinutes(59,59,999));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3051,13 +2948,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1264691269781626",
+      "id": "u_10_0.27762845704210404",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3093,9 +2989,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3114,13 +3009,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4891486662567027",
+      "id": "u_10_0.2782637424496631",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>변경시킬 0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDate</td><td>Number</td><td colspan=\"2\"><div>변경시킬 날짜(Day)값을 설정합니다.\n\n값을 설정하지 않으면 날짜(Day)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCMonth(11));\ntrace(objDate.setUTCMonth(11,31));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3129,13 +3023,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5599543205780729",
+      "id": "u_10_0.6322803946090961",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3171,9 +3064,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3192,13 +3084,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.831826475505623",
+      "id": "u_10_0.37644998245358896",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>변경시킬 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>변경시킬 밀리초(MilliSecond)값을 설정합니다.\n\n값을 설정하지 않으면 밀리초(MilliSecond)를 변경하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setUTCSeconds(59));\ntrace(objDate.setUTCSeconds(59,999));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3207,13 +3098,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1788877188133391",
+      "id": "u_10_0.7970797748749772",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3249,9 +3139,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3270,13 +3159,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5706887073228178",
+      "id": "u_10_0.5355105272371308",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYears</td><td>Number</td><td colspan=\"2\"><div>변경시킬 년도(Year)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.setYear(2009));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3285,13 +3173,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3562467569706371",
+      "id": "u_10_0.6181743007000263",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3327,9 +3214,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3348,7 +3234,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.17249158071350457",
+      "id": "u_09_0.3579167571044609",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toDateString());"
     },
@@ -3358,13 +3244,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8280231788933948",
+      "id": "u_10_0.8313782533941944",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3400,9 +3285,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3421,7 +3305,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7289805786515786",
+      "id": "u_09_0.31485506904386595",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toGMTString());"
     },
@@ -3431,13 +3315,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7106203116693179",
+      "id": "u_10_0.9760401634743098",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜와 시간을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3473,9 +3356,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3494,13 +3376,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6517676530434527",
+      "id": "u_10_0.9760098576894132",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleDateString());\ntrace(objDate.toLocaleDateString( \"ko_KR\" ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3509,13 +3390,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7712772894833023",
+      "id": "u_10_0.18487902350388397",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 날짜를 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3551,9 +3431,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3572,13 +3451,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.46547624780051944",
+      "id": "u_10_0.5195134030186422",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleString());\ntrace(objDate.toLocaleString( \"ko_KR\" ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3587,13 +3465,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.33090642643721613",
+      "id": "u_10_0.18717186095706162",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 날짜와 시간을 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3629,9 +3506,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3650,13 +3526,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8596568040435127",
+      "id": "u_10_0.15916111302297942",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLocale</td><td>String</td><td colspan=\"2\"><div>ISO 639-1 에서 정의하고 있는 2-알파벳 언어코드와 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 조합하여 \"언어[_국가]\" 형식의 문자열로 설정합니다.\n\n값 생략 시 Environment 의 locale 속성값이 적용됩니다.\nEnvironment 의 locale 속성값도 설정하지 않았을 경우 시스템의 로케일 설정값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\n\ntrace(objDate.toLocaleTimeString());\ntrace(objDate.toLocaleTimeString( \"ko_KR\" ));</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3665,13 +3540,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9873828043698597",
+      "id": "u_10_0.33448549541558714",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 로케일 형식에 맞게 변환된 시간을 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3707,9 +3581,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3728,7 +3601,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6815696231570154",
+      "id": "u_09_0.7005903062944036",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toString());"
     },
@@ -3738,13 +3611,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8708244183350242",
+      "id": "u_10_0.9810680155870698",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Date 오브젝트에 저장된 값에서 날짜와 시간을 문자열로 반환합니다.\n\nDate 오브젝트에 날짜값만 있을 경우 8 자리 날짜형식으로 반환합니다.\nDate 오브젝트에 시간값만 있을 경우 9 자리 시간형식으로 반환합니다.\nDate 오브젝트에 날짜와 시간값이 모두 있을 경우 17 자리 날짜시간형식으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3780,9 +3652,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3801,7 +3672,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.24619125678148912",
+      "id": "u_09_0.18879241331974506",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toTimeString());"
     },
@@ -3811,13 +3682,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7442798830928673",
+      "id": "u_10_0.9965946847623571",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 시간을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3853,9 +3723,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3874,7 +3743,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7581290444801793",
+      "id": "u_09_0.35846324318498046",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.toUTCString());"
     },
@@ -3884,13 +3753,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.44084458512293634",
+      "id": "u_10_0.5599410024126539",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열로 변환된 날짜와 시간을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3926,9 +3794,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3947,13 +3814,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.516586384263302",
+      "id": "u_10_0.19123193398790284",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nYear</td><td>Number</td><td colspan=\"2\"><div>네자리 년도(Year)값을 설정합니다.\n\n0부터 99까지의 값을 입력하는 경우 1900을 더한 값으로 처리됩니다.</div></td></tr><tr><td>nMonth</td><td>Number</td><td colspan=\"2\"><div>0 (1월) 부터 11 (12월) 사이의 월(Month) 코드값을 설정합니다.</div></td></tr><tr><td>nDay</td><td>Number</td><td colspan=\"2\"><div>1 부터 31 사이의 날짜 값을 설정합니다.</div></td></tr><tr><td>nHours</td><td>Number</td><td colspan=\"2\"><div>0 부터 23 까지의 시(Hour)값을 설정합니다.\n\n0 은 자정, 23 은 오후 11시를 의미합니다.</div></td></tr><tr><td>nMinutes</td><td>Number</td><td colspan=\"2\"><div>0 부터 59 사이의 분(Minute)값을 설정합니다.</div></td></tr><tr><td>nSeconds</td><td>Number</td><td colspan=\"2\"><div>0 부터 59 사이의 초(Second)값을 설정합니다.</div></td></tr><tr><td>nMillisecond</td><td>Number</td><td colspan=\"2\"><div>0 부터 999 사이의 밀리초(MilliSecond)값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDate = new nexacro.Date();\ntrace(objDate.UTC( 2009, 3, 1 ));\ntrace(objDate.UTC( 2009, 3, 1, 0, 0, 0, 0) );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3962,13 +3828,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7162056371967938",
+      "id": "u_10_0.6920168299465294",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 Date 오브젝트에 저장된 값까지의 시간을 밀리초(MilliSecond)값으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -4004,9 +3869,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -4025,7 +3889,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2530900163854375",
+      "id": "u_09_0.7225752712067056",
       "type": "command",
       "content": "var objDate = new nexacro.Date();\n\ntrace(objDate.valueOf());"
     },
@@ -4035,13 +3899,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2911975972346307",
+      "id": "u_10_0.07377137128090794",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Date 오브젝트에 저장된 값에서 날짜와 시간을 문자열로 반환합니다.\n\nDate 오브젝트에 날짜값만 있을 경우 8 자리 날짜형식으로 반환합니다.\nDate 오브젝트에 시간값만 있을 경우 9 자리 시간형식으로 반환합니다.\nDate 오브젝트에 날짜와 시간값이 모두 있을 경우 17 자리 날짜시간형식으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
