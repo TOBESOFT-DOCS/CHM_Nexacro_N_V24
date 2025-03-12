@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -36,13 +35,12 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.3535628938985864",
+      "id": "u_10_0.4811029048774219",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "120,120,?"
+        "tableLayout": "120,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -73,9 +71,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -88,9 +85,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -109,13 +105,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8669044678877373",
+      "id": "u_10_0.3101022741291598",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>-nexa-border ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
