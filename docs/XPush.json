@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -58,9 +57,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -73,9 +71,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -84,13 +81,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8990613795637232",
+      "id": "u_10_0.7535273629181944",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nRetry</th><td colspan=\"2\"><div>에러 발생 시 재시도 할 횟수를 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -126,9 +122,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -141,9 +136,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -152,13 +146,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9915880749604798",
+      "id": "u_10_0.803654929059224",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bDebug ::= 'true' | 'false'</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>넥사크로 스튜디오의 output 윈도우에 디버그용 XPush 메시지를 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>넥사크로 스튜디오의 output 윈도우에 디버그용 XPush 메시지를 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -194,9 +187,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -209,9 +201,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -247,9 +238,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -262,9 +252,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -300,9 +289,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -315,9 +303,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -326,13 +313,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8585630913107563",
+      "id": "u_10_0.8907837316609402",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strIplist ::= [strScheme]strIPaddress:nPort [, [strScheme]strIPaddress:nPort]*\n\nstrScheme ::= \"tcp://\" | \"http://\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.iplist = \"192.168.0.1:1004\";\nthis.XPush00.iplist = \"192.168.0.1:1004,127.0.0.1:1004\";</div></td></tr><tr><th>strScheme</th><td colspan=\"2\"><div>\"tcp://\" 설정 시 TCP 통신을 사용하여 메시지를 전달받습니다.\n\"http://\" 설정 시 HTTP 통신을 사용하여 메시지를 전달받습니다.\n\n웹브라우저 환경에서는 HTTP 통신을 사용하여야 합니다.\n값을 설정하지 않으면 \"tcp://\" 으로 적용됩니다.</div></td></tr><tr><th>strIPaddress</th><td colspan=\"2\"><div>연결할 X-PUSH 서버의 IP Address 를 설정합니다.</div></td></tr><tr><th>nPort</th><td colspan=\"2\"><div>연결할 X-PUSH 서버의 Port 를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -368,9 +354,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -383,9 +368,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -394,13 +378,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8599806716055096",
+      "id": "u_10_0.5324487180983407",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nKeepAliveTime</th><td colspan=\"2\"><div>X-PUSH 서버와 연결유지를 위한 메시지를 보내는 주기를 초(Second) 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -436,9 +419,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -451,9 +433,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -462,13 +443,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.13392582010307674",
+      "id": "u_10_0.8436487788926524",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTimeOut</th><td colspan=\"2\"><div>X-PUSH 서버와 연결유지를 위해 보낸 메시지의 응답을 기다리는 시간을 초(Second) 단위의 숫자로 설정합니다.\n\n\"1\" 이상의 정수값을 설정할 수 있습니다.\nX-PUSH 서버에 설정된 응답시간보다 크거나 같게 설정하여야 합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -504,9 +484,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -519,9 +498,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -530,13 +508,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8875103532327376",
+      "id": "u_10_0.634396140322898",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>urlLayoutURL ::= &lt;strAlias&gt; | &lt;absolute-Url&gt; | &lt;relative-Url&gt;</div></td></tr><tr><th>&lt;strAlias&gt;</th><td colspan=\"2\"><div>Message Layout 파일의 위치를 Alias 를 사용하여 설정합니다.</div></td></tr><tr><th>&lt;absolute-Url&gt;</th><td colspan=\"2\"><div>Message Layout 파일의 위치를 \"file://절대경로\", \"http://경로/파일명\", \"https://경로/파일명\" 형태의 절대경로로 설정합니다.</div></td></tr><tr><th>&lt;relative-Url&gt;</th><td colspan=\"2\"><div>TypeDefinition 의 Services 영역에 정의된 Prefix 를 사용한 형식으로 설정합니다.\n\nForm 의 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -550,13 +527,12 @@
       "content": "- layouturl 속성을 설정하지 않으면 정상적인 메시지 수신이 불가능하므로 반드시 설정해야 하는 속성입니다.\n\n- Message Layout 정의 파일의 첫줄은 Header 정보로 XML 선언문을 설정합니다.\n\n- Message Layout 정의 파일은 &lt;message_layout&gt; Element 하위에 &lt;message&gt; Element 로 정의됩니다.\n  &lt;message&gt; Element 는 \"type\" Attribute 를 가지며 반드시 4 자리 영문자로 메시지 타입을 정의하여야 합니다.\n\n- 하나의 메시지를 의미하는 &lt;message&gt; Element 는 하위에 &lt;field&gt; Element 를 갖습니다.\n  &lt;field&gt; Element 는 메시지에 정의된 Field 값이며 가질 수 있는 Attribute 는 아래 표와 같습니다.\n\n\n\n\n◆ web runtime environment 제약\n\n- web runtime environment 에서 XPush 기능을 사용하려면 X-PUSH 서버의 버전이 v2.6 이상이어야 합니다."
     },
     {
-      "id": "u_10_0.8214393306503714",
+      "id": "u_10_0.9147359856819922",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>attribute</th>\t\t<th>Description</th>\t</tr></thead>\t\t\t\t\t<tbody><tr>\t\t<td>id</td>\t\t<td>필드명을 설정합니다.</td>\t</tr><tr>\t\t<td>type</td>\t\t<td>필드의 타입을 설정합니다.\"string\", \"int\", \"float\", \"bigdecimal\", \"date\", \"time\", \"datetime\" 을 설정할 수 있습니다.</td>\t</tr><tr>\t\t<td>size</td>\t\t<td>필드의 데이터 크기를 설정합니다.</td>\t</tr><tr>\t\t<td>key</td>\t\t<td>현재 필드가 키가 되는 여부를 설정합니다.정의하지 않으면 \"false\" 로 적용됩니다.하나 이상의 필드가 키로 설정될 수 있습니다.</td>\t</tr><tr>\t\t<td>check</td>\t\t<td>Push 서버로 부터 받은 메시지를 DataSet 에 저장할 지 결정하는 필드인지 설정합니다.정의하지 않으면 \"false\" 로 적용됩니다.</td>\t</tr></tbody></table>",
       "option": {
-        "table_layout": "auto",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": null
+        "tableLayout": "auto",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -582,9 +558,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -597,9 +572,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -618,13 +592,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4914128905530598",
+      "id": "u_10_0.32964487945495247",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -660,9 +633,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -675,9 +647,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -696,13 +667,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7196212301060535",
+      "id": "u_10_0.19004856614734655",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.projectid = \"Project00\";</div></td></tr><tr><th>strID</th><td colspan=\"2\"><div>X-PUSH 서버와 통신할 때 사용할 Project ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -738,9 +708,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -753,9 +722,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -774,13 +742,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.014019565764713304",
+      "id": "u_10_0.3477766228490715",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.protocolversion = 3;</div></td></tr><tr><th>nVer</th><td colspan=\"2\"><div>X-Push 서버와 통신 시 사용할 Protocol 의 버전을 숫자로 설정합니다.\n\n2 설정 시 v2.8 미만 버전의 X-PUSH 서버 기능을 사용 할 수 있습니다.\n3 설정 시 v2.8 이상 버전의 X-PUSH 서버 기능을 사용 할 수 있습니다.\n\n* X-PUSH 서버의 버전이 V2.8 미만일 경우 2 만 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -816,9 +783,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -831,9 +797,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -842,13 +807,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6470772772296629",
+      "id": "u_10_0.7513551890361353",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.retry = 2;</div></td></tr><tr><th>nRetry</th><td colspan=\"2\"><div>에러 발생 시 재시도할 횟수를 숫자로 설정합니다.\n\n\"0\" 설정 시 재시도 없이 연결을 종료합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -884,9 +848,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -899,9 +862,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -910,13 +872,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.22041397951973396",
+      "id": "u_10_0.6756702772920322",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strSessionID</th><td colspan=\"2\"><div>X-PUSH 서버 연결 시 사용할 Session ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -952,9 +913,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -967,9 +927,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -978,13 +937,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2228240087717399",
+      "id": "u_10_0.48653397555759603",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.XPush00.timeout = 60;</div></td></tr><tr><th>nTimeOut</th><td colspan=\"2\"><div>X-PUSH 서버와 연결을 위해 보낸 메시지의 응답을 기다리는 시간을 초(Second) 단위의 숫자로 설정합니다.\n\n\"1\" 이상의 정수값을 설정할 수 있습니다.\nX-PUSH 서버에 설정된 응답시간보다 크거나 같게 설정하여야 합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1020,9 +978,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1035,9 +992,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1046,13 +1002,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7995225666605194",
+      "id": "u_10_0.6509126286781982",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strUserID</th><td colspan=\"2\"><div>X-PUSH 서버 연결 시 사용할 User ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1093,9 +1048,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1114,13 +1068,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3137152778277825",
+      "id": "u_10_0.41502600500733544",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>X-PUSH 서버에 연결 시 인증을 위한 User ID를 설정합니다.\n\n값 생략 시 userid 속성값이 적용됩니다.</div></td></tr><tr><td>strSessionID</td><td>String</td><td colspan=\"2\"><div>X-PUSH 서버에 연결 시 인증을 위한 Session ID 를 설정합니다.\n\n값 생략 시 sessionid 속성값이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.userid = \"user00\";    \nthis.XPush00.sessionid = \"session00\";\n\nthis.XPush00.connect();\nthis.XPush00.connect(\"user00\");\nthis.XPush00.connect(\"user00\", \"session00\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1156,9 +1109,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1177,7 +1129,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.562986654873353",
+      "id": "u_09_0.518481278914581",
       "type": "command",
       "content": "this.XPush00.disconnect();"
     },
@@ -1214,9 +1166,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1235,7 +1186,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.054655741330634",
+      "id": "u_09_0.23306592937245707",
       "type": "command",
       "content": "var strIPAddress = this.XPush00.getCurrentIP();"
     },
@@ -1245,13 +1196,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4197518371971197",
+      "id": "u_10_0.19639212247801807",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>현재 접속중인 X-PUSH 서버의 IP값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1287,9 +1237,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1308,7 +1257,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.45804436777941715",
+      "id": "u_09_0.4724080066551355",
       "type": "command",
       "content": "var nPort = this.XPush00.getCurrentPort();"
     },
@@ -1318,13 +1267,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7941757195759099",
+      "id": "u_10_0.21739427156786062",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>현재 접속중인 X-PUSH 서버의 Port 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1360,9 +1308,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1408,9 +1355,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1429,13 +1375,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9039030891091709",
+      "id": "u_10_0.17985742440245833",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 사용자의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 프로젝트의 ID를 문자열로 설정합니다.\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1471,9 +1416,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1492,7 +1436,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.050612907870904444",
+      "id": "u_09_0.9253414059634312",
       "type": "command",
       "content": "this.XPush00.registerDevice()"
     },
@@ -1529,9 +1473,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1550,13 +1493,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7960675832967082",
+      "id": "u_10_0.42381348997623314",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.registerTopic(\"CPDT\", \"command01\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1592,9 +1534,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1613,13 +1554,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22971988278307576",
+      "id": "u_10_0.7956003176630524",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지를 수신할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.registerTopicWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.registerTopicWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1655,9 +1595,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1676,13 +1615,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.906873728931711",
+      "id": "u_10_0.987915932499526",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMsgType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMsgKeys</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.\n\n수신 받을 메세지가 여러개일 경우 콤마(\",\")로 구분하여  여러개의 Key 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1718,9 +1656,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1739,13 +1676,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08621179222496733",
+      "id": "u_10_0.7597789816375311",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 갯수를 수신 받을 메시지의 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>미수신된 신뢰성 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.requestMessageCount(\"CPDT\", \"command01\")</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1781,9 +1717,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1802,13 +1737,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8433497866427799",
+      "id": "u_10_0.360310440748135",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 갯수를 수신 받을 메시지의 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 갯수를 확인할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>미수신한 신뢰성 메시지의 갯수를 확인할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.requestMessageCountWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.requestMessageCountWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1844,9 +1778,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1865,13 +1798,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06910003439416601",
+      "id": "u_10_0.3094706912408315",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strmsgid</td><td>String</td><td colspan=\"2\"><div>수신된 신뢰성 메시지의 ID를 설정합니다.\n\n메시지 수신 시 발생하는 CallBack 함수에 \"msgid\" 파라미터의 값으로 ID가 전달됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1907,9 +1839,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1928,13 +1859,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2977539198828254",
+      "id": "u_10_0.3119036514300366",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMsgType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신 받을 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMsgKey</td><td>String</td><td colspan=\"2\"><div>수신 받을 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td>objForm</td><td>Object</td><td colspan=\"2\"><div>메시지를 수신 받을 Form 의 오브젝트를 설정합니다.</div></td></tr><tr><td>objDataset</td><td>Object</td><td colspan=\"2\"><div>수신 받은 메시지를 저장할 DataSet 의 오브젝트를 설정합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>수신 된 메시지를 DataSet 에 저장하는 방법을 설정합니다.\n\n\"append\" 설정 시 DataSet 의 마지막 Row 로 수신된 메시지를 추가합니다.\n\n\"insert\" 설정 시 nRow 파라미터로 설정한 위치에 수신된 메시지를 추가합니다.\nnRow 파라미터를 설정하지 않으면 0 으로 적용됩니다.\n\n\"replace\" 설정 시 첫번째 Row 가 수신된 메시지로 대체됩니다.\nRow 가 없을 경우 메시지가 DataSet 에 추가되지 않습니다.\n\n\"update\" 설정 시 DataSet 의 Row 중 Key 값이 동일한 첫번째 Row 에 수신된 메시지를 업데이트 합니다.\n업데이트할 Row가 없다면 콜백함수는 호출되지 않습니다.\n\n\"allUpdate\" 설정 시 DataSet 의 Row 중 Key 값이 동일한 모든 Row 에 수신된 메시지를 업데이트 합니다.\n\n\"updateorappend\" 설정 시 \"update\" 설정과 동일하게 동작하지만 Key 값이 동일한 Row 가 없을 경우 \"append\" 로 동작합니다.\n\n* Key 값이 동일한 Row 는 아래 순서로 찾습니다.\n  a) Message Layout 파일에서 \"key\" 속성값이 \"true\" 로 설정된 필드(Field)의 이름을 확인\n  b) a) 에서 확인한 필드(Field) 이름과 동일한 이름의 Column 을 확인\n  c) b) 에서 확인한 Column 에서 메시지에 포함된 Key 값과 동일값을 갖는 Row  를 확인</div></td></tr><tr><td>strCallBack</td><td>String</td><td colspan=\"2\"><div>수신된 메시지를 DataSet 에 저장 후 호출할 CallBack 함수명을 문자열로 설정합니다.\n\nCallBack 함수는 CallBackName ( ChangeRow, ChangeCol, ColList, strMsgType, strActionType, strMsgID ) 형태로 정의하며 strType 파라미터와 조건에 따라 파라미터의 의미가 다르므로  하단 리마크를 참조하시기 바랍니다.</div></td></tr><tr><td>nRow</td><td>Number</td><td colspan=\"2\"><div>strType 값이 \"insert\" 일 경우 DataSet 에 삽입할 Row 의 인덱스를 설정합니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>strCheck</td><td>String</td><td colspan=\"2\"><div>\"0\" 설정 시 DataSet 에 메시지를 무조건 반영합니다.\nstrCheck 에 설정한 값이 Message Layout 파일에 \"check\" 속성값이 \"true\" 로 설정된 필드(Field)값과 일치할 경우만 DataSet 에 메시지를 반영합니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td>bUseActiveFormCallBack</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 활성화된 Form 에서만 CallBack 함수를 호출합니다.\nfalse 설정 시 활성화 되지 않은 Form 에서도 CallBack 함수를 호출합니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.subscribe(\"CPDT\", \"command01\", this, this.Dataset00, \"append\", \"funcCallback\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1970,9 +1900,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1991,7 +1920,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.03725431946296254",
+      "id": "u_09_0.9441871711558276",
       "type": "command",
       "content": "this.XPush00.unregisterDevice()"
     },
@@ -2028,9 +1957,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2049,13 +1977,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4413321491715724",
+      "id": "u_10_0.5200278925908638",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 메세지의 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unregisterTopic(\"CPDT\", \"command01\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2091,9 +2018,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2112,13 +2038,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8440563113924395",
+      "id": "u_10_0.8640171655069138",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 메시지 타입을 문자열로 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 메시지의 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>strUserID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지의 수신을 중지할 사용자의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strProjectID</td><td>String</td><td colspan=\"2\"><div>신뢰성 메시지의 수신을 중지할 프로젝트의 ID 를 문자열로 설정합니다.\n\n값 생략 시 projectid 속성값이 적용됩니다.\n\n* protocolversion 속성값이 3 인 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unregisterTopicWithUserID( \"CPDT\", \"command01\", \"userID\" );\nthis.XPush00.unregisterTopicWithUserID( \"CPDT\", \"command01\", \"userID\", \"Project00\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2154,9 +2079,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2175,13 +2099,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9293853030891688",
+      "id": "u_10_0.9455644826576806",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMessageType</td><td>String</td><td colspan=\"2\"><div>Message Layout 파일에 정의된 메시지 타입 중 수신을 중지할 Topic 의 메시지 타입을 설정합니다.</div></td></tr><tr><td>strMessgageKey</td><td>String</td><td colspan=\"2\"><div>수신을 중지할 Topic 의 Key 값을 설정합니다.</div></td></tr><tr><td>objForm</td><td>Object</td><td colspan=\"2\"><div>Topic 등록 시 설정한 Form 오브젝트를 설정합니다.</div></td></tr><tr><td>objDataset</td><td>Object</td><td colspan=\"2\"><div>Topic 등록 시 설정한 DataSet 오브젝트를 설정합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>Topic 등록 시 설정한 메시지 저장 방법을 설정합니다.</div></td></tr><tr><td>strCallBack</td><td>String</td><td colspan=\"2\"><div>Topic 등록 시 설정한 CallBack 함수명을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.XPush00.unsubscribe(\"CPDT\", \"command01\", this, this.Dataset00, \"append\", \"funcCallback\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2222,9 +2145,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2244,13 +2166,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.47521327317616513",
+      "id": "u_10_0.12530776229943685",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushErrorEventInfo\" string=\"XPushErrorEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushErrorEventInfo\">XPushErrorEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "120,240,?"
+        "tableLayout": "120,240,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2286,9 +2207,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2308,13 +2228,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5387992425961003",
+      "id": "u_10_0.4487151210560463",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushKeepAliveEventInfo\" string=\"XPushKeepAliveEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushKeepAliveEventInfo\">XPushKeepAliveEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "120,240,?"
+        "tableLayout": "120,240,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2350,9 +2269,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2372,13 +2290,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6820023463883838",
+      "id": "u_10_0.87771177947514",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushEventInfo\" string=\"XPushEventInfo\"></a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>XPush</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#XPushEventInfo\">XPushEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "120,240,?"
+        "tableLayout": "120,240,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
