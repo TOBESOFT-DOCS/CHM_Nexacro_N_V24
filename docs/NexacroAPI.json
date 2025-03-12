@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -58,9 +57,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -79,13 +77,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32422814715476045",
+      "id": "u_10_0.5437366225895647",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumLang</td><td>String</td><td colspan=\"2\"><div>에러메시지가 추가될 언어를 설정합니다.\n\n\"ko\" 설정 시 한국어 영역에 에러메시지를 추가합니다.\n\"en\" 설정 시 영어 영역에 에러메시지를 추가합니다.\n\"ja\" 설정 시 일본어 영역에 에러메시지를 추가합니다.\n\"zh\" 설정 시 중국어 영역에 에러메시지를 추가합니다.</div></td></tr><tr><td>strCode</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지의 코드를 문자열로 설정합니다.</div></td></tr><tr><td>strMsg</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.addErrorMessage( \"en\", \"test_code\",\"Test Error Message\" ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -121,9 +118,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -142,13 +138,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32392220546098927",
+      "id": "u_10_0.8678309938946956",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩된 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Decode( strInput ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -157,13 +152,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4288502850755489",
+      "id": "u_10_0.16740661212373453",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>디코딩된 결과 데이터를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -189,9 +183,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -210,13 +203,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.14707724102409048",
+      "id": "u_10_0.160303483406249",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩할 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Encode( strInput ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -225,13 +217,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2535960134432468",
+      "id": "u_10_0.3745859275571113",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Base64 형식으로 인코딩된 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -257,9 +248,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -278,13 +268,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.038556883288768606",
+      "id": "u_10_0.744575021683705",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum\nnNum = nexacro.ceil(3.0123);      // nNum = 4\nnNum = nexacro.ceil(3.0123, 2);  // nNum = 3.02</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -293,13 +282,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3942878577448037",
+      "id": "u_10_0.5591056495851009",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>올림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -335,9 +323,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -356,7 +343,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2846166061764369",
+      "id": "u_09_0.6672475210821951",
       "type": "command",
       "content": "nexacro.deleteCacheDB() ;"
     },
@@ -393,9 +380,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -414,13 +400,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8683616508620547",
+      "id": "u_10_0.6034946461877045",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumType</td><td>String</td><td colspan=\"2\"><div>어플리케이션이 아이콘이 깜빡이는 방식을 설정합니다.\n\n\"count\" 설정 시 지정된 횟수만큼 깜빡인 후 종료됩니다.\n\"timer\" 설정 시 \"stop\" 값으로 flashWindow() 메소드를 실행할 때까지 계속 깜빡입니다.\n\"timernofg\" 설정 시 해당 어플리케이션이 활성화 될 때까지 깜빡입니다.\n\"stop\" 설정 시 현재 깜빡이는 동작을 중지합니다.</div></td></tr><tr><td>nCount</td><td>Number</td><td colspan=\"2\"><div>enumType 값이 \"count\" 인 경우 깜박이는 횟수를 숫자로 설정합니다.\n\nenumType 값이 \"count\" 가 아닌 경우 설정값은 무시됩니다.</div></td></tr><tr><td>nInterval</td><td>Number</td><td colspan=\"2\"><div>어플리케이션 아이콘이 깜박이는 간격을 밀리초(milliseconds) 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.flashWindow( \"count\", 10, 500 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -456,9 +441,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -477,13 +461,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18271368607918204",
+      "id": "u_10_0.618468440948812",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.floor(9.9999);      // nNum = 9\nnNum = nexacro.floor(9.9999, 2);  // nNum = 9.99</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -492,13 +475,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.823133890993681",
+      "id": "u_10_0.11497428300351531",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>내림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -534,9 +516,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -555,7 +536,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.20847665280998096",
+      "id": "u_09_0.8973901244473268",
       "type": "command",
       "content": "nexacro.gc() ;"
     },
@@ -592,9 +573,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -613,7 +593,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.44711186588132523",
+      "id": "u_09_0.29178733738988716",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;"
     },
@@ -623,13 +603,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.595497312641174",
+      "id": "u_10_0.46859659620812755",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Application 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -655,9 +634,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -676,13 +654,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5425680707865144",
+      "id": "u_10_0.906831797488086",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 값을 가져옵니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 값을 가져옵니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 값을 가져옵니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 값을 가져옵니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vCookie0 = nexacro.getCookieVariable(\"Cookie0\") ;\nvar vCookie1 = nexacro.getCookieVariable(\"Cookie1\", true) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -691,13 +668,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48979391041303555",
+      "id": "u_10_0.8674299929468758",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Cookies 영역에 정의된 쿠키변수의 값을 반환합니다.\n\n조건에 만족하는 쿠키변수가 없을 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -733,9 +709,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -754,13 +729,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9382001577028586",
+      "id": "u_10_0.6459640976605043",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능 설정여부를 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar bEnableZoom = nexacro.getEnableWheelZoom( objFrame )</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -769,13 +743,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3902307726635418",
+      "id": "u_10_0.43207440461014845",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있으면 true 를 반환합니다.\n\n지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -811,9 +784,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -832,7 +804,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8357933047730743",
+      "id": "u_09_0.6948743498032813",
       "type": "command",
       "content": "var objEnv = nexacro.getEnvironment() ;"
     },
@@ -842,13 +814,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8683801769556058",
+      "id": "u_10_0.005996608999980446",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Environment 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -874,9 +845,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -895,13 +865,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8262604974386984",
+      "id": "u_10_0.14428979449174206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.getEnvironmentVariable(\"Env_Variable0\") ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -910,13 +879,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2026497922046514",
+      "id": "u_10_0.5956155412364371",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Environment 의 Variable 영역에 정의된 변수의 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -952,9 +920,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -973,13 +940,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.552961039094651",
+      "id": "u_10_0.8862005426192069",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vHTTPVal0 = nexacro.getHTTPHeaderVariable(\"HeaderVal00\") ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1005,9 +971,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1026,7 +991,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.0828117344271353",
+      "id": "u_09_0.5232037518367003",
       "type": "command",
       "content": "var strLogFilePath = nexacro.getLogFilePath();"
     },
@@ -1036,13 +1001,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48078851509071374",
+      "id": "u_10_0.9045383965758104",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>로그 파일이 저장된 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1078,9 +1042,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1099,13 +1062,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7152236899262104",
+      "id": "u_10_0.7343715632832206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>기준 Frame 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 Remark 에 설명된 조건에 따라 적용되는 Frame 이 달라질 수 있으므로 주의하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrPopFrame = nexacro.getPopupFrames() ;\nvar arrPopFrame = nexacro.getPopupFrames( this.getOwnerFrame() ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1114,13 +1076,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.43037737050552405",
+      "id": "u_10_0.5468525324426335",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>파라미터로 설정한 Frame 이 속한 Window 에서 팝업으로 실행된 Frame 을 Collection 형태로 반환합니다.\n\nobjFrame 파라미터에 null 또는 잘못된 값을 설정할 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1156,9 +1117,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1177,13 +1137,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4096460664112569",
+      "id": "u_10_0.16272465213671206",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장할 때 설정했던 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vPrivate0 = nexacro.getPrivateProfile( \"aa\" ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1192,13 +1151,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.812956279803784",
+      "id": "u_10_0.35628665987641595",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>인수로 전달된 키값에 해당하는 개인화 데이터를 저장 시 설정한 데이터 타입으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1234,9 +1192,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1255,7 +1212,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9569001261257291",
+      "id": "u_09_0.8558587598089381",
       "type": "command",
       "content": "var strPrjPath = nexacro.getProjectPath();"
     },
@@ -1265,13 +1222,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5086582448174145",
+      "id": "u_10_0.7746715273840908",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>애플리케이션의 실행 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1297,9 +1253,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1318,13 +1273,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16166241350227029",
+      "id": "u_10_0.6394542238716079",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>StringResource에서 가져올 문자열에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strResource = nexacro.getStringResourceValue(\"A0001\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1333,13 +1287,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6066629726509049",
+      "id": "u_10_0.718531547221715",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>StringResource에서 지정한 Key 값에 해당하는 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1365,9 +1318,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1386,13 +1338,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30249328015625676",
+      "id": "u_10_0.24562980560560277",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText </td><td>String</td><td colspan=\"2\"><div>화면에 표시될 텍스트를 설정합니다.</div></td></tr><tr><td>strFont</td><td>String</td><td colspan=\"2\"><div>텍스트에 적용될 폰트정보를 font 속성 형식에 맞게 설정합니다.\n\n컴포넌트의 font 속성에 값이 설정되어 있다면 font 속성을 설정할 수 있습니다.</div></td></tr><tr><td>nLimitWidth</td><td>Number</td><td colspan=\"2\"><div>텍스트가 표시되는 영역의 최대 너비를 pixel 단위의 숫자로 설정합니다.\n\nstrWordWrap 값이 \"none\" 또는 \"line\" 이면 nLimitWidth 에 설정된 값은 무시됩니다.\nstrWordWrap 값이 \"char\" 또는 \"english\" 일 경우 nLimitWidth 값에 맞게 텍스트가 줄바꿈되어 표시됩니다.</div></td></tr><tr><td>strWordWrap</td><td>String</td><td colspan=\"2\"><div>텍스트가 줄바꿈 되는 기준을 설정합니다.\n\n\"none\" 설정 시 텍스트에 포함된 개행문자와 nLimitWidth 값이 무시되어 한줄로 표시됩니다.\n\"line\" 설정 시 nLimitWidth 값은 무시되고 텍스트에 포함된 개행문자를 기준으로 줄바꿈이 됩니다.\n\"char\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\"english\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\n\"char\", \"english\" 설정 시 텍스트에 포함된 개행문자에 의해서도 줄바꿈이 됩니다.</div></td></tr><tr><td>refObj</td><td>Object</td><td colspan=\"2\"><div>strFont의 단위가 \"em\"인 경우 상대적인 크기를 설정할 기준 컴포넌트(오브젝트)를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00.font = \"italic bold 10pt Arial\";\n\nvar strText = \"Sample Text\";\n\nvar objSize = nexacro.getTextSize( strText, this.Static00.font );\nvar objSize2 = nexacro.getTextSize( strText, \"italic bold 10pt Arial\", 100, \"char\" );\nvar objSize3 = nexacro.getTextSize( strText, \"italic bold 2em Arial\", this );\n\ntrace( objSize.nx + \",\" + objSize.ny );\ntrace( objSize2.nx + \",\" + objSize2.ny );\ntrace( objSize3.nx + \",\" + objSize3.ny );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1401,13 +1352,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5495558274516751",
+      "id": "u_10_0.9433459153257839",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>인수값을 기준으로 계산된 텍스트가 표시되는 영역의 크기 정보를 오브젝트로 반환합니다.\n\n반환된 오브젝트의 \"nx\" 속성에 텍스트의 가로크기가 저장됩니다.\n반환된 오브젝트의 \"ny\" 속성에 텍스트의 세로크기가 저장됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1453,9 +1403,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1474,13 +1423,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6680161217696011",
+      "id": "u_10_0.014479056314799288",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar nZoomScale = nexacro.getWheelZoom( objFrame );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1489,13 +1437,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1257834662936922",
+      "id": "u_10_0.5517917174461191",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>지정된 Frame 이 속한 window 의 Zoom 배율을 \"%\" 단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1531,9 +1478,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1552,13 +1498,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8301561022298332",
+      "id": "u_10_0.5802529482793046",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlpha(97);       // true, 97 = 'a'\nbRet = nexacro.isAlpha(\"aaa\");  // true</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1567,13 +1512,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.43839006933847924",
+      "id": "u_10_0.457031751212143",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1599,9 +1543,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1620,13 +1563,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.05836300911090553",
+      "id": "u_10_0.3778330538873852",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 또는 숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳과 숫자로만 이루어져 있는지 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlphaNumeric(97);            // true , 97 = 'a'\nbRet = nexacro.isAlphaNumeric(\"123abc\");   // true</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1635,13 +1577,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7731521475950003",
+      "id": "u_10_0.24364521792785343",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드가 알파벳 또는 숫자이면 \"true\" 를 반환합니다.\n전달된 문자열이 알파벳과 숫자로만 이루어져 있다면 \"true\" 를 반환합니다.\n\n전달된 문자코드가 알파벳 또는 숫자가 아니면 \"false\" 를 반환합니다.\n전달된 문자열에 알파벳과 숫자 이외의 문자가 있다면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1667,9 +1608,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1688,13 +1628,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9862114146469753",
+      "id": "u_10_0.297266796376376",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 존재여부를 확인합니다.\n\ntrue 설정 시 쿠키변수가 존재하고 Secure 속성값이 true 일 때만 true 를 반환합니다.\nfalse 설정 시 쿠키변수가 존재하고 Secure 속성값이 false 일 때만 true 를 반환합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 존재여부를 확인합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.isExistCookieVariable( \"Cookie0\" ) ;\nnexacro.isExistCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1703,13 +1642,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.00800222697114128",
+      "id": "u_10_0.7740313052398269",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Cookies 영역에 쿠키변수가 존재하면 true 를 반환합니다.\nCookies 영역에 쿠키변수가 존재하지 않으면 false 를 반환합니다.\n\nbSecure 설정 시 bSecure 에 설정한 값까지 일치할 경우 true 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1735,9 +1673,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1756,13 +1693,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2422720273677309",
+      "id": "u_10_0.9896987511847861",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 소문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 소문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isLower(97);       // true , 97 = 'a'\nbRet = nexacro.isLower(\"abC\");  // false</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1771,13 +1707,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8597383678678155",
+      "id": "u_10_0.20569642449020054",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 소문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 소문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1803,9 +1738,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1824,13 +1758,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19253831094102558",
+      "id": "u_10_0.3996453236783216",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>숫자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isNumeric(97);      // false , 97 = 'a'\nbRet = nexacro.isNumeric(\"123\");  // true</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1839,13 +1772,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3582103072833479",
+      "id": "u_10_0.9795599797077051",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 숫자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 숫자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1871,9 +1803,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1892,13 +1823,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9229048099460931",
+      "id": "u_10_0.5342920413403612",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>공백문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>공백문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isSpace(0);        // false , 0 = Null\nbRet = nexacro.isSpace(32);      // true , 32 = Space\nbRet = nexacro.isSpace(97);      // false , 97 = 'a'\nbRet = nexacro.isSpace(\"\");       // true\nbRet = nexacro.isSpace(\" \");      // true</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1907,13 +1837,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4204118738697301",
+      "id": "u_10_0.524737241591536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 공백문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 공백문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1939,9 +1868,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1960,13 +1888,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7400565413904655",
+      "id": "u_10_0.41168824158848294",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 대문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 대문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isUpper(65);        // true , 65 = 'A'\nbRet = nexacro.isUpper(\"abC\");   // false</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1975,13 +1902,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7929244073793338",
+      "id": "u_10_0.5938372453480614",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 대문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 대문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2007,9 +1933,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2028,13 +1953,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9163793417305814",
+      "id": "u_10_0.5684816608276353",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLang</td><td>String</td><td colspan=\"2\"><div>StringResource에서 로드할 대상 언어를 설정합니다.\n\nstrLang 파라미터 값만 설정한 경우 아래와 같은 상황에서는 메서드가 동작하지 않습니다.\n- 제너레이트 된 StringResource 파일이 없는 경우\n- Environment.usestringresource 속성값이 false인 경우</div></td></tr><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>StringResource 정보를 갱신하기 위한 서비스 URL을 문자열로 설정합니다.\n\n- strUrl 파라미터 값 설정 시 Environment.usestringresource 속성값과 상관없이 동작합니다.\n- 반환되는 값은 지정한 언어 데이터를 포함한 JSON 파일 형식이어야 합니다.\n\n* strLang 파라미터 값을 설정한 경우\nstrLang 파라미터값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.\nURL 문자열 형태에 따라 URL 호출 시점에 lang=[strLang] 매개변수를 추가합니다.\n- 매개변수가 있는 경우: ⟨=[strLang] 추가\n  예) http://dummy.com/i18n?test=true\n       -&gt; http://dummy.com/i18n?test=true⟨=ja\n- 매개변수가 없는 경우: ?lang=[strLang] 추가\n  예) http://dummy.com/i18n\n       -&gt; http://dummy.com/i18n?lang=ja\n\n* strUrl 파라미터 값만 설정한 경우\nEnvironment.locale 속성값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStringResource(\"ja\");\nnexacro.loadStringResource(\"ja\", \"https://dummy.com/i18n\");\nnexacro.loadStringResource(\"https://dummy.com/i18n\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2070,9 +1994,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2091,13 +2014,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9710933259752419",
+      "id": "u_10_0.824827714746189",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>어플리케이션에 적용시킬 XCSS 파일경로를 \"xcssrc::[FileID]\" 형식으로 설정합니다.\n\n파일경로의 \"xcssrc::\" 는 고정 Prefix 값으로 수정할 수 없습니다.\nXCSS 파일은 Resource Service 영역의 \"./_resource_/_xcss_\" 에 위치하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStyle( \"xcssrc::theme1.xcss\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2133,9 +2055,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2154,13 +2075,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.831328537004877",
+      "id": "u_10_0.6169879524027079",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strFormURL</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 로딩될 Form 을 URL 로 설정합니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 부모가 설정되지 않습니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>strOpenStyle</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 적용될 속성값을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n\nChildFrame 의 일부 속성을 설정할 수 있으며 각 속성은 공백(Space)으로 구분합니다.\nChildFrame 의 CSS 관련 속성은 설정할 수 없습니다. (예: background, -nexa-border, font 등)\n\n\"dragmovetype\" 속성의 \"all\" 값은 Windows NRE 만 지원합니다.\n\"layered\" 속성은 Windows NRE 와 macOS NRE 만 지원합니다.\n\"openstatus\" 속성의 \"maximize\" 값은 Windows NRE만 지원합니다.\n\"openstatus\" 속성의 \"normal\", \"minimize\" 값은 Windows NRE 만 지원합니다.\n\"titlebar\" 속성은 Windows NRE 환경만 지원합니다.\n\"showstatusbar\" 속성은 Windows NRE만 지원합니다.</div></td></tr><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 left 값을 설정합니다.</div></td></tr><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 top 값을 설정합니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 width 값을 설정합니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 height 값을 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>opener 로 설정할 Form 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Form 이 설정됩니다.</div></td></tr><tr><td>strExtOpenStyle</td><td>String</td><td colspan=\"2\"><div>ChildFrame 이 표시될 때 추가적으로 적용될 속성을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n환경에 따라 설정할 수 있는 속성이 다르며 각 속성은 공백(Space)으로 구분합니다.\n\n\n* Windows NRE 환경에서만 지원하는 속성으로 생략 시 false 로 적용됩니다.\n\"noactivate\" 속성에 true 설정 시 표시된 ChildFrame 이 활성화 되지 않습니다.\n\"noactivate\" 속성에 false 설정 시 표시된 ChildFrame 이 활성화 되어 포커스를 갖습니다.\n\"noactivate\" 속성은 표시된 ChildFrame 에 포커스를 이동하지 않으려 할 때 사용합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"location=true menubar=true toolbar=true\");\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"noactivate=true\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2169,13 +2089,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4923030158326531",
+      "id": "u_10_0.9911924182035586",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Modeless Window 가 정상으로 표시되면 true 를 반환합니다.\n\nModeless Window 가 정상으로 표시되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2221,9 +2140,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2242,13 +2160,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5558779385969644",
+      "id": "u_10_0.7266632185120058",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDate</td><td>String</td><td colspan=\"2\"><div>날짜형식의 문자열을 설정합니다.\n\n유효하지 않은 날짜형식의 문자열은 오류로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.parseDate(\"1999-10-10\");     // 939481200000</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2257,13 +2174,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3531202905876928",
+      "id": "u_10_0.6916423750858276",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 인수로 전달된 날짜 사이의 시간을 밀리초로 반환합니다.\n\n유효하지 않은 날짜형식으로 오류로 처리되면 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2299,9 +2215,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2320,13 +2235,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7505793626838416",
+      "id": "u_10_0.008952333707092808",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수를 제거합니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 쿠키변수를 제거합니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 쿠키변수를 제거합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeCookieVariable( \"Cookie0\" ) ;\nnexacro.removeCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2362,9 +2276,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2383,13 +2296,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3295706610511887",
+      "id": "u_10_0.2630917479928535",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeEnvironmentVariable( \"Env_Variable0\" ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2425,9 +2337,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2446,13 +2357,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5122820548708074",
+      "id": "u_10_0.8556908702780929",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeHTTPHeaderVariable( \"HeaderVal00\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2478,9 +2388,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2499,13 +2408,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4198055847756713",
+      "id": "u_10_0.08101493174669305",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>삭제할 개인화 데이터의 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removePrivateProfile(\"aa\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2531,9 +2439,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2552,13 +2459,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.027244612406766233",
+      "id": "u_10_0.36011278463545393",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>변환을 수행할 전체 문자열을 설정합니다.</div></td></tr><tr><td>strOrgText</td><td>String</td><td colspan=\"2\"><div>strText 값에서 새 문자열로 변환될 문자열을 설정합니다.</div></td></tr><tr><td>strRepText</td><td>String</td><td colspan=\"2\"><div>strOrgText 값의 문자열 대신 변환할 문자열을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2567,13 +2473,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.16581240105162554",
+      "id": "u_10_0.9853759390325368",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 문자열을 새 문자열로 변환한 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2599,9 +2504,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2620,13 +2524,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2718122408403465",
+      "id": "u_10_0.8792862031635222",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.round(1.4915);         // 1 \nnNum = nexacro.round(1.4915, 2);     // 1.49  \nnNum = nexacro.round(1.5163);         // 2\nnNum = nexacro.round(1.5163, 2);     // 1.52\nnNum = nexacro.round(1024.256, -1); // 1020\nnNum = nexacro.round(1024.256, -2); // 1000\nnNum = nexacro.round(1024.256, -4); // 0</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2635,13 +2538,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.367852754428201",
+      "id": "u_10_0.3257336098931526",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>반올림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2677,9 +2579,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2698,13 +2599,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08678168870371661",
+      "id": "u_10_0.8242086926254041",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수가 갖는 값을 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>추가될 쿠키변수의 Secure 속성 여부를 설정합니다.\n\ntrue 로 설정 시 HTTP 통신일 때 쿠키변수를 포함시키지 않습니다.\ntrue 로 설정 시 HTTPS 통신일 때 쿠키변수에 Secure 속성을 설정하여 포함시킵니다.\nfalse 설정 시 모든 통신에 Secure 속성을 설정하지 않은 쿠키변수를 포함시킵니다.\n\n값을 생략하면 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setCookieVariable( \"Cookie0\", \"test\" ) ;\nnexacro.setCookieVariable( \"Cookie1\", \"test\", true ) ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2740,9 +2640,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2761,13 +2660,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4988735292098183",
+      "id": "u_10_0.3851154514935651",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>bZoom</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 objFrame 이 속한 window  의 Zoom 기능을 활성화 합니다.\n\nfalse 설정 시 objFrame 이 속한 window  의 Zoom 기능을 비활성화 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setEnableWheelZoom( objFrame, false );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2803,9 +2701,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2824,13 +2721,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6351603428973494",
+      "id": "u_10_0.634265157779692",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수의 ID를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.setEnvironmentVariable(\"Env_Variable0\", \"test\") ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2866,9 +2762,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2887,13 +2782,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.154235549413954",
+      "id": "u_10_0.06160123079274038",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setHTTPHeaderVariable(\"HeaderVal00\", \"test\") ;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2929,9 +2823,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2950,13 +2843,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8975657902666268",
+      "id": "u_10_0.8693726254435887",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>설정할 변수의 Global 영역 위치를 문자열로 설정합니다.\n\n“environment” 설정 시 Environment 의 Variables 영역에 변수를 설정합니다.\n“cookie” 설정 시 Environment 의 Cookies 영역에 변수를 설정합니다.\n“httpheader” 설정 시 Environment 의 HTTPHeader 영역에 변수를 설정합니다.\n“application” 설정 시 Application 의 Variables 영역에 변수를 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>설정할 Global 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>Global 변수의 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setInitialVariable( \"cookie\", \"ValA\", \"Text\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2992,9 +2884,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3013,13 +2904,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19646858864408756",
+      "id": "u_10_0.22780301920985702",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장하기 위한 키값을 설정합니다.\n\nXML 태그명으로 사용되므로 XML 태그명에서 사용 할 수 없는 문자는 설정할 수 없습니다.\n또한, \":\" 문자를 설정할 수 없습니다.</div></td></tr><tr><td>varVal </td><td>Variant</td><td colspan=\"2\"><div>저장할 개인화 데이터를 설정합니다.\n\n기본 자료형(integer, float, string, boolean) 과 Date 를 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = nexacro.setPrivateProfile( \"aa\", \"A\" );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3028,13 +2918,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9625358131364473",
+      "id": "u_10_0.5011142816883147",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>개인화 데이터 저장에 성공하면 \"true\" 를 반환합니다.\n개인화 데이터 저장에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3070,9 +2959,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3091,13 +2979,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12930352616503393",
+      "id": "u_10_0.7042749846925722",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>TypeDefinition 의 Protocols 영역에 정의된 Protocol 어답터 중 설정값을 전달할 Protocol 의 \"Protocol ID\" 를 설정합니다.</div></td></tr><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td>strValue</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3123,9 +3010,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3144,13 +3030,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6296743863698249",
+      "id": "u_10_0.7156893884895117",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nType</td><td>Number</td><td colspan=\"2\"><div>Windows 넥사크로의 렌더링 방식을 0 또는 1 로 설정합니다.\n\n0 설정 시 RealTime 방식(기존과 동일)으로 주기적으로 렌더링을 실행합니다.\n1 설정 시 Event 방식으로 내부 규칙에 의해 렌더링을 실행합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setRenderingType( 1 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3186,9 +3071,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☐ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3207,13 +3091,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8832868161117067",
+      "id": "u_10_0.16476258404020339",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>nZoomScale</td><td>Number</td><td colspan=\"2\"><div>objFrame 이 속한 window  의 Zoom 배율을 \"%\" 단위의 숫자로 설정합니다.\n\n50%~200% 범위 내에서 10% 단위로 설정하여야 합니다.\n설정값이 범위를 벗어나거나 10% 단위가 아닌 경우 메소드가 실행되지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setWheelZoom( objFrame, 150 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3249,9 +3132,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3270,13 +3152,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.21866730898420483",
+      "id": "u_10_0.887690272171115",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>Object</td><td colspan=\"2\"><div>따옴표를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.stripQuote(\"\\\"hello\\\"\"); // hello</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3285,13 +3166,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8118965784994063",
+      "id": "u_10_0.9972187695388389",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에서 따옴표를 제거하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3327,9 +3207,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3348,13 +3227,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.48535493410234976",
+      "id": "u_10_0.3741353442391643",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>숫자로 변환할 문자열을 설정합니다.</div></td></tr><tr><td>varNanVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NaN\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NaN\" 이 적용됩니다.</div></td></tr><tr><td>varPinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"POSITIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"POSITIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td>varNinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NEGATIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NEGATIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varNum;\nvarNum = nexacro.toNumber(\"123.4\");                                          // 123.4\nvarNum = nexacro.toNumber(Number.NaN, 0);                               // 0\nvarNum = nexacro.toNumber(Number.POSITIVE_INFINITY, 0, 1);       // 1\nvarNum = nexacro.toNumber(Number.NEGATIVE_INFINITY, 0, 1, 2);  // 2</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3363,13 +3241,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8857864401814268",
+      "id": "u_10_0.45685370489039767",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>문자열을 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3395,9 +3272,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3416,13 +3292,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8031912363699838",
+      "id": "u_10_0.12788269199155633",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>양쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 양쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 양쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strText = \"  abcd  \";\nvar strText2 = \"abcdaa\";\nvar strTrim = nexacro.trim( strText );             // strTrim = abcd\nvar strTrim = nexacro.trim( strText2 ,\"a\" );     // strTrim =  bcd</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3431,13 +3306,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3556195052795268",
+      "id": "u_10_0.8031936901168766",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 양쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3463,9 +3337,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3484,13 +3357,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0014347472477332923",
+      "id": "u_10_0.5914339622501098",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>왼쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 왼쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 왼쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \" nexacro\" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3499,13 +3371,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.25949292149529135",
+      "id": "u_10_0.2486327394528064",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 왼쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3531,9 +3402,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3552,13 +3422,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.015296352497713328",
+      "id": "u_10_0.7088280868927792",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>오른쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strTarget</td><td>String</td><td colspan=\"2\"><div>문자열의 오른쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 오른쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \"nexacro  \" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3567,13 +3436,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7987258355835785",
+      "id": "u_10_0.4138537285942132",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 오른쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3599,9 +3467,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3620,13 +3487,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6809840605427682",
+      "id": "u_10_0.8382879029929878",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>큰따옴표를 붙일 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.wrapQuote(\"hello\"); // \"hello\"</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -3635,13 +3501,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.41253633926655486",
+      "id": "u_10_0.8597832066144305",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에 큰따옴표를 붙여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     }
   ]
