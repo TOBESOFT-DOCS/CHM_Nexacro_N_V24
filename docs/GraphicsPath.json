@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -58,9 +57,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -73,9 +71,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -94,13 +91,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8914749913327388",
+      "id": "u_10_0.2063485953291796",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strFillStyle ::= &lt;color&gt; | &lt;linear-gradient&gt;\n\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n&lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n&lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [',' &lt;listcolor-stop&gt;] ',' &lt;endcolor-stop&gt;\n&lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n&lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%'] [',' &lt;listcolor-stop&gt;]*\n&lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGObject = new nexacro.GraphicsPath();\n\nobjGObject.fillstyle = \"red\";\nobjGObject.fillstyle = \"rgb(255,255,0)\";\nobjGObject.fillstyle = \"#ffffaa\";\nobjGObject.fillstyle = \"linear-gradient(red, yellow)\";\nobjGObject.fillstyle = \"linear-gradient(to right, red, yellow)\";\nobjGObject.fillstyle = \"linear-gradient(to right, red 50%, yellow)\";\nobjGObject.fillstyle = \"linear-gradient(red, yellow 25%, green 50%, blue 75%, indigo)\";\nobjGObject.fillstyle = \"linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)\";</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>GraphicsPath 의 내부영역에 채워질 색을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\", \"blue\" 와 같이 미리 정의된 색상이름의 문자열로 내부영역의 색을 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>\"#\"기호로 시작하는 6자리 HexaDecimal 색상코드값으로 내부영역의 색을 설정합니다. (\"#FF00FF\")\n\nr,g,b 값을 인자로 하는 rgb() 메소드로 내부영역의 색을 설정합니다. (\"rgb (255, 0, 255)\")</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>GraphicsPath 의 내부영역을 그라데이션으로 설정합니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n&lt;listcolor-stop&gt; 에 한 개 이상의 색상값을 설정할 수 있습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 설정합니다.\n\n&lt;angle&gt; 값에 따라 시작점과 끝점의 위치가 결정됩니다.\n&lt;angle&gt; 값에 설정된 표시 방향이 시작되는 위치가 시작점으로 적용됩니다.\n\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 GraphicsPath 영역의 오른쪽 위치가 시작점이 되고, 왼쪽 위치가 끝점이 됩니다.\n&lt;angle&gt; 값이 \"to right\" 이면 GraphicsPath 영역의 왼쪽 위치가 시작점이 되고, 오른쪽 위치가 끝점이 됩니다.\n\n그라데이션 중간점의 색은 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향으로 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 0 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향으로 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 100 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n&lt;percentage&gt; 값은 0 에서 100 사이의 값을 설정해야 합니다.\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -136,9 +132,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -151,9 +146,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -172,13 +166,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.13568548271747238",
+      "id": "u_10_0.8971301117933064",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsPath = new nexacro.GraphicsPath();\n\nthis.Graphics00.addChild( \"GraphicsPath00\", objGraphicsPath );</div></td></tr><tr><th>id</th><td colspan=\"2\"><div>GraphicsPath 를 구별할 수 있는 유일값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -214,9 +207,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -229,9 +221,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -250,13 +241,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4581077115191592",
+      "id": "u_10_0.07569012065361558",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGObject = new nexacro.GraphicsPath();\n\nobjGObject.miterlimit = 1;</div></td></tr><tr><th>nLimit</th><td colspan=\"2\"><div>strokejoin 속성값이 \"bevel\" 로 변경될 최소 비율을 1 이상의 숫자로 설정합니다.\n\n1 설정 시 strokejoin 속성이 항상 \"bevel\" 로 적용됩니다.\n1 보다 큰 값을 설정하면 연관 요소들을 함께 판단하여 \"bevel\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -292,9 +282,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -307,9 +296,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -328,13 +316,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.099521058012771",
+      "id": "u_10_0.13785344563145263",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsPath = new nexacro.GraphicsPath() ;\n\nobjGraphicsPath.opacity = 0.5;\nobjGraphicsPath.opacity = \"0.5\";\nobjGraphicsPath.opacity = \"50%\";</div></td></tr><tr><th>nOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -370,9 +357,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -385,9 +371,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☑ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -433,9 +418,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -448,9 +432,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -469,13 +452,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5672531214879599",
+      "id": "u_10_0.7409717009189865",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumCap ::= 'butt' | 'round' | 'square'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGPath = new nexacro.GraphicsPath();  \n\nobjGPath.strokepen = \"10px solid red\"; \nobjGPath.strokejoin = \"bevel\"; \nobjGPath.strokecap = \"square\";</div></td></tr><tr><th>\"butt\"</th><td colspan=\"2\"><div>경로의 끝점을 벗어나지 않고 끝을 각지게 표시합니다.</div></td></tr><tr><th>\"round\"</th><td colspan=\"2\"><div>경로의 끝점을 약간 벗어나고 끝을 둥글게 표시합니다.</div></td></tr><tr><th>\"square\"</th><td colspan=\"2\"><div>경로의 끝점을 약간 벗어나고 끝을 각지게 표시합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -511,9 +493,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -526,9 +507,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☑ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -547,13 +527,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.29553939870155677",
+      "id": "u_10_0.35554703041753366",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumJoin ::= 'miter' | 'round' | 'bevel'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGPath = new nexacro.GraphicsPath();  \n\nobjGPath.strokepen = \"10px solid red\"; \nobjGPath.strokejoin = \"bevel\";</div></td></tr><tr><th>\"miter\"</th><td colspan=\"2\"><div>경로가 만나는 중심점에서 테두리가 만나는 바깥점까지 뾰족하게 표시됩니다.\n\nmiterlimit 속성에 의해 \"bevel\" 로 자동 적용될 수 있습니다.</div></td></tr><tr><th>\"round\"</th><td colspan=\"2\"><div>경로가 만나는 중심점에서 테두리가 만나는 바깥점까지 둥글게 표시됩니다.</div></td></tr><tr><th>\"bevel\"</th><td colspan=\"2\"><div>경로가 만나는 중심점에서 테두리가 만나는 바깥점쪽이 칼로 잘라낸것 처럼 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -589,9 +568,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -604,9 +582,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -625,13 +602,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5944707813854933",
+      "id": "u_10_0.2376708974319417",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strStrokePen ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;\n\n&lt;line-width&gt; ::= &lt;nWidth&gt; ['px']\n&lt;line-style&gt; ::= 'solid' | 'dotted' | 'dashed'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGPath = new nexacro.GraphicsPath();  \n\nobjGPath.strokepen = \"5px solid red\"; \nobjGPath.strokepen = \"5 dotted #999999\"; \nobjGPath.strokepen = \"5px dotted rgb(255,0,0)\";</div></td></tr><tr><th> &lt;nWidth&gt;</th><td colspan=\"2\"><div>경로의 두께를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>경로의 스타일을 설정합니다.\n\n\"solid\" 설정 시 경로가 실선으로 표시됩니다.\n\"dotted\" 설정 시 경로가 점선으로 표시됩니다.\n\"dashed\" 설정 시 경로가 긴 점선으로 표시됩니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>경로의 색을 \"red\", \"blue\" 와 같이 미리 정의된 색상이름의 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>\"#\"기호로 시작하는 6자리 hexadecimal 색상코드값으로 경로의 색을 설정합니다. (\"#FF00FF\")\n\nr,g,b 값을 인자로 하는 rgb() 메소드로 경로의 색을 설정합니다. (ex-\"rgb (255, 0, 255)\")</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -677,9 +653,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -692,9 +667,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -713,13 +687,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.12163524655136349",
+      "id": "u_10_0.8285948014393282",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsPath = new nexacro.GraphicsPath();\n\nobjGraphicsPath.visible = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Graphics 컴포넌트의 redraw() 메소드 수행 시 GraphicsPath 를 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Graphics 컴포넌트의 redraw() 메소드 수행 시 GraphicsPath 를 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -755,9 +728,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -770,9 +742,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -791,13 +762,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5792470101914275",
+      "id": "u_10_0.30735214278982315",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsPath = new nexacro.GraphicsPath( ) ;\n\nobjGraphicsPath .x = 200;\nobjGraphicsPath .y = 200;</div></td></tr><tr><th>nX</th><td colspan=\"2\"><div>부모 오브젝트를 기준으로 GraphicsPath 가 표시될 x 축 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -833,9 +803,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -848,9 +817,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -869,13 +837,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.009681658788432301",
+      "id": "u_10_0.0755811712328952",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objGraphicsPath = new nexacro.GraphicsPath( ) ;\n\nobjGraphicsPath .x = 200;\nobjGraphicsPath .y = 200;</div></td></tr><tr><th>nY</th><td colspan=\"2\"><div>부모 오브젝트를 기준으로 GraphicsPath 가 표시될 y 축 좌표값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -916,9 +883,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -937,13 +903,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.002361147000229158",
+      "id": "u_10_0.13578396508114354",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>추가할 타원호 경로의 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 x 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>추가할 타원호 경로의 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 y 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td>nRadiusX</td><td>Number</td><td colspan=\"2\"><div>표시할 타원호의 가로 반지름을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nRadiusY</td><td>Number</td><td colspan=\"2\"><div>표시할 타원호의 세로 반지름을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nRotation</td><td>Number</td><td colspan=\"2\"><div>표시할 타원호의 x 축이 회전할 각도를 설정합니다.\n\n180 도를 설정하면 0 도와 같은 모양으로 표시됩니다.</div></td></tr><tr><td>bClockwise</td><td>Boolean</td><td colspan=\"2\"><div>타원호 경로의 시작점과 끝점을 기준으로 표시될 타원호를 설정합니다.\n\ntrue 또는 1 설정 시 현재위치에서 nX, nY 까지의 직선을 기준으로 시계방향에 위치한 타원호를 표시합니다.\nfalse 또는 0 설정 시 현재위치에서 nX, nY 까지의 직선을 기준으로 반시계방향에 위치한 타원호를 표시합니다.</div></td></tr><tr><td>bLarge</td><td>Boolean</td><td colspan=\"2\"><div>타원호 경로의 시작점과 끝점을 기준으로 표시될 타원호를 설정합니다.\n\ntrue 또는 1 설정 시 bClockwise 방향에 위치한 타원호 중 큰 타원호를 표시합니다.\nfalse 또는 0 설정 시 bClockwise 방향에 위치한 타원호 중 작은 타원호를 표시합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveTo( 100,100 );\nobjGPath.arcTo( 200, 200, 100, 50, 0, true, false );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -979,9 +944,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1000,13 +964,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.042313457718153535",
+      "id": "u_10_0.3650694437956291",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nCBeginX</td><td>Number</td><td colspan=\"2\"><div>cubic Bezier 곡선을 결정할 컨트롤 포인트의 시작점 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nCBeginY</td><td>Number</td><td colspan=\"2\"><div>cubic Bezier 곡선을 결정할 컨트롤 포인트의 시작점 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nCEndX</td><td>Number</td><td colspan=\"2\"><div>cubic Bezier 곡선을 결정할 컨트롤 포인트의 끝점 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nCEndY</td><td>Number</td><td colspan=\"2\"><div>cubic Bezier 곡선을 결정할 컨트롤 포인트의 끝점 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>추가할 cubic Bezier 곡선의 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>추가할 cubic Bezier 곡선의 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveTo(100,100);\nobjGPath.bezierCurveTo(400,200,400,300,300,300);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1042,9 +1005,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1080,9 +1042,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1101,7 +1062,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.27501329416098286",
+      "id": "u_09_0.9851810896426239",
       "type": "command",
       "content": "var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.setPathData(\"M200,40 L100,160 L300,160\");\nobjGPath.closePath();"
     },
@@ -1138,9 +1099,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1159,13 +1119,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6618447413169318",
+      "id": "u_10_0.7599489337638764",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>GraphicsPath 가 정상적으로 삭제되면 true 를 반환합니다.\n\nGraphicsPath 가 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1201,9 +1160,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1222,7 +1180,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.09984509996079538",
+      "id": "u_09_0.6051473342359974",
       "type": "command",
       "content": "var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getBoundRect();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1232,13 +1190,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8146730469229616",
+      "id": "u_10_0.40728726164223217",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에 바깥쪽 외곽선 영역이 포함됩니다.\nstrokepen 속성값을 설정하지 않았거나 GraphicsGroup, GraphicsImage, GraphicsText 오브젝트의 경우에는 외곽선 정보가 없으며 반환되는 영역정보에 외곽선 영역이 포함되지 않습니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1274,9 +1231,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1295,7 +1251,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.11185237274380744",
+      "id": "u_09_0.9178988044961929",
       "type": "command",
       "content": "var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\nvar objNext = objGraphicsPath.getNextSibling();\n\ntrace( objNext.toString() );"
     },
@@ -1305,13 +1261,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.32172321289749595",
+      "id": "u_10_0.43752653265012464",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모가 동일한 다음 순서의 Graphics 오브젝트를 반환합니다.\n\n다음 순서의 Graphics 오브젝트가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1347,9 +1302,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1368,7 +1322,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.024547032155669113",
+      "id": "u_09_0.9312041265545048",
       "type": "command",
       "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsPath = objGroup.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getOffsetBoundRect();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1378,13 +1332,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7870853523478814",
+      "id": "u_10_0.9014177216270504",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에 바깥쪽 외곽선 영역이 포함됩니다.\nstrokepen 속성값을 설정하지 않았거나 GraphicsGroup, GraphicsImage, GraphicsText 오브젝트의 경우에는 외곽선 정보가 없으며 반환되는 영역정보에 외곽선 영역이 포함되지 않습니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1420,9 +1373,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1441,7 +1393,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9245394074036772",
+      "id": "u_09_0.925855350389497",
       "type": "command",
       "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsPath = objGroup.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getOffsetBoundRect();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1451,13 +1403,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08040790039418866",
+      "id": "u_10_0.7633022903638156",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsEllipse, GraphicsLine, GraphicsPath, GraphicsPaths, GraphicsRect 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에 바깥쪽 외곽선 영역이 포함됩니다.\nstrokepen 속성값을 설정하지 않았거나 GraphicsGroup, GraphicsImage, GraphicsText 오브젝트의 경우에는 외곽선 정보가 없으며 반환되는 영역정보에 외곽선 영역이 포함되지 않습니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1493,9 +1444,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1514,7 +1464,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3056220977769699",
+      "id": "u_09_0.14605994052225701",
       "type": "command",
       "content": "var objGroup = this.Graphics00.getObjectByID(\"GraphicsGroup00\");\nvar objGraphicsPath = objGroup.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getOffsetRegion();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1524,13 +1474,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08651162504531484",
+      "id": "u_10_0.24386525927475455",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모 오브젝트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsPath 오브젝트의 strokepen 속성값을 설정했더라도 반환되는 영역정보에는 안쪽 외곽선 영역이 제외됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1566,9 +1515,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1587,13 +1535,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7085114869927885",
+      "id": "u_10_0.17360438155162528",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>경로 데이터를 SVG 형식의 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1629,9 +1576,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1650,7 +1596,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6582389220753254",
+      "id": "u_09_0.0314959505831538",
       "type": "command",
       "content": "var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\nvar objPrev = objGraphicsPath.getPreviousSibling();\n\ntrace( objPrev.toString() );"
     },
@@ -1660,13 +1606,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2549741249953096",
+      "id": "u_10_0.9776391353579977",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>부모가 동일한 이전 순서의 Graphics 오브젝트를 반환합니다.\n\n이전 순서의 Graphics 오브젝트가 없을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1702,9 +1647,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1723,7 +1667,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8062066181954318",
+      "id": "u_09_0.7856750839844026",
       "type": "command",
       "content": "var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getRect();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1733,13 +1677,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8070074475034129",
+      "id": "u_10_0.6043287635334844",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsPath 오브젝트의 strokepen 속성값을 설정했더라도 외곽선 영역과 관계없이 GraphicsPath 오브젝트의 실제 영역이 반환됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1775,9 +1718,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1796,7 +1738,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.651057559381526",
+      "id": "u_09_0.24748283764211698",
       "type": "command",
       "content": "var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\nvar objRect = objGraphicsPath.getRegion();\n\ntrace( \"left : \" + objRect.left );"
     },
@@ -1806,13 +1748,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3343666371840355",
+      "id": "u_10_0.8885003498949882",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Graphics 컴포넌트의 left, top 위치를 기준으로 계산된 영역정보가 Rect 오브젝트로 반환됩니다.\n\nGraphicsPath 오브젝트의 strokepen 속성값을 설정한 경우 반환되는 영역정보에는 안쪽 외곽선 영역이 제외됩니다.\n\n* Rect 오브젝트는 \"left\",\"top\",\"right\",\"bottom\",\"width\",\"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1848,9 +1789,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1869,7 +1809,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.977493340821038",
+      "id": "u_09_0.7241408526829781",
       "type": "command",
       "content": "var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.setPathData(\"M 15,0 L 0,30 L 30,30Z\");\nvar bResult = objGPath.hasSegments() ;"
     },
@@ -1879,13 +1819,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5059465755026192",
+      "id": "u_10_0.8970612668570729",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>GraphicsPath 에 경로 데이터가 설정되어 있으면 true 를 반환합니다.\n\nGraphicsPath 에 경로 데이터가 설정되어 있지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1921,9 +1860,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1942,13 +1880,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.44461134567132166",
+      "id": "u_10_0.3723931270345261",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>확인할 위치의 x 좌표값을 pixel 단위의 숫자로 설정합니다.\n\n설정값은 Graphics 컴포넌트를 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>확인할 위치의 y 좌표값을 pixel 단위의 숫자로 설정합니다.\n\n설정값은 Graphics 컴포넌트를 기준으로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsPath = this.Graphics00.getObjectByID(\"GraphicsPath00\");\n\nvar bResult = objGraphicsPath.isHitTest( 100, 100 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1957,13 +1894,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.03206146822798772",
+      "id": "u_10_0.43686368982321455",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>인수로 전달된 좌표위치가 GraphicsPath 영역에 포함되면 true 를 반환합니다.\n\n인수로 전달된 좌표위치가 GraphicsPath 영역에 포함되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -1999,9 +1935,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2020,13 +1955,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.538163969787106",
+      "id": "u_10_0.9026878867404355",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objPoint</td><td>Object</td><td colspan=\"2\"><div>GraphicsPath 영역에 포함되는지 확인할 좌표값을 nexacro.Point 오브젝트로 설정합니다.\n\n설정한 좌표값은 Graphics 컴포넌트를 기준으로 처리됩니다.</div></td></tr><tr><td>nTolerance</td><td>Number</td><td colspan=\"2\"><div>objPoint 위치가 GraphicsPath 영역에 포함되었다고 판단할 최대거리를 숫자로 설정합니다.\n\nobjPoint 위치와 GraphicsPath 영역의 거리가 설정값보다 작으면 포함되었다고 판단합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2035,13 +1969,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.019211803720031395",
+      "id": "u_10_0.9632739228245886",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>objPoint 좌표위치가 GraphicsPath 영역에 포함되면 true 를 반환합니다.\n\nobjPoint 좌표위치가 GraphicsPath 영역에 포함되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2077,9 +2010,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2098,13 +2030,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9500162031812862",
+      "id": "u_10_0.26419403763214344",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>추가할 직선경로의 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 x 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>추가할 직선경로의 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 y 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveTo( 0,0 );\nobjGPath.lineTo( 300,300 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2140,9 +2071,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2161,13 +2091,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2207862079984313",
+      "id": "u_10_0.291272000402125",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>현재 시작위치에서 x 좌표가 이동할 거리를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 현재 시작위치의 x 좌표값을 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>현재 시작위치에서 y 좌표가 이동할 거리를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 현재 시작위치의 y 좌표값을 기준으로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveBy( 300,300 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2203,9 +2132,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2224,13 +2152,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6657285622170088",
+      "id": "u_10_0.1540236438686411",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>GraphicsPath 의 시작위치 중 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 x 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>GraphicsPath 의 시작위치 중 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.\n\n설정값은 GrpahicsPath 의 y 속성값을 기준으로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveTo( 300,300 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2266,9 +2193,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2287,13 +2213,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5985378136316531",
+      "id": "u_10_0.22332390006643976",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nControlX</td><td>Number</td><td colspan=\"2\"><div>quadratic Bezier 곡선을 결정할 컨트롤 포인트의 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nControlY</td><td>Number</td><td colspan=\"2\"><div>quadratic Bezier 곡선을 결정할 컨트롤 포인트의 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>추가할 quadratic Bezier 곡선의 x 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>추가할 quadratic Bezier 곡선의 y 좌표 위치를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.moveTo( 100,100 );\nobjGPath.quadraticCurveTo( 0, 200, 200, 200 );</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2329,9 +2254,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2350,13 +2274,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6992888770740429",
+      "id": "u_10_0.10611428756928343",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nAngle</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 회전될 각도를 숫자로 설정합니다.\n\n양수로 설정 시 시계방향으로 회전합니다.\n음수로 설정 시 반시계방향으로 회전합니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>회전의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>회전의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2392,9 +2315,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2413,13 +2335,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9016431756973105",
+      "id": "u_10_0.256910334227921",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nScaleX</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 가로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsPath 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsPath 가 축소됩니다.</div></td></tr><tr><td>nScaleY</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 세로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsPath 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsPath 가 축소됩니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>확대/축소의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>확대/축소의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2455,9 +2376,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2476,13 +2396,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2528320477093695",
+      "id": "u_10_0.5823316002579266",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nX</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 x 좌표를 숫자로 설정합니다.\n\n설정값은 GraphicsPath 의 x 속성값 위치를 0 으로 가정하고 처리됩니다.</div></td></tr><tr><td>nY</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 y 좌표를 숫자로 설정합니다.\n\n설정값은 GraphicsPath 의 y 속성값 위치를 0 으로 가정하고 처리됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 너비를 숫자로 설정합니다.\n\n설정값은 nX 파라미터값을 기준으로 처리됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Clipping 할 영역의 높이를 숫자로 설정합니다.\n\n설정값은 nY 파라미터값을 기준으로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2518,9 +2437,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2539,13 +2457,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.832920182539982",
+      "id": "u_10_0.2830591064336774",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPath</td><td>String</td><td colspan=\"2\"><div>경로 데이터를 SVG 형식의 문자열로 설정합니다.\n\n설정할 수 있는 SVG 형식입니다.\n- \"M x,y\" : 시작위치를 x,y 좌표위치로 설정합니다.\n- \"L x,y\" : 현재 위치에서 x,y 좌표위치까지 선을 표시합니다.\n- \"H x\" : 현재 위치에서 x 좌표위치까지 가로선을 표시합니다.\n- \"V y\" : 현재 위치에서 y 좌표위치까지 세로선을 표시합니다.\n- \"Z\" : 현재 위치에서 시작점까지 선을 표시합니다.\n- \"C x1,y1 x2,y2 x,y\" : 현재 위치에서 x,y 좌표위치까지 cubic Bezier 곡선을 표시합니다.\n- \"S x2,y2 x,y\" : 현재 위치에서 x,y 좌표위치까지 cubic Bezier 곡선을 표시합니다.\n- \"Q x1,y1 x,y\" : 현재 위치에서 x,y 좌표위치까지 quadratic Bezier 곡선을 표시합니다.\n- \"T x,y\" : 현재 위치에서 x,y 좌표위치까지 quadratic Bezier 곡선을 표시합니다.\n- \"A rx,ry rotation large clockwise x,y\" : 현재 위치에서 x,y 좌표위치까지 타원호를 표시합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGPath = new nexacro.GraphicsPath();\n\nobjGPath.setPathData(\"M50,50 H150 V150 H50 Z\"); \nobjGPath.setPathData(\"M50,50 L150,50 L150,150 L50,150 L50,50\");\nobjGPath.setPathData(\"M 10 80 C 40,10 65,10 95,80 S 150,150 180,80\");</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2581,9 +2498,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2602,13 +2518,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3052048899151507",
+      "id": "u_10_0.9448729557421346",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMethod</td><td>String</td><td colspan=\"2\"><div>GraphicsPath 에 적용할 Transform 관련 메소드를 \",\" 로 구분하여 설정합니다.\ntranslate(), scale(), rotate(), shear() 메소드를 사용할 수 있습니다.\nnull 값 설정 시 transform 효과가 지정되지 않은 상태로 초기화합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsPath = new nexacro.GraphicsPath();\nthis.Graphics00.addChild(\"GraphicsPath00\", objGraphicsPath);\n\nobjGraphicsPath.setTransform( \"translate(50, 50),rotate(20)\" );\n\nobjGraphicsPath.setTransform(null);</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2644,9 +2559,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2665,13 +2579,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9606288415401901",
+      "id": "u_10_0.10038363912232984",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRadianX</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 x 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nRadianY</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 y 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nCenterX</td><td>Number</td><td colspan=\"2\"><div>비틀기의 중심이 되는 x 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr><tr><td>nCenterY</td><td>Number</td><td colspan=\"2\"><div>비틀기의 중심이 되는 y 좌표를 숫자로 설정합니다.\n설정값은 부모 오브젝트를 기준으로 처리됩니다.\n\n값 생략 시 0 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2707,9 +2620,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2728,13 +2640,12 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7081366255630507",
+      "id": "u_10_0.7191777212933972",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>일반적으로 \"[object GraphicsPath]\" 형태의 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,?"
+        "tableLayout": "180,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2760,9 +2671,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2781,13 +2691,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.33105805256851883",
+      "id": "u_10_0.6378527201725536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nScaleX</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 가로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsPath 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsPath 가 축소됩니다.</div></td></tr><tr><td>nShearX</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 x 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nShearY</td><td>Number</td><td colspan=\"2\"><div>현재 모습에서 y 축 기준으로 비틀어질 각도를 라디안값으로 설정합니다.</div></td></tr><tr><td>nScaleY</td><td>Number</td><td colspan=\"2\"><div>현재 크기에서 확대/축소 될 세로 배율을 실수로 설정합니다.\n\n1.0 보다 큰값을 설정하면 GraphicsPath 가 확대됩니다.\n1.0 보다 작은값을 설정하면 GraphicsPath 가 축소됩니다.</div></td></tr><tr><td>nTransX</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 x 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nTransY </td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 y 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objGraphicsPath = new nexacro.GraphicsPath();\n\nobjGraphicsPath.transform( 1.5, 0, 0, 1.5, 0, 0 );    // scale(1.5,1.5) 와 동일\nobjGraphicsPath.transform( 1, 0, 0, 1, 50, 50 );      // translate(50, 50) 와 동일</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2823,9 +2732,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -2844,13 +2752,12 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6415947222150075",
+      "id": "u_10_0.732467438268428",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTransX</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 x 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>nTransY</td><td>Number</td><td colspan=\"2\"><div>현재 위치에서 y 축 방향으로 이동 할 거리를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
