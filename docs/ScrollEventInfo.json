@@ -20,9 +20,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -53,9 +52,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -68,9 +66,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -89,13 +86,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3702510531426717",
+      "id": "u_10_0.7081217626519152",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -131,9 +127,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -146,9 +141,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -167,13 +161,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.37265302648785625",
+      "id": "u_10_0.5948507874751237",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -209,9 +202,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -224,9 +216,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -245,13 +236,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3573091628857409",
+      "id": "u_10_0.7761041607597673",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -287,9 +277,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -302,9 +291,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -323,13 +311,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5114342895485471",
+      "id": "u_10_0.45392632843115277",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nPos = e.pos;</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -365,9 +352,8 @@
       "type": "table",
       "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☑ Windows</div></td><td><div>☑ macOS</div></td><td><div>☑ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☑ Safari</div></td><td><div>☑ Firefox</div></td><td><div>☑ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "110,110,110,110,110,110,110"
+        "tableLayout": "110,110,110,110,110,110,110",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -380,9 +366,8 @@
       "type": "table",
       "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☑ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "80,70,90,90,110,80,110,140"
+        "tableLayout": "80,70,90,90,110,80,110,140",
+        "codeLanguage": "Javascript"
       }
     },
     {
@@ -401,13 +386,12 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5215224253260708",
+      "id": "u_10_0.9095874093421655",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strType = e.type;</div></td></tr><tr><th>\"first\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최소값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"firstover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최소값에 도달한 상태에서 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"last\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최대값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"lastover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최대값에 도달한 상태에서 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"lineup\"</th><td colspan=\"2\"><div>수직 스크롤바에서 스크롤이 LIne 단위로 Up 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"linedown\"</th><td colspan=\"2\"><div>수직 스크롤바에서 스크롤이 LIne 단위로 Down 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"lineleft\"</th><td colspan=\"2\"><div>수평 스크롤바에서 스크롤이 LIne 단위로 Left 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"lineright\"</th><td colspan=\"2\"><div>수평 스크롤바에서 스크롤이 LIne 단위로 Right 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"pageup\"</th><td colspan=\"2\"><div>수직 스크롤바에서 스크롤이 Page 단위로 Up 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"pagedown\"</th><td colspan=\"2\"><div>수직 스크롤바에서 스크롤이 Page 단위로 Down 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"pageleft\"</th><td colspan=\"2\"><div>수평 스크롤바에서 스크롤이 Page 단위로 Left 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"pageright\"</th><td colspan=\"2\"><div>수평 스크롤바에서 스크롤이 Page 단위로 Right 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"track\"</th><td colspan=\"2\"><div>방향에 관계없이 트랙버튼에 의해 스크롤 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"trackfirst\"</th><td colspan=\"2\"><div>트랙버튼에 의해 스크롤바의 Position 이 최소값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"trackfirstover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최소값에 도달한 상태에서 트랙버튼으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"tracklast\"</th><td colspan=\"2\"><div>트랙버튼에 의해 스크롤바의 Position 이 최대값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"tracklastover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최대값에 도달한 상태에서 트랙버튼으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"trackstart\"</th><td colspan=\"2\"><div>트랙버튼으로 스크롤이 시작되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"trackend\"</th><td colspan=\"2\"><div>트랙버튼으로 진행중인 스크롤이 종료되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheelup\"</th><td colspan=\"2\"><div>마우스의 Wheel 버튼에 의해 스크롤이 Up 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheeldown\"</th><td colspan=\"2\"><div>마우스의 Wheel 버튼에 의해 스크롤이 Down 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheelfirst\"</th><td colspan=\"2\"><div>마우스의 Wheel 버튼에 의해 스크롤바의 Position 이 최소값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheelfirstover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최소값에 도달한 상태에서 마우스의 Wheel 버튼으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheellast\"</th><td colspan=\"2\"><div>마우스의 Wheel 버튼에 의해 스크롤바의 Position 이 최대값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"wheellastover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최대값에 도달한 상태에서 마우스의 Wheel 버튼으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidefirst\"</th><td colspan=\"2\"><div>슬라이드 또는 플링에 의해 스크롤바의 Position 이 최소값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidefirstover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최소값에 도달한 상태에서 슬라이드 또는 플링으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidelast\"</th><td colspan=\"2\"><div>슬라이드 또는 플링에 의해 스크롤바의 Position 이 최대값에 도달하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidelastover\"</th><td colspan=\"2\"><div>스크롤바의 Position 이 최대값에 도달한 상태에서 슬라이드 또는 플링으로 스크롤을 시도하여 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidescrollup\"</th><td colspan=\"2\"><div>수직 스크롤바에서 슬라이드 또는 플링에 의해 스크롤이 Up 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidescrolldown\"</th><td colspan=\"2\"><div>수직 스크롤바에서 슬라이드 또는 플링에 의해 스크롤이 Down 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidescrollright\"</th><td colspan=\"2\"><div>수평 스크롤바에서 슬라이드 또는 플링에 의해 스크롤이 Right 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"slidescrollleft\"</th><td colspan=\"2\"><div>수평 스크롤바에서 슬라이드 또는 플링에 의해 스크롤이 Left 되어 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>정의되지 않은 모든 동작에 의해 스크롤이 발생했을 때 갖는 값입니다.\n\n예를 들어 메소드로 Position 값을 변경하거나 방향키에 의해 선택이 변경되어 스크롤이 발생하는 경우에 \"none\" 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
-        "table_layout": "user",
-        "codeLanguage": "Javascript",
-        "table_layout_setting": "180,120,?"
+        "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
       }
     }
   ]
