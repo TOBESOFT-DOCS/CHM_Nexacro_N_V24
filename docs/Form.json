@@ -45,12 +45,12 @@
       "content": "컴포넌트, 내부 컨텐츠 크기"
     },
     {
-      "id": "u_09_0.46698640126232793",
+      "id": "u_09_0.5532340608346936",
       "type": "pre",
       "content": "Form 의 크기를 결정하는 기준입니다."
     },
     {
-      "id": "u_10_0.6629200056583547",
+      "id": "u_10_0.37096696837334686",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Form</div></td></tr><tr><td>Width</td><td><div>Form 이 포함된 ChildFrame 의 width 속성값이 적용됩니다.\nForm 이 팝업형태로 표시되고, ChildFrame 의 autosize 속성값이 \"true\" 이면 Form 의 width 속성값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>Form 이 포함된 ChildFrame 의 height 속성값이 적용됩니다.\nForm 이 팝업형태로 표시되고, ChildFrame 의 autosize 속성값이 \"true\" 이면 Form 의 height 속성값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>stepselector Control\n\n* Layout 의 stepcount 속성값이 0 이거나 stepitem 컨트롤에 이미지가 설정되지 않으면 stepselector 컨트롤은 표시되지 않습니다.</div></td></tr><tr><td>Left</td><td><div>Form 의 stepalign 속성값과 stepselector 컨트롤의 Width 에 따라 계산된 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>Form 의 stepalign 속성값과 stepselector 컨트롤의 Height 에 따라 계산된 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>Layout 의 stepcount, Form 의 stepitemgap, stepitem 컨트롤의 Width 값에 따라 계산된 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>stepitem 컨트롤의 Height 가 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>stepitem Control</div></td></tr><tr><td>Left</td><td><div>Form 의 stepitemsize,stepitemgap 속성값에 따라 계산된 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0 으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>Form 의 stepitemsize 속성값이 적용됩니다.\n이미지의 Width 보다 작을 경우 이미지가 잘려서 표시됩니다.\nForm 의 stepitemsize 속성값이 없으면 이미지의 너비가 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>Form 의 stepitemsize 속성값이 적용됩니다.\n이미지의 Height 보다 작을 경우 이미지가 잘려서 표시됩니다.\nForm 의 stepitemsize 속성값이 없으면 이미지의 높이가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -64,7 +64,7 @@
       "content": "Basic Key Action"
     },
     {
-      "id": "u_10_0.04074351542699639",
+      "id": "u_10_0.577411082652891",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Action</th><th>Key</th><th>Description</th></tr></thead><tbody><tr><td>포커스 이동</td><td>Tab</td><td><div>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</div></td></tr><tr><td>Default Button</td><td>Enter</td><td><div>Form 에 defaultbutton 속성값이 \"true\" 인 Button 이 있다면 해당 Button 이 클릭됩니다.</div></td></tr><tr><td>스크롤 이동</td><td>Ctrl + 방향키</td><td><div>Form 또는 자식 컴포넌트에 포커스가 있고, Form 에 스크롤이 있을 때 입력된 방향키 방향으로 스크롤이 이동합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -78,12 +78,12 @@
       "content": "Accessibility Key Action"
     },
     {
-      "id": "u_09_0.30615293660220366",
+      "id": "u_09_0.9812410324657412",
       "type": "pre",
       "content": "접근성 기능이 활성화 되어 있을 때 적용되는 키 액션입니다."
     },
     {
-      "id": "u_10_0.6412894263384418",
+      "id": "u_10_0.8284851454734202",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Action</th><th>Key</th><th>Description</th></tr></thead><tbody><tr><td>포커스 이동</td><td>Tab</td><td><div>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</div></td></tr><tr><td>선택상자 이동</td><td>상하방향키</td><td><div>Tab Order 가 이전/다음인 컴포넌트로 선택상자가 이동합니다.</div></td></tr><tr><td>Default Button</td><td>Enter</td><td><div>Form 에 defaultbutton 속성값이 \"true\" 인 Button 이 있다면 해당 Button 이 클릭됩니다.</div></td></tr><tr><td>스크롤 이동</td><td>Ctrl + 방향키</td><td><div>Form 또는 자식 컴포넌트에 포커스가 있고, Form 에 스크롤이 있을 때 입력된 방향키 방향으로 스크롤이 이동합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -97,12 +97,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.9514785829757008",
+      "id": "u_09_0.8632657346614144",
       "type": "command",
       "content": "Form.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.7468513627036943",
+      "id": "u_10_0.8024157143332526",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>Form 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>Form 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Form 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Form 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>Form 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Form 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Form 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>Form 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Form 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Form 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>Form 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Form 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Form 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>Form 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Form 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Form 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>Form 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Form 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Form 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>Form 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>Form 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>Form 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>Form 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new Form();\n\nobjComp.init( \"Form00\", 30, 120, 196, 46 );\nobjComp.init( \"Form00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Form00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Form00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Form00\", \"Form22:10\", 300, null, null, \"Form33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "u_10_0.022682149608312052",
+      "id": "u_10_0.10583786839571974",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objForm = new Form();  \nobjForm.init(\"Form\", 30, 120, 196, 46, null, null);\nobjForm.init(\"Form\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objForm = new Form(\"Form\", 30, 120, 196, 46, null, null);\nvar objForm = new Form(\"Form\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"Form\", objForm); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"Form\", objForm); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"Form\"); \n \n// Show Object  \nobjForm.show(); \n \n// Destroy Object  \nobjForm.destroy(); \nobjForm = null;</div></td></tr></tbody></table>",
       "option": {
@@ -125,7 +125,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.29308367979834526",
+      "id": "u_10_0.891770460205472",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>contents</td><td>userstatus</td><td><div>contents form 처리용</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -139,7 +139,7 @@
       "content": "Control"
     },
     {
-      "id": "u_10_0.24714143585499215",
+      "id": "u_10_0.28846740339582944",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th colspan=\"2\">Name</th><th>TypeName</th></tr></thead><tbody><tr><td colspan=\"2\">hscrollbar</td><td>nexacro.ScrollBarControl</td></tr><tr><td colspan=\"2\">vscrollbar</td><td>nexacro.ScrollBarControl</td></tr><tr><td colspan=\"2\">stepselector</td><td>nexacro.StepControl</td></tr><tr><td colspan=\"2\">hscrollindicator</td><td>nexacro.ScrollIndicatorControl</td></tr><tr><td colspan=\"2\">vscrollindicator</td><td>nexacro.ScrollIndicatorControl</td></tr></tbody></table>",
       "option": {
@@ -209,7 +209,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.37940156832872185",
+      "id": "u_10_0.9665597067695741",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilityaction = \"Accessibility Action Message\"; \nthis.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -284,7 +284,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11557934358906874",
+      "id": "u_10_0.02795853611650989",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>Form 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>Form 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>Form 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Form 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -359,7 +359,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8492267263365497",
+      "id": "u_10_0.6198007308978991",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -434,7 +434,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.22588732904368924",
+      "id": "u_10_0.2548226085547861",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Form 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Form 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 Form 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 Form 에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -509,7 +509,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7707242657083626",
+      "id": "u_10_0.7173156793319746",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilitylabel = \"OK Button\"; \nthis.accessibilitylabel = \"[@static00]\"; \nthis.accessibilitylabel = \"[@static00][@static01]\"; \nthis.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -584,7 +584,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.43476288060228696",
+      "id": "u_10_0.42401968581358973",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.accessibilityrole = \"none\"; \nthis.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -659,7 +659,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.448295470238978",
+      "id": "u_10_0.4038693575503792",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var allobjects = this.all\nvar object1 = this.all[0];</div></td></tr></tbody></table>",
       "option": {
@@ -744,7 +744,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2430328425376319",
+      "id": "u_10_0.4439730582685816",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBackground ::= [&lt;bg-image&gt; | &lt;linear-gradient&gt;] [&lt;background-origin&gt; [&lt;background-clip&gt;]] [&lt;background-color&gt;]\n\n&lt;bg-image&gt; ::= 'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\n   &lt;imageurl&gt; ::= 'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\n   &lt;repeat-style&gt; ::= 'repeat-x' | 'repeat-y' | 'repeat' | 'no-repeat'\n   &lt;position&gt; ::= &lt;horizontal-position&gt; &lt;vertical-position&gt; ['/' &lt;background-size&gt;]\n      &lt;horizontal-position&gt; ::= 'left' | 'center' | 'right' | &lt;pos-percentage&gt; '%'\n      &lt;vertical-position&gt; ::= 'top' | 'center' | 'bottom' | &lt;pos-percentage&gt; '%'\n      &lt;background-size&gt; ::= 'auto' | 'cover' | 'contain' | (&lt;length&gt; 'px' | &lt;percentage&gt; '%') {1,2}\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n   &lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n   &lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\n      &lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\n         &lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;background-origin&gt; ::= 'border-box' | 'padding-box'\n&lt;background-clip&gt; ::= 'border-box' | 'padding-box'\n&lt;background-color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbackground : #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa;\nbackground : linear-gradient( red , blue , yellow );\nbackground : linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0));\nbackground : \"URL('./images/smiley.gif')\" border-box border-box #ffffaa;\n\n* Script ( normal property )\nthis.background = \"#ffffaa\";\nthis.background = \"\"URL('./images/smiley.gif')\" no-repeat center center #ffffaa\";\nthis.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa\";\nthis.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa\";\nthis.background = \"linear-gradient( red , blue , yellow )\";\nthis.background = \"linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0))\";\nthis.background = \"\"URL('./images/smiley.gif')\" border-box border-box #ffffaa\";</div></td></tr><tr><th>&lt;bg-image&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 이미지가 표시됩니다.\n\n\"none\" 으로 설정하면 이미지를 설정하지 않습니다.\n&lt;imageurl&gt; 값으로 이미지를 설정할 수 있습니다.\n&lt;repeat-style&gt; 값으로 이미지의 반복표시 방향을 설정할 수 있습니다.\n&lt;position&gt; 값으로 이미지의 표시위치를 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;imageurl&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\" 형식으로 설정합니다.\n\n\"URL ( [이미지경로] )\" 형식으로 테마 또는 웹의 이미지를 설정합니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;repeat-style&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 반복표시 방향을 설정합니다.\n\n\"repeat-x\" 설정 시 이미지가 가로 방향으로 반복표시 됩니다.\n\"repeat-y\" 설정 시 이미지가 세로 방향으로 반복표시 됩니다.\n\"repeat\" 설정 시 이미지가 가로,세로 방향으로 모두 반복표시 됩니다.\n\"no-repeat\" 설정 시 이미지가 반복표시 되지 않습니다.\n\n값을 설정하지 않으면 \"repeat\" 로 적용됩니다.</div></td></tr><tr><th>&lt;horizontal-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로 위치를 설정합니다.\n\n\"left\" 설정 시 Form 의 왼쪽면과 이미지의 왼쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Form 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"right\" 설정 시 Form 의 오른쪽면과 이미지의 오른쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;vertical-position&gt; 값을 설정하고, &lt;horizontal-position&gt; 값을 설정하지 않으면 &lt;horizontal-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;horizontal-position&gt; 은 \"left\" 로 적용됩니다.</div></td></tr><tr><th>&lt;vertical-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 세로 위치를 설정합니다.\n\n\"top\" 설정 시 Form 의 윗쪽면과 이미지의 윗쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Form 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"bottom\" 설정 시 Form 의 아랫쪽면과 이미지의 아랫쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;horizontal-position&gt; 값을 설정하고, &lt;vertical-position&gt; 값을 설정하지 않으면 &lt;vertical-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;vertical-position&gt; 은 \"top\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;pos-percentage&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로/세로 위치를 비율로 설정합니다.\n\n&lt;horizontal-position&gt; 에 \"0%\" 설정 시 \"left\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"100%\" 설정 시 \"right\" 과 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"0%\" 설정 시 \"top\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"100%\" 설정 시 \"bottom\" 과 같은 위치로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Form 의 영역을 벗어난 가상의 위치로 적용됩니다.\n\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-size&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 크기를 설정합니다.\n- auto: 원본 이미지 크기를 유지합니다.\n- cover: 이미지 비율을 유지하는 한도 내에서 배경에 빈 공간이 없도록 가장 크게 설정합니다.\n  width 또는 height 길이가 긴 쪽은 잘려서 표시될 수 있습니다.\n- contain: 이미지가 잘리지 않고 비율을 유지하는 한도 내에서 가장 크게 설정합니다.\n- &lt;length&gt; | &lt;percentage&gt;: 이미지의 width, height 크기 또는 컴포넌트 대비 비율을 설정합니다. \n  width 값만 설정하면 원본 이미지 비율에 따라 height 크기를 자동으로 처리합니다.\n  height 값만 설정할 수는 없습니다. \n  음수값은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>배경에 표시될 그라데이션을 \"'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 그라데이션이 표시됩니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\"으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 \"&lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점과 끝점의 위치가 결정됩니다.\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 Form 의 right 위치가 시작점이 되고, left 위치가 끝점이 됩니다.\n              &lt;angle&gt; 값이 \"to right\" 이면 Form 의 left 위치가 시작점이 되고, right 위치가 끝점이 됩니다.\n\n&lt;listcolor-stop&gt; 에 그라데이션 중간점의 색을 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 \"0\" 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 \"100\" 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\" 형식으로 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.\n뒤에 선언된 색의 &lt;percentage&gt; 값은 먼저 선언된 색의 &lt;percentage&gt; 값보다 커야 합니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그라데이션 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Form 의 영역을 벗어난 가상의 위치로 적용됩니다.\n예를 들어 \"150%\" 설정 시 시작점에서 끝점까지 거리의 반만큼 끝점에서 벗어난 위치에 &lt;color&gt; 값이 적용됩니다.\n\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-origin&gt;</th><td colspan=\"2\"><div>배경으로 처리될 기준영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역이 배경영역으로 처리됩니다.\n\n\"padding-box\" 설정 시 Border 의 안쪽 영역이 배경영역으로 처리됩니다.\n\"padding-box\" 설정 시 그라데이션의 시작점, 끝점과 배경이미지의 반복 기준위치가 Border 안쪽 영역으로 처리됩니다.\n\n값을 설정하지 않으면 \"padding-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-clip&gt;</th><td colspan=\"2\"><div>배경이 실제로 표시될 영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역에 배경이 표시됩니다.\n\"padding-box\" 설정 시 Border 의 안쪽 영역에 배경이 표시됩니다.\n\n값을 설정하지 않으면 &lt;background-origin&gt; 에 설정한 값이 동일하게 적용됩니다.\n&lt;background-origin&gt; 값도 설정하지 않았을 경우 \"border-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-color&gt;</th><td colspan=\"2\"><div>배경에 표시될 색을 색상이름 또는 색상코드로 설정합니다.\n\n&lt;bg-image&gt; 또는 &lt;linear-gradient&gt; 값이 설정되어 있다면 배경색은 배경이미지 또는 그라데이션 아래에 표시됩니다.\n&lt;bg-image&gt; 에 적용된 이미지에 투명으로 적용된 부분이 있거나 이미지가 Form 영역보다 작다면 해당 영역에 배경색이 표시됩니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -819,7 +819,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2314860854929215",
+      "id": "u_10_0.9984075686555588",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bindlist = this.binds;\nvar binditem1 = this.binds[0];</div></td></tr></tbody></table>",
       "option": {
@@ -904,7 +904,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3772046086155816",
+      "id": "u_10_0.19330437842661274",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborderradius ::= &lt;horizontal-radius&gt;{4} ['/' &lt;vertical-radius&gt;{4}]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nborder-radius : 10px;\nborder-radius : 5px 6px 10px / 5px 10px;\n\n* Script ( normal property )\nthis.borderRadius = \"10px\";\nthis.borderRadius = \"5px 6px 10px / 5px 10px\";</div></td></tr><tr><th>&lt;horizontal-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 가로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 가로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;vertical-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 세로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 세로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -979,7 +979,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2587135606251455",
+      "id": "u_10_0.2767317760042043",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcolor ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncolor : #999999;\ncolor : rgb ( 255, 0, 0 );\ncolor : red;\n\n* Script ( normal property )\nthis.color = \"#999999\";\nthis.color = \"rgb(255,0,0)\";\nthis.color = \"red\";</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1054,7 +1054,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6568207372712064",
+      "id": "u_10_0.806388875875232",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var comp = this.components[0];</div></td></tr></tbody></table>",
       "option": {
@@ -1139,7 +1139,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8993954469855128",
+      "id": "u_10_0.5516065900374477",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.cssclass = \"TestClass\"; \nthis.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1214,7 +1214,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.24116880273800867",
+      "id": "u_10_0.0174530986112561",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strCursor ::= 'none' | 'auto' | 'default' | 'copy' | 'crosshair' | 'help' | 'move' | 'not-allowed' | 'pointer' | 'progress' | 'text' | 'wait' | 'ew-resize' | 'e-resize' | 'w-resize' | 'ns-resize' | 'n-resize' | 's-resize' | 'nesw-resize' | 'ne-resize' | 'sw-resize' | 'nwse-resize' | 'nw-resize' | 'se-resize'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncursor : default;\n\n* Script ( normal property )\nthis.cursor = \"default\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 포인터를 표시하지 않습니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>컴포넌트의 특성에 맞는 포인터가 표시됩니다.\n\nEdit계열 컴포넌트는 \"text\" 포인터가 표시됩니다.\n그외 계열 컴포넌트는 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>시스템의 기본 포인터가 표시됩니다.\n\n일반적으로 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"copy\"</th><td colspan=\"2\"><div>화살표와 작은 십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"crosshair\"</th><td colspan=\"2\"><div>십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"help\"</th><td colspan=\"2\"><div>화살표와 작은 물음표 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 물음표 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"move\"</th><td colspan=\"2\"><div>십자 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"not-allowed\"</th><td colspan=\"2\"><div>금지 표지판 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 화살표와 금지 표지판 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"pointer\"</th><td colspan=\"2\"><div>손모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"progress\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 화살표와 모래시계, 화살표와 원 등 다양한 형태로 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"text\"</th><td colspan=\"2\"><div>아이(\"I\") 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"wait\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 모래시계, 시계 등 다양한 형태로 표시됩니다.</div></td></tr><tr><th>\"ew-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"e-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"w-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ns-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"n-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"s-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nesw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ne-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"sw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nwse-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"nw-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"se-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1289,7 +1289,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8915390787596167",
+      "id": "u_10_0.3888162097671275",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'none' | 'vert' | 'horz' | 'both' | 'all'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.dragscrolltype = \"horz\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>터치 후 드래그에 의해 스크롤이 되지 않습니다.</div></td></tr><tr><th>\"vert\"</th><td colspan=\"2\"><div>터치 후 드래그에 의해 수직 스크롤만 발생합니다.</div></td></tr><tr><th>\"horz\"</th><td colspan=\"2\"><div>터치 후 드래그에 의해 수평 스크롤만 발생합니다.</div></td></tr><tr><th>\"both\"</th><td colspan=\"2\"><div>터치 후 드래그에 의해 수직/수평 스크롤 모두 발생합니다.</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>터치 후 드래그에 의해 수직/수평/대각선 스크롤 모두 발생합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1364,7 +1364,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7966027059974553",
+      "id": "u_10_0.7638612726130061",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.enable = true;\nthis.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Form 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Form 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1439,7 +1439,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6362503155825933",
+      "id": "u_10_0.9656740043505051",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.enableevent = true;  \n\nthis.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Form 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Form 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1514,7 +1514,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.010833783310389422",
+      "id": "u_10_0.15287578750646058",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strfont ::= [&lt;font-style&gt;] [&lt;font-weight&gt;] &lt;font-size&gt; ['/'&lt;line-height&gt;] &lt;font-family&gt;\n\n&lt;font-style&gt; ::= 'normal' | 'italic'\n&lt;font-weight&gt; ::= 'normal' | 'bold' | '100' | '200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'\n&lt;font-size&gt; ::= &lt;nSize&gt; 'px'|'pt'|'em'|'rem'\n&lt;line-height&gt; ::= 'normal' | &lt;nValue&gt; | &lt;nPixel&gt;'px' | &lt;nPercent&gt;'%'\n&lt;font-family&gt; ::= &lt;font-name&gt; [',' &lt;font-name&gt;]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nfont : bold 12pt/30px arial, sans-serif;\n\n* Script ( normal property )\nthis.font = \"bold 12pt/30px arial, sans-serif\";</div></td></tr><tr><th>&lt;font-style&gt;</th><td colspan=\"2\"><div>폰트의 스타일을 설정합니다.\n\n\"normal\" 설정 시 스타일이 적용되지 않습니다.\n\"italic\" 설정 시 기울임 스타일이 적용됩니다.</div></td></tr><tr><th>&lt;font-weight&gt;</th><td colspan=\"2\"><div>폰트의 굵기를 설정합니다.\n\n\"normal\" 설정 시 굵기가 적용되지 않습니다.\n\"bold\" 설정 시 굵은 폰트가 적용됩니다.\n\n\"100\"~\"900\" 로 설정 시 설정한 굵기로 폰트가 적용됩니다.\n\"100\"~\"900\" 로 설정 시 굵기에 해당하는 폰트가 정의되어 있어야 합니다.</div></td></tr><tr><th>&lt;font-size&gt;</th><td colspan=\"2\"><div>폰트 크기의 단위는 아래와 같이 절대 길이 단위와 상대 길이 단위로 설정할 수 있습니다.\n단위를 지정하지 않으면 속성값이 적용되지 않습니다.\n- 절대 길이 단위: pixel(\"px\"), point(\"pt\")\n- 상대 길이 단위: \"em\", \"rem\"\n\n폰트 크기 단위를 \"em\", \"rem\"으로 설정한 경우에는 아래와 같이 폰트 크기가 계산됩니다.\n- \"em\": 상위 컴포넌트 font-size 기준으로 상대적인 크기를 설정\n- \"rem\": MainFrame font-size 기준으로 상대적인 크기를 설정</div></td></tr><tr><th>&lt;nSize&gt;</th><td colspan=\"2\"><div>폰트 크기 단위에 따라 정수 또는 소수로 설정합니다.\n음수값은 설정할 수 없습니다.\n- \"px\", \"pt\": 정수\n- \"em\", \"rem\": 정수 또는 소수</div></td></tr><tr><th>&lt;line-height&gt;</th><td colspan=\"2\"><div>텍스트가 여러줄로 표시되는 경우 줄 사이의 간격을 설정합니다.\n\n음수값을 설정할 수 없습니다.\n\n\"normal\" 설정 시 줄 사이의 간격을 설정하지 않습니다.\n\"normal\" 설정 시 웹브라우저마다 줄 사이의 간격이 다르게 적용됩니다.\n\"normal\" 설정 시 Nexacro Runtime Environment는 폰트 크기에 곱할 값(&lt;nValue&gt;값)이 \"1.15\" 일 때와 동일하게 동작합니다.</div></td></tr><tr><th>&lt;nValue&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.</div></td></tr><tr><th>&lt;nPixel&gt;</th><td colspan=\"2\"><div>줄 사이의 간격을 pixel 단위의 숫자로 설정합니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;nPercent&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 비율값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.\n\"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;font-family&gt;</th><td colspan=\"2\"><div>폰트 이름을 리스트로 설정합니다.\n\n콤마(\",\")로 구분하여 폰트 이름을 여러개 설정할 수 있습니다.\n먼저 선언된 폰트가 우선적으로 적용됩니다.\n선언된 폰트가 시스템에 없을 경우 선언된 순서대로 사용 가능한 폰트를 적용합니다.\n선언된 폰트가 모두 없을 경우 시스템 기본 폰트가 적용됩니다.</div></td></tr><tr><th>&lt;font-name&gt;</th><td colspan=\"2\"><div>폰트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1589,7 +1589,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5514344769504367",
+      "id": "u_10_0.11968555621950672",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nheight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.height = 10;\nthis.height = \"10px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Form 의 높이를 pixel 단위의 숫자로 설정합니다.\n0~12000 사이의 숫자만 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1664,7 +1664,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06391930586935879",
+      "id": "u_10_0.1605587393021778",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.hscrollbar.decbuttonsize = 30;</div></td></tr></tbody></table>",
       "option": {
@@ -1739,7 +1739,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6268225645967245",
+      "id": "u_10_0.5497115088397819",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Form 의 고유 식별자인 \"form\" 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1814,7 +1814,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1624698847487499",
+      "id": "u_10_0.8623607367265242",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 Form 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1889,7 +1889,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.027837854795945027",
+      "id": "u_10_0.7215451492977876",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strspace ::= 'normal' | &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nletter-spacing : 2px ;\n\n* Script ( normal property )\nthis.letterSpacing = \"2px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 설정하지 않습니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 pixel 단위로 설정합니다.\n\n스크립트 작성 시에는 \"px\" 단위 표기를 생략할 수 있습니다.\n(XCSS 작성 시에는 \"px\" 단위를 포함해 작성해야 합니다).</div></td></tr></tbody></table>",
       "option": {
@@ -1964,7 +1964,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3733278948407357",
+      "id": "u_10_0.4841758903961809",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.locale = \"ko_KR\";</div></td></tr><tr><th>strlocale</th><td colspan=\"2\"><div>\"언어[_국가]\" 형식의 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2039,7 +2039,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7817439603995339",
+      "id": "u_10_0.45700494606791375",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2114,7 +2114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2545581067603384",
+      "id": "u_10_0.8980483739001214",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.border = \"1px solid #999999\";\nthis.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -2189,7 +2189,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.709899914958374",
+      "id": "u_10_0.045782885719921396",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>stredge ::= 'none' | &lt;image&gt; [&lt;fixedwidth&gt;'px' &lt;fixedheight&gt;'px']\n\n&lt;image&gt; ::= 'URL(\"' &lt;Theme-Image&gt; | &lt;Web-Image&gt; '\")'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-edge : \"URL('./images/border.png')\" 5px 5px;\n\n* Script ( normal property )\nthis.edge = \"URL('./images/border.png')\" 5px 5px;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>edge 이미지를 설정하지 않습니다.</div></td></tr><tr><th>&lt;image&gt;</th><td colspan=\"2\"><div>'URL (\"[이미지위치]\")' 형식으로 테마 또는 웹의 이미지를 설정합니다.\n\n테두리(border) 안쪽에 edge 형태로 이미지가 표시됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;fixedwidth&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 왼쪽/오른쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 왼쪽/오른쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr><tr><th>&lt;fixedheight&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 위쪽/아래쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 위쪽/아래쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2264,7 +2264,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08362581955414461",
+      "id": "u_10_0.9997087400064366",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlBgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-background-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-background-image : URL(\"theme://images/Test.jpg\");</div></td></tr><tr><th>strRtlBgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\nbackground 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\nbackground 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2339,7 +2339,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07116377597175039",
+      "id": "u_10_0.006616267323062752",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlEgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-edge-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-edge-image : URL(\"theme://images/Test.jpg\")</div></td></tr><tr><th>strRtlEgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\n-nexa-edge 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\n-nexa-edge 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2414,7 +2414,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.18003451897310474",
+      "id": "u_10_0.9395980529440048",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var invisibleobjects = this.objects;\nvar object1 = this.objects[0];</div></td></tr></tbody></table>",
       "option": {
@@ -2499,7 +2499,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7148309843258219",
+      "id": "u_10_0.8481108271689697",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nopacity : 0.8;\nopacity : 80%;\n\n* Script ( normal property )\nthis.opacity = \"0.8\";\nthis.opacity = 0.8;\nthis.opacity = \"80%\";</div></td></tr><tr><th>strOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nXCSS는 숫자 또는 퍼센트 값으로만 설정할 수 있습니다.\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2574,7 +2574,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.03961075254096291",
+      "id": "u_10_0.9672497673362997",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.opener;</div></td></tr></tbody></table>",
       "option": {
@@ -2649,7 +2649,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9094204611871788",
+      "id": "u_10_0.8612813425555691",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2724,7 +2724,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.761673955032793",
+      "id": "u_10_0.45654086855197606",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRtl ::= undefined | 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var vRtl = this.rtl;</div></td></tr><tr><th>undefined</th><td colspan=\"2\"><div>undefined 설정 시 상위 컴포넌트의 rtl 속성값이 적용됩니다.\n\n사용자가 rtl 속성값을 설정하지 않거나 삭제했을 경우 undefined 가 설정됩니다.</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Form 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 오른쪽으로 설정합니다.\nForm 의 내부 좌표계의 기준을 오른쪽으로 설정합니다.\nForm 의 텍스트 표시 기준을 오른쪽으로 설정합니다.\n수직스크롤바가 있을 경우 왼쪽에 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Form 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 왼쪽으로 설정합니다.\nForm 의 내부 좌표계의 기준을 왼쪽으로 설정합니다.\nForm 의 텍스트 표시 기준을 왼쪽으로 설정합니다.\n수직스크롤바가 있을 경우 오른쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2799,7 +2799,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.38866958551327735",
+      "id": "u_10_0.24082710386736506",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbarbarminsize = 20;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 트랙바 최소크기를 pixel 단위의 숫자로 설정합니다.\n\n음수값은 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2874,7 +2874,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2868047101154776",
+      "id": "u_10_0.5939606996915767",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbarbaroutsize( 50 );</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 트랙바가 사라지는 기준 크기를 pixel 단위의 숫자로 설정합니다.\n\n음수값은 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2949,7 +2949,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8377102018654881",
+      "id": "u_10_0.7087316689157849",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbardecbuttonsize = 30;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 감소 버튼(DecButton) 크기를 pixel 단위의 숫자로 설정합니다.\n\n음수값이나 Form 의 너비/높이보다 큰 값을 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3024,7 +3024,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.783342760734369",
+      "id": "u_10_0.9397418473149483",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbarincbuttonsize = 30;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 증가 버튼(IncButton) 크기를 pixel 단위의 숫자로 설정합니다.\n\n음수값이나 Form 의 너비/높이보다 큰 값을 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3099,7 +3099,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8808801437997176",
+      "id": "u_10_0.43990267758067414",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbarsize = 30;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 크기를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3174,7 +3174,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9506699527266789",
+      "id": "u_10_0.262306320722519",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbartrackbarsize = 20;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤바의 트랙바 크기를 pixel 단위의 숫자로 설정합니다.\n\n-1 을 설정하면 Form 크기와 Form 에 표시되는 컴포넌트 위치에 따라 트랙바 크기가 자동으로 조절됩니다.\n-2 이하의 음수값은 설정할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3249,7 +3249,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11886058384115339",
+      "id": "u_10_0.3239460180390219",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBartype ::= &lt;scrolltype&gt; | &lt;pairtype&gt;\n\n&lt;scrolltype&gt; ::= &lt;desktype&gt; | &lt;mobiletype&gt;\n&lt;pairtype&gt; ::= &lt;desktype&gt; ' ' &lt;desktype&gt; | &lt;mobiletype&gt; ' ' &lt;mobiletype&gt;\n\n&lt;desktype&gt; ::= 'default' | 'none' | 'fixed' | 'auto'\n&lt;mobiletype&gt; ::= 'default' | 'none' | 'indicator' | 'autoindicator'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollbartype = \"none\"; \nthis.scrollbartype = \"default autoindicator\"; \nthis.scrollbartype = \"auto fixed\"; \nthis.scrollbartype = \"indicator none\";</div></td></tr><tr><th>&lt;scrolltype&gt;</th><td colspan=\"2\"><div>scrollbartype 속성값을 하나만 설정하면 가로/세로 스크롤바에 동일한 값이 적용됩니다.</div></td></tr><tr><th>&lt;pairtype&gt;</th><td colspan=\"2\"><div>scrollbartype 속성값을 빈칸으로 구분한 두개의 값으로 설정합니다.\n\n첫번째 값은 가로스크롤바에 적용되고, 두번째 값은 세로스크롤바에 적용됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>데스크탑 환경인 경우 \"auto\" 로 적용됩니다.\n\n모바일 환경인 경우 \"autoindicator\" 로 적용됩니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>스크롤바 또는 인디케이터바를 표시하지 않습니다.</div></td></tr><tr><th>\"fixed\"</th><td colspan=\"2\"><div>스크롤바를 항상 표시합니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>스크롤바가 필요할 때 자동으로 표시합니다.</div></td></tr><tr><th>\"indicator\"</th><td colspan=\"2\"><div>스크롤 인디케이터바가 필요할 때 자동으로 표시합니다.</div></td></tr><tr><th>\"autoindicator\"</th><td colspan=\"2\"><div>스크롤이 동작될 때만 인디케이터바가 표시되었다가 스크롤이 종료되면 사라집니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3324,7 +3324,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3627402476506745",
+      "id": "u_10_0.03964199902922083",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.scrollindicatorsize = 30;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>스크롤 인디케이터바의 크기를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3399,7 +3399,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0052807676991193375",
+      "id": "u_10_0.04658865497386433",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'none' | 'both' | 'vertical' | 'horizontal'</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Form 에서 수평/수직 스크롤을 사용하지 않습니다.</div></td></tr><tr><th>\"both\"</th><td colspan=\"2\"><div>Form 에서 수평/수직 스크롤을 모두 사용합니다.</div></td></tr><tr><th>\"vertical\"</th><td colspan=\"2\"><div>Form 에서 수직 스크롤만 사용합니다.\n\n수평 스크롤은 사용하지 않습니다.</div></td></tr><tr><th>\"horizontal\"</th><td colspan=\"2\"><div>Form 에서 수평 스크롤만 사용합니다.\n\n수직 스크롤은 사용하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3474,7 +3474,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5787907919626503",
+      "id": "u_10_0.38843993225583606",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.statustext = \"form status\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>상위 Frame의 StatusBar 에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3549,7 +3549,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6233416637890103",
+      "id": "u_10_0.5750523075889981",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strAlign ::= &lt;hAlign&gt; &lt;vAlign&gt;\n\n&lt;hAlign&gt; ::= 'left' | 'center' | 'right'\n&lt;vAlign&gt; ::= 'top' | 'middle' | 'bottom'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.popupalign = \"right bottom\";\nthis.popupalign = \"left bottom\";\nthis.popupalign = \"center top\";</div></td></tr><tr><th>&lt;hAlign&gt;</th><td colspan=\"2\"><div>Step 컨트롤이 표시될 가로 위치를 설정합니다.\n\n\"left\" 설정 시 Step 컨트롤이 Form 영역의 왼쪽에 표시됩니다.\n\"center\" 설정 시 Step 컨트롤이 Form 영역의 가운데에 표시됩니다.\n\"right\" 설정 시 Step 컨트롤이 Form 영역의 오른쪽에 표시됩니다.</div></td></tr><tr><th>&lt;vAlign&gt;</th><td colspan=\"2\"><div>Step 컨트롤이 표시될 세로 위치를 설정합니다.\n\n\"top\" 설정 시 Step 컨트롤이 Form 영역의 윗쪽에 표시됩니다.\n\"middle\" 설정 시 Step 컨트롤이 Form 영역의 가운데에 표시됩니다.\n\"bottom\" 설정 시 Step 컨트롤이 Form 영역의 아랫쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3624,7 +3624,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.20577344010034437",
+      "id": "u_10_0.7103342537268766",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.stepitemgap = 50;</div></td></tr><tr><th>nGap</th><td colspan=\"2\"><div>StepControl 에 표시되는 라디오 버튼의 간격을 pixel 단위의 숫자로 설정합니다.\n\nnull 설정 시 라디오 버튼의 간격이 3 pixel 로 표시되지만 속성값은 null 로 설정됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3699,7 +3699,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.13645182103641385",
+      "id": "u_10_0.770912160896899",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.stepitemsize  = 20;</div></td></tr><tr><th>nSize</th><td colspan=\"2\"><div>StepControl 에 표시되는 라디오 버튼의 크기를 pixel 단위의 숫자로 설정합니다.\n\nnull 설정 시 라디오 버튼의 크기가 \"버튼이미지크기 + Padding크기 + Border크기\" 로 표시되지만 속성값은 null 로 설정됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3774,7 +3774,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3050935023503377",
+      "id": "u_10_0.011235982428076441",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objStep = this.stepselector;</div></td></tr></tbody></table>",
       "option": {
@@ -3849,7 +3849,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5116991688661048",
+      "id": "u_10_0.9758374947186862",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strType ::= 'always' | 'action'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.stepshowtype = \"always\";\nthis.stepshowtype = \"action\";</div></td></tr><tr><th>\"always\"</th><td colspan=\"2\"><div>Step 컨트롤이 항상 화면에 표시됩니다.</div></td></tr><tr><th>\"action\"</th><td colspan=\"2\"><div>분할된 화면을 전환시킬 때만 Step 컨트롤이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3924,7 +3924,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.570325888024153",
+      "id": "u_10_0.887801283974615",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.titletext = \"form title\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>상위 Frame의 TitleBar 에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3999,7 +3999,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2736724036401239",
+      "id": "u_10_0.6576621314537803",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.tooltiptext = \"This is ToolTip Text\"; this.tooltiptext = \"\";          // 풍선 도움말이 표시되지 않습니다. \n\nthis.tooltiptext = null;        // 상위 컴포넌트의 풍선 도움말이 표시됩니다.</div></td></tr><tr><th>strToolTipText</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n빈문자열(EmptyString) 설정 시 풍선도움말이 표시되지 않습니다.\nnull 또는 undefined 설정 시 상위컴포넌트(Form, Div 등)의 풍선도움말이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4074,7 +4074,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8459581593666765",
+      "id": "u_10_0.5093444503787911",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumTooltipType ::= 'default' | 'hover' | 'inplace' | 'default,mouseleave' | 'hover,mouseleave' | 'inplace,mouseleave'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.tooltiptype = \"hover\";</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"hover\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역내에 멈춰서 일정시간이 경과하면 풍선도움말이 사라집니다.\nForm 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경되거나 사라진 풍선도움말이 다시 표시됩니다.</div></td></tr><tr><th>\"inplace\"</th><td colspan=\"2\"><div>Form 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"default,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr><tr><th>\"hover,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역에 있으면 풍선도움말이 사라지지 않습니다.\nForm 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경됩니다.</div></td></tr><tr><th>\"inplace,mouseleave\"</th><td colspan=\"2\"><div>Form 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Form 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4149,7 +4149,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5619275821008134",
+      "id": "u_10_0.07820257240931305",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.visible = true; \nthis.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Form 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Form 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4224,7 +4224,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3291052116374795",
+      "id": "u_10_0.9429248590488555",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.vscrollbar.decbuttonsize = 30;</div></td></tr></tbody></table>",
       "option": {
@@ -4299,7 +4299,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8296170878149253",
+      "id": "u_10_0.5892954709053678",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.width = 10;\nthis.width = \"10px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Form 의 너비를 pixel 단위의 숫자로 설정합니다.\n0~12000 사이의 숫자만 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4374,7 +4374,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.808595687118733",
+      "id": "u_10_0.19368973186798843",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strWordSpacing ::= 'normal' | &lt;nVal&gt;'px'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nword-spacing : 30px;\n\n* Script ( normal property )\nthis.wordSpacing = \"30px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>텍스트의 단어 사이 간격을 설정하지 않습니다.\n\n현재 font 에 맞는 기본형태로 텍스트가 표시됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>pixel 단위로 텍스트의 단어 사이 간격을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4440,7 +4440,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.31029690530280374",
+      "id": "u_10_0.8202049069975772",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strChildID</td><td>String</td><td colspan=\"2\"><div>자식으로 추가될 컴포넌트의 ID를 설정합니다.</div></td></tr><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>자식으로 추가될 컴포넌트의 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nIndex = this.addChild( \"Button00\", Button00 );</div></td></tr></tbody></table>",
       "option": {
@@ -4454,7 +4454,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22633488317845007",
+      "id": "u_10_0.5299811657563425",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>추가된 자식 컴포넌트의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4525,7 +4525,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.43153489756176744",
+      "id": "u_10_0.2945183961095248",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.addEventHandler( \"onmove\", this_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4539,7 +4539,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7211996767908679",
+      "id": "u_10_0.5743723163989373",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4590,7 +4590,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19018929637057247",
+      "id": "u_10_0.0689582303368157",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.addEventHandlerLookup( \"onmove\", \"XComponent00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -4604,7 +4604,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4612220003421229",
+      "id": "u_10_0.8963942220755616",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4665,7 +4665,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.720981738152642",
+      "id": "u_10_0.7508502704451699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.alert( \"Warning\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4716,7 +4716,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6430077634642967",
+      "id": "u_10_0.5107677434781094",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>중지할 트랜잭션의 ID를 문자열로 설정합니다.\ntransaction() 메소드 수행 시 설정한 ID값입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.cancelTransaction( \"Trans02\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4777,7 +4777,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8195935791439694",
+      "id": "u_10_0.6118529695465943",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4791,7 +4791,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05944326713140513",
+      "id": "u_10_0.4928658855336061",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4852,7 +4852,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7381114151982423",
+      "id": "u_10_0.6740200944541231",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strReturn</td><td>String</td><td colspan=\"2\"><div>Form 이 종료될 때 자신을 호출했던 부모 Form 에게 넘겨줄 값을 문자열로 설정합니다.\n\n기본형(Primitive Type) 데이터형만 지정 가능합니다.\n특히, Form이 종료되면 Form에 정의됐던 오브젝트(Component, DataSet 등)도 소멸되므로 해당 오브젝트를 설정할 수 없습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.close( \"OK\" );\nthis.close( this.Edit00.value );</div></td></tr></tbody></table>",
       "option": {
@@ -4913,7 +4913,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7794131288013234",
+      "id": "u_10_0.7363209940922515",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>대화상자에 표시할 텍스트를 설정합니다.</div></td></tr><tr><td>strCaption</td><td>String</td><td colspan=\"2\"><div>대화상자의 TitleBar에 표시할 텍스트를 설정합니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>대화상자의 왼쪽 영역에 표시될 아이콘 종류를 문자열로 설정합니다.\n\n\"error\" 설정 시 빨간색 \"X\" 모양 아이콘이 표시됩니다.\n\"question\" 설정 시 물음표(\"?\") 모양 아이콘이 표시됩니다.\n\"warning\" 설정 시 노랑색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\"information\" 설정 시 파란색 바탕에 느낌표(\"!\") 모양 아이콘이 표시됩니다.\n\n값을 설정하지 않으면 아이콘을 표시하지 않습니다.\n\n- WRE에서 지원하지 않는 파라미터입니다.\n  WRE에서는 설정된 값을 무시하고 처리합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRtn;\nbRtn = this.confirm( \"Please check it carefully.\" );\nbRtn = this.confirm( \"Please check it carefully.\" , \"TitleTest\");\nbRtn = this.confirm( \"Please check it carefully.\" , \"TitleTest\", \"error\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4927,7 +4927,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.23214235452930354",
+      "id": "u_10_0.5515797725502677",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>표시된 선택 대화상자에서 \"확인\" 버튼을 선택하면 \"true\"를 반환합니다.\n표시된 선택 대화상자에서 \"취소\" 버튼을 선택하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4978,7 +4978,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5748851488228077",
+      "id": "u_10_0.8904307538156336",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.findEventHandler( \"onmove\", this_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -4992,7 +4992,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6839707407136906",
+      "id": "u_10_0.5617289485997322",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5053,7 +5053,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4239382746749797",
+      "id": "u_10_0.1598627496755919",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>현재 레이아웃 name 속성값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5114,7 +5114,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.05677455560453559",
+      "id": "u_10_0.5151935271529485",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = XComponent00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -5128,7 +5128,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8713291325286712",
+      "id": "u_10_0.10155073511463508",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5179,7 +5179,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8562505301985818",
+      "id": "u_10_0.6899026803937699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>Form 오브젝트 내에서 taborder가 가장 작은 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\ntrue 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\nfalse 설정 시 컨테이너 컴포넌트를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getFirstAccessibilityComponent();\nvar objComp = this.getFirstAccessibilityComponent(true);</div></td></tr></tbody></table>",
       "option": {
@@ -5193,7 +5193,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9639989850756095",
+      "id": "u_10_0.8043811071663723",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Form 오브젝트 내 accessibilityenable 속성값이 true이고 taborder 속성값이 가장 작은 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5254,7 +5254,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.26596102914521824",
+      "id": "u_10_0.4425255793870404",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>처음으로 포커스를 받는 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\n\"true\" 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\n\"false\" 설정 시 컨테이너 컴포넌트를 반환하도록 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getFirstComponent();\nvar objComp = this.getFirstComponent(true);</div></td></tr></tbody></table>",
       "option": {
@@ -5268,7 +5268,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.10793841882609634",
+      "id": "u_10_0.856915018005927",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>포커스를 제일 처음에 받는 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5329,7 +5329,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9982923710719861",
+      "id": "u_09_0.6333399893445258",
       "type": "command",
       "content": "var objComp = this.getFocus();"
     },
@@ -5339,7 +5339,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5679121855786793",
+      "id": "u_10_0.7199289009026965",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>포커스를 가진 자식 컴포넌트가 있으면 해당 컴포넌트를 반환합니다.\n\n포커스를 가진 자식 컴포넌트가 없으면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5400,7 +5400,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.008680319862444219",
+      "id": "u_09_0.21257572391232493",
       "type": "command",
       "content": "var nScrollPos = this.getHScrollPos();"
     },
@@ -5410,7 +5410,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05749567461925975",
+      "id": "u_10_0.1360796150503767",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>수평스크롤바의 현재 트랙바 위치값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5471,7 +5471,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08635769543620875",
+      "id": "u_10_0.9608885238360875",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>Form 오브젝트 내에서 taborder가 가장 큰 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\ntrue 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\nfalse 설정 시 컨테이너 컴포넌트를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getLastAccessibilityComponent();\nvar objComp = this.getLastAccessibilityComponent(true);</div></td></tr></tbody></table>",
       "option": {
@@ -5485,7 +5485,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6911003204797328",
+      "id": "u_10_0.2515711223675494",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Form 오브젝트 내 accessibilityenable 속성값이 true이고 taborder 속성값이 가장 큰 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5546,7 +5546,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4321143831992521",
+      "id": "u_10_0.6024938222371625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>마지막으로 포커스를 받는 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\n\"true\" 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\n\"false\" 설정 시 컨테이너 컴포넌트를 반환하도록 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getLastComponent();\nvar objComp = this.getLastComponent(true);</div></td></tr></tbody></table>",
       "option": {
@@ -5560,7 +5560,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.35988584339652363",
+      "id": "u_10_0.14242184018582138",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>포커스를 제일 마지막에 받는 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5621,7 +5621,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.05508044316615013",
+      "id": "u_10_0.8237201685842117",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLayoutID</td><td>String</td><td colspan=\"2\"><div>레이아웃의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>strPropID</td><td>String</td><td colspan=\"2\"><div>값을 얻으려 하는 속성의 이름을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nheight = XComponent.getLayoutInfo ( \"default\", \"height\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5635,7 +5635,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08442088345280474",
+      "id": "u_10_0.40035658188301393",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>strPropID 속성에 설정된 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5696,7 +5696,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5773046876891814",
+      "id": "u_10_0.7035544196703382",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>포커스 이동 시 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>포커스가 이동되는 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\n\"true\" 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\n\"false\" 설정 시 컨테이너 컴포넌트를 반환하도록 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getNextComponent( this.Edit00 );\nvar objComp = this.getNextComponent( this.Edit00, true );</div></td></tr></tbody></table>",
       "option": {
@@ -5710,7 +5710,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.11568315407890017",
+      "id": "u_10_0.1431162813323773",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>objComp 컴포넌트에서 탭키로 포커스가 이동되는 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5781,7 +5781,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5920440082799192",
+      "id": "u_09_0.6033411371526068",
       "type": "command",
       "content": "var nWidth = this.getOffsetHeight( ) ;"
     },
@@ -5791,7 +5791,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05332111997752931",
+      "id": "u_10_0.20082804682752087",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Form 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5862,7 +5862,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.09471815415548457",
+      "id": "u_09_0.49279918564639447",
       "type": "command",
       "content": "var nWidth = this.getOffsetWidth( ) ;"
     },
@@ -5872,7 +5872,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8808070079152392",
+      "id": "u_10_0.2952907775564343",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Form 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5943,7 +5943,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5440335622442388",
+      "id": "u_09_0.6554655093165774",
       "type": "command",
       "content": "var objOwnerFrame = this.getOwnerFrame();"
     },
@@ -5953,7 +5953,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3617102980122492",
+      "id": "u_10_0.9211482447858984",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Form 이 소속된 부모 Frame 오브젝트를 반환합니다.\nForm 이 소속된 Frame 이 없을 경우 \"null\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6004,7 +6004,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6123751517424533",
+      "id": "u_10_0.849950912741104",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>Form 오브젝트에 포함된 컴포넌트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6018,7 +6018,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8713931866026094",
+      "id": "u_10_0.93760078011118",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정한 컴포넌트를 연결하고 있는 Panel 컴포넌트를 반환합니다.\n지정한 컴포넌트가 없거나 지정한 컴포넌트에 연결된 Panel 컴포넌트가 없는 경우 null 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6069,7 +6069,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09240329363431288",
+      "id": "u_10_0.8121159314360016",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp </td><td>Object</td><td colspan=\"2\"><div>포커스 이동 시 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>bStepIn</td><td>Boolean</td><td colspan=\"2\"><div>포커스가 이동되는 컴포넌트가 컨테이너 컴포넌트일 경우 자식 컴포넌트까지 검색할지 설정합니다.\n\"true\" 설정 시 컨테이너 컴포넌트의 자식까지 검색합니다.\n\"false\" 설정 시 컨테이너 컴포넌트를 반환하도록 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = this.getPrevComponent( this.Edit00 );\nvar objComp = this.getPrevComponent( this.Edit00, true );</div></td></tr></tbody></table>",
       "option": {
@@ -6083,7 +6083,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7479011839672509",
+      "id": "u_10_0.09558868691588318",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>objComp 컴포넌트에서 Shift+탭키로 포커스가 이동되는 컴포넌트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6144,7 +6144,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22505000452170254",
+      "id": "u_10_0.2924606701582654",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>분할된 화면의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6205,7 +6205,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9618006376016307",
+      "id": "u_09_0.5851133301300449",
       "type": "command",
       "content": "this.getStepIndex() ;"
     },
@@ -6215,7 +6215,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3274811456519604",
+      "id": "u_10_0.014684376598232851",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>현재 표시되는 화면의 인덱스값이 반환됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6286,7 +6286,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8170749219117782",
+      "id": "u_09_0.4963324968080354",
       "type": "command",
       "content": "var nScrollPos = this.getVScrollPos();"
     },
@@ -6296,7 +6296,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7791773032348384",
+      "id": "u_10_0.40315743415242233",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>수직스크롤바의 현재 트랙바 위치값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6357,7 +6357,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8868416077640126",
+      "id": "u_10_0.9464722953068362",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>화면에 로딩할 Form(xfdl 파일)의 URL을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.go( \"Base::Menu.xfdl\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6418,7 +6418,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.09991585821748872",
+      "id": "u_09_0.9926925059762447",
       "type": "command",
       "content": "var bHas = this.hasPopupFrame();"
     },
@@ -6428,7 +6428,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.11704315570991419",
+      "id": "u_10_0.0484290283341986",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>현재 Form에서 스크립트로 실행된 Form이 있다면 \"true\"를 반환합니다.\n현재 Form에서 스크립트로 실행된 Form이 없다면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6489,7 +6489,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3736031913811627",
+      "id": "u_10_0.5273966668128022",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트에 추가 될 순서를 설정합니다.\n\"-1\"로 설정할 경우 자식 컴포넌트 중 제일 마지막에 추가됩니다.</div></td></tr><tr><td>strChildID</td><td>String</td><td colspan=\"2\"><div>자식으로 추가될 컴포넌트의 ID를 설정합니다.</div></td></tr><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>자식으로 추가될 컴포넌트의 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nIndex = this.insertChild( 0, \"Button00\", Button00 );</div></td></tr></tbody></table>",
       "option": {
@@ -6503,7 +6503,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.044862071267150805",
+      "id": "u_10_0.6394171259002808",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>추가된 자식 컴포넌트의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6564,7 +6564,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3085356081545677",
+      "id": "u_10_0.3976859641021181",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.insertEventHandler( \"onmove\", 0, this_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -6578,7 +6578,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.37784403735847527",
+      "id": "u_10_0.5547679557502795",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6639,7 +6639,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.800456903955634",
+      "id": "u_10_0.972149000015044",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objName</td><td>Object</td><td colspan=\"2\"><div>존재 여부를 확인할 오브젝트를 설정합니다.</div></td></tr><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>존재 여부를 확인할 오브젝트의 이름을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet = this.isValidObject( this.Button00 );\nvar bRet = this.isValidObject( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6653,7 +6653,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8256589912898838",
+      "id": "u_10_0.2774799946531844",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>인수로 전달된 오브젝트가 Form 에 존재하면 \"true\"를 반환합니다.\n인수로 전달된 오브젝트가 Form 에 존재하지 않으면 \"false\"를 반환합니다.\n잘못된 값을 인수로 전달했을 경우도 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6704,7 +6704,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10636993668200134",
+      "id": "u_10_0.9569055425011279",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTimerID</td><td>Number</td><td colspan=\"2\"><div>setTimer() 메소드에서 타이머 생성 시 설정했던 ID를 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.killTimer( 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -6765,7 +6765,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4192260529579189",
+      "id": "u_10_0.5483449314292186",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strObjectID</td><td>String</td><td colspan=\"2\"><div>검색하여 찾고자 하는 오브젝트의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6779,7 +6779,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4602767460012811",
+      "id": "u_10_0.01748560866431237",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>검색하여 찾아낸 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6830,7 +6830,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.07947263726860132",
+      "id": "u_09_0.27730005595835483",
       "type": "command",
       "content": "this.reload();"
     },
@@ -6887,7 +6887,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5678736917576215",
+      "id": "u_10_0.02067473470273562",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strChildID</td><td>String</td><td colspan=\"2\"><div>제거할 자식 컴포넌트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objDelete = this.removeChild( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -6901,7 +6901,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4909493366245621",
+      "id": "u_10_0.0708809042409323",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>컴포넌트 제거에 성공하면 제거된 컴포넌트의 오브젝트를 반환합니다.\n컴포넌트 제거에 실패하면 \"null\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6962,7 +6962,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.40332158883264346",
+      "id": "u_10_0.1192995359067146",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.removeEventHandler( \"onmove\", this_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -6976,7 +6976,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7585378058030077",
+      "id": "u_10_0.7255321153740659",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7037,7 +7037,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7779814932474778",
+      "id": "u_10_0.40225826192804603",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.removeEventHandlerLookup( \"onmove\", \"XComponent00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7051,7 +7051,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9298703857789055",
+      "id": "u_10_0.37415730791265667",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7112,7 +7112,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.23551472570972543",
+      "id": "u_09_0.7797238015130971",
       "type": "command",
       "content": "this.resetScroll();"
     },
@@ -7169,7 +7169,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.15980872350467257",
+      "id": "u_10_0.6694414795587887",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHoffsetpos</td><td>Number</td><td colspan=\"2\"><div>수평스크롤바의 스크롤을 현재위치에서 이동시킬 값을 숫자로 설정합니다.\n\n음수로 설정 시 스크롤의 위치가 감소합니다.\n양수로 설정 시 스크롤의 위치가 증가합니다.\n\n값을 적용했을 때 수평스크롤바의 min 속성값보다 작을 경우 min 값으로 적용됩니다.\n값을 적용했을 때 수평스크롤바의 max 속성값보다 클 경우 max 값으로 적용됩니다.</div></td></tr><tr><td>nVoffsetpos</td><td>Number</td><td colspan=\"2\"><div>수직스크롤바의 스크롤을 현재위치에서 이동시킬 값을 숫자로 설정합니다.\n\n음수로 설정 시 스크롤의 위치가 감소합니다.\n양수로 설정 시 스크롤의 위치가 증가합니다.\n\n값을 적용했을 때 수직스크롤바의 min 속성값보다 작을 경우 min 값으로 적용됩니다.\n값을 적용했을 때 수직스크롤바의 max 속성값보다 클 경우 max 값으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.scrollBy( 20,20 );</div></td></tr></tbody></table>",
       "option": {
@@ -7230,7 +7230,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12322759854583998",
+      "id": "u_10_0.732253414749995",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHpos</td><td>Number</td><td colspan=\"2\"><div>수평스크롤바의 스크롤이 위치할 값을 숫자로 설정합니다.\n\n설정값이 수평스크롤바의 min 속성값보다 작을 경우 min 값으로 적용됩니다.\n설정값이 수평스크롤바의 max 속성값보다 클 경우 max 값으로 적용됩니다.</div></td></tr><tr><td>nVpos</td><td>Number</td><td colspan=\"2\"><div>수직스크롤바의 스크롤이 위치할 값을 숫자로 설정합니다.\n\n설정값이 수직스크롤바의 min 속성값보다 작을 경우 min 값으로 적용됩니다.\n설정값이 수직스크롤바의 max 속성값보다 클 경우 max 값으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.scrollTo( 20,20 );</div></td></tr></tbody></table>",
       "option": {
@@ -7291,7 +7291,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8896511104870308",
+      "id": "u_10_0.7429415116911365",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.setEventHandler( \"onmove\", this_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -7305,7 +7305,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2566673500326364",
+      "id": "u_10_0.7423914208074165",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7366,7 +7366,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1849883005128169",
+      "id": "u_10_0.3233668185979277",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this_onmove = function( obj:nexacro.XComponent,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.setEventHandlerLookup( \"onmove\", \"XComponent00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7380,7 +7380,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6946848971741417",
+      "id": "u_10_0.44080125596205466",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7441,7 +7441,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.692555414917203",
+      "id": "u_10_0.7814327359035662",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLayoutName</td><td>String</td><td colspan=\"2\"><div>레이아웃 이름을 문자열로 설정합니다.</div></td></tr><tr><td>strPropID</td><td>String</td><td colspan=\"2\"><div>설정하려는 속성 이름을 문자열로 설정합니다.\ntabletemplate 속성만 지원합니다.</div></td></tr><tr><td>strValue</td><td>String</td><td colspan=\"2\"><div>설정하려는 속성의 속성값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.form.setFluidLayoutProperty(\"Layout0\", \"tabletemplate\", \"1* 1* 1*/ 1* 1*\");\nthis.Div00.form.setFluidLayoutProperty(\"default\", \"tabletemplate\", \"1* 1* 1* 1* 1*/ 1* 1* 1*\");</div></td></tr></tbody></table>",
       "option": {
@@ -7512,7 +7512,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.024720851588293846",
+      "id": "u_10_0.20316411570604964",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bMoveScroll</td><td>Boolean</td><td colspan=\"2\"><div>부모 컴포넌트에 스크롤이 있을 경우 Form 기준으로 스크롤을 이동할지 설정합니다.\n\ntrue 설정 시 Form 이(가) 화면에 표시되도록 스크롤을 이동시킵니다.\nfalse 설정 시 Form 의 위치에 관계없이 스크롤을 이동시키지 않습니다.\n\n값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td>bInnerFocus</td><td>Boolean</td><td colspan=\"2\"><div>Form 이(가) 컨테이너 컴포넌트 일 때 자식 컴포넌트에게 포커스를 이동할지 설정합니다.\n\ntrue 설정 시 자식 컴포넌트 중 포커스를 받을 수 있는 첫번째 컴포넌트가 포커스 됩니다.\nfalse 설정 시 Form 에 포커스 됩니다.\n\nForm 이(가) 컨테이너 컴포넌트 일 때 값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objBefComp = this.setFocus();\nvar objBefComp = this.setFocus( true );\nvar objBefComp = this.setFocus( true, false );</div></td></tr></tbody></table>",
       "option": {
@@ -7526,7 +7526,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6715161380944659",
+      "id": "u_10_0.6531435834557662",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Form 이(가) 포커스되기 전에 포커스를 가졌던 컴포넌트를 반환합니다.\n\n포커스를 가진 컴포넌트가 없었거나 메소드 수행이 실패하는 경우에는 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7597,7 +7597,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8014804820075864",
+      "id": "u_10_0.09490964770150456",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nStepcount</td><td>Number</td><td colspan=\"2\"><div>분할할 화면 개수를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7658,7 +7658,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5312680674588411",
+      "id": "u_10_0.5525769044561699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>분할된 화면 중 표시할 화면의 인덱스를 설정합니다.\n\n인덱스는 \"0\" 부터 시작하며 \"stepcount속성값 - 1\"까지 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.setStepIndex(1);</div></td></tr></tbody></table>",
       "option": {
@@ -7672,7 +7672,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9679229894295267",
+      "id": "u_10_0.7200948331270217",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>분할된 화면 이동에 성공하면 \"true\"가 반환됩니다.\n분할된 화면 이동에 실패하면 \"false\"가 반환됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7743,7 +7743,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8929738870096886",
+      "id": "u_10_0.6956019176048066",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTimerID</td><td>Number</td><td colspan=\"2\"><div>ontimer 이벤트를 발생시킨 타이머를 구분하기 위한 ID를 숫자로 설정합니다.\nID값은 \"0~65535\" 사이의 값을 설정할 수 있습니다.</div></td></tr><tr><td>nElapse</td><td>Number</td><td colspan=\"2\"><div>ontimer 이벤트를 발생시킬 주기를 밀리초(milliseconds) 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.setTimer( 0, 1000 );</div></td></tr></tbody></table>",
       "option": {
@@ -7814,7 +7814,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4582574538614481",
+      "id": "u_10_0.6803865249726342",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bWaitFlag</td><td>Boolean</td><td colspan=\"2\"><div>화면에 Wait Cursor의 표시 여부를 설정합니다.\n\ntrue 설정 시 Wait Cursor가 화면에 표시됩니다.\nfalse 설정 시 화면에 표시된 Wait Cursor 를 해제합니다.\n\n값 생략 시 true 로 적용됩니다.</div></td></tr><tr><td>bForcely</td><td>Boolean</td><td colspan=\"2\"><div>Environment 의 usewaitcursor 속성값에 관계없이 메소드를 실행 시킬지 여부를 설정합니다.\n\ntrue 설정 시 userwaitcursor 속성값에 관계없이 Wait Cursor 를 표시/해제 합니다.\nfalse 설정 시 usewaitcursor 속성값이 true 이면 Wait Cursor 를 표시/해제 합니다.\nfalse 설정 시 usewaitcursor 속성값이 false 이면 메소드가 실행되지 않습니다.\n\n값 생략 시 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.setWaitCursor();\nthis.setWaitCursor( true );\nthis.setWaitCursor( true, true );</div></td></tr></tbody></table>",
       "option": {
@@ -7875,7 +7875,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4058970809105741",
+      "id": "u_10_0.5282100933904865",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMilliseconds</td><td>Number</td><td colspan=\"2\"><div>스크립트 실행을 멈출 시간을 밀리초(milliseconds) 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.sleep( 1000 );</div></td></tr></tbody></table>",
       "option": {
@@ -7926,7 +7926,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6452859703611834",
+      "id": "u_10_0.3628041869298977",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSvcID</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 구분하기 위한 ID를 문자열로 설정합니다.</div></td></tr><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>트랜잭션을 요청할 서버페이지 주소를 문자열로 설정합니다.\n\nstrURL ::= &lt;absolute-url&gt; | &lt;relative-url&gt;\n\n&lt;absolute-url&gt;\n서버에 배포된 페이지 주소를 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.\n\n&lt;relative-url&gt;\nTypeDefinition 의 Services 영역에 정의된 Prefix 를 사용한 형식으로 설정합니다.\n또는 현재 Form 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr><tr><td>strInDatasets</td><td>String</td><td colspan=\"2\"><div>데이터 처리를 위해 서버로 보낼 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Form 영역 또는 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"입력ID=DataSet ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 보낼 수 있습니다.\n\nex) \"input1=DataSet00 input2=DataSet01\"\n\nContainer Component(Div, View 등)의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"input1=View00.form.Dataset00 input2=Div00.form.Dataset01\"</div></td></tr><tr><td>strOutDatasets</td><td>String</td><td colspan=\"2\"><div>서버에서 보내는 데이터를 받을 DataSet 의 ID를 문자열로 설정합니다.\nDataSet 은 Form 영역 또는 Application 의 AppVariables 영역에 정의되어 있어야 합니다.\n\"DataSet ID=출력ID\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 DataSet 을 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output1\"\n\n아래와 같은 형식으로 하나의 Ouput Dataset(출력ID)을 여러 개의 Dataset에서 받을 수 있습니다.\n\nex) \"DataSet00=output0 DataSet01=output0\"\n\nContainer Component(Div, View 등)의 Dataset 오브젝트는 아래와 같이 설정할 수 있습니다.\n\nex) \"View00.form.Dataset00=ouput0 Div00.form.Dataset01=output1\"</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>서버페이지에 보낼 정보를 문자열로 설정합니다.\n\"변수ID=변수값\" 형식으로 설정하며, 빈칸으로 구분하여 여러개의 인수값을 보낼 수 있습니다.\n\nex) \"argu0=test argu1=30\"</div></td></tr><tr><td>strCallbackFunc</td><td>String</td><td colspan=\"2\"><div>트랜잭션 결과를 받을 때 호출될 콜백함수명을 문자열로 설정합니다.\n콜백함수는 Form 영역 또는 Application 영역에 정의되어 있어야 합니다.</div></td></tr><tr><td>bAsync</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션을 비동기(ASync)로 처리할지 설정합니다.\n\ntrue 설정 시 트랜잭션을 비동기(ASync)로 처리하여 트랜잭션의 완료와 관계없이 스크립트가 수행됩니다.\nfalse 설정 시 트랜잭션을 동기(Sync)로 처리하여 트랜잭션이 완료될 때까지 스크립트 수행이 중단됩니다.\n\n값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td>nDataType</td><td>Number</td><td colspan=\"2\"><div>트랜잭션 시 클라이언트에서 서버로 보내는 데이터의 형태를 설정합니다.\n\n\"0\" : XML 형식\n\"1\" : Binary 형식\n\"2\" : SSV 형식\n\"3\" : JSON 형식\n\n값을 설정하지 않으면 \"0\" 으로 적용됩니다.</div></td></tr><tr><td>bCompress</td><td>Boolean</td><td colspan=\"2\"><div>트랜잭션 시 데이터를 압축시킬지 설정합니다.\n\ntrue 설정 시 데이터를 압축하여 송수신합니다.\nfalse 설정 시 데이터를 압축하지 않고 송수신합니다.\n\n값을 설정하지 않으면 false로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.transaction( \"MyService01\",\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\");\nthis.transaction( \"MyService01\",\"DataSrv::samplexml.jsp\",\"input1=Dataset02\",\"Dataset03=output1\",\"a=b\",\"callbackFunction\",false,0, true);</div></td></tr></tbody></table>",
       "option": {
@@ -7942,7 +7942,7 @@
     {
       "id": "m_10_transaction",
       "type": "pre",
-      "content": "- Application 과 Form 에 정의된 transaction() 메소드는 기본적인 기능은 동일하지만 DataSet 과 콜백함수를 찾는 영역이 다릅니다.\n  &gt; Application 의 transaction() 메소드는 DataSet 과 콜백함수가 Application 영역에 정의되어 있어야 합니다.\n  &gt; 반면 Form 의 transaction() 메소드는 Form 영역에서 DataSet 과 콜백함수를 우선적으로 검색하지만,\n  &gt; Form 영역에 DataSet 과 콜백함수가 정의되어 있지 않으면 상위 영역으로 검색을 확장시킵니다.\n  &gt; Form 이 Container Component 에 연결되어 있으면 상위 컴포넌트도 검색 영역에 포함됩니다.\n  &gt; Form 영역에서 strInDatasets, strOutDatasets 파라미터 설정 시 \".\"을 포함한 형식을 사용하는 경우에는 상위 영역으로 검색을 확장하지 않습니다.\n\n- 트랜잭션은 기본적으로 비동기 방식으로 동작합니다.\n   예외적으로 strURL 에 로컬 경로를 설정하는 경우에는 bAsync 옵션과 무관하게 동기(Sync) 방식으로 동작합니다.\n\n- strInDatasets 의 추가 옵션\n   strInDatasets 에 각각의 DataSet ID 뒤에 \":U\", \":A\", \":N\" 의 옵션을 붙일 수 있습니다.\n  &gt; \":U\" 는 갱신된 정보만을 보냅니다.\n  &gt; \":A\" 는 모든 정보를 보냅니다.\n  &gt; \":N\" 은 현재 삭제한 데이터를 제외한 정보를 Normal 상태로 보냅니다. 지정하지 않은 DataSet 은 Normal 로 동작합니다.\n\n- strOutDatasets 관련 주의사항\n   strOutDatasets 으로 입력받는 DataSet 은 Datasetid.load() 와 마찬가지로 \n   기존에 가진 열/레코드 대신 수신받은 DataSet 의 열/레코드로 모두 변경됩니다.\n\n- strCallbackFunc 에 관한 주의사항\n   strCallbackFunc 를 \"Transaction_Callback\" 으로 설정할 경우,\n   해당 Form 또는 상위영역에는 this.transaction_Callback = function(strSvcID, nErrorCode, strErrorMag) 이 존재해야 합니다.\n   이 콜백 함수는 위와 같은 형태이며, 콜백 함수의 strSvcID 는 입력된 strSvcID 와 동일합니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 파라미터가 있을 경우 처리되는 사항\n  &gt; 파라미터의 변수명을 Form &gt; Application &gt; Environment 영역 순서로 찾아 처음 일치하는 영역의 변수값만 업데이트합니다.\n     전체 영역에서 일치하는 변수가 없을 경우에는 전달된 파라미터값이 무시됩니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 Return XML 의 ErrorCode 파라미터 관련 주의사항\n  &gt; ErrorCode 가 0 미만의 음수이면 트랜잭션이 실패로 처리되고, Input DataSet 의 상태와 바인딩된 컴포넌트는 리드로(redraw) 되지 않습니다.\n     단, Environment 의 datasetloadtype 속성값이 \"errorallow\" 인 경우는 Output DataSet 에 데이터를 로드합니다.\n  &gt; ErrorCode 가 0 이상이면 트랜잭션이 성공으로 처리되고, Input DataSet 의 상태는 \"Normal\" 로 변경되며 바인딩된 컴포넌트는 리드로(redraw) 됩니다.\n  &gt; 서버로 부터 전달된 데이터가 없을 경우 (서버에서 HttpPlatformResponse 자체를 실행하지 않음)에는\n     ErrorCode 는 -1 값으로, ErrorMsg 는 \"Stream Data is null!\" 값으로 설정된 후 콜백 함수가 호출됩니다.\n\n- 통신을 강제로 중지시키는 방법\n   트랜잭션 처리 중이라도 ESC 키를 누르면 통신을 강제로 중지시킬 수 있습니다.\n\n- Get/Post 방식관련 참고사항  \n   1. strArgument 와 strInDatasets 이 \"\"이고, Environment 의 Cookies 영역에 변수가 없으면 GET 방식으로 동작합니다.\n   2. strArgument 나 strInDatasets 에 값이 있거나 Environment 의 Cookies 영역에 변수가 있으면 POST로 동작합니다.\n   3. 위 1번의 상태에서 addcookietovariable 값이 \"true\" 이면 서버와의 첫 통신시에는 GET 방식으로 동작하고 이후부터는 서버에서 유입되는\n      Cookie 의 유무에 따라 Cookie 가 있으면 POST 없으면 GET 방식으로 동작합니다.\n     (addcookietovariable 값이 \"true\"이면 Cookie 가 Environment 의 Cookies 영역에 변수로 자동 추가 되기 때문.)\n\n- 서버로부터 데이터를 Chunked 방식으로 여러번에 걸쳐서 받을 경우 progressload 속성으로 데이터를 로드하는 방식을 설정할 수 있습니다.\n   자세한 내용은 \"Dataset &gt; progressload\" 항목을 참고하시기 바랍니다.\n\n- 트랜잭션을 위한 통신 프로토콜은 HTTP/1.1 입니다.\n\n- 넥사크로 스튜디오를 사용해 넥사크로를 실행했을 때 트랜잭션을 수행하면 CacheLevel 의 설정과 상관없이 \"none\"으로 동작합니다.\n\n- SSV 타입 참고사항\n  &gt; 넥사크로 Web 버전 과 Mobile 버전 연동을 위하여 CSV 포맷을 확장하여 사용합니다.\n  &gt; 확장내역 : RowType 추가, 구분자 변경(콤마 -&gt; US, 줄바꿈(CR/LF) -&gt; RS)\n  &gt; Empty String 과 undefined 의 구분을 위하여 undefined 는 ETX(end of text)[code:0x03] 값으로 대체되어 서버로 전송됩니다. \n\n\n◆ WRE 제약\n \n- nDataTYpe 값이 “Binary”인 경우에는 bAsync 값과 상관없이 비동기(ASync)로 처리합니다.\n\n- bCompress 값은 지원하지 않습니다.\n\n- bAsync 값을 false로 설정하면 Environment의 httptimeout 속성에 설정된 대기시간이 적용되지 않습니다.\n\n \n◆ Mobile 제약\n \n- iOS/iPadOS 는 비동기(Async) 방식만 지원하여 bAsync 값이 적용되지 않습니다."
+      "content": "- Application 과 Form 에 정의된 transaction() 메소드는 기본적인 기능은 동일하지만 DataSet 과 콜백함수를 찾는 영역이 다릅니다.\n  &gt; Application 의 transaction() 메소드는 DataSet 과 콜백함수가 Application 영역에 정의되어 있어야 합니다.\n  &gt; 반면 Form 의 transaction() 메소드는 Form 영역에서 DataSet 과 콜백함수를 우선적으로 검색하지만,\n  &gt; Form 영역에 DataSet 과 콜백함수가 정의되어 있지 않으면 상위 영역으로 검색을 확장시킵니다.\n  &gt; Form 이 Container Component 에 연결되어 있으면 상위 컴포넌트도 검색 영역에 포함됩니다.\n  &gt; Form 영역에서 strInDatasets, strOutDatasets 파라미터 설정 시 \".\"을 포함한 형식을 사용하는 경우에는 상위 영역으로 검색을 확장하지 않습니다.\n\n- 트랜잭션은 기본적으로 비동기 방식으로 동작합니다.\n   예외적으로 strURL 에 로컬 경로를 설정하는 경우에는 bAsync 옵션과 무관하게 동기(Sync) 방식으로 동작합니다.\n\n- strInDatasets 의 추가 옵션\n   strInDatasets 에 각각의 DataSet ID 뒤에 \":U\", \":A\", \":N\" 의 옵션을 붙일 수 있습니다.\n  &gt; \":U\" 는 갱신된 정보만을 보냅니다.\n  &gt; \":A\" 는 모든 정보를 보냅니다.\n  &gt; \":N\" 은 현재 삭제한 데이터를 제외한 정보를 Normal 상태로 보냅니다. 지정하지 않은 DataSet 은 Normal 로 동작합니다.\n\n- strOutDatasets 관련 주의사항\n   strOutDatasets 으로 입력받는 DataSet 은 Datasetid.load() 와 마찬가지로 \n   기존에 가진 열/레코드 대신 수신받은 DataSet 의 열/레코드로 모두 변경됩니다.\n\n- strCallbackFunc 에 관한 주의사항\n   strCallbackFunc 를 \"Transaction_Callback\" 으로 설정할 경우,\n   해당 Form 또는 상위영역에는 this.transaction_Callback = function(strSvcID, nErrorCode, strErrorMag) 이 존재해야 합니다.\n   이 콜백 함수는 위와 같은 형태이며, 콜백 함수의 strSvcID 는 입력된 strSvcID 와 동일합니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 파라미터가 있을 경우 처리되는 사항\n  &gt; 파라미터의 변수명을 Form &gt; Application &gt; Environment 영역 순서로 찾아 처음 일치하는 영역의 변수값만 업데이트합니다.\n     전체 영역에서 일치하는 변수가 없을 경우에는 전달된 파라미터값이 무시됩니다.\n\n- 트랜잭션 수행 후 서버로 부터 전달된 Return XML 의 ErrorCode 파라미터 관련 주의사항\n  &gt; ErrorCode 가 0 미만의 음수이면 트랜잭션이 실패로 처리되고, Input DataSet 의 상태와 바인딩된 컴포넌트는 리드로(redraw) 되지 않습니다.\n     단, Environment 의 datasetloadtype 속성값이 \"errorallow\" 인 경우는 Output DataSet 에 데이터를 로드합니다.\n  &gt; ErrorCode 가 0 이상이면 트랜잭션이 성공으로 처리되고, Input DataSet 의 상태는 \"Normal\" 로 변경되며 바인딩된 컴포넌트는 리드로(redraw) 됩니다.\n  &gt; 서버로 부터 전달된 데이터가 없을 경우 (서버에서 HttpPlatformResponse 자체를 실행하지 않음)에는\n     ErrorCode 는 -1 값으로, ErrorMsg 는 \"Stream Data is null!\" 값으로 설정된 후 콜백 함수가 호출됩니다.\n\n- 통신을 강제로 중지시키는 방법\n   트랜잭션 처리 중이라도 ESC 키를 누르면 통신을 강제로 중지시킬 수 있습니다.\n\n- Get/Post 방식관련 참고사항  \n   1. strArgument 와 strInDatasets 이 \"\"이고, Environment 의 Cookies 영역에 변수가 없으면 GET 방식으로 동작합니다.\n   2. strArgument 나 strInDatasets 에 값이 있거나 Environment 의 Cookies 영역에 변수가 있으면 POST로 동작합니다.\n   3. 위 1번의 상태에서 addcookietovariable 값이 \"true\" 이면 서버와의 첫 통신시에는 GET 방식으로 동작하고 이후부터는 서버에서 유입되는\n      Cookie 의 유무에 따라 Cookie 가 있으면 POST 없으면 GET 방식으로 동작합니다.\n     (addcookietovariable 값이 \"true\"이면 Cookie 가 Environment 의 Cookies 영역에 변수로 자동 추가 되기 때문.)\n\n- 서버로부터 데이터를 Chunked 방식으로 여러번에 걸쳐서 받을 경우 progressload 속성으로 데이터를 로드하는 방식을 설정할 수 있습니다.\n   자세한 내용은 \"Dataset &gt; progressload\" 항목을 참고하시기 바랍니다.\n\n- 넥사크로 스튜디오를 사용해 넥사크로를 실행했을 때 트랜잭션을 수행하면 CacheLevel 의 설정과 상관없이 \"none\"으로 동작합니다.\n\n- SSV 타입 참고사항\n  &gt; 넥사크로 Web 버전 과 Mobile 버전 연동을 위하여 CSV 포맷을 확장하여 사용합니다.\n  &gt; 확장내역 : RowType 추가, 구분자 변경(콤마 -&gt; US, 줄바꿈(CR/LF) -&gt; RS)\n  &gt; Empty String 과 undefined 의 구분을 위하여 undefined 는 ETX(end of text)[code:0x03] 값으로 대체되어 서버로 전송됩니다. \n\n\n◆ WRE 제약\n \n- nDataTYpe 값이 “Binary”인 경우에는 bAsync 값과 상관없이 비동기(ASync)로 처리합니다.\n\n- bCompress 값은 지원하지 않습니다.\n\n- bAsync 값을 false로 설정하면 Environment의 httptimeout 속성에 설정된 대기시간이 적용되지 않습니다.\n\n \n◆ Mobile 제약\n \n- iOS/iPadOS 는 비동기(Async) 방식만 지원하여 bAsync 값이 적용되지 않습니다."
     },
     {
       "id": "m_11_transaction",
@@ -8003,7 +8003,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.24778733984809287",
+      "id": "u_10_0.37229763893711976",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LayoutChangeEventInfo\">LayoutChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8017,7 +8017,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7059803517358262",
+      "id": "u_10_0.4742952771987953",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 Form 의 Layout 이 변경됩니다.\n이벤트에서 리턴값으로 false 를 반환하면 Form 의 Layout 이 변경되지 않습니다.\n\n이벤트에서 리턴값을 생략하면 true 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8079,7 +8079,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6414934731817094",
+      "id": "u_10_0.10845827591587509",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#StepChangeEventInfo\">StepChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8093,7 +8093,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.41878760213932775",
+      "id": "u_10_0.16769270931924607",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 \"true\"를 반환하면 표시되는 화면이 변경됩니다.\n이벤트에서 리턴값으로 \"false\"를 반환하면 표시되는 화면이 변경되지 않습니다.\n\n이벤트에서 리턴값을 생략하면 \"true\"로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8155,7 +8155,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8073366975167617",
+      "id": "u_10_0.6346454746865025",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ActivateEventInfo\">ActivateEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8217,7 +8217,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7714896152391615",
+      "id": "u_10_0.052194524535468356",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#CloseEventInfo\">CloseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8231,7 +8231,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7065983135759923",
+      "id": "u_10_0.2987830447518539",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>이벤트에서 리턴값으로 문자열 설정 시 Form 종료를 위한 확인창이 표시됩니다.\n이벤트에서 리턴값으로 설정한 문자열이 종료를 위한 확인창에 사용됩니다.\n\n이벤트에서 리턴값을 생략하거나 null, undefined, \"\"(Empty String) 으로 설정 시 확인창이 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8293,7 +8293,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.35357751675689186",
+      "id": "u_10_0.8709984057708351",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#BindingValueChangedEventInfo\">BindingValueChangedEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8365,7 +8365,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8696289589689815",
+      "id": "u_10_0.5957604276838813",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ClickEventInfo\">ClickEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8427,7 +8427,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8670275879818058",
+      "id": "u_10_0.955258461824371",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#CloseEventInfo\">CloseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8489,7 +8489,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.055124518849240745",
+      "id": "u_10_0.5246861915357713",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContextMenuEventInfo\">ContextMenuEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8551,7 +8551,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1409342384796124",
+      "id": "u_10_0.8599713652218608",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ActivateEventInfo\">ActivateEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8613,7 +8613,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6007853952933213",
+      "id": "u_10_0.5940429185914822",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DeviceButtonEventInfo\">DeviceButtonEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8627,7 +8627,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2649795145268111",
+      "id": "u_10_0.17753403892922803",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\nfalse 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n반환값을 생략하면 false로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8689,7 +8689,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13223927986941253",
+      "id": "u_10_0.27468623799931635",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8703,7 +8703,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8791786898479823",
+      "id": "u_10_0.02386961934857068",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 드래그 상태가 되고 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 드래그 상태가 취소되고 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8765,7 +8765,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3907424099475246",
+      "id": "u_10_0.5607425931181624",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8779,7 +8779,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.31475733609225076",
+      "id": "u_10_0.040230388943472195",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8841,7 +8841,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9115744924677941",
+      "id": "u_10_0.9982956944260015",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8855,7 +8855,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.621926493013489",
+      "id": "u_10_0.49435583286664353",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8917,7 +8917,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.66438648234043",
+      "id": "u_10_0.506489527848067",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8931,7 +8931,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.41351451103189285",
+      "id": "u_10_0.11387530033994997",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8993,7 +8993,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13411764025796713",
+      "id": "u_10_0.8771062767849733",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9007,7 +9007,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4200390270930251",
+      "id": "u_10_0.8506745337617739",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9069,7 +9069,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22965261876658893",
+      "id": "u_10_0.6317106298252717",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ErrorEventInfo\">ErrorEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9083,7 +9083,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.16534203162261063",
+      "id": "u_10_0.322706361604975",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파하지 않습니다.\n  &gt; 실행중인 Transaction 을 중지시키지 않고 유지합니다.\n\n이벤트에서 리턴값으로 false 를 반환하면\n  &gt; Environment 의 onerror 로 이벤트를 전파합니다.\n  &gt; 실행중인 Transaction 의 중지여부는 Environment 의 onerror 에서 리턴값으로 결정됩니다.\n  &gt; Environment 에 onerror 이벤트가 정의되어 있지 않으면 실행중인 Transaction 은 중지됩니다.\n\n이벤트의 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9145,7 +9145,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4711018202836338",
+      "id": "u_10_0.658486585394598",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExtendedCommandEventInfo\">ExtendedCommandEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9207,7 +9207,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30114300579163245",
+      "id": "u_10_0.7517267364068774",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ScrollEventInfo\">ScrollEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9259,7 +9259,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07076647548919068",
+      "id": "u_10_0.05356893552365538",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\">EventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9321,7 +9321,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7993526727864345",
+      "id": "u_10_0.8376941297039727",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9335,7 +9335,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.40650579589106495",
+      "id": "u_10_0.7988295714844534",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9427,7 +9427,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.21809698803144484",
+      "id": "u_10_0.5657308724816192",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9441,7 +9441,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4852966612948626",
+      "id": "u_10_0.950856610995492",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9503,7 +9503,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.17854378054144682",
+      "id": "u_10_0.11809174698970482",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KillFocusEventInfo\">KillFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9565,7 +9565,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22153403829280016",
+      "id": "u_10_0.40446478364737404",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LayoutChangeEventInfo\">LayoutChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9637,7 +9637,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11169634525993877",
+      "id": "u_10_0.38020865913100754",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9651,7 +9651,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.189727673743456",
+      "id": "u_10_0.19595247105640146",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9733,7 +9733,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13527678097245288",
+      "id": "u_10_0.10758281781756951",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9747,7 +9747,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.40979090896603376",
+      "id": "u_10_0.40278387401162874",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9809,7 +9809,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.018029557818764808",
+      "id": "u_10_0.5503574834159416",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#LoadEventInfo\">LoadEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9871,7 +9871,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8227603962427604",
+      "id": "u_10_0.8460457318583728",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9885,7 +9885,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.15827073236376332",
+      "id": "u_10_0.02259000890767915",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9947,7 +9947,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.48251267069325643",
+      "id": "u_10_0.7039701612319967",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9961,7 +9961,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.580090243272696",
+      "id": "u_10_0.9619848984696909",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10023,7 +10023,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5023213358643357",
+      "id": "u_10_0.6965863690289054",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10037,7 +10037,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.29794291377314763",
+      "id": "u_10_0.1296639998182385",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10099,7 +10099,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5019682387026428",
+      "id": "u_10_0.9596256313570313",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseWheelEventInfo\">MouseWheelEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10113,7 +10113,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8345415559774289",
+      "id": "u_10_0.8549630304633611",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 휠버튼 회전값이 무시되고, 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 휠버튼 회전값이 처리되고, 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10185,7 +10185,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4928519946392581",
+      "id": "u_10_0.600115197358367",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\">MoveEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10237,7 +10237,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.45203774042569334",
+      "id": "u_10_0.23665320141098123",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#OrientationChangeEventInfo\">OrientationChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10299,7 +10299,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.15407123937377554",
+      "id": "u_10_0.0012050680290391913",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10313,7 +10313,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.13077916126781985",
+      "id": "u_10_0.6714066913271958",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10385,7 +10385,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7052166272472914",
+      "id": "u_10_0.28146538687087874",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10399,7 +10399,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6145890026449581",
+      "id": "u_10_0.8930346811731619",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10471,7 +10471,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9079799118702192",
+      "id": "u_10_0.11707990232696797",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SetFocusEventInfo\">SetFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10533,7 +10533,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7591146796033877",
+      "id": "u_10_0.10063019425904973",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\">SizeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10585,7 +10585,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3504953044873784",
+      "id": "u_10_0.07194108987138215",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#StepChangeEventInfo\">StepChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10647,7 +10647,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.38324615068224144",
+      "id": "u_10_0.06345500971469742",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TimerEventInfo\">TimerEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10719,7 +10719,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8730541509371423",
+      "id": "u_10_0.5204221475927526",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10733,7 +10733,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.343929355822303",
+      "id": "u_10_0.7488641896753321",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10795,7 +10795,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1791594215805986",
+      "id": "u_10_0.49767303694957676",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10809,7 +10809,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7419105721847143",
+      "id": "u_10_0.30783006104184174",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10871,7 +10871,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.33731513853002415",
+      "id": "u_10_0.12246257427842178",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10885,7 +10885,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3734879754807565",
+      "id": "u_10_0.09822238055660959",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10957,7 +10957,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8782117874485665",
+      "id": "u_10_0.8231676469282938",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Form</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ScrollEventInfo\">ScrollEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
