@@ -30,12 +30,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.060629379234861336",
+      "id": "u_09_0.187514837990175",
       "type": "command",
       "content": "Tray.init(strID, icon, tooltip);"
     },
     {
-      "id": "u_10_0.4787124446131631",
+      "id": "u_10_0.5541856347812286",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td><div>동적 생성된 Tray 의 ID 를 설정합니다.</div></td></tr><tr><td>icon</td><td>String</td><td><div>Tray 에서 사용할 Icon 을 설정합니다.</div></td></tr><tr><td>tooltip</td><td>String</td><td><div>Tray 의 풍선도움말에 표시될 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\n\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
       "option": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "u_10_0.7771485741274518",
+      "id": "u_10_0.4308468205571371",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Get Appication\nvar objApp = nexacro.getApplication();\n\n// Create Object\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\n// Init Object\t\nobjTray.init(\"Tray00\", \"information\", \"Tray ToolTip\");\n\n//Add Object to Application\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\n\n// Show Object\nobjApp.trays[\"Tray00\"].show();\n\n// Remove Object from Application\nobjApp.removeTray(\"Tray00\"); \n \n// Destroy Object \nobjTray.destroy(); \nobjTray = null;</div></td></tr></tbody></table>",
       "option": {
@@ -114,7 +114,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.708773873630565",
+      "id": "u_10_0.06575867404471747",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strIcon ::= &lt;systemIcon&gt; | &lt;urlIcon&gt;</div></td></tr><tr><th>&lt;systemIcon&gt;</th><td colspan=\"2\"><div>시스템에 정의된 아이콘의 이름을 설정합니다.\n\n사용가능한 아이콘은 \"question\", \"information\", \"error\", \"warning\", \"winlogo\", \"application\" 입니다.</div></td></tr><tr><th>urlIcon</th><td colspan=\"2\"><div>확장자가 \"*.ico\" 인 아이콘 파일을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -189,7 +189,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19850492354563187",
+      "id": "u_10_0.02407106427058392",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication() ;\nvar objItem0 = objApp.trays[0].items[0] ;</div></td></tr></tbody></table>",
       "option": {
@@ -264,7 +264,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.40384314728993487",
+      "id": "u_10_0.3430909477306693",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>Tray 의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -339,7 +339,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14916847268905675",
+      "id": "u_10_0.5725649999083665",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objApp = nexacro.getApplication();\nobjApp.trays[\"Tray0\"].tooltip = \"Tray ToolTip\";</div></td></tr><tr><th>strTooltip</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n\"null\"값 설정 시 풍선도움말이 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -405,9 +405,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7282979771698026",
+      "id": "u_10_0.22253580131602346",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에 추가될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objPopupMenu</td><td>Object</td><td colspan=\"2\"><div>Tray 의 items 속성에 추가할 TrayPopupMenu 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objTrayMenu = new TrayPopupMenu();\n...    // TrayPopupMenu 설정\nvar objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].additem(\"item00\", objTrayMenu);</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에 추가될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objPopupMenu</td><td>Object</td><td colspan=\"2\"><div>Tray 의 items 속성에 추가할 TrayPopupMenu 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objTrayMenu = new TrayPopupMenu();\n...    // TrayPopupMenu 설정\nvar objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].addItem(\"item00\", objTrayMenu);</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -419,7 +419,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.06008173175908926",
+      "id": "u_10_0.8450268449633273",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 추가된 TrayPopupMenu 오브젝트의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -480,9 +480,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.25936303942286343",
+      "id": "u_10_0.989009584773265",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에서 삭제될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].deleteitem(\"popupmenu00\");</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Tray 의 Items 속성에서 삭제될 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].deleteItem(\"popupmenu00\");</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -494,7 +494,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.037485594818835066",
+      "id": "u_10_0.5663240088024913",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에서 삭제된 TrayPopupMenu 오브젝트의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 삭제에 실패했을 경우 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -545,7 +545,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.1666564335249764",
+      "id": "u_09_0.5517736295606572",
       "type": "command",
       "content": "objTray.destroy();"
     },
@@ -555,7 +555,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5643355956652204",
+      "id": "u_10_0.5564964279382572",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Tray 가 정상적으로 삭제되면 \"true\"를 반환합니다.\nTray 가 정상적으로 삭제되지 않으면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -616,7 +616,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8717747000202574",
+      "id": "u_10_0.9571074176282378",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>items 속성에 등록된 TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nobjApp.trays[\"Tray0\"].findItem(\"item00\");</div></td></tr></tbody></table>",
       "option": {
@@ -630,7 +630,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9164299120513991",
+      "id": "u_10_0.5952352427406292",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 등록된 strID 의 인덱스를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -681,7 +681,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8560307408699114",
+      "id": "u_09_0.8152644494192077",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;\nvar nItemCnt = objApp.trays[\"Tray0\"].getItemCount();"
     },
@@ -691,7 +691,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05168523455476359",
+      "id": "u_10_0.08707751379842643",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>items 속성에 등록된 TrayPopupMenu 오브젝트의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -789,7 +789,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3446360916585234",
+      "id": "u_10_0.33786687025237083",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>동적 생성된 Tray 의 ID 를 설정합니다.</div></td></tr><tr><td>icon</td><td>String</td><td colspan=\"2\"><div>Tray 에서 사용할 Icon 을 설정합니다.</div></td></tr><tr><td>tooltip</td><td>String</td><td colspan=\"2\"><div>Tray 의 풍선도움말에 표시될 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\n\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\nobjTray.show();</div></td></tr></tbody></table>",
       "option": {
@@ -850,7 +850,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2768492733968767",
+      "id": "u_10_0.36100158943873173",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>TrayPopupMenu 오브젝트가 추가될 위치의 인덱스를 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>TrayPopupMenu 오브젝트의 ID 를 설정합니다.</div></td></tr><tr><td>objPopupMenu</td><td>Object</td><td colspan=\"2\"><div>추가될 TrayPopupMenu 오브젝트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\nvar objTrayMenu = new TrayPopupMenu();\n...    // TrayPopupMenu 설정\nvar nIndex = objApp.trays[\"Tray0\"].insertItem(1, \"item00\", objTrayMenu );</div></td></tr></tbody></table>",
       "option": {
@@ -864,7 +864,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.20653255991418884",
+      "id": "u_10_0.8473126457532419",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>TrayPopupMenu 오브젝트가 추가된 위치의 인덱스를 반환합니다.\n\nTrayPopupMenu 오브젝트 추가에 실패했을 경우 \"-1\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -925,7 +925,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4183038269262943",
+      "id": "u_09_0.6112180898499123",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;\nvar objTray = new nexacro.Tray(\"Tray00\", objApp);\n\nobjTray.init(\"Tray00\", \"information\", \"Tray Tooltip\");\nvar nIndex = objApp.addTray(\"Tray00\", objTray);\n\nobjApp.trays[\"Tray00\"].show();"
     },
@@ -982,7 +982,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.667454465013785",
+      "id": "u_10_0.751219828566303",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strTitleIcon</td><td>String</td><td colspan=\"2\"><div>풍선팁의 타이틀 왼편에 나타나는 아이콘의 이름 및 경로를 설정합니다.\n\n아이콘으로 사용 가능한 시스템 아이콘은 \"information\", \"warning\", \"error\", \"none\" 입니다.</div></td></tr><tr><td>strTitle</td><td>String</td><td colspan=\"2\"><div>풍선팁에 나타나는 제목을 설정합니다.\n48자 미만으로 설정할 수 있습니다.</div></td></tr><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>풍선팁에 표시할 텍스트를 설정합니다.\n200자 미만으로 설정할 수 있습니다.</div></td></tr><tr><td>bNoSound</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 풍선팁이 나타날 때 소리가 나오지 않습니다.\nfalse 설정 시 풍선팁이 나타날 때 소리가 나옵니다.\n\n값 생략 시 false로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objApp = nexacro.getApplication() ;\n\nobjApp.trays[\"Tray0\"].showBalloonTip(\"information\", \"안내\", \"업데이트가 준비되었습니다.\");\nobjApp.trays[\"Tray0\"].showBalloonTip(\"information\", \"안내\", \"업데이트가 준비되었습니다.\", false);</div></td></tr></tbody></table>",
       "option": {
@@ -1049,7 +1049,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.595531833941342",
+      "id": "u_10_0.5195598802915566",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ClickEventInfo\">ClickEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1111,7 +1111,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2767578377113885",
+      "id": "u_10_0.773512455012012",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TrayBalloonTipHideEventInfo\">TrayBalloonTipHideEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1173,7 +1173,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5376496745507278",
+      "id": "u_10_0.6863186924921921",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\">EventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1225,7 +1225,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3839040968929718",
+      "id": "u_10_0.6277126363011606",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1287,7 +1287,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.626409580371479",
+      "id": "u_10_0.08411080206827781",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -1339,7 +1339,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5979784498541254",
+      "id": "u_10_0.6784621279308826",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Tray</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
