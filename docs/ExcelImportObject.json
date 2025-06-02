@@ -86,7 +86,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10247997654954244",
+      "id": "u_10_0.2850035019361402",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumVersion ::= \"1.0\" | \"2.0\" | \"3.0\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.commandversion = \"2.0\";</div></td></tr><tr><th>\"1.0\"</th><td colspan=\"2\"><div>인코딩 처리를 하지 않습니다.</div></td></tr><tr><th>\"2.0\"</th><td colspan=\"2\"><div>Base32로 인코딩합니다.</div></td></tr><tr><th>\"3.0\"</th><td colspan=\"2\"><div>Base64로 인코딩합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -151,7 +151,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.13260310336248105",
+      "id": "u_10_0.6581501714702165",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumFormat ::= 'xml' | 'ssv' | 'json'</div></td></tr><tr><th>\"xml\"</th><td colspan=\"2\"><div>XML 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"ssv\"</th><td colspan=\"2\"><div>SSV 형식으로 데이터를 전송합니다.</div></td></tr><tr><th>\"json\"</th><td colspan=\"2\"><div>JSON 형식으로 데이터를 전송합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -216,7 +216,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9065004328598486",
+      "id": "u_10_0.4979985914719245",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImport00.filefilter = \"All(*.*)|*.*|Text Files(*.txt)|*.txt|\";\nthis.ExcelImport00.filefilter = \"Excel Files(*.xlsx)|*.xls;*.xlsx|Word Files(*.docx)|*.doc;*.docx|ALL Files(*.*)|*.*|\";</div></td></tr><tr><th>strFileFilter</th><td colspan=\"2\"><div>파일선택창에 적용될 파일형식을 \"설명|확장자\" 형식으로 설정합니다.\n\n\"|\" 문자를 구분자로 하여 설명과 실제 확장자를 쌍으로 여러개의 파일형식을 설정할 수 있습니다.\n한 개의 파일형식내에서 복수개의 확장자를 지정할 때는 \"*.xlsx;*.xls\" 와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -291,7 +291,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7776068542401654",
+      "id": "u_10_0.8285070324481336",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.filefilterindex = 1;</div></td></tr><tr><th>nIndex</th><td colspan=\"2\"><div>파일선택창에 설정된 파일형식 중 기본으로 표시될 파일형식의 인덱스를 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -356,7 +356,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8355597556430789",
+      "id": "u_10_0.35696537010111695",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumMode ::= 'server' | 'local'</div></td></tr><tr><th>\"server\"</th><td colspan=\"2\"><div>서버에 위치한 파일을 Import 하며 Import 후에도 해당 파일을 삭제하지 않습니다.\n서버에 해당 파일이 없는 경우나 Local이나 Network File을 지정하는 경우, Import 가 처리되지 않고 결과를 수신받습니다.</div></td></tr><tr><th>\"local\"</th><td colspan=\"2\"><div>파일 대화 상자(File Dialog)를 표시해 로컬에 위치한 파일을 선택합니다.\n로컬에 위치한 파일을 서버로 전송해 Import 처리하며 Import 처리 후에 서버에 생성된 파일은 삭제됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -421,7 +421,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6350697900065025",
+      "id": "u_10_0.3277662985742027",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.importtype = nexacro.ImportTypes.EXCEL2007;\nthis.ExcelImportObject00.importtype = 1040;</div></td></tr><tr><th>constImportTypes</th><td colspan=\"2\"><div>Import 할 파일의 형식을 상수값으로 설정합니다.\n\n256 (0x0100) 또는 nexacro.ImportTypes.EXCEL 설정 시 엑셀 97 형식으로 Import 합니다.\n272 (0x0110) 또는 nexacro.ImportTypes.EXCEL97 설정 시 엑셀 97~2003 형식으로 Import 합니다.\n288 (0x0120) 또는 nexacro.ImportTypes.EXCEL2007 설정 시 엑셀 2007 XML 형식으로 Import 합니다.\n1040 (0x0410) 또는 nexacro.ImportTypes.HANCELL2014 설정 시 한셀 2014 형식으로 Import 합니다.\n1280 (0x0500) 또는 nexacro.ImportTypes.CSV 설정 시 CSV 형식으로 Import 합니다.\n1296 (0x0510) 또는 nexacro.ImportTypes.TXT 설정 시 TXT 형식으로 Import 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -506,7 +506,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.15581770297535602",
+      "id": "u_10_0.97044964164888",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strImporturl ::= &lt;absolute-url&gt; | &lt;relative-url&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.importurl = \"https://localhost:8080/nexacro-xeni/XImport\";</div></td></tr><tr><th>&lt;absolute-url&gt;</th><td colspan=\"2\"><div>Import 를 수행할 서버의 URL 을 문자열로 설정합니다.\n웹에 접근 가능한 환경이어야 하고, Cross Domain 상황이면 사용에 제한이 있습니다.</div></td></tr><tr><th>&lt;relative-url&gt;</th><td colspan=\"2\"><div>현재 Form 위치를 기준으로 한 상대경로를 사용하여 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -591,7 +591,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5717730546807156",
+      "id": "u_10_0.6579118967085871",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -666,7 +666,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8705271171987194",
+      "id": "u_10_0.49822778724900607",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.quotechar = \"'\";</div></td></tr><tr><th>strQuotechar</th><td colspan=\"2\"><div>구분자로 분리되는 항목 중 분리하지 않을 부분을 처리하기 위한 텍스트 한정자를 설정합니다.\n\" (quotation mark), ' (apostrophe), \"none\", \"default\" 값을 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -741,7 +741,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.83700290004004",
+      "id": "u_10_0.3448164381443327",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.separator = \"0x1E\";</div></td></tr><tr><th>strSeparator</th><td colspan=\"2\"><div>컬럼을 구분을 문자를 설정합니다.\n10진수 또는 16진수로 설정할 수 있습니다.\n(16진수인 경우에는 0xXX, 0XXX의 형태로 입력해야 합니다).\n\n0x00(0) ~ 0x7F(127) 범위의 ASCII 문자를 하나만 설정할 수 있습니다.\n단, 아래 문자는 설정할 수 없습니다.\n\n0x0A(10) - LF(Line Feed)\n0x0D(13) - CR(Carriage Return)\n0x22(34) - \" (quotation mark)\n0x27(39) - ' (apostrophe)\n0x00(00) - NUL (Null char.)\n0x03(03) - ETX (End of Text)\n0x1D(29) - GS (Group Separator)\n0x28(40) - ( (left opening parenthesis)\n0x29(41) - ) (right closing parenthesis)\n0x3A(58) - : (colon)\n0x3D(61) - = (equal sign)</div></td></tr></tbody></table>",
       "option": {
@@ -806,7 +806,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.80994354004695",
+      "id": "u_10_0.8256458126886586",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRawDate ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.userawdatevalue = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>엑셀의 셀에 설정된 원본 데이터값만 Import 합니다.\n\n셀의 표시형식에 따른 서식은 Import 하지 않습니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>엑셀의 셀에 표시된 값을 Import 합니다.\n\n셀의 표시형식에 따른 서식을 반영하여 Import 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -822,7 +822,7 @@
     {
       "id": "p_12_userawdatevalue",
       "type": "pre",
-      "content": "- userawnumbervalue 속성을 설정하지 않으면 false 로 적용됩니다.\n\n- userawnumbervalue 속성은 엑셀의 셀 표시형식이 \"날짜\", \"시간\" 형식인 경우에 적용되는 속성입니다."
+      "content": "- userawdatevalue 속성을 설정하지 않으면 false 로 적용됩니다.\n\n- userawdatevalue 속성은 엑셀의 셀 표시형식이 \"날짜\", \"시간\" 형식인 경우에 적용되는 속성입니다."
     },
     {
       "id": "p_01_userawnumbervalue",
@@ -871,7 +871,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8080493577118179",
+      "id": "u_10_0.5978826959883745",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRawNum ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.ExcelImportObject00.userawnumbervalue = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>엑셀의 셀에 설정된 원본 데이터값만 Import 합니다.\n\n셀의 표시형식에 따른 서식은 Import 하지 않습니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>엑셀의 셀에 표시된 값을 Import 합니다.\n\n셀의 표시형식에 따른 서식을 반영하여 Import 합니다.\n셀의 표시형식이 \"통화\", \"회계\" 이면 통화기호, 회계기호를 포함하여 Import 합니다.\n셀의 표시형식이 \"백분율\" 이면 \"%\" 기호를 포함하지 않고 Import 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -937,7 +937,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.43446790055282336",
+      "id": "u_10_0.10118047116316131",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelImportObject 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelImportObject00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -951,7 +951,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.022406333064147188",
+      "id": "u_10_0.4562534706891689",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1012,7 +1012,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6647222315975923",
+      "id": "u_10_0.5590202258383175",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.addEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1026,7 +1026,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.36255944357790837",
+      "id": "u_10_0.333504893825995",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1087,7 +1087,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.95413914517228",
+      "id": "u_10_0.3033790365661738",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.addEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1101,7 +1101,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4486908425252204",
+      "id": "u_10_0.7819561820227601",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1162,7 +1162,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6383271831146075",
+      "id": "u_10_0.10856499028486366",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.ExcelImportObject00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1176,7 +1176,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.028869608071957598",
+      "id": "u_10_0.597371083465127",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1237,7 +1237,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6847192064668305",
+      "id": "u_10_0.6767283731543937",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>ExcelImportObject 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nExcelImportObject 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1298,7 +1298,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8819960619643357",
+      "id": "u_10_0.16312399069912908",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.ExcelImportObject00.findEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -1312,7 +1312,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.397250309900385",
+      "id": "u_10_0.4345285512551573",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1373,7 +1373,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7150710517948863",
+      "id": "u_10_0.4346959304891118",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = ExcelImportObject00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -1387,7 +1387,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.963934029898349",
+      "id": "u_10_0.4102944362702947",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1438,7 +1438,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6568063735539582",
+      "id": "u_10_0.3434823637070775",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strSource</td><td>String</td><td colspan=\"2\"><div>Import 할 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\nimportfilemode 속성값이 \"server\" 일 경우 \"http://\", \"https://\" 형식으로 파일의 위치를 설정합니다.\nimportfilemode 속성값이 \"server\" 일 때 상대경로를 설정 시 importurl 속성에 설정된 경로를 기준으로 처리됩니다.\nimportfilemode 속성값이 \"local\" 이거나 strSource 값을 설정하지 않았을 경우 FileDialog 가 표시되고 파일을 선택합니다.</div></td></tr><tr><td>strRange</td><td>String</td><td colspan=\"2\"><div>strSource 에 설정한 파일에서 DataSet 으로 Import 할 영역을 \"시트명!셀영역:셀영역\" 또는 Import 할 파일의 형식이 CSV, TXT 인 경우에 \"시작영역:끝영역\" 형식으로 설정합니다.\n\n여러 영역을 지정해야 할 경우 아래 형식으로 반복 설정합니다.\n\nstrRange ::= '[Command=&lt;strCommand&gt;; Output=&lt;dsName&gt;; Head=&lt;strArea&gt;; Body=&lt;strArea&gt;]'\n\n&lt;strCommand&gt; ::= 'getsheetlist' | 'getsheetdata'\n  \"getsheetlist\" 설정 시 strSource 에 설정한 파일에서 시트목록을 Import 합니다.\n  \"getsheetdata\" 설정 시  strSource 에 설정한 파일에서 &lt;strArea&gt; 의 데이터를 Import 합니다.\n  값을 생략 할 경우 \"getsheetdata\"로 적용됩니다.\n\n&lt;dsName&gt; \n  Import 한 데이터를 갖는 변수명입니다.\n  strOutDatasets 에서 오른쪽 대입변수로 사용됩니다.\n  값을 생략 할 경우 \"output1\", \"output2\" ... 로 자동설정됩니다.\n\n&lt;strArea&gt; ::= '시트명!셀영역:셀영역'\n  Import 할 데이터 영역을 설정합니다.\n  \"Head\" 항목에 정의된 영역은 Import 시 DataSet 의 Column 명으로 사용됩니다.\n  \"Head\" 항목 생략 시 \"Column0\", \"Column1\" ... 으로 자동설정됩니다.\n  \"Body\" 항목에 정의된 영역은 DataSet 의 Row 데이터로 Import 됩니다.\n  \"Body\" 항목 생략 시 모든 레코드가 Import 됩니다.\n  * 시트명을 생략하면 첫 번째 시트가 작업 대상이 됩니다.\n  * 첫 번째 시트가 아닌 다른 시트를 지정하는 경우에는 \"Head\", \"Body\" 모두 설정해주어야 합니다.\n    아래와 같이 설정한 경우에는 Head는 첫 번째 시트에서 처리되고 Body만 지정한 시트에서 처리됩니다.\n    Body에서 설정한 셀영역이 Head에 없는 경우에는 에러가 발생할 수 있습니다.\n    [Command=getData;Output=output2;Body=Sheet2!A1;]\n\n* Import 할 파일의 형식이 CSV, TXT 인 경우에는 아래와 같이 적용합니다.\n\n&lt;strCommand&gt; 지원하지 않습니다.\n&lt;strArea&gt; ::= StartCol[,StartRow[:EndCol[,EndRow]]]\n  \"Head\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=0\n  \"Head\" 항목에서 EndRow 설정값은 무시하고 StartRow 설정값 기준으로 동작합니다.\n  \"Body\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=RowCount-1</div></td></tr><tr><td>strOutDatasets </td><td>String</td><td colspan=\"2\"><div>Import 한 데이터를 저장할 DataSet 의 ID 를 \"DataSet명=변수명\" 의 형식으로 설정합니다.\n\nDataSet 을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n우측의 \"변수명\" 은 strRange 에 설정한 변수명을 설정하거나 \"output1\" ... 으로 자동생성된 변수명을 설정합니다.</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>Import 시 필요한 정보를 \"변수명=변수값\" 형태로 설정합니다.\n\n파라미터쌍을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n비밀번호가 설정된 엑셀파일을 Import 할 경우 \"filepassword=엑셀파일비밀번호\" 를 입력해야 정상동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00.importData(\"http://localhost:8080/xeni/XImport/my.xlsx\",\"Sheet00!D15:E28\",\"Dataset03=output1\");\nthis.ExcelImportObject00.importData(\"\",\"Sheet00!D15:E28\",\"Dataset03=output1\",\"filepassword=strpassword\");\nthis.ExcelImportObject00.importData(\"\", \"[Command=getsheetlist;Output=sheetlist][Command=getsheetdata;Output=output1;Head=!A1:K1;Body=!A2:K15][Output=output2; Body=Sheet1!B7:Z207]\", \"ds_list=sheetlist, ds_Data1=output1, ds_Data2=output2\");</div></td></tr></tbody></table>",
       "option": {
@@ -1509,7 +1509,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.27964774909123835",
+      "id": "u_10_0.9342488695849783",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strImportID</td><td>String</td><td colspan=\"2\"><div>Import 를 구분하기 위한 ID 를 문자열로 설정합니다.\n\n설정값은 onsuccess 이벤트에서 ExcelImportEventInfo 오브젝트의 importid 속성으로 전달됩니다.</div></td></tr><tr><td>strSource</td><td>String</td><td colspan=\"2\"><div>Import 할 파일의 위치를 URL 형식의 문자열로 설정합니다.\n\nimportfilemode 속성값이 \"server\" 일 경우 \"http://\", \"https://\" 형식으로 파일의 위치를 설정합니다.\nimportfilemode 속성값이 \"server\" 일 때 상대경로를 설정 시 importurl 속성에 설정된 경로를 기준으로 처리됩니다.\nimportfilemode 속성값이 \"local\" 이거나 strSource 값을 설정하지 않았을 경우 FileDialog 가 표시되고 파일을 선택합니다.</div></td></tr><tr><td>strRange</td><td>String</td><td colspan=\"2\"><div>strSource 에 설정한 파일에서 DataSet 으로 Import 할 영역을 \"시트명!셀영역:셀영역\" 또는 Import 할 파일의 형식이 CSV, TXT 인 경우에 \"시작영역:끝영역\" 형식으로 설정합니다.\n\n여러 영역을 지정해야 할 경우 아래 형식으로 반복 설정합니다.\n\nstrRange ::= '[Command=&lt;strCommand&gt;; Output=&lt;dsName&gt;; Head=&lt;strArea&gt;; Body=&lt;strArea&gt;]'\n\n&lt;strCommand&gt; ::= 'getsheetlist' | 'getsheetdata'\n  \"getsheetlist\" 설정 시 strSource 에 설정한 파일에서 시트목록을 Import 합니다.\n  \"getsheetdata\" 설정 시  strSource 에 설정한 파일에서 &lt;strArea&gt; 의 데이터를 Import 합니다.\n  값을 생략 할 경우 \"getsheetdata\"로 적용됩니다.\n\n&lt;dsName&gt; \n  Import 한 데이터를 갖는 변수명입니다.\n  strOutDatasets 에서 오른쪽 대입변수로 사용됩니다.\n  값을 생략 할 경우 \"output1\", \"output2\" ... 로 자동설정됩니다.\n\n&lt;strArea&gt; ::= '시트명!셀영역:셀영역'\n  Import 할 데이터 영역을 설정합니다.\n  \"Head\" 항목에 정의된 영역은 Import 시 DataSet 의 Column 명으로 사용됩니다.\n  \"Head\" 항목 생략 시 \"Column0\", \"Column1\" ... 으로 자동설정됩니다.\n  \"Body\" 항목에 정의된 영역은 DataSet 의 Row 데이터로 Import 됩니다.\n  \"Body\" 항목 생략 시 모든 레코드가 Import 됩니다.\n  * 시트명을 생략하면 첫 번째 시트가 작업 대상이 됩니다.\n  * 첫 번째 시트가 아닌 다른 시트를 지정하는 경우에는 \"Head\", \"Body\" 모두 설정해주어야 합니다.\n    아래와 같이 설정한 경우에는 Head는 첫 번째 시트에서 처리되고 Body만 지정한 시트에서 처리됩니다.\n    Body에서 설정한 셀영역이 Head에 없는 경우에는 에러가 발생할 수 있습니다.\n    [Command=getData;Output=output2;Body=Sheet2!A1;]\n\n* Import 할 파일의 형식이 CSV, TXT 인 경우에는 아래와 같이 적용합니다.\n\n&lt;strCommand&gt; 지원하지 않습니다.\n&lt;strArea&gt; ::= StartCol[,StartRow[:EndCol[,EndRow]]]\n  \"Head\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=0\n  \"Head\" 항목에서 EndRow 설정값은 무시하고 StartRow 설정값 기준으로 동작합니다.\n  \"Body\" 항목에서 StartRow, EndCol, EndRow를 생략하면 아래와 같이 처리합니다.\n  - StartRow=0, EndCol=ColumnCount-1, EndRow=RowCount-1</div></td></tr><tr><td>strOutDatasets </td><td>String</td><td colspan=\"2\"><div>Import 한 데이터를 저장할 DataSet 의 ID 를 \"DataSet명=변수명\" 의 형식으로 설정합니다.\n\nDataSet 을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n우측의 \"변수명\" 은 strRange 에 설정한 변수명을 설정하거나 \"output1\" ... 으로 자동생성된 변수명을 설정합니다.</div></td></tr><tr><td>strArgument</td><td>String</td><td colspan=\"2\"><div>Import 시 필요한 정보를 \"변수명=변수값\" 형태로 설정합니다.\n\n파라미터쌍을 1개 이상 설정할 수 있으며 공백으로 구분합니다.\n비밀번호가 설정된 엑셀파일을 Import 할 경우 \"filepassword=엑셀파일비밀번호\" 를 입력해야 정상동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00.importDataEx(\"Import00\", \"http://localhost:8080/xeni/XImport/my.xlsx\",\"Sheet00!D15:E28\",\"Dataset03=output1\");\nthis.ExcelImportObject00.importDataEx(\"Import01\", \"\",\"Sheet00!D15:E28\",\"Dataset03=output1\",\"filepassword=strpassword\");\nthis.ExcelImportObject00.importDataEx(\"Import02\", \"\", \"[Command=getsheetlist;Output=sheetlist][Command=getsheetdata;Output=output1;Head=!A1:K1;Body=!A2:K15][Output=output2; Body=Sheet1!B7:Z207]\", \"ds_list=sheetlist, ds_Data1=output1, ds_Data2=output2\");</div></td></tr></tbody></table>",
       "option": {
@@ -1570,7 +1570,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5293301196663415",
+      "id": "u_10_0.7837819294652096",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.ExcelImportObject00.insertEventHandler( \"onmove\", 0, this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1584,7 +1584,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4894484477031117",
+      "id": "u_10_0.08944154020028161",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1645,7 +1645,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07039186668181552",
+      "id": "u_10_0.7096734537448834",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>ExcelImportObject 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.ExcelImportObject00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -1659,7 +1659,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9014032788655691",
+      "id": "u_10_0.2202267437751264",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1720,7 +1720,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4047450913898949",
+      "id": "u_10_0.1318925524139154",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.removeEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1734,7 +1734,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8745296628780989",
+      "id": "u_10_0.1425336759588285",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1795,7 +1795,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7694949209793607",
+      "id": "u_10_0.2988135349526937",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.removeEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1809,7 +1809,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.09961385104600518",
+      "id": "u_10_0.8674684537380909",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1870,7 +1870,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7142183288065748",
+      "id": "u_10_0.24340385186763291",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.setEventHandler( \"onmove\", this.ExcelImportObject00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -1884,7 +1884,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5606813532275996",
+      "id": "u_10_0.4157730493968639",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1945,7 +1945,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.37283619138620383",
+      "id": "u_10_0.9113167705888162",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.ExcelImportObject00_onmove = function( obj:nexacro.ExcelImportObject,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.ExcelImportObject00.setEventHandlerLookup( \"onmove\", \"ExcelImportObject00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -1959,7 +1959,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21373927527549663",
+      "id": "u_10_0.9892507810198614",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2026,7 +2026,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06568350046251248",
+      "id": "u_10_0.5521445549495714",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelImportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExcelImportErrorEventInfo\">ExcelImportErrorEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -2088,7 +2088,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.25136981402931624",
+      "id": "u_10_0.07521472179901945",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>ExcelImportObject</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ExcelImportEventInfo\">ExcelImportEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
