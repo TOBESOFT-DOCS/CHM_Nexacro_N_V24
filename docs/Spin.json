@@ -45,12 +45,12 @@
       "content": "컴포넌트, 내부 컨텐츠 크기"
     },
     {
-      "id": "u_09_0.3899388370592338",
+      "id": "u_09_0.44558719099449473",
       "type": "pre",
       "content": "Spin 컴포넌트와 내부 컨텐츠 크기를 결정하는 기준입니다."
     },
     {
-      "id": "u_10_0.8208367250043467",
+      "id": "u_10_0.39500845382968797",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>Spin Component</div></td></tr><tr><td>Width</td><td><div>Spin 컴포넌트의 width 속성값이 적용됩니다.\n내부 컨텐츠의 Width 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</div></td></tr><tr><td>Height</td><td><div>Spin 컴포넌트의 height 속성값이 적용됩니다.\n내부 컨텐츠의 Height 보다 작을 경우 내부 컨텐츠가 잘려서 표시됩니다.</div></td></tr><tr><td colspan=\"2\"><div>spinedit Control\n\n* type 속성값이 \"spinonly\" 이면 spinedit 컨트롤은 표시되지 않습니다.</div></td></tr><tr><td>Left</td><td><div>buttonposition 속성값이 \"left\" 이면 spinupbutton 컨트롤의 Width 가 적용됩니다.\nbuttonposition 속성값이 \"right\" 이면 0 으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0 으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>Spin 컴포넌트의 Width 에서 spinupbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>Spin 컴포넌트의 Height 가 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>spinupbutton Control</div></td></tr><tr><td>Left</td><td><div>buttonposition 속성값이 \"left\" 이면 0 으로 적용됩니다.\nbuttonposition 속성값이 \"right\" 이면 Spin 컴포넌트의 Width 에서 spinupbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0 으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>buttonsize 속성값이 적용됩니다.\nbuttonsize 속성값이 없으면 Spin 컴포넌트의 Height 가 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>Spin 컴포넌트의 Height 를 2로 나눈 몫이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>spindownbutton Control</div></td></tr><tr><td>Left</td><td><div>buttonposition 속성값이 \"left\" 이면 0 으로 적용됩니다.\nbuttonposition 속성값이 \"right\" 이면 Spin 컴포넌트의 Width 에서 spindownbutton 컨트롤의 Width 를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>Spin 컴포넌트의 Height 에서 spinupbutton 컨트롤의 Height 를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>buttonsize 속성값이 적용됩니다.\nbuttonsize 속성값이 없으면 Spin 컴포넌트의 Height 가 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>Spin 컴포넌트의 Height 를 2로 나눈 몫이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -64,7 +64,7 @@
       "content": "Basic Key Action"
     },
     {
-      "id": "u_10_0.562280897574683",
+      "id": "u_10_0.9831519867552768",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Action</th><th>Key</th><th>Description</th></tr></thead><tbody><tr><td>포커스 이동</td><td>Tab</td><td><div>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</div></td></tr><tr><td>값 변경</td><td>상하방향키</td><td><div>Spin 의 value 값을 increment 속성값만큼 증가 또는 감소 시킵니다.</div></td></tr></tbody></table>",
       "option": {
@@ -78,12 +78,12 @@
       "content": "Accessibility Key Action"
     },
     {
-      "id": "u_09_0.3805963532316604",
+      "id": "u_09_0.27529823410524723",
       "type": "pre",
       "content": "접근성 기능이 활성화 되어 있을 때 적용되는 키 액션입니다."
     },
     {
-      "id": "u_10_0.7612824061920931",
+      "id": "u_10_0.9549958776699911",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Action</th><th>Key</th><th>Description</th></tr></thead><tbody><tr><td>포커스 이동</td><td>Tab</td><td><div>Tab 이동 순서에 따라 다음 컴포넌트로 포커스가 이동합니다.</div></td></tr><tr><td>선택상자 이동</td><td>상하방향키</td><td><div>Tab Order 가 이전/다음인 컴포넌트로 선택상자가 이동합니다.</div></td></tr><tr><td>값 변경</td><td>Ctrl + 상하방향키</td><td><div>Spin 의 value 값을 increment 속성값만큼 증가 또는 감소 시킵니다.</div></td></tr></tbody></table>",
       "option": {
@@ -97,12 +97,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.8771305058839763",
+      "id": "u_09_0.16544797176018333",
       "type": "command",
       "content": "Spin.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.43532795904563026",
+      "id": "u_10_0.8272146657745424",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>Spin 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>Spin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Spin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>Spin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Spin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>Spin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>Spin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>Spin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Spin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>Spin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>Spin 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>Spin 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>Spin 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>Spin 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new Spin();\n\nobjComp.init( \"Spin00\", 30, 120, 196, 46 );\nobjComp.init( \"Spin00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Spin00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Spin00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Spin00\", \"Spin22:10\", 300, null, null, \"Spin33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -111,7 +111,7 @@
       }
     },
     {
-      "id": "u_10_0.6479838633424254",
+      "id": "u_10_0.2861332191421242",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objSpin = new Spin();  \nobjSpin.init(\"Spin\", 30, 120, 196, 46, null, null);\nobjSpin.init(\"Spin\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objSpin = new Spin(\"Spin\", 30, 120, 196, 46, null, null);\nvar objSpin = new Spin(\"Spin\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"Spin\", objSpin); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"Spin\", objSpin); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"Spin\"); \n \n// Show Object  \nobjSpin.show(); \n \n// Destroy Object  \nobjSpin.destroy(); \nobjSpin = null;</div></td></tr></tbody></table>",
       "option": {
@@ -125,7 +125,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.3805716610427132",
+      "id": "u_10_0.9018665335313399",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>invalidtext</td><td>userstatus</td><td><div>유효하지 않은 값이 바인드 되거나 설정된 상태</div></td></tr><tr><td>readonly</td><td>status</td><td><div>컴포넌트가 읽기 전용인 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -139,7 +139,7 @@
       "content": "Control"
     },
     {
-      "id": "u_10_0.9474838705219992",
+      "id": "u_10_0.9047423280053347",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th colspan=\"2\">Name</th><th>TypeName</th></tr></thead><tbody><tr><td colspan=\"2\">spinedit</td><td>nexacro.MaskEdit</td></tr><tr><td colspan=\"2\">spinupbutton</td><td>nexacro.Button</td></tr><tr><td colspan=\"2\">spindownbutton</td><td>nexacro.Button</td></tr></tbody></table>",
       "option": {
@@ -209,7 +209,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07595959762640891",
+      "id": "u_10_0.29669644900676484",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilityaction = \"Accessibility Action Message\"; \nthis.Spin00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -284,7 +284,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8598756193189377",
+      "id": "u_10_0.0433067162138816",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>Spin 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>Spin 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>Spin 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>Spin 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -359,7 +359,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5964191517647585",
+      "id": "u_10_0.8191000656984216",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -434,7 +434,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3520141403782414",
+      "id": "u_10_0.022906712184822542",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 Spin 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 Spin 에 이동되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -509,7 +509,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.798506534952273",
+      "id": "u_10_0.9837847733224003",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilitylabel = \"OK Button\"; \nthis.Spin00.accessibilitylabel = \"[@static00]\"; \nthis.Spin00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.Spin00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -584,7 +584,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19610900553322586",
+      "id": "u_10_0.25323150933447114",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.accessibilityrole = \"none\"; \nthis.Spin00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -659,7 +659,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33713182574097744",
+      "id": "u_10_0.7311586757558074",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBackground ::= [&lt;bg-image&gt; | &lt;linear-gradient&gt;] [&lt;background-origin&gt; [&lt;background-clip&gt;]] [&lt;background-color&gt;]\n\n&lt;bg-image&gt; ::= 'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\n   &lt;imageurl&gt; ::= 'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\n   &lt;repeat-style&gt; ::= 'repeat-x' | 'repeat-y' | 'repeat' | 'no-repeat'\n   &lt;position&gt; ::= &lt;horizontal-position&gt; &lt;vertical-position&gt; ['/' &lt;background-size&gt;]\n      &lt;horizontal-position&gt; ::= 'left' | 'center' | 'right' | &lt;pos-percentage&gt; '%'\n      &lt;vertical-position&gt; ::= 'top' | 'center' | 'bottom' | &lt;pos-percentage&gt; '%'\n      &lt;background-size&gt; ::= 'auto' | 'cover' | 'contain' | (&lt;length&gt; 'px' | &lt;percentage&gt; '%') {1,2}\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n   &lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n   &lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\n      &lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\n         &lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;background-origin&gt; ::= 'border-box' | 'padding-box'\n&lt;background-clip&gt; ::= 'border-box' | 'padding-box'\n&lt;background-color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbackground : #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa;\nbackground : linear-gradient( red , blue , yellow );\nbackground : linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0));\nbackground : \"URL('./images/smiley.gif')\" border-box border-box #ffffaa;\n\n* Script ( normal property )\nthis.Spin00.background = \"#ffffaa\";\nthis.Spin00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center #ffffaa\";\nthis.Spin00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa\";\nthis.Spin00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa\";\nthis.Spin00.background = \"linear-gradient( red , blue , yellow )\";\nthis.Spin00.background = \"linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0))\";\nthis.Spin00.background = \"\"URL('./images/smiley.gif')\" border-box border-box #ffffaa\";</div></td></tr><tr><th>&lt;bg-image&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 이미지가 표시됩니다.\n\n\"none\" 으로 설정하면 이미지를 설정하지 않습니다.\n&lt;imageurl&gt; 값으로 이미지를 설정할 수 있습니다.\n&lt;repeat-style&gt; 값으로 이미지의 반복표시 방향을 설정할 수 있습니다.\n&lt;position&gt; 값으로 이미지의 표시위치를 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;imageurl&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\" 형식으로 설정합니다.\n\n\"URL ( [이미지경로] )\" 형식으로 테마 또는 웹의 이미지를 설정합니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;repeat-style&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 반복표시 방향을 설정합니다.\n\n\"repeat-x\" 설정 시 이미지가 가로 방향으로 반복표시 됩니다.\n\"repeat-y\" 설정 시 이미지가 세로 방향으로 반복표시 됩니다.\n\"repeat\" 설정 시 이미지가 가로,세로 방향으로 모두 반복표시 됩니다.\n\"no-repeat\" 설정 시 이미지가 반복표시 되지 않습니다.\n\n값을 설정하지 않으면 \"repeat\" 로 적용됩니다.</div></td></tr><tr><th>&lt;horizontal-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로 위치를 설정합니다.\n\n\"left\" 설정 시 Spin 의 왼쪽면과 이미지의 왼쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Spin 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"right\" 설정 시 Spin 의 오른쪽면과 이미지의 오른쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;vertical-position&gt; 값을 설정하고, &lt;horizontal-position&gt; 값을 설정하지 않으면 &lt;horizontal-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;horizontal-position&gt; 은 \"left\" 로 적용됩니다.</div></td></tr><tr><th>&lt;vertical-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 세로 위치를 설정합니다.\n\n\"top\" 설정 시 Spin 의 윗쪽면과 이미지의 윗쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 Spin 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"bottom\" 설정 시 Spin 의 아랫쪽면과 이미지의 아랫쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;horizontal-position&gt; 값을 설정하고, &lt;vertical-position&gt; 값을 설정하지 않으면 &lt;vertical-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;vertical-position&gt; 은 \"top\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;pos-percentage&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로/세로 위치를 비율로 설정합니다.\n\n&lt;horizontal-position&gt; 에 \"0%\" 설정 시 \"left\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"100%\" 설정 시 \"right\" 과 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"0%\" 설정 시 \"top\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"100%\" 설정 시 \"bottom\" 과 같은 위치로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Spin 의 영역을 벗어난 가상의 위치로 적용됩니다.\n\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-size&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 크기를 설정합니다.\n- auto: 원본 이미지 크기를 유지합니다.\n- cover: 이미지 비율을 유지하는 한도 내에서 배경에 빈 공간이 없도록 가장 크게 설정합니다.\n  width 또는 height 길이가 긴 쪽은 잘려서 표시될 수 있습니다.\n- contain: 이미지가 잘리지 않고 비율을 유지하는 한도 내에서 가장 크게 설정합니다.\n- &lt;length&gt; | &lt;percentage&gt;: 이미지의 width, height 크기 또는 컴포넌트 대비 비율을 설정합니다. \n  width 값만 설정하면 원본 이미지 비율에 따라 height 크기를 자동으로 처리합니다.\n  height 값만 설정할 수는 없습니다. \n  음수값은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>배경에 표시될 그라데이션을 \"'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 그라데이션이 표시됩니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\"으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 \"&lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점과 끝점의 위치가 결정됩니다.\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 Spin 의 right 위치가 시작점이 되고, left 위치가 끝점이 됩니다.\n              &lt;angle&gt; 값이 \"to right\" 이면 Spin 의 left 위치가 시작점이 되고, right 위치가 끝점이 됩니다.\n\n&lt;listcolor-stop&gt; 에 그라데이션 중간점의 색을 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 \"0\" 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 \"100\" 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\" 형식으로 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.\n뒤에 선언된 색의 &lt;percentage&gt; 값은 먼저 선언된 색의 &lt;percentage&gt; 값보다 커야 합니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그라데이션 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 Spin 의 영역을 벗어난 가상의 위치로 적용됩니다.\n예를 들어 \"150%\" 설정 시 시작점에서 끝점까지 거리의 반만큼 끝점에서 벗어난 위치에 &lt;color&gt; 값이 적용됩니다.\n\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-origin&gt;</th><td colspan=\"2\"><div>배경으로 처리될 기준영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역이 배경영역으로 처리됩니다.\n\n\"padding-box\" 설정 시 Border 의 안쪽 영역이 배경영역으로 처리됩니다.\n\"padding-box\" 설정 시 그라데이션의 시작점, 끝점과 배경이미지의 반복 기준위치가 Border 안쪽 영역으로 처리됩니다.\n\n값을 설정하지 않으면 \"padding-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-clip&gt;</th><td colspan=\"2\"><div>배경이 실제로 표시될 영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역에 배경이 표시됩니다.\n\"padding-box\" 설정 시 Border 의 안쪽 영역에 배경이 표시됩니다.\n\n값을 설정하지 않으면 &lt;background-origin&gt; 에 설정한 값이 동일하게 적용됩니다.\n&lt;background-origin&gt; 값도 설정하지 않았을 경우 \"border-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-color&gt;</th><td colspan=\"2\"><div>배경에 표시될 색을 색상이름 또는 색상코드로 설정합니다.\n\n&lt;bg-image&gt; 또는 &lt;linear-gradient&gt; 값이 설정되어 있다면 배경색은 배경이미지 또는 그라데이션 아래에 표시됩니다.\n&lt;bg-image&gt; 에 적용된 이미지에 투명으로 적용된 부분이 있거나 이미지가 Spin 영역보다 작다면 해당 영역에 배경색이 표시됩니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -734,7 +734,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8503496899230293",
+      "id": "u_10_0.3490010125606645",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborderradius ::= &lt;horizontal-radius&gt;{4} ['/' &lt;vertical-radius&gt;{4}]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nborder-radius : 10px;\nborder-radius : 5px 6px 10px / 5px 10px;\n\n* Script ( normal property )\nthis.Spin00.borderRadius = \"10px\";\nthis.Spin00.borderRadius = \"5px 6px 10px / 5px 10px\";</div></td></tr><tr><th>&lt;horizontal-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 가로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 가로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;vertical-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 세로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 세로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -809,7 +809,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06776146692975327",
+      "id": "u_10_0.5907019944796722",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.bottom = 10; \nthis.Spin00.bottom = \"10px\"; \nthis.Spin00.bottom = \"10%\"; \nthis.Spin00.bottom = \"Button00:10px\"; \nthis.Spin00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 Spin의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Spin의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 Spin의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Spin의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -884,7 +884,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09963580187028087",
+      "id": "u_10_0.1397658822069735",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strbshadow ::= 'none' | [&lt;inset&gt;] &lt;offset&gt; [&lt;blur&gt;'px'] [&lt;spread&gt;'px'] [&lt;color&gt;]\n\n&lt;offset&gt; ::= &lt;horizontal&gt;'px' &lt;vertical&gt;'px'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbox-shadow : 10px 10px 10px #888888;\nbox-shadow : inset 10px 10px 10px 5px #888888\n\n* Script ( normal property )\nthis.Spin00.boxShadow  = \"10px 10px 10px #888888\";\nthis.Spin00.boxShadow  = \"inset 10px 10px 10px 5px #888888\";</div></td></tr><tr><th>&lt;inset&gt;</th><td colspan=\"2\"><div>그림자 효과가 컴포넌트 안쪽에 표시됩니다.\n생략 시에는 outset으로 동작합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;offset&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 위치를 설정합니다.\n\nSpin 의 좌상단 위치를 기준으로 그림자 효과가 표시될 위치를 가로/세로 픽셀값으로 설정합니다.</div></td></tr><tr><th>&lt;horizontal&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 가로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 왼쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;vertical&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 세로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 윗쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;blur&gt;</th><td colspan=\"2\"><div>그림자 효과에 blur를 설정합니다.\n음수로 설정 시 blur가 적용되지 않습니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;spread&gt;</th><td colspan=\"2\"><div>그림자를 확장하거나 축소합니다.\n양수로 설정 시에는 그림자를 확장하고 음수로 설정 시에는 그림자를 축소합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그림자 효과의 색을 색상이름 또는 색상코드로 설정할 수 있습니다.\n\n값을 입력하지 않으면 브라우저별로 다르게 동작하거나 오동작할 수 있습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -959,7 +959,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09934149076895338",
+      "id": "u_10_0.3229881632497771",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumAlign ::= 'left' | 'right'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.buttonposition = \"left\";</div></td></tr><tr><th>\"left\"</th><td colspan=\"2\"><div>스핀버튼이 편집 영역의 왼쪽에 표시됩니다.</div></td></tr><tr><th>\"right\"</th><td colspan=\"2\"><div>스핀버튼이 편집 영역의 오른쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1034,7 +1034,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5192728371915302",
+      "id": "u_10_0.3933903241682851",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.buttonsize  = 20;</div></td></tr><tr><th>nButtonSize</th><td colspan=\"2\"><div>스핀버튼의 가로 크기를 pixel 단위의 숫자로 설정합니다.\n\nundefined 설정 시 Spin 의 높이값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1109,7 +1109,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1299858481738423",
+      "id": "u_10_0.16096589056322985",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bCriculation ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.circulation = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>value 속성값이 min 속성값과 같을 때 스핀다운버튼을 클릭하면 value 속성값이 max 속성값으로 설정됩니다.\nvalue 속성값이 max 속성값과 같을 때 스핀업버튼을 클릭하면 value 속성값이 min 속성값으로 설정됩니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>value 속성값이 min 속성값과 같을 때 스핀다운버튼을 클릭해도 value 속성값이 변경되지 않습니다.\nvalue 속성값이 max 속성값과 같을 때 스핀업버튼을 클릭해도 value 속성값이 변경되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1184,7 +1184,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2758770419446843",
+      "id": "u_10_0.4866380857539978",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcolor ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncolor : #999999;\ncolor : rgb ( 255, 0, 0 );\ncolor : red;\n\n* Script ( normal property )\nthis.Spin00.color = \"#999999\";\nthis.Spin00.color = \"rgb(255,0,0)\";\nthis.Spin00.color = \"red\";</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1259,7 +1259,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.43047401516612427",
+      "id": "u_10_0.039561044984404936",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.cssclass = \"TestClass\"; \nthis.Spin00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1334,7 +1334,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8799775386945783",
+      "id": "u_10_0.37895128409541945",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strCursor ::= 'none' | 'auto' | 'default' | 'copy' | 'crosshair' | 'help' | 'move' | 'not-allowed' | 'pointer' | 'progress' | 'text' | 'wait' | 'ew-resize' | 'e-resize' | 'w-resize' | 'ns-resize' | 'n-resize' | 's-resize' | 'nesw-resize' | 'ne-resize' | 'sw-resize' | 'nwse-resize' | 'nw-resize' | 'se-resize'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncursor : default;\n\n* Script ( normal property )\nthis.Spin00.cursor = \"default\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 포인터를 표시하지 않습니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>컴포넌트의 특성에 맞는 포인터가 표시됩니다.\n\nEdit계열 컴포넌트는 \"text\" 포인터가 표시됩니다.\n그외 계열 컴포넌트는 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>시스템의 기본 포인터가 표시됩니다.\n\n일반적으로 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"copy\"</th><td colspan=\"2\"><div>화살표와 작은 십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"crosshair\"</th><td colspan=\"2\"><div>십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"help\"</th><td colspan=\"2\"><div>화살표와 작은 물음표 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 물음표 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"move\"</th><td colspan=\"2\"><div>십자 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"not-allowed\"</th><td colspan=\"2\"><div>금지 표지판 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 화살표와 금지 표지판 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"pointer\"</th><td colspan=\"2\"><div>손모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"progress\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 화살표와 모래시계, 화살표와 원 등 다양한 형태로 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"text\"</th><td colspan=\"2\"><div>아이(\"I\") 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"wait\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 모래시계, 시계 등 다양한 형태로 표시됩니다.</div></td></tr><tr><th>\"ew-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"e-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"w-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ns-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"n-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"s-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nesw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ne-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"sw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nwse-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"nw-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"se-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1409,7 +1409,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9195230986328887",
+      "id": "u_10_0.641856823516525",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bDisplayComma ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.displaycomma = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>value 속성값이 1000 이상일 경우 천단위 마다 콤마를 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>value 속성값이 1000 이상이어도 콤마를 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1494,7 +1494,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9865202103214361",
+      "id": "u_10_0.4371788480088842",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.displayinvalidtext = \"Data Error\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>value 속성값이 NaN, ±Infinity, 유효하지 않은 값 일 때 Spin 에 표시될 대체 문자열을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1569,7 +1569,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.46839575150953017",
+      "id": "u_10_0.3814163623361895",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.displaynulltext = \"no value\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>value 속성값이 null 일 때 Spin 에 표시될 대체 문자열을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1644,7 +1644,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.99967309479808",
+      "id": "u_10_0.3916882206162067",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.enable = true; \nthis.Spin00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1719,7 +1719,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9579902796995993",
+      "id": "u_10_0.8522129968774419",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.enableevent = true;  \n\nthis.Spin00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1794,7 +1794,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.21857439667486112",
+      "id": "u_10_0.13715012641522228",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1869,7 +1869,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5840796596082851",
+      "id": "u_10_0.6561610098676653",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1944,7 +1944,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.22739416819933278",
+      "id": "u_10_0.05007150711624109",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strfont ::= [&lt;font-style&gt;] [&lt;font-weight&gt;] &lt;font-size&gt; ['/'&lt;line-height&gt;] &lt;font-family&gt;\n\n&lt;font-style&gt; ::= 'normal' | 'italic'\n&lt;font-weight&gt; ::= 'normal' | 'bold' | '100' | '200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'\n&lt;font-size&gt; ::= &lt;nSize&gt; 'px'|'pt'|'em'|'rem'\n&lt;line-height&gt; ::= 'normal' | &lt;nValue&gt; | &lt;nPixel&gt;'px' | &lt;nPercent&gt;'%'\n&lt;font-family&gt; ::= &lt;font-name&gt; [',' &lt;font-name&gt;]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nfont : bold 12pt/30px arial, sans-serif;\n\n* Script ( normal property )\nthis.Spin00.font = \"bold 12pt/30px arial, sans-serif\";</div></td></tr><tr><th>&lt;font-style&gt;</th><td colspan=\"2\"><div>폰트의 스타일을 설정합니다.\n\n\"normal\" 설정 시 스타일이 적용되지 않습니다.\n\"italic\" 설정 시 기울임 스타일이 적용됩니다.</div></td></tr><tr><th>&lt;font-weight&gt;</th><td colspan=\"2\"><div>폰트의 굵기를 설정합니다.\n\n\"normal\" 설정 시 굵기가 적용되지 않습니다.\n\"bold\" 설정 시 굵은 폰트가 적용됩니다.\n\n\"100\"~\"900\" 로 설정 시 설정한 굵기로 폰트가 적용됩니다.\n\"100\"~\"900\" 로 설정 시 굵기에 해당하는 폰트가 정의되어 있어야 합니다.</div></td></tr><tr><th>&lt;font-size&gt;</th><td colspan=\"2\"><div>폰트 크기의 단위는 아래와 같이 절대 길이 단위와 상대 길이 단위로 설정할 수 있습니다.\n단위를 지정하지 않으면 속성값이 적용되지 않습니다.\n- 절대 길이 단위: pixel(\"px\"), point(\"pt\")\n- 상대 길이 단위: \"em\", \"rem\"\n\n폰트 크기 단위를 \"em\", \"rem\"으로 설정한 경우에는 아래와 같이 폰트 크기가 계산됩니다.\n- \"em\": 상위 컴포넌트 font-size 기준으로 상대적인 크기를 설정\n- \"rem\": MainFrame font-size 기준으로 상대적인 크기를 설정</div></td></tr><tr><th>&lt;nSize&gt;</th><td colspan=\"2\"><div>폰트 크기 단위에 따라 정수 또는 소수로 설정합니다.\n음수값은 설정할 수 없습니다.\n- \"px\", \"pt\": 정수\n- \"em\", \"rem\": 정수 또는 소수</div></td></tr><tr><th>&lt;line-height&gt;</th><td colspan=\"2\"><div>텍스트가 여러줄로 표시되는 경우 줄 사이의 간격을 설정합니다.\n\n음수값을 설정할 수 없습니다.\n\n\"normal\" 설정 시 줄 사이의 간격을 설정하지 않습니다.\n\"normal\" 설정 시 웹브라우저마다 줄 사이의 간격이 다르게 적용됩니다.\n\"normal\" 설정 시 Nexacro Runtime Environment는 폰트 크기에 곱할 값(&lt;nValue&gt;값)이 \"1.15\" 일 때와 동일하게 동작합니다.</div></td></tr><tr><th>&lt;nValue&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.</div></td></tr><tr><th>&lt;nPixel&gt;</th><td colspan=\"2\"><div>줄 사이의 간격을 pixel 단위의 숫자로 설정합니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;nPercent&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 비율값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.\n\"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;font-family&gt;</th><td colspan=\"2\"><div>폰트 이름을 리스트로 설정합니다.\n\n콤마(\",\")로 구분하여 폰트 이름을 여러개 설정할 수 있습니다.\n먼저 선언된 폰트가 우선적으로 적용됩니다.\n선언된 폰트가 시스템에 없을 경우 선언된 순서대로 사용 가능한 폰트를 적용합니다.\n선언된 폰트가 모두 없을 경우 시스템 기본 폰트가 적용됩니다.</div></td></tr><tr><th>&lt;font-name&gt;</th><td colspan=\"2\"><div>폰트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2019,7 +2019,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8949319589640664",
+      "id": "u_10_0.466529305559631",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.height = 10; \nthis.Spin00.height = \"10px\"; \nthis.Spin00.height = 10%\"; \nthis.Spin00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Spin의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Spin의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Spin의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Spin의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2094,7 +2094,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9396232274380825",
+      "id": "u_10_0.11055935650976567",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.hotkey = \"G\"; \nthis.Spin00.hotkey = \"CTRL+A\"; \nthis.Spin00.hotkey = \"CTRL+ALT+X\";</div></td></tr><tr><th>strHotkey</th><td colspan=\"2\"><div>수식키(CTRL, ALT, SHIFT)와 일반키의 조합으로 설정합니다.\n수식키는 중복으로 조합하여 설정할 수 있습니다.\n각 키는 \"+\" 를 사용하여 조합을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2179,7 +2179,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.139202634888986",
+      "id": "u_10_0.7284786250294045",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Spin를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2254,7 +2254,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7215183539522536",
+      "id": "u_10_0.8027262814431005",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.increment = 2.5;</div></td></tr><tr><th>nIncrement</th><td colspan=\"2\"><div>스핀버튼 클릭 시 value 속성값을 증가/감소 시킬 실수값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2339,7 +2339,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09384267707210492",
+      "id": "u_10_0.9468825982925001",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 Spin 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2414,7 +2414,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5843735130271521",
+      "id": "u_10_0.17818232938529666",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2489,7 +2489,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5003910296364883",
+      "id": "u_10_0.49898523495356994",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.left = 10; \nthis.Spin00.left = \"10px\"; \nthis.Spin00.left = \"10%\"; \nthis.Spin00.left = \"Button00:10px\"; \nthis.Spin00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 Spin의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Spin의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 Spin의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Spin의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2564,7 +2564,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1495438608853904",
+      "id": "u_10_0.5873252785414497",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strspace ::= 'normal' | &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nletter-spacing : 2px ;\n\n* Script ( normal property )\nthis.Spin00.letterSpacing = \"2px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 설정하지 않습니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 pixel 단위로 설정합니다.\n\n스크립트 작성 시에는 \"px\" 단위 표기를 생략할 수 있습니다.\n(XCSS 작성 시에는 \"px\" 단위를 포함해 작성해야 합니다).</div></td></tr></tbody></table>",
       "option": {
@@ -2639,7 +2639,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4037392142977114",
+      "id": "u_10_0.9688194687476095",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.locale = \"ko_KR\";</div></td></tr><tr><th>strlocale</th><td colspan=\"2\"><div>\"언어[_국가]\" 형식의 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2714,7 +2714,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5520704181029917",
+      "id": "u_10_0.7472995417717346",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.max = 500;</div></td></tr><tr><th>nMax</th><td colspan=\"2\"><div>value 속성이 가질 수 있는 최대값을 실수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2799,7 +2799,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7508563753231725",
+      "id": "u_10_0.588027261721546",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.maxheight = 20; \nthis.Spin00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2874,7 +2874,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11858476635043946",
+      "id": "u_10_0.3713586427262441",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.maxwidth = 20; \nthis.Spin00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2949,7 +2949,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.23514111029865736",
+      "id": "u_10_0.026856634895243703",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.min = -100;</div></td></tr><tr><th>nMin</th><td colspan=\"2\"><div>value 속성이 가질 수 있는 최소값을 실수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3034,7 +3034,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8248524553640088",
+      "id": "u_10_0.7639389628657007",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.minheight = 20; \nthis.Spin00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3109,7 +3109,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.32848279568796723",
+      "id": "u_10_0.23929546307499117",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.minwidth = 20; \nthis.Spin00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3184,7 +3184,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6835657830910766",
+      "id": "u_10_0.9710560162006394",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3259,7 +3259,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8282733418892742",
+      "id": "u_10_0.8681784240978282",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.Spin00.border = \"1px solid #999999\";\nthis.Spin00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -3334,7 +3334,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.801599316561956",
+      "id": "u_10_0.7417514084090042",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>stredge ::= 'none' | &lt;image&gt; [&lt;fixedwidth&gt;'px' &lt;fixedheight&gt;'px']\n\n&lt;image&gt; ::= 'URL(\"' &lt;Theme-Image&gt; | &lt;Web-Image&gt; '\")'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-edge : \"URL('./images/border.png')\" 5px 5px;\n\n* Script ( normal property )\nthis.Spin00.edge = \"URL('./images/border.png')\" 5px 5px;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>edge 이미지를 설정하지 않습니다.</div></td></tr><tr><th>&lt;image&gt;</th><td colspan=\"2\"><div>'URL (\"[이미지위치]\")' 형식으로 테마 또는 웹의 이미지를 설정합니다.\n\n테두리(border) 안쪽에 edge 형태로 이미지가 표시됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;fixedwidth&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 왼쪽/오른쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 왼쪽/오른쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr><tr><th>&lt;fixedheight&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 위쪽/아래쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 위쪽/아래쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3409,7 +3409,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7512590747363489",
+      "id": "u_10_0.7581624098207878",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strpadding ::= &lt;npadding&gt;'px'{4}</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-padding : 5px 5px 5px 5px;\n\n* Script ( normal property )\nthis.Spin00.padding = \"5px 5px 5px 5px\";</div></td></tr><tr><th>&lt;npadding&gt;</th><td colspan=\"2\"><div>Spin 영역의 안쪽 여백을 pixel 단위로 설정합니다.\n\n값을 1회 입력 시 top/right/bottom/left 에 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3484,7 +3484,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7837350142388836",
+      "id": "u_10_0.4470403889077377",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlBgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-background-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-background-image : URL(\"theme://images/Test.jpg\");</div></td></tr><tr><th>strRtlBgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\nbackground 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\nbackground 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3559,7 +3559,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5417496381664354",
+      "id": "u_10_0.4296023853229822",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlEgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-edge-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-edge-image : URL(\"theme://images/Test.jpg\")</div></td></tr><tr><th>strRtlEgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\n-nexa-edge 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\n-nexa-edge 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3634,7 +3634,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4253579502986382",
+      "id": "u_10_0.21456311083927349",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nopacity : 0.8;\nopacity : 80%;\n\n* Script ( normal property )\nthis.Spin00.opacity = \"0.8\";\nthis.Spin00.opacity = 0.8;\nthis.Spin00.opacity = \"80%\";</div></td></tr><tr><th>strOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nXCSS는 숫자 또는 퍼센트 값으로만 설정할 수 있습니다.\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3709,7 +3709,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5874146336972653",
+      "id": "u_10_0.03678197892300217",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Spin00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -3784,7 +3784,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4028788570693759",
+      "id": "u_10_0.2420754572596736",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.positionstep = 0; \nthis.Spin00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>Spin 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 Spin 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3869,7 +3869,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19258105358892452",
+      "id": "u_10_0.9127579407112476",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bReadOnly ::= 'true' | 'false'</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 의 편집을 불가능하게 설정합니다.\n편집이 불가능하여도 편집영역의 선택 및 복사 기능은 사용 가능합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"readonly\" Status 가 적용됩니다.\n\"readonly\" Status 가 없는 하위 컨트롤은 \"disabled\" Status 가 적용됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 의 편집을 가능하게 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3944,7 +3944,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4906868668702997",
+      "id": "u_10_0.4351302285286742",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.right = 10; \nthis.Spin00.right = \"10px\"; \nthis.Spin00.right = \"10%\"; \nthis.Spin00.right = \"Button00:10px\"; \nthis.Spin00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 Spin의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Spin의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 Spin의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Spin의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4019,7 +4019,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.603025626840283",
+      "id": "u_10_0.1591101920641531",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRtl ::= undefined | 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var vRtl = this.Spin00.rtl;</div></td></tr><tr><th>undefined</th><td colspan=\"2\"><div>undefined 설정 시 상위 컴포넌트의 rtl 속성값이 적용됩니다.\n\n사용자가 rtl 속성값을 설정하지 않거나 삭제했을 경우 undefined 가 설정됩니다.</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 오른쪽으로 설정합니다.\nSpin 의 내부 좌표계의 기준을 오른쪽으로 설정합니다.\nSpin 의 텍스트 표시 기준을 오른쪽으로 설정합니다.\n수직스크롤바가 있을 경우 왼쪽에 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 왼쪽으로 설정합니다.\nSpin 의 내부 좌표계의 기준을 왼쪽으로 설정합니다.\nSpin 의 텍스트 표시 기준을 왼쪽으로 설정합니다.\n수직스크롤바가 있을 경우 오른쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4035,7 +4035,7 @@
     {
       "id": "p_12_rtl",
       "type": "pre",
-      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 아랍권 같이 화면의 표시기준이 오른쪽인 환경에서 컨텐츠의 표시 기준을 변경하기 위해 설정하는 속성입니다.\n\n- Spin 부터 Environment 까지 상위의 모든 rtl 속성값이 undefined 이면\n   Environment 의 locale 속성에 설정된 국가 및 언어 설정값을 기준으로 rtl 속성이 적용됩니다.\n   Environment 의 locale 속성값을 설정하지 않았을 경우 시스템의 국가 및 언어 설정값이 적용됩니다.\n\n\n◆ NRE 제약\n\n- rtl 속성값이 false 로 적용되면 아랍어 같은 오른쪽 기준의 언어는 정상적으로 표시되지 않을 수 있습니다."
+      "content": "- 넥사크로 스튜디오에서만 값을 설정할 수 있고, 실행중에는 수정할 수 없는 속성입니다.\n\n- 아랍권 같이 화면의 표시기준이 오른쪽인 환경에서 컨텐츠의 표시 기준을 변경하기 위해 설정하는 속성입니다.\n\n- Spin 부터 Environment 까지 상위의 모든 rtl 속성값이 undefined 이면\n   Environment 의 locale 속성에 설정된 국가 및 언어 설정값을 기준으로 rtl 속성이 적용됩니다.\n   Environment 의 locale 속성값을 설정하지 않았을 경우 시스템의 국가 및 언어 설정값이 적용됩니다."
     },
     {
       "id": "p_01_spindownbutton",
@@ -4094,7 +4094,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.011372575780833838",
+      "id": "u_10_0.9871628965928007",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objControl = this.Spin00.spindownbutton;</div></td></tr></tbody></table>",
       "option": {
@@ -4159,7 +4159,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10914542167684982",
+      "id": "u_10_0.10837113968794632",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objControl = this.Spin00.spinedit;</div></td></tr></tbody></table>",
       "option": {
@@ -4224,7 +4224,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2680747100975045",
+      "id": "u_10_0.21962368296389467",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objControl = this.Spin00.spinupbutton;</div></td></tr></tbody></table>",
       "option": {
@@ -4289,7 +4289,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8720115803817923",
+      "id": "u_10_0.8582807458535833",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4374,7 +4374,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8947559711853066",
+      "id": "u_10_0.0605446232420529",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4459,7 +4459,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.019928540090445868",
+      "id": "u_10_0.8567461918448435",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Spin 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Spin 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4534,7 +4534,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06486297859229284",
+      "id": "u_10_0.8330732726802499",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strValue = this.Spin00.text;</div></td></tr></tbody></table>",
       "option": {
@@ -4609,7 +4609,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.48923654780011816",
+      "id": "u_10_0.2412656802542762",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.tooltiptext = \"This is ToolTip Text\"; this.Spin00.tooltiptext = \"\";          // 풍선 도움말이 표시되지 않습니다. \n\nthis.Spin00.tooltiptext = null;        // 상위 컴포넌트의 풍선 도움말이 표시됩니다.</div></td></tr><tr><th>strToolTipText</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n빈문자열(EmptyString) 설정 시 풍선도움말이 표시되지 않습니다.\nnull 또는 undefined 설정 시 상위컴포넌트(Form, Div 등)의 풍선도움말이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4684,7 +4684,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1945075036308398",
+      "id": "u_10_0.31774198277760235",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumTooltipType ::= 'default' | 'hover' | 'inplace' | 'default,mouseleave' | 'hover,mouseleave' | 'inplace,mouseleave'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.tooltiptype = \"hover\";</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"hover\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역내에 멈춰서 일정시간이 경과하면 풍선도움말이 사라집니다.\nSpin 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경되거나 사라진 풍선도움말이 다시 표시됩니다.</div></td></tr><tr><th>\"inplace\"</th><td colspan=\"2\"><div>Spin 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"default,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr><tr><th>\"hover,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역에 있으면 풍선도움말이 사라지지 않습니다.\nSpin 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경됩니다.</div></td></tr><tr><th>\"inplace,mouseleave\"</th><td colspan=\"2\"><div>Spin 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 Spin 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4759,7 +4759,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8560359998482894",
+      "id": "u_10_0.6077286327609497",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.top = 10; \nthis.Spin00.top = \"10px\"; \nthis.Spin00.top = \"10%\"; \nthis.Spin00.top = \"Button00:10px\"; \nthis.Spin00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 Spin의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Spin의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 Spin의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Spin의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4834,7 +4834,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8888125013146273",
+      "id": "u_10_0.8368839141871451",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'normal' | 'noneditable' | 'spinonly'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.type = \"normal\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>편집영역과 스핀버튼이 있는 Spin 이 표시됩니다.\n편집영역에서 값을 직접 입력할 수 있습니다.</div></td></tr><tr><th>\"noneditable\"</th><td colspan=\"2\"><div>편집영역과 스핀버튼이 있는 Spin 이 표시됩니다.\n편집영역은 읽기전용으로 값을 직접 입력할 수 없습니다.</div></td></tr><tr><th>\"spinonly\"</th><td colspan=\"2\"><div>편집영역 없이 스핀버튼만 있는 Spin이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4919,7 +4919,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.874091103651558",
+      "id": "u_10_0.8632941180034084",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bUseContextMenu ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.usecontextmenu = true;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>편집영역에서 오른쪽 마우스 클릭 시 기본팝업메뉴가 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>편집영역에서 오른쪽 마우스 클릭 시 기본팝업메뉴가 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4994,7 +4994,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3637344722544268",
+      "id": "u_10_0.5576301515644733",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bUseKeyboard ::= true | false</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.usesoftkeyboard = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Spin 가 포커스를 가질 때 키패드가 자동으로 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Spin 가 포커스를 가질 때 키패드가 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5069,7 +5069,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.638621503678374",
+      "id": "u_10_0.9911020212983032",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.value = 150;</div></td></tr><tr><th>nValue</th><td colspan=\"2\"><div>Spin 이 갖는 실제 값을 실수로 설정합니다.\n\nmin 속성값보다 크거나 같고, max 속성값보다 작거나 같은 값으로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5144,7 +5144,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.680506073980632",
+      "id": "u_10_0.5599357583449704",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.visible = true; \nthis.Spin00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Spin 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Spin 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5219,7 +5219,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2240866196869188",
+      "id": "u_10_0.433938016834825",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Spin00.width = 10; this.Spin00.width = \"10px\"; \nthis.Spin00.width = \"10%\"; \nthis.Spin00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Spin 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Spin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Spin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Spin 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Spin의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Spin의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Spin의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Spin의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Spin의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Spin의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5294,7 +5294,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10654220625423283",
+      "id": "u_10_0.8994543697082347",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strWordSpacing ::= 'normal' | &lt;nVal&gt;'px'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nword-spacing : 30px;\n\n* Script ( normal property )\nthis.Spin00.wordSpacing = \"30px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>텍스트의 단어 사이 간격을 설정하지 않습니다.\n\n현재 font 에 맞는 기본형태로 텍스트가 표시됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>pixel 단위로 텍스트의 단어 사이 간격을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5360,7 +5360,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4614439492506289",
+      "id": "u_10_0.3772107513261982",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>Spin 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.Spin00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5374,7 +5374,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7810147310034999",
+      "id": "u_10_0.08822116506051492",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5435,7 +5435,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9082054616404478",
+      "id": "u_10_0.3541952276523812",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Spin00.addEventHandler( \"onmove\", this.Spin00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -5449,7 +5449,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6346314806498728",
+      "id": "u_10_0.6093512034824043",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5500,7 +5500,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.826936991895311",
+      "id": "u_10_0.9456016800754502",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Spin00.addEventHandlerLookup( \"onmove\", \"Spin00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5514,7 +5514,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9666006190943502",
+      "id": "u_10_0.6319166591011408",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5575,7 +5575,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4469575546215959",
+      "id": "u_09_0.7324691906969366",
       "type": "command",
       "content": "this.Spin.bringToFront();"
     },
@@ -5632,7 +5632,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5782468260077593",
+      "id": "u_09_0.9282633019590694",
       "type": "command",
       "content": "this.Spin.bringToPrev();"
     },
@@ -5689,7 +5689,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0360376831818392",
+      "id": "u_10_0.3156933642616453",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.Spin00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5703,7 +5703,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.41196485437899744",
+      "id": "u_10_0.3379903425725992",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5764,7 +5764,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9171688192761653",
+      "id": "u_09_0.5317304863546309",
       "type": "command",
       "content": "var bSucc = this.Spin00.destroy();"
     },
@@ -5774,7 +5774,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3740271162834722",
+      "id": "u_10_0.6664206032104437",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Spin 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nSpin 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5835,7 +5835,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8379264250037247",
+      "id": "u_10_0.2629871164455586",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.Spin00.findEventHandler( \"onmove\", this.Spin00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5849,7 +5849,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.23506212048006003",
+      "id": "u_10_0.1857996014164779",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5910,7 +5910,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6778606701287341",
+      "id": "u_09_0.5639383324944499",
       "type": "command",
       "content": "var nCaretpos = this.Spin00.getCaretPos();"
     },
@@ -5920,7 +5920,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6402399050429648",
+      "id": "u_10_0.8272699509498119",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>캐럿이 위치한 인덱스를 반환합니다.\n읽기 전용 상태이거나 Spin에 포커스가 없으면 \"-1\"을 반환합니다.\n\n첫번째 위치의 인덱스는 \"0\" 입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5981,7 +5981,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8028913019215002",
+      "id": "u_09_0.523855682892888",
       "type": "command",
       "content": "var strTxt = this.Spin00.getDisplayText() ;"
     },
@@ -5991,7 +5991,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30972262376628945",
+      "id": "u_10_0.04499061608907362",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Spin 에 표시된 텍스트값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6052,7 +6052,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5412303707869182",
+      "id": "u_10_0.16225149070295064",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = Spin00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -6066,7 +6066,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5342962430591358",
+      "id": "u_10_0.9637698459323277",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6117,7 +6117,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.1221673740438497",
+      "id": "u_09_0.4058382976643007",
       "type": "command",
       "content": "var nBottom = this.Spin.getOffsetBottom();"
     },
@@ -6127,7 +6127,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.39492556536117596",
+      "id": "u_10_0.2759501127128092",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Spin 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6188,7 +6188,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2647090425700497",
+      "id": "u_09_0.5859455312722078",
       "type": "command",
       "content": "var nHeight = this.Spin.getOffsetHeight();"
     },
@@ -6198,7 +6198,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9372120469321314",
+      "id": "u_10_0.405447545872886",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6269,7 +6269,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4261662754636776",
+      "id": "u_09_0.6321954552972607",
       "type": "command",
       "content": "var nleft = this.Spin.getOffsetLeft();"
     },
@@ -6279,7 +6279,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2345583527719589",
+      "id": "u_10_0.46593633514453425",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Spin 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6340,7 +6340,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7078316516740426",
+      "id": "u_09_0.8717793371400789",
       "type": "command",
       "content": "var nRight = this.Spin.getOffsetRight();"
     },
@@ -6350,7 +6350,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4628953260862727",
+      "id": "u_10_0.14406863563984185",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Spin 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6411,7 +6411,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2643823903967414",
+      "id": "u_09_0.44059397908068565",
       "type": "command",
       "content": "var nTop = this.Spin.getOffsetTop();"
     },
@@ -6421,7 +6421,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7273621458094219",
+      "id": "u_10_0.5487774509245779",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Spin 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6482,7 +6482,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.558681496226559",
+      "id": "u_09_0.9118499198200984",
       "type": "command",
       "content": "var nWidth = this.Spin.getOffsetWidth();"
     },
@@ -6492,7 +6492,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08803343035008893",
+      "id": "u_10_0.25567374804663234",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6563,7 +6563,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.37693248578156424",
+      "id": "u_09_0.26132811104200937",
       "type": "command",
       "content": "var nbottom = this.Spin.getPixelBottom();"
     },
@@ -6573,7 +6573,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5631256529855574",
+      "id": "u_10_0.7845804925587212",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6634,7 +6634,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9807904390744975",
+      "id": "u_09_0.974921563496678",
       "type": "command",
       "content": "var nheight = this.Spin.getPixelHeight();"
     },
@@ -6644,7 +6644,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.429669678804387",
+      "id": "u_10_0.8315809794262728",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6705,7 +6705,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6861569899163111",
+      "id": "u_09_0.9603407990608918",
       "type": "command",
       "content": "var nleft = this.Spin.getPixelLeft();"
     },
@@ -6715,7 +6715,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6088418845287626",
+      "id": "u_10_0.4514367141004235",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6776,7 +6776,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.23507342388074048",
+      "id": "u_09_0.6311011543858277",
       "type": "command",
       "content": "var nright = this.Spin.getPixelRight();"
     },
@@ -6786,7 +6786,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.45798610466583034",
+      "id": "u_10_0.6403135143098513",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6847,7 +6847,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.012088125768821234",
+      "id": "u_09_0.4777436032814809",
       "type": "command",
       "content": "var ntop = this.Spin.getPixelTop();"
     },
@@ -6857,7 +6857,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5178724050578616",
+      "id": "u_10_0.17762053888241458",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6918,7 +6918,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9370047533925464",
+      "id": "u_09_0.41148498439943326",
       "type": "command",
       "content": "var nwidth = this.Spin.getPixelWidth();"
     },
@@ -6928,7 +6928,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6524066376886253",
+      "id": "u_10_0.22062202899120675",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Spin 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6989,7 +6989,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.27535506543245725",
+      "id": "u_09_0.7290945590730581",
       "type": "command",
       "content": "var vArrSelect = this.Spin00.getSelect();"
     },
@@ -6999,7 +6999,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2206649786545447",
+      "id": "u_10_0.2944203533804919",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>- 선택한 텍스트의 시작 인덱스와 끝 인덱스를 배열로 반환합니다.\n- 선택한 텍스트가 없는 경우 현재 캐럿 위치의 인덱스 값을 배열 형태로 반환합니다.\n  예를 들어, 캐럿 위치의 인덱스 값이 1인 경우 [1, 1]을 반환합니다.\n- 텍스트 편집 영역의 상태를 확인할 수 없는 경우 [0, 0]을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7060,7 +7060,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.15117950431363714",
+      "id": "u_09_0.030007866713139708",
       "type": "command",
       "content": "var strText = this.Spin00.getSelectedText();"
     },
@@ -7070,7 +7070,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21508440175401822",
+      "id": "u_10_0.6171545662849373",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>- 편집영역에서 선택한 텍스트를 반환합니다.\n- 선택된 텍스트가 없을 경우 빈값을 반환합니다.\n- 텍스트 편집 영역의 상태를 확인할 수 없는 경우 빈값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7131,7 +7131,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4934571508454584",
+      "id": "u_10_0.923267123245476",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>Spin 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Spin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Spin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Spin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new Spin();\n\nobjComp.init( \"Spin00\", 30, 120, 196, 46 );\nobjComp.init( \"Spin00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Spin00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Spin00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Spin00\", \"Spin22:10\", 300, null, null, \"Spin33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -7192,7 +7192,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9143414800962734",
+      "id": "u_10_0.45163318298395316",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.Spin00.insertEventHandler( \"onmove\", 0, this.Spin00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -7206,7 +7206,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3897877925922517",
+      "id": "u_10_0.6643836202393086",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7267,7 +7267,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.606160909988985",
+      "id": "u_10_0.9710927808369475",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Spin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Spin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Spin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00.move(10,10);\nthis.Spin00.move(10,10,100,100);\nthis.Spin00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -7328,7 +7328,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.340573705842533",
+      "id": "u_10_0.3953662606314807",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.moveToNext( this.Button00 );\nthis.Spin.moveToNext( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -7389,7 +7389,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4077141453181171",
+      "id": "u_10_0.9292631947794991",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.moveToPrev( this.Button00 );\nthis.Spin.moveToPrev( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -7450,7 +7450,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6409492174083058",
+      "id": "u_10_0.41312831265275973",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>Spin 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.Spin00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -7464,7 +7464,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5468951828304968",
+      "id": "u_10_0.06513675964564036",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7525,7 +7525,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7473368733433621",
+      "id": "u_10_0.35801565312547157",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Spin00.removeEventHandler( \"onmove\", this.Spin00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -7539,7 +7539,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7573908922866271",
+      "id": "u_10_0.43842307309738526",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7600,7 +7600,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30418733528297814",
+      "id": "u_10_0.46761233313506767",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Spin00.removeEventHandlerLookup( \"onmove\", \"Spin00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7614,7 +7614,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.256969163863106",
+      "id": "u_10_0.8322522331632177",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7675,7 +7675,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.25268591742142177",
+      "id": "u_10_0.9245328330479695",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Spin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>Spin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Spin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Spin 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -7736,7 +7736,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.04405900730589174",
+      "id": "u_09_0.6928810871092449",
       "type": "command",
       "content": "this.Spin.sendToBack();"
     },
@@ -7793,7 +7793,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6040292977823875",
+      "id": "u_09_0.06879809370594536",
       "type": "command",
       "content": "this.Spin.sendToNext();"
     },
@@ -7850,7 +7850,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.44183041987616223",
+      "id": "u_10_0.44045773337674743",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>캐럿이 위치할 인덱스를 숫자로 설정합니다.\n인덱스는 0 부터 시작하며 \"0 ~ 텍스트길이\"까지 설정할 수 있습니다.\n\"-1\"을 설정할 경우 캐럿이 텍스트의 오른쪽 끝에 위치합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = this.Spin00.setCaretPos();\nbSucc = this.Spin00.setCaretPos(2);</div></td></tr></tbody></table>",
       "option": {
@@ -7864,7 +7864,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9798000611096228",
+      "id": "u_10_0.7032969517110327",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>캐럿 설정에 성공하면 \"true\"를 반환합니다.\n캐럿 설정에 실패하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7925,7 +7925,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16482447418212343",
+      "id": "u_10_0.976377798461219",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.Spin00.setEventHandler( \"onmove\", this.Spin00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -7939,7 +7939,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9644519501550017",
+      "id": "u_10_0.2316412014252951",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8000,7 +8000,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.49334531986307706",
+      "id": "u_10_0.647992954946934",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00_onmove = function( obj:nexacro.Spin,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.Spin00.setEventHandlerLookup( \"onmove\", \"Spin00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -8014,7 +8014,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5643269079727775",
+      "id": "u_10_0.6709063040306747",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8075,7 +8075,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3635951959988706",
+      "id": "u_10_0.4047519238903672",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bMoveScroll</td><td>Boolean</td><td colspan=\"2\"><div>부모 컴포넌트에 스크롤이 있을 경우 Spin 기준으로 스크롤을 이동할지 설정합니다.\n\ntrue 설정 시 Spin 이(가) 화면에 표시되도록 스크롤을 이동시킵니다.\nfalse 설정 시 Spin 의 위치에 관계없이 스크롤을 이동시키지 않습니다.\n\n값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td>bInnerFocus</td><td>Boolean</td><td colspan=\"2\"><div>Spin 이(가) 컨테이너 컴포넌트 일 때 자식 컴포넌트에게 포커스를 이동할지 설정합니다.\n\ntrue 설정 시 자식 컴포넌트 중 포커스를 받을 수 있는 첫번째 컴포넌트가 포커스 됩니다.\nfalse 설정 시 Spin 에 포커스 됩니다.\n\nSpin 이(가) 컨테이너 컴포넌트 일 때 값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objBefComp = this.Spin00.setFocus();\nvar objBefComp = this.Spin00.setFocus( true );\nvar objBefComp = this.Spin00.setFocus( true, false );</div></td></tr></tbody></table>",
       "option": {
@@ -8089,7 +8089,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5318945426208416",
+      "id": "u_10_0.8946945646537228",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Spin 이(가) 포커스되기 전에 포커스를 가졌던 컴포넌트를 반환합니다.\n\n포커스를 가진 컴포넌트가 없었거나 메소드 수행이 실패하는 경우에는 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8160,7 +8160,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6574343123952954",
+      "id": "u_10_0.6863297126679648",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Spin 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8221,7 +8221,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22675941311783243",
+      "id": "u_10_0.030536435010093066",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Spin 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8282,7 +8282,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9422869189870388",
+      "id": "u_10_0.01865266415564726",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Spin 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8343,7 +8343,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.610338129914573",
+      "id": "u_10_0.5369634388729784",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Spin 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -8404,7 +8404,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5940879384251709",
+      "id": "u_10_0.614764742655329",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Spin 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8465,7 +8465,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7796205501709634",
+      "id": "u_10_0.12807015025417645",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Spin 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8526,7 +8526,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.43446443983539706",
+      "id": "u_10_0.902553980711761",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMin</td><td>Number</td><td colspan=\"2\"><div>value 속성이 가질 수 있는 최소값을 실수로 설정합니다.</div></td></tr><tr><td>nMax</td><td>Number</td><td colspan=\"2\"><div>value 속성이 가질 수 있는 최대값을 실수로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Spin00.setRange(0, 100);</div></td></tr></tbody></table>",
       "option": {
@@ -8587,7 +8587,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10126490067178506",
+      "id": "u_10_0.4886261397846159",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBegin</td><td>Number</td><td colspan=\"2\"><div>선택할 영역의 시작 인덱스를 숫자로 설정합니다.\n\n인덱스는 0 부터 시작하며 \"0 ~ 텍스트길이\" 까지 설정할 수 있습니다.\n-1 을 설정하면 선택할 영역의 시작 위치가 오른쪽 끝으로 설정됩니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>nEnd</td><td>Number</td><td colspan=\"2\"><div>선택할 영역의 끝 인덱스를 숫자로 설정합니다.\n\n인덱스는 0 부터 시작하며 \"0 ~ 텍스트길이\" 까지 설정할 수 있습니다.\n-1 을 설정하면 선택할 영역의 끝 위치가 오른쪽 끝으로 설정됩니다.\n\n값 생략 시 -1 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\n\nthis.Spin00.setFocus();\n\nbSucc = this.Spin00.setSelect();\nbSucc = this.Spin00.setSelect( 3 );\nbSucc = this.Spin00.setSelect( 3, 5 );</div></td></tr></tbody></table>",
       "option": {
@@ -8601,7 +8601,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1915937669621497",
+      "id": "u_10_0.4177898338772229",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>지정된 영역의 선택에 성공하면 true 를 반환합니다.\n\n지정된 영역의 선택에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8662,7 +8662,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.410130015174484",
+      "id": "u_09_0.3304901183082878",
       "type": "command",
       "content": "this.Spin00.show();"
     },
@@ -8719,7 +8719,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9910304746663336",
+      "id": "u_09_0.6415930788240848",
       "type": "command",
       "content": "var bSucc = this.Spin00.updateToDataset();"
     },
@@ -8729,7 +8729,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9530931771653688",
+      "id": "u_10_0.6697447443391077",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>반영에 성공하면 \"true\"를 반환합니다.\n\n반영에 실패하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8806,7 +8806,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.517756437117751",
+      "id": "u_10_0.8839941086829423",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ChangeEventInfo\">ChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8820,7 +8820,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9464660629254393",
+      "id": "u_10_0.15889549218455679",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값을 \"true\"로 반환하면 변경된 value 속성값이 적용됩니다.\n이벤트에서 리턴값을 \"false\"로 반환하면 value 속성값을 변경하지 않습니다.\n\n이벤트에서 리턴값을 생략하면 \"true\"로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8836,7 +8836,7 @@
     {
       "id": "e_10_canchange",
       "type": "pre",
-      "content": "- Spin 의 편집영역에서 엔터키가 입력되거나 포커스가 나갈 때 canchange 이벤트가 발생합니다.\n\n- 스트립트로 value 속성값을 변경할 때는 canchange 이벤트가 발생하지 않습니다."
+      "content": "- Spin 의 편집영역에서 엔터키가 입력되거나 포커스가 나갈 때 canchange 이벤트가 발생합니다.\n\n- 스크립트로 value 속성값을 변경할 때는 canchange 이벤트가 발생하지 않습니다."
     },
     {
       "id": "e_01onchanged",
@@ -8882,7 +8882,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18395015047711782",
+      "id": "u_10_0.9172831860063921",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ChangeEventInfo\">ChangeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8944,7 +8944,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6129401965936063",
+      "id": "u_10_0.4868405721699647",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContextMenuEventInfo\">ContextMenuEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9016,7 +9016,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6407163359676122",
+      "id": "u_10_0.24219211064713175",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DeviceButtonEventInfo\">DeviceButtonEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9030,7 +9030,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5966932498335109",
+      "id": "u_10_0.6803505805764646",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\nfalse 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n반환값을 생략하면 false로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9092,7 +9092,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11161862928346411",
+      "id": "u_10_0.4134611656226572",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9106,7 +9106,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07598164918406292",
+      "id": "u_10_0.9454145590759374",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 드래그 상태가 되고 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 드래그 상태가 취소되고 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9168,7 +9168,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9936586434681256",
+      "id": "u_10_0.3719751805862379",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9182,7 +9182,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8345965814358807",
+      "id": "u_10_0.5555742441241317",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9244,7 +9244,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.07907249439799913",
+      "id": "u_10_0.38454750485741873",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9258,7 +9258,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.45551820071827",
+      "id": "u_10_0.5780822586723596",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9320,7 +9320,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7220353415451881",
+      "id": "u_10_0.8639168076492011",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9334,7 +9334,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.005777746884636725",
+      "id": "u_10_0.8632556104541036",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9396,7 +9396,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5381418021241232",
+      "id": "u_10_0.7128324777520156",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9410,7 +9410,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.061776829976200154",
+      "id": "u_10_0.604857505993612",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9472,7 +9472,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3706976969552125",
+      "id": "u_10_0.8457810802242812",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EditClickEventInfo\">EditClickEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9534,7 +9534,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5595267402782401",
+      "id": "u_10_0.9607562227298382",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#InputEventInfo\">InputEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9596,7 +9596,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12384967903923505",
+      "id": "u_10_0.34861003649167643",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9610,7 +9610,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2960743507699115",
+      "id": "u_10_0.19524020397882536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9692,7 +9692,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6661411724787988",
+      "id": "u_10_0.9603581621971625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9706,7 +9706,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.027557680436408494",
+      "id": "u_10_0.3998176695223131",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9768,7 +9768,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7695686489682837",
+      "id": "u_10_0.012865437862530249",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KillFocusEventInfo\">KillFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9830,7 +9830,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7090302426911819",
+      "id": "u_10_0.9609937145266368",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9844,7 +9844,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5693369311737788",
+      "id": "u_10_0.011300863232568625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9926,7 +9926,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2313599683749955",
+      "id": "u_10_0.31260839445646815",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9940,7 +9940,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.25775443551608734",
+      "id": "u_10_0.5702352198928288",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10022,7 +10022,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.21119681876436536",
+      "id": "u_10_0.6343414451283932",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10036,7 +10036,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.05021602804585512",
+      "id": "u_10_0.9711724868639315",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10098,7 +10098,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5853159453660686",
+      "id": "u_10_0.12762694784332862",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10112,7 +10112,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.21679944036508336",
+      "id": "u_10_0.3691446330158248",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10174,7 +10174,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4742067049502905",
+      "id": "u_10_0.02310950722469618",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10188,7 +10188,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.660816873404558",
+      "id": "u_10_0.3005085030968815",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10250,7 +10250,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13558454677124177",
+      "id": "u_10_0.2924078059334506",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\">MoveEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10302,7 +10302,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7477724575007203",
+      "id": "u_10_0.8273064627756677",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10316,7 +10316,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6526611197921522",
+      "id": "u_10_0.33546192048068635",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10388,7 +10388,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.837197163589485",
+      "id": "u_10_0.16593787736076582",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10402,7 +10402,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.09973003952462545",
+      "id": "u_10_0.4197849472502311",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10474,7 +10474,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6106821193771094",
+      "id": "u_10_0.8548738119774572",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SetFocusEventInfo\">SetFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10536,7 +10536,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.313689258901929",
+      "id": "u_10_0.5141980182324724",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\">SizeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10588,7 +10588,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.018481464635024758",
+      "id": "u_10_0.5793848595360035",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SpinEventInfo\">SpinEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10602,7 +10602,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6297104544275975",
+      "id": "u_10_0.23403380516615413",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값을 \"true\"로 반환하면 변경된 value 속성값이 적용됩니다.\n이벤트에서 리턴값을 \"false\"로 반환하면 value 속성값을 변경하지 않습니다.\n\n이벤트에서 리턴값을 생략하면 \"true\"로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10618,7 +10618,7 @@
     {
       "id": "e_10_onspin",
       "type": "pre",
-      "content": "- 값을 키보드로 입력하는 경우는 onspin 이벤트가 발생하지 않고 canchange, onchanged 이벤트가 발생합니다.\n\n- 스트립트로 value 속성값을 변경할 때는 canchange 이벤트가 발생하지 않습니다."
+      "content": "- 값을 키보드로 입력하는 경우는 onspin 이벤트가 발생하지 않고 canchange, onchanged 이벤트가 발생합니다.\n\n- 스크립트로 value 속성값을 변경할 때는 canchange 이벤트가 발생하지 않습니다."
     },
     {
       "id": "e_01ontouchend",
@@ -10664,7 +10664,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5859461528331656",
+      "id": "u_10_0.9536325055752087",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10678,7 +10678,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.13555305585294952",
+      "id": "u_10_0.6232163834107011",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10740,7 +10740,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08383634274081875",
+      "id": "u_10_0.024734515659799228",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10754,7 +10754,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08532502016978483",
+      "id": "u_10_0.4456804235885874",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10816,7 +10816,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6564218715731903",
+      "id": "u_10_0.9639260088952916",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>Spin</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10830,7 +10830,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9822831122900874",
+      "id": "u_10_0.23753180370925953",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
