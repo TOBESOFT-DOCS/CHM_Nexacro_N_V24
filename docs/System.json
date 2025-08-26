@@ -510,7 +510,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7135437856672395",
+      "id": "u_10_0.2948238331656804",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var navigatorFullName = system.navigatorfullname;</div></td></tr><tr><th>\"Nexacro N Engine (x86)\"</th><td colspan=\"2\"><div>Windows 넥사크로가 32bit 버전일 때 \"Nexacro N Engine (x86)\" 값을 갖습니다.</div></td></tr><tr><th>\"Nexacro N Engine (x64)\"</th><td colspan=\"2\"><div>Windows 넥사크로가 64bit 버전일 때 \"Nexacro N Engine (x64)\" 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -728,7 +728,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6409737149475124",
+      "id": "u_10_0.7743400158893415",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var osVersion = system.osversion;</div></td></tr></tbody></table>",
       "option": {
@@ -803,7 +803,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7797700036260449",
+      "id": "u_10_0.8122293118212487",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nTask = system.taskbarsize;</div></td></tr></tbody></table>",
       "option": {
@@ -869,7 +869,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.30143864682797006",
+      "id": "u_10_0.6156302816635815",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>window</td><td>Object</td><td colspan=\"2\"><div>window 객체를 설정합니다.</div></td></tr><tr><td>document</td><td>Object</td><td colspan=\"2\"><div>document 객체를 설정합니다.</div></td></tr><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>Application 의 AppVariables 에 등록할때 사용할 Key 값을 문자열로 설정합니다.</div></td></tr><tr><td>stradlurl</td><td>String</td><td colspan=\"2\"><div>Generate 된 \"xadl\" 파일의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>strDivId</td><td>String</td><td colspan=\"2\"><div>Generate 된 \"xfdl\" 파일이 로드될 사용자 Division 의 ID 를 설정합니다.</div></td></tr><tr><td>strxfdlurl</td><td>String</td><td colspan=\"2\"><div>Generate 된 \"xfdl\" 파일의 이름을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.attachChildFrame(window, document, \"nexacro\", \"nexacro.xadl.quickview.js\", \"div_user\", \"./Base/test.xfdl.js\");</div></td></tr></tbody></table>",
       "option": {
@@ -930,7 +930,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2621376128525179",
+      "id": "u_10_0.9300744180496039",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>arrPermissiontypes</td><td>Array</td><td colspan=\"2\"><div>설정 여부를 확인할 수 있는 권한 목록을 배열 형식으로 설정합니다.\n지정할 수 있는 값은 아래와 같습니다.\n\n// 공통 \nnexacro.DevicePermissionType.CALENDAR: \"calendar\" \nnexacro.DevicePermissionType.CAMERA: \"camera\" \nnexacro.DevicePermissionType.CONTACTS: \"contacts\" \nnexacro.DevicePermissionType.LOCATION: \"location\" \nnexacro.DevicePermissionType.MICROPHONE: \"microphone\" \n\n// Android \nnexacro.DevicePermissionType.PHONE: \"phone\" \nnexacro.DevicePermissionType.SMS: \"sms\" \nnexacro.DevicePermissionType.STORAGE: \"storage\" \n\n// iOS \nnexacro.DevicePermissionType.PHOTO: \"photo\" \nnexacro.DevicePermissionType.REMINDERS: \"reminders\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.checkDevicePermission([\"camera\",\"photo\"]);</div></td></tr></tbody></table>",
       "option": {
@@ -991,7 +991,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.04090531371488415",
+      "id": "u_09_0.06840399232521299",
       "type": "command",
       "content": "system.clearClipboard();"
     },
@@ -1058,7 +1058,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5319916767043589",
+      "id": "u_10_0.10753271342445803",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>변환할 x 좌표값의 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>nPosX</td><td>Number</td><td colspan=\"2\"><div>변환할 컴포넌트 기준의 x 좌표값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nX = system.clientToScreenX(this.Button00, 10);</div></td></tr></tbody></table>",
       "option": {
@@ -1072,7 +1072,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9097454951980795",
+      "id": "u_10_0.9033148897413334",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>스크린 기준의 x 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1133,7 +1133,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9968153942789938",
+      "id": "u_10_0.6341904585184466",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>변환할 y 좌표값의 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>nPosY</td><td>Number</td><td colspan=\"2\"><div>변환할 컴포넌트 기준의 y 좌표값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nY = system.clientToScreenY(this.Button00, 10);</div></td></tr></tbody></table>",
       "option": {
@@ -1147,7 +1147,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3032148803695227",
+      "id": "u_10_0.8509727145519679",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>스크린 기준의 y 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1208,7 +1208,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6519368858739464",
+      "id": "u_10_0.4693024193080102",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAlias</td><td>String</td><td colspan=\"2\"><div>절대경로로 변환하려는 Alias 가 포함된 경로를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strPath = system.convertRealPath(\"%INSTALLROOT%\");</div></td></tr></tbody></table>",
       "option": {
@@ -1222,7 +1222,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8845084175496148",
+      "id": "u_10_0.9406348173872231",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>실제 절대경로를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1283,7 +1283,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7535316876439918",
+      "id": "u_10_0.9990884422094797",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>URL 경로 또는 전화 걸기, 메일 보내기 기능을 실행하기 위한 정보를 문자열로 설정합니다.\nAndroid NRE, iOS/iPadOS NRE에서는 파일 또는 앱을 실행하기 위한 문자열을 설정할 수 있습니다. Remark 항목을 참고하세요.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.execBrowser(\"http://www.dummy.com\");\nsystem.execBrowser(\"mailto:test@dummy.com\");\nsystem.execBrowser(\"tel:2025550145\");</div></td></tr></tbody></table>",
       "option": {
@@ -1354,7 +1354,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22667611104914398",
+      "id": "u_10_0.4650756607382326",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>웹페이지 URL 경로를 문자열로 설정합니다.</div></td></tr><tr><td>bNewWindow</td><td>Boolean</td><td colspan=\"2\"><div>설정한 URL을 새창으로 열지 설정합니다.\n값을 설정하지 않으면 false로 설정됩니다.\n\n윈도우 운영체제 NRE만 지원합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.execDefaultBrowser(\"https://www.google.com/\")</div></td></tr></tbody></table>",
       "option": {
@@ -1415,7 +1415,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2326737893074049",
+      "id": "u_10_0.6034593290158722",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strCommand</td><td>String</td><td colspan=\"2\"><div>옵션예약어와 옵션값을 쌍으로 하여 실행옵션을 설정합니다.\n옵션값에 빈칸이 포함된 경우는 따옴표(\") 로 묶어야 합니다.\n\n-K : 어플리케이션을 구별하기 위한 키값을 문자열로 설정합니다.\n-S : 부트스트랩 경로를 설정합니다.\n-C : 컴포넌트가 설치된 경로를 설정합니다.\n-THR : 엔진 내부 통신 및 기타 Manager 의 쓰레드 수를 숫자로 설정합니다.\n          쓰레드의 갯수는 최소 3개, 최대 10개이며 기본값은 3 입니다.\n-SP : Splash Image 의 경로를 설정합니다.\n-SM : Splash Image 에 시스템 메시지가 표시되지 않도록 \"none\" 값을 설정합니다.\n         어플리케이션 실행 시 에러가 발생하면 \"none\" 값을 설정해도 에러 메시지가 표시됩니다.\n- LF : 어플리케이션의 Left 위치 좌표값을 설정합니다.\n-TP : 어플리케이션의 Top 위치 좌표값을 설정합니다.\n-WD : 어플리케이션의 너비를 픽셀단위 숫자로 설정합니다.\n-HT : 어플리케이션의 높이를 픽셀단위 숫자로 설정합니다.\n-LG : Loading Image 의 경로를 설정합니다.\n-TW : 엔진 내부 Manager 의 쓰레드가 대기할 최대시간을 설정합니다.\n-OO : 동일한 키의 어플리케이션의 실행을 한개만 허용할 지 Boolean 으로 설정합니다.\n-V : 어플리케이션이 실행될 때 추가될 Global 변수를 \"변수명:타입=값 변수명:타입=값\" 형식으로 설정합니다.\n       각 변수는 콤마(\",\")문자로 구분하여 설정합니다.\n       \"타입\"에 \"ev\"를 설정 시 Environment 의 Variables 영역에 변수가 추가됩니다.\n       \"타입\"에 \"ec\"를 설정 시 Environment 의 Cookies 영역에 변수가 추가됩니다.\n       \"타입\"을 설정하지 않거나 \"av\"를 설정 시 Application 의 Variables 영역에 변수가 추가됩니다.\n-SIE : 어플리케이션 실행 시 에러가 발생하면 에러 메시지를 표시하고 종료할 지 Boolean 으로 설정합니다.\n         옵션값 생략 시 false 로 적용됩니다.\n-CT : 초기 네트워크가 연결되어 있는지 체크하는 최대 대기시간을 설정합니다.\n         네트워크가 연결되어 있는지 여부를 어플리케이션이 구동되기 전에 체크합니다.\n         대기시간동안 네트워크가 연결여부가 확인되지 않으면 어플리케이션이 종료됩니다.\n-SCR : LayoutManager 에서 사용하기 위한 ScreenID 를 설정합니다.\n-CC : V8 엔진의 CodeCache 기능을 비활성화 하기위해 설정합니다.\n         \"NO\" 설정 시 CodeCache 기능을 사용하지 않습니다.\n         \"AL\" 설정 또는 옵션값 생략 시 CodeCache 기능이 활성화 됩니다.\n-AU : 어플리케이션이 실행될 때 엔진의 업데이트 여부를 설정합니다.\n         \"auto\" 설정 시 엔진을 최신버전으로 업데이트합니다.\n         \"manual\" 설정 시 엔진을 업데이트 하지 않습니다.\n-NC : 어플리케이션이 실행될 때 적용될 Config 파일의 경로와 파일명을 설정합니다.\n         Local 경로에 위치한 XML 형식의 파일만 설정할 수 있습니다.\n         파일명만 설정할 경우 nexacro.exe 위치와 동일한 경로에서 파일을 찾습니다.\n         옵션값 생략 시 \"%USERAPP%\\config\\\"+[Key] 경로에서 \"nexacro_config.xml\" 파일을 찾습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.execNexacro(\" -S \\\"file://c:\\\\prj1\\\\start.json\\\" -K \\\"key\\\" \");\nsystem.execNexacro(\" -S \\\"file://c:\\\\prj1\\\\start.json\\\" -K \\\"key\\\" -V \\\"val1:ev=EnvVal,val2:ec=EnvCook,val3:av=AppVal\");</div></td></tr></tbody></table>",
       "option": {
@@ -1476,7 +1476,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8324128366971285",
+      "id": "u_10_0.9395107500906168",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strShellCmd</td><td>String</td><td colspan=\"2\"><div>윈도우 셸에 전달할 값을 설정합니다.\n사용할 수 있는 형식은 아래와 같습니다.\n\n(1) 파일 경로+파일명\n사용자 PC의 파일 경로와 파일명을 지정하고 연결된 앱에서 실행됩니다.\nAlias로 설정하거나 직접 파일 경로를 지정할 수 있습니다.\n\n(2) URL\n\"http://\", \"https://\"로 시작하는 문자열은 URL 값으로 전달되며 기본 웹 브라우저에서 실행됩니다.\n\n(3) 이메일\n\"mailto:\"로 시작하는 문자열은 기본 이메일 앱에서 실행됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>// file name\nsystem.execShell(\"%MYDOCUMENT%test.png\"); // alias\nsystem.execShell(\"C:\\\\Users\\\\test\\\\Documents\\\\test.png\");\nsystem.execShell(\"file://C:\\\\Users\\\\test\\\\Documents\\\\test.png\");\n\n// url\nsystem.execShell(\"http://www.test.com\");\nsystem.execShell(\"http://www.test.com/test.png\");\n\n// email\nsystem.execShell(\"mailto:user00@test.com?subject=TestSubject&amp;cc=user01@test.com&amp;body=TestBody\");</div></td></tr></tbody></table>",
       "option": {
@@ -1537,7 +1537,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23769342926525683",
+      "id": "u_10_0.39882286668594447",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComponent</td><td>Object</td><td colspan=\"2\"><div>PDF 파일로 출력할 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strFileName</td><td>String</td><td colspan=\"2\"><div>출력할 PDF 파일명을 확장자를 포함해 설정합니다.\n운영체제 보안정책에 따라 설정할 수 있는 파일명에 제약이 있을 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = system.exportPDF(this.Grid00, \"document.pdf\");</div></td></tr></tbody></table>",
       "option": {
@@ -1551,7 +1551,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1811289434175698",
+      "id": "u_10_0.43585196253281566",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이미지 출력에 성공하면 true를 반환하고 실패하면 false를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1612,7 +1612,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7717746530012555",
+      "id": "u_10_0.6961732626854972",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strFormat</td><td>String</td><td colspan=\"2\"><div>시스템 클립보드에 데이터를 저장할 때 적용할 형식을 문자열로 설정합니다.\n\n\"CF_TEXT\" 설정 시 데이터를 텍스트 형식으로 저장합니다.\n\"CF_UNICODETEXT\" 설정 시 데이터를 유니코드 텍스트 형식으로 저장합니다.\n\"CF_CSV\" 설정 시 데이터를 CSV 형식으로 저장합니다.</div></td></tr><tr><td>objCallBackFunc</td><td>Object</td><td colspan=\"2\"><div>시스템 클립보드의 데이터가 반환될 CallBack 함수를 오브젝트 형태로 설정합니다.\n\n* Chrome, Opera 브라우저인 경우만 적용되는 파라미터입니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>CallBack 함수가 정의된 영역을 오브젝트 형태로 설정합니다.\n\n값 생략 시 window 로 적용됩니다.\n\n* Chrome, Opera 브라우저인 경우만 적용되는 파라미터입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varData = system.getClipboard(\"CF_TEXT\");\n\nthis.callback = function(data){ trace(data); };\nsystem.getClipboard(\"CF_TEXT\", this.callback, this);</div></td></tr></tbody></table>",
       "option": {
@@ -1626,7 +1626,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07676031939736583",
+      "id": "u_10_0.9194721465933337",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>시스템 클립보드의 데이터를 지정된 형식으로 반환합니다.\n\n* Chrome, Opera 브라우저는 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1687,7 +1687,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8119857350567053",
+      "id": "u_09_0.7655395583517427",
       "type": "command",
       "content": "system.getCursorX()"
     },
@@ -1697,7 +1697,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.770533704163572",
+      "id": "u_10_0.8002346002189002",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>마우스 커서가 위치한 곳의 x 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1758,7 +1758,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.46447816695913824",
+      "id": "u_09_0.6015607063969288",
       "type": "command",
       "content": "system.getCursorY()"
     },
@@ -1768,7 +1768,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8228419164308541",
+      "id": "u_10_0.9731622178163897",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>마우스 커서가 위치한 곳의 y 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1829,7 +1829,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8146400879958633",
+      "id": "u_10_0.9142891351467849",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nCursorX</td><td>Number</td><td colspan=\"2\"><div>스크린의 x 좌표 값을 설정합니다.</div></td></tr><tr><td>nCursorY</td><td>Number</td><td colspan=\"2\"><div>스크린의 y 좌표 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nMoniterIndex = system.getMonitorIndex(-10,10);</div></td></tr></tbody></table>",
       "option": {
@@ -1843,7 +1843,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.15557504470067163",
+      "id": "u_10_0.9769729208820945",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>좌표에 해당하는 모니터 번호를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1904,7 +1904,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9638092270795234",
+      "id": "u_10_0.5933199132605851",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>Package version code, Package version name을 배열로 반환합니다.\n\n[0] Package version code\n[1] Package version name</div></td></tr></tbody></table>",
       "option": {
@@ -1955,7 +1955,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2559450110298651",
+      "id": "u_09_0.12308006223248658",
       "type": "command",
       "content": "system.getScreenHeight()"
     },
@@ -1965,7 +1965,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.29732730887695447",
+      "id": "u_10_0.5832436517552896",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>스크린의 높이를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2016,7 +2016,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4118860235347871",
+      "id": "u_10_0.9257988016422919",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>x, y 좌표값을 반환할 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var x = system.getScreenPosition(this.Button00).x;\nvar y = system.getScreenPosition(this.Button00).y;</div></td></tr></tbody></table>",
       "option": {
@@ -2030,7 +2030,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9612564258727944",
+      "id": "u_10_0.999976730685179",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>애플리케이션이 실행된 스크린을 기준으로 설정한 컴포넌트의 x, y 좌표값을 속성으로 가지는 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2081,7 +2081,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0735356910770687",
+      "id": "u_10_0.3942653573878798",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComponent</td><td>Object</td><td colspan=\"2\"><div>출력할 컴포넌트를 오브젝트로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2095,7 +2095,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8386649635547762",
+      "id": "u_10_0.5850811343245172",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>HTML 문자열을 반환합니다.\n실행 환경에 따라 반환되는 HTML 변환 방식이 다릅니다.\n- WRE: 컴포넌트를 HTML 형태로 변환해 출력\n- NRE: 컴포넌트를 Base64 인코딩 데이터로 변환해 img 태그로 출력\n\n출력할 내용이 없거나 objComponet가 잘못 설정된 경우 빈 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2156,7 +2156,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4363620687943629",
+      "id": "u_10_0.8928278133659028",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonitorIndex</td><td>Number</td><td colspan=\"2\"><div>스크린정보를 가져올 모니터의 번호를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objRect  =  system.getScreenRect( 1 );</div></td></tr></tbody></table>",
       "option": {
@@ -2170,7 +2170,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4575116999677301",
+      "id": "u_10_0.8776138393466363",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>인수로 전달된 모니터의 스크린정보를 갖는 Rect 오브젝트를 반환합니다.\n\nRect 오브젝트는 \"left\", \"top\", \"right\", \"bottom\", \"width\", \"height\" 속성을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2231,7 +2231,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.02798922689268324",
+      "id": "u_10_0.5656112499034559",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonitorIndex</td><td>Number</td><td colspan=\"2\"><div>해상도를 가져올 모니터의 번호를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strRes = system.getScreenResolution(1);</div></td></tr></tbody></table>",
       "option": {
@@ -2245,7 +2245,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.45538186473355935",
+      "id": "u_10_0.8545855131002977",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>지정된 모니터의 해상도값을 문자열로 반환합니다.\n\n잘못된 모니터 번호를 입력 시 \"0\" 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2306,7 +2306,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.43540452730972146",
+      "id": "u_09_0.9127627408242681",
       "type": "command",
       "content": "system.getScreenWidth()"
     },
@@ -2316,7 +2316,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5701621311395156",
+      "id": "u_10_0.849354904715353",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>스크린의 너비를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2367,7 +2367,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6818668874530607",
+      "id": "u_10_0.8347404350028699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nMonitorIndex</td><td>Number</td><td colspan=\"2\"><div>주 모니터 여부를 판단할 모니터의 번호를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bPri = system.isPrimaryMonitor(1);</div></td></tr></tbody></table>",
       "option": {
@@ -2381,7 +2381,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9638790749496361",
+      "id": "u_10_0.1787589998546053",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>지정한 모니터가 주 모니터이면 \"true\" 를 반환합니다.\n지정한 모니터가 주 모니터가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2442,7 +2442,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23797375829709622",
+      "id": "u_10_0.7562393487753177",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComponent</td><td>Object</td><td colspan=\"2\"><div>프린터로 출력할 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>bHideDialog</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 프린터 설정창으로 표시하지 않고 출력합니다.\nfalse 설정 시 프린터로 출력 전에 프린터 설정창을 표시합니다.\n\n값 생략 시 true 로 적용됩니다.\n\n* Desktop WRE 는 지원하지 않으며 항상 false 로 적용됩니다.</div></td></tr><tr><td>strVAlign</td><td>String</td><td colspan=\"2\"><div>이미지가 용지에 출력될 수직위치를 설정합니다.\n\n\"top\" 설정 시 이미지가 용지의 상단에 출력됩니다.\n\"middle\" 설정 시 이미지가 용지의 중앙에 출력됩니다.\n\"bottom\" 설정 시 이미지가 용지의 하단에 출력됩니다.\n\n값 생략 시 \"middle\" 로 적용됩니다.\n\n* Desktop WRE 는 지원하지 않으며 항상 \"top\" 으로 적용됩니다.</div></td></tr><tr><td>strHAlign</td><td>String</td><td colspan=\"2\"><div>이미지가 용지에 출력될 수평위치를 설정합니다.\n\n\"left\" 설정 시 이미지가 용지의 좌측에 출력됩니다.\n\"center\" 설정 시 이미지가 용지의 중앙에 출력됩니다.\n\"right\" 설정 시 이미지가 용지의 우측에 출력됩니다.\n\n값 생략 시 \"center\" 로 적용됩니다.\n\n* Desktop WRE 는 지원하지 않으며 항상 \"left\" 로 적용됩니다.</div></td></tr><tr><td>bFitOnePage</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 이미지가 한페이지를 초과하는 경우 축소하여 한페이지로 출력합니다.\ntrue 설정 시 이미지가 한페이지보다 작은 경우 비율에 맞게 확대하여 한페이지로 출력합니다.\n\nfalse 설정 시 이미지 크기에 맞게 여러페이지로 출력합니다.\nfalse 설정 시 strVAlign 은 \"top\" 으로 적용되고, strHAlign 은 \"left\" 로 적용됩니다.\n\n값 생략 시 false 로 적용됩니다.\n\n* Desktop WRE 는 지원하지 않으며 항상 false 로 적용됩니다.</div></td></tr><tr><td>strOrientation</td><td>String</td><td colspan=\"2\"><div>용지가 출력되는 방향을 설정합니다.\n\n\"portrait\" 설정 시 용지에 세로 방향으로 출력됩니다.\n\"landscape\" 설정 시 용지에 가로 방향으로 출력됩니다.\n\n설정값은 bHideDialog 파라미터를 true 로 설정했을 때만 적용됩니다.\n값 생략 시 \"portrait\" 로 적용됩니다.\n\n* Windows NRE 만 지원하는 파라미터입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = system.print( this.Grid00 );\nbSucc = system.print( this.Grid00, false, \"top\", \"left\" );\nbSucc = system.print( this.Grid00, false, \"top\", \"left\", false );\nbSucc = system.print( this.Grid00, false, \"top\", \"left\", false, \"landscape\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2456,7 +2456,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7720448298033106",
+      "id": "u_10_0.902284903401844",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이미지 출력 요청에 성공하면 true 를 반환합니다.\n이미지 출력 요청에 실패하면 false 를 반환합니다.\n\n실제 프린트 성공과 관계없이 메소드 호출 성공유무를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2517,7 +2517,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16298722754117267",
+      "id": "u_10_0.4358018996675034",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>arrPermissionTypes</td><td>Array</td><td colspan=\"2\"><div>요청할 권한 목록을 배열 형식으로 설정합니다.\n지정할 수 있는 값은 아래와 같습니다.\n\n// 공통 \nnexacro.DevicePermissionType.CALENDAR: \"calendar\" \nnexacro.DevicePermissionType.CAMERA: \"camera\" \nnexacro.DevicePermissionType.CONTACTS: \"contacts\" \nnexacro.DevicePermissionType.LOCATION: \"location\" \nnexacro.DevicePermissionType.MICROPHONE: \"microphone\" \n\n// Android \nnexacro.DevicePermissionType.PHONE: \"phone\" \nnexacro.DevicePermissionType.SMS: \"sms\" \nnexacro.DevicePermissionType.STORAGE: \"storage\" \n\n// iOS \nnexacro.DevicePermissionType.PHOTO: \"photo\" \nnexacro.DevicePermissionType.REMINDERS: \"reminders\"</div></td></tr><tr><td>strDescription</td><td>String</td><td colspan=\"2\"><div>요청 권한에 대한 설명을 설정합니다. 사용자에 의해 거부된 권한을 요청하는 경우 대화상자에 표시합니다.\niOS 운영체제에서는 지원하지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.requestDevicePermission([\"camera\",\"location\"], \"Permissions required\");</div></td></tr></tbody></table>",
       "option": {
@@ -2578,7 +2578,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.11493110832569209",
+      "id": "u_10_0.503482107289813",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComponent</td><td>Object</td><td colspan=\"2\"><div>이미지로 출력할 컴포넌트를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>bWholeForm</td><td>Boolean</td><td colspan=\"2\"><div>컴포넌트가 Form 형태인 경우만 설정한 값이 적용됩니다.\n\ntrue 설정 시 스크롤에 의해 화면에 표시되지 않는 영역을 포함하여 전체 Form 을 이미지로 출력합니다.\nfalse 설정 시 현재 화면에 표시된 Form 영역만 이미지로 출력합니다.\n\n값을 설정하지 않으면 false 로 적용됩니다.</div></td></tr><tr><td>strImageType</td><td>String</td><td colspan=\"2\"><div>출력할 이미지 파일의 형식을 설정합니다.\n기본값은 \"JPG\"로 설정합니다.\n\n\"BMP\", \"BMP_MONO\", \"JPG\", \"TIF\", \"TIF_24\", \"TIF_MONO\", \"GIF\", \"PNG\" 를 설정할 수 있습니다.</div></td></tr><tr><td>strOptions</td><td>String</td><td colspan=\"2\"><div>출력할 이미지 파일의 이미지 압축률, 이미지 압축방식, DPI 해상도를 설정합니다.\n\n압축률은 이미지 형식이 \"JPG\" 일 때만 지원하며 \"Compress:압축비율\" 형식으로 설정합니다.\n압축비율은 \"0~100\" 범위의 정수값으로 설정합니다.\n이미지 형식이 \"JPG\" 일 때 값을 설정하지 않으면 50 으로 적용됩니다.\n\n압축방식은 이미지 형식이 \"TIF\" 일 때만 지원하며 \"Compress:압축종류\" 형식으로 설정합니다.\n압축종류는 \"NONE\", \"LZW\", \"CCITT3\", \"CCITT4\" 중 하나를 설정합니다.\n이미지 형식이 \"TIF\" 일 때 값을 설정하지 않으면 \"LZW\" 가 적용됩니다.\n\nDPI 해상도는 가로는 \"ResolutionX:해상도\" 형식으로, 세로는 \"ResolutionY:해상도\" 형식으로 설정합니다.\n해상도는 정수값으로 설정합니다.\n해상도를 설정하지 않으면 가로/세로 모두 96 으로 적용됩니다.\n\n각 옵션은 \"Compress:95;ResolutionX:300\"와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strResult;\n\nstrResult = system.saveToImageBase64String( this.Button00 );\nstrResult = system.saveToImageBase64String( this, true );\nstrResult = system.saveToImageBase64String( this.Div00.form, true );\nstrResult = system.saveToImageBase64String( this.Div00.form, true, \"TIF_MONO\",\"Compress:CCITT3;ResolutionX:300;ResolutionY:300\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2592,7 +2592,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7060559090247662",
+      "id": "u_10_0.45606508606483",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>- 컴포넌트의 이미지를 Base64 로 인코딩 된 문자열로 반환합니다.\n  인코딩에 실패하였을 경우 빈문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2653,7 +2653,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9835863262396999",
+      "id": "u_10_0.42255893076829487",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComponent</td><td>Object</td><td colspan=\"2\"><div>이미지 파일로 출력할 컴포넌트를 오브젝트 형태로 설정합니다.</div></td></tr><tr><td>strFileName</td><td>String</td><td colspan=\"2\"><div>출력할 이미지 파일의 이름을 설정합니다.</div></td></tr><tr><td>strImageType</td><td>String</td><td colspan=\"2\"><div>출력할 이미지 파일의 형식을 설정합니다.\n\"BMP\", \"BMP_MONO\", \"JPG\", \"TIF\", \"TIF_24\", \"TIF_MONO\", \"GIF\", \"PNG\" 를 설정할 수 있습니다.</div></td></tr><tr><td>strOptions</td><td>String</td><td colspan=\"2\"><div>출력할 이미지 파일의 이미지 압축률, 이미지 압축방식, DPI 해상도를 설정합니다.\n\n압축률은 이미지 형식이 \"JPG\" 일 때만 지원하며 \"Compress:압축비율\" 형식으로 설정합니다.\n압축비율은 \"0~100\" 범위의 정수값으로 설정합니다.\n이미지 형식이 \"JPG\" 일 때 값을 설정하지 않으면 50 으로 적용됩니다.\n\n압축방식은 이미지 형식이 \"TIF\" 일 때만 지원하며 \"Compress:압축종류\" 형식으로 설정합니다.\n압축종류는 \"NONE\", \"LZW\", \"CCITT3\", \"CCITT4\" 중 하나를 설정합니다.\n이미지 형식이 \"TIF\" 일 때 값을 설정하지 않으면 \"LZW\" 가 적용됩니다.\n\nDPI 해상도는 가로는 \"ResolutionX:해상도\" 형식으로, 세로는 \"ResolutionY:해상도\" 형식으로 설정합니다.\n해상도는 정수값으로 설정합니다.\n해상도를 설정하지 않으면 가로/세로 모두 96 으로 적용됩니다.\n\n각 옵션은 \"Compress:95;ResolutionX:300\"와 같이 \";\" 문자로 구분하여 설정합니다.</div></td></tr><tr><td>bWholeForm</td><td>Boolean</td><td colspan=\"2\"><div>컴포넌트가 Form 형태인 경우만 설정한 값이 적용됩니다.\n\ntrue 설정 시 스크롤에 의해 화면에 표시되지 않는 영역을 포함하여 전체 Form 을 이미지로 출력합니다.\nfalse 설정 시 현재 화면에 표시된 Form 영역만 이미지로 출력합니다.\n\n값을 설정하지 않으면 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = system.saveToImageFile(this.Grid00, \"test.jpg\",\"PNG\");\nbSucc = system.saveToImageFile(this.Button00, \"test.tif\",\"TIF_MONO\",\"Compress:CCITT3;ResolutionX:300;ResolutionY:300\");\nbSucc = system.saveToImageFile(this, \"test.png\",\"PNG\", \"\", true);\nbSucc = system.saveToImageFile(this.Div00.form, \"test.jpg\",\"JPG\", \"\", true);</div></td></tr></tbody></table>",
       "option": {
@@ -2667,7 +2667,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7065272935240361",
+      "id": "u_10_0.6276880581608805",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이미지 출력에 성공하면 true 를 반환합니다.\n\n이미지 출력에 실패하면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2728,7 +2728,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.39993376544729087",
+      "id": "u_10_0.9316652069776554",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>변환될 x 좌표값의 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>nPosX</td><td>Number</td><td colspan=\"2\"><div>변환할 스크린 기준의 x 좌표값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nX = system.screenToClientX(this.Button00, 10);</div></td></tr></tbody></table>",
       "option": {
@@ -2742,7 +2742,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2056708482016839",
+      "id": "u_10_0.9571586050281946",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>컴포넌트의 클라이언트 기준 x 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2813,7 +2813,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6018812135496283",
+      "id": "u_10_0.92509177037141",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>변환될 y 좌표값의 기준이 되는 컴포넌트를 설정합니다.</div></td></tr><tr><td>nPosY</td><td>Number</td><td colspan=\"2\"><div>변환할 스크린 기준의 y 좌표값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nY = system.screenToClientY(this.Button00, 10);</div></td></tr></tbody></table>",
       "option": {
@@ -2827,7 +2827,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.43634944684641785",
+      "id": "u_10_0.9469188810286697",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>컴포넌트의 클라이언트 기준 y 좌표값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2898,7 +2898,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.692683210030452",
+      "id": "u_10_0.03289477680770281",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strFormat</td><td>String</td><td colspan=\"2\"><div>시스템 클립보드에 데이터를 저장할 때 적용할 형식을 문자열로 설정합니다.\n\n\"CF_TEXT\" 설정 시 데이터를 텍스트 형식으로 저장합니다.\n\"CF_UNICODETEXT\" 설정 시 데이터를 유니코드 텍스트 형식으로 저장합니다.\n\"CF_CSV\" 설정 시 데이터를 CSV 형식으로 저장합니다.</div></td></tr><tr><td>varData</td><td>String</td><td colspan=\"2\"><div>저장할 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>system.setClipboard( \"CF_TEXT\", \"copy data\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2969,9 +2969,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.06835891966646546",
+      "id": "u_10_0.7668399320688458",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objChildframe</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 을 오브젝트로 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.\n\n값 생략 시 objChildFrame 에 설정된 ChildFrame 의 name 속성값이 설정됩니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 MainFrame 이 부모로 설정됩니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 Opener 로 설정될 Form 을 오브젝트로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Frame 의 Form 이 설정됩니다.\nobjParentFrame 파라미터를 null 로 설정하면 undefined 가 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = new ChildFrame();\nvar objParentFrame = this.getOwnerFrame();\n\nobjFrame.init( \"modalsync00\", 0, 0, 500, 500 );\nobjFrame.formurl = \"Base::Test00.xfdl\";\n\nvar vRtn = objFrame.showModalSync( objParentFrame, {a:'aaa', b:'bbb'}, this );\nvar vRtn = objFrame.showModalSync( objParentFrame, \"modalsync00\", null, this );</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objChildframe</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 을 오브젝트로 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.\n\n값 생략 시 objChildFrame 에 설정된 ChildFrame 의 name 속성값이 설정됩니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 MainFrame 이 부모로 설정됩니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>Modal 로 표시할 ChildFrame 의 Opener 로 설정될 Form 을 오브젝트로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Frame 의 Form 이 설정됩니다.\nobjParentFrame 파라미터를 null 로 설정하면 undefined 가 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = new ChildFrame();\nvar objParentFrame = this.getOwnerFrame();\n\nobjFrame.init( \"modalsync00\", 0, 0, 500, 500 );\nobjFrame.formurl = \"Base::Test00.xfdl\";\n\nvar vRtn = system.showModalSync( objFrame, objParentFrame, {a:'aaa', b:'bbb'}, this );\nvar vRtn = system.showModalSync( objFrame, \"modalsync00\", objParentFrame, null, this );</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -2983,7 +2983,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.025790643837904637",
+      "id": "u_10_0.44245038463496456",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Modal 로 표시된 ChildFrame 이 종료된 후 성공/실패 여부를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3044,7 +3044,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.476219334210481",
+      "id": "u_10_0.9534477866530983",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objChildFrame</td><td>Object</td><td colspan=\"2\"><div>Modal Window 로 표시할 ChildFrame 을 오브젝트로 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modal Window 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.\n\n값 생략 시 objChildFrame 에 설정된 ChildFrame 의 name 속성값이 설정됩니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modal Window 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 부모가 설정되지 않습니다.\n\nChildFrame 이외의 Object 설정 시 부모 Frame 을 사용할 수 없다는 의미의 OverLay Color 가 표시되지 않습니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modal Window 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>Modal Window 로 표시할 ChildFrame 의 Opener 로 설정될 Form 을 오브젝트로 설정합니다.\n\n값 생략 시 objParentFrame 에 설정된 Frame 의 Form 오브젝트가 설정됩니다.\nobjParentFrame 파라미터를 null 로 설정하면 undefined 가 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objCFrame = new ChildFrame();\n\nobjCFrame.init( \"moda00\", 0, 0, 500, 500 );\nobjCFrame.formurl = \"Base::Test00.xfdl\";\nvar ret = system.showModalWindow( objCFrame, \"modal00\", this.getOwnerFrame(), {a:'aaa', b:'bbb'}, this );</div></td></tr></tbody></table>",
       "option": {
@@ -3058,7 +3058,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5809004375431231",
+      "id": "u_10_0.4048597042737684",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Modal Window 로 표시된 ChildFrame 에서 close() 메소드에 설정한 파라미터값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
