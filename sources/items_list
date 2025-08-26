@@ -37,10 +37,6 @@
       "name": "AnimationTimelineItem"
     },
     {
-      "id": "AppInfo",
-      "name": "AppInfo"
-    },
-    {
       "id": "Application",
       "name": "Application"
     },
@@ -993,18 +989,6 @@
       "name": "PushMessageObject"
     },
     {
-      "id": "QRBarcode",
-      "name": "QRBarcode"
-    },
-    {
-      "id": "QRBarcodeEventInfo",
-      "name": "QRBarcodeEventInfo"
-    },
-    {
-      "id": "QRCodeGenerator",
-      "name": "QRCodeGenerator"
-    },
-    {
       "id": "Radio",
       "name": "Radio"
     },
@@ -1099,6 +1083,14 @@
     {
       "id": "SpinEventInfo",
       "name": "SpinEventInfo"
+    },
+    {
+      "id": "SpinField",
+      "name": "SpinField"
+    },
+    {
+      "id": "SpinFieldBoxControl",
+      "name": "SpinFieldBoxControl"
     },
     {
       "id": "SpinnerControl",
