@@ -77,7 +77,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.40258905436411196",
+      "id": "u_10_0.6088017824537072",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumLang</td><td>String</td><td colspan=\"2\"><div>에러메시지가 추가될 언어를 설정합니다.\n\n\"ko\" 설정 시 한국어 영역에 에러메시지를 추가합니다.\n\"en\" 설정 시 영어 영역에 에러메시지를 추가합니다.\n\"ja\" 설정 시 일본어 영역에 에러메시지를 추가합니다.\n\"zh\" 설정 시 중국어 영역에 에러메시지를 추가합니다.</div></td></tr><tr><td>strCode</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지의 코드를 문자열로 설정합니다.</div></td></tr><tr><td>strMsg</td><td>String</td><td colspan=\"2\"><div>추가될 에러메시지를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.addErrorMessage( \"en\", \"test_code\",\"Test Error Message\" ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -138,7 +138,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6178252260919158",
+      "id": "u_10_0.9944321144708689",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩된 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Decode( strInput ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -152,7 +152,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7867121119810118",
+      "id": "u_10_0.9415587577370043",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>디코딩된 결과 데이터를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -203,7 +203,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.31058158830242577",
+      "id": "u_10_0.48774507679473644",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strData</td><td>String</td><td colspan=\"2\"><div>Base64 형식으로 인코딩할 데이터를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strOutput = nexacro.base64Encode( strInput ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -217,7 +217,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5047488185335702",
+      "id": "u_10_0.7366983003932387",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Base64 형식으로 인코딩된 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -268,7 +268,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16379975457835294",
+      "id": "u_10_0.05469524748355814",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum\nnNum = nexacro.ceil(3.0123);      // nNum = 4\nnNum = nexacro.ceil(3.0123, 2);  // nNum = 3.02</div></td></tr></tbody></table>",
       "option": {
@@ -282,7 +282,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.590166764240583",
+      "id": "u_10_0.8402090110941418",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>올림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -343,7 +343,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.09542446743412625",
+      "id": "u_09_0.6682831517763516",
       "type": "command",
       "content": "nexacro.deleteCacheDB() ;"
     },
@@ -400,7 +400,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.038686100079451835",
+      "id": "u_10_0.18092407391991783",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>enumType</td><td>String</td><td colspan=\"2\"><div>어플리케이션이 아이콘이 깜빡이는 방식을 설정합니다.\n\n\"count\" 설정 시 지정된 횟수만큼 깜빡인 후 종료됩니다.\n\"timer\" 설정 시 \"stop\" 값으로 flashWindow() 메소드를 실행할 때까지 계속 깜빡입니다.\n\"timernofg\" 설정 시 해당 어플리케이션이 활성화 될 때까지 깜빡입니다.\n\"stop\" 설정 시 현재 깜빡이는 동작을 중지합니다.</div></td></tr><tr><td>nCount</td><td>Number</td><td colspan=\"2\"><div>enumType 값이 \"count\" 인 경우 깜박이는 횟수를 숫자로 설정합니다.\n\nenumType 값이 \"count\" 가 아닌 경우 설정값은 무시됩니다.</div></td></tr><tr><td>nInterval</td><td>Number</td><td colspan=\"2\"><div>어플리케이션 아이콘이 깜박이는 간격을 밀리초(milliseconds) 단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.flashWindow( \"count\", 10, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -461,7 +461,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.440693881531108",
+      "id": "u_10_0.35964408127864667",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>내림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.floor(9.9999);      // nNum = 9\nnNum = nexacro.floor(9.9999, 2);  // nNum = 9.99</div></td></tr></tbody></table>",
       "option": {
@@ -475,7 +475,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4567210648870479",
+      "id": "u_10_0.023618439574447758",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>내림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -536,7 +536,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8839077509154634",
+      "id": "u_09_0.609829746242336",
       "type": "command",
       "content": "nexacro.gc() ;"
     },
@@ -593,7 +593,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9869796478554579",
+      "id": "u_09_0.7867794717990616",
       "type": "command",
       "content": "var objApp = nexacro.getApplication() ;"
     },
@@ -603,7 +603,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.015986194495995254",
+      "id": "u_10_0.8735073765397525",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Application 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -654,7 +654,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.03551279976368504",
+      "id": "u_10_0.9498429069594619",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 값을 가져옵니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 값을 가져옵니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 값을 가져옵니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 값을 가져옵니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vCookie0 = nexacro.getCookieVariable(\"Cookie0\") ;\nvar vCookie1 = nexacro.getCookieVariable(\"Cookie1\", true) ;</div></td></tr></tbody></table>",
       "option": {
@@ -668,7 +668,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.30765212027146305",
+      "id": "u_10_0.003378509714537681",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Cookies 영역에 정의된 쿠키변수의 값을 반환합니다.\n\n조건에 만족하는 쿠키변수가 없을 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -729,7 +729,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8120024720867569",
+      "id": "u_10_0.4723830026688731",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능 설정여부를 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar bEnableZoom = nexacro.getEnableWheelZoom( objFrame )</div></td></tr></tbody></table>",
       "option": {
@@ -743,7 +743,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8119346140140972",
+      "id": "u_10_0.25562273178299555",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있으면 true 를 반환합니다.\n\n지정된 Frame 이 속한 window 에 Zoom 기능이 설정되어 있지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -804,7 +804,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3410429165318908",
+      "id": "u_09_0.7562519669323586",
       "type": "command",
       "content": "var objEnv = nexacro.getEnvironment() ;"
     },
@@ -814,7 +814,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7055399573219316",
+      "id": "u_10_0.5985549734890498",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Environment 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -865,7 +865,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5712946652715775",
+      "id": "u_10_0.873960909700582",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.getEnvironmentVariable(\"Env_Variable0\") ;</div></td></tr></tbody></table>",
       "option": {
@@ -879,7 +879,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7719612641353759",
+      "id": "u_10_0.5131692491823499",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>Environment 의 Variable 영역에 정의된 변수의 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -940,7 +940,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2686706561925877",
+      "id": "u_10_0.14061613445069543",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>값을 가져올 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vHTTPVal0 = nexacro.getHTTPHeaderVariable(\"HeaderVal00\") ;</div></td></tr></tbody></table>",
       "option": {
@@ -991,7 +991,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8170712889633449",
+      "id": "u_09_0.4738991511563624",
       "type": "command",
       "content": "var strLogFilePath = nexacro.getLogFilePath();"
     },
@@ -1001,7 +1001,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.27422258279403433",
+      "id": "u_10_0.7496461033436725",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>로그 파일이 저장된 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1062,7 +1062,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2128707836896172",
+      "id": "u_10_0.3670497676875196",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>기준 Frame 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 Remark 에 설명된 조건에 따라 적용되는 Frame 이 달라질 수 있으므로 주의하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var arrPopFrame = nexacro.getPopupFrames() ;\nvar arrPopFrame = nexacro.getPopupFrames( this.getOwnerFrame() ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -1076,7 +1076,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2720597424060317",
+      "id": "u_10_0.7255869895239128",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Array</td><td><div>파라미터로 설정한 Frame 이 속한 Window 에서 팝업으로 실행된 Frame 을 Collection 형태로 반환합니다.\n\nobjFrame 파라미터에 null 또는 잘못된 값을 설정할 경우 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1137,7 +1137,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23595238683755082",
+      "id": "u_10_0.9159830934407793",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장할 때 설정했던 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vPrivate0 = nexacro.getPrivateProfile( \"aa\" ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -1151,7 +1151,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.09682498304645826",
+      "id": "u_10_0.26615675105049497",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>인수로 전달된 키값에 해당하는 개인화 데이터를 저장 시 설정한 데이터 타입으로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1212,7 +1212,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8381110199840298",
+      "id": "u_09_0.47656769678384825",
       "type": "command",
       "content": "var strPrjPath = nexacro.getProjectPath();"
     },
@@ -1222,7 +1222,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.08110494628185838",
+      "id": "u_10_0.877657333151536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>애플리케이션의 실행 경로를 문자열로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1273,7 +1273,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4788714462993552",
+      "id": "u_10_0.1000080004881303",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>StringResource에서 가져올 문자열에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strResource = nexacro.getStringResourceValue(\"A0001\");</div></td></tr></tbody></table>",
       "option": {
@@ -1287,7 +1287,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.512333858407621",
+      "id": "u_10_0.1773018734817169",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>StringResource에서 지정한 Key 값에 해당하는 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1338,7 +1338,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3352788252940053",
+      "id": "u_10_0.45268700360912306",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText </td><td>String</td><td colspan=\"2\"><div>화면에 표시될 텍스트를 설정합니다.</div></td></tr><tr><td>strFont</td><td>String</td><td colspan=\"2\"><div>텍스트에 적용될 폰트정보를 font 속성 형식에 맞게 설정합니다.\n\n컴포넌트의 font 속성에 값이 설정되어 있다면 font 속성을 설정할 수 있습니다.</div></td></tr><tr><td>nLimitWidth</td><td>Number</td><td colspan=\"2\"><div>텍스트가 표시되는 영역의 최대 너비를 pixel 단위의 숫자로 설정합니다.\n\nstrWordWrap 값이 \"none\" 또는 \"line\" 이면 nLimitWidth 에 설정된 값은 무시됩니다.\nstrWordWrap 값이 \"char\" 또는 \"english\" 일 경우 nLimitWidth 값에 맞게 텍스트가 줄바꿈되어 표시됩니다.</div></td></tr><tr><td>strWordWrap</td><td>String</td><td colspan=\"2\"><div>텍스트가 줄바꿈 되는 기준을 설정합니다.\n\n\"none\" 설정 시 텍스트에 포함된 개행문자와 nLimitWidth 값이 무시되어 한줄로 표시됩니다.\n\"line\" 설정 시 nLimitWidth 값은 무시되고 텍스트에 포함된 개행문자를 기준으로 줄바꿈이 됩니다.\n\"char\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\"english\" 설정 시 nLimitWidth 값을 기준으로 글자 단위로 줄바꿈이 됩니다.\n\n\"char\", \"english\" 설정 시 텍스트에 포함된 개행문자에 의해서도 줄바꿈이 됩니다.</div></td></tr><tr><td>refObj</td><td>Object</td><td colspan=\"2\"><div>strFont의 단위가 \"em\"인 경우 상대적인 크기를 설정할 기준 컴포넌트(오브젝트)를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Static00.font = \"italic bold 10pt Arial\";\n\nvar strText = \"Sample Text\";\n\nvar objSize = nexacro.getTextSize( strText, this.Static00.font );\nvar objSize2 = nexacro.getTextSize( strText, \"italic bold 10pt Arial\", 100, \"char\" );\nvar objSize3 = nexacro.getTextSize( strText, \"italic bold 2em Arial\", this );\n\ntrace( objSize.nx + \",\" + objSize.ny );\ntrace( objSize2.nx + \",\" + objSize2.ny );\ntrace( objSize3.nx + \",\" + objSize3.ny );</div></td></tr></tbody></table>",
       "option": {
@@ -1352,7 +1352,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4361301086281081",
+      "id": "u_10_0.5858781294220468",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>인수값을 기준으로 계산된 텍스트가 표시되는 영역의 크기 정보를 오브젝트로 반환합니다.\n\n반환된 오브젝트의 \"nx\" 속성에 텍스트의 가로크기가 저장됩니다.\n반환된 오브젝트의 \"ny\" 속성에 텍스트의 세로크기가 저장됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1423,7 +1423,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.13234648973548035",
+      "id": "u_10_0.3443669043258555",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 확인할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일한 결과를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nvar nZoomScale = nexacro.getWheelZoom( objFrame );</div></td></tr></tbody></table>",
       "option": {
@@ -1437,7 +1437,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8978612310997042",
+      "id": "u_10_0.2542712368903194",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>지정된 Frame 이 속한 window 의 Zoom 배율을 \"%\" 단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1498,7 +1498,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9243074031627727",
+      "id": "u_10_0.2857868528085148",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlpha(97);       // true, 97 = 'a'\nbRet = nexacro.isAlpha(\"aaa\");  // true</div></td></tr></tbody></table>",
       "option": {
@@ -1512,7 +1512,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.37206632430163256",
+      "id": "u_10_0.5272864140455018",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳이 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1563,7 +1563,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.05751710780009922",
+      "id": "u_10_0.5790064812508271",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 또는 숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳과 숫자로만 이루어져 있는지 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isAlphaNumeric(97);            // true , 97 = 'a'\nbRet = nexacro.isAlphaNumeric(\"123abc\");   // true</div></td></tr></tbody></table>",
       "option": {
@@ -1577,7 +1577,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.38325671049436083",
+      "id": "u_10_0.2660920626814369",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드가 알파벳 또는 숫자이면 \"true\" 를 반환합니다.\n전달된 문자열이 알파벳과 숫자로만 이루어져 있다면 \"true\" 를 반환합니다.\n\n전달된 문자코드가 알파벳 또는 숫자가 아니면 \"false\" 를 반환합니다.\n전달된 문자열에 알파벳과 숫자 이외의 문자가 있다면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1628,7 +1628,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8232407960879533",
+      "id": "u_10_0.314613726824265",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>존재여부를 확인할 쿠키변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수의 존재여부를 확인합니다.\n\ntrue 설정 시 쿠키변수가 존재하고 Secure 속성값이 true 일 때만 true 를 반환합니다.\nfalse 설정 시 쿠키변수가 존재하고 Secure 속성값이 false 일 때만 true 를 반환합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수의 존재여부를 확인합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.isExistCookieVariable( \"Cookie0\" ) ;\nnexacro.isExistCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -1642,7 +1642,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9127801757020338",
+      "id": "u_10_0.3738571605469443",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Cookies 영역에 쿠키변수가 존재하면 true 를 반환합니다.\nCookies 영역에 쿠키변수가 존재하지 않으면 false 를 반환합니다.\n\nbSecure 설정 시 bSecure 에 설정한 값까지 일치할 경우 true 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1693,7 +1693,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.41993191901056115",
+      "id": "u_10_0.0011806947544649171",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 소문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 소문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isLower(97);       // true , 97 = 'a'\nbRet = nexacro.isLower(\"abC\");  // false</div></td></tr></tbody></table>",
       "option": {
@@ -1707,7 +1707,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4200570872915095",
+      "id": "u_10_0.670261353800344",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 소문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 소문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1758,7 +1758,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3828217702730161",
+      "id": "u_10_0.004411833106022334",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>숫자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>숫자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isNumeric(97);      // false , 97 = 'a'\nbRet = nexacro.isNumeric(\"123\");  // true</div></td></tr></tbody></table>",
       "option": {
@@ -1772,7 +1772,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9061446943871464",
+      "id": "u_10_0.5245437720882004",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 숫자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 숫자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1823,7 +1823,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6460286096646779",
+      "id": "u_10_0.038994361832646374",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>공백문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>공백문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isSpace(0);        // false , 0 = Null\nbRet = nexacro.isSpace(32);      // true , 32 = Space\nbRet = nexacro.isSpace(97);      // false , 97 = 'a'\nbRet = nexacro.isSpace(\"\");       // true\nbRet = nexacro.isSpace(\" \");      // true</div></td></tr></tbody></table>",
       "option": {
@@ -1837,7 +1837,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6645864272497972",
+      "id": "u_10_0.4124224621492516",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 공백문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 공백문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1888,7 +1888,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09033019179140123",
+      "id": "u_10_0.8188920189411905",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nChar</td><td>Number</td><td colspan=\"2\"><div>알파벳 대문자에 대응하는 코드값인지 확인 할 10진수 숫자를 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>알파벳 대문자 여부를 확인 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bRet;\nbRet = nexacro.isUpper(65);        // true , 65 = 'A'\nbRet = nexacro.isUpper(\"abC\");   // false</div></td></tr></tbody></table>",
       "option": {
@@ -1902,7 +1902,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7200366072999593",
+      "id": "u_10_0.0697915026082705",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>전달된 문자코드 또는 문자열이 알파벳 대문자이면 \"true\" 를 반환합니다.\n전달된 문자코드 또는 문자열이 알파벳 대문자가 아니면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1953,7 +1953,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7915884404551512",
+      "id": "u_10_0.5502179267506035",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strLang</td><td>String</td><td colspan=\"2\"><div>StringResource에서 로드할 대상 언어를 설정합니다.\n\nstrLang 파라미터 값만 설정한 경우 아래와 같은 상황에서는 메서드가 동작하지 않습니다.\n- 제너레이트 된 StringResource 파일이 없는 경우\n- Environment.usestringresource 속성값이 false인 경우</div></td></tr><tr><td>strUrl</td><td>String</td><td colspan=\"2\"><div>StringResource 정보를 갱신하기 위한 서비스 URL을 문자열로 설정합니다.\n\n- strUrl 파라미터 값 설정 시 Environment.usestringresource 속성값과 상관없이 동작합니다.\n- 반환되는 값은 지정한 언어 데이터를 포함한 JSON 파일 형식이어야 합니다.\n\n* strLang 파라미터 값을 설정한 경우\nstrLang 파라미터값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.\nURL 문자열 형태에 따라 URL 호출 시점에 lang=[strLang] 매개변수를 추가합니다.\n- 매개변수가 있는 경우: ⟨=[strLang] 추가\n  예) http://dummy.com/i18n?test=true\n       -&gt; http://dummy.com/i18n?test=true⟨=ja\n- 매개변수가 없는 경우: ?lang=[strLang] 추가\n  예) http://dummy.com/i18n\n       -&gt; http://dummy.com/i18n?lang=ja\n\n* strUrl 파라미터 값만 설정한 경우\nEnvironment.locale 속성값을 기준으로 해당하는 언어 데이터를 탐색하고 로드합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStringResource(\"ja\");\nnexacro.loadStringResource(\"ja\", \"https://dummy.com/i18n\");\nnexacro.loadStringResource(\"https://dummy.com/i18n\");</div></td></tr></tbody></table>",
       "option": {
@@ -2014,7 +2014,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5223804269905085",
+      "id": "u_10_0.3402874166313159",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strURL</td><td>String</td><td colspan=\"2\"><div>어플리케이션에 적용시킬 XCSS 파일경로를 \"xcssrc::[FileID]\" 형식으로 설정합니다.\n\n파일경로의 \"xcssrc::\" 는 고정 Prefix 값으로 수정할 수 없습니다.\nXCSS 파일은 Resource Service 영역의 \"./_resource_/_xcss_\" 에 위치하여야 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.loadStyle( \"xcssrc::theme1.xcss\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2067,7 +2067,7 @@
     {
       "id": "m_06_open",
       "type": "command",
-      "content": "nexacro.open( strID, strFormURL, objParentFrame, {objArguList}, strOpenStyle, nLeft, nTop [, nWidth, nHeight [, objOpener [, strExtOpenStyle ]]])"
+      "content": "nexacro.open( strID, strFormURL, objParentFrame, {objArguList}, strOpenStyle, nLeft, nTop [, nWidth, nHeight [, objOpener [, strExtOpenStyle [, strReturnType ]]]])"
     },
     {
       "id": "m_07_open",
@@ -2075,9 +2075,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3275715949314596",
+      "id": "u_10_0.44045691194384484",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strFormURL</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 로딩될 Form 을 URL 로 설정합니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 부모가 설정되지 않습니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>strOpenStyle</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 적용될 속성값을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n\nChildFrame 의 일부 속성을 설정할 수 있으며 각 속성은 공백(Space)으로 구분합니다.\nChildFrame 의 CSS 관련 속성은 설정할 수 없습니다. (예: background, -nexa-border, font 등)\n\n\"dragmovetype\" 속성의 \"all\" 값은 Windows NRE 만 지원합니다.\n\"layered\" 속성은 Windows NRE 와 macOS NRE 만 지원합니다.\n\"openstatus\" 속성의 \"maximize\" 값은 Windows NRE만 지원합니다.\n\"openstatus\" 속성의 \"normal\", \"minimize\" 값은 Windows NRE 만 지원합니다.\n\"titlebar\" 속성은 Windows NRE 환경만 지원합니다.\n\"showstatusbar\" 속성은 Windows NRE만 지원합니다.</div></td></tr><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 left 값을 설정합니다.</div></td></tr><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 top 값을 설정합니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 width 값을 설정합니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 height 값을 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>opener 로 설정할 Form 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Form 이 설정됩니다.</div></td></tr><tr><td>strExtOpenStyle</td><td>String</td><td colspan=\"2\"><div>ChildFrame 이 표시될 때 추가적으로 적용될 속성을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n환경에 따라 설정할 수 있는 속성이 다르며 각 속성은 공백(Space)으로 구분합니다.\n\n\n* Windows NRE 환경에서만 지원하는 속성으로 생략 시 false 로 적용됩니다.\n\"noactivate\" 속성에 true 설정 시 표시된 ChildFrame 이 활성화 되지 않습니다.\n\"noactivate\" 속성에 false 설정 시 표시된 ChildFrame 이 활성화 되어 포커스를 갖습니다.\n\"noactivate\" 속성은 표시된 ChildFrame 에 포커스를 이동하지 않으려 할 때 사용합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"location=true menubar=true toolbar=true\");\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"noactivate=true\");</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>strFormURL</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 로딩될 Form 을 URL 로 설정합니다.</div></td></tr><tr><td>objParentFrame</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 부모 Frame 을 Object 형태로 설정합니다.\n\nnull 설정 시 부모가 설정되지 않습니다.</div></td></tr><tr><td>objArguList</td><td>Object</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 추가될 변수리스트를 \"{변수명:변수값 , 변수명:변수값}\" 형식으로 설정합니다.</div></td></tr><tr><td>strOpenStyle</td><td>String</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 에 적용될 속성값을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n\nChildFrame 의 일부 속성을 설정할 수 있으며 각 속성은 공백(Space)으로 구분합니다.\nChildFrame 의 CSS 관련 속성은 설정할 수 없습니다. (예: background, -nexa-border, font 등)\n\n\"dragmovetype\" 속성의 \"all\" 값은 Windows NRE 만 지원합니다.\n\"layered\" 속성은 Windows NRE 와 macOS NRE 만 지원합니다.\n\"openstatus\" 속성의 \"maximize\" 값은 Windows NRE만 지원합니다.\n\"openstatus\" 속성의 \"normal\", \"minimize\" 값은 Windows NRE 만 지원합니다.\n\"showtitlebar\" 속성은 Windows NRE 환경만 지원합니다.\n\"showstatusbar\" 속성은 Windows NRE만 지원합니다.</div></td></tr><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 left 값을 설정합니다.</div></td></tr><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 top 값을 설정합니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 width 값을 설정합니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Modeless Window 로 표시할 ChildFrame 의 height 값을 설정합니다.</div></td></tr><tr><td>objOpener</td><td>Object</td><td colspan=\"2\"><div>opener 로 설정할 Form 을 오브젝트 형태로 설정합니다.\n\n값 생략 시 objParentFrame 파라미터에 설정된 Form 이 설정됩니다.</div></td></tr><tr><td>strExtOpenStyle</td><td>String</td><td colspan=\"2\"><div>ChildFrame 이 표시될 때 추가적으로 적용될 속성을 \"속성명1=속성값1 속성명2=속성값2\" 형식으로 설정합니다.\n환경에 따라 설정할 수 있는 속성이 다르며 각 속성은 공백(Space)으로 구분합니다.\n\n\n* Windows NRE 환경에서만 지원하는 속성으로 생략 시 false 로 적용됩니다.\n\"noactivate\" 속성에 true 설정 시 표시된 ChildFrame 이 활성화 되지 않습니다.\n\"noactivate\" 속성에 false 설정 시 표시된 ChildFrame 이 활성화 되어 포커스를 갖습니다.\n\"noactivate\" 속성은 표시된 ChildFrame 에 포커스를 이동하지 않으려 할 때 사용합니다.</div></td></tr><tr><td>strReturnType</td><td>String</td><td colspan=\"2\"><div>반환값 타입을 설정합니다.\n값을 설정하지 않으면 Modeless Window 표시 성공/실패 여부를 반환합니다.\n값을 설정하는 경우 다음과 같이 반환값 타입이 정해집니다.\n- \"promise\": Promise 오브젝트를 반환합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc;\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this);\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"location=true menubar=true toolbar=true\");\nbSucc = nexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"noactivate=true\");\n\nnexacro.open(\"modeless\", \"Base::Form01.xfdl\",  this.getOwnerFrame(), {a:'aaa', b:'bbb'}, \"showtitlebar=true showstatusbar=false\", 0, 0, 640, 480, this, \"noactivate=true\", \"promise\").then((result) =&gt; {\n   trace(\"Closed popup\"); \n }).catch((err) =&gt; {\n   trace(\"Failed to open popup: \" + err.message);\n });</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -2089,9 +2089,9 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6700426170333031",
+      "id": "u_10_0.822887623003584",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>Modeless Window 가 정상으로 표시되면 true 를 반환합니다.\n\nModeless Window 가 정상으로 표시되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean, Object</td><td><div>returnType 설정값에 따라 반환값 타입이 달라집니다.\n\n- 설정값 없음: (Boolean) \n  Modeless Window 정상 표시 여부를 반환합니다.\n\n- \"promise\": (Object)\n  Promise 오브젝트를 반환합니다.\n  Promise 오브젝트는 자바스크립트 표준 내장 객체입니다.\n  내부적으로 resolve 수행 시점은 Modeless Window가 종료되는 시점입니다.</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,?",
         "codeLanguage": "Javascript"
@@ -2160,7 +2160,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8921405363123663",
+      "id": "u_10_0.1466617578433944",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strDate</td><td>String</td><td colspan=\"2\"><div>날짜형식의 문자열을 설정합니다.\n\n유효하지 않은 날짜형식의 문자열은 오류로 처리됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.parseDate(\"1999-10-10\");     // 939481200000</div></td></tr></tbody></table>",
       "option": {
@@ -2174,7 +2174,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8889541671078136",
+      "id": "u_10_0.11480125042345424",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>1970년 1월 1일 자정부터 인수로 전달된 날짜 사이의 시간을 밀리초로 반환합니다.\n\n유효하지 않은 날짜형식으로 오류로 처리되면 undefined 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2235,7 +2235,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7705660080756659",
+      "id": "u_10_0.3682698433519238",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>Secure 속성값에 따라 쿠키변수를 제거합니다.\n\ntrue 설정 시 쿠키변수의 Secure 속성값이 true 일 때만 쿠키변수를 제거합니다.\nfalse 설정 시 쿠키변수의 Secure 속성값이 false 일 때만 쿠키변수를 제거합니다.\n\n값 생략 시 Secure 속성값에 관계없이 쿠키변수를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeCookieVariable( \"Cookie0\" ) ;\nnexacro.removeCookieVariable( \"Cookie1\", true ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -2296,7 +2296,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22726795619242635",
+      "id": "u_10_0.14708358654415177",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeEnvironmentVariable( \"Env_Variable0\" ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -2357,7 +2357,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7136192158133274",
+      "id": "u_10_0.35792373417961",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>제거될 변수의 ID 를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removeHTTPHeaderVariable( \"HeaderVal00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2408,7 +2408,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5532355548348398",
+      "id": "u_10_0.7056029692039677",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>삭제할 개인화 데이터의 키값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.removePrivateProfile(\"aa\");</div></td></tr></tbody></table>",
       "option": {
@@ -2459,7 +2459,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2695248379764146",
+      "id": "u_10_0.5729172558363517",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>변환을 수행할 전체 문자열을 설정합니다.</div></td></tr><tr><td>strOrgText</td><td>String</td><td colspan=\"2\"><div>strText 값에서 새 문자열로 변환될 문자열을 설정합니다.</div></td></tr><tr><td>strRepText</td><td>String</td><td colspan=\"2\"><div>strOrgText 값의 문자열 대신 변환할 문자열을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2473,7 +2473,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7171355120647122",
+      "id": "u_10_0.24942650902706265",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>특정 문자열을 새 문자열로 변환한 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2524,7 +2524,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32061277211596295",
+      "id": "u_10_0.6676863160585691",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nVal</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 숫자값을 설정합니다.</div></td></tr><tr><td>nFractionDigit</td><td>Number</td><td colspan=\"2\"><div>반올림을 수행할 자릿수를 설정합니다.\n\n\"0\" 설정 시 소숫점 자리가 기준이 됩니다.\n양수 설정 시 소숫점 자리 이하가 기준이 됩니다.\n음수 설정 시 소숫점 자리 이상이 기준이 됩니다.\n\n값 생략 시 \"0\" 으로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nNum;\nnNum = nexacro.round(1.4915);         // 1 \nnNum = nexacro.round(1.4915, 2);     // 1.49  \nnNum = nexacro.round(1.5163);         // 2\nnNum = nexacro.round(1.5163, 2);     // 1.52\nnNum = nexacro.round(1024.256, -1); // 1020\nnNum = nexacro.round(1024.256, -2); // 1000\nnNum = nexacro.round(1024.256, -4); // 0</div></td></tr></tbody></table>",
       "option": {
@@ -2538,7 +2538,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5128967889739654",
+      "id": "u_10_0.07450026615758565",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>반올림한 값을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2599,7 +2599,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.15873176591031668",
+      "id": "u_10_0.97168712257718",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 쿠키변수가 갖는 값을 설정합니다.</div></td></tr><tr><td>bSecure</td><td>Boolean</td><td colspan=\"2\"><div>추가될 쿠키변수의 Secure 속성 여부를 설정합니다.\n\ntrue 로 설정 시 HTTP 통신일 때 쿠키변수를 포함시키지 않습니다.\ntrue 로 설정 시 HTTPS 통신일 때 쿠키변수에 Secure 속성을 설정하여 포함시킵니다.\nfalse 설정 시 모든 통신에 Secure 속성을 설정하지 않은 쿠키변수를 포함시킵니다.\n\n값을 생략하면 false 로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setCookieVariable( \"Cookie0\", \"test\" ) ;\nnexacro.setCookieVariable( \"Cookie1\", \"test\", true ) ;</div></td></tr></tbody></table>",
       "option": {
@@ -2660,7 +2660,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5280970588221445",
+      "id": "u_10_0.6786467845597627",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 기능을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>bZoom</td><td>Boolean</td><td colspan=\"2\"><div>true 설정 시 objFrame 이 속한 window  의 Zoom 기능을 활성화 합니다.\n\nfalse 설정 시 objFrame 이 속한 window  의 Zoom 기능을 비활성화 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setEnableWheelZoom( objFrame, false );</div></td></tr></tbody></table>",
       "option": {
@@ -2721,7 +2721,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.47831507587632116",
+      "id": "u_10_0.6151484737843101",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 변수의 ID를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var vEnv0 = nexacro.setEnvironmentVariable(\"Env_Variable0\", \"test\") ;</div></td></tr></tbody></table>",
       "option": {
@@ -2782,7 +2782,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4257248085595815",
+      "id": "u_10_0.8167438935341649",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수의 ID 를 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>추가될 HTTP Header 변수가 갖는 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setHTTPHeaderVariable(\"HeaderVal00\", \"test\") ;</div></td></tr></tbody></table>",
       "option": {
@@ -2843,7 +2843,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.39336128010239435",
+      "id": "u_10_0.007194947785889139",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strType</td><td>String</td><td colspan=\"2\"><div>설정할 변수의 Global 영역 위치를 문자열로 설정합니다.\n\n“environment” 설정 시 Environment 의 Variables 영역에 변수를 설정합니다.\n“cookie” 설정 시 Environment 의 Cookies 영역에 변수를 설정합니다.\n“httpheader” 설정 시 Environment 의 HTTPHeader 영역에 변수를 설정합니다.\n“application” 설정 시 Application 의 Variables 영역에 변수를 설정합니다.</div></td></tr><tr><td>strID</td><td>String</td><td colspan=\"2\"><div>설정할 Global 변수의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>Global 변수의 값을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setInitialVariable( \"cookie\", \"ValA\", \"Text\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2904,7 +2904,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.42606210910556197",
+      "id": "u_10_0.23358631097557103",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>개인화 데이터를 저장하기 위한 키값을 설정합니다.\n\nXML 태그명으로 사용되므로 XML 태그명에서 사용 할 수 없는 문자는 설정할 수 없습니다.\n또한, \":\" 문자를 설정할 수 없습니다.</div></td></tr><tr><td>varVal </td><td>Variant</td><td colspan=\"2\"><div>저장할 개인화 데이터를 설정합니다.\n\n기본 자료형(integer, float, string, boolean) 과 Date 를 설정할 수 있습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bSucc = nexacro.setPrivateProfile( \"aa\", \"A\" );</div></td></tr></tbody></table>",
       "option": {
@@ -2918,7 +2918,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5790155541666543",
+      "id": "u_10_0.9978636009062954",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>개인화 데이터 저장에 성공하면 \"true\" 를 반환합니다.\n개인화 데이터 저장에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2979,7 +2979,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.41388381041295663",
+      "id": "u_10_0.6441249287303985",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>TypeDefinition 의 Protocols 영역에 정의된 Protocol 어답터 중 설정값을 전달할 Protocol 의 \"Protocol ID\" 를 설정합니다.</div></td></tr><tr><td>strKey</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값에 해당하는 Key 값을 설정합니다.</div></td></tr><tr><td>strValue</td><td>String</td><td colspan=\"2\"><div>Protocol 어답터에 전달될 설정값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3030,7 +3030,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3474083899589351",
+      "id": "u_10_0.9673236011933262",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nType</td><td>Number</td><td colspan=\"2\"><div>Windows 넥사크로의 렌더링 방식을 0 또는 1 로 설정합니다.\n\n0 설정 시 RealTime 방식(기존과 동일)으로 주기적으로 렌더링을 실행합니다.\n1 설정 시 Event 방식으로 내부 규칙에 의해 렌더링을 실행합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>nexacro.setRenderingType( 1 );</div></td></tr></tbody></table>",
       "option": {
@@ -3091,7 +3091,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.00859006411300911",
+      "id": "u_10_0.3759172839258643",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objContext</td><td>Object</td><td colspan=\"2\"><div>콜백 함수가 실행될 때 this로 바인딩될 오브젝트를 설정합니다.</div></td></tr><tr><td>objCallbackFunc</td><td>Object</td><td colspan=\"2\"><div>지연 시간 이후 실행할 콜백함수를 설정합니다.</div></td></tr><tr><td>nDelay</td><td>Number</td><td colspan=\"2\"><div>콜백 함수 실행을 지연시킬 시간을 밀리초(milliseconds) 단위로 설정합니다.\n값을 설정하지 않으면 기본값으로 0이 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Button00_onclick = function(obj:nexacro.Button,e:nexacro.ClickEventInfo)\n{\n\tnexacro.setTimeout(obj, this.onceCallback, 1000);\n};\n\nthis.onceCallback = function()\n{\n\ttrace(this.id); // Button00\n}</div></td></tr></tbody></table>",
       "option": {
@@ -3152,7 +3152,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7018456170457384",
+      "id": "u_10_0.6130080338291568",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objFrame</td><td>Object</td><td colspan=\"2\"><div>Zoom 배율을 설정할 window 에 속한 Frame 을 오브젝트 형태로 설정합니다.\n\n동일한 window 에 속한 Frame 중 어느것을 설정하여도 동일하게 설정됩니다.</div></td></tr><tr><td>nZoomScale</td><td>Number</td><td colspan=\"2\"><div>objFrame 이 속한 window  의 Zoom 배율을 \"%\" 단위의 숫자로 설정합니다.\n\n50%~200% 범위 내에서 10% 단위로 설정하여야 합니다.\n설정값이 범위를 벗어나거나 10% 단위가 아닌 경우 메소드가 실행되지 않습니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFrame = this.getOwnerFrame();\n\nnexacro.setWheelZoom( objFrame, 150 );</div></td></tr></tbody></table>",
       "option": {
@@ -3213,7 +3213,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8953982728285388",
+      "id": "u_10_0.9431845981144797",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>Object</td><td colspan=\"2\"><div>따옴표를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.stripQuote(\"\\\"hello\\\"\"); // hello</div></td></tr></tbody></table>",
       "option": {
@@ -3227,7 +3227,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9672531134901198",
+      "id": "u_10_0.25268381346313573",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에서 따옴표를 제거하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3288,7 +3288,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7231609445301774",
+      "id": "u_10_0.7857554764641488",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>varValue</td><td>String</td><td colspan=\"2\"><div>숫자로 변환할 문자열을 설정합니다.</div></td></tr><tr><td>varNanVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NaN\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NaN\" 이 적용됩니다.</div></td></tr><tr><td>varPinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"POSITIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"POSITIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td>varNinfVal</td><td>Number</td><td colspan=\"2\"><div>varValue 를 숫자로 변환한 결과값이 \"NEGATIVE_INFINITY\" 일 때 반환할 값을 설정합니다.\n\n값 생략 시 \"NEGATIVE_INFINITY\" 가 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varNum;\nvarNum = nexacro.toNumber(\"123.4\");                                          // 123.4\nvarNum = nexacro.toNumber(Number.NaN, 0);                               // 0\nvarNum = nexacro.toNumber(Number.POSITIVE_INFINITY, 0, 1);       // 1\nvarNum = nexacro.toNumber(Number.NEGATIVE_INFINITY, 0, 1, 2);  // 2</div></td></tr></tbody></table>",
       "option": {
@@ -3302,7 +3302,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22053881511082962",
+      "id": "u_10_0.6146924369093189",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>문자열을 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3353,7 +3353,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.32319327649973584",
+      "id": "u_10_0.29708916391633566",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>양쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 양쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 양쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strText = \"  abcd  \";\nvar strText2 = \"abcdaa\";\nvar strTrim = nexacro.trim( strText );             // strTrim = abcd\nvar strTrim = nexacro.trim( strText2 ,\"a\" );     // strTrim =  bcd</div></td></tr></tbody></table>",
       "option": {
@@ -3367,7 +3367,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.03809055836739805",
+      "id": "u_10_0.8065179604845217",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 양쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3418,7 +3418,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9875710717976711",
+      "id": "u_10_0.7914351962143243",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>왼쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strChar</td><td>String</td><td colspan=\"2\"><div>문자열의 왼쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 왼쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \" nexacro\" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
       "option": {
@@ -3432,7 +3432,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.35393717429780447",
+      "id": "u_10_0.32930571527257557",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 왼쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3483,7 +3483,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.20963550569505585",
+      "id": "u_10_0.014015120548439008",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>오른쪽 끝에서 공백문자 또는 지정된 문자를 제거 할 문자열을 설정합니다.</div></td></tr><tr><td>strTarget</td><td>String</td><td colspan=\"2\"><div>문자열의 오른쪽 끝에서 제거할 문자를 설정합니다.\n\n값 생략 시 문자열의 오른쪽 끝에서 공백문자를 제거합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var ret = nexacro.trimLeft( \"nexacro  \" );     // ret = \"nexacro\"</div></td></tr></tbody></table>",
       "option": {
@@ -3497,7 +3497,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6418617149784643",
+      "id": "u_10_0.5462658966538132",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>문자열의 오른쪽 끝에서 공백문자 또는 지정된 문자가 제거된 문자열을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3548,7 +3548,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7760940618631503",
+      "id": "u_10_0.9899258026616068",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strText</td><td>String</td><td colspan=\"2\"><div>큰따옴표를 붙일 문자열을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var strVal = nexacro.wrapQuote(\"hello\"); // \"hello\"</div></td></tr></tbody></table>",
       "option": {
@@ -3562,7 +3562,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8717601479944738",
+      "id": "u_10_0.2966774024379224",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td><div>전달된 문자열의 양쪽 끝에 큰따옴표를 붙여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
