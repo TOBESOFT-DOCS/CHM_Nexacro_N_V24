@@ -35,12 +35,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.5439917862991196",
+      "id": "u_09_0.7175627425459871",
       "type": "command",
       "content": "GoogleMap.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.1383106431245833",
+      "id": "u_10_0.13119997034957287",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>GoogleMap 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>GoogleMap 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>GoogleMap 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>GoogleMap 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>GoogleMap 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>GoogleMap 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>GoogleMap 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>GoogleMap 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>GoogleMap 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>GoogleMap 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>GoogleMap 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new GoogleMap();\n\nobjComp.init( \"GoogleMap00\", 30, 120, 196, 46 );\nobjComp.init( \"GoogleMap00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"GoogleMap00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"GoogleMap00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"GoogleMap00\", \"GoogleMap22:10\", 300, null, null, \"GoogleMap33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -49,7 +49,7 @@
       }
     },
     {
-      "id": "u_10_0.6449800922953992",
+      "id": "u_10_0.4769442404457185",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objGoogleMap = new GoogleMap();  \nobjGoogleMap.init(\"GoogleMap\", 30, 120, 196, 46, null, null);\nobjGoogleMap.init(\"GoogleMap\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objGoogleMap = new GoogleMap(\"GoogleMap\", 30, 120, 196, 46, null, null);\nvar objGoogleMap = new GoogleMap(\"GoogleMap\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"GoogleMap\", objGoogleMap); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"GoogleMap\", objGoogleMap); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"GoogleMap\"); \n \n// Show Object  \nobjGoogleMap.show(); \n \n// Destroy Object  \nobjGoogleMap.destroy(); \nobjGoogleMap = null;</div></td></tr></tbody></table>",
       "option": {
@@ -63,7 +63,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.3087818149992554",
+      "id": "u_10_0.19108106803857738",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -75,456 +75,6 @@
       "id": "u_16",
       "type": "heading1",
       "content": "속성"
-    },
-    {
-      "id": "p_01_accessibilityaction",
-      "type": "heading2",
-      "content": "accessibilityaction",
-      "option": {
-        "alias": "GoogleMap_accessibilityaction"
-      }
-    },
-    {
-      "id": "p_02_accessibilityaction",
-      "type": "pre",
-      "content": "GoogleMap에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 action 정보를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilityaction",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilityaction",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilityaction",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilityaction",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilityaction",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilityaction",
-      "type": "command",
-      "content": "GoogleMap.accessibilityaction[= strAction]"
-    },
-    {
-      "id": "p_09_accessibilityaction",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.8949570641856922",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilityaction = \"Accessibility Action Message\"; \nthis.GoogleMap00.accessibilityaction = \"Select by direction key\";</div></td></tr><tr><th>strAction</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"action\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilityaction",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilityaction",
-      "type": "pre",
-      "content": "- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다.\n\n- 컴포넌트에 선택상자 이동 시 사용자가 추가적인 정보를 얻기 위해 필요한 동작을 안내하는 용도로 사용합니다. \n  예를 들어 컴포넌트 특성에 따라 다음과 같이 속성값을 설정할 수 있습니다.\n  \n  - CheckBox 컴포넌트의 경우 아래와 같은 안내문을 accessibilityaction 속성값으로 설정할 수 있습니다.\n  \"선택 상태를 전환하려면 스페이스 바를 누릅니다.\"\n  \n  - WebBrowser, WebView 컴포넌트의 경우 스크린 리더 사용자를 위한 안내문을 accessibilityaction 속성값으로 설정할 수 있습니다.\n  \"웹 브라우저 컴포넌트 내 콘텐츠를 이용하기 위해서는 가상커서를 해제해 주세요.\"\n  그리고 WebBrowser, WebView 컴포넌트를 벗어났을 때 필요한 안내문을 accessibilityleavemessage 속성값으로 설정합니다.\n  \"가상커서를 설정해 주세요\""
-    },
-    {
-      "id": "p_01_accessibilitydesclevel",
-      "type": "heading2",
-      "content": "accessibilitydesclevel",
-      "option": {
-        "alias": "GoogleMap_accessibilitydesclevel"
-      }
-    },
-    {
-      "id": "p_02_accessibilitydesclevel",
-      "type": "pre",
-      "content": "GoogleMap 에 선택상자 이동 시 하위 컴포넌트의 접근성 출력여부를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilitydesclevel",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilitydesclevel",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilitydesclevel",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilitydesclevel",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilitydesclevel",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilitydesclevel",
-      "type": "command",
-      "content": "GoogleMap.accessibilitydesclevel[= enumLevel]"
-    },
-    {
-      "id": "p_09_accessibilitydesclevel",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.8839486148008815",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumLevel ::= 'all' | 'self' | 'child' | 'none'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilitydesclevel = \"all\";</div></td></tr><tr><th>\"all\"</th><td colspan=\"2\"><div>GoogleMap 와 자식 컴포넌트에 대한 접근성을 모두 출력합니다.</div></td></tr><tr><th>\"self\"</th><td colspan=\"2\"><div>GoogleMap 의 접근성만 출력하고 자식 컴포넌트의 접근성은 출력하지 않습니다.</div></td></tr><tr><th>\"child\"</th><td colspan=\"2\"><div>GoogleMap 의 접근성은 출력하지 않고, 자식 컴포넌트의 접근성은 출력합니다.</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>GoogleMap 와 자식 컴포넌트에 대한 접근성을 모두 출력하지 않습니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilitydesclevel",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilitydesclevel",
-      "type": "pre",
-      "content": "- accessibilitydesclevel 속성값을 설정하지 않으면 \"all\" 로 적용됩니다.\n\n- Button 과 같이 자식 컴포넌트가 없는 컴포넌트는 \"all\" 또는 \"child\" 로 설정 시 \"self\" 로 적용됩니다.\n\n- Div 와 같은 컨테이너 컴포넌트는 \"child\" 설정 시 실제 컨텐츠의 접근성만을 출력합니다.\n\n- accessibilitydesclevel 속성은 선택상자의 이동에 영향을 주지 않으므로 방향키로 선택상자가 GoogleMap 에 이동되게 하지 않으려면 accessibilityenable 속성을 설정하여야 합니다."
-    },
-    {
-      "id": "p_01_accessibilitydescription",
-      "type": "heading2",
-      "content": "accessibilitydescription",
-      "option": {
-        "alias": "GoogleMap_accessibilitydescription"
-      }
-    },
-    {
-      "id": "p_02_accessibilitydescription",
-      "type": "pre",
-      "content": "GoogleMap에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 description 정보를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilitydescription",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilitydescription",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilitydescription",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilitydescription",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilitydescription",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilitydescription",
-      "type": "command",
-      "content": "GoogleMap.accessibilitydescription[= strDescription]"
-    },
-    {
-      "id": "p_09_accessibilitydescription",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.5002821143452981",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilitydescription = \"Option\";</div></td></tr><tr><th>strDescription</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"description\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilitydescription",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilitydescription",
-      "type": "pre",
-      "content": "- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다."
-    },
-    {
-      "id": "p_01_accessibilityenable",
-      "type": "heading2",
-      "content": "accessibilityenable",
-      "option": {
-        "alias": "GoogleMap_accessibilityenable"
-      }
-    },
-    {
-      "id": "p_02_accessibilityenable",
-      "type": "pre",
-      "content": "GoogleMap 에 선택상자 이동 시 접근성 관련 속성값 출력여부를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilityenable",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilityenable",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilityenable",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilityenable",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilityenable",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilityenable",
-      "type": "command",
-      "content": "GoogleMap.accessibilityenable[= bEnable]"
-    },
-    {
-      "id": "p_09_accessibilityenable",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.9612514137014033",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEnable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilityenable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>GoogleMap 에 선택상자가 이동되면 접근성 관련 속성값을 출력합니다.\n\n방향키 또는 제스처로 선택상자 이동 시 Static 과 같이 포커스를 갖지 않는 컴포넌트에도 선택상자가 이동됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>GoogleMap 에 선택상자가 이동되어도 접근성 관련 속성값을 출력하지 않습니다.\n\n데스크탑 환경에서 방향키로 선택상자가 GoogleMap 에 이동되지 않습니다.\n모바일 환경에서 제스처로 선택상자가 GoogleMap 에 이동되지 않습니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilityenable",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilityenable",
-      "type": "pre",
-      "content": "- accessibilityenable 속성값을 설정하지 않으면 true 로 적용됩니다.\n\n- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다.\n\n- 선택상자 이동 시 컴포넌트의 ARIA-LABEL + Status + Role 순서로 정보가 조합되어 접근성으로 출력됩니다.\n   각 정보의 조합순서는 스크린 리더의 종류에 따라 달라질 수 있습니다.\n   &gt; ARIA-LABEL : Environment 의 accessibilitydescreadtype 속성에 설정된 속성값이 반영됩니다.\n   &gt; Status : GoogleMap 의 현재 상태가 반영됩니다.\n   &gt; Role : accessibilityrole 속성값이 반영됩니다. accessibilityrole 속성값을 설정하지 않으면 GoogleMap 의 고유 Role 이 반영됩니다.\n\n- accessibilityenable 속성값이 false 일 때 데스크탑 환경에서 방향키 외의 방법으로 선택상자를 GoogleMap 로 이동시키면 스크린 리딩 프로그램에서 임의의 값을 출력할 수 있습니다.\n\n\n◆ 컨테이너 컴포넌트(Div, PopupDiv, TabpageControl, View) 선택상자 이동 제약\n\n아래와 같은 환경에서 컨테이너 컴포넌트로 선택상자가 이동하지 않고 컨테이너 컴포넌트 내에 배치된 컴포넌트로 이동합니다.\n- Android, iOS/iPadOS 운영체제에서 실행 시\n- Windows 운영체제에서 센스리더 가상커서 사용 시"
-    },
-    {
-      "id": "p_01_accessibilitylabel",
-      "type": "heading2",
-      "content": "accessibilitylabel",
-      "option": {
-        "alias": "GoogleMap_accessibilitylabel"
-      }
-    },
-    {
-      "id": "p_02_accessibilitylabel",
-      "type": "pre",
-      "content": "GoogleMap에 선택상자 이동 시 accessibilitydescreadtype 속성에 따라 스크린 리더의 음성 출력 대상으로 포함할 label 정보를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilitylabel",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilitylabel",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilitylabel",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilitylabel",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilitylabel",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilitylabel",
-      "type": "command",
-      "content": "GoogleMap.accessibilitylabel[= strLabel]"
-    },
-    {
-      "id": "p_09_accessibilitylabel",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.5367270548513206",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilitylabel = \"OK Button\"; \nthis.GoogleMap00.accessibilitylabel = \"[@static00]\"; \nthis.GoogleMap00.accessibilitylabel = \"[@static00][@static01]\"; \nthis.GoogleMap00.accessibilitylabel = \"[@static00][@static01] OK Button\";</div></td></tr><tr><th>strLabel</th><td colspan=\"2\"><div>accessibilitydescreadtype 속성값에 \"label\"이 포함된 경우 스크린 리더의 음성 출력 대상으로 포함할 값을 설정합니다.\n문자열로 설정하거나 부모가 같은 컴포넌트의 accessibilitylabel 속성값을 참조할 수 있습니다.\n다른 컴포넌트 참조 시에는 \"[@ComponentID]\" 형식으로 컴포넌트의 id를 대괄호와 \"@\" 문자를 사용하여 설정합니다.\n참조하는 참조값에 해당하는 컴포넌트를 찾을 수 없는 경우에는 참조값 자체가 문자열로 처리됩니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilitylabel",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilitylabel",
-      "type": "pre",
-      "content": "- enableaccessibility 속성값이 true인 경우만 적용되는 속성입니다.\n\n- accessibilitydescreadtype 속성값에 \"label\"이 포함되었으나 accessibilitylabel 속성값을 설정하지 않으면 스크린 리더의 음성 출력 대상에 포함하지 않습니다."
-    },
-    {
-      "id": "p_01_accessibilityrole",
-      "type": "heading2",
-      "content": "accessibilityrole",
-      "option": {
-        "alias": "GoogleMap_accessibilityrole"
-      }
-    },
-    {
-      "id": "p_02_accessibilityrole",
-      "type": "pre",
-      "content": "GoogleMap에 선택상자 이동 시 스크린 리더가 읽어주는 Role 정보를 설정하는 속성입니다."
-    },
-    {
-      "id": "p_03_accessibilityrole",
-      "type": "headline",
-      "content": "지원 환경"
-    },
-    {
-      "id": "p_04_accessibilityrole",
-      "type": "table",
-      "content": "<table class='table column_count_7'><caption></caption><thead><tr><th colspan='2'><div>Desktop NRE</div></th><th colspan='5'><div>Desktop WRE</div></th></tr></thead><tbody><tr><td><div>☐ Windows</div></td><td><div>☐ macOS</div></td><td><div>☐ Edge</div></td><td><div>☑ Chrome</div></td><td><div>☐ Safari</div></td><td><div>☐ Firefox</div></td><td><div>☐ Opera</div></td></tr><tr><th colspan='2'><div>Mobile NRE</div></th><th colspan='5'><div>Mobile WRE</div></th></tr><tr><td><div>☑ Android</div></td><td><div>☑ iOS/iPadOS</div></td><td><div>☐ Android</div></td><td><div>☐ iOS/iPadOS</div></td><td><div></div></td><td><div></div></td><td><div></div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "110,110,110,110,110,110,110",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_05_accessibilityrole",
-      "type": "headline",
-      "content": "속성 타입"
-    },
-    {
-      "id": "p_06_accessibilityrole",
-      "type": "table",
-      "content": "<table class='r_no_border_table column_count_8'><caption></caption><tbody><tr><td><div>☐ Enum</div></td><td><div>☐ Expr</div></td><td><div>☐ Control</div></td><td><div>☐ Hidden</div></td><td><div>☐ ReadOnly</div></td><td><div>☐ Bind</div></td><td><div>☐ Collection</div></td><td><div>☐ StringResource</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "80,70,90,90,110,80,110,140",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_07_accessibilityrole",
-      "type": "headline",
-      "content": "문법"
-    },
-    {
-      "id": "p_08_accessibilityrole",
-      "type": "command",
-      "content": "GoogleMap.accessibilityrole[= enumRole]"
-    },
-    {
-      "id": "p_09_accessibilityrole",
-      "type": "headline",
-      "content": "문법 설정"
-    },
-    {
-      "id": "u_10_0.09650889978582344",
-      "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumRole ::= 'none' | 'alert' | 'application' | 'button' | 'calendar' | 'chart' | 'checkbox' | 'columnheader' | 'combobox' | 'datepicker' | 'edit' | 'fileupload' | 'form' | 'frame' | 'grid' | 'gridcell' | 'groupbox' | 'heading' | 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'image' | 'link' | 'listbox' | 'menu' | 'menubar' | 'progressbar' | 'radio' | 'rowheader' | 'scrollbar' | 'spin' | 'static' | 'statusbar' | 'tab' | 'tabpage' | 'textarea' | 'titlebar' | 'toolbar' | 'tooltip' | 'treegrid' | 'treeitem' | 'webbrowser'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.accessibilityrole = \"none\"; \nthis.GoogleMap00.accessibilityrole = \"button\";</div></td></tr><tr><th>enumRole</th><td colspan=\"2\"><div>- \"none\": 스크린 리더에서 Role 정보를 처리하지 않습니다.\n\n- 속성값을 설정하지 않으면 컴포넌트/오브젝트에 따라 기본 accessibilityrole 값이 적용됩니다.\n\"application\": Application, MainFrame\n\"button\": Button, FileDownload\n\"calendar\": Calendar\n\"checkbox\": CheckBox\n\"combobox\": ComboBox\n\"edit\": Edit, MaskEdit\n\"frame\": FrameSet, ChildFrame\n\"fileupload\": FileUpload\n\"form\": Form, Div, PopupDiv\n\"groupbox\": GroupBox\n\"image\": ImageViewer, Sketch\n\"listbox\": ListBox\n\"menubar\": Menu\n\"menu\": PopupMenu\n\"progressbar\": ProgressBar\n\"radio\": Radio\n\"spin\": Spin\n\"static\": Static\n\"tab\": Tab\n\"tabpage\": TabPage\n\"textarea\": TextArea\n\"webbrowser\": WebBrower\n\n- Grid 컴포넌트의 경우 하위 오브젝트까지 Role을 적용합니다.\n\"grid\": Grid\n\"gridcell\": Grid Cell\n\"columnheader\": Grid Column Head\n\"rowheader\": Grid Row Head\n\"treegrid\": TreeGrid\n\"treeitem\": TreeItem, TreeCell\n\n- 기능에 따라 컴포넌트 또는 오브젝트의 하위 오브젝트 영역에 아래와 같은 Role이 적용됩니다.\n\"alert\": Alert, Confirm, UserConfirm\n\"chart\": Chart\n\"datepicker\": DatePicker\n\"link\": Link\n\"scrollbar\": ScrollBar\n\"statusbar\": StatusBar\n\"titlebar\": TitleBar\n\"toolbar\": ToolBar\n\"tooltip\": Tooltip\n\n- \"heading\" 또는 \"heading1\"부터 \"heading6\" 사이의 값으로 속성값을 설정하면 role, aria-level 값을 처리합니다.\n예를 들어 속성값을 \"heading3\"으로 설정하면 Generate되는 코드 태그에 role=\"heading\", aria-level=\"3\" 형식으로 값을 처리합니다.\n속성값을 \"heading\"으로 설정 시에는 \"heading1\"을 설정한 것과 같은 동작을 처리합니다.\naccessibilityheadingnexthotkey, accessibilityheadingprevhotkey 속성값으로 설정한 단축키로 이동 시 사용할 수 있습니다.</div></td></tr></tbody></table>",
-      "option": {
-        "tableLayout": "180,120,?",
-        "codeLanguage": "Javascript"
-      }
-    },
-    {
-      "id": "p_11_accessibilityrole",
-      "type": "headline",
-      "content": "참고"
-    },
-    {
-      "id": "p_12_accessibilityrole",
-      "type": "pre",
-      "content": "- enableaccessibility 속성값이 true 인 경우만 적용되는 속성입니다.\n\n- accessibilityenable 속성값을 설정하지 않으면 GoogleMap의 기본 Role 로 적용됩니다.\n\n- 추가적인 속성값이 필요한 Role 설정 시 GoogleMap에 해당 속성이 없으면 스크린 리더에 따라 정상적으로 정보를 읽지 못할 수 있습니다."
     },
     {
       "id": "p_01_apikey",
@@ -583,7 +133,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2222453689973115",
+      "id": "u_10_0.3023514305698344",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.apikey = \"0VwFiekP...\";</div></td></tr><tr><th>strApiKey</th><td colspan=\"2\"><div>Google 에서 발급받은 API Key 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -658,7 +208,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7606732618165886",
+      "id": "u_10_0.06014885310395868",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.bottom = 10; \nthis.GoogleMap00.bottom = \"10px\"; \nthis.GoogleMap00.bottom = \"10%\"; \nthis.GoogleMap00.bottom = \"Button00:10px\"; \nthis.GoogleMap00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 GoogleMap의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 GoogleMap의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 GoogleMap의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 GoogleMap의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -733,7 +283,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5424292104803602",
+      "id": "u_10_0.47896467756422845",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.enable = true; \nthis.GoogleMap00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>GoogleMap 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>GoogleMap 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -808,7 +358,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5628843831331751",
+      "id": "u_10_0.8321647996404639",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -883,7 +433,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.804520323483018",
+      "id": "u_10_0.5379454640716278",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -958,7 +508,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9463275055438368",
+      "id": "u_10_0.04134506359663814",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.height = 10; \nthis.GoogleMap00.height = \"10px\"; \nthis.GoogleMap00.height = 10%\"; \nthis.GoogleMap00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": GoogleMap의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 GoogleMap의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 GoogleMap의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 GoogleMap의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1033,7 +583,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7814339859104505",
+      "id": "u_10_0.6414725375133583",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>GoogleMap를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1108,7 +658,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34574957973995024",
+      "id": "u_10_0.030582916069276544",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 GoogleMap 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1183,7 +733,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5403504241986862",
+      "id": "u_10_0.7557935326685677",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objItem = this.GoogleMap00.items[0];</div></td></tr></tbody></table>",
       "option": {
@@ -1258,7 +808,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9040905384242004",
+      "id": "u_10_0.3005425236414774",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.language = \"ko\";</div></td></tr><tr><th>strLang</th><td colspan=\"2\"><div>GoogleMap 에 적용할 언어의 코드를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1277,7 +827,7 @@
       "content": "- language 속성값을 설정하지 않으면 브라우저에 설정된 언어가 적용됩니다.\n\n- 설정할 수 있는 언어별 코드는 다음과 같습니다.\n\n\n\n* 2020년 1월 1일을 기준으로 지원하는 언어코드입니다."
     },
     {
-      "id": "u_10_0.28831714728004065",
+      "id": "u_10_0.31902146458849034",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>Code</th>\t\t<th>Language</th>\t\t<th>Code</th>\t\t<th>Language</th>\t\t<th>Code</th>\t\t<th>Language</th>\t</tr></thead>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tbody><tr>\t\t<td><div>af</div></td>\t\t<td><div>Afrikaans</div></td>\t\t<td><div>fi</div></td>\t\t<td><div>Finnish</div></td>\t\t<td><div>mn</div></td>\t\t<td><div>Mongolian</div></td>\t</tr><tr>\t\t<td><div>sq</div></td>\t\t<td><div>Albanian</div></td>\t\t<td><div>fr</div></td>\t\t<td><div>French</div></td>\t\t<td><div>ne</div></td>\t\t<td><div>Nepali</div></td>\t</tr><tr>\t\t<td><div>am</div></td>\t\t<td><div>Amharic</div></td>\t\t<td><div>fr-CA</div></td>\t\t<td><div>French (Canada)</div></td>\t\t<td><div>no</div></td>\t\t<td><div>Norwegian</div></td>\t</tr><tr>\t\t<td><div>ar</div></td>\t\t<td><div>Arabic</div></td>\t\t<td><div>gl</div></td>\t\t<td><div>Galician</div></td>\t\t<td><div>pl</div></td>\t\t<td><div>Polish</div></td>\t</tr><tr>\t\t<td><div>hy</div></td>\t\t<td><div>Armenian</div></td>\t\t<td><div>ka</div></td>\t\t<td><div>Georgian</div></td>\t\t<td><div>pt</div></td>\t\t<td><div>Portuguese</div></td>\t</tr><tr>\t\t<td><div>az</div></td>\t\t<td><div>Azerbaijani</div></td>\t\t<td><div>de</div></td>\t\t<td><div>German</div></td>\t\t<td><div>pt-BR</div></td>\t\t<td><div>Portuguese(Brazil)</div></td>\t</tr><tr>\t\t<td><div>eu</div></td>\t\t<td><div>Basque</div></td>\t\t<td><div>el</div></td>\t\t<td><div>Greek</div></td>\t\t<td><div>pt-PT</div></td>\t\t<td><div>Portuguese(Portugal)</div></td>\t</tr><tr>\t\t<td><div>be</div></td>\t\t<td><div>Belarusian</div></td>\t\t<td><div>gu</div></td>\t\t<td><div>Gujarati</div></td>\t\t<td><div>pa</div></td>\t\t<td><div>Punjabi</div></td>\t</tr><tr>\t\t<td><div>bn</div></td>\t\t<td><div>Bengali</div></td>\t\t<td><div>iw</div></td>\t\t<td><div>Hebrew</div></td>\t\t<td><div>ro</div></td>\t\t<td><div>Romanian</div></td>\t</tr><tr>\t\t<td><div>bs</div></td>\t\t<td><div>Bosnian</div></td>\t\t<td><div>hi</div></td>\t\t<td><div>Hindi</div></td>\t\t<td><div>ru</div></td>\t\t<td><div>Russian</div></td>\t</tr><tr>\t\t<td><div>bg</div></td>\t\t<td><div>Bulgarian</div></td>\t\t<td><div>hu</div></td>\t\t<td><div>Hungarian</div></td>\t\t<td><div>sr</div></td>\t\t<td><div>Serbian</div></td>\t</tr><tr>\t\t<td><div>my</div></td>\t\t<td><div>Burmese</div></td>\t\t<td><div>is</div></td>\t\t<td><div>Icelandic</div></td>\t\t<td><div>si</div></td>\t\t<td><div>Sinhalese</div></td>\t</tr><tr>\t\t<td><div>ca</div></td>\t\t<td><div>Catalan</div></td>\t\t<td><div>id</div></td>\t\t<td><div>Indonesian</div></td>\t\t<td><div>sk</div></td>\t\t<td><div>Slovak</div></td>\t</tr><tr>\t\t<td><div>zh</div></td>\t\t<td><div>Chinese</div></td>\t\t<td><div>it</div></td>\t\t<td><div>Italian</div></td>\t\t<td><div>sl</div></td>\t\t<td><div>Slovenian</div></td>\t</tr><tr>\t\t<td><div>zh-CN</div></td>\t\t<td><div>Chinese(Simplified)</div></td>\t\t<td><div>ja</div></td>\t\t<td><div>Japanese</div></td>\t\t<td><div>es</div></td>\t\t<td><div>Spanish</div></td>\t</tr><tr>\t\t<td><div>zh-HK</div></td>\t\t<td><div>Chinese (Hong Kong)</div></td>\t\t<td><div>kn</div></td>\t\t<td><div>Kannada</div></td>\t\t<td><div>es-419</div></td>\t\t<td><div>Spanish(Latin America)</div></td>\t</tr><tr>\t\t<td><div>zh-TW</div></td>\t\t<td><div>Chinese(Traditional)</div></td>\t\t<td><div>kk</div></td>\t\t<td><div>Kazakh</div></td>\t\t<td><div>sw</div></td>\t\t<td><div>Swahili</div></td>\t</tr><tr>\t\t<td><div>hr</div></td>\t\t<td><div>Croatian</div></td>\t\t<td><div>km</div></td>\t\t<td><div>Khmer</div></td>\t\t<td><div>sv</div></td>\t\t<td><div>Swedish</div></td>\t</tr><tr>\t\t<td><div>cs</div></td>\t\t<td><div>Czech</div></td>\t\t<td><div>ko</div></td>\t\t<td><div>Korean</div></td>\t\t<td><div>ta</div></td>\t\t<td><div>Tamil</div></td>\t</tr><tr>\t\t<td><div>da</div></td>\t\t<td><div>Danish</div></td>\t\t<td><div>ky</div></td>\t\t<td><div>Kyrgyz</div></td>\t\t<td><div>te</div></td>\t\t<td><div>Telugu</div></td>\t</tr><tr>\t\t<td><div>nl</div></td>\t\t<td><div>Dutch</div></td>\t\t<td><div>lo</div></td>\t\t<td><div>Lao</div></td>\t\t<td><div>th</div></td>\t\t<td><div>Thai</div></td>\t</tr><tr>\t\t<td><div>en</div></td>\t\t<td><div>English</div></td>\t\t<td><div>lv</div></td>\t\t<td><div>Latvian</div></td>\t\t<td><div>tr</div></td>\t\t<td><div>Turkish</div></td>\t</tr><tr>\t\t<td><div>en-AU</div></td>\t\t<td><div>English (Australian)</div></td>\t\t<td><div>lt</div></td>\t\t<td><div>Lithuanian</div></td>\t\t<td><div>uk</div></td>\t\t<td><div>Ukrainian</div></td>\t</tr><tr>\t\t<td><div>en-GB</div></td>\t\t<td><div>English (Great Britain)</div></td>\t\t<td><div>mk</div></td>\t\t<td><div>Macedonian</div></td>\t\t<td><div>ur</div></td>\t\t<td><div>Urdu</div></td>\t</tr><tr>\t\t<td><div>et</div></td>\t\t<td><div>Estonian</div></td>\t\t<td><div>ms</div></td>\t\t<td><div>Malay</div></td>\t\t<td><div>uz</div></td>\t\t<td><div>Uzbek</div></td>\t</tr><tr>\t\t<td><div>fa</div></td>\t\t<td><div>Farsi</div></td>\t\t<td><div>ml</div></td>\t\t<td><div>Malayalam</div></td>\t\t<td><div>vi</div></td>\t\t<td><div>Vietnamese</div></td>\t</tr><tr>\t\t<td><div>fil</div></td>\t\t<td><div>Filipino</div></td>\t\t<td><div>mr</div></td>\t\t<td><div>Marathi</div></td>\t\t<td><div>zu</div></td>\t\t<td><div>Zulu</div></td>\t</tr></tbody></table>",
       "option": {
@@ -1352,7 +902,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6275792825630776",
+      "id": "u_10_0.43767213044754505",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nLatitude = this.GoogleMap00.latitude;</div></td></tr></tbody></table>",
       "option": {
@@ -1417,7 +967,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5487082537209571",
+      "id": "u_10_0.6558394808121949",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1492,7 +1042,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8896796138112132",
+      "id": "u_10_0.20118400041200946",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.left = 10; \nthis.GoogleMap00.left = \"10px\"; \nthis.GoogleMap00.left = \"10%\"; \nthis.GoogleMap00.left = \"Button00:10px\"; \nthis.GoogleMap00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 GoogleMap의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 GoogleMap의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 GoogleMap의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 GoogleMap의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1567,7 +1117,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.41902843734518436",
+      "id": "u_10_0.9160748567407395",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nLongitude = this.GoogleMap00.longitude;</div></td></tr></tbody></table>",
       "option": {
@@ -1632,7 +1182,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.39982403239419717",
+      "id": "u_10_0.4384911626996456",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.maxheight = 20; \nthis.GoogleMap00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1707,7 +1257,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6675186720846301",
+      "id": "u_10_0.725663486069501",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.maxwidth = 20; \nthis.GoogleMap00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1782,7 +1332,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7373722007493966",
+      "id": "u_10_0.8877505794184954",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.minheight = 20; \nthis.GoogleMap00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1857,7 +1407,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.012880329680686309",
+      "id": "u_10_0.5398203402031345",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.minwidth = 20; \nthis.GoogleMap00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1932,7 +1482,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3798491642283942",
+      "id": "u_10_0.3697993643754066",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2007,7 +1557,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6121043026830247",
+      "id": "u_10_0.2752038016213806",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.GoogleMap00.border = \"1px solid #999999\";\nthis.GoogleMap00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -2082,7 +1632,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.946960317696926",
+      "id": "u_10_0.9275784411938093",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.GoogleMap00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2157,7 +1707,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9537756037312851",
+      "id": "u_10_0.806639192467773",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.positionstep = 0; \nthis.GoogleMap00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>GoogleMap 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 GoogleMap 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2242,7 +1792,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34401530192942187",
+      "id": "u_10_0.6531745751105462",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.region = \"KR\";</div></td></tr><tr><th>strRegion</th><td colspan=\"2\"><div>GoogleMap 에 적용할 지역의 코드를 문자열로 설정합니다.\n\n지역 코드는 ISO 3166-1 에서 정의하고 있는 2-알파벳 국가코드를 사용합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2327,7 +1877,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.562137915290269",
+      "id": "u_10_0.3447793624328185",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.right = 10; \nthis.GoogleMap00.right = \"10px\"; \nthis.GoogleMap00.right = \"10%\"; \nthis.GoogleMap00.right = \"Button00:10px\"; \nthis.GoogleMap00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 GoogleMap의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 GoogleMap의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 GoogleMap의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 GoogleMap의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2402,7 +1952,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.09047827650747076",
+      "id": "u_10_0.7997801144030044",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bShowzoom ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.showzoom = true;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Zoom 을 조절할 수 있는 [+],[-] 버튼 컨트롤이 지도에 표시됩니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Zoom 을 조절할 수 있는 [+],[-] 버튼 컨트롤이 지도에 표시되지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2487,7 +2037,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9655094166364304",
+      "id": "u_10_0.04626367232634698",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2572,7 +2122,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2880473913612901",
+      "id": "u_10_0.33706670346476697",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2657,7 +2207,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4826800294490674",
+      "id": "u_10_0.31250353929686403",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.top = 10; \nthis.GoogleMap00.top = \"10px\"; \nthis.GoogleMap00.top = \"10%\"; \nthis.GoogleMap00.top = \"Button00:10px\"; \nthis.GoogleMap00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 GoogleMap의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 GoogleMap의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 GoogleMap의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 GoogleMap의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2732,7 +2282,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8283461695908438",
+      "id": "u_10_0.11685014693880758",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>viewmode</th><td colspan=\"2\"><div>일반 Google Map 형태로 표시될 경우 \"0\" 값을 갖습니다.\n위성 이미지 형태로 표시될 경우 \"1\" 값을 갖습니다.\n위성 이미지를 표시하고 주요거리의 투명레이어를 함께 표시할 경우 \"2\" 값을 갖습니다.\n지형 및 초목과 같은 물리적인 지형지물과 주요거리 투명레이어를 함께 표시할 경우 \"3\" 값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2797,7 +2347,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6436337588342864",
+      "id": "u_10_0.005859096254721141",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.visible = true; \nthis.GoogleMap00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>GoogleMap 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>GoogleMap 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2872,7 +2422,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6952282523637785",
+      "id": "u_10_0.6950367732805636",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.GoogleMap00.width = 10; this.GoogleMap00.width = \"10px\"; \nthis.GoogleMap00.width = \"10%\"; \nthis.GoogleMap00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>GoogleMap 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 GoogleMap 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 GoogleMap 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>GoogleMap 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": GoogleMap의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 GoogleMap의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 GoogleMap의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 GoogleMap의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 GoogleMap의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 GoogleMap의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2999,7 +2549,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.38160098121537034",
+      "id": "u_10_0.37134342835317236",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>GoogleMap 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.GoogleMap00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3013,7 +2563,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4392355023524783",
+      "id": "u_10_0.031047174177954995",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3074,7 +2624,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6169587674647029",
+      "id": "u_10_0.18044978005152534",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.GoogleMap00.addEventHandler( \"onmove\", this.GoogleMap00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -3088,7 +2638,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.29113581792558796",
+      "id": "u_10_0.2700828185436446",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3139,7 +2689,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6356454190749132",
+      "id": "u_10_0.6705661901252521",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.GoogleMap00.addEventHandlerLookup( \"onmove\", \"GoogleMap00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -3153,7 +2703,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.17385962609254768",
+      "id": "u_10_0.12600770504362147",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3214,7 +2764,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22312897315022384",
+      "id": "u_10_0.2004835365663351",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strItemID </td><td>String</td><td colspan=\"2\"><div>각 아이템을 구분할 고유 식별자를 문자열로 설정합니다.</div></td></tr><tr><td>objItem</td><td>Object</td><td colspan=\"2\"><div>GoogleMap 위에 표시할 아이템의 오브젝트를 설정합니다.\n\nGoogleMapMarker, GoogleMapPolyline, GoogleMapPolygon 오브젝트를 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3228,7 +2778,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.24098101086414914",
+      "id": "u_10_0.1176665493525968",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터를 잘못 설정하거나 중복된 ID가 존재할 경우 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3299,7 +2849,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18950475003880907",
+      "id": "u_10_0.12651788042913137",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.GoogleMap00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -3313,7 +2863,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.32642235736965586",
+      "id": "u_10_0.6943636998948022",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3374,7 +2924,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8102795924677819",
+      "id": "u_09_0.8659353380499991",
       "type": "command",
       "content": "var bSucc = this.GoogleMap00.destroy();"
     },
@@ -3384,7 +2934,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.20033883278454012",
+      "id": "u_10_0.940249738893888",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>GoogleMap 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nGoogleMap 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3445,7 +2995,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18214363844873005",
+      "id": "u_10_0.5931529689248617",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.GoogleMap00.findEventHandler( \"onmove\", this.GoogleMap00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -3459,7 +3009,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1962123396504003",
+      "id": "u_10_0.42101843846035614",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3520,7 +3070,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4865621384655512",
+      "id": "u_10_0.8564182372525883",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLatitude</td><td>Number</td><td colspan=\"2\"><div>주소를 검색할 위치의 위도를 숫자로 설정합니다.</div></td></tr><tr><td>nLongitude</td><td>Number</td><td colspan=\"2\"><div>주소를 검색할 위치의 경도를 숫자로 설정합니다.</div></td></tr><tr><td>nMaxResultCount </td><td>Number</td><td colspan=\"2\"><div>반환 받을 주소의 최대 갯수를 숫자로 설정합니다.\n\n값 생략 시 \"1\" 로 적용됩니다.\n\"0\" 이하로 설정 시 에러가 발생합니다.</div></td></tr><tr><td>enumLocale</td><td>String</td><td colspan=\"2\"><div>반환 받을 주소의 언어를 설정합니다.\n\n\"ko\" 설정 시 한국어로 된 주소를 반환합니다.\n\"en\" 설정 시 영어로 된 주소를 반환합니다.\n\"ja\" 설정 시 일본어로 된 주소를 반환합니다.\n\n값 생략 시 시스템에 설정된 국가정보가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3534,7 +3084,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7559736549753127",
+      "id": "u_10_0.5328345897657848",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터를 잘 못 설정하거나 0 이하로 설정 시 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3595,7 +3145,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8375450197409364",
+      "id": "u_10_0.25363915903643164",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strAddress</td><td>String</td><td colspan=\"2\"><div>좌표(위도,경도)로 변환하려는 주소를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3609,7 +3159,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9913569737340882",
+      "id": "u_10_0.1248867805408237",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>메소드 수행에 성공하면 \"true\" 를 반환합니다.\n메소드 수행에 실패하면 \"false\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3670,7 +3220,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.03229459216453878",
+      "id": "u_10_0.23887496663703478",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = GoogleMap00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -3684,7 +3234,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1625352844450516",
+      "id": "u_10_0.5884805975852472",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3735,7 +3285,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4579419302237502",
+      "id": "u_09_0.6959476903490445",
       "type": "command",
       "content": "var nBottom = this.GoogleMap.getOffsetBottom();"
     },
@@ -3745,7 +3295,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6870874648133349",
+      "id": "u_10_0.14321574527940928",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 GoogleMap 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3806,7 +3356,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5287324595110031",
+      "id": "u_09_0.48204198858762715",
       "type": "command",
       "content": "var nHeight = this.GoogleMap.getOffsetHeight();"
     },
@@ -3816,7 +3366,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9166603224270848",
+      "id": "u_10_0.32023625575380466",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3887,7 +3437,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.2811838458693574",
+      "id": "u_09_0.6947538394375389",
       "type": "command",
       "content": "var nleft = this.GoogleMap.getOffsetLeft();"
     },
@@ -3897,7 +3447,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7933942868586153",
+      "id": "u_10_0.5286157711583233",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 GoogleMap 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3958,7 +3508,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.008003069902715265",
+      "id": "u_09_0.71356824524607",
       "type": "command",
       "content": "var nRight = this.GoogleMap.getOffsetRight();"
     },
@@ -3968,7 +3518,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9773400464113039",
+      "id": "u_10_0.682012035586647",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 GoogleMap 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4029,7 +3579,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.33198826167041706",
+      "id": "u_09_0.4115212070745091",
       "type": "command",
       "content": "var nTop = this.GoogleMap.getOffsetTop();"
     },
@@ -4039,7 +3589,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.17656867966818457",
+      "id": "u_10_0.3207944520434445",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 GoogleMap 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4100,7 +3650,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4718993893065897",
+      "id": "u_09_0.8542946691889547",
       "type": "command",
       "content": "var nWidth = this.GoogleMap.getOffsetWidth();"
     },
@@ -4110,7 +3660,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.008859852184960326",
+      "id": "u_10_0.1945461952297015",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4181,7 +3731,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9636613061464965",
+      "id": "u_09_0.7501653657839757",
       "type": "command",
       "content": "var nbottom = this.GoogleMap.getPixelBottom();"
     },
@@ -4191,7 +3741,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.18351136317134797",
+      "id": "u_10_0.26661101471312687",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4252,7 +3802,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9004532500721728",
+      "id": "u_09_0.6276210975331393",
       "type": "command",
       "content": "var nheight = this.GoogleMap.getPixelHeight();"
     },
@@ -4262,7 +3812,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6400542791164403",
+      "id": "u_10_0.8522684420712632",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4323,7 +3873,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.41647852985978395",
+      "id": "u_09_0.6129136635444651",
       "type": "command",
       "content": "var nleft = this.GoogleMap.getPixelLeft();"
     },
@@ -4333,7 +3883,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.27539170183507766",
+      "id": "u_10_0.750891362366685",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4394,7 +3944,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9992009780857839",
+      "id": "u_09_0.7874347314367448",
       "type": "command",
       "content": "var nright = this.GoogleMap.getPixelRight();"
     },
@@ -4404,7 +3954,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7202899659890376",
+      "id": "u_10_0.40893161793212807",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4465,7 +4015,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.49966884163596337",
+      "id": "u_09_0.7651789014445517",
       "type": "command",
       "content": "var ntop = this.GoogleMap.getPixelTop();"
     },
@@ -4475,7 +4025,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6491130984516567",
+      "id": "u_10_0.6319665437266545",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4536,7 +4086,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3752164927386754",
+      "id": "u_09_0.19926142051192341",
       "type": "command",
       "content": "var nwidth = this.GoogleMap.getPixelWidth();"
     },
@@ -4546,7 +4096,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8103382913720212",
+      "id": "u_10_0.4157110604988097",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>GoogleMap 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4607,7 +4157,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7569468093698688",
+      "id": "u_10_0.6238927291341713",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>GoogleMap 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new GoogleMap();\n\nobjComp.init( \"GoogleMap00\", 30, 120, 196, 46 );\nobjComp.init( \"GoogleMap00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"GoogleMap00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"GoogleMap00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"GoogleMap00\", \"GoogleMap22:10\", 300, null, null, \"GoogleMap33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -4668,7 +4218,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.054237969650135054",
+      "id": "u_10_0.6733242119766505",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.GoogleMap00.insertEventHandler( \"onmove\", 0, this.GoogleMap00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4682,7 +4232,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.2652182469420682",
+      "id": "u_10_0.35975589133677066",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4743,7 +4293,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.37898692673648404",
+      "id": "u_10_0.8516592927812638",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bUseSensor</td><td>Boolean</td><td colspan=\"2\"><div>GPS 사용 여부를 설정합니다.\n\ntrue 설정 시 GPS 정보를 기준으로 로딩될 지도의 위치를 결정합니다.\nfalse 설정 시 GPS 정보를 사용하지 않습니다.\n\n값 생략 시 false 로 적용됩니다.\n\n* 모바일 기기에서 GPS 사용이 허가되지 않은 경우에 true 를 설정하면 onerror 이벤트가 발생합니다.\n   모바일 기기에서 GPS 사용이 허가된 상태일때 true 를 설정하면 사용허가 확인창이 1회 이상 표시될 수 있습니다.</div></td></tr><tr><td>nLatitude</td><td>Number</td><td colspan=\"2\"><div>로딩될 지도의 위치정보 중 위도를 숫자로 설정합니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>nLongitude</td><td>Number</td><td colspan=\"2\"><div>로딩될 지도의 위치정보 중 경도를 숫자로 설정합니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>constViewMode</td><td>Number</td><td colspan=\"2\"><div>로딩되는 지도의 모드를 설정합니다.\n\n0 설정 시 일반 Google Map 형태로 표시합니다.\n1 설정 시 위성 이미지를 표시합니다.\n2 설정 시 위성 이미지를 표시하고 주요거리의 투명레이어를 함께 표시합니다.\n3 설정 시 지형 및 초목과 같은 물리적인 지형지물과 주요거리 투명레이어를 함께 표시합니다.\n\n값 생략 시 0 으로 적용됩니다.</div></td></tr><tr><td>nZoomLevel</td><td>Number</td><td colspan=\"2\"><div>로딩될 지도의 Zoom Level 을 0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4757,7 +4307,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8185553779205329",
+      "id": "u_10_0.47629698627879125",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터를 잘 못 설정할 경우 false 를 반환합니다.\n\n그 외의 정상적인 경우에는 true 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4828,7 +4378,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6420533974027386",
+      "id": "u_10_0.10208359008123313",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00.move(10,10);\nthis.GoogleMap00.move(10,10,100,100);\nthis.GoogleMap00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -4889,7 +4439,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4681542017845084",
+      "id": "u_10_0.6138613183742718",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>GoogleMap 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.GoogleMap00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4903,7 +4453,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.19938117460214133",
+      "id": "u_10_0.36733717048104164",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4964,7 +4514,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2703819771257714",
+      "id": "u_10_0.5416920035881739",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.GoogleMap00.removeEventHandler( \"onmove\", this.GoogleMap00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -4978,7 +4528,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.847149361416443",
+      "id": "u_10_0.3051687903861229",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5039,7 +4589,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1740589267937258",
+      "id": "u_10_0.45772824706519677",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.GoogleMap00.removeEventHandlerLookup( \"onmove\", \"GoogleMap00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5053,7 +4603,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8895882532873428",
+      "id": "u_10_0.21152864509591784",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5114,7 +4664,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.16176931470451006",
+      "id": "u_10_0.32662412179027267",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strItemID</td><td>String</td><td colspan=\"2\"><div>제거할 아이템의 ID 를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5128,7 +4678,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5138126898650022",
+      "id": "u_10_0.9325382931221379",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>파라미터를 잘 못 설정할 경우 \"false\" 를 반환합니다.\n그 외의 정상적인 경우에는 \"true\" 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5199,7 +4749,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.537168947025498",
+      "id": "u_10_0.2873893191919421",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 GoogleMap 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>GoogleMap 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 GoogleMap 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 GoogleMap 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -5260,7 +4810,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8270616724122155",
+      "id": "u_10_0.07949171030864699",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.GoogleMap00.setEventHandler( \"onmove\", this.GoogleMap00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -5274,7 +4824,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.26733543227473455",
+      "id": "u_10_0.3236943043065289",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5335,7 +4885,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.31292746247138536",
+      "id": "u_10_0.016996653220676228",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap00_onmove = function( obj:nexacro.GoogleMap,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.GoogleMap00.setEventHandlerLookup( \"onmove\", \"GoogleMap00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5349,7 +4899,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.932159253982747",
+      "id": "u_10_0.11784773406286642",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5410,7 +4960,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.18022724551979674",
+      "id": "u_10_0.46487845449236687",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 GoogleMap 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5471,7 +5021,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2580568080194874",
+      "id": "u_10_0.45489482274184456",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>GoogleMap 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5532,7 +5082,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7010291829925507",
+      "id": "u_10_0.1291797721876773",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 GoogleMap 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5593,7 +5143,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5993144319191928",
+      "id": "u_10_0.22277571659792328",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 GoogleMap 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -5654,7 +5204,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5137443785724541",
+      "id": "u_10_0.31882654561184987",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 GoogleMap 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5715,7 +5265,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3972840932316801",
+      "id": "u_10_0.19554230507657566",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>GoogleMap 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.GoogleMap.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5776,7 +5326,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.6341514633188553",
+      "id": "u_09_0.3587710755642689",
       "type": "command",
       "content": "this.GoogleMap00.show();"
     },
@@ -5839,7 +5389,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.786243054709395",
+      "id": "u_10_0.5229688361160549",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapClickEventInfo\">GoogleMapClickEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -5891,7 +5441,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.663553187465668",
+      "id": "u_10_0.6788841364621524",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapErrorEventInfo\">GoogleMapErrorEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -5943,7 +5493,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8764515900314729",
+      "id": "u_10_0.29836822919632144",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapEventInfo\">GoogleMapEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -5995,7 +5545,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8674313600701338",
+      "id": "u_10_0.9437206974365018",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapDragEventInfo\">GoogleMapDragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6057,7 +5607,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.49116806631045995",
+      "id": "u_10_0.6689025797726502",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapDragEventInfo\">GoogleMapDragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6119,7 +5669,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3812818896040373",
+      "id": "u_10_0.9162708600932065",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapDragEventInfo\">GoogleMapDragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -6181,7 +5731,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.19709859925047102",
+      "id": "u_10_0.43438353212666925",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>GoogleMap</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#GoogleMapEventInfo\">GoogleMapEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
