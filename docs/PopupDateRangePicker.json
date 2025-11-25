@@ -45,12 +45,12 @@
       "content": "컴포넌트, 내부 컨텐츠 크기"
     },
     {
-      "id": "u_09_0.91589566831838",
+      "id": "u_09_0.5325849301561919",
       "type": "pre",
       "content": "PopupDateRangePicker 컴포넌트와 내부 콘텐츠 크기를 결정하는 기준입니다."
     },
     {
-      "id": "u_10_0.5736053388954149",
+      "id": "u_10_0.3239382230867396",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td colspan=\"2\"><div>PopupDateRangePicker Component</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker 컴포넌트의 width 속성값이 적용됩니다. \n내부 콘텐츠의 Width 보다 작을 경우 내부 콘텐츠가 잘려서 표시됩니다.</div></td></tr><tr><td>Height</td><td><div>PopupDateRangePicker 컴포넌트의 height 속성값이 적용됩니다. \n내부 콘텐츠의 Height 보다 작을 경우 내부 콘텐츠가 잘려서 표시됩니다.</div></td></tr><tr><td colspan=\"2\"><div>closebutton Control</div></td></tr><tr><td>Left</td><td><div>PopupDateRangePicker 컴포넌트의 width 값에서 closebutton의 width를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>PopupDateRangePicker 컴포넌트의 height 값에서 closebutton의 height를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>closebuttonsize 속성 값이 적용됩니다. \nclosebuttonsize 속성 값이 없으면 70으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>closebuttonsize 속성 값이 적용됩니다. \nclosebuttonsize 속성 값이 없으면 27로 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>headline Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker width 값이 적용됩니다. \nheadlineposition=\"left\" 일 때 headlinesize 속성 값이 적용됩니다. headlinesize 속성 값이 없으면 150로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>headlinesize 속성 값이 적용됩니다. headlinesize 속성 값이 없으면 80로 적용됩니다. \nheadlineposition=\"left\" 일 때 PopupDateRangePicker height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>startdate Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>headline control width 값이 적용됩니다. \ndirection=\"horizontal\"이고 type=\"range\"인 경우, width의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>headline control Height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"이고 type=\"range\"인 경우, height의 1/4 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>startsubdate Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>startdate Control의 height 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>headline control width 값이 적용됩니다. \ndirection=\"horizontal\"이고 type=\"range\"인 경우, width의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>headline control height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"이고 type=\"range\"인 경우, height의 1/4 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>enddate Control</div></td></tr><tr><td>Left</td><td><div>headline control height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, 0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다. \ndirection=\"vertical\"인 경우, headline control height의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>headline control width의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, width 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>headline control height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, height의 1/4 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>endsubdate Control</div></td></tr><tr><td>Left</td><td><div>headline control height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, 0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>enddate Control의 top + height 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>headline control width의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, width 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>headline control height의 1/2 값이 적용됩니다. \ndirection=\"vertical\"인 경우, height의 1/4 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>datetabbutton Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 width를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 height를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker의 width의 1/2 값이 적용됩니다.\nheadline control이 있을 경우 PopupDateRangePicker의 width에서 headline의 width를 뺀 값의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>tabbuttonheight 속성 값이 적용됩니다.\ntabbuttonheight 속성 값이 없으면 27로 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>timetabbutton Control</div></td></tr><tr><td>Left</td><td><div>datetabbutton width 값이 적용됩니다.\nheadline control이 있을 경우 headline의 width를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 height를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker의 width의 1/2 값이 적용됩니다. \nheadline control이 있을 경우 PopupDateRangePicker의 width에서 headline의 width를 뺀 값의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>tabbuttonheight 속성 값이 적용됩니다. \ntabbuttonheight 속성 값이 없으면 27로 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>datepickergroup Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 width를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 height를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker의 width 값이 적용됩니다.  \nheadline control이 있을 경우 PopupDateRangePicker의 width에서 headline의 width를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>PopupDateRangePicker의 height 값이 적용됩니다. \nheadline control이 있을 경우 PopupDateRangePicker의 height에서 headline의 height를 뺀 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>timepickergroup Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 width를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.\nheadline control이 있을 경우 headline의 height를 포함한 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>PopupDateRangePicker의 width 값이 적용됩니다.  \nheadline control이 있을 경우 PopupDateRangePicker의 width에서 headline의 width를 뺀 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>PopupDateRangePicker의 height 값이 적용됩니다.  \nheadline control이 있을 경우 PopupDateRangePicker의 height에서 headline의 height를 뺀 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>datepicker Control</div></td></tr><tr><td>Left</td><td><div>datepickergroup의 width를 displaymonthcount 속성 값으로 나눈 값을 기준으로 0부터 차례 대로 배치합니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>datepickergroup의 width를 displaymonthcount 속성 값으로 나눈 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>datepickergroup의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>timepicker Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.\ndirection=\"horizontal\"이고 type=\"range\"인 경우, timepickergroup width의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다. \ndirection=\"vertical\"이고 type=\"range\"인 경우, timepickergroup height의 1/2 값이 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>timepickergroup의 width 값이 적용됩니다. \ndirection=\"horizontal\"이고 type=\"range\"인 경우, 1/2 값이 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>datepickergroup의 height 값이 적용됩니다. \ndirection=\"vertical\"이고 type=\"range\"인 경우, 1/2 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>ampmspinner Control</div></td></tr><tr><td>Left</td><td><div>locale format에 따라 왼쪽 또는 오른쪽 끝에 계산되어 위치합니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>ampmspinner, hourspinner, minspinner, secspinner control 등 사용되는 개수에 따라 timepicker width에서 delimiter width를 제외한 값의 1/n 값으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>timepicker의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>hourspinner Control</div></td></tr><tr><td>Left</td><td><div>ampmspinner control이 왼쪽에 있는 경우 ampmspinner의 width, 아닌 경우 0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>ampmspinner, hourspinner, minspinner, secspinner control 등 사용되는 개수에 따라 timepicker width에서 delimiter width를 제외한 값의 1/n 값으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>timepicker의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>minspinner Control</div></td></tr><tr><td>Left</td><td><div>hourspinner control의 left + width 값으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>ampmspinner, hourspinner, minspinner, secspinner control 등 사용되는 개수에 따라 timepicker width에서 delimiter width를 제외한 값의 1/n 값으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>timepicker의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>secspinner Control</div></td></tr><tr><td>Left</td><td><div>minspinner control의 left + width 값으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>ampmspinner, hourspinner, minspinner, secspinner control 등 사용되는 개수에 따라 timepicker width에서 delimiter width를 제외한 값의 1/n 값으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>timepicker의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>spinneritem Control</div></td></tr><tr><td>Left</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Top</td><td><div>spinneritem 개수에 맞게 timepicker height의 1/n 값으로 순차적으로 배치됩니다.</div></td></tr><tr><td>Width</td><td><div>spinner control의 width 값으로 적용됩니다</div></td></tr><tr><td>Height</td><td><div>spinner control의 height 값이 적용됩니다.</div></td></tr><tr><td colspan=\"2\"><div>delimiter Control</div></td></tr><tr><td>Left</td><td><div>hourspinner와 minspinner control 사이 또는 minspinner와 secspinner control 사이에 배치됩니다.</div></td></tr><tr><td>Top</td><td><div>0으로 적용됩니다.</div></td></tr><tr><td>Width</td><td><div>내부에서 정의된 값으로 적용됩니다.</div></td></tr><tr><td>Height</td><td><div>timepicker의 height 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -64,12 +64,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.9361045428410094",
+      "id": "u_09_0.5217329873284346",
       "type": "command",
       "content": "PopupDateRangePicker.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.5232880779443332",
+      "id": "u_10_0.9196478305506935",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>PopupDateRangePicker 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>PopupDateRangePicker 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>PopupDateRangePicker 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>PopupDateRangePicker 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>PopupDateRangePicker 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>PopupDateRangePicker 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>PopupDateRangePicker 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>PopupDateRangePicker 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>PopupDateRangePicker 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>PopupDateRangePicker 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>PopupDateRangePicker 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new PopupDateRangePicker();\n\nobjComp.init( \"PopupDateRangePicker00\", 30, 120, 196, 46 );\nobjComp.init( \"PopupDateRangePicker00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"PopupDateRangePicker00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"PopupDateRangePicker00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"PopupDateRangePicker00\", \"PopupDateRangePicker22:10\", 300, null, null, \"PopupDateRangePicker33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "u_10_0.1825001493972478",
+      "id": "u_10_0.1535581655069579",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objPopupDateRangePicker = new PopupDateRangePicker();  \nobjPopupDateRangePicker.init(\"PopupDateRangePicker\", 30, 120, 196, 46, null, null);\nobjPopupDateRangePicker.init(\"PopupDateRangePicker\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objPopupDateRangePicker = new PopupDateRangePicker(\"PopupDateRangePicker\", 30, 120, 196, 46, null, null);\nvar objPopupDateRangePicker = new PopupDateRangePicker(\"PopupDateRangePicker\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"PopupDateRangePicker\", objPopupDateRangePicker); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"PopupDateRangePicker\", objPopupDateRangePicker); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"PopupDateRangePicker\"); \n \n// Show Object  \nobjPopupDateRangePicker.show(); \n \n// Destroy Object  \nobjPopupDateRangePicker.destroy(); \nobjPopupDateRangePicker = null;</div></td></tr></tbody></table>",
       "option": {
@@ -92,7 +92,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.8061346904331775",
+      "id": "u_10_0.6447299984631024",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>readonly</td><td>status</td><td><div>컴포넌트가 읽기 전용인 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -106,7 +106,7 @@
       "content": "Control"
     },
     {
-      "id": "u_10_0.5017314619515708",
+      "id": "u_10_0.6662575839339716",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th colspan=\"2\">Name</th><th>TypeName</th></tr></thead><tbody><tr><td colspan=\"2\">headline</td><td>nexacro.PickerHeadLineControl</td></tr><tr><td colspan=\"2\">datetabbutton</td><td>nexacro.Button</td></tr><tr><td colspan=\"2\">datepickergroup</td><td>nexacro.DatePickerGroupControl</td></tr><tr><td colspan=\"2\">timepickergroup</td><td>nexacro.TimePickerGroupControl</td></tr><tr><td colspan=\"2\">closebutton</td><td>nexacro.Button</td></tr><tr><td colspan=\"2\">timetabbutton</td><td>nexacro.Button</td></tr></tbody></table>",
       "option": {
@@ -176,7 +176,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.26814808180031424",
+      "id": "u_10_0.7605603468588836",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strBackground ::= [&lt;bg-image&gt; | &lt;linear-gradient&gt;] [&lt;background-origin&gt; [&lt;background-clip&gt;]] [&lt;background-color&gt;]\n\n&lt;bg-image&gt; ::= 'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\n   &lt;imageurl&gt; ::= 'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\n   &lt;repeat-style&gt; ::= 'repeat-x' | 'repeat-y' | 'repeat' | 'no-repeat'\n   &lt;position&gt; ::= &lt;horizontal-position&gt; &lt;vertical-position&gt; ['/' &lt;background-size&gt;]\n      &lt;horizontal-position&gt; ::= 'left' | 'center' | 'right' | &lt;pos-percentage&gt; '%'\n      &lt;vertical-position&gt; ::= 'top' | 'center' | 'bottom' | &lt;pos-percentage&gt; '%'\n      &lt;background-size&gt; ::= 'auto' | 'cover' | 'contain' | (&lt;length&gt; 'px' | &lt;percentage&gt; '%') {1,2}\n\n&lt;linear-gradient&gt; ::= 'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\n   &lt;angle&gt; ::= 'to left' | 'to right' | 'to top' | 'to bottom' | 'to left top' | 'to left bottom' | 'to right top' | 'to right bottom'\n   &lt;color-stop&gt; ::= &lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\n      &lt;startcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;endcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%']\n      &lt;listcolor-stop&gt; ::= &lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\n         &lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n&lt;background-origin&gt; ::= 'border-box' | 'padding-box'\n&lt;background-clip&gt; ::= 'border-box' | 'padding-box'\n&lt;background-color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbackground : #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa;\nbackground : \"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa;\nbackground : linear-gradient( red , blue , yellow );\nbackground : linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0));\nbackground : \"URL('./images/smiley.gif')\" border-box border-box #ffffaa;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.background = \"#ffffaa\";\nthis.PopupDateRangePicker00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center #ffffaa\";\nthis.PopupDateRangePicker00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /auto #ffffaa\";\nthis.PopupDateRangePicker00.background = \"\"URL('./images/smiley.gif')\" no-repeat center center /15px 15% #ffffaa\";\nthis.PopupDateRangePicker00.background = \"linear-gradient( red , blue , yellow )\";\nthis.PopupDateRangePicker00.background = \"linear-gradient( #FF0000 , rgb(0,0,255) , rgb(255,255,0))\";\nthis.PopupDateRangePicker00.background = \"\"URL('./images/smiley.gif')\" border-box border-box #ffffaa\";</div></td></tr><tr><th>&lt;bg-image&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'none' | &lt;imageurl&gt; [&lt;repeat-style&gt;] [&lt;position&gt;]\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 이미지가 표시됩니다.\n\n\"none\" 으로 설정하면 이미지를 설정하지 않습니다.\n&lt;imageurl&gt; 값으로 이미지를 설정할 수 있습니다.\n&lt;repeat-style&gt; 값으로 이미지의 반복표시 방향을 설정할 수 있습니다.\n&lt;position&gt; 값으로 이미지의 표시위치를 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;imageurl&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지를 \"'URL(' &lt;Theme-Image&gt; | &lt;Web-Image&gt; ')'\" 형식으로 설정합니다.\n\n\"URL ( [이미지경로] )\" 형식으로 테마 또는 웹의 이미지를 설정합니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;repeat-style&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 반복표시 방향을 설정합니다.\n\n\"repeat-x\" 설정 시 이미지가 가로 방향으로 반복표시 됩니다.\n\"repeat-y\" 설정 시 이미지가 세로 방향으로 반복표시 됩니다.\n\"repeat\" 설정 시 이미지가 가로,세로 방향으로 모두 반복표시 됩니다.\n\"no-repeat\" 설정 시 이미지가 반복표시 되지 않습니다.\n\n값을 설정하지 않으면 \"repeat\" 로 적용됩니다.</div></td></tr><tr><th>&lt;horizontal-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로 위치를 설정합니다.\n\n\"left\" 설정 시 PopupDateRangePicker 의 왼쪽면과 이미지의 왼쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 PopupDateRangePicker 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"right\" 설정 시 PopupDateRangePicker 의 오른쪽면과 이미지의 오른쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;vertical-position&gt; 값을 설정하고, &lt;horizontal-position&gt; 값을 설정하지 않으면 &lt;horizontal-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;horizontal-position&gt; 은 \"left\" 로 적용됩니다.</div></td></tr><tr><th>&lt;vertical-position&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 세로 위치를 설정합니다.\n\n\"top\" 설정 시 PopupDateRangePicker 의 윗쪽면과 이미지의 윗쪽면이 정렬되어 표시됩니다.\n\"center\" 설정 시 PopupDateRangePicker 의 중앙과 이미지의 중앙이 정렬되어 표시됩니다.\n\"bottom\" 설정 시 PopupDateRangePicker 의 아랫쪽면과 이미지의 아랫쪽면이 정렬되어 표시됩니다.\n&lt;pos-percentage&gt; '%' 형식으로 설정 시 이미지의 위치가 비율로 설정됩니다.\n\n&lt;horizontal-position&gt; 값을 설정하고, &lt;vertical-position&gt; 값을 설정하지 않으면 &lt;vertical-position&gt; 은 \"center\" 로 적용됩니다.\n&lt;vertical-position&gt; 값과 &lt;horizontal-position&gt; 값을 모두 설정하지 않으면 &lt;vertical-position&gt; 은 \"top\" 으로 적용됩니다.</div></td></tr><tr><th>&lt;pos-percentage&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 가로/세로 위치를 비율로 설정합니다.\n\n&lt;horizontal-position&gt; 에 \"0%\" 설정 시 \"left\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;horizontal-position&gt; 에 \"100%\" 설정 시 \"right\" 과 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"0%\" 설정 시 \"top\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"50%\" 설정 시 \"center\" 와 같은 위치로 적용됩니다.\n&lt;vertical-position&gt; 에 \"100%\" 설정 시 \"bottom\" 과 같은 위치로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 PopupDateRangePicker 의 영역을 벗어난 가상의 위치로 적용됩니다.\n\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-size&gt;</th><td colspan=\"2\"><div>배경에 표시될 이미지의 크기를 설정합니다.\n- auto: 원본 이미지 크기를 유지합니다.\n- cover: 이미지 비율을 유지하는 한도 내에서 배경에 빈 공간이 없도록 가장 크게 설정합니다.\n  width 또는 height 길이가 긴 쪽은 잘려서 표시될 수 있습니다.\n- contain: 이미지가 잘리지 않고 비율을 유지하는 한도 내에서 가장 크게 설정합니다.\n- &lt;length&gt; | &lt;percentage&gt;: 이미지의 width, height 크기 또는 컴포넌트 대비 비율을 설정합니다. \n  width 값만 설정하면 원본 이미지 비율에 따라 height 크기를 자동으로 처리합니다.\n  height 값만 설정할 수는 없습니다. \n  음수값은 설정할 수 없습니다.</div></td></tr><tr><th>&lt;linear-gradient&gt;</th><td colspan=\"2\"><div>배경에 표시될 그라데이션을 \"'linear-gradient(' [&lt;angle&gt; , ] &lt;color-stop&gt; ')'\" 형식으로 설정합니다.\n\n&lt;background-color&gt; 값이 설정되어 있으면 배경색 위로 그라데이션이 표시됩니다.\n\n\"linear-gradient ( [방향, 색상값, 색상값, ...] )\" 형식으로 그라데이션 방향과 색상을 설정할 수 있습니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;angle&gt;</th><td colspan=\"2\"><div>그라데이션의 표시 방향을 설정합니다.\n\n\"to left\" 설정 시 오른쪽에서 왼쪽 방향으로 그라데이션이 표시됩니다.\n\"to right\" 설정 시 왼쪽에서 오른쪽 방향으로 그라데이션이 표시됩니다.\n\"to top\" 설정 시 아래쪽에서 윗쪽 방향으로 그라데이션이 표시됩니다.\n\"to bottom\" 설정 시 윗쪽에서 아래쪽 방향으로 그라데이션이 표시됩니다.\n\"to left top\" 설정 시 오른쪽 아래 방향에서 왼쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to left bottom\" 설정 시 오른쪽 윗 뱡향에서 왼쪽 아래 방향으로 그라데이션이 표시됩니다.\n\"to right top\" 설정 시 왼쪽 아래 방향에서 오른쪽 윗 방향으로 그라데이션이 표시됩니다.\n\"to right bottom\" 설정 시 왼쪽 윗 방향에서 오른쪽 아래 방향으로 그라데이션이 표시됩니다.\n\n값을 설정하지 않으면 \"to bottom\"으로 적용됩니다.</div></td></tr><tr><th>&lt;color-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점, 끝점, 중간점의 색을 \"&lt;startcolor-stop&gt; [&lt;listcolor-stop&gt;] &lt;endcolor-stop&gt;\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점과 끝점의 위치가 결정됩니다.\n예를 들어 &lt;angle&gt; 값이 \"to left\" 이면 PopupDateRangePicker 의 right 위치가 시작점이 되고, left 위치가 끝점이 됩니다.\n              &lt;angle&gt; 값이 \"to right\" 이면 PopupDateRangePicker 의 left 위치가 시작점이 되고, right 위치가 끝점이 됩니다.\n\n&lt;listcolor-stop&gt; 에 그라데이션 중간점의 색을 한개 이상 설정할 수 있으며 &lt;percentage&gt; 값 생략 시 균등하게 표시됩니다.</div></td></tr><tr><th>&lt;startcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 시작점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 시작점 위치가 결정됩니다.\n시작점의 &lt;percentage&gt; 값을 \"0\" 이상으로 설정 시 \"시작점~설정값\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;endcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 끝점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%']\" 형식으로 설정합니다.\n\n&lt;angle&gt; 값에 설정된 방향에 따라 끝점 위치가 결정됩니다.\n끝점의 &lt;percentage&gt; 값을 \"100\" 이하로 설정 시 \"설정값~끝점\"까지 동일한 색상으로 표시됩니다.</div></td></tr><tr><th>&lt;listcolor-stop&gt;</th><td colspan=\"2\"><div>그라데이션의 중간점 색을 \"&lt;color&gt; [&lt;percentage&gt;'%\"] [,&lt;listcolor-stop&gt;]*\" 형식으로 설정합니다.\n\n시작점과 끝점 사이에 적용될 중간색을 \",\"로 구분하여 여러개 설정할 수 있습니다.\n뒤에 선언된 색의 &lt;percentage&gt; 값은 먼저 선언된 색의 &lt;percentage&gt; 값보다 커야 합니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그라데이션 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;percentage&gt;</th><td colspan=\"2\"><div>&lt;color&gt; 에 해당하는 색이 적용될 위치를 비율값으로 설정합니다.\n\n&lt;angle&gt; 값에 의해 결정된 시작점이 \"0%\" 로 적용됩니다.\n&lt;angle&gt; 값에 의해 결정된 끝점이 \"100%\" 로 적용됩니다.\n\n0 보다 작거나 100 보다 큰 값을 설정 시 PopupDateRangePicker 의 영역을 벗어난 가상의 위치로 적용됩니다.\n예를 들어 \"150%\" 설정 시 시작점에서 끝점까지 거리의 반만큼 끝점에서 벗어난 위치에 &lt;color&gt; 값이 적용됩니다.\n\n&lt;percentage&gt; 값을 생략하면 균등한 위치에 &lt;color&gt; 값이 적용됩니다.\n값 설정 시 \"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;background-origin&gt;</th><td colspan=\"2\"><div>배경으로 처리될 기준영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역이 배경영역으로 처리됩니다.\n\n\"padding-box\" 설정 시 Border 의 안쪽 영역이 배경영역으로 처리됩니다.\n\"padding-box\" 설정 시 그라데이션의 시작점, 끝점과 배경이미지의 반복 기준위치가 Border 안쪽 영역으로 처리됩니다.\n\n값을 설정하지 않으면 \"padding-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-clip&gt;</th><td colspan=\"2\"><div>배경이 실제로 표시될 영역을 설정합니다.\n\n\"border-box\" 설정 시 Border 를 포함한 영역에 배경이 표시됩니다.\n\"padding-box\" 설정 시 Border 의 안쪽 영역에 배경이 표시됩니다.\n\n값을 설정하지 않으면 &lt;background-origin&gt; 에 설정한 값이 동일하게 적용됩니다.\n&lt;background-origin&gt; 값도 설정하지 않았을 경우 \"border-box\" 로 적용됩니다.</div></td></tr><tr><th>&lt;background-color&gt;</th><td colspan=\"2\"><div>배경에 표시될 색을 색상이름 또는 색상코드로 설정합니다.\n\n&lt;bg-image&gt; 또는 &lt;linear-gradient&gt; 값이 설정되어 있다면 배경색은 배경이미지 또는 그라데이션 아래에 표시됩니다.\n&lt;bg-image&gt; 에 적용된 이미지에 투명으로 적용된 부분이 있거나 이미지가 PopupDateRangePicker 영역보다 작다면 해당 영역에 배경색이 표시됩니다.\n\n그라데이션과 배경이미지를 동시에 설정할 수 없습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -251,7 +251,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6133516674176974",
+      "id": "u_10_0.08921771483178476",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.backgroundcolumn = \"bgcolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>배경색이 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -336,7 +336,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6694907987591021",
+      "id": "u_10_0.5116880279393633",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.bordercolumn = \"bordercolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>테두리값이 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -421,7 +421,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7746831030660045",
+      "id": "u_10_0.1418544485403309",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborderradius ::= &lt;horizontal-radius&gt;{4} ['/' &lt;vertical-radius&gt;{4}]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nborder-radius : 10px;\nborder-radius : 5px 6px 10px / 5px 10px;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.borderRadius = \"10px\";\nthis.PopupDateRangePicker00.borderRadius = \"5px 6px 10px / 5px 10px\";</div></td></tr><tr><th>&lt;horizontal-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 가로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 가로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 가로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><th>&lt;vertical-radius&gt;</th><td colspan=\"2\"><div>모서리를 둥글게 표시하기 위한 세로크기를 설정합니다.\n\npixel 단위로 입력하며 스페이스를 구분자로 4개값까지 설정할 수 있습니다.\n\n값을 1회 입력 시 top-left/top-right/bottom-right/bottom-left 모서리의 세로크기로 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top-left/bottom-right, top-right/bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top-left, top-right/bottom-left, bottom-right 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top-left, top-right, bottom-right, bottom-left 모서리의 세로크기로 첫번째 값부터 각각 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -496,7 +496,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6032696392219664",
+      "id": "u_10_0.4869805238744733",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.bottom = 10; \nthis.PopupDateRangePicker00.bottom = \"10px\"; \nthis.PopupDateRangePicker00.bottom = \"10%\"; \nthis.PopupDateRangePicker00.bottom = \"Button00:10px\"; \nthis.PopupDateRangePicker00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 PopupDateRangePicker의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 PopupDateRangePicker의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 PopupDateRangePicker의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 PopupDateRangePicker의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -571,7 +571,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.23673389922272248",
+      "id": "u_10_0.6388988948361927",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strbshadow ::= 'none' | [&lt;inset&gt;] &lt;offset&gt; [&lt;blur&gt;'px'] [&lt;spread&gt;'px'] [&lt;color&gt;]\n\n&lt;offset&gt; ::= &lt;horizontal&gt;'px' &lt;vertical&gt;'px'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nbox-shadow : 10px 10px 10px #888888;\nbox-shadow : inset 10px 10px 10px 5px #888888\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.boxShadow  = \"10px 10px 10px #888888\";\nthis.PopupDateRangePicker00.boxShadow  = \"inset 10px 10px 10px 5px #888888\";</div></td></tr><tr><th>&lt;inset&gt;</th><td colspan=\"2\"><div>그림자 효과가 컴포넌트 안쪽에 표시됩니다.\n생략 시에는 outset으로 동작합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;offset&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 위치를 설정합니다.\n\nPopupDateRangePicker 의 좌상단 위치를 기준으로 그림자 효과가 표시될 위치를 가로/세로 픽셀값으로 설정합니다.</div></td></tr><tr><th>&lt;horizontal&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 가로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 왼쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;vertical&gt;</th><td colspan=\"2\"><div>그림자 효과가 표시되는 세로 위치를 설정합니다.\n\n음수로 설정 시 컴포넌트의 윗쪽에 그림자 효과가 표시됩니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;blur&gt;</th><td colspan=\"2\"><div>그림자 효과에 blur를 설정합니다.\n음수로 설정 시 blur가 적용되지 않습니다.\npixel 단위로 입력하며 \"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;spread&gt;</th><td colspan=\"2\"><div>그림자를 확장하거나 축소합니다.\n양수로 설정 시에는 그림자를 확장하고 음수로 설정 시에는 그림자를 축소합니다.\nNRE는 지원하지 않습니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>그림자 효과의 색을 색상이름 또는 색상코드로 설정할 수 있습니다.\n\n값을 입력하지 않으면 브라우저별로 다르게 동작하거나 오동작할 수 있습니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -646,7 +646,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.15984797991908706",
+      "id": "u_10_0.3691572453710552",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strSize ::= &lt;strWidth&gt; [&lt;strHeight&gt;]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.closebuttonsize = \"120\";\nthis.PopupDateRangePicker00.closebuttonsize = \"120 25\";</div></td></tr><tr><th>&lt;strWidth&gt;</th><td colspan=\"2\"><div>closebutton 컨트롤의 너비를 pixel 단위의 문자열로 설정합니다.</div></td></tr><tr><th>&lt;strHeight&gt;</th><td colspan=\"2\"><div>closebutton 컨트롤의 높이를 pixel 단위의 문자열로 설정합니다.\n\n값을 생략할 경우 &lt;strWidth&gt; 값이 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -721,7 +721,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6327905869377449",
+      "id": "u_10_0.3358993882025071",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.closebuttontext = \"Select\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>closebutton 컨트롤의 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -786,7 +786,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08655566575323637",
+      "id": "u_10_0.8556530037428998",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcolor ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncolor : #999999;\ncolor : rgb ( 255, 0, 0 );\ncolor : red;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.color = \"#999999\";\nthis.PopupDateRangePicker00.color = \"rgb(255,0,0)\";\nthis.PopupDateRangePicker00.color = \"red\";</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -861,7 +861,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3825189697233612",
+      "id": "u_10_0.3906510563364405",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strcssclass ::= &lt;ClassName&gt; [ , &amp;ltClassName&gt; ]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.cssclass = \"TestClass\"; \nthis.PopupDateRangePicker00.cssclass = \"TestClass,TestClass2\";</div></td></tr><tr><th>&lt;ClassName&gt;</th><td colspan=\"2\"><div>XCSS 에 정의된 classname 을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -936,7 +936,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7585639527196046",
+      "id": "u_10_0.7093304717016916",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strCursor ::= 'none' | 'auto' | 'default' | 'copy' | 'crosshair' | 'help' | 'move' | 'not-allowed' | 'pointer' | 'progress' | 'text' | 'wait' | 'ew-resize' | 'e-resize' | 'w-resize' | 'ns-resize' | 'n-resize' | 's-resize' | 'nesw-resize' | 'ne-resize' | 'sw-resize' | 'nwse-resize' | 'nw-resize' | 'se-resize'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\ncursor : default;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.cursor = \"default\";</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 포인터를 표시하지 않습니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"auto\"</th><td colspan=\"2\"><div>컴포넌트의 특성에 맞는 포인터가 표시됩니다.\n\nEdit계열 컴포넌트는 \"text\" 포인터가 표시됩니다.\n그외 계열 컴포넌트는 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>시스템의 기본 포인터가 표시됩니다.\n\n일반적으로 \"arrow\" 포인터가 표시됩니다.</div></td></tr><tr><th>\"copy\"</th><td colspan=\"2\"><div>화살표와 작은 십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"crosshair\"</th><td colspan=\"2\"><div>십자(\"+\") 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"help\"</th><td colspan=\"2\"><div>화살표와 작은 물음표 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 물음표 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"move\"</th><td colspan=\"2\"><div>십자 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"not-allowed\"</th><td colspan=\"2\"><div>금지 표지판 모양의 포인터가 표시됩니다.\n\n* Safari 브라우저는 화살표와 금지 표지판 모양의 포인터가 표시됩니다.\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"pointer\"</th><td colspan=\"2\"><div>손모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"progress\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 화살표와 모래시계, 화살표와 원 등 다양한 형태로 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"text\"</th><td colspan=\"2\"><div>아이(\"I\") 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"wait\"</th><td colspan=\"2\"><div>OS 또는 환경에 따라 다른 형태의 포인터가 표시됩니다.\n\n원, 모래시계, 시계 등 다양한 형태로 표시됩니다.</div></td></tr><tr><th>\"ew-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"e-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"w-resize\"</th><td colspan=\"2\"><div>수평으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ns-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"n-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"s-resize\"</th><td colspan=\"2\"><div>수직으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nesw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"ne-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"sw-resize\"</th><td colspan=\"2\"><div>사선(\"/\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr><tr><th>\"nwse-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE는 지원하지 않습니다.</div></td></tr><tr><th>\"nw-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.\n\n* macOS NRE 는 지원하지 않습니다.</div></td></tr><tr><th>\"se-resize\"</th><td colspan=\"2\"><div>역사선(\"＼\")으로 된 양쪽 화살표 모양의 포인터가 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1011,7 +1011,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.005868385093080852",
+      "id": "u_10_0.19289723359756417",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.datecolumn = \"datecolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>특정날짜가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1086,7 +1086,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14350806610776",
+      "id": "u_10_0.8111745651598972",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.datetabbuttontext = \"Date\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>datetabbutton 컨트롤에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1151,7 +1151,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5785324495031565",
+      "id": "u_10_0.9826661988769619",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumPosition ::= 1 | 2</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.defaultrangeposition = 2;</div></td></tr><tr><th>1</th><td colspan=\"2\"><div>rangeposition 속성값에 따라 오른쪽 또는 왼쪽에 startdate 속성값에 설정한 날짜가 포함된 datepicker를 표시합니다.</div></td></tr><tr><th>2</th><td colspan=\"2\"><div>rangeposition 속성값에 따라 오른쪽 또는 왼쪽에서 2번째 위치에 startdate 속성값에 설정한 날짜가 포함된 datepicker를 표시합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1236,7 +1236,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10776647374938042",
+      "id": "u_10_0.8180075771619303",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumDirection ::= 'horizontal' | 'vertical'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.direction = \"vertical\";</div></td></tr><tr><th>\"horizontal\"</th><td colspan=\"2\"><div>가로 방향으로 컨트롤을 배치합니다.</div></td></tr><tr><th>\"vertical\"</th><td colspan=\"2\"><div>세로 방향으로 컨트롤을 배치합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1311,7 +1311,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7489011925445435",
+      "id": "u_10_0.16905622121331132",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumCount ::= 1 | 2 | 3</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.displaymonthcount = 3;</div></td></tr><tr><th>1</th><td colspan=\"2\"><div>startdate 속성값에 해당하는 월을 나타내는 1개의 datepicker 컨트롤이 표시됩니다.</div></td></tr><tr><th>2</th><td colspan=\"2\"><div>startdate 속성값에 해당하는 월과 그 다음 월을 나타내는 2개의 datepicker 컨트롤이 표시됩니다.</div></td></tr><tr><th>3</th><td colspan=\"2\"><div>startdate 속성값에 해당하는 월과 그 다음 월을 나타내는 3개의 datepicker 컨트롤이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1396,7 +1396,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8181448011170455",
+      "id": "u_10_0.5699974875087882",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'date' | 'datetime' | 'time'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.displaytype = \"datetime\";</div></td></tr><tr><th>'date'</th><td colspan=\"2\"><div>날짜만 선택할 수 있는 형식으로 지정됩니다. \nstartdate, enddate 속성값 설정 시 \"yyyyMMdd\" 형식의 숫자로 된 8자리 문자열 값으로 고정됩니다.</div></td></tr><tr><th>'datetime'</th><td colspan=\"2\"><div>날짜와 시간을 선택할 수 있는 형식으로 지정됩니다. \nstartdate, enddate 속성값 설정 시 \"yyyyMMddHHmmssSSS\" 형식의 숫자로 된 17자리 문자열 값으로 고정됩니다.</div></td></tr><tr><th>'time'</th><td colspan=\"2\"><div>시간만 선택할 수 있는 형식으로 지정됩니다. \nstartdate, enddate 속성값 설정 시 \"HHmmssSSS\" 형식의 숫자로 된 9자리 문자열 값으로 고정됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1471,7 +1471,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6255435173285878",
+      "id": "u_10_0.559750767495883",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.enable = true; \nthis.PopupDateRangePicker00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>PopupDateRangePicker 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>PopupDateRangePicker 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1546,7 +1546,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06846786852449127",
+      "id": "u_10_0.26491552992927647",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bEvent ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.enableevent = true;  \n\nthis.PopupDateRangePicker00.enableevent = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>PopupDateRangePicker 에서 이벤트가 발생하도록 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>PopupDateRangePicker 에서 이벤트가 발생하지 않도록 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1621,7 +1621,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.018281061311880675",
+      "id": "u_10_0.8100707862338811",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.enddate = \"20230501\"; // displaytype = \"date\"\nthis.PopupDateRangePicker00.enddate = \"20230501090030123\"; // displaytype = \"datetime\"\nthis.PopupDateRangePicker00.enddate = \"090030123\"; // displaytype = \"time\"</div></td></tr><tr><th>strEndDate</th><td colspan=\"2\"><div>displaytype 속성값에 따라 종료일자(시간)를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1696,7 +1696,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4431599370658774",
+      "id": "u_10_0.9071870597464775",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1771,7 +1771,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5401776930041956",
+      "id": "u_10_0.8457616511423945",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1846,7 +1846,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08707487967389416",
+      "id": "u_10_0.519719892327125",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strfont ::= [&lt;font-style&gt;] [&lt;font-weight&gt;] &lt;font-size&gt; ['/'&lt;line-height&gt;] &lt;font-family&gt;\n\n&lt;font-style&gt; ::= 'normal' | 'italic'\n&lt;font-weight&gt; ::= 'normal' | 'bold' | '100' | '200' | '300' | '400' | '500' | '600' | '700' | '800' | '900'\n&lt;font-size&gt; ::= &lt;nSize&gt; 'px'|'pt'|'em'|'rem'\n&lt;line-height&gt; ::= 'normal' | &lt;nValue&gt; | &lt;nPixel&gt;'px' | &lt;nPercent&gt;'%'\n&lt;font-family&gt; ::= &lt;font-name&gt; [',' &lt;font-name&gt;]*</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nfont : bold 12pt/30px arial, sans-serif;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.font = \"bold 12pt/30px arial, sans-serif\";</div></td></tr><tr><th>&lt;font-style&gt;</th><td colspan=\"2\"><div>폰트의 스타일을 설정합니다.\n\n\"normal\" 설정 시 스타일이 적용되지 않습니다.\n\"italic\" 설정 시 기울임 스타일이 적용됩니다.</div></td></tr><tr><th>&lt;font-weight&gt;</th><td colspan=\"2\"><div>폰트의 굵기를 설정합니다.\n\n\"normal\" 설정 시 굵기가 적용되지 않습니다.\n\"bold\" 설정 시 굵은 폰트가 적용됩니다.\n\n\"100\"~\"900\" 로 설정 시 설정한 굵기로 폰트가 적용됩니다.\n\"100\"~\"900\" 로 설정 시 굵기에 해당하는 폰트가 정의되어 있어야 합니다.</div></td></tr><tr><th>&lt;font-size&gt;</th><td colspan=\"2\"><div>폰트 크기의 단위는 아래와 같이 절대 길이 단위와 상대 길이 단위로 설정할 수 있습니다.\n단위를 지정하지 않으면 속성값이 적용되지 않습니다.\n- 절대 길이 단위: pixel(\"px\"), point(\"pt\")\n- 상대 길이 단위: \"em\", \"rem\"\n\n폰트 크기 단위를 \"em\", \"rem\"으로 설정한 경우에는 아래와 같이 폰트 크기가 계산됩니다.\n- \"em\": 상위 컴포넌트 font-size 기준으로 상대적인 크기를 설정\n- \"rem\": MainFrame font-size 기준으로 상대적인 크기를 설정</div></td></tr><tr><th>&lt;nSize&gt;</th><td colspan=\"2\"><div>폰트 크기 단위에 따라 정수 또는 소수로 설정합니다.\n음수값은 설정할 수 없습니다.\n- \"px\", \"pt\": 정수\n- \"em\", \"rem\": 정수 또는 소수</div></td></tr><tr><th>&lt;line-height&gt;</th><td colspan=\"2\"><div>텍스트가 여러줄로 표시되는 경우 줄 사이의 간격을 설정합니다.\n\n음수값을 설정할 수 없습니다.\n\n\"normal\" 설정 시 줄 사이의 간격을 설정하지 않습니다.\n\"normal\" 설정 시 웹브라우저마다 줄 사이의 간격이 다르게 적용됩니다.\n\"normal\" 설정 시 Nexacro Runtime Environment는 폰트 크기에 곱할 값(&lt;nValue&gt;값)이 \"1.15\" 일 때와 동일하게 동작합니다.</div></td></tr><tr><th>&lt;nValue&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.</div></td></tr><tr><th>&lt;nPixel&gt;</th><td colspan=\"2\"><div>줄 사이의 간격을 pixel 단위의 숫자로 설정합니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;nPercent&gt;</th><td colspan=\"2\"><div>폰트 크기에 곱할 비율값을 설정합니다.\n\n계산 결과값이 줄 사이 간격으로 적용됩니다.\n\"%\" 단위를 생략할 수 없습니다.</div></td></tr><tr><th>&lt;font-family&gt;</th><td colspan=\"2\"><div>폰트 이름을 리스트로 설정합니다.\n\n콤마(\",\")로 구분하여 폰트 이름을 여러개 설정할 수 있습니다.\n먼저 선언된 폰트가 우선적으로 적용됩니다.\n선언된 폰트가 시스템에 없을 경우 선언된 순서대로 사용 가능한 폰트를 적용합니다.\n선언된 폰트가 모두 없을 경우 시스템 기본 폰트가 적용됩니다.</div></td></tr><tr><th>&lt;font-name&gt;</th><td colspan=\"2\"><div>폰트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1921,7 +1921,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7946419023578859",
+      "id": "u_10_0.0747291340086117",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strFormat ::= &lt;maskchar&gt; | &lt;dateStyle&gt;\n\n&lt;maskchar&gt; ::= [&lt;Year&gt;] [&lt;Month&gt;] [&lt;Day&gt;] [&lt;Week&gt;]\n\n\n* &lt;maskchar&gt;는 날짜를 표시하기 위한 마스크 문자의 조합으로 각 요소의 순서변경과 생략이 가능합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlinedateformat = \"yyyy-MM-dd ddd\";\nthis.PopupDateRangePicker00.headlinedateformat = \"SHORTDATE\";</div></td></tr><tr><th>&lt;Year&gt;</th><td colspan=\"2\"><div>연도를 표시하는 마스크 문자를 설정합니다. \n\n\"yy\" 설정 시 연도의 뒤 두 자리만 표시합니다. \n\"yyyy\" 설정 시 연도를 네 자리로 모두 표시합니다.</div></td></tr><tr><th>&lt;Month&gt;</th><td colspan=\"2\"><div>월을 표시하는 마스크 문자를 설정합니다. \n\n\"M\" 설정 시 1월~9월은 한자리로 표시하고 10월~12월은 두 자리로 표시합니다. \n\"MM\" 설정 시 모든 월을 두 자리로 표시하고 1월~9월은 앞자리에 \"0\"을 표시합니다. \n\"MMM\" 설정 시 로케일 설정값에 따라 축약된 형식으로 월 문자열을 표시합니다.\n\"MMMM\" 설정 시 로케일 설정값에 따라 확장된 형식으로 월 문자열을 표시합니다.</div></td></tr><tr><th>&lt;Day&gt;</th><td colspan=\"2\"><div>일을 표시하는 마스크 문자를 설정합니다. \n\n\"d\" 설정 시 1일~9일은 한자리로 표시하고 나머지 일은 두 자리로 표시합니다. \n\"dd\" 설정 시 모든 일을 두 자리로 표시하고 1일~9일은 앞자리에 \"0\"을 표시합니다.</div></td></tr><tr><th>&lt;Week&gt;</th><td colspan=\"2\"><div>요일을 표시하는 마스크 문자를 설정합니다.\n\n\"ddd\" 설정 시 축약된 요일명을 표시합니다.\n\"dddd\" 설정 시 전체 요일명을 표시합니다.</div></td></tr><tr><th>&lt;dateStyle&gt;</th><td colspan=\"2\"><div>ECMA Intl API DateTimeFormat() 생성자에서 사용하는 스타일 옵션으로 설정합니다.\n\n\"SHORTDATE\" - dateStyle: 'short'\n\"MEDIUMDATE\" - dateStyle: 'medium'\n\"LONGDATE\" - dateStyle: 'long'\n\"FULLDATE\" - dateStyle: 'full'</div></td></tr></tbody></table>",
       "option": {
@@ -1996,7 +1996,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3117118846204303",
+      "id": "u_10_0.2593562670173426",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlineenddatenulltext = \"Check Out\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>headline의 enddate 컨트롤에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2071,7 +2071,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5205433748738169",
+      "id": "u_10_0.3651376040608578",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumPosition ::= 'top' | 'left'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlineposition = \"left\";</div></td></tr><tr><th>\"top\"</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트 상단에 headline이 표시됩니다.</div></td></tr><tr><th>\"left\"</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트 왼쪽에 headline이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2146,7 +2146,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8272105626731744",
+      "id": "u_10_0.36811465296188606",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strSize ::= &lt;strWidth&gt; [&lt;strHeight&gt;]</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlinesize = \"250 250\";</div></td></tr><tr><th>&lt;strWidth&gt;</th><td colspan=\"2\"><div>headlineposition 속성값이 \"left\"인 경우에는 headline의 너비를 pixel 단위 문자열로 설정합니다.</div></td></tr><tr><th>&lt;strHeight&gt;</th><td colspan=\"2\"><div>headlineposition 속성값이 \"top\"인 경우에는 headline의 높이를 pixel 단위 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2221,7 +2221,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1843149064473779",
+      "id": "u_10_0.5806701610187636",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlinestartdatenulltext = \"Check In\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>headline의 startdate 컨트롤에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2296,7 +2296,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7478552019687862",
+      "id": "u_10_0.4505899175457283",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strFormat ::= &lt;maskchar&gt; | &lt;timeStyle&gt;\n\n&lt;maskchar&gt; ::= [&lt;Hour&gt;] [&lt;Minute&gt;] [&lt;Second&gt;] [&lt;MiliSec&gt;] [&lt;AM/PM&gt;]\n\n\n* &lt;maskchar&gt;는 시간을 표시하기 위한 마스크 문자의 조합으로 각 요소의 순서변경과 생략이 가능합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.headlinetimeformat = \"HH:mm:ss\";\nthis.PopupDateRangePicker00.headlinetimeformat = \"LONGTIME\";</div></td></tr><tr><th>&lt;Hour&gt;</th><td colspan=\"2\"><div>시간을 표시하는 마스크 문자를 설정합니다. \n\n\"h\" 설정 시 12시간을 기준으로 1시~9시는 한자리로 표시하고 나머지 시간은 두 자리로 표시합니다. \n\"hh\" 설정 시 12시간을 기준으로 모든 시를 두 자리로 표시하고 1시~9시는 앞자리에 \"0\"을 표시합니다. \n\"H\" 설정 시 24시간을 기준으로 1시~9시는 한자리로 표시하고 나머지 시간은 두 자리로 표시합니다. \n\"HH\" 설정 시 24시간을 기준으로 모든 시를 두 자리로 표시하고 1시~9시는 앞자리에 \"0\"을 표시합니다.</div></td></tr><tr><th>&lt;Minute&gt;</th><td colspan=\"2\"><div>분을 표시하는 마스크 문자를 설정합니다. \n\n\"m\" 설정 시 1분~9분은 한자리로 표시하고 나머지 분은 두 자리로 표시합니다. \n\"mm\" 설정 시 모든 분을 두 자리로 표시하고 1분~9분은 앞자리에 \"0\"을 표시합니다.</div></td></tr><tr><th>&lt;Second&gt;</th><td colspan=\"2\"><div>초를 표시하는 마스크 문자를 설정합니다. \n\n\"s\" 설정 시 1초~9초는 한자리로 표시하고 나머지 초는 두 자리로 표시합니다. \n\"ss\" 설정 시 모든 초를 두 자리로 표시하고 1초~9초는 앞자리에 \"0\"을 표시합니다.</div></td></tr><tr><th>&lt;MiliSec&gt;</th><td colspan=\"2\"><div>밀리초를 표시하는 마스크 문자를 설정합니다. \n\n\"sss\" 설정 시 모든 밀리초를 세 자리로 표시하고 1밀리 초~99밀리 초는 앞자리에 \"0\"을 표시합니다.</div></td></tr><tr><th>&lt;AM/PM&gt;</th><td colspan=\"2\"><div>오전, 오후를 표시하는 마스크 문자를 설정합니다.\n\n\"aa\" 설정 시 AM, PM을 로케일에 맞게 표시합니다.</div></td></tr><tr><th>&lt;timeStyle&gt;</th><td colspan=\"2\"><div>ECMA Intl API DateTimeFormat() 생성자에서 사용하는 스타일 옵션으로 설정합니다.\n\n\"SHORTTIME\" - timeStyle: 'short'\n\"MEDIUMTIME\" - timeStyle: 'medium'</div></td></tr></tbody></table>",
       "option": {
@@ -2371,7 +2371,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.15642785640384294",
+      "id": "u_10_0.8857027754700699",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.height = 10; \nthis.PopupDateRangePicker00.height = \"10px\"; \nthis.PopupDateRangePicker00.height = 10%\"; \nthis.PopupDateRangePicker00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": PopupDateRangePicker의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 PopupDateRangePicker의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 PopupDateRangePicker의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 PopupDateRangePicker의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2446,7 +2446,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9739746643980871",
+      "id": "u_10_0.5462796231137619",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.hintingcolumn = \"hintingcolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>툴팁 텍스트가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2511,7 +2511,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0013655530936503846",
+      "id": "u_10_0.3692170792235713",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.hotkey = \"G\"; \nthis.PopupDateRangePicker00.hotkey = \"CTRL+A\"; \nthis.PopupDateRangePicker00.hotkey = \"CTRL+ALT+X\";</div></td></tr><tr><th>strHotkey</th><td colspan=\"2\"><div>수식키(CTRL, ALT, SHIFT)와 일반키의 조합으로 설정합니다.\n수식키는 중복으로 조합하여 설정할 수 있습니다.\n각 키는 \"+\" 를 사용하여 조합을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2596,7 +2596,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8881972161279847",
+      "id": "u_10_0.2621096516374617",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>PopupDateRangePicker를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2671,7 +2671,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5853074897232339",
+      "id": "u_10_0.34894353930448563",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 PopupDateRangePicker 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2746,7 +2746,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8587649265564244",
+      "id": "u_10_0.981924023867979",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.innerdataset = \"Dataset00\";</div></td></tr><tr><th>strDatasetID</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트에 표시할 특정날짜와 효과에 대한 데이터가 담긴 Dataset 오브젝트의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2831,7 +2831,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2341396249665939",
+      "id": "u_10_0.6467407840346735",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2906,7 +2906,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6016277701329568",
+      "id": "u_10_0.6191461869775122",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.left = 10; \nthis.PopupDateRangePicker00.left = \"10px\"; \nthis.PopupDateRangePicker00.left = \"10%\"; \nthis.PopupDateRangePicker00.left = \"Button00:10px\"; \nthis.PopupDateRangePicker00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 PopupDateRangePicker의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2981,7 +2981,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5165529288807875",
+      "id": "u_10_0.37603689383162464",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strspace ::= 'normal' | &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nletter-spacing : 2px ;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.letterSpacing = \"2px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 설정하지 않습니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>문자 사이의 간격(자간)을 pixel 단위로 설정합니다.\n\n스크립트 작성 시에는 \"px\" 단위 표기를 생략할 수 있습니다.\n(XCSS 작성 시에는 \"px\" 단위를 포함해 작성해야 합니다).</div></td></tr></tbody></table>",
       "option": {
@@ -3056,7 +3056,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3080249936015518",
+      "id": "u_10_0.04680858790221121",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.locale = \"ko_KR\";</div></td></tr><tr><th>strlocale</th><td colspan=\"2\"><div>\"언어[_국가]\" 형식의 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3131,7 +3131,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6413324085346227",
+      "id": "u_10_0.11142830543459215",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.maxdate = \"20230915\";</div></td></tr><tr><th>strMaxDate</th><td colspan=\"2\"><div>displaytype 속성값에 따라 선택할 수 있는 날짜 범위의 마지막 일자(시간)를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3216,7 +3216,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7862009215002925",
+      "id": "u_10_0.1570762947404737",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.maxheight = 20; \nthis.PopupDateRangePicker00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3291,7 +3291,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2973170984854283",
+      "id": "u_10_0.8813197809177337",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.maxwidth = 20; \nthis.PopupDateRangePicker00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3366,7 +3366,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.08975678984440905",
+      "id": "u_10_0.3988875402473425",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.mindate = \"20230915\";</div></td></tr><tr><th>strMinDate</th><td colspan=\"2\"><div>displaytype 속성값에 따라 선택할 수 있는 날짜 범위의 시작 일자(시간)를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3451,7 +3451,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8924272890547515",
+      "id": "u_10_0.2796978340797963",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.minheight = 20; \nthis.PopupDateRangePicker00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3526,7 +3526,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5649486887466247",
+      "id": "u_10_0.2113712014672402",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.minwidth = 20; \nthis.PopupDateRangePicker00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3601,7 +3601,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.16697533314531554",
+      "id": "u_10_0.9592999146911216",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3676,7 +3676,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8242859482664734",
+      "id": "u_10_0.5548172869213901",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n* 2회~4회 입력은 border-radius 속성값이 설정되지 않은 경우만 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.border = \"1px solid #999999\";\nthis.PopupDateRangePicker00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -3751,7 +3751,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0011600454044597974",
+      "id": "u_10_0.46631701256164215",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>stredge ::= 'none' | &lt;image&gt; [&lt;fixedwidth&gt;'px' &lt;fixedheight&gt;'px']\n\n&lt;image&gt; ::= 'URL(\"' &lt;Theme-Image&gt; | &lt;Web-Image&gt; '\")'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-edge : \"URL('./images/border.png')\" 5px 5px;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.edge = \"URL('./images/border.png')\" 5px 5px;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>edge 이미지를 설정하지 않습니다.</div></td></tr><tr><th>&lt;image&gt;</th><td colspan=\"2\"><div>'URL (\"[이미지위치]\")' 형식으로 테마 또는 웹의 이미지를 설정합니다.\n\n테두리(border) 안쪽에 edge 형태로 이미지가 표시됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 선언된 이미지를 \"theme://images\\이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/파일명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr><tr><th>&lt;fixedwidth&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 왼쪽/오른쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 왼쪽/오른쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr><tr><th>&lt;fixedheight&gt;</th><td colspan=\"2\"><div>이미지가 고정되어 표시될 위쪽/아래쪽 영역의 크기를 pixel 단위로 설정합니다.\n\"0px\" 설정 시 위쪽/아래쪽 영역을 고정하지 않습니다.\n\n값을 설정하지 않으면 \"0px\" 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3826,7 +3826,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8567575606577198",
+      "id": "u_10_0.15650363409401025",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strpadding ::= &lt;npadding&gt;'px'{4}</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-padding : 5px 5px 5px 5px;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.padding = \"5px 5px 5px 5px\";</div></td></tr><tr><th>&lt;npadding&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 영역의 안쪽 여백을 pixel 단위로 설정합니다.\n\n값을 1회 입력 시 top/right/bottom/left 에 모두 동일한 값이 적용됩니다.\n값을 2회 입력 시 top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n값을 3회 입력 시 top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n값을 4회 입력 시 top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.\n\n\"px\" 단위를 생략할 수 없습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3901,7 +3901,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7477894689395734",
+      "id": "u_10_0.7242649655998448",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlBgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-background-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-background-image : URL(\"theme://images/Test.jpg\");</div></td></tr><tr><th>strRtlBgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\nbackground 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\nbackground 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3976,7 +3976,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9216279305618074",
+      "id": "u_10_0.43721548852291914",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strRtlEgImage ::= \"URL(' \" &lt;Theme-Image&gt; | &lt;Web-Image&gt; \" ')\"</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-rtl-edge-image : URL(\"http://localhost/Test.jpg\");\n-nexa-rtl-edge-image : URL(\"theme://images/Test.jpg\")</div></td></tr><tr><th>strRtlEgImage</th><td colspan=\"2\"><div>\"URL ('&lt;이미지위치&gt;')\" 형식으로 테마 또는 웹의 이미지 경로를 문자열로 설정합니다.\n\n-nexa-edge 속성에 설정된 값 중 이미지만 설정한 이미지로 대체됩니다.\n-nexa-edge 속성에 설정된 이미지 이외의 값은 동일하게 적용됩니다.</div></td></tr><tr><th>&lt;Theme-Image&gt;</th><td colspan=\"2\"><div>테마에 정의된 이미지를 \"theme://images/이미지명\" 형식으로 설정합니다.\n\n테마에 해당 이미지가 등록되어 있어야 합니다.</div></td></tr><tr><th>&lt;Web-Image&gt;</th><td colspan=\"2\"><div>웹의 이미지를 \"http://경로/이미지명\", \"https://경로/이미지명\" 형식으로 설정합니다.\n\n웹에 접근 가능한 환경이어야 합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4051,7 +4051,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.03420340878111383",
+      "id": "u_10_0.45929016662582967",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nopacity : 0.8;\nopacity : 80%;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.opacity = \"0.8\";\nthis.PopupDateRangePicker00.opacity = 0.8;\nthis.PopupDateRangePicker00.opacity = \"80%\";</div></td></tr><tr><th>strOpacity</th><td colspan=\"2\"><div>0.0 ~ 1.0 사이의 값 또는 0.0% ~ 100.0% 사이의 값을 지정합니다.\n0(또는 0%)을 설정하면 완전 투명, 1(또는 100%)을 설정하면 완전 불투명으로 처리됩니다.\n1 이상의 값은 1로, 0 이하의 값은 0으로 처리됩니다. 마찬가지로 100% 이상의 값은 100%로, 0% 이하의 값은 0%로 처리됩니다.\n\nXCSS는 숫자 또는 퍼센트 값으로만 설정할 수 있습니다.\nScript는 숫자 또는 문자(숫자, 퍼센트 값)로 설정할 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4126,7 +4126,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6286465973742694",
+      "id": "u_10_0.5820570704431136",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.PopupDateRangePicker00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -4201,7 +4201,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6887171547088969",
+      "id": "u_10_0.272514813338126",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.positionstep = 0; \nthis.PopupDateRangePicker00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 PopupDateRangePicker 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4286,7 +4286,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7482812613462583",
+      "id": "u_10_0.8210187565986556",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.readonlycolumn = \"readonlycolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>readonly 유무가 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4305,7 +4305,7 @@
       "content": ""
     },
     {
-      "id": "u_10_0.43869944350276846",
+      "id": "u_10_0.8828371887719432",
       "type": "table",
       "content": "<table><caption></caption>\t<thead><tr>\t\t<th>true / false</th>\t\t<th>Column type</th>\t\t<th>Row data</th>\t</tr></thead>\t\t\t<tbody><tr>\t\t<td rowspan=\"2\"><div>false</div></td>\t\t<td><div>STRING</div></td>\t\t<td><div>\"0\", \"-0\", \"false\", \"NaN\", 빈 값, Null</div></td>\t</tr><tr>\t\t<td><div>INT, FLOAT, BIGDECIMAL</div></td>\t\t<td><div>0, -0, 빈 값, Null</div></td>\t</tr><tr>\t\t<td rowspan=\"1\"><div>true</div></td>\t\t<td><div></div></td>\t\t<td><div>false로 처리되는 값 이외의 모든 값</div></td>\t</tr></tbody></table>",
       "option": {
@@ -4370,7 +4370,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6270060136433256",
+      "id": "u_10_0.19980834557321003",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.right = 10; \nthis.PopupDateRangePicker00.right = \"10px\"; \nthis.PopupDateRangePicker00.right = \"10%\"; \nthis.PopupDateRangePicker00.right = \"Button00:10px\"; \nthis.PopupDateRangePicker00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 PopupDateRangePicker의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 PopupDateRangePicker의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 PopupDateRangePicker의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 PopupDateRangePicker의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4445,7 +4445,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9451067828652358",
+      "id": "u_10_0.36106900908243944",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bRtl ::= undefined | 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var vRtl = this.PopupDateRangePicker00.rtl;</div></td></tr><tr><th>undefined</th><td colspan=\"2\"><div>undefined 설정 시 상위 컴포넌트의 rtl 속성값이 적용됩니다.\n\n사용자가 rtl 속성값을 설정하지 않거나 삭제했을 경우 undefined 가 설정됩니다.</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>PopupDateRangePicker 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 오른쪽으로 설정합니다.\nPopupDateRangePicker 의 내부 좌표계의 기준을 오른쪽으로 설정합니다.\nPopupDateRangePicker 의 텍스트 표시 기준을 오른쪽으로 설정합니다.\n수직스크롤바가 있을 경우 왼쪽에 표시됩니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>PopupDateRangePicker 의 내부 컨텐츠 또는 컴포넌트가 표시되는 기준을 왼쪽으로 설정합니다.\nPopupDateRangePicker 의 내부 좌표계의 기준을 왼쪽으로 설정합니다.\nPopupDateRangePicker 의 텍스트 표시 기준을 왼쪽으로 설정합니다.\n수직스크롤바가 있을 경우 오른쪽에 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4520,7 +4520,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8152312208021327",
+      "id": "u_10_0.08963491542283697",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.startdate = \"20230501\"; // displaytype = \"date\"\nthis.PopupDateRangePicker00.startdate = \"20230501090030123\"; // displaytype = \"datetime\"\nthis.PopupDateRangePicker00.startdate = \"090030123\"; // displaytype = \"time\"</div></td></tr><tr><th>strStartDate</th><td colspan=\"2\"><div>displaytype 속성값에 따라 시작일자(시간)를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4595,7 +4595,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3506574506679676",
+      "id": "u_10_0.8231852012171064",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.tabbuttonheight = 20; \nthis.PopupDateRangePicker00.tabbuttonheight = \"20px\";</div></td></tr><tr><th>nHeight</th><td colspan=\"2\"><div>datetabbutton 컨트롤과 timetabbutton 컨트롤 높이를 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4660,7 +4660,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33925652433929654",
+      "id": "u_10_0.44059776542374274",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4745,7 +4745,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3692963665214348",
+      "id": "u_10_0.6933812246756663",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4820,7 +4820,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07161198209681663",
+      "id": "u_10_0.5333953849336718",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>thisPopupDateRangePicker00.textcolorcolumn = \"txtclrcolumn\";</div></td></tr><tr><th>strColumnID</th><td colspan=\"2\"><div>날짜색이 정의된 Column의 ID를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4905,7 +4905,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.34245111008835505",
+      "id": "u_10_0.3236474981242463",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.timetabbuttontext = \"Time\";</div></td></tr><tr><th>strText</th><td colspan=\"2\"><div>timetabbutton 컨트롤에 표시할 텍스트를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4970,7 +4970,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6576021970881039",
+      "id": "u_10_0.2619300109554614",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.tooltiptext = \"This is ToolTip Text\"; this.PopupDateRangePicker00.tooltiptext = \"\";          // 풍선 도움말이 표시되지 않습니다. \n\nthis.PopupDateRangePicker00.tooltiptext = null;        // 상위 컴포넌트의 풍선 도움말이 표시됩니다.</div></td></tr><tr><th>strToolTipText</th><td colspan=\"2\"><div>풍선도움말에 표시할 텍스트를 설정합니다.\n\n빈문자열(EmptyString) 설정 시 풍선도움말이 표시되지 않습니다.\nnull 또는 undefined 설정 시 상위컴포넌트(Form, Div 등)의 풍선도움말이 표시됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5045,7 +5045,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.0457183530286428",
+      "id": "u_10_0.8437521848422334",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumTooltipType ::= 'default' | 'hover' | 'inplace' | 'default,mouseleave' | 'hover,mouseleave' | 'inplace,mouseleave'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.tooltiptype = \"hover\";</div></td></tr><tr><th>\"default\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"hover\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역내에 멈춰서 일정시간이 경과하면 풍선도움말이 사라집니다.\nPopupDateRangePicker 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경되거나 사라진 풍선도움말이 다시 표시됩니다.</div></td></tr><tr><th>\"inplace\"</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역내에 위치하고 일정시간이 경과하면 풍선도움말이 사라집니다.</div></td></tr><tr><th>\"default,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr><tr><th>\"hover,mouseleave\"</th><td colspan=\"2\"><div>마우스 포인터의 오른쪽 하단 위치에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역에 있으면 풍선도움말이 사라지지 않습니다.\nPopupDateRangePicker 영역 내에서 마우스 포인터를 이동한 후 멈추면 풍선도움말의 위치가 변경됩니다.</div></td></tr><tr><th>\"inplace,mouseleave\"</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌측상단 안쪽에 풍선도움말을 표시합니다.\n\n마우스 포인터가 PopupDateRangePicker 영역에 있으면 풍선도움말이 사라지지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5120,7 +5120,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.39478954854253223",
+      "id": "u_10_0.34128391565859606",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.top = 10; \nthis.PopupDateRangePicker00.top = \"10px\"; \nthis.PopupDateRangePicker00.top = \"10%\"; \nthis.PopupDateRangePicker00.top = \"Button00:10px\"; \nthis.PopupDateRangePicker00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 PopupDateRangePicker의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 PopupDateRangePicker의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 PopupDateRangePicker의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 PopupDateRangePicker의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5195,7 +5195,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2592190820939144",
+      "id": "u_10_0.9180438073067448",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>enumType ::= 'range' | 'single'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.type = \"single\";</div></td></tr><tr><th>\"range\"</th><td colspan=\"2\"><div>시작일자(시간), 종료일자(시간)를 설정할 수 있는 형태로 표시합니다.</div></td></tr><tr><th>\"single\"</th><td colspan=\"2\"><div>하나의 일자(시간)를 설정할 수 있는 형태로 표시합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5270,7 +5270,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8651835594384338",
+      "id": "u_10_0.27448532867802666",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bUseButton ::= true | false</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.useclosebutton = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트에 closebutton을 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트에 closebutton을 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5345,7 +5345,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.24354821306022056",
+      "id": "u_10_0.989408610695911",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bUseHeadline ::= true | false</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.useheadline = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트에 headline을 표시합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트에 headline을 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5481,7 +5481,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.35553530385594445",
+      "id": "u_10_0.9918876522221219",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.visible = true; \nthis.PopupDateRangePicker00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>PopupDateRangePicker 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>PopupDateRangePicker 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5556,7 +5556,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7594468636465121",
+      "id": "u_10_0.343134451324449",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.PopupDateRangePicker00.width = 10; this.PopupDateRangePicker00.width = \"10px\"; \nthis.PopupDateRangePicker00.width = \"10%\"; \nthis.PopupDateRangePicker00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 PopupDateRangePicker 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 PopupDateRangePicker 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>PopupDateRangePicker 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": PopupDateRangePicker의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 PopupDateRangePicker의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 PopupDateRangePicker의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 PopupDateRangePicker의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 PopupDateRangePicker의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 PopupDateRangePicker의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5631,7 +5631,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1211525596841937",
+      "id": "u_10_0.015071907420552755",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strWordSpacing ::= 'normal' | &lt;nVal&gt;'px'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\nword-spacing : 30px;\n\n* Script ( normal property )\nthis.PopupDateRangePicker00.wordSpacing = \"30px\";</div></td></tr><tr><th>\"normal\"</th><td colspan=\"2\"><div>텍스트의 단어 사이 간격을 설정하지 않습니다.\n\n현재 font 에 맞는 기본형태로 텍스트가 표시됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>pixel 단위로 텍스트의 단어 사이 간격을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5697,7 +5697,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1256228864731579",
+      "id": "u_10_0.6437767842366652",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 에 추가할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.PopupDateRangePicker00.addEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5711,7 +5711,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.26010834588783727",
+      "id": "u_10_0.7669055786592675",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 추가에 성공하면 true 를 반환합니다.\n\n이벤트 추가에 실패하거나 선언되어 있는 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5772,7 +5772,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.23863105739465584",
+      "id": "u_10_0.029871095087308674",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.addEventHandler( \"onmove\", this.PopupDateRangePicker00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -5786,7 +5786,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4794017899345645",
+      "id": "u_10_0.6039983144730755",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5837,7 +5837,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5162565910278101",
+      "id": "u_10_0.6107630513318384",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 추가될 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.addEventHandlerLookup( \"onmove\", \"PopupDateRangePicker00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -5851,7 +5851,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8119333764751564",
+      "id": "u_10_0.8986558005823814",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 추가된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n정상적으로 추가되지 않은 경우에는 \"-1\"을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5912,7 +5912,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6489479609078734",
+      "id": "u_10_0.9470219965206772",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>모든 핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var nCnt = this.PopupDateRangePicker00.clearEventHandler( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -5926,7 +5926,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.07124296495759597",
+      "id": "u_10_0.5247112617102645",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 제거된 핸들러 함수의 갯수를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -5987,7 +5987,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5220151362857607",
+      "id": "u_09_0.2898423934617702",
       "type": "command",
       "content": "var bClose;\nbClose = this.PopupDateRangePicker00.closePopup();"
     },
@@ -5997,7 +5997,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.22879988823379105",
+      "id": "u_10_0.7031030512965494",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>화면에 표시되어 있던 PopupRangePicker 컴포넌트 닫기에 성공하면 true를 반환합니다.\n화면에 PopupRangePicker 컴포넌트가 표시되어 있지 않거나 닫기에 실패하면 false를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6068,7 +6068,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3182181944347855",
+      "id": "u_09_0.8710681111416024",
       "type": "command",
       "content": "var bSucc = this.PopupDateRangePicker00.destroy();"
     },
@@ -6078,7 +6078,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.27490657563938237",
+      "id": "u_10_0.11223949034645886",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>PopupDateRangePicker 이(가) 정상적으로 삭제되면 true 를 반환합니다.\n\nPopupDateRangePicker 이(가) 정상적으로 삭제되지 않으면 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6139,7 +6139,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.01446199114972846",
+      "id": "u_10_0.31829240483833676",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 찾을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>찾으려고 하는 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\n\nvar nIndex = this.PopupDateRangePicker00.findEventHandler( \"onmove\", this.PopupDateRangePicker00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -6153,7 +6153,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6404491255131792",
+      "id": "u_10_0.1428456114305362",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>특정 이벤트에서 찾은 핸들러 함수의 인덱스를 반환합니다.\n\n특정 이벤트에 찾으려는 핸들러 함수가 존재하지 않으면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6214,7 +6214,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9875969333928881",
+      "id": "u_10_0.024130844486991765",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 얻을 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>nIdx</td><td>Number</td><td colspan=\"2\"><div>얻으려고 하는 핸들러 함수의 인덱스를 설정합니다.\n\n핸들러 함수의 인덱스는 0 부터 시작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objFunc = PopupDateRangePicker00.getEventHandler( \"onmove\", 0 );</div></td></tr></tbody></table>",
       "option": {
@@ -6228,7 +6228,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.016037683970910988",
+      "id": "u_10_0.08438347921386491",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>지정된 인덱스의 핸들러 함수 오브젝트를 반환합니다.\n\n지정된 인덱스에 핸들러 함수가 존재하지 않는다면 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6279,7 +6279,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4989523403117262",
+      "id": "u_09_0.65398880718388",
       "type": "command",
       "content": "var objDs = this.PopupDateRangePicker00.getInnerDataset()"
     },
@@ -6289,7 +6289,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5639438350422377",
+      "id": "u_10_0.0662781664307367",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>innerdataset 속성에 설정되어 있는 Dataset 오브젝트를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6340,7 +6340,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8548104868851977",
+      "id": "u_09_0.278762190817049",
       "type": "command",
       "content": "var nBottom = this.PopupDateRangePicker.getOffsetBottom();"
     },
@@ -6350,7 +6350,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8597522151315754",
+      "id": "u_10_0.8070675841171794",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 PopupDateRangePicker 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6411,7 +6411,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8980712969011884",
+      "id": "u_09_0.037293025735625984",
       "type": "command",
       "content": "var nHeight = this.PopupDateRangePicker.getOffsetHeight();"
     },
@@ -6421,7 +6421,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4302049003935492",
+      "id": "u_10_0.6481967398282894",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6492,7 +6492,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.13186881132172967",
+      "id": "u_09_0.5501281248097482",
       "type": "command",
       "content": "var nleft = this.PopupDateRangePicker.getOffsetLeft();"
     },
@@ -6502,7 +6502,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.15556277946149666",
+      "id": "u_10_0.6590279043932868",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 PopupDateRangePicker 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6563,7 +6563,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.29678682264003986",
+      "id": "u_09_0.4844009348872902",
       "type": "command",
       "content": "var nRight = this.PopupDateRangePicker.getOffsetRight();"
     },
@@ -6573,7 +6573,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.49745187628852894",
+      "id": "u_10_0.43406132955476107",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 PopupDateRangePicker 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6634,7 +6634,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7763784052171009",
+      "id": "u_09_0.41568832377771325",
       "type": "command",
       "content": "var nTop = this.PopupDateRangePicker.getOffsetTop();"
     },
@@ -6644,7 +6644,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9455178551977912",
+      "id": "u_10_0.6056673694237208",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 PopupDateRangePicker 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6705,7 +6705,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.19057070648624597",
+      "id": "u_09_0.2852872723734461",
       "type": "command",
       "content": "var nWidth = this.PopupDateRangePicker.getOffsetWidth();"
     },
@@ -6715,7 +6715,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7678871847909918",
+      "id": "u_10_0.9412796491179579",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6786,7 +6786,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.328017411537583",
+      "id": "u_09_0.2680935985901456",
       "type": "command",
       "content": "var nbottom = this.PopupDateRangePicker.getPixelBottom();"
     },
@@ -6796,7 +6796,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4164223992086902",
+      "id": "u_10_0.5376727659142257",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6857,7 +6857,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4024722747215539",
+      "id": "u_09_0.5459684908116553",
       "type": "command",
       "content": "var nheight = this.PopupDateRangePicker.getPixelHeight();"
     },
@@ -6867,7 +6867,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.011539539100059115",
+      "id": "u_10_0.4347900797676273",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6928,7 +6928,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.24774000048239952",
+      "id": "u_09_0.017556498553112698",
       "type": "command",
       "content": "var nleft = this.PopupDateRangePicker.getPixelLeft();"
     },
@@ -6938,7 +6938,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5487811180556237",
+      "id": "u_10_0.6284527125246371",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -6999,7 +6999,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4465836706490456",
+      "id": "u_09_0.7071482155556601",
       "type": "command",
       "content": "var nright = this.PopupDateRangePicker.getPixelRight();"
     },
@@ -7009,7 +7009,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8060901594333709",
+      "id": "u_10_0.5294894186294565",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7070,7 +7070,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.40190137467457776",
+      "id": "u_09_0.9531860223596899",
       "type": "command",
       "content": "var ntop = this.PopupDateRangePicker.getPixelTop();"
     },
@@ -7080,7 +7080,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6703575699801055",
+      "id": "u_10_0.46056137851622836",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7141,7 +7141,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.49721149807965437",
+      "id": "u_09_0.7991327194104915",
       "type": "command",
       "content": "var nwidth = this.PopupDateRangePicker.getPixelWidth();"
     },
@@ -7151,7 +7151,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9563260306721728",
+      "id": "u_10_0.43006204799254577",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>PopupDateRangePicker 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7212,7 +7212,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22756661632470065",
+      "id": "u_10_0.10609147871256908",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new PopupDateRangePicker();\n\nobjComp.init( \"PopupDateRangePicker00\", 30, 120, 196, 46 );\nobjComp.init( \"PopupDateRangePicker00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"PopupDateRangePicker00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"PopupDateRangePicker00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"PopupDateRangePicker00\", \"PopupDateRangePicker22:10\", 300, null, null, \"PopupDateRangePicker33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -7273,7 +7273,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3221393194053723",
+      "id": "u_10_0.48771346363472146",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 이벤트의 ID 를 설정합니다.</div></td></tr><tr><td>nIndex</td><td>Number</td><td colspan=\"2\"><div>핸들러 함수가 삽입될 위치를 인덱스로 설정합니다.\n\n-1 값 설정 시 마지막에 추가됩니다.\n이벤트에 설정된 핸들러 함수의 갯수보다 큰 값을 설정한 경우 마지막에 추가됩니다.\nNaN 값을 입력하면 ECMA 의 정수 변환 규칙에 따라 0 이 설정됩니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>이벤트 발생 시 수행될 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\n\nvar nIndex = this.PopupDateRangePicker00.insertEventHandler( \"onmove\", 0, this.PopupDateRangePicker00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -7287,7 +7287,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4526283176022343",
+      "id": "u_10_0.5924219112157298",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>이벤트에 삽입된 핸들러 함수의 인덱스를 반환합니다.\n동일한 핸들러 함수가 이미 있다면 해당 핸들러 함수의 인덱스를 반환합니다.\n\n핸들러 함수가 정상적으로 삽입되지 않은 경우에는 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7348,7 +7348,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.03409741598733229",
+      "id": "u_09_0.40775328605775885",
       "type": "command",
       "content": "var bOpened = this.PopupDateRangePicker00.isPopup();"
     },
@@ -7358,7 +7358,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.447253812021568",
+      "id": "u_10_0.5899222365761281",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>PopupDateRangePicker 컴포넌트가 화면에 표시되고 있다면 true를 반환합니다.\nPopupDateRangePicker 컴포넌트가 화면에 표시되고 있지 않다면 false를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7409,7 +7409,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.03603752967658658",
+      "id": "u_10_0.7159555028636102",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.move(10,10);\nthis.PopupDateRangePicker00.move(10,10,100,100);\nthis.PopupDateRangePicker00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -7470,7 +7470,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6749138870888816",
+      "id": "u_10_0.9756544441120513",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 에서 삭제할 이벤트의 ID 를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var bResult = this.PopupDateRangePicker00.removeEvent( \"onmove\" );</div></td></tr></tbody></table>",
       "option": {
@@ -7484,7 +7484,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.493349187024843",
+      "id": "u_10_0.6500377751562258",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트 삭제에 성공하면 true 를 반환합니다.\n\n이벤트 삭제에 실패하거나 선언되지 않은 이벤트 ID 설정 시 false 를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7545,7 +7545,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10844602275880155",
+      "id": "u_10_0.39322504930815405",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.removeEventHandler( \"onmove\", this.PopupDateRangePicker00_onmove, this);</div></td></tr></tbody></table>",
       "option": {
@@ -7559,7 +7559,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.812567758487802",
+      "id": "u_10_0.6519700333915626",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7620,7 +7620,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.2857944524600564",
+      "id": "u_10_0.17784184321372842",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 제거할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>String</td><td colspan=\"2\"><div>제거할 핸들러 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>제거할 핸들러 함수가 정의된 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.removeEventHandlerLookup( \"onmove\", \"PopupDateRangePicker00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7634,7 +7634,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.28199053264376317",
+      "id": "u_10_0.3165333849586991",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>핸들러 함수 제거에 성공하면 1 을 반환합니다.\n\n핸들러 함수 제거에 실패하면 0 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7695,7 +7695,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9890503483583821",
+      "id": "u_10_0.9230531167900604",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 PopupDateRangePicker 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight </td><td>String, Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n음수값을 설정할 수 없습니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 PopupDateRangePicker 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 PopupDateRangePicker 의 height 가 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.resize( 100,100 );</div></td></tr></tbody></table>",
       "option": {
@@ -7756,7 +7756,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9639723514586149",
+      "id": "u_10_0.6169100205530049",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>objFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수를 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수가 정의된 영역을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo ) { //수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.setEventHandler( \"onmove\", this.PopupDateRangePicker00_onmove, this );</div></td></tr></tbody></table>",
       "option": {
@@ -7770,7 +7770,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5770356296611322",
+      "id": "u_10_0.4416570077966895",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7831,7 +7831,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5402786008215457",
+      "id": "u_10_0.9396050715648634",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strEventID</td><td>String</td><td colspan=\"2\"><div>핸들러 함수를 변경할 이벤트의 ID를 설정합니다.</div></td></tr><tr><td>strFunc</td><td>Object</td><td colspan=\"2\"><div>기존 핸들러 함수를 대체할 함수의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>objTarget</td><td>Object</td><td colspan=\"2\"><div>대체할 핸들러 함수를 검색할 영역을 설정합니다.\n해당 영역에 함수가 정의되지 않았다면 상위 영역으로 올라가며 검색을 합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00_onmove = function( obj:nexacro.PopupDateRangePicker,  e:nexacro.MoveEventInfo) { // 수행할 스크립트 };\nvar nIndex = this.PopupDateRangePicker00.setEventHandlerLookup( \"onmove\", \"PopupDateRangePicker00_onmove\", this);</div></td></tr></tbody></table>",
       "option": {
@@ -7845,7 +7845,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9579143023740628",
+      "id": "u_10_0.7697864455447176",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>첫번째 핸들러 함수 변경에 성공하면 0 을 반환합니다.\n\n첫번째 핸들러 함수 변경에 실패하면 -1 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -7906,7 +7906,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4625974289792577",
+      "id": "u_10_0.5701036764631912",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objDataset </td><td>Object</td><td colspan=\"2\"><div>innerdataset 속성으로 설정할 Dataset 오브젝트입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.setInnerDataset( this.Dataset00 )</div></td></tr></tbody></table>",
       "option": {
@@ -7967,7 +7967,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.3624217389009552",
+      "id": "u_10_0.4902721118807136",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 PopupDateRangePicker 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8028,7 +8028,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6955369199203657",
+      "id": "u_10_0.047464213445411074",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8089,7 +8089,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.438544739439668",
+      "id": "u_10_0.7904960834652736",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 PopupDateRangePicker 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8150,7 +8150,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.25049659624622755",
+      "id": "u_10_0.261700924699642",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 PopupDateRangePicker 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -8211,7 +8211,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7825854797030859",
+      "id": "u_10_0.05804941523562335",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 PopupDateRangePicker 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8272,7 +8272,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8334325032854758",
+      "id": "u_10_0.8163282797437514",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -8333,7 +8333,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.32916342065657345",
+      "id": "u_09_0.7898874255630052",
       "type": "command",
       "content": "this.PopupDateRangePicker00.show();"
     },
@@ -8390,11 +8390,25 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.29253777030296857",
+      "id": "u_10_0.34920834676600354",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>nXpos</td><td>Number</td><td colspan=\"2\"><div>부모 Frame의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트가 표시될 위치의 x 좌표를 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 left 가 nXpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nXpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nYpos</td><td>Number</td><td colspan=\"2\"><div>부모 Frame의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트가 표시될 위치의 y 좌표를 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 top 이 nYpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nYpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을 때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture</td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가  표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopup( \"start\", 10,10 );\nthis.PopupDateRangePicker00.trackPopup( \"start\", 10,10, 200, 200, \"fn_Callback\", false );</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>nXpos</td><td>Number</td><td colspan=\"2\"><div>부모 Frame의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트가 표시될 위치의 x 좌표를 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 left 가 nXpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nXpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nYpos</td><td>Number</td><td colspan=\"2\"><div>부모 Frame의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트가 표시될 위치의 y 좌표를 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 top 이 nYpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nYpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을 때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture</td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가  표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopup( \"start\", 10,10 );\nthis.PopupDateRangePicker00.trackPopup( \"start\", 10,10, 200, 200, \"fn_Callback\", false );\n\nlet req = this.PopupDateRangePicker00.trackPopup( \"start\", 10,10, 200, 200 );\nreq.then(function() {\n    trace('First popup closed');})\n.catch(function(error){console.log(\"error\")});</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
+      }
+    },
+    {
+      "id": "m_08_trackPopup",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.01034152033550284",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>strCallbackFunc 파라미터값을 설정하지 않은 경우에만 반환값이 있습니다.\n\nPromise 오브젝트를 반환합니다.\nPromise 오브젝트는 자바스크립트 표준 내장 객체입니다.\n내부적으로 resolve 수행 시점은 PopupDateRangePicker가 닫히는 시점입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "tableLayout": "180,?",
         "codeLanguage": "Javascript"
       }
     },
@@ -8451,11 +8465,25 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1268936503394138",
+      "id": "u_10_0.19716110898997297",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>좌표 계산의 기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>nXpos</td><td>Number</td><td colspan=\"2\"><div>objComp 컴포넌트의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트를 표시할 x 좌표 위치를 숫자로 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 left 가 nXpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nXpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nYpos</td><td>Number</td><td colspan=\"2\"><div>objComp 컴포넌트의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트를 표시할 y 좌표 위치를 숫자로 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 top 이 nYpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nYpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을 때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form 에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture</td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가 표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopupByComponent( \"start\", this.Button00, 10, 10 );\nthis.PopupDateRangePicker00.trackPopupByComponent( \"start\", this.Button00, 10 ,10 ,200 ,200 ,\"fn_Callback\", false );</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>좌표 계산의 기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>nXpos</td><td>Number</td><td colspan=\"2\"><div>objComp 컴포넌트의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트를 표시할 x 좌표 위치를 숫자로 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 left 가 nXpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nXpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nYpos</td><td>Number</td><td colspan=\"2\"><div>objComp 컴포넌트의 좌상단을 기준으로 PopupDateRangePicker 컴포넌트를 표시할 y 좌표 위치를 숫자로 설정합니다.\n\nPopupDateRangePicker 컴포넌트의 top 이 nYpos 값으로 적용됩니다.\nPopupDateRangePicker 컴포넌트가 화면에서 잘려서 표시될 경우 nYpos 값이 자동으로 변경됩니다.</div></td></tr><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을 때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form 에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture</td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가 표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopupByComponent( \"start\", this.Button00, 10, 10 );\nthis.PopupDateRangePicker00.trackPopupByComponent( \"start\", this.Button00, 10 ,10 ,200 ,200 ,\"fn_Callback\", false );\n\nlet req = this.PopupDateRangePicker00.trackPopupByComponent( \"start\", this.Button00, 10 ,10 ,200 ,200 );\nreq.then(function() {\n    trace('First popup closed');})\n.catch(function(error){console.log(\"error\")});</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
+      }
+    },
+    {
+      "id": "m_08_trackPopupByComponent",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.9150156156222634",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>strCallbackFunc 파라미터값을 설정하지 않은 경우에만 반환값이 있습니다.\n\nPromise 오브젝트를 반환합니다.\nPromise 오브젝트는 자바스크립트 표준 내장 객체입니다.\n내부적으로 resolve 수행 시점은 PopupDateRangePicker가 닫히는 시점입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "tableLayout": "180,?",
         "codeLanguage": "Javascript"
       }
     },
@@ -8522,11 +8550,25 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.35138275501831195",
+      "id": "u_10_0.8172140931171473",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>nWidth </td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form 에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture </td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가  표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopupCenter( \"start\" );\nthis.PopupDateRangePicker00.trackPopupCenter( \"start\", 200 ,200 ,\"fn_Callback\", false );</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strRangeposition</td><td>String</td><td colspan=\"2\"><div>화면에 우선적으로 표시되는 날짜가 표시되는 datepicker 컨트롤의 시작 위치를 설정하는 속성을 설정합니다.\n- \"start\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 오른쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.\n- \"end\": startdate 속성값에 설정한 날짜가 포함된 월을 화면 왼쪽 기준으로 defaultrangeposition 번째 datepicker에 표시합니다.</div></td></tr><tr><td>nWidth </td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 너비를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트의 높이를 숫자로 설정합니다.\n\n값을 생략할 경우 디자인 시 설정된 값이 적용됩니다.</div></td></tr><tr><td>strCallBackFunc</td><td>String</td><td colspan=\"2\"><div>PopupDateRangePicker 컴포넌트가 닫혔을때 호출될 콜백 함수명입니다.\n\n콜백 함수에 컴포넌트 ID가 파라미터로 전달됩니다.\n콜백 함수는 PopupDateRangePicker 컴포넌트가 등록된 Form 에 정의되어 있어야 합니다.</div></td></tr><tr><td>bCapture </td><td>Boolean</td><td colspan=\"2\"><div>팝업되는 PopupDateRangePicker 컴포넌트에 Capture 특성을 부여할 지 설정합니다.\n\ntrue 설정 시 Capture 특성을 갖고 PopupDateRangePicker 컴포넌트가 표시됩니다.\nfalse 설정 시 Capture 특성 없이 PopupDateRangePicker 컴포넌트가  표시됩니다.\n\nbCapture 값을 설정하지 않으면 true로 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.PopupDateRangePicker00.trackPopupCenter( \"start\" );\nthis.PopupDateRangePicker00.trackPopupCenter( \"start\", 200 ,200 ,\"fn_Callback\", false );\n\nlet req = this.PopupDateRangePicker00.trackPopupCenter( \"start\", 200 ,200 );\nreq.then(function() {\n    trace('First popup closed');})\n.catch(function(error){console.log(\"error\")});</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
+        "codeLanguage": "Javascript"
+      }
+    },
+    {
+      "id": "m_08_trackPopupCenter",
+      "type": "headline",
+      "content": "반환"
+    },
+    {
+      "id": "u_10_0.893368533824611",
+      "type": "table",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>strCallbackFunc 파라미터값을 설정하지 않은 경우에만 반환값이 있습니다.\n\nPromise 오브젝트를 반환합니다.\nPromise 오브젝트는 자바스크립트 표준 내장 객체입니다.\n내부적으로 resolve 수행 시점은 PopupDateRangePicker가 닫히는 시점입니다.</div></td></tr></tbody></table>",
+      "option": {
+        "tableLayout": "180,?",
         "codeLanguage": "Javascript"
       }
     },
@@ -8579,7 +8621,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.46203659396398067",
+      "id": "u_10_0.5936896510507217",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#RangeDateChangedEventInfo\">RangeDateChangedEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8631,7 +8673,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.22498350074561613",
+      "id": "u_10_0.848563391368679",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\">EventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8693,7 +8735,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1387187489804136",
+      "id": "u_10_0.3887355302382477",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#ContextMenuEventInfo\">ContextMenuEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8755,7 +8797,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.456742089665495",
+      "id": "u_10_0.2970212338549273",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DateRangePickerDayClickEventInfo\">DateRangePickerDayClickEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8807,7 +8849,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8044089813120748",
+      "id": "u_10_0.5401074323532149",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DeviceButtonEventInfo\">DeviceButtonEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8821,7 +8863,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6867130752449797",
+      "id": "u_10_0.991750542157536",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\nfalse 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n반환값을 생략하면 false로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8883,7 +8925,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.679858115631162",
+      "id": "u_10_0.4304340916207353",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8897,7 +8939,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5511931716709292",
+      "id": "u_10_0.0772645843487958",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 드래그 상태가 되고 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 드래그 상태가 취소되고 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -8959,7 +9001,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5291421317677368",
+      "id": "u_10_0.6487340662879368",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -8973,7 +9015,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.774223330942393",
+      "id": "u_10_0.9390593098353555",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9035,7 +9077,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9249354620890341",
+      "id": "u_10_0.7571434271128175",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9049,7 +9091,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5984844563820636",
+      "id": "u_10_0.32227085350508144",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9111,7 +9153,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.31812790011255654",
+      "id": "u_10_0.035051278808042596",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9125,7 +9167,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.691033714127377",
+      "id": "u_10_0.3440959049843707",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9187,7 +9229,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.20145236813138123",
+      "id": "u_10_0.5367927819497721",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#DragEventInfo\">DragEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9201,7 +9243,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6537812995075069",
+      "id": "u_10_0.6181202663639015",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9263,7 +9305,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6406457781339834",
+      "id": "u_10_0.795411039899025",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#InnerdataChangedEventInfo\">InnerdataChangedEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9325,7 +9367,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0005477478962780946",
+      "id": "u_10_0.45729626598320017",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9339,7 +9381,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.11405633817730443",
+      "id": "u_10_0.6228205740110986",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9401,7 +9443,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5202194928144479",
+      "id": "u_10_0.8639073605011554",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KeyEventInfo\">KeyEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9415,7 +9457,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5892926179779765",
+      "id": "u_10_0.9836245534721181",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9477,7 +9519,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5546199173231693",
+      "id": "u_10_0.6739451104906966",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#KillFocusEventInfo\">KillFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9539,7 +9581,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8198449718280076",
+      "id": "u_10_0.7642877307653333",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9553,7 +9595,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5676120309219395",
+      "id": "u_10_0.40502443464207194",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9615,7 +9657,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12204417648795385",
+      "id": "u_10_0.8870767156625151",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9629,7 +9671,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.40586345464608586",
+      "id": "u_10_0.17389849152230585",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9691,7 +9733,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09054812421887648",
+      "id": "u_10_0.886174874460152",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9705,7 +9747,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9718583953625185",
+      "id": "u_10_0.11058243697683467",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9767,7 +9809,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4950641450496359",
+      "id": "u_10_0.1698802255829872",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9781,7 +9823,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.13888839424853716",
+      "id": "u_10_0.8006662460634407",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9843,7 +9885,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.889616637411631",
+      "id": "u_10_0.8973018728761735",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9857,7 +9899,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.10558035603825111",
+      "id": "u_10_0.16578267889364462",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9919,7 +9961,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.12890790200866764",
+      "id": "u_10_0.7808203695570888",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -9933,7 +9975,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8336564029826496",
+      "id": "u_10_0.44882277492528677",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -9995,7 +10037,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.36045680335568675",
+      "id": "u_10_0.9357695401707876",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10009,7 +10051,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5129534966487936",
+      "id": "u_10_0.8764286907856161",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10071,7 +10113,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7123882858641687",
+      "id": "u_10_0.8579562359004648",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseWheelEventInfo\">MouseWheelEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10085,7 +10127,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6684629000485683",
+      "id": "u_10_0.12212918433986986",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 휠버튼 회전값이 무시되고, 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 휠버튼 회전값이 처리되고, 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10147,7 +10189,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5120105185927426",
+      "id": "u_10_0.5538215364890061",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MoveEventInfo\">MoveEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10199,7 +10241,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4374387172171793",
+      "id": "u_10_0.7006828217943437",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#EventInfo\">EventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10251,7 +10293,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.34378321113442945",
+      "id": "u_10_0.7006322976116358",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10265,7 +10307,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.5068845925956941",
+      "id": "u_10_0.3780628672876638",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10337,7 +10379,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.10831267206388118",
+      "id": "u_10_0.7281287795024941",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#MouseEventInfo\">MouseEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10351,7 +10393,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7532279503959646",
+      "id": "u_10_0.37906891240571894",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10423,7 +10465,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.9554677986843965",
+      "id": "u_10_0.4188846071158431",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SetFocusEventInfo\">SetFocusEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10485,7 +10527,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.1728002468667701",
+      "id": "u_10_0.14358445686097976",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#SizeEventInfo\">SizeEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10537,7 +10579,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7841447337561445",
+      "id": "u_10_0.336608656095721",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10551,7 +10593,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.41746488088767875",
+      "id": "u_10_0.3899738842383118",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10613,7 +10655,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0510577375106257",
+      "id": "u_10_0.08379282657182996",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10627,7 +10669,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9408071558907128",
+      "id": "u_10_0.5919322167415224",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -10689,7 +10731,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6910723853370483",
+      "id": "u_10_0.43870413402201314",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>obj</td><td>PopupDateRangePicker</td><td colspan=\"2\"><div>Event가 발생한 Object.</div></td></tr><tr><td>e</td><td><a class=\"reference text\" href=\"#TouchEventInfo\">TouchEventInfo</a></td><td colspan=\"2\"><div>Event Object.</div></td></tr></tbody></table>",
       "option": {
@@ -10703,7 +10745,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.48576766379560454",
+      "id": "u_10_0.7774904156930719",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>이벤트에서 리턴값으로 true 를 반환하면 상위 컴포넌트로 이벤트가 전파되지 않습니다.\n이벤트에서 리턴값으로 false 를 반환하면 상위 컴포넌트로 이벤트가 전파됩니다.\n\n이벤트에서 리턴값을 생략하면 false 로 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
