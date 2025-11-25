@@ -91,7 +91,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.41552955035286065",
+      "id": "u_10_0.09121469610485133",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -166,7 +166,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6356028897643794",
+      "id": "u_10_0.07144376865221436",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -241,7 +241,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.48083936965306395",
+      "id": "u_10_0.6380607819696645",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -316,9 +316,9 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.16477789828061296",
+      "id": "u_10_0.8295491899003896",
       "type": "table",
-      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bIssel = b.isselect ;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>아이템 선택에 의해 아이템 리스트가 닫혀서 이벤트가 발생했을 경우 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>아이템 리스트 바깥쪽 영역 선택에 의해 리스트가 닫혀서 이벤트가 발생했을 경우 갖는 값입니다.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bIssel = e.isselect ;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>아이템 선택에 의해 아이템 리스트가 닫혀서 이벤트가 발생했을 경우 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>아이템 리스트 바깥쪽 영역 선택에 의해 리스트가 닫혀서 이벤트가 발생했을 경우 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -391,7 +391,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.010263407256093093",
+      "id": "u_10_0.5694964979570527",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nPostIdx = e.postindex;</div></td></tr></tbody></table>",
       "option": {
@@ -456,7 +456,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.42341542578316105",
+      "id": "u_10_0.4245663599602575",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPosttext = e.posttext;</div></td></tr></tbody></table>",
       "option": {
@@ -521,7 +521,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19184323021313043",
+      "id": "u_10_0.7799499690597315",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPostvalue = e.postvalue;</div></td></tr></tbody></table>",
       "option": {
@@ -586,7 +586,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5905307532301391",
+      "id": "u_10_0.4484888389586371",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nPreIdx = e.preindex ;</div></td></tr></tbody></table>",
       "option": {
@@ -651,7 +651,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.21064604057231207",
+      "id": "u_10_0.15016269467535737",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPretext = e.pretext;</div></td></tr></tbody></table>",
       "option": {
@@ -716,7 +716,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.24042201728605594",
+      "id": "u_10_0.8943175783249762",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strPrevalue = e.prevalue;</div></td></tr></tbody></table>",
       "option": {
