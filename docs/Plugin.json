@@ -45,12 +45,12 @@
       "content": "생성자"
     },
     {
-      "id": "u_09_0.33891064067250776",
+      "id": "u_09_0.9847280129978423",
       "type": "command",
       "content": "Plugin.init( strName, vLeft, vTop , vWidth, vHeight [, vRight, vBottom, [vMinWidth, [vMaxWidth, [vMinHeight, [vMaxHeight]]]]] )"
     },
     {
-      "id": "u_10_0.6579737869693706",
+      "id": "u_10_0.04304340757366354",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td><div>Plugin 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td><div>Plugin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Plugin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td><div>Plugin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Plugin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td><div>Plugin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td><div>Plugin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td><div>Plugin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Plugin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td><div>Plugin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td><div>Plugin 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td><div>Plugin 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td><div>Plugin 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td><div>Plugin 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = new Plugin();\n\nobjComp.init( \"Plugin00\", 30, 120, 196, 46 );\nobjComp.init( \"Plugin00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Plugin00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Plugin00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Plugin00\", \"Plugin22:10\", 300, null, null, \"Plugin33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "u_10_0.017704743019090863",
+      "id": "u_10_0.38045149501047837",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\"><div>// Create Object  \nvar objPlugin = new Plugin();  \nobjPlugin.init(\"Plugin\", 30, 120, 196, 46, null, null);\nobjPlugin.init(\"Plugin\", null, null, 300, \"400px\", \"80%\", 300);\nor\nvar objPlugin = new Plugin(\"Plugin\", 30, 120, 196, 46, null, null);\nvar objPlugin = new Plugin(\"Plugin\", null, null, 300, \"400px\", \"80%\", 300);\n \n// Add Object to Parent Form  \nthis.addChild(\"Plugin\", objPlugin); \n \n// Insert Object to Parent Form  \nthis.insertChild(1, \"Plugin\", objPlugin); \n \n// Remove Object form Parent Form  \nthis.removeChild(\"Plugin\"); \n \n// Show Object  \nobjPlugin.show(); \n \n// Destroy Object  \nobjPlugin.destroy(); \nobjPlugin = null;</div></td></tr></tbody></table>",
       "option": {
@@ -73,7 +73,7 @@
       "content": "Status"
     },
     {
-      "id": "u_10_0.4527621830126971",
+      "id": "u_10_0.7923473759225939",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>disabled</td><td>status</td><td><div>컴포넌트가 비활성화된 상태</div></td></tr><tr><td>mouseover</td><td>status</td><td><div>마우스 커서가 컴포넌트 또는 컴포넌트의 특정 아이템 위에 있는 상태</div></td></tr><tr><td>focused</td><td>status</td><td><div>컴포넌트가 포커스를 받은 상태</div></td></tr><tr><td>enabled</td><td>status</td><td><div>컴포넌트가 활성화된 상태</div></td></tr></tbody></table>",
       "option": {
@@ -143,7 +143,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.07191398163685248",
+      "id": "u_10_0.25666684470290757",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>bAbjustalpha</th><td colspan=\"2\"><div>\"true\" 설정 시 alpha 값을 다시 조절합니다.\n\"false\" 설정 시 alpha 값을 무시합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -218,7 +218,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.693890435424282",
+      "id": "u_10_0.7831582100351213",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strArchive</th><td colspan=\"2\"><div>플러그인 archive 속성값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -283,7 +283,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11898353301418307",
+      "id": "u_10_0.43080368905763566",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nBottom ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.bottom = 10; \nthis.Plugin00.bottom = \"10px\"; \nthis.Plugin00.bottom = \"10%\"; \nthis.Plugin00.bottom = \"Button00:10px\"; \nthis.Plugin00.bottom = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 의 하단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 bottom 속성값을 기준으로 Plugin의 하단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Plugin의 하단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 하단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 하단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 top 속성값을 기준으로 Plugin의 하단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Plugin의 하단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -358,7 +358,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.62320445531416",
+      "id": "u_10_0.6714619867817783",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strClassid</th><td colspan=\"2\"><div>Plugin 에 연결할 객체의 classid 또는 progid 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -433,7 +433,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33273721514951404",
+      "id": "u_10_0.7711359580225013",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strClassid64</th><td colspan=\"2\"><div>Plugin 에 연결할 64bit 객체의 classid 또는 progid 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -508,7 +508,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7194036120291727",
+      "id": "u_10_0.23379040216081304",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strCode</th><td colspan=\"2\"><div>Plugin 에 연결할 객체의 code 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -573,7 +573,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7031719550182864",
+      "id": "u_10_0.9934854331015855",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.codebase = \"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=11,7,700,169\"; \nthis.Plugin00.install();</div></td></tr><tr><th>strUrl</th><td colspan=\"2\"><div>Plugin 에 연결할 객체의 위치 경로를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -648,7 +648,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.11514038260713333",
+      "id": "u_10_0.7655047849656498",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strContents</th><td colspan=\"2\"><div>속성 또는 메타 데이터를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -723,7 +723,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.417260179455069",
+      "id": "u_10_0.866695897836721",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>benable ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.enable = true; \nthis.Plugin00.enable = false;</div></td></tr><tr><th>true</th><td colspan=\"2\"><div>Plugin 을(를) 사용할 수 있게 설정합니다.</div></td></tr><tr><th>false</th><td colspan=\"2\"><div>Plugin 을(를) 사용할 수 없게 설정합니다.\n\n하위 컨트롤이 있을 경우 하위 컨트롤에 \"disabled\" Status 가 적용됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -798,7 +798,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8496240837829269",
+      "id": "u_10_0.6618443385244607",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -873,7 +873,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.49222786708088706",
+      "id": "u_10_0.18374413910005094",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>fVal</th><td colspan=\"2\"><div>컴포넌트의 크기를 재조정할 비율을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -948,7 +948,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3978737091699108",
+      "id": "u_10_0.13819650531317107",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nHeight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.height = 10; \nthis.Plugin00.height = \"10px\"; \nthis.Plugin00.height = 10%\"; \nthis.Plugin00.height = Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 높이를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 높이가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 의 높이를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Plugin의 높이 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Plugin의 높이 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 높이 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 높이 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Plugin의 높이 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Plugin의 높이 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1023,7 +1023,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2883327465818415",
+      "id": "u_10_0.5147831619509899",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>id</th><td colspan=\"2\"><div>Plugin를 구별할 수 있는 유일값을 갖습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1098,7 +1098,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7831977314123937",
+      "id": "u_10_0.2281531464298926",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strValueID</th><td colspan=\"2\"><div>InitValueDefinition 영역에 정의된 InitValue 파일에서 Plugin 에 적용할 항목의 ID 를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1173,7 +1173,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14049978755065606",
+      "id": "u_10_0.31787127298483686",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nVal</th><td colspan=\"2\"><div>컴포넌트의 배치 순서를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1248,7 +1248,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4511934579403739",
+      "id": "u_10_0.5023776309672763",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nLeft ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.left = 10; \nthis.Plugin00.left = \"10px\"; \nthis.Plugin00.left = \"10%\"; \nthis.Plugin00.left = \"Button00:10px\"; \nthis.Plugin00.left = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 의 좌측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 left 속성값을 기준으로 Plugin의 좌측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Plugin의 좌측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 좌측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 좌측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 right 속성값을 기준으로 Plugin의 좌측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Plugin의 좌측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1323,7 +1323,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8077850871389646",
+      "id": "u_10_0.23388343110813958",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strLicense</th><td colspan=\"2\"><div>객체의 라이선스를 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1388,7 +1388,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9745634092384309",
+      "id": "u_10_0.3674388894977104",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strlpkPath</th><td colspan=\"2\"><div>객체의 lpkpath 속성값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1453,7 +1453,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2391630759960507",
+      "id": "u_10_0.17712591959326196",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.maxheight = 20; \nthis.Plugin00.maxheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 높이의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1528,7 +1528,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.33642631748420804",
+      "id": "u_10_0.7772491680256138",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMaxWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.maxwidth = 20; \nthis.Plugin00.maxwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 너비의 최대값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1603,7 +1603,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8176824410490017",
+      "id": "u_10_0.8175609870609282",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strMIMEType</th><td colspan=\"2\"><div>객체의 type 속성을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1668,7 +1668,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5148469112847511",
+      "id": "u_10_0.11400625772885409",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinHeight ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.minheight = 20; \nthis.Plugin00.minheight = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 높이의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1743,7 +1743,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.42669581409684143",
+      "id": "u_10_0.2343277799799427",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nMinWidth ::= &lt;nVal&gt; ['px']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.minwidth = 20; \nthis.Plugin00.minwidth = \"20px\";</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 너비의 최소값을 pixel 단위의 숫자로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1818,7 +1818,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6122381289780573",
+      "id": "u_10_0.8893122406218887",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strName</th><td colspan=\"2\"><div>컴포넌트의 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1893,7 +1893,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.31716207665349117",
+      "id": "u_10_0.7365161814973417",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strborder ::= &lt;line-width&gt; &lt;line-style&gt; &lt;color&gt; [,&lt;line-width&gt; &lt;line-style&gt; &lt;color&gt;]{3}\n\n&lt;line-width&gt; ::= 'thin' | 'medium' | 'thick' | &lt;nWidth&gt; 'px'\n&lt;line-style&gt; ::= 'none' | 'hidden' | 'dotted' | 'dashed' | 'solid' | 'double' | 'groove' | 'ridge' | 'inset' | 'outset'\n&lt;color&gt; ::= &lt;NamedColor&gt; | &lt;NumericColor&gt;\n\n1회 입력 : top/right/bottom/left 에 모두 적용됩니다.\n2회 입력 : top/bottom, right/left 에 첫번째 값부터 각각 적용됩니다.\n3회 입력 : top, right/left, bottom 에 첫번째 값부터 각각 적용됩니다.\n4회 입력 : top, right, bottom, left 에 첫번째 값부터 각각 적용됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>* XCSS\n-nexa-border : 1px solid #999999;\n-nexa-border : 1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999;\n\n* Script ( normal property )\nthis.Plugin00.border = \"1px solid #999999\";\nthis.Plugin00.border = \"1px solid #999999, 1px solid #999999, 1px solid #999999, 1px solid #999999\";</div></td></tr><tr><th>&lt;line-width&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 설정합니다.\n\n\"thin\" 설정 시 1 pixel 두께로 테두리가 표시됩니다.\n\"medium\" 설정 시 3 pixel 두께로 테두리가 표시됩니다.\n\"thick\" 설정 시  5 pixel 두께로 테두리가 표시됩니다.\n\n&lt;nWidth&gt; 설정 시 &lt;nWidth&gt; pixel 두께로 테두리가 표시됩니다.</div></td></tr><tr><th>&lt;nWidth&gt;</th><td colspan=\"2\"><div>테두리 선의 두께를 pixel 단위로 설정합니다.\n\"px\" 단위는 생략할 수 없습니다.</div></td></tr><tr><th>&lt;line-style&gt;</th><td colspan=\"2\"><div>테두리 선의 스타일을 설정합니다.\n\n\"none\" 설정 시 테두리가 표시되지 않습니다.\n\"hidden\" 설정 시 테두리가 표시되지 않습니다.\n\"dotted\" 설정 시 테두리가 점선으로 표시됩니다.\n\"dashed\" 설정 시 테두리가 긴 점선으로 표시됩니다.\n\"solid\" 설정 시 테두리가 실선으로 표시됩니다.\n\"double\" 설정 시 테두리가 두줄로 표시됩니다.\n\"groove\" 설정 시 테두리가 들어간 것처럼 보이게 입체적으로 표시됩니다.\n\"ridge\" 설정 시 테두리가 올라온 것처럼 보이게 입체적으로 표시됩니다.\n\"inset\" 설정 시 컴포넌트가 들어간 것처럼 보이게 테두리가 입체적으로 표시됩니다.\n\"outset\" 설정 시 컴포넌트가 올라온 것처럼 보이게 테두리가 입체적으로 표시됩니다.</div></td></tr><tr><th>&lt;color&gt;</th><td colspan=\"2\"><div>테두리 색상을 색상이름 또는 색상코드로 설정합니다.</div></td></tr><tr><th>&lt;NamedColor&gt;</th><td colspan=\"2\"><div>\"red\",\"blue\" 와 같이 미리 정의된 색상이름을 문자열로 설정합니다.</div></td></tr><tr><th>&lt;NumericColor&gt;</th><td colspan=\"2\"><div>표시할 색의 색상코드입니다.\n\n\"#\" 기호로 시작하는 6자리 hexadecimal 값으로 색상코드를 설정할 수 있습니다. (ex-\"#FF00FF\")\nred, green, blue 값을 인자로 하는 \"rgb()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgb(255,0,255)\")\nred, green, blue, alpha 값을 인자로 하는 \"rgba()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"rgba(255,0,255,0.3)\")\nhue, saturation, lightness 값을 인자로 하는 \"hsl()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsl(120,50%,50%)\")\nhue, saturation, lightness, alpha 값을 인자로 하는 \"hsla()\" 메소드로 색상코드를 설정할 수 있습니다. (ex-\"hsla(120,50%,50%,0.8)\")</div></td></tr></tbody></table>",
       "option": {
@@ -1968,7 +1968,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.49759935269713296",
+      "id": "u_10_0.5409090500011223",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objParent = this.Plugin00.parent;</div></td></tr></tbody></table>",
       "option": {
@@ -2043,7 +2043,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.03231921190389775",
+      "id": "u_10_0.4374193257936063",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strPluginPage</th><td colspan=\"2\"><div>Plugin 에 연결할 객체의 위치 경로를 문자열로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2108,7 +2108,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8819441184920328",
+      "id": "u_10_0.9948466551553912",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>strPluginSrc</th><td colspan=\"2\"><div>객체의 data, src 속성값을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2173,7 +2173,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06114096255029067",
+      "id": "u_10_0.7430090181033233",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>bPopupStyle</th><td colspan=\"2\"><div>true 설정 시 window 를 팝업 스타일로 생성합니다.\n\nfalse 설정 시 window 를 클라이언트 스타일로 생성합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2248,7 +2248,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.24074977206153458",
+      "id": "u_10_0.5079225227859647",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.positionstep = 0; \nthis.Plugin00.positionstep = -1;</div></td></tr><tr><th>nStep</th><td colspan=\"2\"><div>Plugin 이(가) 표시될 분할화면의 인덱스를 설정합니다.\n\"-1\" 로 설정하면 모든 분할화면에 Plugin 이(가) 표시됩니다.\n\n분할화면의 인덱스는 \"0\" 부터 시작합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2333,7 +2333,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8711758378091903",
+      "id": "u_10_0.9587469726806362",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nRight ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.right = 10; \nthis.Plugin00.right = \"10px\"; \nthis.Plugin00.right = \"10%\"; \nthis.Plugin00.right = \"Button00:10px\"; \nthis.Plugin00.right = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 의 우측 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 right 속성값을 기준으로 Plugin의 우측 위치 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Plugin의 우측 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 우측 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 우측 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 left 속성값을 기준으로 Plugin의 우측 위치 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Plugin의 우측 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2408,7 +2408,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7182126432003266",
+      "id": "u_10_0.5329591212982229",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>strArea ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt; | &lt;strArea&gt;\n\n&lt;strPosition&gt; ::= &lt;rowstart&gt; &lt;rowend&gt; '/' &lt;columnstart&gt; &lt;columnend&gt;</div></td></tr><tr><th>&lt;strPosition&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 Cell 좌표를 설정합니다.\n\nrowstart, rowend 또는 columnstart, columnend 구분은 공백문자를 사용합니다.\nrowstart, rowend 또는 columnstart, columnend 가 같은(하나의 Cell 영역만 설정) 경우에는 하나의 값만 표기할 수 있습니다.\n예를 들어 0 / 0 또는 0 0 / 0 0 으로 설정할 수 있습니다.</div></td></tr><tr><th>&lt;strArea&gt;</th><td colspan=\"2\"><div>컴포넌트를 배치할 tabletemplatearea 속성에서 설정한 Cell 이름을 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2493,7 +2493,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7498804854291495",
+      "id": "u_10_0.5878027229011643",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>nTabOrder</th><td colspan=\"2\"><div>0 이상의 정수로 설정합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2578,7 +2578,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.572670138618161",
+      "id": "u_10_0.873261532404449",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bTabStop ::= 'true' | 'false'</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Plugin 이(가) 탭키 입력에 의한 포커스를 받습니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Plugin 이(가) 탭키 입력에 의한 포커스를 받지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2653,7 +2653,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.35460635678343877",
+      "id": "u_10_0.282145542975327",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nTop ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.top = 10; \nthis.Plugin00.top = \"10px\"; \nthis.Plugin00.top = \"10%\"; \nthis.Plugin00.top = \"Button00:10px\"; \nthis.Plugin00.top = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 좌표값을 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 좌표값이 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin의 상단 좌표값을 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": 부모(Parent)의 top 속성값을 기준으로 Plugin의 상단 위치 설정\n- \"%\": 부모(Parent)의 height 속성값을 기준으로 Plugin의 상단 위치 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 상단 위치 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 상단 위치 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt;의 bottom 속성값을 기준으로 Plugin의 상단 위치 결정\n- \"%\": &lt;strCompID&gt;의 height 속성값을 기준으로 Plugin의 상단 위치 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2728,7 +2728,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6589183708826385",
+      "id": "u_10_0.4997930690375537",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>bUserPersistdata</th><td colspan=\"2\"><div>\"true\" 설정 시 persistdata를 사용합니다.\n\"false\" 설정 시 persistdata를 사용하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2803,7 +2803,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5682529056398675",
+      "id": "u_10_0.42740371876785677",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>bVisible ::= 'true' | 'false'</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.visible = true; \nthis.Plugin00.visible = false;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Plugin 을(를) 화면에 표시합니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Plugin 을(를) 화면에 표시하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2878,7 +2878,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3714012303931571",
+      "id": "u_10_0.608782768085849",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>nWidth ::= [&lt;strCompID&gt; ':'] &lt;nVal&gt; ['px' | '%' | 'em' | 'rem']</div></td></tr><tr><td class=\"code_cell\" colspan=\"3\"><div>this.Plugin00.width = 10; this.Plugin00.width = \"10px\"; \nthis.Plugin00.width = \"10%\"; \nthis.Plugin00.width = \"Button00:10%\";</div></td></tr><tr><th>&lt;strCompID&gt;</th><td colspan=\"2\"><div>Plugin 의 너비를 상대적으로 적용하기 위해 기준이 되는 컴포넌트의 ID 를 설정합니다.\n\n기준 컴포넌트는 Plugin 와 부모(Parent)가 동일하여야 합니다.\n또한, Form 로딩 시 Plugin 보다 먼저 생성되어야 합니다.\n\n값을 설정하지 않거나 잘못된 값을 설정하면 부모(Parent) 를 기준으로 너비가 적용됩니다.</div></td></tr><tr><th>&lt;nVal&gt;</th><td colspan=\"2\"><div>Plugin 의 너비를 절대 길이 단위(\"px\"), 비율 단위(\"%\"), 상대 길이 단위(\"em\", \"rem\")의 숫자로 설정합니다.\n\n* &lt;strCompID&gt; 값을 생략했을 때 :\n- \"px\": Plugin의 너비 설정\n- \"%\": 부모(Parent)의 width 속성값을 기준으로 Plugin의 너비 결정\n- \"em\": 컴포넌트의 font-size 속성값을 기준으로 Plugin의 너비 결정\n- \"rem\": MainFrame font-size 속성값을 기준으로 Plugin의 너비 결정\n\n* &lt;strCompID&gt; 값을 설정했을 때 :\n- \"px\":  &lt;strCompID&gt; 값은 무시되고 설정값이 Plugin의 너비 결정\n- \"%\": &lt;strCompID&gt;의 width 속성값을 기준으로 Plugin의 너비 결정\n&lt;strCompID&gt; 값 설정 시 \"em\", \"rem\" 단위는 지원하지 않습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -2953,7 +2953,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19812752130329847",
+      "id": "u_10_0.5684771180972841",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>bWindowed</th><td colspan=\"2\"><div>true 설정 시 window 를 갖는 플러그인으로 설정됩니다.\n\nfalse 설정 시 window 를 갖지 않는 플러그인으로 설정됩니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3019,7 +3019,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.618558802196479",
+      "id": "u_10_0.7221310825636648",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strMethodID</td><td>String</td><td colspan=\"2\"><div>호출할 메소드의 이름을 문자열로 설정합니다.</div></td></tr><tr><td>varArgN</td><td>Object</td><td colspan=\"2\"><div>호출할 메소드에 전달될 인수를 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varRet = this.Plugin00.callMethod(\"Connect\", \"10.1.1.1\", 1000);</div></td></tr></tbody></table>",
       "option": {
@@ -3033,7 +3033,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.10472967139129985",
+      "id": "u_10_0.5361045145516012",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>객체의 메소드에서 리턴값이 있을 경우 해당값을 반환합니다.\n\n객체의 메소드에서 오브젝트를 리턴한 경우 PluginObject 로 Wrapping 되어 반환될 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3094,7 +3094,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.5611700496441065",
+      "id": "u_09_0.032364846412216375",
       "type": "command",
       "content": "var nBottom = this.Plugin.getOffsetBottom();"
     },
@@ -3104,7 +3104,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.06347858524881655",
+      "id": "u_10_0.10295186890166097",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Plugin 의 bottom 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3165,7 +3165,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.4767892887703836",
+      "id": "u_09_0.9543677416222717",
       "type": "command",
       "content": "var nHeight = this.Plugin.getOffsetHeight();"
     },
@@ -3175,7 +3175,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8516814958854261",
+      "id": "u_10_0.4389914902800468",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 높이를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3246,7 +3246,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.04979718127111332",
+      "id": "u_09_0.674661993769459",
       "type": "command",
       "content": "var nleft = this.Plugin.getOffsetLeft();"
     },
@@ -3256,7 +3256,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6627777307151513",
+      "id": "u_10_0.35904920083741787",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Plugin 의 left 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3317,7 +3317,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3007835652360362",
+      "id": "u_09_0.4388506382401264",
       "type": "command",
       "content": "var nRight = this.Plugin.getOffsetRight();"
     },
@@ -3327,7 +3327,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.49581703445910674",
+      "id": "u_10_0.7848187753924383",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Left 위치를 기준으로 Plugin 의 right 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3388,7 +3388,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.1932240182144045",
+      "id": "u_09_0.8897731968517457",
       "type": "command",
       "content": "var nTop = this.Plugin.getOffsetTop();"
     },
@@ -3398,7 +3398,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8580149640297271",
+      "id": "u_10_0.13401082745185766",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>부모 컴포넌트의 Top 위치를 기준으로 Plugin 의 top 값을 픽셀단위의 숫자로 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3459,7 +3459,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9652801074563119",
+      "id": "u_09_0.15838008436735318",
       "type": "command",
       "content": "var nWidth = this.Plugin.getOffsetWidth();"
     },
@@ -3469,7 +3469,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6997486926121915",
+      "id": "u_10_0.11040598228188492",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 너비를 픽셀단위의 숫자로 변환하여 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3540,7 +3540,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7676174870861432",
+      "id": "u_09_0.3221240632050615",
       "type": "command",
       "content": "var nbottom = this.Plugin.getPixelBottom();"
     },
@@ -3550,7 +3550,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.897873705919663",
+      "id": "u_10_0.47822460271444656",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 bottom 속성값을 픽셀단위로 반환합니다.\n\nbottom 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3611,7 +3611,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.20931339612287725",
+      "id": "u_09_0.937516552886725",
       "type": "command",
       "content": "var nheight = this.Plugin.getPixelHeight();"
     },
@@ -3621,7 +3621,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6690388026022632",
+      "id": "u_10_0.5635313400961947",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 height 속성값을 픽셀단위로 반환합니다.\n\nheight 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3682,7 +3682,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.26194530181227804",
+      "id": "u_09_0.8765250449148989",
       "type": "command",
       "content": "var nleft = this.Plugin.getPixelLeft();"
     },
@@ -3692,7 +3692,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1199004447803006",
+      "id": "u_10_0.9888154534303137",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 left 속성값을 픽셀단위로 반환합니다.\n\nleft 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3753,7 +3753,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.35529576856976075",
+      "id": "u_09_0.34587690416300165",
       "type": "command",
       "content": "var nright = this.Plugin.getPixelRight();"
     },
@@ -3763,7 +3763,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.9964438534771457",
+      "id": "u_10_0.28346642746105866",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 right 속성값을 픽셀단위로 반환합니다.\n\nright 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3824,7 +3824,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.08877688842459175",
+      "id": "u_09_0.6987719221639995",
       "type": "command",
       "content": "var ntop = this.Plugin.getPixelTop();"
     },
@@ -3834,7 +3834,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.3598520113617921",
+      "id": "u_10_0.28548832993120254",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 top 속성값을 픽셀단위로 반환합니다.\n\ntop 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3895,7 +3895,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.8765593588656527",
+      "id": "u_09_0.10227574635678649",
       "type": "command",
       "content": "var nwidth = this.Plugin.getPixelWidth();"
     },
@@ -3905,7 +3905,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.011540105693446656",
+      "id": "u_10_0.971874980314837",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Number</td><td><div>Plugin 의 width 속성값을 픽셀단위로 반환합니다.\n\nwidth 속성값을 설정하지 않았을 경우 null 을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -3966,7 +3966,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8068096828340793",
+      "id": "u_10_0.48477016382420757",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPropID</td><td>String</td><td colspan=\"2\"><div>Plugin 에 연결된 객체에 정의된 속성명을 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var varPropValue = this.Plugin00.getProperty(\"port\");</div></td></tr></tbody></table>",
       "option": {
@@ -3980,7 +3980,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.7493355224149423",
+      "id": "u_10_0.5108685937591273",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Variant</td><td><div>객체의 속성이 가지고 있는 값을 반환합니다.\n\n객체의 속성값이 오브젝트인  경우 PluginObject 로 Wrapping 되어 반환될 수 있습니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4041,7 +4041,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.08439100920453813",
+      "id": "u_10_0.2352270478778018",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strName</td><td>String</td><td colspan=\"2\"><div>Plugin 의 ID를 문자열로 설정합니다.</div></td></tr><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Plugin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Plugin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Plugin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.</div></td></tr><tr><td>vMinWidth</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 최소 너비값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxWidth</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 최대 너비값을 pixel 단위의 숫자로 설정합니다.\n\nvMinWidth 보다 작은 값을 설정하면 vMinWidth 값으로 설정됩니다.</div></td></tr><tr><td>vMinHeight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 최소 높이값을 pixel 단위의 숫자로 설정합니다.</div></td></tr><tr><td>vMaxHeight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 이(가) 화면에 표시되는 최대 높이값을 pixel 단위의 숫자로 설정합니다.\n\nvMinHeight 보다 작은 값을 설정하면 vMinHeight 값으로 설정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objComp = new Plugin();\n\nobjComp.init( \"Plugin00\", 30, 120, 196, 46 );\nobjComp.init( \"Plugin00\", 30, 120, 196, 46, null, null );\nobjComp.init( \"Plugin00\", null, null, 300, \"400px\", \"80%\", 300 );\nobjComp.init( \"Plugin00\", 0, 0, 200, 100, null, null, 300, 500, 200, 500 );\nobjComp.init( \"Plugin00\", \"Plugin22:10\", 300, null, null, \"Plugin33:10\", \"20%\", 300, 500, 200, 500 );</div></td></tr></tbody></table>",
       "option": {
@@ -4102,7 +4102,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.22671812654615797",
+      "id": "u_09_0.9848840111598104",
       "type": "command",
       "content": "this.Plugin00.classid = \"{D27CDB6E-AE6D-11cf-96B8-444553540000}\";\nthis.Plugin00.codebase = \"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab\";\nvar bSucc = Plugin00.install();"
     },
@@ -4112,7 +4112,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.1827721215914634",
+      "id": "u_10_0.4541562356900575",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>객체 설치에 성공하면 \"true\"를 반환합니다.\n\n객체가 이미 설치되어 있거나 설치에 실패하면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4173,7 +4173,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7761264192920942",
+      "id": "u_09_0.33054164138277375",
       "type": "command",
       "content": "var bRet = this.Plugin00.isInstalled();"
     },
@@ -4183,7 +4183,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.6985820021637635",
+      "id": "u_10_0.9230178124578625",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>객체가 시스템에 설치되어 있으면 \"true\"를 반환합니다.\n\n객체가 시스템에 설치되어 있지 않으면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4244,7 +4244,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.9085222816302998",
+      "id": "u_09_0.40647400245923015",
       "type": "command",
       "content": "var bRet = this.Plugin00.isLoaded();"
     },
@@ -4254,7 +4254,7 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.8679057322463215",
+      "id": "u_10_0.4989029122488171",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><div>객체가 Plugin 컴포넌트에 정상적으로 로드 되었으면 \"true\"를 반환합니다.\n\n객체가 Plugin 컴포넌트에 정상적으로 로드 되지 않았으면 \"false\"를 반환합니다.</div></td></tr></tbody></table>",
       "option": {
@@ -4305,7 +4305,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.4584789804451064",
+      "id": "u_10_0.568884405379105",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>vLeft</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 left 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 right 속성값을 기준으로 Plugin 의 left 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 left 가 결정됩니다.</div></td></tr><tr><td>vTop</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 top 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 bottom 속성값을 기준으로 Plugin 의 top 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 top 이 결정됩니다.</div></td></tr><tr><td>vWidth</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 width 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 width 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 width 가 결정됩니다.</div></td></tr><tr><td>vHeight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 height 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트값은 무시되고 pixel 값으로 Plugin 의 height 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 height 가 결정됩니다.</div></td></tr><tr><td>vRight</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 right 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvLeft, vWidth 값을 모두 설정했을 경우 vRight 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 left 속성값을 기준으로 Plugin 의 right 가 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 width 속성값을 기준으로 Plugin 의 right 가 결정됩니다.</div></td></tr><tr><td>vBottom</td><td>String, Number</td><td colspan=\"2\"><div>Plugin 의 bottom 속성값을 pixel 또는 비율(\"%\") 단위의 숫자로 설정합니다.\n\nvTop, vHeight 값을 모두 설정했을 경우 vBottom 값은 무시됩니다.\n\n* 값에 기준 컴포넌트를 포함하여 설정했을 때 :\npixel 단위로 설정 시 기준 컴포넌트의 top 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.\n비율(\"%\") 단위로 설정 시 기준 컴포넌트의 height 속성값을 기준으로 Plugin 의 bottom 이 결정됩니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin00.move(10,10);\nthis.Plugin00.move(10,10,100,100);\nthis.Plugin00.move(null, null, 300, \"400px\", \"80%\", 300 );</div></td></tr></tbody></table>",
       "option": {
@@ -4366,7 +4366,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.616494687152121",
+      "id": "u_10_0.06387774040005134",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.moveToNext( this.Button00 );\nthis.Plugin.moveToNext( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4427,7 +4427,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7355107893861603",
+      "id": "u_10_0.8498390216891683",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>objComp</td><td>Object</td><td colspan=\"2\"><div>기준이 되는 컴포넌트를 오브젝트로 설정합니다.</div></td></tr><tr><td>strComp</td><td>String</td><td colspan=\"2\"><div>기준이 되는 컴포넌트의 ID를 문자열로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.moveToPrev( this.Button00 );\nthis.Plugin.moveToPrev( \"Button00\" );</div></td></tr></tbody></table>",
       "option": {
@@ -4488,7 +4488,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.7381976327550015",
+      "id": "u_09_0.7073236984249986",
       "type": "command",
       "content": "this.Plugin.sendToBack();"
     },
@@ -4545,7 +4545,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.3295794671686685",
+      "id": "u_09_0.7512514773290745",
       "type": "command",
       "content": "this.Plugin.sendToNext();"
     },
@@ -4570,7 +4570,7 @@
     {
       "id": "m_02_setFocus",
       "type": "pre",
-      "content": "Plugin 에 포커스를 주는 메소드입니다."
+      "content": "Plugin 에 포커스를 설정하는 메서드입니다."
     },
     {
       "id": "m_03_setFocus",
@@ -4594,7 +4594,7 @@
     {
       "id": "m_06_setFocus",
       "type": "command",
-      "content": "Plugin.setFocus( [bMoveScroll [, bInnerFocus]] )"
+      "content": "Plugin.setFocus( [bMoveScroll] )"
     },
     {
       "id": "m_07_setFocus",
@@ -4602,9 +4602,9 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.33790774109271904",
+      "id": "u_10_0.9350376585208211",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bMoveScroll</td><td>Boolean</td><td colspan=\"2\"><div>부모 컴포넌트에 스크롤이 있을 경우 Plugin 기준으로 스크롤을 이동할지 설정합니다.\n\ntrue 설정 시 Plugin 이(가) 화면에 표시되도록 스크롤을 이동시킵니다.\nfalse 설정 시 Plugin 의 위치에 관계없이 스크롤을 이동시키지 않습니다.\n\n값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td>bInnerFocus</td><td>Boolean</td><td colspan=\"2\"><div>Plugin 이(가) 컨테이너 컴포넌트 일 때 자식 컴포넌트에게 포커스를 이동할지 설정합니다.\n\ntrue 설정 시 자식 컴포넌트 중 포커스를 받을 수 있는 첫번째 컴포넌트가 포커스 됩니다.\nfalse 설정 시 Plugin 에 포커스 됩니다.\n\nPlugin 이(가) 컨테이너 컴포넌트 일 때 값을 설정하지 않으면 true 로 동작합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objBefComp = this.Plugin00.setFocus();\nvar objBefComp = this.Plugin00.setFocus( true );\nvar objBefComp = this.Plugin00.setFocus( true, false );</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>bMoveScroll</td><td>Boolean</td><td colspan=\"2\"><div>부모 컴포넌트에 스크롤이 있을 경우, Plugin 기준으로 스크롤을 이동할지 여부를 설정합니다.\n\ntrue: Plugin 이(가) 화면에 표시되도록 스크롤을 이동합니다.\nfalse: Plugin 위치와 관계없이 스크롤을 이동하지 않습니다.\n\n값을 지정하지 않으면 기본값은 true입니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>var objBefComp = this.Plugin00.setFocus();\nvar objBefComp = this.Plugin00.setFocus( false );</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,120,?",
         "codeLanguage": "Javascript"
@@ -4616,9 +4616,9 @@
       "content": "반환"
     },
     {
-      "id": "u_10_0.4337445464004921",
+      "id": "u_10_0.3377363644658218",
       "type": "table",
-      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Plugin 이(가) 포커스되기 전에 포커스를 가졌던 컴포넌트를 반환합니다.\n\n포커스를 가진 컴포넌트가 없었거나 메소드 수행이 실패하는 경우에는 null 을 반환합니다.</div></td></tr></tbody></table>",
+      "content": "<table><caption></caption><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Object</td><td><div>Plugin 이(가) 포커스를 얻기 전에 포커스를 가지고 있던 컴포넌트를 반환합니다.\n이전에 포커스를 가진 컴포넌트가 없거나 메소드 실행에 실패한 경우에는 null을 반환합니다.</div></td></tr></tbody></table>",
       "option": {
         "tableLayout": "180,?",
         "codeLanguage": "Javascript"
@@ -4632,7 +4632,7 @@
     {
       "id": "m_10_setFocus",
       "type": "pre",
-      "content": "- setFocus() 메소드는 enableaccessibility 속성값에 관계없이 파라미터값을 기준으로 동작합니다.\n\n- Plugin 이(가) 컨테이너 컴포넌트가 아니거나 자식 컴포넌트 중 포커스를 가질 수 있는 컴포넌트가\n   존재하지 않을 경우에는 bInnerFocus 파라미터값에 관계없이 Plugin 에 포커스 됩니다."
+      "content": "- enableaccessibility 속성값과 관계없이 전달된 파라미터값을 기준으로 동작합니다."
     },
     {
       "id": "m_11_setFocus",
@@ -4687,7 +4687,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.7451661184605692",
+      "id": "u_10_0.8958535980171942",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nBottom</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Plugin 의 bottom 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetBottom( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -4748,7 +4748,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.5397961378067678",
+      "id": "u_10_0.35910047880579654",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nHeight</td><td>Number</td><td colspan=\"2\"><div>Plugin 의 높이를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetHeight( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -4809,7 +4809,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.0079127853348685",
+      "id": "u_10_0.22427362920184712",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nLeft</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Plugin 의 left 값을 픽셀단위의 숫자로 설정합니다</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetLeft( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -4870,7 +4870,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.09045673332214998",
+      "id": "u_10_0.2238212299184903",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nRight</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Left 위치를 기준으로 Plugin 의 right 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetRight( 600 );</div></td></tr></tbody></table>",
       "option": {
@@ -4931,7 +4931,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.41213626360036104",
+      "id": "u_10_0.44132779111119746",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nTop</td><td>Number</td><td colspan=\"2\"><div>부모 컴포넌트의 Top 위치를 기준으로 Plugin 의 top 값을 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetTop( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -4992,7 +4992,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.8237848125616152",
+      "id": "u_10_0.3033824241100601",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>nWidth</td><td>Number</td><td colspan=\"2\"><div>Plugin 의 너비를 픽셀단위의 숫자로 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin.setOffsetWidth( 10 );</div></td></tr></tbody></table>",
       "option": {
@@ -5053,7 +5053,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_10_0.6382580803598477",
+      "id": "u_10_0.28159254981813675",
       "type": "table",
       "content": "<table><caption></caption><thead><tr><th>Parameters</th><th>Type</th><th colspan=\"2\">Description</th></tr></thead><tbody><tr><td>strPropID</td><td>String</td><td colspan=\"2\"><div>Plugin 에 연결된 객체에 정의된 속성명을 문자열로 설정합니다.</div></td></tr><tr><td>varVal</td><td>String</td><td colspan=\"2\"><div>strPropID 값에 해당하는 속성에 설정할 값을 설정합니다.</div></td></tr><tr><td class=\"code_cell\" colspan=\"4\"><div>this.Plugin00.setProeprty(\"port\", \"8080\"l)</div></td></tr></tbody></table>",
       "option": {
@@ -5114,7 +5114,7 @@
       "content": "파라미터"
     },
     {
-      "id": "u_09_0.844371916648283",
+      "id": "u_09_0.14885125947181943",
       "type": "command",
       "content": "this.Plugin00.show();"
     },
