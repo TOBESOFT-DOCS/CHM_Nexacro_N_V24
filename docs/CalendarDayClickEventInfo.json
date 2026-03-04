@@ -8,7 +8,7 @@
     {
       "id": "u_02",
       "type": "pre",
-      "content": "달력형태가 표시되는 Calendar 컴포넌트에서 날짜를 클릭하면 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+      "content": "달력형태가 표시되는 Calendar 컴포넌트에서 날짜를 선택하면 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
     },
     {
       "id": "u_03",
@@ -40,7 +40,7 @@
     {
       "id": "p_02_date",
       "type": "pre",
-      "content": "Calendar 컴포넌트에서 클릭한 날짜 정보를 갖는 속성입니다."
+      "content": "Calendar 컴포넌트에서 선택한 날짜 정보를 갖는 속성입니다."
     },
     {
       "id": "p_03_date",
@@ -86,7 +86,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.977185428808547",
+      "id": "u_10_0.9140617035757986",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strDate = e.date;</div></td></tr></tbody></table>",
       "option": {
@@ -161,7 +161,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.14960613779379583",
+      "id": "u_10_0.6117936172751344",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -236,7 +236,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.19980149564469551",
+      "id": "u_10_0.699783695895278",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -311,7 +311,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.041233862443856295",
+      "id": "u_10_0.7847202882910396",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
