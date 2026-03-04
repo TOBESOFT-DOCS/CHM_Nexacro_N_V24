@@ -8,7 +8,7 @@
     {
       "id": "u_02",
       "type": "pre",
-      "content": "DateField 컴포넌트에서 화면에 표시된 팝업달력에서 날짜를 클릭하면 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+      "content": "DateField 컴포넌트에서 화면에 표시된 팝업달력에서 날짜를 선택하면 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
     },
     {
       "id": "u_03",
@@ -40,7 +40,7 @@
     {
       "id": "p_02_date",
       "type": "pre",
-      "content": "DateField 컴포넌트에서 클릭한 날짜 정보를 갖는 속성입니다."
+      "content": "DateField 컴포넌트에서 선택한 날짜 정보를 갖는 속성입니다."
     },
     {
       "id": "p_03_date",
@@ -86,7 +86,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3986640908167095",
+      "id": "u_10_0.9492856162726689",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strDate = e.date;</div></td></tr></tbody></table>",
       "option": {
@@ -161,7 +161,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2566395322171946",
+      "id": "u_10_0.016026603707861353",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -236,7 +236,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7828808694236226",
+      "id": "u_10_0.4743481935330388",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -311,7 +311,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.4988656072609533",
+      "id": "u_10_0.082872181285229",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
