@@ -8,7 +8,7 @@
     {
       "id": "u_02",
       "type": "pre",
-      "content": "DateRangePicker 컴포넌트의 날짜를 클릭할 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
+      "content": "DateRangePicker 컴포넌트의 날짜를 선택할 때 발생하는 이벤트에 전달되는 EventInfo 오브젝트입니다."
     },
     {
       "id": "u_03",
@@ -40,7 +40,7 @@
     {
       "id": "p_02_date",
       "type": "pre",
-      "content": "DateRangePicker 컴포넌트에서 클릭한 날짜 정보를 갖는 속성입니다."
+      "content": "DateRangePicker 컴포넌트에서 선택한 날짜 정보를 갖는 속성입니다."
     },
     {
       "id": "p_03_date",
@@ -86,7 +86,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7762213542592292",
+      "id": "u_10_0.8077061582264269",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strDate = e.date;</div></td></tr></tbody></table>",
       "option": {
@@ -161,7 +161,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.352075734040189",
+      "id": "u_10_0.16231918731825834",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -236,7 +236,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.35343807784650016",
+      "id": "u_10_0.8330630421428649",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -311,7 +311,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.16204704250016755",
+      "id": "u_10_0.4337659166383715",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -340,7 +340,7 @@
     {
       "id": "p_02_rangeposition",
       "type": "pre",
-      "content": "DateRangePicker 컴포넌트에서 클릭한 날짜가 시작일자인지 종료일자인지 정보를 갖는 속성입니다."
+      "content": "DateRangePicker 컴포넌트에서 선택한 날짜가 시작일자인지 종료일자인지 정보를 갖는 속성입니다."
     },
     {
       "id": "p_03_rangeposition",
@@ -388,7 +388,7 @@
     {
       "id": "p_12_rangeposition",
       "type": "pre",
-      "content": "- 클릭한 날짜가 시작일자인 경우에는 \"startdate\" 텍스트 값을 갖습니다.\n  클릭한 날짜가 종료일자인 경우에는 \"enddate\" 텍스트 값을 갖습니다."
+      "content": "- 선택한 날짜가 시작일자인 경우에는 \"start\" 텍스트 값을 갖습니다.\n  선택한 날짜가 종료일자인 경우에는 \"end\" 텍스트 값을 갖습니다."
     }
   ]
 }
