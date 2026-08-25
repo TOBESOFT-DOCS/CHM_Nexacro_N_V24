@@ -91,7 +91,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.00960370743542227",
+      "id": "u_10_0.5847548526828459",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bAlt = e.altkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Alt 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Alt 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -156,7 +156,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5716513998299643",
+      "id": "u_10_0.7884553714321548",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strButton = e.button;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 버튼에 의해 발생한 이벤트가 아닌 경우 갖는 값입니다.</div></td></tr><tr><th>\"lbutton\"</th><td colspan=\"2\"><div>마우스의 왼쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"rbutton\"</th><td colspan=\"2\"><div>마우스의 오른쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"mbutton\"</th><td colspan=\"2\"><div>마우스의 가운데 버튼(Wheel)에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton1\"</th><td colspan=\"2\"><div>마우스의 첫번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton2\"</th><td colspan=\"2\"><div>마우스의 두번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"touch\"</th><td colspan=\"2\"><div>터치에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -396,7 +396,7 @@
     {
       "id": "p_12_clientx",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
     },
     {
       "id": "p_01_clienty",
@@ -457,7 +457,7 @@
     {
       "id": "p_12_clienty",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
     },
     {
       "id": "p_01_col",
@@ -567,7 +567,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.5726879344198642",
+      "id": "u_10_0.9788208922226089",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bCtrl = e.ctrlkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Ctrl 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Ctrl 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -632,7 +632,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.022212701332693263",
+      "id": "u_10_0.8293937682926485",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -707,7 +707,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6387000038978247",
+      "id": "u_10_0.29785142203317994",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -782,7 +782,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9744813686559753",
+      "id": "u_10_0.054828257969490424",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -1010,7 +1010,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9269341024140979",
+      "id": "u_10_0.8443853926927765",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bMeta = e.metakey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌린 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌리지 않은 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1258,7 +1258,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.64414834705124",
+      "id": "u_10_0.4275104662088819",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bshiftkey = e.shiftkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Shift 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Shift 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
