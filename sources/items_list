@@ -297,6 +297,10 @@
       "name": "DatePickerYearItemControl"
     },
     {
+      "id": "DateRangeCalendar",
+      "name": "DateRangeCalendar"
+    },
+    {
       "id": "DateRangePicker",
       "name": "DateRangePicker"
     },
@@ -1005,6 +1009,10 @@
       "name": "RangeDateChangedEventInfo"
     },
     {
+      "id": "RangeDateCloseUpEventInfo",
+      "name": "RangeDateCloseUpEventInfo"
+    },
+    {
       "id": "Rect",
       "name": "Rect"
     },
@@ -1287,6 +1295,10 @@
     {
       "id": "WebLoadCompEventInfo",
       "name": "WebLoadCompEventInfo"
+    },
+    {
+      "id": "WebMessageEventInfo",
+      "name": "WebMessageEventInfo"
     },
     {
       "id": "WebUserNotifyEventInfo",
