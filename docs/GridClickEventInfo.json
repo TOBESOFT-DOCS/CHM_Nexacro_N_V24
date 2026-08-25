@@ -86,7 +86,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.10013349463333632",
+      "id": "u_10_0.48522628560484926",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bAlt = e.altkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Alt 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Alt 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -151,7 +151,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.06708486246322354",
+      "id": "u_10_0.8046671979465134",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strButton = e.button;</div></td></tr><tr><th>\"none\"</th><td colspan=\"2\"><div>마우스 버튼에 의해 발생한 이벤트가 아닌 경우 갖는 값입니다.</div></td></tr><tr><th>\"lbutton\"</th><td colspan=\"2\"><div>마우스의 왼쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"rbutton\"</th><td colspan=\"2\"><div>마우스의 오른쪽 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"mbutton\"</th><td colspan=\"2\"><div>마우스의 가운데 버튼(Wheel)에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton1\"</th><td colspan=\"2\"><div>마우스의 첫번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"xbutton2\"</th><td colspan=\"2\"><div>마우스의 두번째 확장 버튼에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr><tr><th>\"touch\"</th><td colspan=\"2\"><div>터치에 의해 이벤트가 발생했을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -338,7 +338,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3181726641313979",
+      "id": "u_10_0.11878294805597545",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCell = e.cell;</div></td></tr></tbody></table>",
       "option": {
@@ -413,7 +413,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7919958177691834",
+      "id": "u_10_0.6137725191262456",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"control\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"buttoncontrol\", \"calendarcontrol\", \"checkboxcontrol\", \"combocontrol\", \"editcontrol\", \"maskeditcontrol\", \"progressbarcontrol\", \"radioitemcontrol\", \"textareacontrol\" 중 하나인 Cell 을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"image\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"imgaecontrol\" 인 Cell 을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"treeitembutton\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"treeitemcontrol\" 인 Cell 에서 Collapse/Expand 버튼을 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"treeitemcheckbox\"</th><td colspan=\"2\"><div>displaytype 속성값이 \"treeitemcontrol\" 인 Cell 에서 체크박스를 클릭했을 때 갖는 값입니다.</div></td></tr><tr><th>\"expanddown\"</th><td colspan=\"2\"><div>Cell 의 오른쪽에 표시된 확장버튼을 클릭했을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -490,7 +490,7 @@
     {
       "id": "p_12_clientx",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
     },
     {
       "id": "p_01_clienty",
@@ -551,7 +551,7 @@
     {
       "id": "p_12_clienty",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
     },
     {
       "id": "p_01_col",
@@ -610,7 +610,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9418296886008292",
+      "id": "u_10_0.6525646571614946",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nCol = e.col;</div></td></tr></tbody></table>",
       "option": {
@@ -685,7 +685,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7561357915375034",
+      "id": "u_10_0.7758178739705568",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bCtrl = e.ctrlkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Ctrl 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Ctrl 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -750,7 +750,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.3431903472427069",
+      "id": "u_10_0.08689975185056653",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var strEventid = e.eventid;</div></td></tr></tbody></table>",
       "option": {
@@ -825,7 +825,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.9191509035801929",
+      "id": "u_10_0.9775638416889924",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromobject;</div></td></tr></tbody></table>",
       "option": {
@@ -900,7 +900,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.43722786906433164",
+      "id": "u_10_0.6446328284943651",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var objComp = e.fromreferenceobject;</div></td></tr></tbody></table>",
       "option": {
@@ -985,7 +985,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1203735768630444",
+      "id": "u_10_0.6670469511718399",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bMeta = e.metakey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌린 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>command(또는 windows) 키가 눌리지 않은 상태로 이벤트가 발생할 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1060,7 +1060,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.6373204166329509",
+      "id": "u_10_0.8676893895426364",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldcell = e.oldcell;</div></td></tr></tbody></table>",
       "option": {
@@ -1135,7 +1135,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7514498628152628",
+      "id": "u_10_0.9838201765915282",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldcol = e.oldcol;</div></td></tr></tbody></table>",
       "option": {
@@ -1210,7 +1210,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7220996676552914",
+      "id": "u_10_0.36656031444440307",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldrow = e.oldrow;</div></td></tr></tbody></table>",
       "option": {
@@ -1285,7 +1285,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.2760368802608293",
+      "id": "u_10_0.8058256782746279",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nOldsubrow = e.oldsubrow;</div></td></tr></tbody></table>",
       "option": {
@@ -1360,7 +1360,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.8323890564969932",
+      "id": "u_10_0.3143372119236666",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nRow = e.row;</div></td></tr></tbody></table>",
       "option": {
@@ -1557,7 +1557,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.28028882738978345",
+      "id": "u_10_0.01877561599926081",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var bshiftkey = e.shiftkey;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>Shift 키가 눌린 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>Shift 키가 눌리지 않은 상태로 이벤트가 발생되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -1622,7 +1622,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.017176951196082646",
+      "id": "u_10_0.7253101211026705",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var nSubrow = e.subrow;</div></td></tr></tbody></table>",
       "option": {
