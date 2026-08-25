@@ -215,7 +215,7 @@
     {
       "id": "p_12_clientx",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 x 좌표를 계산합니다."
     },
     {
       "id": "p_01_clienty",
@@ -276,7 +276,7 @@
     {
       "id": "p_12_clienty",
       "type": "pre",
-      "content": "- Border, Padding, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
+      "content": "- Border, ScrollBar, StatusBar 등이 표시되는 부분을 제외한 영역이 컴포넌트의 클라이언트 영역입니다.\n\n- 마우스 또는 터치 위치의 컴포넌트 클라이언트영역 좌측 상단을 기준으로 y 좌표를 계산합니다."
     },
     {
       "id": "p_01_isfirst",
@@ -325,7 +325,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.7297068772364576",
+      "id": "u_10_0.14589807562074986",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><td class=\"code_cell\" colspan=\"3\"><div>var vFirst = e.touchinputinfos[0].isfirst ;</div></td></tr><tr><th>\"true\"</th><td colspan=\"2\"><div>현재 좌표정보가 첫번째 입력일 때 갖는 값입니다.</div></td></tr><tr><th>\"false\"</th><td colspan=\"2\"><div>현재 좌표정보가 첫번째 입력이 아닐 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
@@ -604,7 +604,7 @@
       "content": "문법 설정"
     },
     {
-      "id": "u_10_0.1223997331626775",
+      "id": "u_10_0.6569941996769724",
       "type": "table",
       "content": "<table><caption></caption><tbody><tr><th>\"0\"</th><td colspan=\"2\"><div>터치가 시작(Touch Down) 되었을 때 갖는 값입니다.</div></td></tr><tr><th>\"1\"</th><td colspan=\"2\"><div>터치 후 이동중(Touch Move) 일 때 갖는 값입니다.</div></td></tr><tr><th>\"2\"</th><td colspan=\"2\"><div>터치가 종료(Touch Up) 되었을 때 갖는 값입니다.</div></td></tr></tbody></table>",
       "option": {
